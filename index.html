@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="WitWarp exam-focused study notes for competitive exams.">
-<title>WitWarp — Study Notes</title>
+<meta name="description" content="ZipPrep exam-focused study notes for competitive exams.">
+<title>ZipPrep — Study Notes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -108,18 +108,48 @@ body::before{content:"";position:absolute;z-index:-1;top:90px;left:50%;transform
 .review-stars{color:#07569b;letter-spacing:2px;font-size:18px}
 .review-card p{margin:8px 0 0;line-height:1.5;overflow-wrap:anywhere}
 
+
+.zipprep-top-row{display:flex!important;justify-content:center!important;align-items:center!important;min-height:92px!important;padding:10px 18px!important;background:rgba(11,12,21,.38)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:22px!important;box-shadow:0 12px 42px rgba(0,0,0,.14),inset 0 1px 0 rgba(255,255,255,.04)!important;backdrop-filter:blur(18px)}
+.zipprep-brand{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important}
+.zipprep-brand img{display:block!important;width:min(220px,58vw)!important;height:64px!important;object-fit:contain!important;object-position:center!important}
+
+/* ZipPrep dark editorial gradient theme — theme-only overrides. Original fonts, content, images and scripts are retained. */
+:root{--blue:#65d8ff;--blue-dark:#57b6d9;--blue-light:rgba(101,216,255,.13);--navy:#090a12;--paper:rgba(20,22,34,.72);--muted:#b7b9c8;--line:rgba(255,255,255,.12);--ink:#f4f5fb}
+html{background:#080911}
+body{color:#f5f6fc!important;background-color:#080911!important;background-image:radial-gradient(ellipse at 2% 0%,rgba(255,160,145,.48),transparent 26%),radial-gradient(ellipse at 98% 0%,rgba(0,210,205,.42),transparent 26%),radial-gradient(ellipse at 78% 35%,rgba(92,54,180,.20),transparent 30%),radial-gradient(ellipse at 10% 82%,rgba(0,154,176,.25),transparent 27%),linear-gradient(180deg,#0b0b14 0%,#080911 38%,#0a0b14 100%)!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 0% 0%,rgba(255,151,142,.18),transparent 52%),radial-gradient(ellipse at 100% 0%,rgba(0,218,209,.18),transparent 50%),radial-gradient(ellipse at 70% 55%,rgba(117,63,190,.10),transparent 60%)!important;filter:blur(28px)!important}
+.wrap{position:relative}
+.top-row,.nav,.panel,.card,.subject,.review-form,.review-card,.step,.hero-copy,.sample-card,.paper,.toggle-row,.toggle,.cover,.subject-chip,.sample-btn,.sample-open,.review-form input,.review-form select,.review-form textarea{background-color:rgba(21,23,36,.76)!important;color:#f4f5fb!important;border-color:rgba(255,255,255,.14)!important;box-shadow:0 12px 32px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.nav{backdrop-filter:blur(18px);border-radius:18px!important}
+.nav a,.back,.crumb,.subject-label,.panel h2,.card h2,.step h3,.review-form label,.review-card h3,.title,.hero h1,.section h2,.sample h2{color:#f6f7fc!important}
+.hero p,.intro,.description,.disclaimer,.sample-hint,.review-card p,.review-form small,.note,.step p,.panel p,.card p,.foot p{color:#c0c2d0!important}
+.btn,.pay-button,.review-submit,.sample-button{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important;border-color:rgba(255,255,255,.20)!important;box-shadow:0 5px 0 rgba(16,111,170,.52),0 0 26px rgba(34,170,225,.13)!important}
+.btn:not(.primary){background:rgba(255,255,255,.06)!important;color:#f5f6fc!important;border-color:rgba(255,255,255,.22)!important}
+.subject-chip,.toggle{background:rgba(255,255,255,.055)!important;color:#f5f6fc!important}
+.toggle[aria-expanded="true"],.toggle.active{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important}
+input,select,textarea{color:#f4f5fb!important;background:rgba(8,10,18,.82)!important;border-color:rgba(255,255,255,.18)!important}
+input::placeholder,textarea::placeholder{color:#9a9dae!important}
+.foot,.contact{background:linear-gradient(120deg,rgba(11,115,142,.82),rgba(47,32,83,.90),rgba(104,47,70,.84))!important;color:#f6f7fc!important;border-color:rgba(255,255,255,.12)!important}
+.foot a,.contact a{color:#9cecff!important}
+.footer{color:#aeb1c2!important}
+.review-stars{color:#70dcff!important}
+.subject img,.cover img,.sample-thumb,.sample-btn img{border-color:rgba(255,255,255,.12)!important}
+.toplink{background:linear-gradient(135deg,#0ea5e9,#6864e8)!important;color:white!important;box-shadow:0 0 24px rgba(25,160,224,.28)!important}
+::selection{background:rgba(73,185,233,.35);color:white}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
 </style>
 </head>
 <body id="top">
 <header class="wrap top">
-<div class="top-row"><a class="brand" href="index.html" aria-label="WitWarp home"><img class="logo" src="./witwarp-logo.png" alt="WitWarp" style="width:90px;height:64px;object-fit:contain;"></a><img class="header-mascot" src="./hello-champ-logo.png" alt="Hello Champ logo"></div>
+<div class="top-row zipprep-top-row"><a class="brand zipprep-brand" href="index.html" aria-label="ZipPrep home"><img class="logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a></div>
 <nav class="nav" aria-label="Main navigation"><a href="#notes">Notes</a><a href="#how-to-buy">How to buy</a><a href="#contact">Contact</a></nav>
 </header>
 <main>
 <section class="wrap hero">
 <div class="hero-layout"><div class="hero-copy"><h1>Affordable notes<br>for competitive<br>exam prep.</h1>
-<p>WitWarp sells exam-focused study notes at prices students can actually pay.</p>
-<div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message WitWarp</a></div></div></div>
+<p>ZipPrep sells exam-focused study notes at prices students can actually pay.</p>
+<div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message ZipPrep</a></div></div></div>
 </section>
 <div class="bundle-cta-wrap"><a class="bundle-banner" href="bundle-notes.html" aria-label="Get Bundle Notes for ₹759"><img src="./bundle-banner.png" alt="Get Bundle Notes — Bundle Notes at just ₹759"></a><p class="bundle-tap-hint">Tap to buy</p></div>
 <section class="wrap section" id="notes">
@@ -166,13 +196,13 @@ body::before{content:"";position:absolute;z-index:-1;top:90px;left:50%;transform
 </section>
 <section class="contact" id="contact"><div class="wrap">
 <h2>Ask before you buy.</h2>
-<p>Not sure which notes you need? Message WitWarp with your exam and subject to check what is available.</p>
+<p>Not sure which notes you need? Message ZipPrep with your exam and subject to check what is available.</p>
 <span class="label">WhatsApp</span><a href="https://wa.me/919905523465" target="_blank" rel="noopener">9905523465</a>
 <span class="label">Email</span><a href="mailto:awesh.h2@gmail.com">awesh.h2@gmail.com</a>
 <span class="label">Instagram</span><a href="https://instagram.com/witwarp.co" target="_blank" rel="noopener">@witwarp.co</a>
 </div></section>
 </main>
-<footer class="footer"><div class="wrap">© <span id="year"></span> WitWarp · Study smarter.</div></footer>
+<footer class="footer"><div class="wrap">© <span id="year"></span> ZipPrep · Study smarter.</div></footer>
 <a class="toplink" href="#top" aria-label="Back to top">↑</a>
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="WitWarp exam-focused digital study notes.">
-<title>Study Notes | WitWarp</title>
+<meta name="description" content="ZipPrep exam-focused digital study notes.">
+<title>Study Notes | ZipPrep</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -79,12 +79,41 @@ main.wrap{padding-bottom:8px}
 .foot .back{color:white}
 @media(max-width:420px){.head{gap:9px;padding:10px 12px;min-height:84px}.logo{width:78px;height:54px}.back{font-size:12px}.crumb{font-size:12px}}
 @media(min-width:650px){.sample-card{min-height:280px}.paper{padding:24px}}
+
+.head{display:grid!important;grid-template-columns:1fr auto 1fr!important;align-items:center!important;background:rgba(11,12,21,.38)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:20px!important;padding:12px 16px!important;backdrop-filter:blur(18px)}
+.head .back{justify-self:start!important}.head .crumb{justify-self:end!important}.zipprep-logo{grid-column:2!important;grid-row:1!important;width:min(190px,44vw)!important;height:54px!important;object-fit:contain!important}
+
+/* ZipPrep dark editorial gradient theme — theme-only overrides. Original fonts, content, images and scripts are retained. */
+:root{--blue:#65d8ff;--blue-dark:#57b6d9;--blue-light:rgba(101,216,255,.13);--navy:#090a12;--paper:rgba(20,22,34,.72);--muted:#b7b9c8;--line:rgba(255,255,255,.12);--ink:#f4f5fb}
+html{background:#080911}
+body{color:#f5f6fc!important;background-color:#080911!important;background-image:radial-gradient(ellipse at 2% 0%,rgba(255,160,145,.48),transparent 26%),radial-gradient(ellipse at 98% 0%,rgba(0,210,205,.42),transparent 26%),radial-gradient(ellipse at 78% 35%,rgba(92,54,180,.20),transparent 30%),radial-gradient(ellipse at 10% 82%,rgba(0,154,176,.25),transparent 27%),linear-gradient(180deg,#0b0b14 0%,#080911 38%,#0a0b14 100%)!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 0% 0%,rgba(255,151,142,.18),transparent 52%),radial-gradient(ellipse at 100% 0%,rgba(0,218,209,.18),transparent 50%),radial-gradient(ellipse at 70% 55%,rgba(117,63,190,.10),transparent 60%)!important;filter:blur(28px)!important}
+.wrap{position:relative}
+.top-row,.nav,.panel,.card,.subject,.review-form,.review-card,.step,.hero-copy,.sample-card,.paper,.toggle-row,.toggle,.cover,.subject-chip,.sample-btn,.sample-open,.review-form input,.review-form select,.review-form textarea{background-color:rgba(21,23,36,.76)!important;color:#f4f5fb!important;border-color:rgba(255,255,255,.14)!important;box-shadow:0 12px 32px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.nav{backdrop-filter:blur(18px);border-radius:18px!important}
+.nav a,.back,.crumb,.subject-label,.panel h2,.card h2,.step h3,.review-form label,.review-card h3,.title,.hero h1,.section h2,.sample h2{color:#f6f7fc!important}
+.hero p,.intro,.description,.disclaimer,.sample-hint,.review-card p,.review-form small,.note,.step p,.panel p,.card p,.foot p{color:#c0c2d0!important}
+.btn,.pay-button,.review-submit,.sample-button{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important;border-color:rgba(255,255,255,.20)!important;box-shadow:0 5px 0 rgba(16,111,170,.52),0 0 26px rgba(34,170,225,.13)!important}
+.btn:not(.primary){background:rgba(255,255,255,.06)!important;color:#f5f6fc!important;border-color:rgba(255,255,255,.22)!important}
+.subject-chip,.toggle{background:rgba(255,255,255,.055)!important;color:#f5f6fc!important}
+.toggle[aria-expanded="true"],.toggle.active{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important}
+input,select,textarea{color:#f4f5fb!important;background:rgba(8,10,18,.82)!important;border-color:rgba(255,255,255,.18)!important}
+input::placeholder,textarea::placeholder{color:#9a9dae!important}
+.foot,.contact{background:linear-gradient(120deg,rgba(11,115,142,.82),rgba(47,32,83,.90),rgba(104,47,70,.84))!important;color:#f6f7fc!important;border-color:rgba(255,255,255,.12)!important}
+.foot a,.contact a{color:#9cecff!important}
+.footer{color:#aeb1c2!important}
+.review-stars{color:#70dcff!important}
+.subject img,.cover img,.sample-thumb,.sample-btn img{border-color:rgba(255,255,255,.12)!important}
+.toplink{background:linear-gradient(135deg,#0ea5e9,#6864e8)!important;color:white!important;box-shadow:0 0 24px rgba(25,160,224,.28)!important}
+::selection{background:rgba(73,185,233,.35);color:white}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
 </style>
 </head>
 <body>
 <header class="wrap head">
 <a href="index.html" class="back">← Home</a>
-<img class="logo" src="./witwarp-logo.png" alt="WitWarp">
+<img class="logo zipprep-logo" src="./zipprep-logo-white.png" alt="ZipPrep logo">
 <span class="crumb">Study notes</span>
 </header>
 <main class="wrap">
@@ -106,7 +135,7 @@ main.wrap{padding-bottom:8px}
   </div>
 </div>
 </main>
-<footer class="foot"><div class="wrap"><strong>Need help before buying?</strong><p>Message WitWarp to confirm availability and delivery details.</p><p>WhatsApp<br><a href="https://wa.me/919905523465">9905523465</a></p><p>Email<br><a href="mailto:awesh.h2@gmail.com">awesh.h2@gmail.com</a></p><p>Instagram<br><a href="https://instagram.com/witwarp.co">@witwarp.co</a></p><a class="back" href="index.html#notes">← Back to all notes</a></div></footer>
+<footer class="foot"><div class="wrap"><strong>Need help before buying?</strong><p>Message ZipPrep to confirm availability and delivery details.</p><p>WhatsApp<br><a href="https://wa.me/919905523465">9905523465</a></p><p>Email<br><a href="mailto:awesh.h2@gmail.com">awesh.h2@gmail.com</a></p><p>Instagram<br><a href="https://instagram.com/witwarp.co">@witwarp.co</a></p><a class="back" href="index.html#notes">← Back to all notes</a></div></footer>
 <script>
 const data={
 'History':{title:'Complete History Notes',contents:['Prehistoric India','Indus Valley Civilization','Vedic Age','Mahajanapadas, Buddhism and Jainism','Mauryan Empire','Post-Mauryan Empire','Gupta Empire','Vardhana Dynasty and Harshavardhana','Sangam Age','Kalabhra Rule','Pallava Dynasty','Chalukyas','Rashtrakuta Dynasty','Tripartite Struggle','Imperial Chola Dynasty','Ancient Indian Literature','Ancient Art, Architecture, Science and Mathematics','Foreign Travellers, Important Inscriptions'],description:['History — Comprehensive Study Notes','These notes provide a structured approach to understanding Ancient Indian History, focusing on historical developments, significant events, and the evolution of India’s political, social, religious, and cultural landscape.','The content is organized chronologically to facilitate systematic learning, conceptual clarity, and effective revision.','Purpose: To build a strong foundation in Ancient Indian History through a structured and exam-oriented approach.','Suitable for: UPSC, SSC, CDS, WBCS, other competitive examinations, and undergraduate history studies.']},
@@ -116,11 +145,11 @@ const data={
 'Maths':{title:'Maths & Quantitative Aptitude Notes',contents:['Number System','Simplification','HCF and LCM','Ratio and Proportion','Percentage','Profit and Loss','Simple and Compound Interest','Average','Time and Work','Speed, Time and Distance','Mensuration','Data Interpretation'],description:['Quantitative Aptitude — Practice Notes','Topic-wise revision notes for common quantitative aptitude concepts. Actual practice questions and solutions should be checked in the supplied PDF.','Suitable for competitive exam preparation.']},
 'G.K.':{title:'General Knowledge Notes',contents:['Indian History','Indian Geography','Indian Polity','Economy Basics','General Science','Environment','Art and Culture','Important Days','Awards and Honours','Sports','Books and Authors','Current Affairs'],description:['General Knowledge — Revision Notes','A topic-organized starting point for static general knowledge and exam revision. Current-affairs material should be updated regularly.','Suitable for competitive examinations.']},
 'Economics':{title:'Economics Notes',contents:['Basic Concepts of Economics','Demand and Supply','National Income','Inflation','Money and Banking','Fiscal Policy','Monetary Policy','Indian Economy','Poverty and Unemployment','Economic Planning and Development','Government Budget','International Trade'],description:['Economics — Exam-Focused Study Notes','Topic-organized notes covering core economic concepts, Indian economy, and important policy themes.','Suitable for competitive examinations and undergraduate revision.']},
-'English':{title:'English Notes',contents:['English Grammar','Parts of Speech','Nouns, Pronouns and Adjectives','Verbs and Tenses','Subject-Verb Agreement','Articles and Determiners','Prepositions and Conjunctions','Active and Passive Voice','Direct and Indirect Speech','Sentence Correction','Error Spotting','Vocabulary: Synonyms and Antonyms','One-Word Substitution','Idioms and Phrases','Spelling and Common Errors','Reading Comprehension','Cloze Test','Sentence Rearrangement'],description:['English — Exam-Focused Study Notes','Structured English study notes covering grammar, vocabulary, sentence correction, and comprehension topics commonly practised for competitive examinations.','The contents provide a guide to the English material available from WitWarp.','Suitable for SSC, Railway, CDS, and other competitive examinations.']}
+'English':{title:'English Notes',contents:['English Grammar','Parts of Speech','Nouns, Pronouns and Adjectives','Verbs and Tenses','Subject-Verb Agreement','Articles and Determiners','Prepositions and Conjunctions','Active and Passive Voice','Direct and Indirect Speech','Sentence Correction','Error Spotting','Vocabulary: Synonyms and Antonyms','One-Word Substitution','Idioms and Phrases','Spelling and Common Errors','Reading Comprehension','Cloze Test','Sentence Rearrangement'],description:['English — Exam-Focused Study Notes','Structured English study notes covering grammar, vocabulary, sentence correction, and comprehension topics commonly practised for competitive examinations.','The contents provide a guide to the English material available from ZipPrep.','Suitable for SSC, Railway, CDS, and other competitive examinations.']}
 };
 const subject=new URLSearchParams(location.search).get('subject')||'History';
 const item=data[subject]||data.History;
-document.title=item.title+' | WitWarp';
+document.title=item.title+' | ZipPrep';
 const coverFiles={'History':'history-cover.png','Geography':'geography-cover.png','Polity':'polity-cover.png','Constitution':'constitution-cover.png','Maths':'maths-cover.png','G.K.':'general-knowledge-cover.png','Economics':'economics-cover.png','English':'english-cover.png'};
 const coverImage=document.getElementById('subject-cover-image');coverImage.src='./'+(coverFiles[subject]||coverFiles.History);coverImage.alt=subject+' study notes cover';
 document.getElementById('page-title').textContent=item.title;
@@ -134,7 +163,7 @@ document.getElementById('contents-btn').addEventListener('click',()=>toggle(docu
 document.getElementById('description-btn').addEventListener('click',()=>toggle(document.getElementById('description-btn'),document.getElementById('description-panel'),document.getElementById('contents-btn'),document.getElementById('contents-panel')));
 
 
-// WitWarp one-tap Razorpay checkout. No name or delivery-method form.
+// ZipPrep one-tap Razorpay checkout. No name or delivery-method form.
 const SUPABASE_URL = 'https://ntumxyhzzvarxdlmftmm.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_YYs7U9Dj1YzUr8N9YLXaqg_1n0yg772';
 const CREATE_PURCHASE_URL = SUPABASE_URL + '/functions/v1/create-purchase';
@@ -157,7 +186,7 @@ payNowButton.addEventListener('click', async () => {
         'apikey': SUPABASE_PUBLISHABLE_KEY
       },
       body: JSON.stringify({
-        name: 'WitWarp Customer',
+        name: 'ZipPrep Customer',
         delivery_method: 'download',
         email: '',
         subject_sku: subject
@@ -171,7 +200,7 @@ payNowButton.addEventListener('click', async () => {
 
     const paymentUrl = new URL(result.payment_url);
     if (paymentUrl.protocol !== 'https:' || !['rzp.io', 'api.razorpay.com'].includes(paymentUrl.hostname)) {
-      throw new Error('The payment service returned an unexpected link. Please contact WitWarp.');
+      throw new Error('The payment service returned an unexpected link. Please contact ZipPrep.');
     }
     window.location.assign(paymentUrl.href);
   } catch (error) {

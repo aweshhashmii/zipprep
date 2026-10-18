@@ -1,19 +1,5 @@
-ZipPrep — Logo size adjustment
+ZipPrep Glassmorphism Enhancement
 
-This update makes the small white ZipPrep logo larger on mobile while keeping the header row fixed at the same 76px height, so the Notes / How to buy / Contact navigation does not move down.
+This update strengthens the existing dark graphite and blue glassmorphism: more translucent frosted panels, subtle glass highlights, softer blue ambient lighting, and deeper blur. Existing typography, text, subject covers, logo assets, review code, page content, and scripts are retained.
 
-Files:
-- index.html
-- notes.html
-- bundle-notes.html
-- pyqs.html
-- zipprep-logo-white.png
-
-Install:
-1. Open https://github.com/aweshhashmii/zipprep
-2. Replace the matching HTML files in the repository root with the files in this package.
-3. Keep existing cover images, bundle banner, and other assets unchanged.
-4. Commit to the branch used by GitHub Pages.
-5. Refresh the site after deployment.
-
-This package does not update the live repository automatically.
+Files: index.html, notes.html, bundle-notes.html, pyqs.html. Keep all existing image/font assets in the repository. Upload these HTML files to the root of the zipprep repository and commit. This package does not deploy to GitHub automatically.

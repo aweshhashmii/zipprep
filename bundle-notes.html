@@ -43,6 +43,48 @@ input::placeholder,textarea::placeholder{color:#9a9dae!important}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 </style>
+<style id="zipprep-ps11-theme">
+
+/* ZipPrep PS11-inspired dark UI theme. Visual-only overrides: original fonts, cover art, review text, content structure and scripts remain intact. */
+:root{--blue:#3478ff;--blue-dark:#1f58d8;--blue-light:rgba(52,120,255,.15);--navy:#10131b;--paper:#11141b;--muted:#b5bac7;--line:rgba(255,255,255,.12);--ink:#f4f6fb}
+html{background:#292929!important;color-scheme:dark}
+body{background-color:#292929!important;background-image:radial-gradient(ellipse at 12% 32%,rgba(27,83,210,.18),transparent 33%),radial-gradient(ellipse at 86% 68%,rgba(20,70,180,.14),transparent 32%),linear-gradient(135deg,#2b2b2b 0%,#242424 48%,#2c2c2c 100%)!important;color:#f4f6fb!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 15% 15%,rgba(30,94,255,.22),transparent 55%),radial-gradient(ellipse at 90% 70%,rgba(31,91,232,.14),transparent 52%)!important;filter:blur(30px)!important;opacity:.9}
+.wrap{position:relative}
+/* dark glass header / navigation */
+.top-row{display:flex!important;justify-content:center!important;align-items:center!important;min-height:112px!important;padding:12px 8px!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
+.top-row .brand{display:flex!important;justify-content:center!important;align-items:center!important;width:100%!important;min-height:72px!important}
+.top-row .brand img{width:min(205px,52vw)!important;height:82px!important;object-fit:contain!important;object-position:center!important}
+.header-mascot{display:none!important}
+.nav{background:rgba(10,12,18,.72)!important;border:1px solid rgba(255,255,255,.13)!important;border-radius:17px!important;box-shadow:0 12px 30px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.04)!important;backdrop-filter:blur(18px)}
+.nav a,.back,.crumb{color:#e7eaf3!important}
+.nav a:hover,.back:hover{color:#76a6ff!important}
+/* Text colours change; typography and sizing stay controlled by original CSS. */
+.hero h1,.section h2,.contact h2,.panel h2,.title,.sample h2,.review-card h3,.step h3{color:#f5f6fb!important}
+.hero p,.intro,.step p,.contact p,.review-card p,.review-swipe-hint,.description,.sample-hint,.pay-hint,.foot p{color:#c4c8d3!important}
+/* Dark cards, glass surfaces and panels */
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle{background:rgba(12,14,20,.88)!important;color:#f4f6fb!important;border-color:rgba(255,255,255,.12)!important;box-shadow:0 12px 26px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.subject{border-radius:16px!important}
+.subject::before{border-color:rgba(255,255,255,.12)!important}
+.subject-label{color:#f5f6fb!important}
+.cover.image-cover{background:#090b10!important;border-color:rgba(255,255,255,.13)!important;box-shadow:0 8px 18px rgba(0,0,0,.28)!important}
+/* Important: existing cover image files are not filtered or altered. */
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink{background:linear-gradient(135deg,#3478ff 0%,#1d5be9 52%,#4a83ff 100%)!important;color:#fff!important;border:1px solid rgba(130,170,255,.65)!important;box-shadow:0 6px 20px rgba(34,94,255,.22)!important}
+.btn:not(.primary){background:rgba(9,11,17,.72)!important;color:#f3f5fb!important;border-color:rgba(255,255,255,.18)!important;box-shadow:0 8px 20px rgba(0,0,0,.16)!important}
+.toggle[aria-expanded="true"],.toggle.active,.subject-chip.active{background:linear-gradient(135deg,#3478ff,#1d5be9)!important;color:#fff!important}
+input,select,textarea{color:#f4f6fb!important;background:#0b0d13!important;border-color:rgba(255,255,255,.16)!important}
+input::placeholder,textarea::placeholder{color:#8f96a8!important}
+.contact,.foot{background:linear-gradient(135deg,#171b26 0%,#11151e 100%)!important;color:#f4f6fb!important;border-top-color:rgba(255,255,255,.1)!important;border-bottom-color:rgba(255,255,255,.1)!important}
+.contact a,.foot a{color:#7ba7ff!important}
+.footer{background:#242424!important;color:#aeb3c1!important;border-top:1px solid rgba(255,255,255,.08)!important}
+.review-stars{color:#70a0ff!important}
+.sample-btn img,.sample-thumb,.subject img,.cover img{border-color:rgba(255,255,255,.12)!important}
+.modal,.image-modal{background:rgba(3,5,10,.96)!important}
+.toplink{border:0!important}
+::selection{background:rgba(52,120,255,.4);color:white}
+@media(max-width:420px){.top-row{min-height:98px!important;padding:5px 0!important}.top-row .brand img{width:min(180px,54vw)!important;height:72px!important}}
+
+</style>
 </head>
 <body>
 <header class="wrap top"><a class="brand zipprep-brand" href="index.html" aria-label="ZipPrep home"><img class="zipprep-logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a><a class="back" href="index.html">← Back to home</a></header>

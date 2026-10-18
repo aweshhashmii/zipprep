@@ -1,16 +1,11 @@
-ZipPrep theme-only update
+ZipPrep PS11-inspired dark theme update
 
-Files included:
-- index.html: homepage theme and centered ZipPrep logo placement updated
-- notes.html: dark gradient theme and centered ZipPrep logo styling
-- bundle-notes.html: dark gradient theme and centered ZipPrep logo styling
-- zipprep-logo-white.png: white ZipPrep wordmark extracted from the user's existing logo artwork for transparent-background use
+Files: index.html, notes.html, bundle-notes.html, pyqs.html, zipprep-logo-white.png
 
-Preserved:
-- Existing fonts and font declarations
-- Existing subject cover images and bundle cover image (not included or modified)
-- Existing review comments/review system code
-- Existing notes data, samples, page interactions, payment-related code, and Supabase integration code
-- Existing navigation and page structure
+Design reference: charcoal/graphite background, subtle blue lighting, black glass-like cards and bright blue accents, inspired by the supplied PS11 mobile UI reference.
 
-Upload these three HTML files to the repository root, replacing the existing index.html, notes.html, and bundle-notes.html. Also upload zipprep-logo-white.png to the same root. Commit changes to the branch used by GitHub Pages. Do not delete existing image assets.
+Preservation: Existing font imports, page content, subject cover images, bundle banner/cover references, review comments, checkout scripts and interactions are retained. Theme CSS is added as an override. The homepage and notes page header logo now use zipprep-logo-white.png.
+
+Install: Upload these files to the root of your zipprep GitHub repository, replacing matching HTML files and adding the logo image. Keep all existing image/assets in the repository. Commit to the branch GitHub Pages publishes from.
+
+Note: This package is prepared locally; it does not directly modify your live GitHub repository. Verify pages and checkout behavior after deployment.

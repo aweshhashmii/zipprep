@@ -108,41 +108,53 @@ body::before{content:"";position:absolute;z-index:-1;top:90px;left:50%;transform
 .review-stars{color:#07569b;letter-spacing:2px;font-size:18px}
 .review-card p{margin:8px 0 0;line-height:1.5;overflow-wrap:anywhere}
 
+</style>
+<style id="zipprep-ps11-theme">
 
-.zipprep-top-row{display:flex!important;justify-content:center!important;align-items:center!important;min-height:92px!important;padding:10px 18px!important;background:rgba(11,12,21,.38)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:22px!important;box-shadow:0 12px 42px rgba(0,0,0,.14),inset 0 1px 0 rgba(255,255,255,.04)!important;backdrop-filter:blur(18px)}
-.zipprep-brand{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;min-height:58px!important}
-.zipprep-brand img{display:block!important;width:min(220px,58vw)!important;height:64px!important;object-fit:contain!important;object-position:center!important}
-
-/* ZipPrep dark editorial gradient theme — theme-only overrides. Original fonts, content, images and scripts are retained. */
-:root{--blue:#65d8ff;--blue-dark:#57b6d9;--blue-light:rgba(101,216,255,.13);--navy:#090a12;--paper:rgba(20,22,34,.72);--muted:#b7b9c8;--line:rgba(255,255,255,.12);--ink:#f4f5fb}
-html{background:#080911}
-body{color:#f5f6fc!important;background-color:#080911!important;background-image:radial-gradient(ellipse at 2% 0%,rgba(255,160,145,.48),transparent 26%),radial-gradient(ellipse at 98% 0%,rgba(0,210,205,.42),transparent 26%),radial-gradient(ellipse at 78% 35%,rgba(92,54,180,.20),transparent 30%),radial-gradient(ellipse at 10% 82%,rgba(0,154,176,.25),transparent 27%),linear-gradient(180deg,#0b0b14 0%,#080911 38%,#0a0b14 100%)!important;background-attachment:fixed!important}
-body::before{background:radial-gradient(ellipse at 0% 0%,rgba(255,151,142,.18),transparent 52%),radial-gradient(ellipse at 100% 0%,rgba(0,218,209,.18),transparent 50%),radial-gradient(ellipse at 70% 55%,rgba(117,63,190,.10),transparent 60%)!important;filter:blur(28px)!important}
+/* ZipPrep PS11-inspired dark UI theme. Visual-only overrides: original fonts, cover art, review text, content structure and scripts remain intact. */
+:root{--blue:#3478ff;--blue-dark:#1f58d8;--blue-light:rgba(52,120,255,.15);--navy:#10131b;--paper:#11141b;--muted:#b5bac7;--line:rgba(255,255,255,.12);--ink:#f4f6fb}
+html{background:#292929!important;color-scheme:dark}
+body{background-color:#292929!important;background-image:radial-gradient(ellipse at 12% 32%,rgba(27,83,210,.18),transparent 33%),radial-gradient(ellipse at 86% 68%,rgba(20,70,180,.14),transparent 32%),linear-gradient(135deg,#2b2b2b 0%,#242424 48%,#2c2c2c 100%)!important;color:#f4f6fb!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 15% 15%,rgba(30,94,255,.22),transparent 55%),radial-gradient(ellipse at 90% 70%,rgba(31,91,232,.14),transparent 52%)!important;filter:blur(30px)!important;opacity:.9}
 .wrap{position:relative}
-.top-row,.nav,.panel,.card,.subject,.review-form,.review-card,.step,.hero-copy,.sample-card,.paper,.toggle-row,.toggle,.cover,.subject-chip,.sample-btn,.sample-open,.review-form input,.review-form select,.review-form textarea{background-color:rgba(21,23,36,.76)!important;color:#f4f5fb!important;border-color:rgba(255,255,255,.14)!important;box-shadow:0 12px 32px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
-.nav{backdrop-filter:blur(18px);border-radius:18px!important}
-.nav a,.back,.crumb,.subject-label,.panel h2,.card h2,.step h3,.review-form label,.review-card h3,.title,.hero h1,.section h2,.sample h2{color:#f6f7fc!important}
-.hero p,.intro,.description,.disclaimer,.sample-hint,.review-card p,.review-form small,.note,.step p,.panel p,.card p,.foot p{color:#c0c2d0!important}
-.btn,.pay-button,.review-submit,.sample-button{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important;border-color:rgba(255,255,255,.20)!important;box-shadow:0 5px 0 rgba(16,111,170,.52),0 0 26px rgba(34,170,225,.13)!important}
-.btn:not(.primary){background:rgba(255,255,255,.06)!important;color:#f5f6fc!important;border-color:rgba(255,255,255,.22)!important}
-.subject-chip,.toggle{background:rgba(255,255,255,.055)!important;color:#f5f6fc!important}
-.toggle[aria-expanded="true"],.toggle.active{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important}
-input,select,textarea{color:#f4f5fb!important;background:rgba(8,10,18,.82)!important;border-color:rgba(255,255,255,.18)!important}
-input::placeholder,textarea::placeholder{color:#9a9dae!important}
-.foot,.contact{background:linear-gradient(120deg,rgba(11,115,142,.82),rgba(47,32,83,.90),rgba(104,47,70,.84))!important;color:#f6f7fc!important;border-color:rgba(255,255,255,.12)!important}
-.foot a,.contact a{color:#9cecff!important}
-.footer{color:#aeb1c2!important}
-.review-stars{color:#70dcff!important}
-.subject img,.cover img,.sample-thumb,.sample-btn img{border-color:rgba(255,255,255,.12)!important}
-.toplink{background:linear-gradient(135deg,#0ea5e9,#6864e8)!important;color:white!important;box-shadow:0 0 24px rgba(25,160,224,.28)!important}
-::selection{background:rgba(73,185,233,.35);color:white}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* dark glass header / navigation */
+.top-row{display:flex!important;justify-content:center!important;align-items:center!important;min-height:112px!important;padding:12px 8px!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
+.top-row .brand{display:flex!important;justify-content:center!important;align-items:center!important;width:100%!important;min-height:72px!important}
+.top-row .brand img{width:min(205px,52vw)!important;height:82px!important;object-fit:contain!important;object-position:center!important}
+.header-mascot{display:none!important}
+.nav{background:rgba(10,12,18,.72)!important;border:1px solid rgba(255,255,255,.13)!important;border-radius:17px!important;box-shadow:0 12px 30px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.04)!important;backdrop-filter:blur(18px)}
+.nav a,.back,.crumb{color:#e7eaf3!important}
+.nav a:hover,.back:hover{color:#76a6ff!important}
+/* Text colours change; typography and sizing stay controlled by original CSS. */
+.hero h1,.section h2,.contact h2,.panel h2,.title,.sample h2,.review-card h3,.step h3{color:#f5f6fb!important}
+.hero p,.intro,.step p,.contact p,.review-card p,.review-swipe-hint,.description,.sample-hint,.pay-hint,.foot p{color:#c4c8d3!important}
+/* Dark cards, glass surfaces and panels */
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle{background:rgba(12,14,20,.88)!important;color:#f4f6fb!important;border-color:rgba(255,255,255,.12)!important;box-shadow:0 12px 26px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.subject{border-radius:16px!important}
+.subject::before{border-color:rgba(255,255,255,.12)!important}
+.subject-label{color:#f5f6fb!important}
+.cover.image-cover{background:#090b10!important;border-color:rgba(255,255,255,.13)!important;box-shadow:0 8px 18px rgba(0,0,0,.28)!important}
+/* Important: existing cover image files are not filtered or altered. */
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink{background:linear-gradient(135deg,#3478ff 0%,#1d5be9 52%,#4a83ff 100%)!important;color:#fff!important;border:1px solid rgba(130,170,255,.65)!important;box-shadow:0 6px 20px rgba(34,94,255,.22)!important}
+.btn:not(.primary){background:rgba(9,11,17,.72)!important;color:#f3f5fb!important;border-color:rgba(255,255,255,.18)!important;box-shadow:0 8px 20px rgba(0,0,0,.16)!important}
+.toggle[aria-expanded="true"],.toggle.active,.subject-chip.active{background:linear-gradient(135deg,#3478ff,#1d5be9)!important;color:#fff!important}
+input,select,textarea{color:#f4f6fb!important;background:#0b0d13!important;border-color:rgba(255,255,255,.16)!important}
+input::placeholder,textarea::placeholder{color:#8f96a8!important}
+.contact,.foot{background:linear-gradient(135deg,#171b26 0%,#11151e 100%)!important;color:#f4f6fb!important;border-top-color:rgba(255,255,255,.1)!important;border-bottom-color:rgba(255,255,255,.1)!important}
+.contact a,.foot a{color:#7ba7ff!important}
+.footer{background:#242424!important;color:#aeb3c1!important;border-top:1px solid rgba(255,255,255,.08)!important}
+.review-stars{color:#70a0ff!important}
+.sample-btn img,.sample-thumb,.subject img,.cover img{border-color:rgba(255,255,255,.12)!important}
+.modal,.image-modal{background:rgba(3,5,10,.96)!important}
+.toplink{border:0!important}
+::selection{background:rgba(52,120,255,.4);color:white}
+@media(max-width:420px){.top-row{min-height:98px!important;padding:5px 0!important}.top-row .brand img{width:min(180px,54vw)!important;height:72px!important}}
 
 </style>
 </head>
 <body id="top">
 <header class="wrap top">
-<div class="top-row zipprep-top-row"><a class="brand zipprep-brand" href="index.html" aria-label="ZipPrep home"><img class="logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a></div>
+<div class="top-row"><a class="brand" href="index.html" aria-label="ZipPrep home"><img class="logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a></div>
 <nav class="nav" aria-label="Main navigation"><a href="#notes">Notes</a><a href="#how-to-buy">How to buy</a><a href="#contact">Contact</a></nav>
 </header>
 <main>
@@ -171,7 +183,7 @@ input::placeholder,textarea::placeholder{color:#9a9dae!important}
 <div class="steps">
 <div class="step"><span class="num">1</span><div><h3>Pick your notes</h3><p>Choose the subject you need from the list above.</p></div></div>
 <div class="step"><span class="num">2</span><div><h3>Tap Buy Now</h3><p>Pay securely using the available options on the Razorpay checkout page.</p></div></div>
-<div class="step"><span class="num">3</span><div><h3>Get your notes</h3><p>Contact WitWarp with your payment confirmation to receive your PDF.<br>Automatic delivery is not enabled yet.</p></div></div>
+<div class="step"><span class="num">3</span><div><h3>Get your notes</h3><p>Contact ZipPrep with your payment confirmation to receive your PDF.<br>Automatic delivery is not enabled yet.</p></div></div>
 </div>
 </section>
 <section class="wrap section" id="student-reviews">

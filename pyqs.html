@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free previous-year question papers for competitive exams from WitWarp.">
+<title>Free PYQs — ZipPrep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#087fe8;--blue-dark:#07569b;--blue-light:#eaf4ff;--line:#b9cfe2;--ink:#16324b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background-color:#f8fbff;background-image:radial-gradient(#a9c9e7 1px,transparent 1px);background-size:22px 22px;color:#090909;font-family:Roboto,Arial,sans-serif}
+.wrap{width:min(100% - 36px,980px);margin:auto}
+header{padding:22px 0 12px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-weight:900;font-size:26px;letter-spacing:-1.5px;color:#fff;background:#080808;padding:7px 11px;border-radius:5px;text-decoration:none;line-height:.9}
+.back{color:#07569b;font-weight:700;text-decoration:none}
+.hero{text-align:center;padding:34px 0 20px}
+h1{font-size:clamp(2.2rem,7vw,3.8rem);letter-spacing:-.045em;line-height:1;margin:0 0 12px;font-weight:900}
+.intro{font:18px/1.5 Georgia,serif;color:#334155;max-width:620px;margin:0 auto}
+.panel{background:#fff;border:2px solid #111;border-radius:18px;box-shadow:5px 6px 0 #111;padding:20px;margin:22px auto 36px;max-width:850px}
+.panel h2{margin:0 0 8px;font-size:24px}
+.hint{margin:0 0 16px;color:#526174;line-height:1.45}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.exam,.choice{appearance:none;text-align:left;width:100%;padding:15px 13px;border:1.5px solid #111;border-radius:12px;background:#fff;box-shadow:3px 4px 0 #111;font:700 16px Roboto,Arial,sans-serif;cursor:pointer;transition:transform .15s,background .15s;color:#111}
+.exam:hover,.choice:hover{transform:translateY(-2px);background:#eaf4ff}
+.exam.active,.choice.active{background:#087fe8;color:#fff;box-shadow:3px 4px 0 #07569b}
+.selection{margin-top:26px;padding-top:22px;border-top:1.5px solid #d4e3f0}
+.hidden{display:none!important}
+.options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}
+.year{min-width:0;text-align:center}
+.paper-options{grid-template-columns:repeat(2,minmax(0,1fr))}
+.download-card{margin-top:18px;padding:18px;border:1.5px solid #b9cfe2;border-radius:12px;background:#f8fbff}
+.download-card h3{margin:0 0 6px;font-size:19px}
+.download-card p{margin:0 0 14px;color:#526174;line-height:1.5}
+.download{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 16px;border-radius:10px;background:#087fe8;color:#fff;text-decoration:none;font-weight:800;border:1.5px solid #07569b;box-shadow:0 3px 0 #07569b}
+.notice{padding:12px 14px;border-radius:10px;background:#fff3cd;color:#684d03;line-height:1.5}
+footer{text-align:center;color:#526174;font-size:13px;padding:18px 0 30px}
+@media(min-width:650px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.panel{padding:28px}.options{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media(max-width:380px){.grid{grid-template-columns:1fr}.options{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.zipprep-pyqs-brand{display:flex!important;align-items:center!important}.zipprep-pyqs-brand img{display:block;width:170px;height:auto;max-height:70px;object-fit:contain}
+</style>
+<style id="zipprep-ps11-theme">
+
+/* ZipPrep PS11-inspired dark UI theme. Visual-only overrides: original fonts, cover art, review text, content structure and scripts remain intact. */
+:root{--blue:#3478ff;--blue-dark:#1f58d8;--blue-light:rgba(52,120,255,.15);--navy:#10131b;--paper:#11141b;--muted:#b5bac7;--line:rgba(255,255,255,.12);--ink:#f4f6fb}
+html{background:#292929!important;color-scheme:dark}
+body{background-color:#292929!important;background-image:radial-gradient(ellipse at 12% 32%,rgba(27,83,210,.18),transparent 33%),radial-gradient(ellipse at 86% 68%,rgba(20,70,180,.14),transparent 32%),linear-gradient(135deg,#2b2b2b 0%,#242424 48%,#2c2c2c 100%)!important;color:#f4f6fb!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 15% 15%,rgba(30,94,255,.22),transparent 55%),radial-gradient(ellipse at 90% 70%,rgba(31,91,232,.14),transparent 52%)!important;filter:blur(30px)!important;opacity:.9}
+.wrap{position:relative}
+/* dark glass header / navigation */
+.top-row{display:flex!important;justify-content:center!important;align-items:center!important;min-height:112px!important;padding:12px 8px!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
+.top-row .brand{display:flex!important;justify-content:center!important;align-items:center!important;width:100%!important;min-height:72px!important}
+.top-row .brand img{width:min(205px,52vw)!important;height:82px!important;object-fit:contain!important;object-position:center!important}
+.header-mascot{display:none!important}
+.nav{background:rgba(10,12,18,.72)!important;border:1px solid rgba(255,255,255,.13)!important;border-radius:17px!important;box-shadow:0 12px 30px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.04)!important;backdrop-filter:blur(18px)}
+.nav a,.back,.crumb{color:#e7eaf3!important}
+.nav a:hover,.back:hover{color:#76a6ff!important}
+/* Text colours change; typography and sizing stay controlled by original CSS. */
+.hero h1,.section h2,.contact h2,.panel h2,.title,.sample h2,.review-card h3,.step h3{color:#f5f6fb!important}
+.hero p,.intro,.step p,.contact p,.review-card p,.review-swipe-hint,.description,.sample-hint,.pay-hint,.foot p{color:#c4c8d3!important}
+/* Dark cards, glass surfaces and panels */
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle{background:rgba(12,14,20,.88)!important;color:#f4f6fb!important;border-color:rgba(255,255,255,.12)!important;box-shadow:0 12px 26px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.subject{border-radius:16px!important}
+.subject::before{border-color:rgba(255,255,255,.12)!important}
+.subject-label{color:#f5f6fb!important}
+.cover.image-cover{background:#090b10!important;border-color:rgba(255,255,255,.13)!important;box-shadow:0 8px 18px rgba(0,0,0,.28)!important}
+/* Important: existing cover image files are not filtered or altered. */
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink{background:linear-gradient(135deg,#3478ff 0%,#1d5be9 52%,#4a83ff 100%)!important;color:#fff!important;border:1px solid rgba(130,170,255,.65)!important;box-shadow:0 6px 20px rgba(34,94,255,.22)!important}
+.btn:not(.primary){background:rgba(9,11,17,.72)!important;color:#f3f5fb!important;border-color:rgba(255,255,255,.18)!important;box-shadow:0 8px 20px rgba(0,0,0,.16)!important}
+.toggle[aria-expanded="true"],.toggle.active,.subject-chip.active{background:linear-gradient(135deg,#3478ff,#1d5be9)!important;color:#fff!important}
+input,select,textarea{color:#f4f6fb!important;background:#0b0d13!important;border-color:rgba(255,255,255,.16)!important}
+input::placeholder,textarea::placeholder{color:#8f96a8!important}
+.contact,.foot{background:linear-gradient(135deg,#171b26 0%,#11151e 100%)!important;color:#f4f6fb!important;border-top-color:rgba(255,255,255,.1)!important;border-bottom-color:rgba(255,255,255,.1)!important}
+.contact a,.foot a{color:#7ba7ff!important}
+.footer{background:#242424!important;color:#aeb3c1!important;border-top:1px solid rgba(255,255,255,.08)!important}
+.review-stars{color:#70a0ff!important}
+.sample-btn img,.sample-thumb,.subject img,.cover img{border-color:rgba(255,255,255,.12)!important}
+.modal,.image-modal{background:rgba(3,5,10,.96)!important}
+.toplink{border:0!important}
+::selection{background:rgba(52,120,255,.4);color:white}
+@media(max-width:420px){.top-row{min-height:98px!important;padding:5px 0!important}.top-row .brand img{width:min(180px,54vw)!important;height:72px!important}}
+
+</style>
+</head>
+<body>
+<header class="wrap"><a class="brand zipprep-pyqs-brand" href="index.html" aria-label="ZipPrep home"><img src="./zipprep-logo-white.png" alt="ZipPrep logo"></a><a class="back" href="index.html">← Back to home</a></header>
+<main class="wrap">
+<section class="hero"><h1>Free PYQs</h1><p class="intro">Choose your exam, select the year and paper, then download the previous-year question paper PDF.</p></section>
+<section class="panel" aria-labelledby="exam-heading">
+<h2 id="exam-heading">1. Choose an exam</h2><p class="hint">Select the competitive exam you are preparing for.</p>
+<div class="grid" id="exam-list"></div>
+<div id="year-section" class="selection hidden"><h2>2. Select year</h2><p class="hint">Choose the year of the question paper.</p><div id="year-list" class="options"></div></div>
+<div id="paper-section" class="selection hidden"><h2>3. Select paper or tier</h2><p class="hint">Choose the relevant paper for your exam and year.</p><div id="paper-list" class="options paper-options"></div></div>
+<div id="download-section" class="selection hidden"><h2>4. Download PYQ</h2><div id="download-result"></div></div>
+</section>
+</main>
+<footer class="wrap">© <span id="year-now"></span> WitWarp · Study smarter.</footer>
+<script>
+const examSpecs = {"SSC CGL": ["Tier I", "Tier II"], "SSC CHSL": ["Tier I", "Tier II"], "SSC CPO": ["Paper I", "Paper II"], "SSC GD": ["Written Exam (CBT)"], "SSC MTS": ["Written Exam (CBT)"], "SSC STENO": ["Written Exam (CBT)"], "RRB GROUP D": ["Written Exam (CBT)"], "RRB NTPC": ["CBT 1", "CBT 2"], "UPSC CDS": ["Written Examination"]};
+const years = [2020,2021,2022,2023,2024,2025];
+// Add each PDF's path below once the file is uploaded to your GitHub repository.
+// Expected path format: pyqs/<exam-slug>/<year>/<paper-slug>.pdf
+// Example: "ssc-cgl/2025/tier-i.pdf": "pyqs/ssc-cgl/2025/tier-i.pdf"
+const pdfFiles = {
+};
+const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const examList = document.getElementById("exam-list");
+const yearSection = document.getElementById("year-section");
+const yearList = document.getElementById("year-list");
+const paperSection = document.getElementById("paper-section");
+const paperList = document.getElementById("paper-list");
+const downloadSection = document.getElementById("download-section");
+const downloadResult = document.getElementById("download-result");
+let selectedExam = "", selectedYear = "", selectedPaper = "";
+document.getElementById("year-now").textContent = new Date().getFullYear();
+function makeButton(text, className, handler){
+ const b=document.createElement("button"); b.type="button"; b.className=className; b.textContent=text; b.addEventListener("click",handler); return b;
+}
+function resetAfterExam(){selectedYear="";selectedPaper="";yearSection.classList.add("hidden");paperSection.classList.add("hidden");downloadSection.classList.add("hidden");}
+Object.keys(examSpecs).forEach(exam=>{
+ const b=makeButton(exam,"exam",()=>{
+  selectedExam=exam;resetAfterExam();
+  examList.querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));
+  yearSection.classList.remove("hidden");yearList.replaceChildren();
+  years.forEach(year=>yearList.appendChild(makeButton(String(year),"choice year",()=>{
+   selectedYear=String(year);selectedPaper="";paperSection.classList.remove("hidden");downloadSection.classList.add("hidden");
+   yearList.querySelectorAll("button").forEach(x=>x.classList.toggle("active",x.textContent===String(year)));
+   paperList.replaceChildren();
+   examSpecs[selectedExam].forEach(paper=>paperList.appendChild(makeButton(paper,"choice",()=>{
+    selectedPaper=paper;
+    paperList.querySelectorAll("button").forEach(x=>x.classList.toggle("active",x.textContent===paper));
+    showDownload();
+   })));
+   paperSection.scrollIntoView({behavior:"smooth",block:"nearest"});
+  })));
+  yearSection.scrollIntoView({behavior:"smooth",block:"nearest"});
+ });
+ examList.appendChild(b);
+});
+function showDownload(){
+ downloadSection.classList.remove("hidden");
+ const key=`${slug(selectedExam)}/${selectedYear}/${slug(selectedPaper)}.pdf`;
+ const path=pdfFiles[key];
+ downloadResult.replaceChildren();
+ const card=document.createElement("div");card.className="download-card";
+ const h=document.createElement("h3");h.textContent=`${selectedExam} · ${selectedYear} · ${selectedPaper}`;
+ const p=document.createElement("p");p.textContent="Your selected previous-year question paper.";
+ card.append(h,p);
+ if(path){
+  const a=document.createElement("a");a.className="download";a.href=path;a.download="";a.textContent="Download PDF";card.appendChild(a);
+ }else{
+  const note=document.createElement("div");note.className="notice";note.textContent="This PDF has not been uploaded yet. Add the paper PDF to your website repository and register its file path in the pdfFiles list to enable downloads.";card.appendChild(note);
+ }
+ downloadResult.appendChild(card);
+ downloadSection.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+</script>
+</body>
+</html>

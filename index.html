@@ -151,6 +151,25 @@ input::placeholder,textarea::placeholder{color:#8f96a8!important}
 @media(max-width:420px){.top-row{min-height:98px!important;padding:5px 0!important}.top-row .brand img{width:min(180px,54vw)!important;height:72px!important}}
 
 </style>
+
+<style id="zipprep-ps11-final-fix">
+/* Final PS11-inspired visual correction: remove checkerboard/patterns, retain existing site content and typography. */
+html, body { background-color:#292929 !important; color-scheme:dark; }
+body { background-image: radial-gradient(ellipse 52% 34% at 8% 24%, rgba(24,73,190,.22) 0%, rgba(24,73,190,0) 100%), radial-gradient(ellipse 42% 32% at 92% 70%, rgba(15,55,160,.18) 0%, rgba(15,55,160,0) 100%), linear-gradient(135deg,#292929 0%,#202124 48%,#292929 100%) !important; background-size:100% 100%,100% 100%,100% 100% !important; background-repeat:no-repeat !important; background-attachment:fixed !important; }
+body::before { content:""; position:fixed !important; inset:0 !important; z-index:-1 !important; pointer-events:none !important; background:radial-gradient(ellipse at 12% 20%,rgba(37,99,235,.13),transparent 43%),radial-gradient(ellipse at 86% 74%,rgba(37,99,235,.10),transparent 40%) !important; filter:blur(22px) !important; opacity:1 !important; }
+.top-row { min-height:150px !important; display:flex !important; justify-content:center !important; align-items:center !important; padding:18px 8px 22px !important; background:transparent !important; border:0 !important; box-shadow:none !important; }
+.top-row .brand { width:100% !important; min-height:94px !important; display:flex !important; align-items:center !important; justify-content:center !important; }
+.top-row .brand img { display:block !important; width:min(245px,68vw) !important; height:auto !important; max-height:100px !important; object-fit:contain !important; object-position:center !important; }
+.nav { background:rgba(8,10,15,.78) !important; border:1px solid rgba(255,255,255,.13) !important; border-radius:20px !important; box-shadow:0 12px 30px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.035) !important; backdrop-filter:blur(18px); }
+.nav a,.back,.crumb { color:#f0f2f8 !important; }
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle { background:rgba(7,9,14,.88) !important; color:#f2f4f9 !important; border-color:rgba(255,255,255,.12) !important; box-shadow:0 12px 26px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.035) !important; }
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink { background:linear-gradient(135deg,#3478ff 0%,#1d5be9 55%,#4a83ff 100%) !important; color:#fff !important; border:1px solid rgba(130,170,255,.65) !important; box-shadow:0 6px 20px rgba(34,94,255,.22) !important; }
+.btn:not(.primary) { background:rgba(8,10,15,.82) !important; color:#f3f5fb !important; border-color:rgba(255,255,255,.18) !important; }
+.contact,.foot { background:linear-gradient(135deg,#171b26 0%,#11151e 100%) !important; color:#f4f6fb !important; border-color:rgba(255,255,255,.1) !important; }
+.footer { background:#242424 !important; color:#aeb3c1 !important; border-top:1px solid rgba(255,255,255,.08) !important; }
+@media(max-width:560px) { .top-row { min-height:132px !important; padding:12px 4px 18px !important; } .top-row .brand { min-height:88px !important; } .top-row .brand img { width:min(220px,70vw) !important; max-height:88px !important; } }
+</style>
+
 </head>
 <body id="top">
 <header class="wrap top">

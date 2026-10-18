@@ -1,11 +1,9 @@
-ZipPrep PS11-inspired dark theme update
+ZipPrep PS11-inspired theme correction
 
-Files: index.html, notes.html, bundle-notes.html, pyqs.html, zipprep-logo-white.png
+This package corrects the prior visual issue by explicitly removing patterned/checkerboard backgrounds and applying a smooth graphite background with subtle navy-blue lighting. It also enlarges and centers the white ZipPrep logo.
 
-Design reference: charcoal/graphite background, subtle blue lighting, black glass-like cards and bright blue accents, inspired by the supplied PS11 mobile UI reference.
+Files: index.html, notes.html, bundle-notes.html, pyqs.html, zipprep-logo-white.png.
 
-Preservation: Existing font imports, page content, subject cover images, bundle banner/cover references, review comments, checkout scripts and interactions are retained. Theme CSS is added as an override. The homepage and notes page header logo now use zipprep-logo-white.png.
+Upload these files to the root of your zipprep GitHub repository, replacing matching HTML files and adding the logo asset. Keep all existing cover images, bundle assets, and other assets in the repository. The bundle banner image is intentionally unchanged. Commit to the branch GitHub Pages publishes from.
 
-Install: Upload these files to the root of your zipprep GitHub repository, replacing matching HTML files and adding the logo image. Keep all existing image/assets in the repository. Commit to the branch GitHub Pages publishes from.
-
-Note: This package is prepared locally; it does not directly modify your live GitHub repository. Verify pages and checkout behavior after deployment.
+This package does not directly modify the live repository. After deployment, hard-refresh the site or clear browser cache if the old checkerboard still appears.

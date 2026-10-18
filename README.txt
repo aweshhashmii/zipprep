@@ -1,7 +1,19 @@
-ZipPrep Glass + Blue Motion Refinement
+ZipPrep — Logo size adjustment
 
-This package adds a subtle glassmorphism finish, a slow rotating blue gradient aura behind the page, and a shorter translucent navigation bar. The small white ZipPrep logo remains centered at the top. Existing fonts, text, cover images, review content, page scripts, and payment code are not intentionally changed.
+This update makes the small white ZipPrep logo larger on mobile while keeping the header row fixed at the same 76px height, so the Notes / How to buy / Contact navigation does not move down.
 
-Files: index.html, notes.html, bundle-notes.html, pyqs.html, zipprep-logo-white.png.
+Files:
+- index.html
+- notes.html
+- bundle-notes.html
+- pyqs.html
+- zipprep-logo-white.png
 
-Upload/replace these HTML files in the root of the zipprep GitHub repository and commit to the branch used by GitHub Pages. Keep all existing cover/banner images and other assets. This package does not deploy changes directly to GitHub. The animation respects prefers-reduced-motion.
+Install:
+1. Open https://github.com/aweshhashmii/zipprep
+2. Replace the matching HTML files in the repository root with the files in this package.
+3. Keep existing cover images, bundle banner, and other assets unchanged.
+4. Commit to the branch used by GitHub Pages.
+5. Refresh the site after deployment.
+
+This package does not update the live repository automatically.

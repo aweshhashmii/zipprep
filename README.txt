@@ -1,9 +1,7 @@
-ZipPrep PS11-inspired theme correction
+ZipPrep Glass + Blue Motion Refinement
 
-This package corrects the prior visual issue by explicitly removing patterned/checkerboard backgrounds and applying a smooth graphite background with subtle navy-blue lighting. It also enlarges and centers the white ZipPrep logo.
+This package adds a subtle glassmorphism finish, a slow rotating blue gradient aura behind the page, and a shorter translucent navigation bar. The small white ZipPrep logo remains centered at the top. Existing fonts, text, cover images, review content, page scripts, and payment code are not intentionally changed.
 
 Files: index.html, notes.html, bundle-notes.html, pyqs.html, zipprep-logo-white.png.
 
-Upload these files to the root of your zipprep GitHub repository, replacing matching HTML files and adding the logo asset. Keep all existing cover images, bundle assets, and other assets in the repository. The bundle banner image is intentionally unchanged. Commit to the branch GitHub Pages publishes from.
-
-This package does not directly modify the live repository. After deployment, hard-refresh the site or clear browser cache if the old checkerboard still appears.
+Upload/replace these HTML files in the root of the zipprep GitHub repository and commit to the branch used by GitHub Pages. Keep all existing cover/banner images and other assets. This package does not deploy changes directly to GitHub. The animation respects prefers-reduced-motion.

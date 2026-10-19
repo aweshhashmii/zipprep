@@ -225,52 +225,17 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 </style>
 
 
-<style id="zipprep-header-cleanup-final">
-/* Final header cleanup: remove the unwanted outer rectangle around logo + navigation. */
-header.wrap.top, header.top, .top {
-  background: transparent !important;
-  background-color: transparent !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-  overflow: visible !important;
-}
-.top { padding: 6px 0 18px !important; gap: 8px !important; }
-.top-row {
-  width: 100% !important;
-  min-height: 76px !important; height: auto !important;
-  padding: 4px 8px 6px !important; margin: 0 !important;
-  background: transparent !important; border: 0 !important;
-  border-radius: 0 !important; box-shadow: none !important;
-}
-.top-row .brand { min-height: 58px !important; height: auto !important; }
-.top-row .brand img {
-  width: min(158px, 44vw) !important; height: 58px !important;
-  max-height: 58px !important; object-fit: contain !important;
-  object-position: center !important;
-}
-.nav {
-  width: 100% !important; min-height: 0 !important;
-  padding: 8px 10px !important; margin: 0 !important;
-  border-radius: 15px !important;
-  background: linear-gradient(135deg, rgba(24,30,47,.62), rgba(8,11,19,.46)) !important;
-  border: 1px solid rgba(190,208,255,.22) !important;
-  box-shadow: 0 12px 28px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.12) !important;
-  -webkit-backdrop-filter: blur(22px) saturate(145%) !important;
-  backdrop-filter: blur(22px) saturate(145%) !important;
-}
-.nav a { padding: 2px 5px !important; }
-@media (max-width: 560px) {
-  .top { padding: 4px 0 16px !important; gap: 6px !important; }
-  .top-row { min-height: 72px !important; height: 72px !important; padding: 2px 4px 4px !important; }
-  .top-row .brand { min-height: 54px !important; height: 54px !important; }
-  .top-row .brand img { width: min(158px, 44vw) !important; height: 54px !important; max-height: 54px !important; }
-  .nav { padding: 7px 6px !important; border-radius: 14px !important; }
-  .nav a { font-size: clamp(12px, 3.1vw, 14px) !important; }
-}
+<style id="zipprep-flip-fade-headline">
+/* Lightweight vanilla-JS version of the Flip Fade Text effect; keeps the existing static HTML site. */
+.hero-headline{perspective:1000px}
+.flip-fade-word{display:inline-block;transform-origin:50% 55%;transform-style:preserve-3d;will-change:transform,opacity,filter}
+.flip-fade-word.is-exiting{animation:zipFlipFadeOut .28s cubic-bezier(.4,0,1,1) both}
+.flip-fade-word.is-entering{animation:zipFlipFadeIn .52s cubic-bezier(.2,.65,.3,.9) both}
+@keyframes zipFlipFadeOut{to{transform:rotateX(-75deg) translateY(-10px);opacity:0;filter:blur(5px)}}
+@keyframes zipFlipFadeIn{from{transform:rotateX(75deg) translateY(12px);opacity:0;filter:blur(7px)}to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){.flip-fade-word.is-exiting,.flip-fade-word.is-entering{animation:none!important}.flip-fade-word{will-change:auto}}
 </style>
+
 </head>
 <body id="top">
 <header class="wrap top">
@@ -279,7 +244,7 @@ header.wrap.top, header.top, .top {
 </header>
 <main>
 <section class="wrap hero">
-<div class="hero-layout"><div class="hero-copy"><h1>Affordable notes<br>for competitive<br>exam prep.</h1>
+<div class="hero-layout"><div class="hero-copy"><h1 class="hero-headline" aria-label="Affordable notes for competitive exam prep."><span class="flip-fade-word" id="hero-flip-word" aria-hidden="true">Affordable</span> notes<br>for competitive<br>exam prep.</h1>
 <p>ZipPrep sells exam-focused study notes at prices students can actually pay.</p>
 <div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message ZipPrep</a></div></div></div>
 </section>
@@ -376,5 +341,28 @@ if('IntersectionObserver' in window){
   loadReviews();
 })();
 </script>
+
+<script id="zipprep-flip-fade-script">
+(() => {
+  const word = document.getElementById('hero-flip-word');
+  if (!word) return;
+  const words = ['Affordable', 'Quality', 'Exam-ready', 'Student-friendly'];
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let index = 0;
+  if (reduceMotion.matches) return;
+  window.setInterval(() => {
+    word.classList.remove('is-entering');
+    word.classList.add('is-exiting');
+    window.setTimeout(() => {
+      index = (index + 1) % words.length;
+      word.textContent = words[index];
+      word.classList.remove('is-exiting');
+      void word.offsetWidth;
+      word.classList.add('is-entering');
+    }, 280);
+  }, 2600);
+})();
+</script>
+
 </body>
 </html>

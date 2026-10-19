@@ -226,14 +226,10 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 
 
 <style id="zipprep-flip-fade-headline">
-/* Lightweight vanilla-JS version of the Flip Fade Text effect; keeps the existing static HTML site. */
-.hero-headline{perspective:1000px}
-.flip-fade-word{display:inline-block;transform-origin:50% 55%;transform-style:preserve-3d;will-change:transform,opacity,filter}
-.flip-fade-word.is-exiting{animation:zipFlipFadeOut .28s cubic-bezier(.4,0,1,1) both}
-.flip-fade-word.is-entering{animation:zipFlipFadeIn .52s cubic-bezier(.2,.65,.3,.9) both}
-@keyframes zipFlipFadeOut{to{transform:rotateX(-75deg) translateY(-10px);opacity:0;filter:blur(5px)}}
-@keyframes zipFlipFadeIn{from{transform:rotateX(75deg) translateY(12px);opacity:0;filter:blur(7px)}to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
-@media(prefers-reduced-motion:reduce){.flip-fade-word.is-exiting,.flip-fade-word.is-entering{animation:none!important}.flip-fade-word{will-change:auto}}
+/* Apply Flip Fade to the entire headline as one unit; keep the wording unchanged. */
+.hero-headline{perspective:1000px;transform-origin:50% 55%;transform-style:preserve-3d;animation:zipHeadlineFlipFade .9s cubic-bezier(.2,.65,.3,.9) both;will-change:transform,opacity,filter}
+@keyframes zipHeadlineFlipFade{from{transform:rotateX(65deg) translateY(14px);opacity:0;filter:blur(7px)}to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){.hero-headline{animation:none!important;will-change:auto}}
 </style>
 
 </head>
@@ -244,7 +240,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 </header>
 <main>
 <section class="wrap hero">
-<div class="hero-layout"><div class="hero-copy"><h1 class="hero-headline" aria-label="Affordable notes for competitive exam prep."><span class="flip-fade-word" id="hero-flip-word" aria-hidden="true">Affordable</span> notes<br>for competitive<br>exam prep.</h1>
+<div class="hero-layout"><div class="hero-copy"><h1 class="hero-headline">Affordable notes<br>for competitive<br>exam prep.</h1>
 <p>ZipPrep sells exam-focused study notes at prices students can actually pay.</p>
 <div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message ZipPrep</a></div></div></div>
 </section>
@@ -342,27 +338,7 @@ if('IntersectionObserver' in window){
 })();
 </script>
 
-<script id="zipprep-flip-fade-script">
-(() => {
-  const word = document.getElementById('hero-flip-word');
-  if (!word) return;
-  const words = ['Affordable', 'Quality', 'Exam-ready', 'Student-friendly'];
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  let index = 0;
-  if (reduceMotion.matches) return;
-  window.setInterval(() => {
-    word.classList.remove('is-entering');
-    word.classList.add('is-exiting');
-    window.setTimeout(() => {
-      index = (index + 1) % words.length;
-      word.textContent = words[index];
-      word.classList.remove('is-exiting');
-      void word.offsetWidth;
-      word.classList.add('is-entering');
-    }, 280);
-  }, 2600);
-})();
-</script>
+
 
 </body>
 </html>

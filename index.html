@@ -230,11 +230,26 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 .hero-headline{perspective:1000px;transform-style:preserve-3d}
 .hero-headline .flip-letter{display:inline-block;white-space:pre;transform-origin:50% 50%;transform-style:preserve-3d;opacity:0;filter:blur(8px);transform:rotateX(90deg) translateY(20px);animation:zipFlipFadeLetter .6s cubic-bezier(.2,.65,.3,.9) forwards;animation-delay:var(--flip-delay,0s);will-change:transform,opacity,filter}
 .hero-headline .flip-space{display:inline-block;white-space:pre}
+.hero-headline .word-swap{display:inline-block;white-space:nowrap;transition:opacity .28s ease,transform .28s ease;will-change:opacity,transform}
+.hero-headline .word-swap.is-changing{opacity:0;transform:translateY(8px)}
 @keyframes zipFlipFadeLetter{to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
 @media(prefers-reduced-motion:reduce){.hero-headline .flip-letter{animation:none!important;opacity:1!important;filter:none!important;transform:none!important;will-change:auto}}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
+  const swapWord=document.querySelector('.hero-headline .word-swap');
+  if(swapWord && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const words=['Affordable','Quality','Exam-ready','Detailed'];
+    let wordIndex=0;
+    window.setInterval(function(){
+      swapWord.classList.add('is-changing');
+      window.setTimeout(function(){
+        wordIndex=(wordIndex+1)%words.length;
+        swapWord.textContent=words[wordIndex];
+        swapWord.classList.remove('is-changing');
+      },280);
+    },2600);
+  }
   const headline=document.querySelector('.hero-headline');
   if(!headline || headline.dataset.flipFadeReady) return;
   headline.dataset.flipFadeReady='true';
@@ -284,7 +299,7 @@ header.wrap.top, header.top, .top-row, .top-row .brand {
 </header>
 <main>
 <section class="wrap hero">
-<div class="hero-layout"><div class="hero-copy"><h1 class="hero-headline">Affordable notes<br>for competitive<br>exam prep.</h1>
+<div class="hero-layout"><div class="hero-copy"><h1 class="hero-headline"><span class="word-swap">Affordable</span> notes<br>for competitive<br>exam prep.</h1>
 <p>ZipPrep sells exam-focused study notes at prices students can actually pay.</p>
 <div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message ZipPrep</a></div></div></div>
 </section>

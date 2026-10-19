@@ -226,47 +226,34 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 
 
 <style id="zipprep-flip-fade-headline">
-/* Flip Fade Text-inspired letter-by-letter entrance on the complete, unchanged headline. */
-.hero-headline{perspective:1000px;transform-style:preserve-3d}
-.hero-headline .flip-letter{display:inline-block;white-space:pre;transform-origin:50% 50%;transform-style:preserve-3d;opacity:0;filter:blur(8px);transform:rotateX(90deg) translateY(20px);animation:zipFlipFadeLetter .6s cubic-bezier(.2,.65,.3,.9) forwards;animation-delay:var(--flip-delay,0s);will-change:transform,opacity,filter}
-.hero-headline .flip-space{display:inline-block;white-space:pre}
+/* Animate the complete hero headline, while the first word rotates independently. */
+.hero-headline{perspective:1000px;transform-origin:50% 50%;animation:zipHeadlineFlipFade .85s cubic-bezier(.2,.65,.3,.9) both}
 .hero-headline .word-swap{display:inline-block;white-space:nowrap;transition:opacity .28s ease,transform .28s ease;will-change:opacity,transform}
 .hero-headline .word-swap.is-changing{opacity:0;transform:translateY(8px)}
-@keyframes zipFlipFadeLetter{to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
-@media(prefers-reduced-motion:reduce){.hero-headline .flip-letter{animation:none!important;opacity:1!important;filter:none!important;transform:none!important;will-change:auto}}
+@keyframes zipHeadlineFlipFade{from{opacity:0;filter:blur(5px);transform:rotateX(18deg) translateY(18px)}to{opacity:1;filter:blur(0);transform:rotateX(0) translateY(0)}}
+@media(prefers-reduced-motion:reduce){.hero-headline{animation:none!important}.hero-headline .word-swap{transition:none!important}}
 </style>
 <script>
-document.addEventListener('DOMContentLoaded',function(){
-  const swapWord=document.querySelector('.hero-headline .word-swap');
-  if(swapWord && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+(function(){
+  function initZipPrepHeadline(){
+    const swap=document.querySelector('.hero-headline .word-swap');
+    if(!swap || swap.dataset.rotating==='true') return;
+    swap.dataset.rotating='true';
     const words=['Affordable','Quality','Exam-ready','Detailed'];
-    let wordIndex=0;
+    let index=0;
+    if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     window.setInterval(function(){
-      swapWord.classList.add('is-changing');
+      swap.classList.add('is-changing');
       window.setTimeout(function(){
-        wordIndex=(wordIndex+1)%words.length;
-        swapWord.textContent=words[wordIndex];
-        swapWord.classList.remove('is-changing');
+        index=(index+1)%words.length;
+        swap.textContent=words[index];
+        swap.classList.remove('is-changing');
       },280);
     },2600);
   }
-  const headline=document.querySelector('.hero-headline');
-  if(!headline || headline.dataset.flipFadeReady) return;
-  headline.dataset.flipFadeReady='true';
-  let delay=0;
-  const nodes=Array.from(headline.childNodes);
-  headline.textContent='';
-  nodes.forEach(function(node){
-    if(node.nodeType===Node.TEXT_NODE){
-      Array.from(node.textContent).forEach(function(char){
-        if(char===' '){const space=document.createElement('span');space.className='flip-space';space.textContent=' ';headline.appendChild(space);return;}
-        const letter=document.createElement('span');letter.className='flip-letter';letter.style.setProperty('--flip-delay',(delay*0.025)+'s');letter.textContent=char;headline.appendChild(letter);delay++;
-      });
-    }else if(node.nodeName==='BR'){
-      headline.appendChild(document.createElement('br'));
-    }else{headline.appendChild(node.cloneNode(true));}
-  });
-});
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initZipPrepHeadline);
+  else initZipPrepHeadline();
+})();
 </script>
 
 

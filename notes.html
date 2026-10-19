@@ -195,6 +195,68 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 @media(prefers-reduced-motion:reduce){body::before{animation:none!important}}
 </style>
 
+<style id="zipprep-claude-artifact-theme">
+/* Site-wide visual adaptation from the supplied Claude artifact. Content and behavior are preserved. */
+:root{--zp-text:#f5f3ff;--zp-muted:#cfcae3;--zp-border:rgba(221,214,254,.18)}
+html{background:#0e0a1e!important;color-scheme:dark;scroll-behavior:smooth}
+body{color:var(--zp-text)!important;background-color:#0e0a1e!important;background-image:radial-gradient(ellipse 52% 42% at 8% 12%,rgba(124,58,237,.25),transparent 72%),radial-gradient(ellipse 48% 42% at 92% 34%,rgba(47,107,234,.17),transparent 72%),radial-gradient(ellipse 50% 40% at 54% 100%,rgba(192,38,211,.13),transparent 75%),linear-gradient(155deg,#0e0a1e 0%,#100b23 48%,#0a0918 100%)!important;background-attachment:fixed!important;background-repeat:no-repeat!important;background-size:cover!important}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 18% 22%,rgba(167,139,250,.09),transparent 34%),radial-gradient(circle at 82% 68%,rgba(47,181,196,.06),transparent 32%)}
+.wrap,.hero,.section,.intro,.top,.foot,.footer,.contact{background-color:transparent!important}
+.top-row,.top,.head{background:transparent!important;border-color:transparent!important;box-shadow:none!important}
+.nav{background:rgba(255,255,255,.065)!important;border:1px solid rgba(221,214,254,.2)!important;border-radius:18px!important;box-shadow:0 12px 32px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.15)!important;backdrop-filter:blur(18px) saturate(150%)!important;-webkit-backdrop-filter:blur(18px) saturate(150%)!important}
+.nav a,.back,.crumb,.toplink,.nl{color:#f5f3ff!important}
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle,.selection,.options,.sample,.sample-grid,.subject-list{background:rgba(255,255,255,.065)!important;color:var(--zp-text)!important;border:1px solid var(--zp-border)!important;border-radius:18px!important;box-shadow:0 12px 32px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.11)!important;backdrop-filter:blur(16px) saturate(140%)!important;-webkit-backdrop-filter:blur(16px) saturate(140%)!important}
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink{background:linear-gradient(135deg,#7c3aed 0%,#6d28d9 58%,#4f46e5 100%)!important;color:#fff!important;border:1px solid rgba(196,181,253,.48)!important;border-radius:14px!important;box-shadow:0 8px 24px rgba(109,40,217,.24)!important}
+.btn:not(.primary){background:rgba(255,255,255,.07)!important;color:#f5f3ff!important;border:1px solid rgba(221,214,254,.22)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.09)!important}
+button,.toggle,.sample-btn,.sample-open,.subject-chip,.nav a,.btn{transition:transform .22s ease,background .22s ease,border-color .22s ease,box-shadow .22s ease!important}
+.subject:hover,.card:hover,.sample-card:hover,.subject-chip:hover{transform:translateY(-3px);border-color:rgba(196,181,253,.38)!important;background:rgba(255,255,255,.10)!important}
+h1,h2,h3,h4,.title,.brand,.logo{color:#f5f3ff!important}
+p,.intro,.description,.crumb,.pay-hint,.sample-hint,.hint,.foot,.footer{color:#cfcae3!important}
+input,textarea,select{background:rgba(8,6,22,.72)!important;color:#f5f3ff!important;border:1px solid rgba(221,214,254,.22)!important;border-radius:12px!important}
+input::placeholder,textarea::placeholder{color:#a8a0c4!important}.review-stars{color:#c4b5fd!important}
+.sample-btn img,.sample-thumb,.subject img,.cover img{border-color:rgba(221,214,254,.18)!important}
+.modal,.image-modal{background:rgba(8,5,19,.96)!important;color:#f5f3ff!important}
+::selection{background:rgba(124,58,237,.42);color:#fff}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+\n<style id="zipprep-claude-theme">
+:root{color-scheme:dark;--zp-bg:#0e0a1e;--zp-panel:rgba(255,255,255,.075);--zp-panel-hover:rgba(255,255,255,.12);--zp-border:rgba(226,218,255,.19);--zp-text:#f5f3ff;--zp-muted:#cfc9e4;--zp-purple:#a78bfa;--zp-blue:#5c8dff;--zp-teal:#2fb5c4;--zp-shadow:0 14px 36px rgba(0,0,0,.28)}
+html{background:var(--zp-bg)!important;scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 12% 8%,rgba(124,58,237,.22),transparent 34%),radial-gradient(ellipse at 92% 25%,rgba(47,107,234,.18),transparent 32%),radial-gradient(ellipse at 50% 82%,rgba(192,38,211,.10),transparent 36%),#0e0a1e!important;color:var(--zp-text)!important;font-family:Roboto,Arial,sans-serif!important;overflow-x:hidden}
+body:before{background:radial-gradient(ellipse at 18% 12%,rgba(167,139,250,.19),transparent 48%),radial-gradient(ellipse at 88% 28%,rgba(47,181,196,.12),transparent 44%)!important;filter:blur(28px)!important;pointer-events:none}
+.wrap{position:relative}
+header,.top-row,.nav,.panel,.step,.review-form,.subject,.cover.image-cover,.sample-card,.sample,.pay,.pay-inner,.pay-panel,.options,.selection,.subject-chip,.hero,.intro,.grid,.sample-grid,.history-samples,.contact,.footer,.foot{color:var(--zp-text)!important}
+.top-row,.nav,.panel,.step,.review-form,.sample-card,.sample,.pay,.pay-inner,.pay-panel,.options,.selection,.subject-chip,.hero,.intro,.contact,.footer,.foot{background:var(--zp-panel)!important;border:1px solid var(--zp-border)!important;border-radius:18px!important;box-shadow:var(--zp-shadow),inset 0 1px 0 rgba(255,255,255,.10)!important;backdrop-filter:blur(18px) saturate(145%)!important;-webkit-backdrop-filter:blur(18px) saturate(145%)!important}
+.top-row{background:transparent!important;border-color:transparent!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+.nav{padding:10px 12px!important}
+.nav a,.back,.brand,.zipprep-brand,.zipprep-pyqs-brand{color:var(--zp-text)!important}
+.nav a:hover,.back:hover{color:#c4b5fd!important}
+h1,h2,h3,.hero h1,.section h2,#how-to-buy h2,#contact h2,.title{color:#f8f7ff!important}
+p,.description,.intro,.hint,.crumb,.pay-hint,.sample-hint,.pay-message,.label{color:var(--zp-muted)!important}
+.subject{background:rgba(255,255,255,.065)!important;border:1px solid rgba(226,218,255,.18)!important;border-radius:17px!important;box-shadow:0 12px 28px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.10)!important;color:var(--zp-text)!important}
+.subject::before{border-color:rgba(226,218,255,.18)!important}
+.cover.image-cover{border:1px solid rgba(226,218,255,.2)!important;border-radius:13px!important;box-shadow:0 8px 24px rgba(0,0,0,.25)!important}
+.subject-label{color:var(--zp-text)!important}
+.btn,.btn.primary,.btn.yellow,.pay-button,.sample-btn,.toggle,.actions a,.bundle-cta-wrap a{background:linear-gradient(115deg,#7c3aed,#4f6cf7 58%,#2fb5c4)!important;color:#fff!important;border:1px solid rgba(226,218,255,.25)!important;border-radius:13px!important;box-shadow:0 8px 22px rgba(92,83,220,.24)!important;text-decoration:none!important}
+.btn:hover,.pay-button:hover,.sample-btn:hover,.toggle:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.num{background:rgba(167,139,250,.17)!important;color:#ddd6fe!important;border:1px solid rgba(196,181,253,.3)!important;box-shadow:none!important}
+.bundle-banner{border-radius:18px!important;box-shadow:0 18px 40px rgba(0,0,0,.35)!important}
+.review-form input,.review-form textarea,.review-form select,input,textarea,select{background:rgba(8,6,19,.7)!important;color:var(--zp-text)!important;border:1px solid var(--zp-border)!important;border-radius:11px!important}
+::placeholder{color:#aaa2c8!important;opacity:1}
+hr{border-color:var(--zp-border)!important}
+.footer,.foot{background:rgba(255,255,255,.035)!important;border-color:var(--zp-border)!important}
+.toplink{background:linear-gradient(120deg,#7c3aed,#4f6cf7)!important;color:#fff!important;box-shadow:0 8px 24px rgba(92,83,220,.3)!important}
+.modal,.image-modal{background:rgba(8,5,18,.92)!important;color:var(--zp-text)!important;backdrop-filter:blur(18px)!important}
+.card,.subject,.sample-card,.panel{transition:transform .25s ease,background .25s ease,border-color .25s ease,box-shadow .25s ease}
+.subject:hover,.sample-card:hover,.panel:hover{transform:translateY(-3px);background:rgba(255,255,255,.105)!important;border-color:rgba(196,181,253,.34)!important}
+@keyframes zpAura{0%,100%{opacity:.32;transform:scale(.94)}50%{opacity:.62;transform:scale(1.04)}}
+body:after{content:"";position:fixed;z-index:-1;pointer-events:none;left:-12vw;bottom:-20vh;width:55vw;height:55vw;max-width:520px;max-height:520px;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.18),transparent 68%);filter:blur(22px);animation:zpAura 12s ease-in-out infinite}
+@media(max-width:600px){.nav{gap:3px!important;padding:8px 5px!important}.nav a{font-size:clamp(11px,3.2vw,14px)!important}.subject{padding:8px!important}.wrap{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+<style id="zipprep-claude-font">
+@font-face{font-family:"Neue Freigeist";src:url("./1939f46af42e826eaa1c80b33242fcf8.otf") format("opentype");font-weight:900;font-style:normal;font-display:swap}
+</style>
 </head>
 <body>
 <header class="wrap head">

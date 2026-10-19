@@ -9,18 +9,220 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root{--blue:#2563ff;--blue-dark:#0b3ea8;--blue-light:#8eb7ff;--muted:#aab6cc;--line:rgba(190,208,255,.18)}
-*{box-sizing:border-box}html{scroll-behavior:smooth;color-scheme:dark}body{margin:0;color:#f4f6fb;font-family:Roboto,Arial,sans-serif;background:#171a21;background-image:radial-gradient(ellipse at 15% 8%,rgba(42,91,210,.22),transparent 36%),radial-gradient(ellipse at 85% 30%,rgba(39,81,184,.15),transparent 34%),linear-gradient(145deg,#171a21 0%,#20232b 52%,#15171d 100%);overflow-x:hidden;min-height:100vh}body:before{content:"";position:fixed;z-index:-1;top:-160px;left:50%;transform:translateX(-50%);width:min(1100px,140vw);height:900px;background:radial-gradient(ellipse at 50% 22%,rgba(49,103,255,.22),transparent 65%);filter:blur(36px);pointer-events:none}.wrap{width:min(100% - 32px,900px);margin:auto}.top{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0 10px;background:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-radius:0!important}.brand{display:flex;align-items:center;justify-content:center;background:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;padding:0!important;border-radius:0!important}.brand img{display:block;width:116px;height:70px;object-fit:contain;background:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;filter:none!important;opacity:1!important}.back{font-weight:700;color:#f2f6ff;text-decoration:none;font-size:clamp(14px,3.8vw,18px);background:transparent!important;border:0!important;box-shadow:none!important}.hero{text-align:center;padding:8px 0 24px}.hero h1{font-size:clamp(30px,7vw,48px);letter-spacing:-.04em;margin:8px 0 18px;font-weight:900;color:#f5f7ff}.cover{display:block;width:min(100%,420px);margin:0 auto 26px;border-radius:20px;box-shadow:0 18px 42px rgba(0,0,0,.36),0 0 0 1px rgba(160,190,255,.16);border:1px solid rgba(190,208,255,.18)}.panel{background:linear-gradient(135deg,rgba(255,255,255,.075),rgba(255,255,255,.025) 48%,rgba(65,105,220,.06));border:1px solid rgba(210,224,255,.18);border-radius:24px;padding:22px;margin:20px auto;box-shadow:0 18px 40px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.12);backdrop-filter:blur(22px) saturate(140%);-webkit-backdrop-filter:blur(22px) saturate(140%)}.panel h2{font-size:clamp(22px,5vw,28px);margin:0 0 16px;letter-spacing:-.025em;color:#f5f7ff}.subject-list{display:flex;flex-wrap:wrap;gap:10px}.subject-chip{border:1px solid rgba(190,208,255,.22);background:linear-gradient(135deg,rgba(255,255,255,.09),rgba(255,255,255,.035));border-radius:14px;padding:10px 13px;font-weight:700;color:#e5edff;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}.description{font:clamp(17px,4vw,20px)/1.55 Georgia,serif;color:#c4ccdc;margin:0}.sample-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.sample-btn{display:block;border:1px solid rgba(210,224,255,.18);border-radius:14px;background:rgba(8,11,18,.55);color:#f4f6fb;padding:0;overflow:hidden;box-shadow:0 12px 28px rgba(0,0,0,.28);cursor:zoom-in;text-align:left}.sample-btn img{display:block;width:100%;height:230px;object-fit:cover;object-position:top}.sample-caption{display:block;padding:9px;font-size:14px;font-weight:700}.sample-hint{color:var(--muted);font-size:14px;line-height:1.4}.pay-panel{text-align:center}.price{font-size:clamp(32px,8vw,46px);font-weight:900;margin:0 0 16px;color:#9fc0ff}.pay-button{display:inline-flex;align-items:center;justify-content:center;width:min(100%,360px);min-height:54px;padding:14px 24px;background:linear-gradient(135deg,#3679ff,#1555e8);color:#fff;border:1px solid rgba(180,208,255,.5);border-radius:16px;box-shadow:0 10px 26px rgba(30,94,255,.28);font-size:19px;font-weight:800;cursor:pointer}.pay-button:disabled{opacity:.7;cursor:not-allowed}.pay-message{max-width:620px;margin:16px auto 0;color:#aab6cc;font-size:14px;line-height:1.5}.footer{text-align:center;padding:22px 0 30px;color:#aab6cc;font-size:12px}.modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(3,6,13,.94)}.modal.open{display:flex}.modal img{max-width:100%;max-height:84vh;object-fit:contain;border-radius:8px;background:#0b0d12}.close{position:absolute;top:12px;right:14px;border:1px solid rgba(255,255,255,.2);border-radius:50%;width:44px;height:44px;font-size:28px;background:#171a21;color:#f4f6fb;cursor:pointer}.modal-caption{position:absolute;bottom:8px;left:12px;right:12px;text-align:center;color:#fff;font-size:14px}@media(min-width:650px){.sample-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.sample-btn img{height:280px}.panel{padding:28px}.top{padding-top:20px}}
+:root{--blue:#087fe8;--blue-dark:#07569b;--blue-light:#eaf4ff;--muted:#526174;--line:#b9cfe2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#090909;font-family:Roboto,Arial,sans-serif;background-color:#f8fbff;background-image:radial-gradient(#a9c9e7 1px,transparent 1px);background-size:22px 22px;overflow-x:hidden}body:before{content:"";position:absolute;z-index:-1;top:60px;left:50%;transform:translateX(-50%);width:min(1000px,120vw);height:700px;background:radial-gradient(ellipse at 50% 15%,rgba(8,127,232,.15),transparent 70%);filter:blur(18px);pointer-events:none}.wrap{width:min(100% - 32px,900px);margin:auto}.top{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0 10px}.brand img{display:block;width:92px;height:70px;object-fit:contain}.back{font-weight:700;color:var(--blue-dark);text-decoration:none;font-size:clamp(14px,3.8vw,18px)}.hero{text-align:center;padding:8px 0 24px}.hero h1{font-size:clamp(30px,7vw,48px);letter-spacing:-.04em;margin:8px 0 18px;font-weight:900}.cover{display:block;width:min(100%,420px);margin:0 auto 26px;border-radius:16px;box-shadow:0 6px 0 #111;border:2px solid #111}.panel{background:#fff;border:2px solid #111;border-radius:20px;padding:22px;margin:20px auto;box-shadow:5px 6px 0 #111}.panel h2{font-size:clamp(22px,5vw,28px);margin:0 0 16px;letter-spacing:-.025em}.subject-list{display:flex;flex-wrap:wrap;gap:10px}.subject-chip{border:1.5px solid #9ebbd5;background:#f8fbff;border-radius:12px;padding:10px 13px;font-weight:700;color:#173b5b}.description{font:clamp(17px,4vw,20px)/1.55 Georgia,serif;color:#334155;margin:0}.sample-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.sample-btn{display:block;border:2px solid #111;border-radius:12px;background:#fff;padding:0;overflow:hidden;box-shadow:3px 4px 0 #111;cursor:zoom-in;text-align:left}.sample-btn img{display:block;width:100%;height:230px;object-fit:cover;object-position:top}.sample-caption{display:block;padding:9px;font-size:14px;font-weight:700}.sample-hint{color:var(--muted);font-size:14px;line-height:1.4}.pay-panel{text-align:center}.price{font-size:clamp(32px,8vw,46px);font-weight:900;margin:0 0 16px;color:#0a2b68}.pay-button{display:inline-flex;align-items:center;justify-content:center;width:min(100%,360px);min-height:54px;padding:14px 24px;background:var(--blue);color:#fff;border:2px solid #07569b;border-radius:14px;box-shadow:0 5px 0 #07569b;font-size:19px;font-weight:800;cursor:pointer}.pay-button:disabled{opacity:.7;cursor:not-allowed}.pay-message{max-width:620px;margin:16px auto 0;color:#526174;font-size:14px;line-height:1.5}.footer{text-align:center;padding:22px 0 30px;color:#526174;font-size:12px}.modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(8,20,38,.93)}.modal.open{display:flex}.modal img{max-width:100%;max-height:84vh;object-fit:contain;border-radius:8px;background:#fff}.close{position:absolute;top:12px;right:14px;border:0;border-radius:50%;width:44px;height:44px;font-size:28px;background:white;color:#111;cursor:pointer}.modal-caption{position:absolute;bottom:8px;left:12px;right:12px;text-align:center;color:#fff;font-size:14px}@media(min-width:650px){.sample-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.sample-btn img{height:280px}.panel{padding:28px}.top{padding-top:20px}}
 
-/* ZipPrep logo/header fix: remove the unwanted rectangle while keeping the dark glass page theme. */
-header.top{background:transparent!important;background-color:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-radius:0!important}
-header.top .brand{display:flex!important;align-items:center!important;justify-content:center!important;flex:0 0 auto!important;background:transparent!important;background-color:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;padding:0!important;border-radius:0!important}
-header.top .brand img{display:block!important;background:transparent!important;background-color:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;object-fit:contain!important;mix-blend-mode:normal!important;filter:none!important;opacity:1!important}
-header.top .back{background:transparent!important;border:0!important;box-shadow:none!important}
+.top{display:grid!important;grid-template-columns:1fr auto 1fr!important;align-items:center!important;background:rgba(11,12,21,.38)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:20px!important;padding:12px 16px!important;backdrop-filter:blur(18px)}
+.zipprep-brand{grid-column:2!important;justify-self:center!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.zipprep-logo{display:block!important;width:min(190px,44vw)!important;height:54px!important;object-fit:contain!important}
+.back{grid-column:3!important;justify-self:end!important;color:#f5f6fc!important}
+
+/* ZipPrep dark editorial gradient theme — theme-only overrides. Original fonts, content, images and scripts are retained. */
+:root{--blue:#65d8ff;--blue-dark:#57b6d9;--blue-light:rgba(101,216,255,.13);--navy:#090a12;--paper:rgba(20,22,34,.72);--muted:#b7b9c8;--line:rgba(255,255,255,.12);--ink:#f4f5fb}
+html{background:#080911}
+body{color:#f5f6fc!important;background-color:#080911!important;background-image:radial-gradient(ellipse at 2% 0%,rgba(255,160,145,.48),transparent 26%),radial-gradient(ellipse at 98% 0%,rgba(0,210,205,.42),transparent 26%),radial-gradient(ellipse at 78% 35%,rgba(92,54,180,.20),transparent 30%),radial-gradient(ellipse at 10% 82%,rgba(0,154,176,.25),transparent 27%),linear-gradient(180deg,#0b0b14 0%,#080911 38%,#0a0b14 100%)!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 0% 0%,rgba(255,151,142,.18),transparent 52%),radial-gradient(ellipse at 100% 0%,rgba(0,218,209,.18),transparent 50%),radial-gradient(ellipse at 70% 55%,rgba(117,63,190,.10),transparent 60%)!important;filter:blur(28px)!important}
+.wrap{position:relative}
+.top-row,.nav,.panel,.card,.subject,.review-form,.review-card,.step,.hero-copy,.sample-card,.paper,.toggle-row,.toggle,.cover,.subject-chip,.sample-btn,.sample-open,.review-form input,.review-form select,.review-form textarea{background-color:rgba(21,23,36,.76)!important;color:#f4f5fb!important;border-color:rgba(255,255,255,.14)!important;box-shadow:0 12px 32px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.nav{backdrop-filter:blur(18px);border-radius:18px!important}
+.nav a,.back,.crumb,.subject-label,.panel h2,.card h2,.step h3,.review-form label,.review-card h3,.title,.hero h1,.section h2,.sample h2{color:#f6f7fc!important}
+.hero p,.intro,.description,.disclaimer,.sample-hint,.review-card p,.review-form small,.note,.step p,.panel p,.card p,.foot p{color:#c0c2d0!important}
+.btn,.pay-button,.review-submit,.sample-button{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important;border-color:rgba(255,255,255,.20)!important;box-shadow:0 5px 0 rgba(16,111,170,.52),0 0 26px rgba(34,170,225,.13)!important}
+.btn:not(.primary){background:rgba(255,255,255,.06)!important;color:#f5f6fc!important;border-color:rgba(255,255,255,.22)!important}
+.subject-chip,.toggle{background:rgba(255,255,255,.055)!important;color:#f5f6fc!important}
+.toggle[aria-expanded="true"],.toggle.active{background:linear-gradient(110deg,#0ea5e9,#6864e8)!important;color:#fff!important}
+input,select,textarea{color:#f4f5fb!important;background:rgba(8,10,18,.82)!important;border-color:rgba(255,255,255,.18)!important}
+input::placeholder,textarea::placeholder{color:#9a9dae!important}
+.foot,.contact{background:linear-gradient(120deg,rgba(11,115,142,.82),rgba(47,32,83,.90),rgba(104,47,70,.84))!important;color:#f6f7fc!important;border-color:rgba(255,255,255,.12)!important}
+.foot a,.contact a{color:#9cecff!important}
+.footer{color:#aeb1c2!important}
+.review-stars{color:#70dcff!important}
+.subject img,.cover img,.sample-thumb,.sample-btn img{border-color:rgba(255,255,255,.12)!important}
+.toplink{background:linear-gradient(135deg,#0ea5e9,#6864e8)!important;color:white!important;box-shadow:0 0 24px rgba(25,160,224,.28)!important}
+::selection{background:rgba(73,185,233,.35);color:white}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+</style>
+<style id="zipprep-ps11-theme">
+
+/* ZipPrep PS11-inspired dark UI theme. Visual-only overrides: original fonts, cover art, review text, content structure and scripts remain intact. */
+:root{--blue:#3478ff;--blue-dark:#1f58d8;--blue-light:rgba(52,120,255,.15);--navy:#10131b;--paper:#11141b;--muted:#b5bac7;--line:rgba(255,255,255,.12);--ink:#f4f6fb}
+html{background:#292929!important;color-scheme:dark}
+body{background-color:#292929!important;background-image:radial-gradient(ellipse at 12% 32%,rgba(27,83,210,.18),transparent 33%),radial-gradient(ellipse at 86% 68%,rgba(20,70,180,.14),transparent 32%),linear-gradient(135deg,#2b2b2b 0%,#242424 48%,#2c2c2c 100%)!important;color:#f4f6fb!important;background-attachment:fixed!important}
+body::before{background:radial-gradient(ellipse at 15% 15%,rgba(30,94,255,.22),transparent 55%),radial-gradient(ellipse at 90% 70%,rgba(31,91,232,.14),transparent 52%)!important;filter:blur(30px)!important;opacity:.9}
+.wrap{position:relative}
+/* dark glass header / navigation */
+.top-row{display:flex!important;justify-content:center!important;align-items:center!important;min-height:112px!important;padding:12px 8px!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
+.top-row .brand{display:flex!important;justify-content:center!important;align-items:center!important;width:100%!important;min-height:72px!important}
+.top-row .brand img{width:min(205px,52vw)!important;height:82px!important;object-fit:contain!important;object-position:center!important}
+.header-mascot{display:none!important}
+.nav{background:rgba(10,12,18,.72)!important;border:1px solid rgba(255,255,255,.13)!important;border-radius:17px!important;box-shadow:0 12px 30px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.04)!important;backdrop-filter:blur(18px)}
+.nav a,.back,.crumb{color:#e7eaf3!important}
+.nav a:hover,.back:hover{color:#76a6ff!important}
+/* Text colours change; typography and sizing stay controlled by original CSS. */
+.hero h1,.section h2,.contact h2,.panel h2,.title,.sample h2,.review-card h3,.step h3{color:#f5f6fb!important}
+.hero p,.intro,.step p,.contact p,.review-card p,.review-swipe-hint,.description,.sample-hint,.pay-hint,.foot p{color:#c4c8d3!important}
+/* Dark cards, glass surfaces and panels */
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle{background:rgba(12,14,20,.88)!important;color:#f4f6fb!important;border-color:rgba(255,255,255,.12)!important;box-shadow:0 12px 26px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.035)!important}
+.subject{border-radius:16px!important}
+.subject::before{border-color:rgba(255,255,255,.12)!important}
+.subject-label{color:#f5f6fb!important}
+.cover.image-cover{background:#090b10!important;border-color:rgba(255,255,255,.13)!important;box-shadow:0 8px 18px rgba(0,0,0,.28)!important}
+/* Important: existing cover image files are not filtered or altered. */
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink{background:linear-gradient(135deg,#3478ff 0%,#1d5be9 52%,#4a83ff 100%)!important;color:#fff!important;border:1px solid rgba(130,170,255,.65)!important;box-shadow:0 6px 20px rgba(34,94,255,.22)!important}
+.btn:not(.primary){background:rgba(9,11,17,.72)!important;color:#f3f5fb!important;border-color:rgba(255,255,255,.18)!important;box-shadow:0 8px 20px rgba(0,0,0,.16)!important}
+.toggle[aria-expanded="true"],.toggle.active,.subject-chip.active{background:linear-gradient(135deg,#3478ff,#1d5be9)!important;color:#fff!important}
+input,select,textarea{color:#f4f6fb!important;background:#0b0d13!important;border-color:rgba(255,255,255,.16)!important}
+input::placeholder,textarea::placeholder{color:#8f96a8!important}
+.contact,.foot{background:linear-gradient(135deg,#171b26 0%,#11151e 100%)!important;color:#f4f6fb!important;border-top-color:rgba(255,255,255,.1)!important;border-bottom-color:rgba(255,255,255,.1)!important}
+.contact a,.foot a{color:#7ba7ff!important}
+.footer{background:#242424!important;color:#aeb3c1!important;border-top:1px solid rgba(255,255,255,.08)!important}
+.review-stars{color:#70a0ff!important}
+.sample-btn img,.sample-thumb,.subject img,.cover img{border-color:rgba(255,255,255,.12)!important}
+.modal,.image-modal{background:rgba(3,5,10,.96)!important}
+.toplink{border:0!important}
+::selection{background:rgba(52,120,255,.4);color:white}
+@media(max-width:420px){.top-row{min-height:98px!important;padding:5px 0!important}.top-row .brand img{width:min(180px,54vw)!important;height:72px!important}}
+
+</style>
+
+<style id="zipprep-ps11-final-fix">
+/* Final PS11-inspired visual correction: remove checkerboard/patterns, retain existing site content and typography. */
+html, body { background-color:#292929 !important; color-scheme:dark; }
+body { background-image: radial-gradient(ellipse 52% 34% at 8% 24%, rgba(24,73,190,.22) 0%, rgba(24,73,190,0) 100%), radial-gradient(ellipse 42% 32% at 92% 70%, rgba(15,55,160,.18) 0%, rgba(15,55,160,0) 100%), linear-gradient(135deg,#292929 0%,#202124 48%,#292929 100%) !important; background-size:100% 100%,100% 100%,100% 100% !important; background-repeat:no-repeat !important; background-attachment:fixed !important; }
+body::before { content:""; position:fixed !important; inset:0 !important; z-index:-1 !important; pointer-events:none !important; background:radial-gradient(ellipse at 12% 20%,rgba(37,99,235,.13),transparent 43%),radial-gradient(ellipse at 86% 74%,rgba(37,99,235,.10),transparent 40%) !important; filter:blur(22px) !important; opacity:1 !important; }
+.top-row { min-height:150px !important; display:flex !important; justify-content:center !important; align-items:center !important; padding:18px 8px 22px !important; background:transparent !important; border:0 !important; box-shadow:none !important; }
+.top-row .brand { width:100% !important; min-height:94px !important; display:flex !important; align-items:center !important; justify-content:center !important; }
+.top-row .brand img { display:block !important; width:min(245px,68vw) !important; height:auto !important; max-height:100px !important; object-fit:contain !important; object-position:center !important; }
+.nav { background:rgba(8,10,15,.78) !important; border:1px solid rgba(255,255,255,.13) !important; border-radius:20px !important; box-shadow:0 12px 30px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.035) !important; backdrop-filter:blur(18px); }
+.nav a,.back,.crumb { color:#f0f2f8 !important; }
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle { background:rgba(7,9,14,.88) !important; color:#f2f4f9 !important; border-color:rgba(255,255,255,.12) !important; box-shadow:0 12px 26px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.035) !important; }
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink { background:linear-gradient(135deg,#3478ff 0%,#1d5be9 55%,#4a83ff 100%) !important; color:#fff !important; border:1px solid rgba(130,170,255,.65) !important; box-shadow:0 6px 20px rgba(34,94,255,.22) !important; }
+.btn:not(.primary) { background:rgba(8,10,15,.82) !important; color:#f3f5fb !important; border-color:rgba(255,255,255,.18) !important; }
+.contact,.foot { background:linear-gradient(135deg,#171b26 0%,#11151e 100%) !important; color:#f4f6fb !important; border-color:rgba(255,255,255,.1) !important; }
+.footer { background:#242424 !important; color:#aeb3c1 !important; border-top:1px solid rgba(255,255,255,.08) !important; }
+@media(max-width:560px) { .top-row { min-height:132px !important; padding:12px 4px 18px !important; } .top-row .brand { min-height:88px !important; } .top-row .brand img { width:min(220px,70vw) !important; max-height:88px !important; } }
+</style>
+
+
+<style id="zipprep-glass-motion-refinement">
+/* Glassmorphism + animated blue aura. Visual-only refinement; content and scripts stay unchanged. */
+:root { --zp-electric:#3478ff; --zp-glass:rgba(9,12,20,.48); }
+html, body { background:#202124 !important; }
+body { position:relative; isolation:isolate; background-image:linear-gradient(135deg,#25262a 0%,#1c1d21 52%,#25262a 100%) !important; background-attachment:fixed !important; }
+/* A slow, soft blue gradient orb rotates behind the page without moving the content. */
+body::before { content:"" !important; position:fixed !important; z-index:-1 !important; pointer-events:none !important; width:115vmax !important; height:115vmax !important; left:50% !important; top:48% !important; inset:auto !important; transform:translate(-50%,-50%); transform-origin:center; border-radius:50%; background:conic-gradient(from 0deg,transparent 0deg,rgba(39,91,255,.08) 42deg,rgba(34,100,255,.28) 82deg,rgba(20,54,140,.03) 132deg,transparent 170deg,rgba(46,100,255,.13) 235deg,transparent 300deg,rgba(44,104,255,.18) 340deg,transparent 360deg) !important; filter:blur(62px) !important; opacity:.78 !important; animation:zipprepAuraRotate 34s linear infinite !important; }
+@keyframes zipprepAuraRotate { from { transform:translate(-50%,-50%) rotate(0deg) scale(1); } to { transform:translate(-50%,-50%) rotate(360deg) scale(1.04); } }
+/* Keep the small wordmark at the very top, centered. */
+.top-row { min-height:86px !important; padding:6px 8px 10px !important; }
+.top-row .brand { min-height:58px !important; }
+.top-row .brand img { width:min(128px,34vw) !important; height:54px !important; max-height:54px !important; object-fit:contain !important; object-position:center !important; }
+/* Thin glass navigation: lower height, translucent surface, fine rim and blur. */
+.nav { min-height:0 !important; padding:8px 10px !important; gap:6px !important; border-radius:15px !important; background:rgba(7,10,17,.42) !important; border:1px solid rgba(255,255,255,.16) !important; box-shadow:0 10px 28px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.09),inset 0 -1px 0 rgba(67,119,255,.08) !important; -webkit-backdrop-filter:blur(22px) saturate(135%) !important; backdrop-filter:blur(22px) saturate(135%) !important; }
+.nav a { padding:3px 6px !important; font-size:clamp(12px,3.1vw,15px) !important; }
+/* Add glass depth to panels/cards while leaving all original images intact. */
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.pay-inner,.pay,.toggle,.sample-open { background:rgba(8,11,18,.48) !important; border-color:rgba(255,255,255,.13) !important; box-shadow:0 12px 30px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.065) !important; -webkit-backdrop-filter:blur(14px) saturate(120%) !important; backdrop-filter:blur(14px) saturate(120%) !important; }
+.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn { background:rgba(8,11,18,.58) !important; border-color:rgba(255,255,255,.15) !important; }
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink { box-shadow:0 5px 18px rgba(45,104,255,.24),inset 0 1px 0 rgba(255,255,255,.18) !important; }
+.bundle-banner { filter:drop-shadow(0 10px 24px rgba(0,0,0,.22)); }
+@media (max-width:560px) { .top-row { min-height:76px !important; height:76px !important; padding:4px 4px 8px !important; } .top-row .brand { min-height:52px !important; height:52px !important; } .top-row .brand img { width:min(170px,46vw) !important; height:54px !important; max-height:54px !important; } .nav { padding:7px 6px !important; border-radius:14px !important; } .nav a { padding:2px 4px !important; } }
+@media (prefers-reduced-motion:reduce) { body::before { animation:none !important; } }
+</style>
+
+
+<style id="zipprep-header-visibility-fix">
+/* Fix dark-theme headers: no white box, keep the white ZipPrep logo visible. */
+html,body{background-color:#202124!important;color-scheme:dark}
+header.head{background:transparent!important;background-color:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;padding-top:12px!important;padding-bottom:18px!important;min-height:92px!important}
+header.head .logo{display:block!important;width:min(126px,36vw)!important;height:68px!important;object-fit:contain!important;opacity:1!important;visibility:visible!important;filter:none!important}
+header.head .back,header.head .crumb{color:#f4f6fb!important}
+header.top{background:rgba(8,10,16,.28)!important;border:1px solid rgba(255,255,255,.12)!important;box-shadow:0 10px 28px rgba(0,0,0,.18)!important}
+header.top .zipprep-logo{visibility:visible!important;opacity:1!important;filter:none!important}
+header.wrap:not(.top):not(.head){background:transparent!important;border:0!important;box-shadow:none!important}
+header.wrap:not(.top):not(.head) .brand{background:transparent!important;padding:0!important}
+header.wrap:not(.top):not(.head) .brand img{display:block!important;width:min(126px,36vw)!important;height:60px!important;object-fit:contain!important;opacity:1!important;visibility:visible!important}
+@media(max-width:560px){header.head{min-height:82px!important;padding:8px 0 14px!important;margin-top:4px!important;margin-bottom:18px!important}header.head .logo{width:min(120px,34vw)!important;height:62px!important}}
+</style>
+
+
+<style id="zipprep-glass-depth-update">
+/* Stronger glassmorphism: visual-only enhancement; keep existing content, typography, cover images and scripts intact. */
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 12% 18%,rgba(72,123,255,.14),transparent 34%),radial-gradient(ellipse at 88% 38%,rgba(54,104,255,.12),transparent 31%),radial-gradient(ellipse at 48% 100%,rgba(48,92,210,.10),transparent 40%);opacity:.95;mix-blend-mode:screen}
+.nav, .toggle-row, .review-form, .review-card, .step, .panel, .sample-card, .pay, .pay-inner, .card, .subject, .subject-chip, .toggle, .sample-open{background:linear-gradient(135deg,rgba(255,255,255,.075),rgba(255,255,255,.025) 48%,rgba(65,105,220,.055))!important;border:1px solid rgba(210,224,255,.18)!important;box-shadow:0 16px 36px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.13),inset 0 -1px 0 rgba(100,143,255,.08)!important;-webkit-backdrop-filter:blur(22px) saturate(145%)!important;backdrop-filter:blur(22px) saturate(145%)!important}
+.nav{background:linear-gradient(135deg,rgba(24,30,47,.62),rgba(8,11,19,.46))!important;border-color:rgba(190,208,255,.22)!important;box-shadow:0 14px 34px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.16),inset 0 0 24px rgba(74,119,255,.045)!important}
+.btn:not(.primary),.back,.crumb{background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(255,255,255,.015))!important}
+.btn:not(.primary){border-color:rgba(220,230,255,.2)!important;backdrop-filter:blur(16px)!important;-webkit-backdrop-filter:blur(16px)!important}
+.review-form input,.review-form select,.review-form textarea,input,select,textarea{background:rgba(5,8,15,.48)!important;border-color:rgba(207,221,255,.18)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)!important}
+.contact,.foot{background:linear-gradient(135deg,rgba(30,36,53,.76),rgba(9,12,20,.68))!important;backdrop-filter:blur(24px) saturate(140%)!important;-webkit-backdrop-filter:blur(24px) saturate(140%)!important}
+.subject:hover,.review-card:hover,.step:hover{border-color:rgba(117,157,255,.35)!important;box-shadow:0 18px 42px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.15)!important}
+@media(prefers-reduced-motion:reduce){body::before{animation:none!important}}
+</style>
+
+<style id="zipprep-claude-artifact-theme">
+/* Site-wide visual adaptation from the supplied Claude artifact. Content and behavior are preserved. */
+:root{--zp-text:#f5f3ff;--zp-muted:#cfcae3;--zp-border:rgba(221,214,254,.18)}
+html{background:#0e0a1e!important;color-scheme:dark;scroll-behavior:smooth}
+body{color:var(--zp-text)!important;background-color:#0e0a1e!important;background-image:radial-gradient(ellipse 52% 42% at 8% 12%,rgba(124,58,237,.25),transparent 72%),radial-gradient(ellipse 48% 42% at 92% 34%,rgba(47,107,234,.17),transparent 72%),radial-gradient(ellipse 50% 40% at 54% 100%,rgba(192,38,211,.13),transparent 75%),linear-gradient(155deg,#0e0a1e 0%,#100b23 48%,#0a0918 100%)!important;background-attachment:fixed!important;background-repeat:no-repeat!important;background-size:cover!important}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 18% 22%,rgba(167,139,250,.09),transparent 34%),radial-gradient(circle at 82% 68%,rgba(47,181,196,.06),transparent 32%)}
+.wrap,.hero,.section,.intro,.top,.foot,.footer,.contact{background-color:transparent!important}
+.top-row,.top,.head{background:transparent!important;border-color:transparent!important;box-shadow:none!important}
+.nav{background:rgba(255,255,255,.065)!important;border:1px solid rgba(221,214,254,.2)!important;border-radius:18px!important;box-shadow:0 12px 32px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.15)!important;backdrop-filter:blur(18px) saturate(150%)!important;-webkit-backdrop-filter:blur(18px) saturate(150%)!important}
+.nav a,.back,.crumb,.toplink,.nl{color:#f5f3ff!important}
+.subject,.step,.review-card,.panel,.card,.sample-card,.paper,.toggle-row,.review-form,.review-form input,.review-form select,.review-form textarea,.subject-chip,.sample-btn,.sample-open,.pay-inner,.pay,.toggle,.selection,.options,.sample,.sample-grid,.subject-list{background:rgba(255,255,255,.065)!important;color:var(--zp-text)!important;border:1px solid var(--zp-border)!important;border-radius:18px!important;box-shadow:0 12px 32px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.11)!important;backdrop-filter:blur(16px) saturate(140%)!important;-webkit-backdrop-filter:blur(16px) saturate(140%)!important}
+.btn,.pay-button,.review-submit,.sample-button,.primary,.toplink{background:linear-gradient(135deg,#7c3aed 0%,#6d28d9 58%,#4f46e5 100%)!important;color:#fff!important;border:1px solid rgba(196,181,253,.48)!important;border-radius:14px!important;box-shadow:0 8px 24px rgba(109,40,217,.24)!important}
+.btn:not(.primary){background:rgba(255,255,255,.07)!important;color:#f5f3ff!important;border:1px solid rgba(221,214,254,.22)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.09)!important}
+button,.toggle,.sample-btn,.sample-open,.subject-chip,.nav a,.btn{transition:transform .22s ease,background .22s ease,border-color .22s ease,box-shadow .22s ease!important}
+.subject:hover,.card:hover,.sample-card:hover,.subject-chip:hover{transform:translateY(-3px);border-color:rgba(196,181,253,.38)!important;background:rgba(255,255,255,.10)!important}
+h1,h2,h3,h4,.title,.brand,.logo{color:#f5f3ff!important}
+p,.intro,.description,.crumb,.pay-hint,.sample-hint,.hint,.foot,.footer{color:#cfcae3!important}
+input,textarea,select{background:rgba(8,6,22,.72)!important;color:#f5f3ff!important;border:1px solid rgba(221,214,254,.22)!important;border-radius:12px!important}
+input::placeholder,textarea::placeholder{color:#a8a0c4!important}.review-stars{color:#c4b5fd!important}
+.sample-btn img,.sample-thumb,.subject img,.cover img{border-color:rgba(221,214,254,.18)!important}
+.modal,.image-modal{background:rgba(8,5,19,.96)!important;color:#f5f3ff!important}
+::selection{background:rgba(124,58,237,.42);color:#fff}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+\n<style id="zipprep-claude-theme">
+:root{color-scheme:dark;--zp-bg:#0e0a1e;--zp-panel:rgba(255,255,255,.075);--zp-panel-hover:rgba(255,255,255,.12);--zp-border:rgba(226,218,255,.19);--zp-text:#f5f3ff;--zp-muted:#cfc9e4;--zp-purple:#a78bfa;--zp-blue:#5c8dff;--zp-teal:#2fb5c4;--zp-shadow:0 14px 36px rgba(0,0,0,.28)}
+html{background:var(--zp-bg)!important;scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 12% 8%,rgba(124,58,237,.22),transparent 34%),radial-gradient(ellipse at 92% 25%,rgba(47,107,234,.18),transparent 32%),radial-gradient(ellipse at 50% 82%,rgba(192,38,211,.10),transparent 36%),#0e0a1e!important;color:var(--zp-text)!important;font-family:Roboto,Arial,sans-serif!important;overflow-x:hidden}
+body:before{background:radial-gradient(ellipse at 18% 12%,rgba(167,139,250,.19),transparent 48%),radial-gradient(ellipse at 88% 28%,rgba(47,181,196,.12),transparent 44%)!important;filter:blur(28px)!important;pointer-events:none}
+.wrap{position:relative}
+header,.top-row,.nav,.panel,.step,.review-form,.subject,.cover.image-cover,.sample-card,.sample,.pay,.pay-inner,.pay-panel,.options,.selection,.subject-chip,.hero,.intro,.grid,.sample-grid,.history-samples,.contact,.footer,.foot{color:var(--zp-text)!important}
+.top-row,.nav,.panel,.step,.review-form,.sample-card,.sample,.pay,.pay-inner,.pay-panel,.options,.selection,.subject-chip,.hero,.intro,.contact,.footer,.foot{background:var(--zp-panel)!important;border:1px solid var(--zp-border)!important;border-radius:18px!important;box-shadow:var(--zp-shadow),inset 0 1px 0 rgba(255,255,255,.10)!important;backdrop-filter:blur(18px) saturate(145%)!important;-webkit-backdrop-filter:blur(18px) saturate(145%)!important}
+.top-row{background:transparent!important;border-color:transparent!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+.nav{padding:10px 12px!important}
+.nav a,.back,.brand,.zipprep-brand,.zipprep-pyqs-brand{color:var(--zp-text)!important}
+.nav a:hover,.back:hover{color:#c4b5fd!important}
+h1,h2,h3,.hero h1,.section h2,#how-to-buy h2,#contact h2,.title{color:#f8f7ff!important}
+p,.description,.intro,.hint,.crumb,.pay-hint,.sample-hint,.pay-message,.label{color:var(--zp-muted)!important}
+.subject{background:rgba(255,255,255,.065)!important;border:1px solid rgba(226,218,255,.18)!important;border-radius:17px!important;box-shadow:0 12px 28px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.10)!important;color:var(--zp-text)!important}
+.subject::before{border-color:rgba(226,218,255,.18)!important}
+.cover.image-cover{border:1px solid rgba(226,218,255,.2)!important;border-radius:13px!important;box-shadow:0 8px 24px rgba(0,0,0,.25)!important}
+.subject-label{color:var(--zp-text)!important}
+.btn,.btn.primary,.btn.yellow,.pay-button,.sample-btn,.toggle,.actions a,.bundle-cta-wrap a{background:linear-gradient(115deg,#7c3aed,#4f6cf7 58%,#2fb5c4)!important;color:#fff!important;border:1px solid rgba(226,218,255,.25)!important;border-radius:13px!important;box-shadow:0 8px 22px rgba(92,83,220,.24)!important;text-decoration:none!important}
+.btn:hover,.pay-button:hover,.sample-btn:hover,.toggle:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.num{background:rgba(167,139,250,.17)!important;color:#ddd6fe!important;border:1px solid rgba(196,181,253,.3)!important;box-shadow:none!important}
+.bundle-banner{border-radius:18px!important;box-shadow:0 18px 40px rgba(0,0,0,.35)!important}
+.review-form input,.review-form textarea,.review-form select,input,textarea,select{background:rgba(8,6,19,.7)!important;color:var(--zp-text)!important;border:1px solid var(--zp-border)!important;border-radius:11px!important}
+::placeholder{color:#aaa2c8!important;opacity:1}
+hr{border-color:var(--zp-border)!important}
+.footer,.foot{background:rgba(255,255,255,.035)!important;border-color:var(--zp-border)!important}
+.toplink{background:linear-gradient(120deg,#7c3aed,#4f6cf7)!important;color:#fff!important;box-shadow:0 8px 24px rgba(92,83,220,.3)!important}
+.modal,.image-modal{background:rgba(8,5,18,.92)!important;color:var(--zp-text)!important;backdrop-filter:blur(18px)!important}
+.card,.subject,.sample-card,.panel{transition:transform .25s ease,background .25s ease,border-color .25s ease,box-shadow .25s ease}
+.subject:hover,.sample-card:hover,.panel:hover{transform:translateY(-3px);background:rgba(255,255,255,.105)!important;border-color:rgba(196,181,253,.34)!important}
+@keyframes zpAura{0%,100%{opacity:.32;transform:scale(.94)}50%{opacity:.62;transform:scale(1.04)}}
+body:after{content:"";position:fixed;z-index:-1;pointer-events:none;left:-12vw;bottom:-20vh;width:55vw;height:55vw;max-width:520px;max-height:520px;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.18),transparent 68%);filter:blur(22px);animation:zpAura 12s ease-in-out infinite}
+@media(max-width:600px){.nav{gap:3px!important;padding:8px 5px!important}.nav a{font-size:clamp(11px,3.2vw,14px)!important}.subject{padding:8px!important}.wrap{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+<style id="zipprep-claude-font">
+@font-face{font-family:"Neue Freigeist";src:url("./1939f46af42e826eaa1c80b33242fcf8.otf") format("opentype");font-weight:900;font-style:normal;font-display:swap}
 </style>
 </head>
 <body>
-<header class="wrap top"><a class="brand" href="index.html" aria-label="ZipPrep home"><img src="./zipprep-logo-white.png" alt="ZipPrep logo"></a><a class="back" href="index.html">← Back to home</a></header>
+<header class="wrap top"><a class="brand zipprep-brand" href="index.html" aria-label="ZipPrep home"><img class="zipprep-logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a><a class="back" href="index.html">← Back to home</a></header>
 <main class="wrap">
 <section class="hero"><h1>Bundle Notes</h1><img class="cover" src="./bundle-notes-cover.png" alt="ZipPrep Bundle Notes — at just ₹759"></section>
 <section class="panel" aria-labelledby="included-heading"><h2 id="included-heading">Subjects Included</h2><div class="subject-list"><span class="subject-chip">History</span><span class="subject-chip">Geography</span><span class="subject-chip">Economics</span><span class="subject-chip">Polity</span><span class="subject-chip">Constitution</span><span class="subject-chip">Maths</span><span class="subject-chip">G.K.</span><span class="subject-chip">English</span></div></section>
@@ -36,7 +238,7 @@ const modal=document.getElementById('modal'),modalImg=document.getElementById('m
 function closeModal(){modal.classList.remove('open');modalImg.src='';document.body.style.overflow=''}
 document.querySelectorAll('.sample-btn').forEach(b=>b.addEventListener('click',()=>{modalImg.src=b.dataset.fullImage;modalImg.alt=b.dataset.caption;caption.textContent=b.dataset.caption;modal.classList.add('open');document.body.style.overflow='hidden'}));
 document.getElementById('close-modal').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-document.getElementById('pay-button').addEventListener('click',()=>{document.getElementById('pay-message').textContent='Bundle payment is not activated yet. The existing checkout is configured for individual notes, not the ₹759 bundle. Please contact WitWarp before paying; verified payment and secure bundle PDF delivery must be configured first.'});
+document.getElementById('pay-button').addEventListener('click',()=>{document.getElementById('pay-message').textContent='Bundle payment is not activated yet. The existing checkout is configured for individual notes, not the ₹759 bundle. Please contact ZipPrep before paying; verified payment and secure bundle PDF delivery must be configured first.'});
 </script>
 </body>
 </html>

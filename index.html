@@ -289,9 +289,17 @@ body>*:not(#zp-cubes-bg){position:relative;z-index:1}
 body{isolation:isolate}
 @media(prefers-reduced-motion:reduce){#zp-cubes-bg{opacity:.42}}
 </style>
+
+<style id="zipprep-clean-white-background">
+/* Clean white page background; remove the cube canvas and all decorative ambient glows. */
+html, body { background: #fff !important; background-color: #fff !important; background-image: none !important; color-scheme: light !important; }
+body::before, body::after { content: none !important; display: none !important; background: none !important; animation: none !important; filter: none !important; }
+main, header.wrap, .hero, .section, .bundle-cta-wrap, .contact, .foot, .footer { background: #fff !important; background-color: #fff !important; background-image: none !important; }
+#zp-cubes-bg { display: none !important; }
+</style>
+
 </head>
 <body id="top">
-<canvas id="zp-cubes-bg" aria-hidden="true"></canvas>
 <header class="wrap top">
 <div class="top-row"><a class="brand" href="index.html" aria-label="ZipPrep home"><img class="logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a></div>
 <nav class="nav" aria-label="Main navigation"><a href="#notes">Notes</a><a href="#how-to-buy">How to buy</a><a href="#contact">Contact</a></nav>
@@ -398,63 +406,7 @@ if('IntersectionObserver' in window){
 
 
 
-<script id="zipprep-aceternity-cubes-script">
-(() => {
-  const canvas = document.getElementById('zp-cubes-bg');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d', { alpha: true });
-  if (!ctx) return;
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let w=0,h=0,dpr=1, raf=0, last=0;
-  const pointer={x:-9999,y:-9999,active:false};
-  const cell=54;
-  function resize(){
-    dpr=Math.min(window.devicePixelRatio||1,1.5); w=window.innerWidth; h=window.innerHeight;
-    canvas.width=Math.round(w*dpr); canvas.height=Math.round(h*dpr);
-    canvas.style.width=w+'px';canvas.style.height=h+'px';ctx.setTransform(dpr,0,0,dpr,0,0);
-  }
-  function cube(x,y,size, lift, glow){
-    const half=size/2, depth=size*.42;
-    const topY=y-lift;
-    const front=`rgba(66,133,255,${.055+glow*.12})`;
-    const side=`rgba(94,234,212,${.045+glow*.10})`;
-    const top=`rgba(190,155,255,${.045+glow*.12})`;
-    ctx.lineWidth=1;
-    ctx.strokeStyle=`rgba(130,170,255,${.11+glow*.35})`;
-    // isometric top
-    ctx.beginPath();ctx.moveTo(x,topY-depth);ctx.lineTo(x+half,topY-depth/2);ctx.lineTo(x,topY);ctx.lineTo(x-half,topY-depth/2);ctx.closePath();ctx.fillStyle=top;ctx.fill();ctx.stroke();
-    // left face
-    ctx.beginPath();ctx.moveTo(x-half,topY-depth/2);ctx.lineTo(x,topY);ctx.lineTo(x,y+half*.55);ctx.lineTo(x-half,y-depth/2+half*.55);ctx.closePath();ctx.fillStyle=side;ctx.fill();ctx.stroke();
-    // right face
-    ctx.beginPath();ctx.moveTo(x,topY);ctx.lineTo(x+half,topY-depth/2);ctx.lineTo(x+half,y-depth/2+half*.55);ctx.lineTo(x,y+half*.55);ctx.closePath();ctx.fillStyle=front;ctx.fill();ctx.stroke();
-  }
-  function draw(now){
-    if(reduceMotion && last) return;
-    if(last && now-last < (reduceMotion?1000:32)){raf=requestAnimationFrame(draw);return;} last=now;
-    ctx.clearRect(0,0,w,h);
-    const size=Math.max(44,Math.min(66,cell*(w<600?.84:1)));
-    const stepX=size*.78, stepY=size*.48;
-    const cols=Math.ceil(w/stepX)+4, rows=Math.ceil(h/stepY)+4;
-    const ox=((w/2)%stepX)-stepX*2, oy=((h/2)%stepY)-stepY*2;
-    const t=now*.00065;
-    for(let r=-2;r<rows;r++) for(let c=-2;c<cols;c++){
-      const x=ox+c*stepX+(r%2)*stepX*.5;
-      const y=oy+r*stepY;
-      const dx=x-pointer.x,dy=y-pointer.y,dist=Math.sqrt(dx*dx+dy*dy);
-      const influence=pointer.active?Math.max(0,1-dist/(size*3.8)):0;
-      const wave=reduceMotion?0:Math.sin(t+(c*.38)+(r*.29))*.8;
-      const lift=influence*size*.28+wave*size*.025;
-      cube(x,y,size,lift,influence);
-    }
-    if(!reduceMotion) raf=requestAnimationFrame(draw);
-  }
-  window.addEventListener('resize',resize,{passive:true});
-  window.addEventListener('pointermove',e=>{pointer.x=e.clientX;pointer.y=e.clientY;pointer.active=true;if(!raf)raf=requestAnimationFrame(draw);},{passive:true});
-  window.addEventListener('pointerleave',()=>{pointer.active=false;},{passive:true});
-  resize();
-  if(reduceMotion) draw(0); else raf=requestAnimationFrame(draw);
-})();
-</script>
+
 
 </body>
 </html>

@@ -226,11 +226,33 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 
 
 <style id="zipprep-flip-fade-headline">
-/* Apply Flip Fade to the entire headline as one unit; keep the wording unchanged. */
-.hero-headline{perspective:1000px;transform-origin:50% 55%;transform-style:preserve-3d;animation:zipHeadlineFlipFade .9s cubic-bezier(.2,.65,.3,.9) both;will-change:transform,opacity,filter}
-@keyframes zipHeadlineFlipFade{from{transform:rotateX(65deg) translateY(14px);opacity:0;filter:blur(7px)}to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
-@media(prefers-reduced-motion:reduce){.hero-headline{animation:none!important;will-change:auto}}
+/* Flip Fade Text-inspired letter-by-letter entrance on the complete, unchanged headline. */
+.hero-headline{perspective:1000px;transform-style:preserve-3d}
+.hero-headline .flip-letter{display:inline-block;white-space:pre;transform-origin:50% 50%;transform-style:preserve-3d;opacity:0;filter:blur(8px);transform:rotateX(90deg) translateY(20px);animation:zipFlipFadeLetter .6s cubic-bezier(.2,.65,.3,.9) forwards;animation-delay:var(--flip-delay,0s);will-change:transform,opacity,filter}
+.hero-headline .flip-space{display:inline-block;white-space:pre}
+@keyframes zipFlipFadeLetter{to{transform:rotateX(0) translateY(0);opacity:1;filter:blur(0)}}
+@media(prefers-reduced-motion:reduce){.hero-headline .flip-letter{animation:none!important;opacity:1!important;filter:none!important;transform:none!important;will-change:auto}}
 </style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  const headline=document.querySelector('.hero-headline');
+  if(!headline || headline.dataset.flipFadeReady) return;
+  headline.dataset.flipFadeReady='true';
+  let delay=0;
+  const nodes=Array.from(headline.childNodes);
+  headline.textContent='';
+  nodes.forEach(function(node){
+    if(node.nodeType===Node.TEXT_NODE){
+      Array.from(node.textContent).forEach(function(char){
+        if(char===' '){const space=document.createElement('span');space.className='flip-space';space.textContent=' ';headline.appendChild(space);return;}
+        const letter=document.createElement('span');letter.className='flip-letter';letter.style.setProperty('--flip-delay',(delay*0.025)+'s');letter.textContent=char;headline.appendChild(letter);delay++;
+      });
+    }else if(node.nodeName==='BR'){
+      headline.appendChild(document.createElement('br'));
+    }else{headline.appendChild(node.cloneNode(true));}
+  });
+});
+</script>
 
 </head>
 <body id="top">

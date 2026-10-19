@@ -298,6 +298,30 @@ main, header.wrap, .hero, .section, .bundle-cta-wrap, .contact, .foot, .footer {
 #zp-cubes-bg { display: none !important; }
 </style>
 
+
+<style id="zipprep-white-theme-contrast-fix">
+/* Final light-theme overrides: keep the white background, restore readable contrast. */
+html, body { background:#fff !important; color:#172334 !important; color-scheme:light !important; }
+body::before, body::after { display:none !important; content:none !important; }
+.top-row, .top-row .brand { background:transparent !important; box-shadow:none !important; }
+.top-row .brand img, .top-row .logo { filter:brightness(0) !important; opacity:1 !important; }
+.nav { background:#f3f7fc !important; border:1px solid #d7e3f0 !important; box-shadow:0 5px 16px rgba(20,45,80,.08) !important; -webkit-backdrop-filter:none !important; backdrop-filter:none !important; }
+.nav a, .back, .crumb { color:#172334 !important; }
+.nav a:hover, .back:hover { color:#087fe8 !important; }
+.hero h1, .section h2, .contact h2, .panel h2, .title, .sample h2, .review-card h3, .step h3 { color:#111827 !important; }
+.hero p, .intro, .step p, .contact p, .review-card p, .review-swipe-hint, .description, .sample-hint, .pay-hint, .foot p { color:#526174 !important; }
+.subject, .step, .review-card, .panel, .card, .sample-card, .paper, .toggle-row, .review-form, .review-form input, .review-form select, .review-form textarea, .subject-chip, .sample-btn, .sample-open, .pay-inner, .pay, .toggle { background:#fff !important; color:#172334 !important; border-color:#d7e3f0 !important; box-shadow:0 5px 16px rgba(20,45,80,.07) !important; -webkit-backdrop-filter:none !important; backdrop-filter:none !important; }
+.subject-label { color:#172334 !important; }
+.btn:not(.primary) { background:#fff !important; color:#172334 !important; border:1px solid #d7e3f0 !important; box-shadow:0 4px 12px rgba(20,45,80,.07) !important; }
+.btn.primary, .btn.yellow, .pay-button, .review-submit, .sample-button, .primary, .toplink { background:#2563eb !important; color:#fff !important; border-color:#2563eb !important; }
+.review-form input, .review-form select, .review-form textarea, input, select, textarea { background:#fff !important; color:#172334 !important; border-color:#cbd5e1 !important; }
+input::placeholder, textarea::placeholder { color:#64748b !important; }
+.contact, .foot, .footer { background:#f3f7fc !important; color:#172334 !important; border-color:#d7e3f0 !important; }
+.contact a, .foot a { color:#0759c7 !important; }
+.footer { color:#526174 !important; }
+.review-stars { color:#2563eb !important; }
+</style>
+
 </head>
 <body id="top">
 <header class="wrap top">

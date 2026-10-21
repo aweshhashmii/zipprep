@@ -248,7 +248,7 @@ input::placeholder,textarea::placeholder{color:#a8a0c4!important}.review-stars{c
 ::selection{background:rgba(124,58,237,.42);color:#fff}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 </style>
-\n<style id="zipprep-claude-theme">
+<style id="zipprep-claude-theme">
 :root{color-scheme:dark;--zp-bg:#0e0a1e;--zp-panel:rgba(255,255,255,.075);--zp-panel-hover:rgba(255,255,255,.12);--zp-border:rgba(226,218,255,.19);--zp-text:#f5f3ff;--zp-muted:#cfc9e4;--zp-purple:#a78bfa;--zp-blue:#5c8dff;--zp-teal:#2fb5c4;--zp-shadow:0 14px 36px rgba(0,0,0,.28)}
 html{background:var(--zp-bg)!important;scroll-behavior:smooth}
 body{background:radial-gradient(ellipse at 12% 8%,rgba(124,58,237,.22),transparent 34%),radial-gradient(ellipse at 92% 25%,rgba(47,107,234,.18),transparent 32%),radial-gradient(ellipse at 50% 82%,rgba(192,38,211,.10),transparent 36%),#0e0a1e!important;color:var(--zp-text)!important;font-family:Roboto,Arial,sans-serif!important;overflow-x:hidden}
@@ -283,36 +283,141 @@ body:after{content:"";position:fixed;z-index:-1;pointer-events:none;left:-12vw;b
 @media(max-width:600px){.nav{gap:3px!important;padding:8px 5px!important}.nav a{font-size:clamp(11px,3.2vw,14px)!important}.subject{padding:8px!important}.wrap{max-width:100%}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
 </style>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&display=swap" rel="stylesheet">
 <style id="zipprep-claude-font">
 @font-face{font-family:"Neue Freigeist";src:url("./1939f46af42e826eaa1c80b33242fcf8.otf") format("opentype");font-weight:900;font-style:normal;font-display:swap}
 </style>
+<style id="zipprep-home-redesign">
+/* ZipPrep homepage redesign: glass UI, hero image, 3D bundle ring, animated covers. All classes are prefixed zp- */
+.zp-zone{position:relative;overflow:hidden;isolation:isolate;--zp-tx:#F5F3FF;--zp-mu:#CFCAE3;font-family:'DM Sans',Roboto,system-ui,sans-serif;color:var(--zp-tx)}
+.zp-zone .section{position:relative;z-index:2}
+.zp-orb{position:absolute;z-index:0;border-radius:50%;filter:blur(60px);opacity:.45;pointer-events:none;animation:zpDrift 11s ease-in-out infinite alternate}
+.zp-in{position:relative;z-index:2;width:min(100% - 40px,480px);margin:0 auto}
+.zp-glass{position:relative;background:rgba(255,255,255,.09);-webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);border:1px solid rgba(255,255,255,.2);box-shadow:0 10px 30px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.28)}
+.zp-glass::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(135deg,rgba(255,255,255,.2),rgba(255,255,255,0) 45%);pointer-events:none}
+.zp-head{position:relative;z-index:3;padding-top:24px}
+.zp-brand{display:block;text-align:center}
+.zp-logo{display:inline-block;height:30px;width:auto}
+.zp-nav{display:flex;margin-top:16px;border-radius:0;border-left:0;border-right:0}
+.zp-nav a{flex:1;height:32px;display:flex;align-items:center;justify-content:center;font:400 11px 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--zp-tx);transition:background .2s ease}
+.zp-nav a:hover{background:rgba(255,255,255,.14)}
+.zp-nav a.on{background:rgba(255,255,255,.14);box-shadow:inset 0 -2px 0 #F5F3FF}
+.zp-h1{margin:24px 0 0;perspective:1000px;text-align:center;font-family:'Neue Freigeist','DM Sans',system-ui,sans-serif;font-size:30px;line-height:1.15;font-weight:900;letter-spacing:-.01em;color:var(--zp-tx)}
+.zp-w{display:inline-block;white-space:nowrap}
+.zp-l{display:inline-block;transform-style:preserve-3d;animation:zpFlip 8s linear infinite backwards}
+.zp-sub{margin:12px auto 0;max-width:320px;text-align:center;font:400 14px/1.5 'DM Sans',Roboto,sans-serif;color:var(--zp-mu);animation:zpUp .7s ease-out .5s backwards}
+.zp-stage{position:relative;z-index:1;height:270px;pointer-events:none}
+.zp-himg{position:absolute;left:50%;top:-18px;transform:translateX(-50%);width:max(780px,100%);aspect-ratio:780/439;-webkit-mask-image:linear-gradient(180deg,transparent,#000 32%,#000 55%,transparent);mask-image:linear-gradient(180deg,transparent,#000 32%,#000 55%,transparent)}
+.zp-himg img{display:block;width:100%;height:100%;object-fit:cover;transform-origin:50% 40%;animation:zpKen 16s ease-in-out infinite alternate,zpHue 12s ease-in-out infinite alternate}
+.zp-aura{position:absolute;left:50%;margin-left:-90px;top:90px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(167,139,250,.5),transparent 70%);animation:zpGlow 5s ease-in-out infinite}
+.zp-blur{position:absolute;left:0;right:0;top:-70px;height:160px;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);-webkit-mask-image:linear-gradient(180deg,transparent,#000 50%,transparent);mask-image:linear-gradient(180deg,transparent,#000 50%,transparent)}
+.zp-bub{position:absolute;border-radius:50%;animation:zpBob 5s ease-in-out infinite}
+.zp-bundle{overflow:hidden;border-radius:24px;padding:22px;background:linear-gradient(160deg,rgba(40,30,96,.7),rgba(12,10,30,.75));animation:zpUp .6s ease-out backwards}
+.zp-frame{position:absolute;inset:8px;border:1px solid rgba(255,255,255,.14);border-radius:17px;pointer-events:none}
+.zp-bglow{position:absolute;left:50%;top:250px;width:280px;height:280px;margin-left:-140px;border-radius:50%;background:radial-gradient(circle,rgba(139,108,255,.5),transparent 68%);animation:zpGlow 5s ease-in-out infinite;pointer-events:none}
+.zp-bc{position:relative;z-index:1;display:flex;flex-direction:column}
+.zp-top{display:flex;justify-content:space-between;align-items:flex-start;font-size:12px;font-weight:500;letter-spacing:.35em;color:#E9E5FF}
+.zp-dots{display:grid;grid-template-columns:repeat(3,3px);gap:7px}
+.zp-dots span{width:3px;height:3px;border-radius:50%;background:#E9E5FF;animation:zpTwinkle 2.4s ease-in-out infinite}
+.zp-bt{margin-top:26px;font-size:54px;font-weight:700;letter-spacing:.01em;line-height:1;background:linear-gradient(100deg,#fff 40%,#A99BFF 50%,#fff 60%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:zpShine 4s linear infinite}
+.zp-bs{margin-top:14px;font-size:11px;font-weight:500;letter-spacing:.28em;line-height:1.7;color:#D8D3F0;animation:zpUp .7s ease-out .3s backwards}
+.zp-ringbox{position:relative;height:232px;margin-top:8px;perspective:900px;perspective-origin:50% 40%;animation:zpBob 6s ease-in-out infinite}
+.zp-floor{position:absolute;left:50%;bottom:6px;width:240px;height:34px;margin-left:-120px;border-radius:50%;background:radial-gradient(ellipse,rgba(169,155,255,.55),transparent 70%);animation:zpGlow 5s ease-in-out infinite}
+.zp-ring{position:absolute;left:50%;top:40px;width:104px;height:147px;margin-left:-52px;transform-style:preserve-3d;animation:zpRing 26s linear infinite}
+.zp-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:7px;overflow:hidden;box-shadow:0 10px 26px rgba(0,0,0,.55)}
+.zp-face img{display:block;width:100%;height:100%;object-fit:cover}
+.zp-kws{margin-top:16px;font-size:11px;font-weight:500;letter-spacing:.28em;line-height:1.75;color:#D8D3F0}
+.zp-kws div{animation:zpKw 6s ease-in-out infinite}
+.zp-cta{position:relative;overflow:hidden;margin-top:16px;height:48px;border-radius:24px;background:#fff;color:#111;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;text-decoration:none}
+.zp-cta i{position:absolute;top:0;bottom:0;left:0;width:40%;background:linear-gradient(100deg,transparent,rgba(124,58,237,.18),transparent);animation:zpSweep 3s ease-in-out infinite}
+.zp-cta span{position:relative;display:flex;align-items:center;gap:8px}
+.zp-cta svg{animation:zpNudge 1.4s ease-in-out infinite}
+.zp-note{margin:12px 0 0;font-size:12px;line-height:1.5;color:#D8D3F0;text-align:center}
+.zp-tick{margin-top:20px;height:36px;display:flex;align-items:center;overflow:hidden;border-radius:12px}
+.zp-tick-in{display:flex;width:max-content;animation:zpTick 22s linear infinite}
+.zp-ti{display:flex;align-items:center;gap:8px;padding:0 14px;white-space:nowrap;font:400 11px 'DM Mono',monospace;letter-spacing:.1em;color:var(--zp-tx)}
+.zp-ti i{width:6px;height:6px;border-radius:50%}
+.zp-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:980px;margin:0 auto}
+@media(min-width:760px){.zp-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}}
+.zp-card{display:block;padding:5px;border-radius:16px;text-decoration:none;transition:transform .25s ease,background .25s ease;animation:zpUp .6s ease-out backwards;animation-delay:var(--d)}
+.zp-card:hover{transform:translateY(-4px);background:rgba(255,255,255,.15)}
+.zp-cv{position:relative;overflow:hidden;border-radius:11px;aspect-ratio:520/740;animation:zpFloat 6s ease-in-out infinite;animation-delay:var(--f)}
+.zp-cv img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.zp-card:hover .zp-cv img{transform:scale(1.07)}
+.zp-sh{position:absolute;top:0;bottom:0;left:0;width:45%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.3),transparent);animation:zpSheen 7s ease-in-out infinite backwards;animation-delay:var(--s)}
+@keyframes zpUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes zpBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes zpFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes zpFlip{0%{opacity:0;transform:rotateX(90deg) translateY(20px);filter:blur(8px);animation-timing-function:cubic-bezier(.2,.65,.3,.9)}8%{opacity:1;transform:none;filter:blur(0)}72%{opacity:1;transform:none;filter:blur(0);animation-timing-function:ease-in}80%,100%{opacity:0;transform:rotateX(-90deg) translateY(-20px);filter:blur(8px)}}
+@keyframes zpKen{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-14px,-10px)}}
+@keyframes zpHue{from{filter:hue-rotate(0deg) saturate(1)}to{filter:hue-rotate(28deg) saturate(1.2)}}
+@keyframes zpGlow{0%,100%{opacity:.45;transform:scale(.88)}50%{opacity:1;transform:scale(1.12)}}
+@keyframes zpDrift{from{transform:translate(0,0) scale(1)}to{transform:translate(40px,-50px) scale(1.15)}}
+@keyframes zpRing{from{transform:rotateX(-10deg) rotateY(0deg)}to{transform:rotateX(-10deg) rotateY(360deg)}}
+@keyframes zpShine{from{background-position:150% 0}to{background-position:-50% 0}}
+@keyframes zpTwinkle{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes zpKw{0%,40%,100%{opacity:.7;transform:none}10%,30%{opacity:1;transform:translateX(4px)}}
+@keyframes zpSweep{from{transform:translateX(-150%)}to{transform:translateX(350%)}}
+@keyframes zpNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+@keyframes zpTick{to{transform:translateX(-50%)}}
+@keyframes zpSheen{0%{transform:translateX(-160%)}25%,100%{transform:translateX(320%)}}
+@media(prefers-reduced-motion:reduce){.zp-zone *,.zp-zone *::before{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body id="top">
-<header class="wrap top">
-<div class="top-row"><a class="brand" href="index.html" aria-label="ZipPrep home"><img class="logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a></div>
-<nav class="nav" aria-label="Main navigation"><a href="#notes">Notes</a><a href="#how-to-buy">How to buy</a><a href="#contact">Contact</a></nav>
-</header>
 <main>
-<section class="wrap hero">
-<div class="hero-layout"><div class="hero-copy"><h1>Affordable notes<br>for competitive<br>exam prep.</h1>
-<p>ZipPrep sells exam-focused study notes at prices students can actually pay.</p>
-<div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message ZipPrep</a></div></div></div>
+<div class="zp-zone">
+<i class="zp-orb" aria-hidden="true" style="top:16%;left:-70px;width:240px;height:240px;background:#7C3AED"></i>
+<i class="zp-orb" aria-hidden="true" style="top:46%;right:-80px;width:260px;height:260px;background:#2F6BEA;animation-duration:13s"></i>
+<i class="zp-orb" aria-hidden="true" style="top:74%;left:-60px;width:240px;height:240px;background:#C026D3;animation-duration:9s"></i>
+<header class="zp-head">
+<a class="zp-brand" href="index.html" aria-label="ZipPrep home"><img class="zp-logo" src="./zipprep-logo-white.png" alt="ZipPrep logo"></a>
+<nav class="zp-nav zp-glass" aria-label="Main navigation"><a href="#notes" class="on">Notes</a><a href="#how-to-buy">How to buy</a><a href="#contact">Contact</a></nav>
+<div class="zp-in">
+<h1 class="zp-h1" aria-label="Affordable notes for competitive exam prep."><span class="zp-w"><span class="zp-l" aria-hidden="true" style="animation-delay:0.035s">A</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.070s">f</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.105s">f</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.140s">o</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.175s">r</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.210s">d</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.245s">a</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.280s">b</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.315s">l</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.350s">e</span></span> <span class="zp-w"><span class="zp-l" aria-hidden="true" style="animation-delay:0.420s">n</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.455s">o</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.490s">t</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.525s">e</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.560s">s</span></span> <span class="zp-w"><span class="zp-l" aria-hidden="true" style="animation-delay:0.630s">f</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.665s">o</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.700s">r</span></span> <span class="zp-w"><span class="zp-l" aria-hidden="true" style="animation-delay:0.770s">c</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.805s">o</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.840s">m</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.875s">p</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.910s">e</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.945s">t</span><span class="zp-l" aria-hidden="true" style="animation-delay:0.980s">i</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.015s">t</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.050s">i</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.085s">v</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.120s">e</span></span> <span class="zp-w"><span class="zp-l" aria-hidden="true" style="animation-delay:1.190s">e</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.225s">x</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.260s">a</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.295s">m</span></span> <span class="zp-w"><span class="zp-l" aria-hidden="true" style="animation-delay:1.365s">p</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.400s">r</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.435s">e</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.470s">p</span><span class="zp-l" aria-hidden="true" style="animation-delay:1.505s">.</span></span></h1>
+<p class="zp-sub">ZipPrep sells exam-focused study notes at prices students can actually pay.</p>
+</div>
+</header>
+<div class="zp-stage" aria-hidden="true">
+<div class="zp-himg"><img src="hero-bg.jpg" alt=""></div>
+<div class="zp-aura"></div>
+<div class="zp-blur"></div>
+<i class="zp-bub zp-glass" style="left:calc(50% - 169px);top:92px;width:46px;height:46px"></i>
+<i class="zp-bub zp-glass" style="left:calc(50% + 123px);top:172px;width:34px;height:34px;animation-delay:1s;animation-duration:4s"></i>
+<i class="zp-bub zp-glass" style="left:calc(50% + 85px);top:38px;width:26px;height:26px;animation-delay:2s;animation-duration:6s"></i>
+</div>
+<div class="zp-in">
+<section class="zp-bundle zp-glass" aria-label="Bundle Notes">
+<div class="zp-frame" aria-hidden="true"></div>
+<div class="zp-bglow" aria-hidden="true"></div>
+<div class="zp-bc">
+<div class="zp-top"><span>ZIPPREP</span><div class="zp-dots" aria-hidden="true"><span style="animation-delay:0.0s"></span><span style="animation-delay:0.2s"></span><span style="animation-delay:0.4s"></span><span style="animation-delay:0.6s"></span><span style="animation-delay:0.8s"></span><span style="animation-delay:1.0s"></span><span style="animation-delay:1.2s"></span><span style="animation-delay:1.4s"></span><span style="animation-delay:1.6s"></span></div></div>
+<div class="zp-bt">BUNDLE</div>
+<div class="zp-bs">ALL 8 SUBJECTS<br>EXAM NOTES</div>
+<div class="zp-ringbox" aria-hidden="true"><div class="zp-floor"></div><div class="zp-ring"><div class="zp-face" style="transform:rotateY(0deg) translateZ(140px)"><img src="cover-history.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(45deg) translateZ(140px)"><img src="cover-geography.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(90deg) translateZ(140px)"><img src="cover-polity.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(135deg) translateZ(140px)"><img src="cover-constitution.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(180deg) translateZ(140px)"><img src="cover-maths.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(225deg) translateZ(140px)"><img src="cover-gk.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(270deg) translateZ(140px)"><img src="cover-economics.jpg" alt="" loading="lazy"></div><div class="zp-face" style="transform:rotateY(315deg) translateZ(140px)"><img src="cover-english.jpg" alt="" loading="lazy"></div></div></div>
+<div class="zp-kws"><div style="animation-delay:0.0s">ALL SUBJECTS</div><div style="animation-delay:1.5s">MORE SAVINGS</div><div style="animation-delay:3.0s">EXAM-FOCUSED</div><div style="animation-delay:4.5s">STUDY SMARTER</div></div>
+<a class="zp-cta" href="bundle-notes.html" aria-label="Get Bundle Notes for ₹759"><i aria-hidden="true"></i><span>Get the bundle <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
+<p class="zp-note">Complete notes for your exam preparation, at a better price.</p>
+</div>
 </section>
-<div class="bundle-cta-wrap"><a class="bundle-banner" href="bundle-notes.html" aria-label="Get Bundle Notes for ₹759"><img src="./bundle-banner.png" alt="Get Bundle Notes — Bundle Notes at just ₹759"></a><p class="bundle-tap-hint">Tap to buy</p></div>
+<div class="zp-tick zp-glass" aria-hidden="true"><div class="zp-tick-in"><span class="zp-ti">HISTORY<i style="background:#E5B84A"></i></span><span class="zp-ti">GEOGRAPHY<i style="background:#5BC47F"></i></span><span class="zp-ti">POLITY<i style="background:#F29A4B"></i></span><span class="zp-ti">CONSTITUTION<i style="background:#B4D84A"></i></span><span class="zp-ti">MATHS<i style="background:#F07BA3"></i></span><span class="zp-ti">G.K.<i style="background:#9B8CFF"></i></span><span class="zp-ti">ECONOMICS<i style="background:#3FCAD8"></i></span><span class="zp-ti">ENGLISH<i style="background:#6C9BFF"></i></span><span class="zp-ti">HISTORY<i style="background:#E5B84A"></i></span><span class="zp-ti">GEOGRAPHY<i style="background:#5BC47F"></i></span><span class="zp-ti">POLITY<i style="background:#F29A4B"></i></span><span class="zp-ti">CONSTITUTION<i style="background:#B4D84A"></i></span><span class="zp-ti">MATHS<i style="background:#F07BA3"></i></span><span class="zp-ti">G.K.<i style="background:#9B8CFF"></i></span><span class="zp-ti">ECONOMICS<i style="background:#3FCAD8"></i></span><span class="zp-ti">ENGLISH<i style="background:#6C9BFF"></i></span></div></div>
+</div>
+
 <section class="wrap section" id="notes">
 <h2>Subject Wise Notes</h2>
 <p class="intro">Choose the notes that match your exam. Open a subject to explore its contents, description, and sample notes.</p>
-<div class="grid">
-<a class="subject" href="notes.html?subject=History"><div class="cover image-cover"><img src="./history-cover.png" alt="History notes cover"></div><span class="subject-label">History</span></a>
-<a class="subject" href="notes.html?subject=Geography"><div class="cover image-cover"><img src="./geography-cover.png" alt="Geography notes cover"></div><span class="subject-label">Geography</span></a>
-<a class="subject" href="notes.html?subject=Polity"><div class="cover image-cover"><img src="./polity-cover.png" alt="Indian Polity notes cover"></div><span class="subject-label">Polity</span></a>
-<a class="subject" href="notes.html?subject=Constitution"><div class="cover image-cover"><img src="./constitution-cover.png" alt="Indian Constitution notes cover"></div><span class="subject-label">Constitution</span></a>
-<a class="subject" href="notes.html?subject=Maths"><div class="cover image-cover"><img src="./maths-cover.png" alt="Maths and Quantitative Aptitude notes cover"></div><span class="subject-label">Maths</span></a>
-<a class="subject" href="notes.html?subject=G.K."><div class="cover image-cover"><img src="./general-knowledge-cover.png" alt="General Knowledge notes cover"></div><span class="subject-label">G.K.</span></a>
-<a class="subject" href="notes.html?subject=Economics"><div class="cover image-cover"><img src="./economics-cover.png" alt="Economics notes cover"></div><span class="subject-label">Economics</span></a>
-<a class="subject" href="notes.html?subject=English"><div class="cover image-cover"><img src="./english-cover.png" alt="English notes cover" onerror="this.onerror=null;this.src='./history-cover.png'"></div><span class="subject-label">English</span></a>
+<div class="zp-grid">
+<a class="zp-card zp-glass" href="notes.html?subject=History" aria-label="History notes" style="--d:0.08s;--f:0.5s;--s:0.9s"><div class="zp-cv"><img src="cover-history.jpg" alt="History competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=Geography" aria-label="Geography notes" style="--d:0.16s;--f:1.0s;--s:1.8s"><div class="zp-cv"><img src="cover-geography.jpg" alt="Geography competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=Polity" aria-label="Polity notes" style="--d:0.24s;--f:1.5s;--s:2.7s"><div class="zp-cv"><img src="cover-polity.jpg" alt="Polity competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=Constitution" aria-label="Constitution notes" style="--d:0.32s;--f:2.0s;--s:3.6s"><div class="zp-cv"><img src="cover-constitution.jpg" alt="Constitution competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=Maths" aria-label="Maths notes" style="--d:0.40s;--f:2.5s;--s:4.5s"><div class="zp-cv"><img src="cover-maths.jpg" alt="Maths competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=G.K." aria-label="G.K. notes" style="--d:0.48s;--f:3.0s;--s:5.4s"><div class="zp-cv"><img src="cover-gk.jpg" alt="G.K. competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=Economics" aria-label="Economics notes" style="--d:0.56s;--f:3.5s;--s:6.3s"><div class="zp-cv"><img src="cover-economics.jpg" alt="Economics competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
+<a class="zp-card zp-glass" href="notes.html?subject=English" aria-label="English notes" style="--d:0.64s;--f:4.0s;--s:7.2s"><div class="zp-cv"><img src="cover-english.jpg" alt="English competitive exam notes cover" loading="lazy"><span class="zp-sh" aria-hidden="true"></span></div></a>
 </div>
 </section>
+</div>
 <section class="wrap section" id="how-to-buy">
 <h2>How to buy</h2>
 <div class="steps">
@@ -323,7 +428,7 @@ body:after{content:"";position:fixed;z-index:-1;pointer-events:none;left:-12vw;b
 </section>
 <section class="wrap section" id="student-reviews">
 <h2>Student Reviews</h2>
-<p class="intro">Have you used WitWarp notes? Share your experience with other students.</p>
+<p class="intro">Have you used ZipPrep notes? Share your experience with other students.</p>
 <div id="review-list" aria-live="polite"><p>Loading student reviews…</p></div>
 <p class="review-swipe-hint">Swipe horizontally to read more reviews →</p>
 <form id="review-form" class="review-form">

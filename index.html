@@ -217,6 +217,44 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 #wb-dashboard[hidden]{display:none!important}
 #wb-dashboard:not([hidden]){display:block!important}
 @media(max-width:760px){.atlas-layout{grid-template-columns:minmax(0,1fr)!important}#india-map{height:62vh!important;min-height:390px}#wb-map{height:64vh!important;min-height:420px}.atlas-map-card{width:100%;min-width:0}}
+
+/* ZipPrep atlas UI cleanup: one primary map, one profile, no duplicate dashboard. */
+#v-india .atlas-layout,
+#wb-dashboard .atlas-layout { display:grid!important; grid-template-columns:minmax(0,1fr)!important; gap:14px!important; align-items:stretch; }
+#v-india > .blk > .atlas-layout > .atlas-panel { display:none!important; }
+#atlas-admin-panel { display:none!important; }
+#legacy-state-directory { display:none!important; }
+#india-map { height:clamp(380px,66vh,680px)!important; min-height:380px; width:100%; background:#151a31!important; border-radius:18px; }
+#wb-map { height:clamp(360px,58vh,580px)!important; min-height:360px; width:100%; background:#151a31!important; border-radius:18px; }
+.atlas-map-card { min-width:0!important; width:100%!important; padding:14px!important; border:1px solid #303030!important; border-radius:18px!important; background:#171717!important; }
+.atlas-tools { display:flex; align-items:center; gap:10px; width:100%; }
+.atlas-tools input { flex:1 1 auto; min-width:0; }
+#wb-dashboard { margin-top:18px!important; padding:18px!important; border:1px solid #303030!important; border-radius:20px!important; background:#171717!important; }
+#wb-dashboard > h2 { font-size:clamp(24px,4vw,34px); margin-bottom:8px; }
+#wb-facts { display:grid!important; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px!important; margin:14px 0 18px; }
+#wb-admin { display:grid!important; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px!important; }
+#wb-dashboard .atlas-stat { min-width:0; background:#1e1e1e!important; border:1px solid #303030!important; border-radius:13px!important; padding:12px!important; }
+#wb-dashboard .atlas-stat strong { overflow-wrap:anywhere; }
+#wb-dashboard .atlas-tools { margin:12px 0; }
+#wb-dashboard .atlas-panel { display:block!important; width:100%; min-width:0; border:1px solid #303030; border-radius:14px; padding:14px; background:#1c1c1c; }
+#wb-dashboard .atlas-layout .atlas-status { overflow-wrap:anywhere; }
+#wb-dashboard #wb-district-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+#wb-dashboard #wb-district-list button { min-width:0; border:1px solid #393939; background:#202020; color:#fff; border-radius:10px; padding:10px; text-align:left; font:inherit; cursor:pointer; }
+#wb-dashboard #wb-district-list button:hover { border-color:#ffd24a; }
+#wb-notes { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+#wb-notes .atlas-accordion { margin:0; padding:12px; background:#1e1e1e; border:1px solid #303030; border-radius:12px; }
+@media(max-width:760px){
+ #v-india .atlas-layout,#wb-dashboard .atlas-layout {grid-template-columns:minmax(0,1fr)!important;}
+ #india-map {height:56vh!important;min-height:340px;}
+ #wb-map {height:52vh!important;min-height:320px;}
+ #wb-facts,#wb-admin {grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+ #wb-dashboard #wb-district-list {grid-template-columns:repeat(2,minmax(0,1fr));}
+ #wb-notes {grid-template-columns:minmax(0,1fr);}
+ .atlas-tools {flex-wrap:wrap;}
+ .atlas-tools input {width:100%;flex-basis:100%;}
+}
+@media(prefers-reduced-motion:reduce){#wb-dashboard.atlas-state-enter{animation:none!important}}
+
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>

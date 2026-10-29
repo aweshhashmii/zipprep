@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d1b"><title>ZipPrep Mock Tests</title>
+<link rel="stylesheet" href="mock-test.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html" aria-label="ZipPrep home"><span class="brand-mark">Z</span><span>ZipPrep</span></a><a class="back-link" href="index.html">← Back to home</a></header>
+<main class="app-shell">
+<section class="intro"><p class="eyebrow">ZIPPREP · SSC PRACTICE LAB</p><h1>Mock tests.<br><span>Sharper preparation.</span></h1><p class="intro-copy">Practise at your pace, review every answer, and identify the topics to revise next.</p></section>
+<section id="setup" class="panel setup-panel">
+<div class="section-heading"><div><p class="eyebrow">START PRACTISING</p><h2>Build your test</h2></div><span class="free-pill">Free</span></div>
+<div class="form-grid">
+<label>Exam<select id="exam"><option>SSC CGL</option><option>SSC CHSL</option><option>SSC CPO</option><option>SSC GD</option><option>SSC MTS</option><option>SSC Stenographer</option><option>SSC Selection Post</option><option>SSC JE</option><option>SSC JHT</option><option>All SSC Exams</option></select></label>
+<label>Practice mode<select id="mode"><option value="sample">Sample question bank</option><option value="ai">AI-generated practice</option></select></label>
+<label>Subject<select id="subject"><option value="mixed">Mixed subjects</option><option>General Intelligence & Reasoning</option><option>Quantitative Aptitude</option><option>English</option><option>General Awareness</option></select></label>
+<label>Questions<select id="count"><option value="5">5 questions · Quick practice</option><option value="10" selected>10 questions · Standard</option><option value="15">15 questions</option></select></label>
+</div>
+<p class="notice" id="mode-note">Sample questions are for demonstration. They are not represented as verified official SSC previous-year questions.</p>
+<p class="error" id="setup-error" role="status" hidden></p>
+<button class="primary-button" id="start-btn">Start mock test <span>→</span></button>
+</section>
+<section id="quiz" class="panel quiz-panel" hidden>
+<div class="quiz-top"><div><p class="eyebrow" id="quiz-exam">SSC CGL</p><h2 id="quiz-subject">Mixed practice</h2></div><div class="timer" aria-live="polite"><span class="timer-dot"></span><span id="timer">10:00</span></div></div>
+<div class="progress-track"><span id="progress-bar"></span></div>
+<div class="quiz-layout"><div class="question-area"><div class="question-meta"><span id="question-number">Question 1 of 10</span><span class="marking">+2 correct · −0.5 incorrect*</span></div><h3 id="question-text">Question text</h3><div id="options" class="options"></div><p id="question-source" class="source-note"></p><div class="question-actions"><button class="ghost-button" id="mark-btn">☆ Mark for review</button><div class="nav-actions"><button class="ghost-button" id="prev-btn">← Previous</button><button class="primary-button compact" id="next-btn">Save & next →</button></div></div></div>
+<aside class="question-sidebar"><h3>Question palette</h3><p class="palette-legend"><span class="legend-dot answered"></span> Answered <span class="legend-dot marked"></span> Review</p><div id="palette" class="palette"></div><button class="submit-button" id="submit-btn">Submit test</button></aside></div>
+<p class="footnote">*Demonstration scoring only. Check the official notification for the selected exam's current marking scheme.</p>
+</section>
+<section id="results" class="panel results-panel" hidden><p class="eyebrow">YOUR PRACTICE SUMMARY</p><h2>Test complete.</h2><p class="results-copy" id="results-copy">Here is how you did.</p><div class="score-grid"><div class="score-card highlight"><span>Score</span><strong id="score">0</strong></div><div class="score-card"><span>Accuracy</span><strong id="accuracy">0%</strong></div><div class="score-card"><span>Correct</span><strong id="correct">0</strong></div><div class="score-card"><span>Time used</span><strong id="time-used">0:00</strong></div></div><div class="result-actions"><button class="primary-button" id="review-btn">Review answers</button><button class="ghost-button" id="new-test-btn">Start another test ↻</button></div><div id="review-list" class="review-list" hidden></div><p class="notice">Your result is currently stored in this browser session only. Central saving and student accounts are not enabled in this first version.</p></section>
+<footer><span>ZipPrep · Study smarter.</span><span>Free practice · Mobile friendly</span></footer>
+</main>
+<script src="mock-test.js"></script>
+</body></html>

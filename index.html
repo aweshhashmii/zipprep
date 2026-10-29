@@ -380,5 +380,35 @@ var originalRoute=window.location.hash;function onRoute(){if(location.hash==='#k
 })();
 </script>
 
+<script>
+/* ZipPrep navigation hotfix: ensure the Revision dashboard routes from the main navigation. */
+(function(){
+  var routeIds={revision:'v-revision',gk:'v-gk','know-india':'v-india','revision/gk/know-india':'v-india','revision/gk/know-india/west-bengal':'v-india',quiz:'v-quiz','revision/gk/questions':'v-quiz'};
+  function go(){
+    var hash=decodeURIComponent(location.hash.replace(/^#/,''));
+    var target=routeIds[hash];
+    var home=document.getElementById('home'), rev=document.getElementById('rev');
+    if(!home||!rev)return;
+    if(target){
+      home.hidden=true; rev.hidden=false;
+      document.querySelectorAll('#rev .vw').forEach(function(section){section.hidden=section.id!==target;});
+      window.scrollTo(0,0);
+      if(hash==='know-india'||hash==='revision/gk/know-india'||hash==='revision/gk/know-india/west-bengal'){
+        setTimeout(function(){var mapEl=document.getElementById('india-map');if(mapEl&&window.L){mapEl.dispatchEvent(new Event('zipprep:map-ready'));}},80);
+      }
+    } else {
+      home.hidden=false; rev.hidden=true;
+      if(hash){var el=document.getElementById(hash);if(el)setTimeout(function(){el.scrollIntoView({block:'start'});},0);}
+    }
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a[href^="#"]'); if(!a)return;
+    var h=a.getAttribute('href').slice(1); if(!Object.prototype.hasOwnProperty.call(routeIds,h))return;
+    e.preventDefault(); if(location.hash==='#'+h){go();}else{location.hash=h;}
+  });
+  window.addEventListener('hashchange',go); document.addEventListener('DOMContentLoaded',go); go();
+})();
+</script>
+
 </body>
 </html>

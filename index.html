@@ -167,6 +167,16 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 }
 @media(max-width:420px){#v-india .atlas-panel .atlas-facts{grid-template-columns:repeat(2,minmax(0,1fr))}#v-india #india-map{min-height:340px}}
 
+
+/* Explore India: integrated atlas refinements */
+.atlas-map-card{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;padding:0!important;overflow:visible!important}
+.atlas-map{width:100%;height:clamp(360px,68vh,680px);min-height:360px;background:transparent!important;border:0!important;border-radius:0!important;overflow:hidden}
+.atlas-map .leaflet-interactive:focus{outline:none}
+.atlas-map .leaflet-container{background:transparent!important}
+.atlas-map .leaflet-tooltip{border:1px solid rgba(255,210,74,.55);border-radius:10px;background:#171717;color:#f7f7f7;box-shadow:0 6px 20px rgba(0,0,0,.25);font-weight:600}
+.atlas-status{margin-top:12px}
+@media(max-width:600px){.atlas-map{height:clamp(380px,62vh,560px);min-height:380px}.atlas-layout{gap:16px}}
+
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
@@ -386,13 +396,13 @@ var map=null,wbMap=null,indiaLayer=null,wbLayer=null,selectedLayer=null,wbSelect
 var STATES=[['Andhra Pradesh','Amaravati'],['Arunachal Pradesh','Itanagar'],['Assam','Dispur'],['Bihar','Patna'],['Chhattisgarh','Raipur'],['Goa','Panaji'],['Gujarat','Gandhinagar'],['Haryana','Chandigarh'],['Himachal Pradesh','Shimla'],['Jharkhand','Ranchi'],['Karnataka','Bengaluru'],['Kerala','Thiruvananthapuram'],['Madhya Pradesh','Bhopal'],['Maharashtra','Mumbai'],['Manipur','Imphal'],['Meghalaya','Shillong'],['Mizoram','Aizawl'],['Nagaland','Kohima'],['Odisha','Bhubaneswar'],['Punjab','Chandigarh'],['Rajasthan','Jaipur'],['Sikkim','Gangtok'],['Tamil Nadu','Chennai'],['Telangana','Hyderabad'],['Tripura','Agartala'],['Uttar Pradesh','Lucknow'],['Uttarakhand','Dehradun'],['West Bengal','Kolkata'],['Andaman and Nicobar Islands','Sri Vijaya Puram (Port Blair)'],['Chandigarh','Chandigarh'],['Dadra and Nagar Haveli and Daman and Diu','Daman'],['Delhi','New Delhi'],['Jammu and Kashmir','Srinagar (summer), Jammu (winter)'],['Ladakh','Leh'],['Lakshadweep','Kavaratti'],['Puducherry','Puducherry']];
 function $(id){return document.getElementById(id)}
 function safe(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-function featureName(f){var p=f&&f.properties||{};return p.shapeName||p.shape_name||p.NAME_1||p.NAME_2||p.name||p.NAME||p.admin||'Unnamed region'}
+function featureName(f){var p=f&&f.properties||{};var candidates=[p.st_nm,p.ST_NM,p.state_name,p.STATE_NAME,p.State_Name,p.state,p.State,p.STATE,p.NAME_1,p.NAME_2,p.shapeName,p.shape_name,p.name,p.NAME,p.admin,p.NAME_ENG,p.STNAME,p.dtname,p.DISTRICT];for(var i=0;i<candidates.length;i++){if(typeof candidates[i]==='string'&&candidates[i].trim())return candidates[i].trim()}return 'Unnamed region'}
 function stateCapital(name){var n=name.toLowerCase();var x=STATES.find(function(s){return s[0].toLowerCase()===n||s[0].toLowerCase().replace(/ and /g,' & ')===n});return x?x[1]:'Data unavailable'}
 function initMap(){if(!window.L){$('atlas-status').textContent='The map library could not load. Check your internet connection and reload.';return}map=L.map('india-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.8,79.0],4);map.getContainer().style.background='#151a31';map.on('click',function(){map.scrollWheelZoom.disable()});map.on('focus',function(){map.scrollWheelZoom.enable()});}
 function styleRegion(f){var isWB=featureName(f).toLowerCase().indexOf('west bengal')>=0;return {color:'#7ae582',weight:1.3,fillColor:isWB?'#ffd24a':'#6b7cff',fillOpacity:.48}}
-function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#fff',weight:2.5,fillColor:'#ffd24a',fillOpacity:.85});}
+function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#ffd24a',weight:2.2,fillColor:'#ffd24a',fillOpacity:.78});}
 function selectRegion(f,layer){highlight(layer);var name=featureName(f),capital=stateCapital(name);$('atlas-region-title').textContent=name;$('atlas-region-summary').textContent=name==='West Bengal'?'First detailed state profile available below.':'Explore exam-relevant facts and administrative geography.';$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'UT':'State')+'</strong></div><div class="atlas-stat"><small>Boundary source</small><strong>geoBoundaries</strong></div>';$('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>Boundary geometry is loaded from geoBoundaries. Detailed profile fields not yet verified are not shown as facts.</p>';
-if(layer&&map){map.fitBounds(layer.getBounds(),{padding:[20,20],maxZoom:7,animate:true});}
+if(layer&&map){map.fitBounds(layer.getBounds(),{padding:[18,18],maxZoom:5,animate:true});}
 if(name.toLowerCase().indexOf('west bengal')>=0){$('wb-dashboard').hidden=false;setTimeout(function(){loadWB();$('wb-dashboard').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})},100)}else{$('wb-dashboard').hidden=true}
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}

@@ -139,6 +139,15 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 @media(prefers-reduced-motion:reduce){.atlas-button{scroll-behavior:auto}}
 
 
+/* Minimal India silhouette inspired by the supplied reference: warm ivory land, fine borders, charcoal canvas. */
+#v-india #india-map{background:#211f20!important;border-radius:0!important;box-shadow:none!important}
+#v-india #india-map .leaflet-container{background:#211f20!important}
+#v-india #india-map .leaflet-control-zoom a{background:#302d2b!important;color:#f6f0d8!important;border-color:#49443e!important}
+#v-india .atlas-legend{opacity:.72}
+#v-india .atlas-status{color:#bcb7ac}
+.india-state-label{background:#211f20!important;color:#f6f0d8!important;border:1px solid #c8b879!important;border-radius:5px!important;box-shadow:0 3px 12px #0005!important;font:600 12px/1.2 Outfit,system-ui,sans-serif!important;padding:5px 8px!important}
+.india-state-label:before{border-top-color:#c8b879!important}
+
 /* ZipPrep integrated atlas UI — seamless, not a map card inside a card */
 #v-india .blk{overflow:hidden}
 #v-india .atlas-tools{max-width:100%;margin:18px 0 8px;position:relative;z-index:2}
@@ -280,6 +289,33 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 @media(max-width:760px){.geo-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.geo-river-cards{grid-template-columns:1fr}}
 @media(max-width:420px){.geo-topic-grid{grid-template-columns:1fr}}
 
+
+/* Minimal infographic atlas styling inspired by the supplied reference */
+#v-india .blk{max-width:1400px}
+#v-india .atlas-map-card,#wb-dashboard .atlas-map-card{background:#fbfcf9!important;border:1px solid #e4e8e3!important;border-radius:18px!important;padding:12px!important;box-shadow:0 12px 34px rgba(0,0,0,.08)}
+#v-india #india-map,#wb-dashboard #wb-map{background:#f7f8f5!important;border-radius:12px!important}
+#v-india .leaflet-container,#wb-dashboard .leaflet-container{background:#f7f8f5!important}
+#v-india .atlas-legend,#wb-dashboard .atlas-legend{color:#273044!important;font-size:11px;display:flex;gap:12px;flex-wrap:wrap;padding:10px 4px 0}
+#v-india .atlas-status,#wb-dashboard .atlas-status{color:#667085!important}
+#v-india .geo-learning{background:#fbfcf9!important;border:1px solid #e1e7df!important;color:#1e293b!important;box-shadow:0 12px 30px rgba(0,0,0,.06)}
+#v-india .geo-learning .geo-intro,#v-india .geo-learning .geo-topic p,#v-india .geo-learning .geo-topic li,#v-india .geo-learning .geo-note{color:#526071!important}
+#v-india .geo-learning .geo-topic{background:#fff!important;border-color:#e5e9e2!important}
+#v-india .geo-learning .geo-topic h3{color:#167c69!important}
+#v-india .geo-learning .geo-tab{background:#fff!important;color:#243047!important;border-color:#dce4dc!important}
+#v-india .geo-learning .geo-tab[aria-selected="true"]{background:#d8f0e3!important;color:#125c4d!important;border-color:#8fc9aa!important}
+#v-india .geo-river-diagram{background:#f1f7f5!important;border:1px solid #dfe9e4!important}
+#v-india .geo-river-diagram svg text{filter:none}
+#v-india .geo-river-cards .geo-river-card{background:#fff!important;border-color:#d8e9e3!important}
+#v-india .geo-river-cards .geo-river-card b{color:#137b8b!important}
+#v-india .atlas-tools input,#wb-dashboard .atlas-tools input{border:1px solid #d9dfd9!important;background:#fff!important;color:#1f2937!important}
+#v-india .atlas-button,#wb-dashboard .atlas-button{box-shadow:none!important}
+#wb-dashboard{background:#fbfcf9!important;color:#1f2937!important;border-color:#e2e8e0!important}
+#wb-dashboard .atlas-stat,#wb-dashboard .atlas-panel{background:#fff!important;color:#1f2937!important;border-color:#e3e8e1!important}
+#wb-dashboard .atlas-stat small,#wb-dashboard .sub{color:#596579!important}
+@media(max-width:760px){#v-india #india-map{height:55vh!important;min-height:360px}#wb-dashboard #wb-map{height:52vh!important;min-height:330px}}
+
+.india-map-caption{font-family:"Bebas Neue",Impact,sans-serif;letter-spacing:.24em;text-align:center;color:#c8d7d0;font-size:clamp(22px,3vw,34px);line-height:1;padding:7px 0 15px;opacity:.9}
+@media(max-width:760px){.india-map-caption{padding:4px 0 12px;font-size:25px}}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
@@ -442,7 +478,7 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 <section class="vw" id="v-gk" hidden><div class="blk"><nav class="bc" aria-label="Breadcrumb"><a href="#top">Home</a> › <a href="#revision">Revision</a> › G.K.</nav><h1 class="t">General Knowledge</h1><p class="sub">Choose how you want to revise.</p><div class="bg2"><a class="big" style="--a:#7ae582" href="#know-india"><div class="im"><svg width="120" height="96" viewBox="0 0 80 64" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><circle cx="40" cy="34" r="24"/><ellipse cx="40" cy="34" rx="10" ry="24"/><path d="M16 34h48"/><path d="M40 8a9 9 0 0 1 9 9c0 9-9 18-9 18s-9-9-9-18a9 9 0 0 1 9-9z" fill="#ffd24a"/></svg></div><h3>Know More About India</h3><p>Explore India’s states, capitals, districts, rivers, geography, political administration, and important facts through an interactive map.</p><span>Explore →</span></a><a class="big" style="--a:#a78bfa" href="#quiz"><div class="im"><svg width="120" height="96" viewBox="0 0 80 64" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><circle cx="40" cy="26" r="20"/><path d="M32 50h16M34 57h12"/><text x="40" y="36" text-anchor="middle" font-size="26" font-weight="800" fill="#111" stroke="none">?</text></svg></div><h3>General Knowledge Questions</h3><p>Practice important GK questions, revise facts, and test your knowledge through interactive quizzes.</p><span>Start practice →</span></a></div></div></section>
 <section class="vw" id="v-india" hidden><div class="blk"><nav class="bc" aria-label="Breadcrumb"><a href="#top">Home</a> › <a href="#revision">Revision</a> › <a href="#gk">G.K.</a> › Know More About India</nav><h1 class="t">Explore India</h1><p class="sub">An interactive atlas for competitive-exam revision. Select a state or union territory on the map or search by name.</p>
 <div class="atlas-tools"><label class="vh" for="atlas-search">Search states and capitals</label><input id="atlas-search" type="search" placeholder="Search state, union territory or capital…"><button class="atlas-button" id="atlas-reset" type="button">India view</button></div>
-<div class="atlas-layout"><div class="atlas-map-card"><div id="india-map" class="atlas-map" role="application" aria-label="Interactive map of Indian states and union territories"></div><div class="atlas-legend"><span><i></i>Selected region</span><span><i class="district"></i>Administrative boundary</span><span><i class="river"></i>River layer (where available)</span></div><p class="atlas-status" id="atlas-status" aria-live="polite">Loading real administrative boundary data…</p></div><aside class="atlas-panel" aria-live="polite"><h2 id="atlas-region-title">Explore a region</h2><p id="atlas-region-summary" class="sub">Tap a state or union territory to view its profile.</p><div class="atlas-facts" id="atlas-facts"><div class="atlas-stat"><small>Capital</small><strong>—</strong></div><div class="atlas-stat"><small>Region</small><strong>India</strong></div><div class="atlas-stat"><small>Map status</small><strong>Loading</strong></div></div><div id="atlas-region-detail" class="atlas-note"><h3>How to use the atlas</h3><p>Tap a region to explore it. Zoom and pan controls are available on the map. Keyboard users can search a region and activate its result.</p></div><div id="atlas-district-list"></div></aside></div>
+<div class="atlas-layout"><div class="atlas-map-card"><div id="india-map" class="atlas-map" role="application" aria-label="Interactive map of Indian states and union territories"></div><div class="india-map-caption" aria-hidden="true">INDIA</div><div class="atlas-legend"><span><i></i>Selected region</span><span><i class="district"></i>Administrative boundary</span><span><i class="river"></i>River layer (where available)</span></div><p class="atlas-status" id="atlas-status" aria-live="polite">Loading real administrative boundary data…</p></div><aside class="atlas-panel" aria-live="polite"><h2 id="atlas-region-title">Explore a region</h2><p id="atlas-region-summary" class="sub">Tap a state or union territory to view its profile.</p><div class="atlas-facts" id="atlas-facts"><div class="atlas-stat"><small>Capital</small><strong>—</strong></div><div class="atlas-stat"><small>Region</small><strong>India</strong></div><div class="atlas-stat"><small>Map status</small><strong>Loading</strong></div></div><div id="atlas-region-detail" class="atlas-note"><h3>How to use the atlas</h3><p>Tap a region to explore it. Zoom and pan controls are available on the map. Keyboard users can search a region and activate its result.</p></div><div id="atlas-district-list"></div></aside></div>
 <section id="atlas-admin-panel" class="atlas-note atlas-admin-panel" style="margin-top:18px" aria-live="polite">
   <div class="atlas-admin-head"><div><p class="atlas-kicker">STATE &amp; DISTRICT PROFILE</p><h2 id="atlas-admin-heading">Explore a state</h2><p id="atlas-admin-intro" class="sub">Select any state on the map to see its political and administrative information here.</p></div><span class="atlas-live-badge">Interactive atlas</span></div>
   <div id="atlas-admin-stats" class="atlas-facts atlas-admin-stats"></div>
@@ -570,7 +606,7 @@ function pointInGeometry(point,geometry){if(!geometry)return false;var c=geometr
 }
 function initMap(){
  if(!window.L){$('atlas-status').textContent='The map library could not load. Check your internet connection and reload.';return}
- map=L.map('india-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.8,79.0],4);map.getContainer().style.background='#151a31';
+ map=L.map('india-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.8,79.0],4);map.getContainer().style.background='#211f20';
  map.on('click',function(e){
   map.scrollWheelZoom.disable();
   /* Mobile browsers can show a Leaflet tooltip on tap without reliably dispatching the
@@ -585,8 +621,8 @@ function initMap(){
  });
  map.on('focus',function(){map.scrollWheelZoom.enable()});
 }
-function styleRegion(f){var isWB=featureName(f).toLowerCase().indexOf('west bengal')>=0;return {color:'#7ae582',weight:1.3,fillColor:isWB?'#ffd24a':'#6b7cff',fillOpacity:.48}}
-function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#ffd24a',weight:2.2,fillColor:'#ffd24a',fillOpacity:.78});}
+function styleRegion(f){return {color:'#c8c2ad',weight:1.05,opacity:.95,fillColor:'#f6f0d8',fillOpacity:1}}
+function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#d8bd71',weight:2,fillColor:'#e8d79d',fillOpacity:1});}
 
 var ATLAS_STATE_DATA={
  "West Bengal":{cm:"Shri Suvendu Adhikari",lokSabha:"42",rajyaSabha:"16",districts:"23",mlas:"294 Assembly seats",blocks:"342 community development blocks",panchayats:"3,341 Gram Panchayats",municipalities:"125 urban local bodies (municipal corporations and municipalities)",famous:"Darjeeling tea, the Sundarbans, the Himalayas and Dooars, Durga Puja, Bengali literature, terracotta temples, Kolkata's cultural heritage."}
@@ -720,7 +756,7 @@ function selectRegion(f,layer){
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function geoUrl(iso,adm){return API+iso+'/'+adm+'/'}
 function fetchAdmin(iso,adm){if(iso==='IND'&&adm==='ADM1'){var sources=['./indian-states.geojson','indian-states.geojson','https://cdn.jsdelivr.net/gh/iamaanahmad/GeoJson-of-Indian-States@main/indian-states.geojson','https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/indian-states.geojson'];return sources.reduce(function(chain,url){return chain.catch(function(){return loadGeoJSON(url).then(function(g){if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('Invalid state boundary data from '+url);return g})})},Promise.reject()).catch(function(){return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})})}return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})}
-function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=g;indiaLayer=L.geoJSON(g,{interactive:true,style:styleRegion,onEachFeature:function(f,l){var n=canonicalStateName(stateFeatureName(f));l.bindTooltip(safe(n),{sticky:true});l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer)indiaLayer.resetStyle(l)},click:function(e){lastStateLayerClick=Date.now();if(e&&e.originalEvent&&e.originalEvent.stopPropagation)e.originalEvent.stopPropagation();try{selectRegion(f,l)}catch(err){$('atlas-status').textContent='State selected, but the profile encountered an error: '+err.message}}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Vector boundaries loaded. Tap a state or union territory to explore. Source: jsDelivr-hosted India administrative GeoJSON with raw GitHub and geoBoundaries fallbacks.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Upload indian-states.geojson beside index.html to enable the local map, then reload.';list('')})}
+function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=g;indiaLayer=L.geoJSON(g,{interactive:true,style:styleRegion,onEachFeature:function(f,l){var n=canonicalStateName(stateFeatureName(f));l.bindTooltip(safe(n),{sticky:true,direction:'top',opacity:1,className:'india-state-label'});l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer)indiaLayer.resetStyle(l)},click:function(e){lastStateLayerClick=Date.now();if(e&&e.originalEvent&&e.originalEvent.stopPropagation)e.originalEvent.stopPropagation();try{selectRegion(f,l)}catch(err){$('atlas-status').textContent='State selected, but the profile encountered an error: '+err.message}}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Vector boundaries loaded. Tap a state or union territory to explore. Source: jsDelivr-hosted India administrative GeoJSON with raw GitHub and geoBoundaries fallbacks.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Upload indian-states.geojson beside index.html to enable the local map, then reload.';list('')})}
 function list(q){q=(q||'').trim().toLowerCase();var root=$('sl');if(!root)return;var arr=STATES.filter(function(x){return !q||(x[0]+' '+x[1]).toLowerCase().includes(q)});root.innerHTML='<div class="atlas-districts">'+arr.map(function(x){return '<button type="button" data-region="'+safe(x[0])+'"><b>'+safe(x[0])+'</b><br><small>Capital: '+safe(x[1])+'</small></button>'}).join('')+'</div>';root.querySelectorAll('[data-region]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-region');var l=null;if(indiaLayer){indiaLayer.eachLayer(function(x){if(stateFeatureName(x.feature).toLowerCase()===n.toLowerCase())l=x})}if(l)selectRegion(l.feature,l);else{activeAtlasState=n;$('atlas-region-title').textContent=n;$('atlas-region-summary').textContent='Explore '+n+' and its administrative districts.';renderAdminState(n);$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(stateCapital(n))+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>State / UT</strong></div><div class="atlas-stat"><small>Detail status</small><strong>Loading district atlas</strong></div>';$('wb-dashboard').hidden=false;$('wb-dashboard').querySelector('h2').textContent=n+' — State & District Atlas';setTimeout(function(){renderGenericStateFacts(n);loadStateDistrictMap(n);$('wb-dashboard').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})},100);}})})}
 $('atlas-search').addEventListener('input',function(e){list(e.target.value);if(map&&indiaLayer){var q=e.target.value.toLowerCase();indiaLayer.eachLayer(function(l){if(stateFeatureName(l.feature).toLowerCase().includes(q)&&q){selectRegion(l.feature,l)}})}});
 $('atlas-reset').addEventListener('click',function(){activeAtlasState='';$('wb-dashboard').hidden=true;$('wb-dashboard').style.display='none';if(map&&indiaLayer){map.stop();map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});}if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=null;$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.';$('atlas-status').textContent='India view. Select any state or union territory to open its district atlas.'});
@@ -761,7 +797,7 @@ function drawDistricts(){
  if(!wbMap||!wbData)return;
  if(wbLayer)wbMap.removeLayer(wbLayer);wbSelected=null;
  wbLayer=L.geoJSON(wbData,{style:function(){return {color:'#7ae582',weight:1.2,fillColor:'#5366c7',fillOpacity:.36}},onEachFeature:function(f,l){
-  var n=districtFeatureName(f);l.bindTooltip(safe(n),{sticky:true});
+  var n=districtFeatureName(f);l.bindTooltip(safe(n),{sticky:true,direction:'top',opacity:1,className:'india-state-label'});
   l.on('click',function(){
    if(wbSelected)wbLayer.resetStyle(wbSelected);wbSelected=l;
    var bb=l.getBounds();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.flyToBounds(bb,{padding:[25,25],maxZoom:9,duration:.9,easeLinearity:.2});else wbMap.fitBounds(bb,{padding:[20,20],maxZoom:9,animate:false});

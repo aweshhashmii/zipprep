@@ -1,10 +1,11 @@
-ZipPrep — Claude Artifact Theme Update
+ZIPPREP VECTOR MAP UI FIX
 
-This package applies a site-wide midnight-aubergine and violet glassmorphism theme to the existing ZipPrep static HTML pages. It keeps the existing page structure, links, payment/review scripts, and supplied subject cover artwork while adding a shared visual theme.
+This update removes the OpenStreetMap raster tile background from both the India and West Bengal maps. The map is rendered as a clean, built-in vector layer inside the ZipPrep UI, using clickable GeoJSON administrative boundaries. The India state boundary loader first tries the open GeoJSON dataset and falls back to geoBoundaries.
 
-Pages: index.html, notes.html, bundle-notes.html, pyqs.html.
-Assets included: ZipPrep white logo, bundle graphics, uploaded Neue Freigeist font, and subject cover images mapped to the filenames referenced by the pages.
+Deployment:
+1. Back up your current index.html.
+2. Upload this index.html to the root of your GitHub Pages repository, replacing the existing index.html.
+3. Commit to main and wait for GitHub Pages to publish.
+4. Keep notes.html, pyqs.html, bundle-notes.html and all other assets unchanged.
 
-How to publish from GitHub mobile: open the zip on a computer or extract it using a ZIP app, then upload/replace the four HTML files and included assets in the repository root. Do not upload the ZIP itself as a replacement for the website files. Commit the changes and wait for GitHub Pages to rebuild.
-
-Important: This package has not been deployed to GitHub. The original HTML refers to sample files IMG_20261014_101533.jpg and IMG_20261014_101544.jpg that were not present in the uploaded files; add those original sample assets to the repository if they are used by your notes/bundle pages. Verify checkout in a test environment before accepting payments.
+Note: The GeoJSON boundary data is still loaded over the internet. This removes the third-party map tile imagery, but does not bundle all geographical data offline. West Bengal district data still depends on the geoBoundaries source and may display an error if that source is unavailable.

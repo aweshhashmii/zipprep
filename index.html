@@ -450,6 +450,12 @@ function $(id){return document.getElementById(id)}
 function safe(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function featureName(f){var p=f&&f.properties||{};var candidates=[p.st_nm,p.ST_NM,p.state_name,p.STATE_NAME,p.State_Name,p.state,p.State,p.STATE,p.NAME_1,p.NAME_2,p.shapeName,p.shape_name,p.name,p.NAME,p.admin,p.NAME_ENG,p.STNAME,p.shapeGroupName,p.shapeGroupNameEnglish,p.District,p.DISTRICT,p.district,p.district_name,p.dtname];for(var i=0;i<candidates.length;i++){if(typeof candidates[i]==='string'&&candidates[i].trim())return candidates[i].trim()}return 'Unnamed region'}
 function stateCapital(name){var n=name.toLowerCase();var x=STATES.find(function(s){return s[0].toLowerCase()===n||s[0].toLowerCase().replace(/ and /g,' & ')===n});return x?x[1]:'Data unavailable'}
+function stateFeatureName(f){
+ var p=f&&f.properties||{};
+ var candidates=[p.st_nm,p.ST_NM,p.state_name,p.STATE_NAME,p.State_Name,p.state,p.State,p.STATE,p.STNAME,p.ST_NAME,p.NAME_1,p.shapeGroupNameEnglish,p.shapeGroupName,p.shapeName,p.shape_name,p.name,p.NAME,p.admin,p.NAME_ENG];
+ for(var i=0;i<candidates.length;i++)if(typeof candidates[i]==='string'&&candidates[i].trim())return candidates[i].trim();
+ return featureName(f);
+}
 function initMap(){if(!window.L){$('atlas-status').textContent='The map library could not load. Check your internet connection and reload.';return}map=L.map('india-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.8,79.0],4);map.getContainer().style.background='#151a31';map.on('click',function(){map.scrollWheelZoom.disable()});map.on('focus',function(){map.scrollWheelZoom.enable()});}
 function styleRegion(f){var isWB=featureName(f).toLowerCase().indexOf('west bengal')>=0;return {color:'#7ae582',weight:1.3,fillColor:isWB?'#ffd24a':'#6b7cff',fillOpacity:.48}}
 function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#ffd24a',weight:2.2,fillColor:'#ffd24a',fillOpacity:.78});}
@@ -548,23 +554,47 @@ function renderAdminDistrict(name){
 }
 document.addEventListener('input',function(e){if(e.target&&e.target.id==='atlas-admin-district-search')renderDistrictButtons(e.target.value)});
 function selectRegion(f,layer){
- highlight(layer);var name=featureName(f),capital=stateCapital(name);activeAtlasState=name;renderAdminState(name);
- $('atlas-region-title').textContent=name;$('atlas-region-summary').textContent='State selected — zooming into '+name+' and loading its district map below.';
- $('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'Union Territory':'State')+'</strong></div><div class="atlas-stat"><small>Map status</small><strong>Loading district atlas</strong></div>';
- $('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>The separate district map and state facts are shown below.</p>';
+ var name=stateFeatureName(f);
+ if(!name||name==='Unnamed region'){ $('atlas-status').textContent='This map feature does not include a recognised state name. Try selecting the state from the search/list.';return; }
+ activeAtlasState=name;
+ try{highlight(layer)}catch(e){selectedLayer=layer}
+ /* Update the state facts immediately, before any network requests. */
+ renderAdminState(name);
+ $('atlas-region-title').textContent=name;
+ $('atlas-region-summary').textContent='Selected '+name+'. The map will zoom in, then load the state and its district boundaries below.';
+ var capital=stateCapital(name);
+ $('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'Union Territory':'State')+'</strong></div><div class="atlas-stat"><small>Map status</small><strong>Opening district atlas</strong></div>';
+ $('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>Scroll to the state and district atlas below to explore district boundaries and facts.</p>';
  var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- if(map){map.stop();map.invalidateSize({pan:false});requestAnimationFrame(function(){map.invalidateSize({pan:false});if(reduced)map.flyToBounds(layer.getBounds(),{padding:[20,20],maxZoom:7,animate:false});else map.flyToBounds(layer.getBounds(),{padding:[24,24],maxZoom:7,duration:1.15,easeLinearity:.2})})}
- var dash=$('wb-dashboard');dash.hidden=false;dash.classList.remove('atlas-state-enter');void dash.offsetWidth;dash.classList.add('atlas-state-enter');dash.querySelector('h2').textContent=name+' — State & District Atlas';dash.querySelector('.bc a').textContent='← Back to India map';
+ if(map&&layer&&layer.getBounds){
+   map.stop();
+   var bounds=layer.getBounds();
+   if(bounds&&bounds.isValid&&bounds.isValid()){
+     if(reduced)map.fitBounds(bounds,{padding:[24,24],maxZoom:7,animate:false});
+     else map.flyToBounds(bounds,{padding:[24,24],maxZoom:7,duration:1.15,easeLinearity:.2});
+   }
+ }
+ var dash=$('wb-dashboard');
+ dash.hidden=false;
+ dash.classList.remove('atlas-state-enter');void dash.offsetWidth;dash.classList.add('atlas-state-enter');
+ dash.querySelector('h2').textContent=name+' — State & District Atlas';
+ dash.querySelector('.bc a').textContent='← Back to India map';
  renderGenericStateFacts(name);
- setTimeout(function(){loadStateDistrictMap(name);dash.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'})},180);
+ renderDistrictButtons('');
+ $('atlas-status').textContent=name+' selected. Zoom animation started; loading district boundaries below.';
+ window.setTimeout(function(){
+   if(activeAtlasState!==name)return;
+   loadStateDistrictMap(name);
+   dash.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});
+ },reduced?0:180);
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function geoUrl(iso,adm){return API+iso+'/'+adm+'/'}
 function fetchAdmin(iso,adm){if(iso==='IND'&&adm==='ADM1'){var sources=['./indian-states.geojson','indian-states.geojson','https://cdn.jsdelivr.net/gh/iamaanahmad/GeoJson-of-Indian-States@main/indian-states.geojson','https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/indian-states.geojson'];return sources.reduce(function(chain,url){return chain.catch(function(){return loadGeoJSON(url).then(function(g){if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('Invalid state boundary data from '+url);return g})})},Promise.reject()).catch(function(){return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})})}return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})}
-function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=g;indiaLayer=L.geoJSON(g,{style:styleRegion,onEachFeature:function(f,l){var n=featureName(f);l.bindTooltip(safe(n),{sticky:true});l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer)indiaLayer.resetStyle(l)},click:function(){selectRegion(f,l)}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Vector boundaries loaded. Tap a state or union territory to explore. Source: jsDelivr-hosted India administrative GeoJSON with raw GitHub and geoBoundaries fallbacks.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Upload indian-states.geojson beside index.html to enable the local map, then reload.';list('')})}
-function list(q){q=(q||'').trim().toLowerCase();var root=$('sl');if(!root)return;var arr=STATES.filter(function(x){return !q||(x[0]+' '+x[1]).toLowerCase().includes(q)});root.innerHTML='<div class="atlas-districts">'+arr.map(function(x){return '<button type="button" data-region="'+safe(x[0])+'"><b>'+safe(x[0])+'</b><br><small>Capital: '+safe(x[1])+'</small></button>'}).join('')+'</div>';root.querySelectorAll('[data-region]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-region');var l=null;if(indiaLayer){indiaLayer.eachLayer(function(x){if(featureName(x.feature).toLowerCase()===n.toLowerCase())l=x})}if(l)selectRegion(l.feature,l);else{activeAtlasState=n;$('atlas-region-title').textContent=n;$('atlas-region-summary').textContent='Explore '+n+' and its administrative districts.';renderAdminState(n);$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(stateCapital(n))+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>State / UT</strong></div><div class="atlas-stat"><small>Detail status</small><strong>Loading district atlas</strong></div>';$('wb-dashboard').hidden=false;$('wb-dashboard').querySelector('h2').textContent=n+' — State & District Atlas';setTimeout(function(){renderGenericStateFacts(n);loadStateDistrictMap(n);$('wb-dashboard').scrollIntoView({behavior:'smooth',block:'start'})},100);}})})}
-$('atlas-search').addEventListener('input',function(e){list(e.target.value);if(map&&indiaLayer){var q=e.target.value.toLowerCase();indiaLayer.eachLayer(function(l){if(featureName(l.feature).toLowerCase().includes(q)&&q){selectRegion(l.feature,l)}})}});
-$('atlas-reset').addEventListener('click',function(){$('wb-dashboard').hidden=true;if(map&&indiaLayer)map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.'});
+function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=g;indiaLayer=L.geoJSON(g,{style:styleRegion,onEachFeature:function(f,l){var n=stateFeatureName(f);l.bindTooltip(safe(n),{sticky:true});l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer)indiaLayer.resetStyle(l)},click:function(e){if(e&&e.originalEvent&&e.originalEvent.stopPropagation)e.originalEvent.stopPropagation();selectRegion(f,l)}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Vector boundaries loaded. Tap a state or union territory to explore. Source: jsDelivr-hosted India administrative GeoJSON with raw GitHub and geoBoundaries fallbacks.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Upload indian-states.geojson beside index.html to enable the local map, then reload.';list('')})}
+function list(q){q=(q||'').trim().toLowerCase();var root=$('sl');if(!root)return;var arr=STATES.filter(function(x){return !q||(x[0]+' '+x[1]).toLowerCase().includes(q)});root.innerHTML='<div class="atlas-districts">'+arr.map(function(x){return '<button type="button" data-region="'+safe(x[0])+'"><b>'+safe(x[0])+'</b><br><small>Capital: '+safe(x[1])+'</small></button>'}).join('')+'</div>';root.querySelectorAll('[data-region]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-region');var l=null;if(indiaLayer){indiaLayer.eachLayer(function(x){if(stateFeatureName(x.feature).toLowerCase()===n.toLowerCase())l=x})}if(l)selectRegion(l.feature,l);else{activeAtlasState=n;$('atlas-region-title').textContent=n;$('atlas-region-summary').textContent='Explore '+n+' and its administrative districts.';renderAdminState(n);$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(stateCapital(n))+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>State / UT</strong></div><div class="atlas-stat"><small>Detail status</small><strong>Loading district atlas</strong></div>';$('wb-dashboard').hidden=false;$('wb-dashboard').querySelector('h2').textContent=n+' — State & District Atlas';setTimeout(function(){renderGenericStateFacts(n);loadStateDistrictMap(n);$('wb-dashboard').scrollIntoView({behavior:'smooth',block:'start'})},100);}})})}
+$('atlas-search').addEventListener('input',function(e){list(e.target.value);if(map&&indiaLayer){var q=e.target.value.toLowerCase();indiaLayer.eachLayer(function(l){if(stateFeatureName(l.feature).toLowerCase().includes(q)&&q){selectRegion(l.feature,l)}})}});
+$('atlas-reset').addEventListener('click',function(){activeAtlasState='';$('wb-dashboard').hidden=true;if(map&&indiaLayer){map.stop();map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});}if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=null;$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.';$('atlas-status').textContent='India view. Select any state or union territory to open its district atlas.'});
 
 function renderGenericStateFacts(name){
  var d=ATLAS_STATE_INFO[(name||'').toLowerCase()]||{},wb=ATLAS_STATE_DATA[name]||{},capital=d.capital||stateCapital(name);

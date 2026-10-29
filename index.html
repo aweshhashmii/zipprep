@@ -589,6 +589,7 @@ function renderAdminDistrict(name){
  root.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 document.addEventListener('input',function(e){if(e.target&&e.target.id==='atlas-admin-district-search')renderDistrictButtons(e.target.value)});
+var activeAtlasState = '';
 function selectRegion(f,layer){
  var name=canonicalStateName(stateFeatureName(f));
  if(!name||name==='Unnamed region'){ $('atlas-status').textContent='This map feature does not include a recognised state name. Try selecting the state from the search/list.';return; }

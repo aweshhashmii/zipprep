@@ -213,6 +213,10 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 @media(prefers-reduced-motion:reduce){#wb-dashboard.atlas-state-enter{animation:none}}
 
 #legacy-state-directory{display:none!important}
+#india-map{height:clamp(420px,68vh,760px)!important;min-height:420px}
+#wb-dashboard[hidden]{display:none!important}
+#wb-dashboard:not([hidden]){display:block!important}
+@media(max-width:760px){.atlas-layout{grid-template-columns:minmax(0,1fr)!important}#india-map{height:62vh!important;min-height:390px}#wb-map{height:64vh!important;min-height:420px}.atlas-map-card{width:100%;min-width:0}}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
@@ -482,15 +486,11 @@ var ATLAS_DISTRICT_DATA={
 };
 function statMarkup(label,value){return '<div class="atlas-stat"><small>'+safe(label)+'</small><strong>'+safe(value||'Needs verification')+'</strong></div>'}
 function renderAdminState(name){
- var root=$('atlas-admin-stats'),heading=$('atlas-admin-heading'),intro=$('atlas-admin-intro'),famous=$('atlas-admin-famous'),districtWrap=$('atlas-admin-district-wrap');
- if(!root)return;
+ var root=$('atlas-admin-stats'),heading=$('atlas-admin-heading'),intro=$('atlas-admin-intro'),famous=$('atlas-admin-famous'),districtWrap=$('atlas-admin-district-wrap');if(!root)return;
  heading.textContent=name+' — State Profile';intro.textContent='Political and administrative facts for '+name+'. Unverified or changing figures are clearly marked.';
- var d=ATLAS_STATE_DATA[name]||{};
- root.innerHTML=statMarkup('Chief Minister',d.cm||'Needs verification')+statMarkup('Lok Sabha MPs',d.lokSabha||'Needs verification')+statMarkup('Rajya Sabha MPs',d.rajyaSabha||'Needs verification')+statMarkup('Total districts',d.districts||'Needs verification')+statMarkup('Total blocks',d.blocks||'Needs verification')+statMarkup('Gram Panchayats',d.panchayats||'Needs verification')+statMarkup('Municipalities / urban local bodies',d.municipalities||'Needs verification')+statMarkup('Assembly MLAs / seats',d.mlas||'Needs verification');
- famous.innerHTML='<strong>Famous for</strong><p>'+safe(d.famous||'State-specific highlights are being prepared from reliable references; this information is not yet verified in the current build.')+'</p>';
- districtWrap.hidden=(name!=='West Bengal');
- if(name==='West Bengal')renderDistrictButtons('');
- else {$('atlas-admin-district-profile').hidden=true;}
+ var d=ATLAS_STATE_INFO[(name||'').toLowerCase()]||ATLAS_STATE_DATA[name]||{};
+ root.innerHTML=statMarkup('Chief Minister / administrator',d.cm||'Needs verification')+statMarkup('Lok Sabha MPs',d.lokSabha||'Needs verification')+statMarkup('Rajya Sabha MPs',d.rajyaSabha||'Needs verification')+statMarkup('Total districts',d.districts||'Needs verification')+statMarkup('Total blocks',d.blocks||'Needs verification')+statMarkup('Gram Panchayats',d.panchayats||'Needs verification')+statMarkup('Municipalities / urban local bodies',d.municipalities||'Needs verification')+statMarkup('Assembly MLAs / seats',d.mlas||'Needs verification');
+ famous.innerHTML='<strong>Famous for</strong><p>'+safe(d.famous||'State-specific highlights need verification from reliable references.')+'</p>';districtWrap.hidden=false;
 }
 function renderDistrictButtons(query){
  var root=$('atlas-admin-districts');if(!root)return;
@@ -547,26 +547,16 @@ function renderAdminDistrict(name){
  root.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 document.addEventListener('input',function(e){if(e.target&&e.target.id==='atlas-admin-district-search')renderDistrictButtons(e.target.value)});
-function selectRegion(f,layer){highlight(layer);var name=featureName(f),capital=stateCapital(name);activeAtlasState=name;renderAdminState(name);$('atlas-region-title').textContent=name;$('atlas-region-summary').textContent=name==='West Bengal'?'First detailed state profile available below.':'Explore exam-relevant facts and administrative geography.';$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'UT':'State')+'</strong></div><div class="atlas-stat"><small>Boundary source</small><strong>geoBoundaries</strong></div>';$('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>Boundary geometry is loaded from geoBoundaries. Detailed profile fields not yet verified are not shown as facts.</p>';
-if(layer&&map){
- var isWestBengal=name.toLowerCase().indexOf('west bengal')>=0;
- var targetBounds=layer.getBounds();
+function selectRegion(f,layer){
+ highlight(layer);var name=featureName(f),capital=stateCapital(name);activeAtlasState=name;renderAdminState(name);
+ $('atlas-region-title').textContent=name;$('atlas-region-summary').textContent='State selected — zooming into '+name+' and loading its district map below.';
+ $('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'Union Territory':'State')+'</strong></div><div class="atlas-stat"><small>Map status</small><strong>Loading district atlas</strong></div>';
+ $('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>The separate district map and state facts are shown below.</p>';
  var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- map.stop();
- map.invalidateSize({pan:false});
- requestAnimationFrame(function(){
-   map.invalidateSize({pan:false});
-   if(reduced){map.fitBounds(targetBounds,{padding:isWestBengal?[28,28]:[18,18],maxZoom:isWestBengal?7:5,animate:false});return;}
-   var center=targetBounds.getCenter();
-   var midZoom=Math.min(Math.max(map.getZoom()+1.1,4.8),isWestBengal?6.3:4.9);
-   map.flyTo(center,midZoom,{animate:true,duration:0.7,easeLinearity:0.2});
-   map.once('moveend',function(){
-     if(!map||!map.getContainer().isConnected)return;
-     map.flyToBounds(targetBounds,{padding:isWestBengal?[28,28]:[18,18],maxZoom:isWestBengal?7:5,duration:1.0,easeLinearity:0.2});
-   });
- });
-}
-$('wb-dashboard').hidden=false;$('wb-dashboard').classList.remove('atlas-state-enter');void $('wb-dashboard').offsetWidth;$('wb-dashboard').classList.add('atlas-state-enter');$('wb-dashboard').querySelector('h2').textContent=name+' — State & District Atlas';$('wb-dashboard').querySelector('.bc a').textContent='← Back to India map';setTimeout(function(){loadStateDistrictMap(name);renderGenericStateFacts(name);if(wbMap){wbMap.invalidateSize({pan:false});if(wbLayer){var b=wbLayer.getBounds();if(matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.fitBounds(b,{padding:[24,24],maxZoom:7,animate:false});else wbMap.flyToBounds(b,{padding:[24,24],maxZoom:7,duration:0.9,easeLinearity:0.2})}}$('wb-dashboard').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})},220)
+ if(map){map.stop();map.invalidateSize({pan:false});requestAnimationFrame(function(){map.invalidateSize({pan:false});if(reduced)map.flyToBounds(layer.getBounds(),{padding:[20,20],maxZoom:7,animate:false});else map.flyToBounds(layer.getBounds(),{padding:[24,24],maxZoom:7,duration:1.15,easeLinearity:.2})})}
+ var dash=$('wb-dashboard');dash.hidden=false;dash.classList.remove('atlas-state-enter');void dash.offsetWidth;dash.classList.add('atlas-state-enter');dash.querySelector('h2').textContent=name+' — State & District Atlas';dash.querySelector('.bc a').textContent='← Back to India map';
+ renderGenericStateFacts(name);
+ setTimeout(function(){loadStateDistrictMap(name);dash.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'})},180);
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function geoUrl(iso,adm){return API+iso+'/'+adm+'/'}
@@ -577,90 +567,59 @@ $('atlas-search').addEventListener('input',function(e){list(e.target.value);if(m
 $('atlas-reset').addEventListener('click',function(){$('wb-dashboard').hidden=true;if(map&&indiaLayer)map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.'});
 
 function renderGenericStateFacts(name){
- var d=ATLAS_STATE_INFO[(name||'').toLowerCase()]||{};
- var capital=d.capital||stateCapital(name);
- $('wb-facts').innerHTML=[['Capital',capital],['Chief Minister / administrator',d.cm||'Verify current official source'],['Lok Sabha MPs',d.lokSabha||'Verify official allocation'],['Rajya Sabha MPs',d.rajyaSabha||'Verify current allocation'],['Total districts',d.districts||'Load district boundary data'],['Assembly seats / MLAs',d.mlas||'Not applicable or needs verification']].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
- $('wb-admin').innerHTML=[['Total blocks',d.blocks||'Needs verification'],['Gram Panchayats',d.panchayats||'Needs verification'],['Municipalities / urban local bodies',d.municipalities||'Needs verification'],['Famous for',d.famous||'State highlights need verification']].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
- $('wb-notes').innerHTML='<details class="atlas-accordion" open><summary>About '+safe(name)+'</summary><p>'+safe(d.famous||'State-specific highlights will be added after verification from official sources.')+'</p></details><p class="atlas-data-note">Administrative figures can change. Verify time-sensitive political and local-government details against official government and election sources before exam publication.</p>';
- $('wb-district-title').textContent='Select a district in '+name;
- $('wb-district-info').innerHTML='<p>Choose a district on the map or in the searchable list to view its profile.</p>';
- $('wb-status').textContent='Loading district boundaries for '+name+'…';
+ var d=ATLAS_STATE_INFO[(name||'').toLowerCase()]||{},wb=ATLAS_STATE_DATA[name]||{},capital=d.capital||stateCapital(name);
+ var value=function(k){return d[k]!==undefined&&d[k]!==''?d[k]:(wb[k]||'Needs verification')};
+ $('wb-facts').innerHTML=[['Capital',capital],['Chief Minister / administrator',value('cm')],['Lok Sabha MPs',value('lokSabha')],['Rajya Sabha MPs',value('rajyaSabha')],['Total districts',value('districts')],['Assembly seats / MLAs',value('mlas')]].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
+ $('wb-admin').innerHTML=[['Total blocks',value('blocks')],['Gram Panchayats',value('panchayats')],['Municipalities / urban local bodies',value('municipalities')],['Famous for',value('famous')]].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
+ $('wb-notes').innerHTML='<details class="atlas-accordion" open><summary>About '+safe(name)+'</summary><p>'+safe(d.famous||wb.famous||'State-specific highlights need verification from reliable references.')+'</p></details><p class="atlas-data-note">Administrative and political details can change. Values marked “Needs verification” are not estimates.</p>';
+ $('wb-district-title').textContent='Select a district in '+name;$('wb-district-info').innerHTML='<p>Choose a district on the map or searchable list to view its administrative facts.</p>';$('wb-district-list').innerHTML='';$('atlas-admin-district-profile').hidden=true;
 }
 function loadStateDistrictMap(stateName){
  activeAtlasState=stateName;
- if(!wbMap){
-  if(!window.L)return;
-  wbMap=L.map('wb-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.5,80],4);
-  wbMap.getContainer().style.background='#151a31';
- }
- wbMap.invalidateSize({pan:false});
- $('wb-status').textContent='Loading district boundaries for '+stateName+'…';
- /* Government of India's BharatMapService district layer includes state and district names.
-    Query only the selected state, rather than downloading every district for every click. */
- var url='https://mapservice.gov.in/gismapservice/rest/services/BharatMapService/Admin_Boundary_District/MapServer/1/query'
-   +'?where='+encodeURIComponent("STNAME='"+stateName.replace(/'/g,"''")+"'")
-   +'&outFields=*&returnGeometry=true&outSR=4326&f=geojson';
- fetch(url).then(function(r){if(!r.ok)throw Error('Government boundary service returned HTTP '+r.status);return r.json()})
- .then(function(g){
-   if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('No district polygons were returned for '+stateName);
-   wbData={type:'FeatureCollection',features:g.features};
-   drawDistricts();
-   $('wb-status').textContent='District map loaded for '+stateName+'. Tap a district to zoom in and open its profile. Boundary source: Government of India BharatMapService.';
- }).catch(function(primaryError){
-   /* Fallback to the previously configured geoBoundaries source, but only accept records whose
-      properties clearly identify the selected state; never mislabel a different state's map. */
-   fetchAdmin('IND','ADM2').then(function(g){
-    var norm=function(s){return String(s||'').toLowerCase().replace(/&/g,'and').replace(/[^a-z]/g,'')};
-    var wanted=norm(stateName);
-    var fs=(g.features||[]).filter(function(f){
-      var p=f.properties||{};
-      var stateFields=[p.STNAME,p.ST_NM,p.STNAME_SH,p.NAME_1,p.NAME_0,p.state,p.admin1Name,p.shapeGroupNameEnglish,p.shapeGroupName];
-      return stateFields.some(function(v){return norm(v)===wanted});
-    });
-    if(!fs.length)throw Error('No reliable state attribute found in the fallback dataset');
-    wbData={type:'FeatureCollection',features:fs};drawDistricts();
-    $('wb-status').textContent='District map loaded for '+stateName+' using the fallback boundary dataset.';
-   }).catch(function(fallbackError){
-    $('wb-status').textContent='Could not load district boundaries for '+stateName+'. Primary source: '+primaryError.message+'. Fallback: '+fallbackError.message+'. The state information remains available; no incorrect district boundaries are shown.';
-   });
- });
+ if(!wbMap){if(!window.L)return;wbMap=L.map('wb-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.5,80],4);wbMap.getContainer().style.background='#151a31'}
+ wbMap.invalidateSize({pan:false});$('wb-status').textContent='Loading district boundaries for '+stateName+'…';
+ var aliases={'Delhi':'NCT of Delhi','Odisha':'Orissa','Uttarakhand':'Uttaranchal'};
+ var serviceName=aliases[stateName]||stateName;
+ var url='https://mapservice.gov.in/gismapservice/rest/services/BharatMapService/Admin_Boundary_District/MapServer/1/query?where='+encodeURIComponent("STNAME='"+serviceName.replace(/'/g,"''")+"'")+'&outFields=*&returnGeometry=true&outSR=4326&f=geojson';
+ fetch(url).then(function(r){if(!r.ok)throw Error('Government boundary service HTTP '+r.status);return r.json()}).then(function(g){
+  if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('No district polygons returned for '+serviceName);
+  wbData={type:'FeatureCollection',features:g.features};drawDistricts();
+  $('wb-status').textContent='District boundaries loaded for '+stateName+'. Source: Government of India BharatMapService; some newer district changes may not be reflected.';
+ }).catch(function(err){$('wb-status').textContent='District map could not load for '+stateName+': '+err.message+'. State facts remain available. Check network access and try again.'});
 }
 function loadWB(){if(wbMap){setTimeout(function(){wbMap.invalidateSize()},100);return}if(!window.L)return;wbMap=L.map('wb-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([23.2,87.8],7);wbMap.getContainer().style.background='#151a31';$('wb-status').textContent='Loading selected state/UT district boundaries into the vector atlas…';fetchAdmin('IND','ADM2').then(function(g){var fs=(g.features||[]).filter(function(f){var p=f.properties||{};return /west bengal/i.test([p.shapeGroup,p.shapeGroupName,p.shapeGroupNameEnglish,p.shapeName,p.shape_name,p.NAME_1,p.state,p.admin1Name].join(' '))});if(!fs.length){throw Error('The source did not expose a reliable state field for filtering West Bengal districts.')}wbData={type:'FeatureCollection',features:fs};drawDistricts();}).catch(function(e){$('wb-status').textContent='District boundaries unavailable: '+e.message+'. District list and verified state notes remain available; no substitute shapes are drawn.'});
 $('wb-facts').innerHTML=[['Capital','Kolkata'],['Formation','26 January 1950 (state formation; verify context for exam)'],['Area','88,752 km²'],['Population','91,276,115 (Census 2011)'],['Official languages','Bengali; English (additional official languages apply in specified areas)'],['District count','23 (administrative reorganisation may change; verify current source)']].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
 $('wb-admin').innerHTML=[['Chief Minister','Shri Suvendu Adhikari'],['Governor','R. N. Ravi (verify current official source before exam use)'],['Lok Sabha seats','42'],['Rajya Sabha seats','16'],['Legislative Assembly seats','294'],['Districts','23'],['Community development blocks','342'],['Gram Panchayats','3,341'],['Urban local bodies','125 (municipal corporations and municipalities)']].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
 $('wb-notes').innerHTML=[['History and formation','West Bengal became a state of the Indian Union on 26 January 1950.'],['Geography and neighbours','West Bengal connects the eastern Himalayan region in the north with the Gangetic plain and the Sundarbans delta in the south. Neighbours include Sikkim, Assam, Bihar, Jharkhand and Odisha; it also shares international borders.'],['Major rivers','Ganga distributary system, Bhagirathi-Hooghly, Teesta, Damodar, Mahananda, Ajay, Mayurakshi, Rupnarayan, Subarnarekha, Torsa, Jaldhaka and Sankosh. River-specific district routes require a verified hydrography dataset.'],['National parks and wildlife','Sundarbans National Park is associated with the mangrove delta. Verify current protected-area lists against the West Bengal Forest Department.'],['Economy and agriculture','Important topics include rice, jute, tea in northern hill/foothill regions, fisheries, ports and manufacturing.'],['Culture and heritage','Durga Puja is a major cultural festival; Darjeeling Himalayan Railway and Sundarbans are UNESCO World Heritage properties.'],['State symbols and schemes','Use official state references before memorising changing or designation-specific details.']].map(function(x){return '<details class="atlas-accordion"><summary>'+safe(x[0])+'</summary><p>'+safe(x[1])+'</p></details>'}).join('')+'<button class="atlas-button" id="wb-practice" type="button">Practice GK questions</button>';$('wb-practice').onclick=function(){location.hash='quiz'};
 }
+function districtFeatureName(f){var p=f&&f.properties||{},c=[p.DTNAME,p.dtname,p.DISTRICT,p.district,p.DIST_NAME,p.NAME_2,p.shapeName,p.shape_name,p.name,p.NAME];for(var i=0;i<c.length;i++)if(typeof c[i]==='string'&&c[i].trim())return c[i].trim();return 'District'}
 function drawDistricts(){
  if(!wbMap||!wbData)return;
- if(wbLayer)wbMap.removeLayer(wbLayer);
- wbLayer=L.geoJSON(wbData,{
-  style:function(){return {color:'#7ae582',weight:1.2,fillColor:'#6b7cff',fillOpacity:.3}},
-  onEachFeature:function(f,l){
-   var n=featureName(f);l.bindTooltip(safe(n),{sticky:true});
-   l.on('click',function(){
-    if(wbSelected)wbLayer.resetStyle(wbSelected);
-    wbSelected=l;
-    var bb=l.getBounds();
-    if(wbMap){
-     if(!matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.flyToBounds(bb,{padding:[28,28],maxZoom:9,duration:0.8});
-     else wbMap.fitBounds(bb,{padding:[20,20],maxZoom:9,animate:false});
-    }
-    l.setStyle({color:'#fff',weight:2.4,fillColor:'#ffd24a',fillOpacity:.8});
-    $('wb-district-title').textContent=n;
-    renderAdminDistrict(n);
-    $('wb-district-info').innerHTML='<p><b>District:</b> '+safe(n)+'</p><p><b>State / UT:</b> '+safe(activeAtlasState)+'</p><p><b>Headquarters and local administrative totals:</b> verify against the district administration and current election records.</p><p><b>Famous for:</b> District-specific highlights will be shown when verified sources are available.</p>';
-   });
-  }
- }).addTo(wbMap);
- wbMap.fitBounds(wbLayer.getBounds(),{padding:[10,10]});
- $('wb-status').textContent='District boundary data loaded for '+activeAtlasState+'. Select a district to zoom in and view its profile.';
+ if(wbLayer)wbMap.removeLayer(wbLayer);wbSelected=null;
+ wbLayer=L.geoJSON(wbData,{style:function(){return {color:'#7ae582',weight:1.2,fillColor:'#5366c7',fillOpacity:.36}},onEachFeature:function(f,l){
+  var n=districtFeatureName(f);l.bindTooltip(safe(n),{sticky:true});
+  l.on('click',function(){
+   if(wbSelected)wbLayer.resetStyle(wbSelected);wbSelected=l;
+   var bb=l.getBounds();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.flyToBounds(bb,{padding:[25,25],maxZoom:9,duration:.9,easeLinearity:.2});else wbMap.fitBounds(bb,{padding:[20,20],maxZoom:9,animate:false});
+   l.setStyle({color:'#fff',weight:2.4,fillColor:'#ffd24a',fillOpacity:.82});
+   $('wb-district-title').textContent=n;renderAdminDistrictForState(activeAtlasState,n);
+   var d=((ATLAS_DISTRICT_DATA[activeAtlasState]||{})[n])||{};
+   $('wb-district-info').innerHTML='<p><b>District:</b> '+safe(n)+'</p><p><b>MLAs:</b> '+safe(d.mlas||'Needs verification')+'</p><p><b>Blocks:</b> '+safe(d.blocks||'Needs verification')+'</p><p><b>Gram Panchayats:</b> '+safe(d.panchayats||'Needs verification')+'</p><p><b>Municipalities:</b> '+safe(d.municipalities||'Needs verification')+'</p><p><b>Famous for:</b> '+safe(d.famous||'Needs verification')+'</p>';
+  });
+ }}).addTo(wbMap);
+ var b=wbLayer.getBounds();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.flyToBounds(b,{padding:[18,18],maxZoom:7,duration:.8,easeLinearity:.2});else wbMap.fitBounds(b,{padding:[18,18],maxZoom:7,animate:false});
+ $('wb-status').textContent='District boundaries loaded for '+activeAtlasState+'. Select a district to zoom in and view its facts.';
  var root=$('wb-district-list');
- root.innerHTML='<h3>Find a district</h3><div class="atlas-districts">'+wbData.features.map(function(f){var n=featureName(f);return '<button type="button" data-district="'+safe(n)+'">'+safe(n)+'</button>'}).join('')+'</div>';
- root.querySelectorAll('[data-district]').forEach(function(b){
-  b.onclick=function(){var n=b.getAttribute('data-district');wbLayer.eachLayer(function(l){if(featureName(l.feature)===n)l.fire('click')})};
- });
+ root.innerHTML='<h3>Find a district in '+safe(activeAtlasState)+'</h3><input id="atlas-district-search-live" type="search" placeholder="Search district…" aria-label="Search district"><div class="atlas-districts">'+wbData.features.map(function(f){var n=districtFeatureName(f);return '<button type="button" data-district="'+safe(n)+'">'+safe(n)+'</button>'}).join('')+'</div>';
+ var search=$('atlas-district-search-live');search.addEventListener('input',function(){var q=search.value.toLowerCase();root.querySelectorAll('[data-district]').forEach(function(b){b.hidden=b.textContent.toLowerCase().indexOf(q)<0})});
+ root.querySelectorAll('[data-district]').forEach(function(b){b.onclick=function(){var n=b.getAttribute('data-district');wbLayer.eachLayer(function(l){if(districtFeatureName(l.feature)===n)l.fire('click')})}});
 }
-$('wb-back').addEventListener('click',function(){activeAtlasState='West Bengal';$('wb-dashboard').hidden=true;if(map&&indiaLayer)map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('v-india').scrollIntoView({behavior:'smooth'})});$('wb-district-search').addEventListener('input',function(e){var q=e.target.value.toLowerCase();document.querySelectorAll('#wb-district-list [data-district]').forEach(function(b){b.hidden=!b.textContent.toLowerCase().includes(q)})});
+function renderAdminDistrictForState(stateName,name){
+ var root=$('atlas-admin-district-profile');if(!root)return;var d=((ATLAS_DISTRICT_DATA[stateName]||{})[name])||{};root.hidden=false;
+ root.innerHTML='<h3>'+safe(name)+' — District Profile</h3><div class="atlas-facts atlas-admin-stats">'+statMarkup('Total MLAs',d.mlas||'Needs verification')+statMarkup('Total blocks',d.blocks||'Needs verification')+statMarkup('Gram Panchayats',d.panchayats||'Needs verification')+statMarkup('Municipalities',d.municipalities||'Needs verification')+'</div><div class="atlas-admin-famous"><strong>District famous for</strong><p>'+safe(d.famous||'Needs verification from reliable district sources')+'</p></div><p class="atlas-data-note">Administrative totals can change; verify current district and election-office records.</p>';
+}
+
+$('wb-back').addEventListener('click',function(){activeAtlasState='';$('wb-dashboard').hidden=true;if(map&&indiaLayer){map.stop();map.flyToBounds(indiaLayer.getBounds(),{padding:[10,10],duration:.8})}$('v-india').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})});$('wb-district-search').addEventListener('input',function(e){var q=e.target.value.toLowerCase();document.querySelectorAll('#wb-district-list [data-district]').forEach(function(b){b.hidden=!b.textContent.toLowerCase().includes(q)})});
 function onRoute(){var h=decodeURIComponent(location.hash.replace(/^#/,''));if(h==='know-india'||h==='revision/gk/know-india'||h==='revision/gk/know-india/west-bengal'){setTimeout(function(){if(!map){initMap();loadIndia()}else{map.invalidateSize({pan:false});if(!indiaLayer)loadIndia()}},180)}}window.addEventListener('hashchange',onRoute);document.addEventListener('zipprep:map-ready',onRoute);if(location.hash)onRoute();
 })();
 </script>

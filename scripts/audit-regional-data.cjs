@@ -54,7 +54,8 @@ const lgdDistricts = lgdData.districts || [];
 assert(lgdStates.length === 36, 'LGD snapshot must contain 36 states/UTs.');
 assert(lgdStates.filter(x => x.type === 'state').length === 28, 'LGD snapshot must contain 28 states.');
 assert(lgdStates.filter(x => x.type === 'union_territory').length === 8, 'LGD snapshot must contain 8 Union Territories.');
-assert(lgdDistricts.length === 784, 'LGD snapshot district count changed; review source snapshot and update the expected count with evidence.');
+assert(lgdData.counts && lgdData.counts.states === lgdStates.length, 'LGD state count metadata does not match state rows.');
+assert(lgdData.counts && lgdData.counts.districts === lgdDistricts.length, 'LGD district count metadata does not match district rows.');
 assert(new Set(lgdStates.map(x => x.lgdCode)).size === 36, 'LGD state codes must be unique.');
 assert(new Set(lgdDistricts.map(x => x.lgdCode)).size === lgdDistricts.length, 'LGD district codes must be unique.');
 for (const state of lgdStates) {

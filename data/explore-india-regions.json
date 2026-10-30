@@ -2464,5 +2464,24 @@
         "culturalHighlights": []
       }
     }
-  ]
+  ],
+  "districtRecordFields": {
+    "id": "Stable district identifier",
+    "parentRegionId": "Stable parent region identifier",
+    "name": "Official district name",
+    "headquarters": "District headquarters",
+    "areaSqKm": "Geographical area in square kilometres",
+    "population": {
+      "value": "Population count",
+      "referenceYear": "Census reference year"
+    },
+    "subdivisions": [],
+    "blocks": [],
+    "majorRivers": [],
+    "protectedAreas": [],
+    "historicalSignificance": null,
+    "culturalHighlights": [],
+    "sourceRecords": [],
+    "lastVerifiedAt": null
+  }
 }

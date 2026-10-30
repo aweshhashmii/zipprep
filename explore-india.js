@@ -11,7 +11,7 @@ var ALIASES={
 'ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU & KASHMIR':'Jammu and Kashmir','JAMMU AND KASHMIR':'Jammu and Kashmir',
 'JAMMU AND KASHMIR (UT)':'Jammu and Kashmir','LADAKH (UT)':'Ladakh'
 };
-var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null;
+var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null,censusDistrictsVerified=false;
 var SOURCE_LINKS=[
 ['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],

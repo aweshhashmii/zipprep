@@ -222,6 +222,27 @@
       "url": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
       "referenceDate": "2026-01-30",
       "note": "Official Ministry table includes site name, state/UT, designation date, area and date/year of declaration."
+    },
+    {
+      "id": "wiiConservationReserves2025",
+      "name": "Wildlife Institute of India / ENVIS — Conservation Reserves (repackaged by Dataful)",
+      "url": "https://dataful.in/datasets/1339/",
+      "referenceDate": "2025-02",
+      "note": "Dataset contains 145 named conservation-reserve records, including notification year and area where reported; source attributed to ENVIS Centre on Wildlife & Protected Areas. Dataful last updated 5 January 2026. Individual entries are not yet imported into regional lists pending full-file retrieval and validation."
+    },
+    {
+      "id": "wiiCommunityReserves2025",
+      "name": "Wildlife Institute of India / ENVIS — Community Reserves (repackaged by Dataful)",
+      "url": "https://dataful.in/datasets/1340/",
+      "referenceDate": "2025-02",
+      "note": "Dataset contains 309 community-reserve records, including creation year and area where reported; source attributed to ENVIS Centre on Wildlife & Protected Areas. Dataful last updated 5 January 2026. Dataset contains repeated names (307 distinct names), so records require deduplication and state matching before import."
+    },
+    {
+      "id": "wiiProtectedAreaNetwork2023",
+      "name": "Wildlife Institute of India — National Wildlife Database, protected-area network snapshot",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2107821&lang=2&reg=3",
+      "referenceDate": "2023-11-27",
+      "note": "National aggregate snapshot: 115 conservation reserves and 220 community reserves (alongside 106 national parks and 573 wildlife sanctuaries). This is a dated national total, not a current state-wise register; later datasets use different snapshots."
     }
   ],
   "regions": [
@@ -542,7 +563,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
     },
@@ -869,7 +892,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Gauhati High Court — Itanagar Permanent Bench"
     },
@@ -1191,7 +1216,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Gauhati High Court — Guwahati"
     },
@@ -1514,7 +1541,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Patna High Court — Patna"
     },
@@ -1821,7 +1850,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Chhattisgarh High Court — Bilaspur"
     },
@@ -2095,7 +2126,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Bombay High Court — Goa Bench, Panaji"
     },
@@ -2437,7 +2470,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
     },
@@ -2706,7 +2741,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -3025,7 +3062,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
     },
@@ -3311,7 +3350,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Jharkhand High Court — Ranchi"
     },
@@ -3676,7 +3717,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Karnataka High Court — Bengaluru"
     },
@@ -4016,7 +4059,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -4416,7 +4461,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Madhya Pradesh High Court — Jabalpur"
     },
@@ -4761,7 +4808,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Bombay High Court — Mumbai"
     },
@@ -5033,7 +5082,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Manipur High Court — Imphal"
     },
@@ -5290,7 +5341,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Meghalaya High Court — Shillong"
     },
@@ -5550,7 +5603,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Gauhati High Court — Aizawl Bench"
     },
@@ -5776,7 +5831,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Gauhati High Court — Kohima Bench"
     },
@@ -6135,7 +6192,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Orissa High Court — Cuttack"
     },
@@ -6439,7 +6498,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -6770,7 +6831,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
     },
@@ -7051,7 +7114,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Sikkim High Court — Gangtok"
     },
@@ -7583,7 +7648,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Madras High Court — Chennai"
     },
@@ -7828,7 +7895,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Telangana High Court — Hyderabad"
     },
@@ -8107,7 +8176,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Tripura High Court — Agartala"
     },
@@ -8534,7 +8605,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Allahabad High Court — Prayagraj"
     },
@@ -8841,7 +8914,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Uttarakhand High Court — Nainital"
     },
@@ -9176,7 +9251,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Calcutta High Court — Kolkata"
     },
@@ -9422,7 +9499,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
     },
@@ -9647,7 +9726,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -9859,7 +9940,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Bombay High Court — territorial jurisdiction"
     },
@@ -10051,7 +10134,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Delhi High Court — New Delhi"
     },
@@ -10374,7 +10459,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
     },
@@ -10727,7 +10814,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
     },
@@ -10931,7 +11020,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -11150,7 +11241,9 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": []
+        "disasterProneRegions": [],
+        "conservationReserves": [],
+        "communityReserves": []
       },
       "highCourt": "Madras High Court — Chennai"
     }

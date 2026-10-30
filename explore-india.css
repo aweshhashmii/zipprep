@@ -146,3 +146,28 @@
     border-radius:14px!important;
   }
 }
+
+
+/* Five-tab state and UT information architecture. Map geometry and map styles
+   are intentionally not changed by this block. */
+.atlas-focus-tabs{gap:clamp(14px,2vw,24px);scroll-behavior:smooth}
+.atlas-focus-tabs button{font-size:11px;letter-spacing:.055em;padding:14px 2px 15px}
+.atlas-focus-content{min-width:0}
+.atlas-geography-grid{align-items:start}
+.atlas-geography-item{min-width:0}
+.atlas-category-description{display:block;color:#9eacc5;font-size:11px;line-height:1.45;margin:-2px 0 10px}
+.atlas-category-records{display:grid;gap:9px}
+.atlas-record{padding:10px 11px;border-radius:10px;background:#101a2c;border:1px solid #ffffff12}
+.atlas-record b{display:block;color:#f4f6fb;font-size:13px;line-height:1.4}
+.atlas-record small{display:block;color:#aebbd2;font-size:10px;line-height:1.5;margin-top:5px}
+.atlas-record p{color:#c0c9d9;font-size:12px;line-height:1.55;margin:7px 0 0}
+.atlas-record a{display:inline-block;color:#b9c9ff;font-size:11px;margin-top:7px;text-underline-offset:3px}
+.atlas-category-records .atlas-data-pending{margin:0;padding:8px 0;font-size:11px;line-height:1.5}
+#district-selected-profile{scroll-margin-top:18px}
+#district-selected-profile h3{margin-top:0}
+@media(max-width:760px){
+ .atlas-focus-tabs{gap:17px}
+ .atlas-focus-tabs button{font-size:10px}
+ .atlas-geography-grid{grid-template-columns:1fr}
+ .atlas-record{padding:10px}
+}

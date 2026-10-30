@@ -89,6 +89,20 @@
       "url": "https://ecostatjk.nic.in/",
       "referenceDate": "2026-10-30",
       "note": "Official current UT area: 42,241 sq. km."
+    },
+    {
+      "id": "fsiIsfr2023",
+      "name": "Forest Survey of India — India State of Forest Report 2023",
+      "url": "https://www.fsi.nic.in/forest-report-2023",
+      "referenceYear": "2023",
+      "note": "State/UT forest and tree cover assessment; figures are historical assessment data, not live measurements."
+    },
+    {
+      "id": "ntcaTigerReserves",
+      "name": "National Tiger Conservation Authority — Tiger Reserves",
+      "url": "https://ntca.gov.in/tiger-reserves/",
+      "referenceDate": "2026-10-30",
+      "note": "Official state-wise list of notified tiger reserves; reserve names reflect the NTCA list accessed 30 October 2026."
     }
   ],
   "regions": [
@@ -194,7 +208,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Nagarjunsagar-Srisailam",
+            "count": 1,
+            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -210,7 +232,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 35424.98,
+          "percentOfGeographicalArea": 21.74,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -336,7 +365,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Kamlang; Namdapha; Pakke",
+            "count": 3,
+            "description": "3 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -352,7 +389,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 67083.2,
+          "percentOfGeographicalArea": 80.11,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -464,7 +508,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Kaziranga; Manas; Nameri; Orang",
+            "count": 4,
+            "description": "4 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -480,7 +532,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 30415.01,
+          "percentOfGeographicalArea": 38.78,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -592,7 +651,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Valmiki",
+            "count": 1,
+            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -608,7 +675,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 9902.66,
+          "percentOfGeographicalArea": 10.52,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -727,7 +801,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Achanakmar; Guru Ghasidas–Tamor Pingla; Indravati; Udanti-Sitanadi",
+            "count": 4,
+            "description": "4 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -743,7 +825,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 62350.45,
+          "percentOfGeographicalArea": 46.12,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -869,7 +958,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -885,7 +982,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 2523.54,
+          "percentOfGeographicalArea": 68.17,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1018,7 +1122,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1034,7 +1146,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 21648.93,
+          "percentOfGeographicalArea": 11.03,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1160,7 +1279,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1176,7 +1303,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 3307.28,
+          "percentOfGeographicalArea": 7.48,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1295,7 +1429,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1311,7 +1453,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 16435.42,
+          "percentOfGeographicalArea": 29.52,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1430,7 +1579,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Palamau",
+            "count": 1,
+            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1446,7 +1603,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 27403.33,
+          "percentOfGeographicalArea": 34.38,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1565,7 +1729,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Bandipur; Bhadra; Biligiri Ranganatha Temple; Kali; Nagarahole",
+            "count": 5,
+            "description": "5 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1581,7 +1753,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 47033.42,
+          "percentOfGeographicalArea": 24.52,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1707,7 +1886,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Parambikulam; Periyar",
+            "count": 2,
+            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1723,7 +1910,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 24965.3,
+          "percentOfGeographicalArea": 64.26,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1842,7 +2036,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Bandhavgarh; Kanha; Madhav; Panna; Pench; Ratapani; Sanjay-Dubri; Satpura; Veerangana Durgavati",
+            "count": 9,
+            "description": "9 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1858,7 +2060,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 85723.58,
+          "percentOfGeographicalArea": 27.81,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -1977,7 +2186,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Bor; Melghat; Nawegaon-Nagzira; Pench; Sahyadri; Tadoba-Andhari",
+            "count": 6,
+            "description": "6 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -1993,7 +2210,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 65383.41,
+          "percentOfGeographicalArea": 21.25,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2119,7 +2343,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -2135,7 +2367,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 16795.28,
+          "percentOfGeographicalArea": 75.22,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2247,14 +2486,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 17687.4,
+          "percentOfGeographicalArea": 78.86,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2373,7 +2627,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Dampa",
+            "count": 1,
+            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -2389,7 +2651,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 18558.26,
+          "percentOfGeographicalArea": 88.03,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2501,14 +2770,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 12616.49,
+          "percentOfGeographicalArea": 76.1,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2627,7 +2911,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Satkosia; Similipal",
+            "count": 2,
+            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -2643,7 +2935,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 58597.01,
+          "percentOfGeographicalArea": 37.63,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2762,7 +3061,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -2778,7 +3085,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 3321.24,
+          "percentOfGeographicalArea": 6.59,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -2890,7 +3204,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Dholpur-Karauli; Mukundara Hills; Ramgarh Vishdhari; Ranthambore; Sariska",
+            "count": 5,
+            "description": "5 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -2906,7 +3228,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 27389.33,
+          "percentOfGeographicalArea": 8,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3025,7 +3354,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -3041,7 +3378,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 3406.73,
+          "percentOfGeographicalArea": 48.01,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3160,7 +3504,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Anamalai; Kalakad-Mundanthurai; Mudumalai; Sathyamangalam; Srivilliputhur-Megamalai",
+            "count": 5,
+            "description": "5 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -3176,7 +3528,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 31820.94,
+          "percentOfGeographicalArea": 24.47,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3295,14 +3654,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Amrabad; Kawal",
+            "count": 2,
+            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 24696.7,
+          "percentOfGeographicalArea": 22.03,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3421,7 +3795,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -3437,7 +3819,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 7832.33,
+          "percentOfGeographicalArea": 74.69,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3549,7 +3938,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Dudhwa; Pilibhit; Ranipur",
+            "count": 3,
+            "description": "3 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -3565,7 +3962,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 23996.72,
+          "percentOfGeographicalArea": 9.96,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3684,7 +4088,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Corbett; Rajaji",
+            "count": 2,
+            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -3700,7 +4112,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 25534.97,
+          "percentOfGeographicalArea": 47.74,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3819,7 +4238,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "Buxa; Sundarban",
+            "count": 2,
+            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -3835,7 +4262,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 19770.45,
+          "percentOfGeographicalArea": 22.28,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -3954,14 +4388,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 6759.89,
+          "percentOfGeographicalArea": 81.95,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -4061,7 +4510,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -4077,7 +4534,14 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 46.18,
+          "percentOfGeographicalArea": 40.51,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -4177,7 +4641,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
@@ -4277,14 +4749,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 371.31,
+          "percentOfGeographicalArea": 25.04,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -4403,7 +4890,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -4601,7 +5096,15 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [
           {
@@ -4710,14 +5213,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 27.26,
+          "percentOfGeographicalArea": 92,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -4817,14 +5335,29 @@
         "wetlands": [],
         "nationalParks": [],
         "wildlifeSanctuaries": [],
-        "tigerReserves": [],
+        "tigerReserves": [
+          {
+            "name": "No tiger reserve listed for this State/UT",
+            "count": 0,
+            "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          }
+        ],
         "biosphereReserves": [],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "forestAndTreeCoverSqKm": 73.2,
+          "percentOfGeographicalArea": 14.94,
+          "referenceYear": 2023,
+          "description": "Forest and tree cover combined, as assessed in the India State of Forest Report 2023.",
+          "sourceId": "fsiIsfr2023",
+          "sourceUrl": "https://www.fsi.nic.in/forest-report-2023"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],

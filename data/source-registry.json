@@ -355,6 +355,34 @@
         "Historical sites"
       ],
       "cadence": "Use official institutional or state records"
+    },
+    {
+      "id": "darjeelingDistrictAdministrationSetup",
+      "name": "Darjeeling District Administration — Administrative Setup",
+      "url": "https://darjeeling.gov.in/administrative-setup/",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "District headquarters",
+        "Subdivisions",
+        "Development blocks"
+      ],
+      "cadence": "Review when the district administration updates its administrative setup"
+    },
+    {
+      "id": "darjeelingDistrictOfficialPortal",
+      "name": "Darjeeling District Administration — Official District Portal",
+      "url": "https://darjeeling.gov.in/",
+      "tabs": [
+        "profile",
+        "heritage"
+      ],
+      "fields": [
+        "District overview",
+        "Cultural and heritage highlights"
+      ],
+      "cadence": "Review when official district portal content is updated"
     }
   ]
 }

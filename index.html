@@ -608,48 +608,57 @@ function selectRegion(f,layer){
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function fetchAdmin(iso,adm){
- /* The repository's all-india.geojson is a national outline, not a
-    collection of state boundaries. Load the documented per-state district
-    GeoJSON files and merge their district polygons into state/UT features. */
- var slugs=[
-  'andhra-pradesh','arunachal-pradesh','assam','bihar','chhattisgarh','goa',
-  'gujarat','haryana','himachal-pradesh','jharkhand','karnataka','kerala',
-  'madhya-pradesh','maharashtra','manipur','meghalaya','mizoram','nagaland',
-  'odisha','punjab','rajasthan','sikkim','tamil-nadu','telangana','tripura',
-  'uttar-pradesh','uttarakhand','west-bengal','andaman-and-nicobar-islands',
-  'chandigarh','dnh-and-dd','delhi','jammu-and-kashmir','ladakh',
-  'lakshadweep','puducherry'
+ /* Try independent complete 36-region datasets first, then the per-state
+    district collection. Each dataset has two delivery hosts. */
+ var sources=[
+  ['https://cdn.jsdelivr.net/gh/iamaanahmad/GeoJson-of-Indian-States@main/indian-states.geojson',
+   'https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/indian-states.geojson'],
+  ['https://cdn.jsdelivr.net/gh/AbhinavSwami28/india-official-geojson@main/india-states-simplified.geojson',
+   'https://raw.githubusercontent.com/AbhinavSwami28/india-official-geojson/main/india-states-simplified.geojson']
  ];
- var revision='2884453';
- function loadOne(slug){
-  var path='geojson/states/'+slug+'.geojson';
-  var urls=[
-   'https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@'+revision+'/'+path,
-   'https://raw.githubusercontent.com/udit-001/india-maps-data/'+revision+'/'+path
-  ];
-  return loadGeoJSON(urls[0]).catch(function(){return loadGeoJSON(urls[1])});
+ function validate(g,label){
+  if(!g||g.type!=='FeatureCollection'||!Array.isArray(g.features)||g.features.length<32)
+   throw Error(label+' did not return a complete India FeatureCollection');
+  return g;
  }
- return Promise.all(slugs.map(loadOne)).then(function(collections){
-  var features=[];
-  collections.forEach(function(g){
-   if(!g||!Array.isArray(g.features))throw Error('A state boundary file has an invalid GeoJSON format');
-   features=features.concat(g.features);
-  });
-  return {type:'FeatureCollection',features:features};
- }).catch(function(e){
-  throw Error('Could not download the individual state boundary files ('+e.message+'). Check the connection and retry.');
+ function trySource(i){
+  if(i>=sources.length)return loadStateFiles();
+  var pair=sources[i];
+  return loadGeoJSON(pair[0]).catch(function(){return loadGeoJSON(pair[1])})
+   .then(function(g){g=validate(g,'Boundary source '+(i+1));normalizeIndiaFeatures(g);return g})
+   .catch(function(){return trySource(i+1)});
+ }
+ function loadStateFiles(){
+  var regions=[
+   ['andhra-pradesh','Andhra Pradesh'],['arunachal-pradesh','Arunachal Pradesh'],['assam','Assam'],['bihar','Bihar'],['chhattisgarh','Chhattisgarh'],['goa','Goa'],['gujarat','Gujarat'],['haryana','Haryana'],['himachal-pradesh','Himachal Pradesh'],['jharkhand','Jharkhand'],['karnataka','Karnataka'],['kerala','Kerala'],['madhya-pradesh','Madhya Pradesh'],['maharashtra','Maharashtra'],['manipur','Manipur'],['meghalaya','Meghalaya'],['mizoram','Mizoram'],['nagaland','Nagaland'],['odisha','Odisha'],['punjab','Punjab'],['rajasthan','Rajasthan'],['sikkim','Sikkim'],['tamil-nadu','Tamil Nadu'],['telangana','Telangana'],['tripura','Tripura'],['uttar-pradesh','Uttar Pradesh'],['uttarakhand','Uttarakhand'],['west-bengal','West Bengal'],['andaman-and-nicobar-islands','Andaman and Nicobar Islands'],['chandigarh','Chandigarh'],['dnh-and-dd','Dadra and Nagar Haveli and Daman and Diu'],['delhi','Delhi'],['jammu-and-kashmir','Jammu and Kashmir'],['ladakh','Ladakh'],['lakshadweep','Lakshadweep'],['puducherry','Puducherry']
+  ];
+  var rev='2884453';
+  return Promise.all(regions.map(function(region){
+   var path='geojson/states/'+region[0]+'.geojson';
+   return loadGeoJSON('https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@'+rev+'/'+path)
+    .catch(function(){return loadGeoJSON('https://raw.githubusercontent.com/udit-001/india-maps-data/'+rev+'/'+path)})
+    .then(function(g){
+     var coords=[];
+     (g.features||[]).forEach(function(f){if(!f.geometry)return;if(f.geometry.type==='Polygon')coords.push(f.geometry.coordinates);else if(f.geometry.type==='MultiPolygon')coords=coords.concat(f.geometry.coordinates)});
+     if(!coords.length)throw Error('No geometry for '+region[1]);
+     var n=region[1];return {type:'Feature',properties:{STATE:n,st_nm:n,ST_NM:n,state_name:n,NAME_1:n,shapeName:n,name:n},geometry:{type:'MultiPolygon',coordinates:coords}};
+    });
+  })).then(function(features){return {type:'FeatureCollection',features:features}});
+ }
+ return trySource(0).catch(function(e){
+  throw Error('All independent boundary sources failed. '+e.message+'. Tried DataMeet-derived state GeoJSON, a second complete India boundary dataset, and individual state files with CDN and raw-host fallbacks.');
  });
 }
 function normalizeIndiaFeatures(g){
  if(!g||!Array.isArray(g.features))throw Error('Invalid India boundary FeatureCollection');
- var aliases={'PONDICHERRY':'Puducherry','PUDUCHERRY':'Puducherry','ANDAMAN AND NICOBAR ISLANDS':'Andaman and Nicobar Islands','ANDAMAN & NICOBAR ISLANDS':'Andaman and Nicobar Islands','DADAR AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN & DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU AND KASHMIR':'Jammu and Kashmir'};
+ var aliases={'PONDICHERRY':'Puducherry','PUDUCHERRY':'Puducherry','ANDAMAN AND NICOBAR':'Andaman and Nicobar Islands','ANDAMAN AND NICOBAR ISLANDS':'Andaman and Nicobar Islands','ANDAMAN & NICOBAR ISLANDS':'Andaman and Nicobar Islands','DADAR AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN & DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU AND KASHMIR':'Jammu and Kashmir'};
  var expected=['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal','Andaman and Nicobar Islands','Chandigarh','Dadra and Nagar Haveli and Daman and Diu','Delhi','Jammu and Kashmir','Ladakh','Lakshadweep','Puducherry'];
  var groups={};
  g.features.forEach(function(f){
   var raw=featureName(f),props=f&&f.properties||{},values=Object.keys(props).map(function(k){return props[k]}).filter(function(v){return typeof v==='string'&&v.trim()});
   var candidates=[raw].concat(values),name=null;
   for(var ci=0;ci<candidates.length&&!name;ci++){
-   var candidate=candidates[ci],key=candidate.normalize?candidate.normalize('NFD').replace(/[\\u0300-\\u036f]/g,''):candidate;
+   var candidate=candidates[ci],key=candidate.normalize?candidate.normalize('NFD').replace(/[\u0300-\u036f]/g,''):candidate;
    name=aliases[key.toUpperCase()]||expected.find(function(x){return x.toLowerCase()===key.toLowerCase()});
   }
   if(!name)return;

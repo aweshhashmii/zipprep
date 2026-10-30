@@ -178,6 +178,7 @@ function selectDistrict(name,layer){
  stat('District headquarters',value(record.headquarters),'Official district administration portal · source record pending')+
  stat('District status',value(record.status),'Existing district record')+
  stat('District formation date',value(record.formationDate),'Existing district record')+
+ stat('Subdivisions',Array.isArray(record.subdivisions)&&record.subdivisions.length?record.subdivisions.join(', '):'Verification pending','Existing district record')+
  stat('Area',value(record.areaSqKm)==='Verification pending'?'Verification pending':value(record.areaSqKm)+' km²','Official district statistical handbook')+
  stat('Population',census?Number(census.population).toLocaleString('en-IN')+' (Census 2011)':pop,'Census of India · Primary Census Abstract 2011')+
  stat('Male / female population',census?Number(census.male).toLocaleString('en-IN')+' / '+Number(census.female).toLocaleString('en-IN'):'Verification pending','Census of India · 2011')+

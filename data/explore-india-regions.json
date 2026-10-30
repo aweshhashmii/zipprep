@@ -109,6 +109,12 @@
       "name": "Incredible India — Rivers of India",
       "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html",
       "note": "Selected major rivers associated with each region; several rivers cross state boundaries and are not wholly contained within the named region."
+    },
+    {
+      "id": "incredibleIndiaRanges",
+      "name": "Incredible India — Mountain Ranges of India",
+      "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html",
+      "note": "Major ranges and hill systems associated with each region; regional associations do not imply that an entire range lies within one state."
     }
   ],
   "regions": [
@@ -192,7 +198,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Eastern Ghats",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Nallamala Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Seshachalam Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Papikonda Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -385,7 +416,44 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Eastern Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Mishmi Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Patkai Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Dafla Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Miri Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Abor Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -570,7 +638,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Karbi Anglong Plateau",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Barail Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Patkai Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -761,7 +848,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Rajgir Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Kaimur Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Someshwar Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -941,7 +1047,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Maikal Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Bastar Plateau",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Bailadila Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -1140,7 +1265,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Western Ghats (Sahyadri)",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -1328,7 +1460,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Aravalli Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Satpura Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Girnar Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -1509,7 +1660,20 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Aravalli Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Shivalik Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -1677,7 +1841,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Greater Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Dhauladhar Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Pir Panjal Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Zanskar Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -1857,7 +2046,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Chota Nagpur Plateau",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Rajmahal Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Parasnath Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -2031,7 +2239,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Western Ghats (Sahyadri)",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Eastern Ghats",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Nilgiri Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Baba Budan Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -2242,7 +2475,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Western Ghats",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Anaimalai Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Cardamom Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Nilgiri Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -2422,7 +2680,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Vindhya Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Satpura Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Maikal Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Kaimur Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -2650,7 +2933,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Western Ghats (Sahyadri)",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Satpura Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Ajanta Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Satmala Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -2867,7 +3175,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Manipur Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Barail Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Naga Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -2890,7 +3217,7 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           },
           {
-            "name": "Ir​​il",
+            "name": "Iril",
             "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
             "sourceId": "incredibleIndiaRivers",
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
@@ -3034,7 +3361,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Garo Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Khasi Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Jaintia Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -3199,7 +3545,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Mizo (Lushai) Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -3366,7 +3719,20 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Naga Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Patkai Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -3525,7 +3891,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Eastern Ghats",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Mahendragiri Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Similipal Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -3711,7 +4096,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Shivalik Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -3878,7 +4270,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Aravalli Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Vindhyan uplands",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Mukandara Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -4076,7 +4487,20 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Eastern Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Kanchenjunga massif",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -4238,7 +4662,44 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Western Ghats",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Eastern Ghats",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Nilgiri Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Anaimalai Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Palani Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Cardamom Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -4436,7 +4897,26 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Deccan Plateau",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Nallamala Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Ananthagiri Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -4607,7 +5087,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Jampui Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Atharamura Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Longtharai Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Baramura Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -4774,7 +5279,20 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Shivalik foothills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Vindhya Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -4972,7 +5490,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Greater Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Garhwal Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Kumaon Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Shivalik Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -5158,7 +5701,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Eastern Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Darjeeling Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Ajodhya Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Susunia Hills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -5338,7 +5906,20 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Andaman hill ranges",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Nicobar hill ranges",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -5477,7 +6058,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Shivalik foothills",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -5614,7 +6202,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Sahyadri foothills (Dadra and Nagar Haveli)",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -5734,7 +6329,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Delhi Ridge (northern extension of the Aravalli Range)",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -5870,7 +6472,32 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Pir Panjal Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Greater Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Zanskar Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Karakoram Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -6106,7 +6733,32 @@
         ]
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "Karakoram Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Ladakh Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Zanskar Range",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          },
+          {
+            "name": "Greater Himalaya",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -6129,7 +6781,7 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           },
           {
-            "name": "Sur​​u",
+            "name": "Suru",
             "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
             "sourceId": "incredibleIndiaRivers",
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
@@ -6258,7 +6910,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "No major mountain range; low-lying coral atolls",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [
@@ -6386,7 +7045,14 @@
         "records": []
       },
       "geography": {
-        "mountainRanges": [],
+        "mountainRanges": [
+          {
+            "name": "No major mountain range; coastal plain",
+            "description": "Major mountain range or hill system associated with this State/UT.",
+            "sourceId": "incredibleIndiaRanges",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
+          }
+        ],
         "peaks": [],
         "passes": [],
         "rivers": [

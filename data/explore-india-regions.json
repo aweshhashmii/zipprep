@@ -1,0 +1,1340 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Source-aware state and Union Territory catalogue for ZipPrep Explore India. Null fields are intentionally unpopulated until an authoritative record is imported.",
+  "lastUpdatedAt": null,
+  "sourceRegistry": [
+    {
+      "id": "eci",
+      "name": "Election Commission of India",
+      "url": "https://eci.gov.in/"
+    },
+    {
+      "id": "parliament",
+      "name": "Parliament of India",
+      "url": "https://sansad.in/"
+    },
+    {
+      "id": "panchayat",
+      "name": "Ministry of Panchayati Raj",
+      "url": "https://panchayat.gov.in/"
+    },
+    {
+      "id": "mohua",
+      "name": "Ministry of Housing and Urban Affairs",
+      "url": "https://mohua.gov.in/"
+    },
+    {
+      "id": "census",
+      "name": "Census of India",
+      "url": "https://censusindia.gov.in/"
+    },
+    {
+      "id": "bharatmap",
+      "name": "Government of India BharatMapService",
+      "url": "https://mapservice.gov.in/"
+    },
+    {
+      "id": "geoboundaries",
+      "name": "geoBoundaries",
+      "url": "https://www.geoboundaries.org/"
+    }
+  ],
+  "regions": [
+    {
+      "id": "IN-AP",
+      "name": "Andhra Pradesh",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-AR",
+      "name": "Arunachal Pradesh",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-AS",
+      "name": "Assam",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-BR",
+      "name": "Bihar",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-CT",
+      "name": "Chhattisgarh",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-GA",
+      "name": "Goa",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-GJ",
+      "name": "Gujarat",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-HR",
+      "name": "Haryana",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-HP",
+      "name": "Himachal Pradesh",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-JH",
+      "name": "Jharkhand",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-KA",
+      "name": "Karnataka",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-KL",
+      "name": "Kerala",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-MP",
+      "name": "Madhya Pradesh",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-MH",
+      "name": "Maharashtra",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-MN",
+      "name": "Manipur",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-ML",
+      "name": "Meghalaya",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-MZ",
+      "name": "Mizoram",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-NL",
+      "name": "Nagaland",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-OD",
+      "name": "Odisha",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-PB",
+      "name": "Punjab",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-RJ",
+      "name": "Rajasthan",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-SK",
+      "name": "Sikkim",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-TN",
+      "name": "Tamil Nadu",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-TS",
+      "name": "Telangana",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-TR",
+      "name": "Tripura",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-UP",
+      "name": "Uttar Pradesh",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-UK",
+      "name": "Uttarakhand",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-WB",
+      "name": "West Bengal",
+      "regionType": "state",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-AN",
+      "name": "Andaman and Nicobar Islands",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-CH",
+      "name": "Chandigarh",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-DHDD",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-DL",
+      "name": "Delhi",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-JK",
+      "name": "Jammu and Kashmir",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-LA",
+      "name": "Ladakh",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-LD",
+      "name": "Lakshadweep",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "IN-PY",
+      "name": "Puducherry",
+      "regionType": "union_territory",
+      "capital": null,
+      "formationDate": null,
+      "areaSqKm": null,
+      "officialLanguages": [],
+      "introduction": null,
+      "political": {
+        "chiefMinisterOrAdministrator": null,
+        "governorOrLieutenantGovernor": null,
+        "lokSabhaSeats": null,
+        "rajyaSabhaSeats": null,
+        "assemblySeats": null,
+        "legislativeCouncil": null
+      },
+      "administration": {
+        "districtCount": null,
+        "blocks": null,
+        "gramPanchayats": null,
+        "intermediatePanchayats": null,
+        "districtPanchayats": null,
+        "municipalCorporations": null,
+        "municipalities": null,
+        "nagarPanchayats": null
+      },
+      "boundary": {
+        "asset": "/indian-states.geojson",
+        "sourceId": "bharatmap",
+        "geometryVersion": null,
+        "effectiveFrom": null
+      },
+      "sourceRecords": [],
+      "lastVerifiedAt": null
+    }
+  ]
+}

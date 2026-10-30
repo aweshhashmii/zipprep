@@ -627,7 +627,12 @@ function normalizeIndiaFeatures(g){
  var expected=['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal','Andaman and Nicobar Islands','Chandigarh','Dadra and Nagar Haveli and Daman and Diu','Delhi','Jammu and Kashmir','Ladakh','Lakshadweep','Puducherry'];
  var groups={};
  g.features.forEach(function(f){
-  var raw=featureName(f),key=raw.normalize?raw.normalize('NFD').replace(/[\\u0300-\\u036f]/g,''):raw,name=aliases[key.toUpperCase()]||expected.find(function(x){return x.toLowerCase()===key.toLowerCase()});
+  var raw=featureName(f),props=f&&f.properties||{},values=Object.keys(props).map(function(k){return props[k]}).filter(function(v){return typeof v==='string'&&v.trim()});
+  var candidates=[raw].concat(values),name=null;
+  for(var ci=0;ci<candidates.length&&!name;ci++){
+   var candidate=candidates[ci],key=candidate.normalize?candidate.normalize('NFD').replace(/[\\u0300-\\u036f]/g,''):candidate;
+   name=aliases[key.toUpperCase()]||expected.find(function(x){return x.toLowerCase()===key.toLowerCase()});
+  }
   if(!name)return;
   if(!groups[name])groups[name]={type:'Feature',properties:Object.assign({},f.properties||{},{STATE:name,shapeName:name}),geometry:{type:'MultiPolygon',coordinates:[]}};
   var geom=f.geometry;if(!geom)return;

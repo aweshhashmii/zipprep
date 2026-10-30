@@ -204,6 +204,9 @@ function renderProfile(name,count){
  '<div class="atlas-profile-grid">'+
  stat('Official capital',display(record&&record.capital),'State/UT government source; seasonal or additional capital arrangements are noted where applicable')+
  stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Verification pending','Government of India administrative structure')+
+ stat('Regional catalogue updated',display(regionCatalog&&regionCatalog.lastUpdatedAt),'Existing catalogue metadata')+
+ stat('State boundary source',display(record&&record.boundary&&record.boundary.sourceId),'Existing state boundary metadata')+
+ stat('State boundary geometry version / effective date',record&&record.boundary?(display(record.boundary.geometryVersion)+' / '+display(record.boundary.effectiveFrom)):'Verification pending','Existing state boundary metadata')+
  stat('Administrative district count',record&&record.administration&&record.administration.districtCount!==null&&record.administration.districtCount!==undefined?record.administration.districtCount:(record&&record.districts&&record.districts.records&&record.districts.records.length?record.districts.records.length:'Verification pending'),'State/UT administrative records; may differ from currently available boundary polygons')+
  stat('Districts mapped in boundary service',count,'BharatMapService district polygons · current response; geometry coverage only')+
  stat('Chief Minister / administrator',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+

@@ -405,6 +405,24 @@
       "name": "Doddabetta Peak — official government source",
       "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/ooty/doddabetta-peak",
       "note": "Government source documenting this named peak and its state-level significance."
+    },
+    {
+      "id": "karMullayanagiri",
+      "name": "Mullayanagiri — official government source",
+      "url": "https://karnatakatourism.org/en/experiences/mullayanagiri-hill-escape/",
+      "note": "Official government documentation of this named peak."
+    },
+    {
+      "id": "kerAnamudi",
+      "name": "Anamudi — official government source",
+      "url": "https://www.keralatourism.org/munnar/anamudi-peak-kerala.php",
+      "note": "Official government documentation of this named peak."
+    },
+    {
+      "id": "jharParasnath",
+      "name": "Parasnath Hill — official government source",
+      "url": "https://cm.jharkhand.gov.in/parasnath",
+      "note": "Official government documentation of this named peak."
     }
   ],
   "regions": [
@@ -4736,7 +4754,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Parasnath Hill",
+            "height": "4,480 ft",
+            "sourceId": "jharParasnath",
+            "sourceUrl": "https://cm.jharkhand.gov.in/parasnath",
+            "description": "Official government source identifies this as the state's highest peak or hill."
+          }
+        ],
         "passes": [],
         "rivers": [
           {
@@ -5141,7 +5167,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Mullayanagiri",
+            "height": "1,930 m",
+            "sourceId": "karMullayanagiri",
+            "sourceUrl": "https://karnatakatourism.org/en/experiences/mullayanagiri-hill-escape/",
+            "description": "Official government source identifies this as the state's highest peak or hill."
+          }
+        ],
         "passes": [],
         "rivers": [
           {
@@ -5717,7 +5751,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Anamudi",
+            "height": "2,695 m",
+            "sourceId": "kerAnamudi",
+            "sourceUrl": "https://www.keralatourism.org/munnar/anamudi-peak-kerala.php",
+            "description": "Official government source identifies this as the state's highest peak or hill."
+          }
+        ],
         "passes": [],
         "rivers": [
           {

@@ -611,8 +611,8 @@ function fetchAdmin(iso,adm){
  /* Try independent complete 36-region datasets first, then the per-state
     district collection. Each dataset has two delivery hosts. */
  var sources=[
-  ['https://cdn.jsdelivr.net/gh/iamaanahmad/GeoJson-of-Indian-States@main/Indian_States.json',
-   'https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/Indian_States.json'],
+  ['https://cdn.jsdelivr.net/gh/iamaanahmad/GeoJson-of-Indian-States@main/indian-states.geojson',
+   'https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/indian-states.geojson'],
   ['https://cdn.jsdelivr.net/gh/AbhinavSwami28/india-official-geojson@main/india-states-simplified.geojson',
    'https://raw.githubusercontent.com/AbhinavSwami28/india-official-geojson/main/india-states-simplified.geojson']
  ];
@@ -625,7 +625,7 @@ function fetchAdmin(iso,adm){
   if(i>=sources.length)return loadStateFiles();
   var pair=sources[i];
   return loadGeoJSON(pair[0]).catch(function(){return loadGeoJSON(pair[1])})
-   .then(function(g){return validate(g,'Boundary source '+(i+1))})
+   .then(function(g){g=validate(g,'Boundary source '+(i+1));normalizeIndiaFeatures(g);return g})
    .catch(function(){return trySource(i+1)});
  }
  function loadStateFiles(){

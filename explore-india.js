@@ -49,6 +49,7 @@ function loadRegionCatalog(){
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3];
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
+  censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
@@ -169,7 +170,7 @@ function renderDistrictDirectory(){
  var search=$('district-search');if(search)search.addEventListener('input',function(){var q=search.value.trim().toLowerCase();root.querySelectorAll('button').forEach(function(btn){btn.hidden=!btn.textContent.toLowerCase().includes(q)})});
 }
 function censusDistrictRecord(stateName,district){
- if(!Array.isArray(censusDistricts))return null;
+ if(!censusDistrictsVerified||!Array.isArray(censusDistricts))return null;
  var norm=function(s){return String(s||'').toLowerCase().replace(/\([^)]*\)/g,'').replace(/district/g,'').replace(/[^a-z0-9]/g,'')};
  var d=norm(district),state=norm(stateName);
  var stateAliases={'delhi':['nctofdelhi'],'odisha':['orissa'],'telangana':['andhrapradesh'],'ladakh':['jammuandkashmir'],'puducherry':['pondicherry'],'dadraandnagarhavelianddamananddiu':['dadraandnagarhaveli','damananddiu']};
@@ -284,7 +285,8 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
  }
  var populated=0;
  var cards=categories.map(function(c){
-  var value=geography[c[1]],items=Array.isArray(value)?value:(value?[value]:[]);
+  var sourceKeys=Array.isArray(c[1])?c[1]:[c[1]],items=[];
+  sourceKeys.forEach(function(key){var value=geography[key];if(Array.isArray(value))items=items.concat(value);else if(value)items.push(value)});
   if(items.length)populated++;
   return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b>'+
    (c[2]?'<small class="atlas-category-description">'+textSafe(c[2])+'</small>':'')+
@@ -316,6 +318,7 @@ function renderGeography(name){
   ['Climate','climate','Rainfall, temperature, monsoon and climatic regions'],
   ['Coastal features','coastalFeatures','Coastline, deltas, estuaries, beaches and creeks'],
   ['Islands & reefs','islands','Island groups, reefs, channels and marine features'],
+  ['Other named water bodies','waterBodies','Additional water bodies retained separately from lakes and wetlands'],
   ['Geology','geology','Rock systems, geological formations and structures']
  ]);
 }

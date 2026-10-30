@@ -13,7 +13,7 @@ var ALIASES={
 };
 var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null,censusDistrictsVerified=false;var lgdDirectory=null;
 var SOURCE_LINKS=[
-['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
+['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],['Local Government Directory — current district codes','https://lgdirectory.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
 ['UNESCO World Heritage Centre — India','https://whc.unesco.org/en/statesparties/IN'],['MoHFW Rural Health Statistics 2020–21 — Census 2011 area table','https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf'],['Ministry of Home Affairs — State reorganisation history','https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf'],['MHA — Jammu & Kashmir / Ladakh formation','https://www.mha.gov.in/jammu-kashmir-ladakh-affairs'],['Government of Uttarakhand — capital and formation','https://cm.uk.gov.in/geography/'],['Andaman & Nicobar Administration — UT profile','https://andamannicobar.gov.in/about'],['DNH & DD Administration — capital FAQ','https://ddd.gov.in/faqs/'],['BharatMapService','https://mapservice.gov.in/'],['geoBoundaries India ADM1 (CC BY 2.5 IN)','https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/'],['Community boundary source','https://github.com/iamaanahmad/GeoJson-of-Indian-States']
 ];

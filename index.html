@@ -115,14 +115,10 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 
 /* ZipPrep interactive atlas module */
 .atlas-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(250px,.8fr);gap:16px;margin-top:20px}
-.atlas-map-card,.atlas-panel,.atlas-stat,.atlas-note{background:#1b1b1b;border:1px solid #333;border-radius:20px;padding:16px;min-width:0}
-/* Atlas map: remove the nested framed-box look and let the map canvas breathe. */
-.atlas-map-card{background:transparent!important;border:0!important;border-radius:0!important;padding:0!important;min-width:0}
-.atlas-map{height:min(72vh,720px);min-height:440px;width:100%;border-radius:0!important;overflow:hidden;background:#151a31;z-index:1}
-.atlas-map .leaflet-container{border:0!important;border-radius:0!important}
+.atlas-map-card,.atlas-panel,.atlas-stat,.atlas-note{background:#1b1b1b;color:#f5f5f5;border:1px solid #333;border-radius:20px;padding:16px;min-width:0}
 .atlas-map{height:440px;border-radius:14px;overflow:hidden;background:#20252b;z-index:1}
 .atlas-tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0}
-.atlas-tools input,.atlas-tools select{min-width:0;flex:1;background:#fff;color:#111;border:2px solid #111;border-radius:12px;padding:12px;font:inherit}
+.atlas-tools input,.atlas-tools select{min-width:0;flex:1;background:#202020;color:#f5f5f5;border:1px solid #454545;border-radius:12px;padding:12px;font:inherit;min-height:44px;color-scheme:dark}.atlas-tools input::placeholder{color:#a4a4a4}.atlas-map-card,.atlas-panel,.atlas-stat,.atlas-note{background:#1b1b1b!important;color:#f5f5f5;border-color:#333}.atlas-stat small{color:#b8bcc8}.atlas-note p,.atlas-note li,.atlas-panel p{color:#d0d0d0}.atlas-accordion{background:#171717}.atlas-districts button{background:#252525;color:#f5f5f5;border-color:#414141}.atlas-map{background:#151a31}.atlas-layout a{color:#ffd24a}
 .atlas-button{border:0;border-radius:999px;padding:11px 16px;background:var(--y);color:#111;font:700 14px Outfit, sans-serif;cursor:pointer}
 .atlas-button:focus-visible,.atlas-tools input:focus-visible,.atlas-tools select:focus-visible{outline:3px solid #7ae582;outline-offset:3px}
 .atlas-chip{display:inline-flex;background:#292929;border:1px solid #444;border-radius:999px;padding:6px 10px;margin:3px;font-size:12px}
@@ -134,188 +130,10 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 .atlas-note h3{font-size:20px;margin-bottom:10px}.atlas-note p,.atlas-note li{color:#d0d0d0;font-size:14px}
 .atlas-accordion{border:1px solid #343434;border-radius:14px;margin:9px 0;padding:13px;background:#1a1a1a}.atlas-accordion summary{cursor:pointer;font-weight:800}
 .atlas-status{font-size:13px;color:var(--mut);margin-top:9px}.atlas-legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--mut);margin-top:10px}.atlas-legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;background:#ffd24a}.atlas-legend .river{background:#50b7ff}.atlas-legend .district{background:#7ae582}
-.leaflet-container{font:500 13px Outfit,system-ui,sans-serif;background:#151a31;border:0!important;border-radius:0!important;overflow:hidden}.leaflet-pane svg{outline:none}.leaflet-interactive{cursor:pointer;transition:fill-opacity .18s,stroke-width .18s}.leaflet-control-zoom a{background:#202744!important;color:#fff!important;border-color:#414968!important}.leaflet-control-attribution{display:none!important}.leaflet-popup-content-wrapper{border-radius:12px;background:#202744;color:#fff}.leaflet-tooltip{background:#111827;color:#fff;border:1px solid #ffd24a;border-radius:8px;box-shadow:0 4px 16px #0005;padding:6px 9px}
-@media(max-width:760px){.atlas-layout{grid-template-columns:1fr}.atlas-map{height:68vh;min-height:440px}.atlas-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-districts{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-map-card,.atlas-panel,.atlas-stat,.atlas-note{padding:12px}}
+.leaflet-container{font:500 13px Outfit,system-ui,sans-serif;background:#151a31;border:1px solid #34394e;border-radius:16px;overflow:hidden}.leaflet-pane svg{outline:none}.leaflet-interactive{cursor:pointer;transition:fill-opacity .18s,stroke-width .18s}.leaflet-control-zoom a{background:#202744!important;color:#fff!important;border-color:#414968!important}.leaflet-control-attribution{display:none!important}.leaflet-popup-content-wrapper{border-radius:12px;background:#202744;color:#fff}.leaflet-tooltip{background:#111827;color:#fff;border:1px solid #ffd24a;border-radius:8px;box-shadow:0 4px 16px #0005;padding:6px 9px}
+@media(max-width:760px){.atlas-layout{grid-template-columns:1fr}.atlas-map{height:360px}.atlas-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-districts{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-map-card,.atlas-panel,.atlas-stat,.atlas-note{padding:12px}}
 @media(prefers-reduced-motion:reduce){.atlas-button{scroll-behavior:auto}}
 
-
-/* Minimal India silhouette inspired by the supplied reference: warm ivory land, fine borders, charcoal canvas. */
-#v-india #india-map{background:#211f20!important;border-radius:0!important;box-shadow:none!important}
-#v-india #india-map .leaflet-container{background:#211f20!important}
-#v-india #india-map .leaflet-control-zoom a{background:#302d2b!important;color:#f6f0d8!important;border-color:#49443e!important}
-#v-india .atlas-legend{opacity:.72}
-#v-india .atlas-status{color:#bcb7ac}
-.india-state-label{background:#211f20!important;color:#f6f0d8!important;border:1px solid #c8b879!important;border-radius:5px!important;box-shadow:0 3px 12px #0005!important;font:600 12px/1.2 Outfit,system-ui,sans-serif!important;padding:5px 8px!important}
-.india-state-label:before{border-top-color:#c8b879!important}
-
-/* ZipPrep integrated atlas UI — seamless, not a map card inside a card */
-#v-india .blk{overflow:hidden}
-#v-india .atlas-tools{max-width:100%;margin:18px 0 8px;position:relative;z-index:2}
-#v-india .atlas-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(230px,.75fr);gap:clamp(18px,3vw,36px);align-items:start;margin-top:8px}
-#v-india .atlas-map-card{background:transparent!important;border:0!important;border-radius:0!important;padding:0!important;box-shadow:none!important;min-width:0}
-#v-india #india-map{height:min(68vh,700px);min-height:380px;width:100%;border:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;overflow:hidden}
-#v-india #india-map .leaflet-container{background:transparent!important;border:0!important;border-radius:0!important}
-#v-india .atlas-legend{padding-top:10px;margin-top:0;border-top:1px solid #2b2b2b;gap:10px 16px}
-#v-india .atlas-status{padding:4px 0 0;margin:5px 0 0;line-height:1.55}
-#v-india .atlas-panel{background:transparent!important;border:0!important;border-left:1px solid #303030!important;border-radius:0!important;padding:8px 0 8px 22px!important;box-shadow:none!important}
-#v-india .atlas-panel .atlas-stat{background:#191919;border:1px solid #303030;border-radius:14px;padding:12px}
-#v-india #atlas-region-detail{background:transparent!important;border:0!important;border-top:1px solid #303030!important;border-radius:0!important;padding:14px 0 0!important;margin-top:14px}
-#v-india #atlas-region-detail h3{font-size:1.15rem}
-#v-india #sl{margin-top:16px}
-#v-india .atlas-note{box-shadow:none}
-@media(max-width:760px){
- #v-india .atlas-layout{display:flex;flex-direction:column;gap:20px;margin-top:6px}
- #v-india .atlas-map-card{width:100%;order:0}
- #v-india #india-map{height:62vh;min-height:360px;max-height:580px;width:100%;margin:0 auto}
- #v-india .atlas-panel{order:1;width:100%;border-left:0!important;border-top:1px solid #303030!important;padding:18px 0 0!important;margin:0!important}
- #v-india .atlas-panel .atlas-facts{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
- #v-india .atlas-panel .atlas-stat{padding:10px 8px}
- #v-india .atlas-panel .atlas-stat strong{font-size:16px;overflow-wrap:anywhere;word-break:normal}
- #v-india .atlas-legend{font-size:12px}
- #v-india .atlas-note{border-radius:16px}
-}
-@media(max-width:420px){#v-india .atlas-panel .atlas-facts{grid-template-columns:repeat(2,minmax(0,1fr))}#v-india #india-map{min-height:340px}}
-
-
-/* Explore India: integrated atlas refinements */
-.atlas-map-card{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;padding:0!important;overflow:visible!important}
-.atlas-map{width:100%;height:clamp(360px,68vh,680px);min-height:360px;background:transparent!important;border:0!important;border-radius:0!important;overflow:hidden}
-.atlas-map .leaflet-interactive:focus{outline:none}
-.atlas-map .leaflet-container{background:transparent!important}
-.atlas-map .leaflet-tooltip{border:1px solid rgba(255,210,74,.55);border-radius:10px;background:#171717;color:#f7f7f7;box-shadow:0 6px 20px rgba(0,0,0,.25);font-weight:600}
-.atlas-status{margin-top:12px}
-@media(max-width:600px){.atlas-map{height:clamp(380px,62vh,560px);min-height:380px}.atlas-layout{gap:16px}}
-
-
-/* Hide the redundant state directory card; keep its DOM for existing search scripts. */
-#legacy-state-directory{display:none!important}
-/* Dynamic state and district information panel */
-#v-india .atlas-admin-panel{background:transparent;border:0;border-top:1px solid #303030;border-radius:0;padding:22px 0 8px;box-shadow:none}
-.atlas-admin-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.atlas-kicker{color:#ffd24a;font-size:11px;letter-spacing:.16em;font-weight:800;margin:0 0 7px}
-.atlas-live-badge{font-size:11px;color:#7ae582;border:1px solid #345a3b;border-radius:999px;padding:7px 10px;white-space:nowrap}
-.atlas-admin-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
-.atlas-admin-stats .atlas-stat{background:#191919;border:1px solid #303030;border-radius:13px;padding:12px;min-width:0}
-.atlas-admin-stats .atlas-stat strong{font-size:18px;overflow-wrap:anywhere}
-.atlas-admin-famous{border-left:3px solid #ffd24a;padding:12px 14px;background:rgba(255,210,74,.06);border-radius:0 12px 12px 0;margin:12px 0 18px}
-.atlas-admin-famous p{margin:6px 0 0;color:#d1d1d1}
-#atlas-admin-district-wrap{margin-top:20px}
-#atlas-admin-district-search{width:100%;margin:8px 0 12px;background:#191919;color:#fff;border:1px solid #393939;border-radius:12px;padding:13px;font:inherit}
-.atlas-district-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
-.atlas-district-buttons button{background:#191919;color:#fff;border:1px solid #343434;border-radius:10px;padding:11px 9px;text-align:left;font:600 13px inherit;cursor:pointer}
-.atlas-district-buttons button:hover,.atlas-district-buttons button:focus-visible{border-color:#ffd24a;outline:none}
-.atlas-admin-district-profile{margin-top:16px;padding:16px 0;border-top:1px solid #343434}
-.atlas-data-note{font-size:12px;color:#999;margin-top:18px}
-@media(max-width:600px){.atlas-admin-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-district-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-/* Hide the redundant legacy State and Union Territory Explorer UI.
-   Keep its DOM node hidden so existing scripts that populate #sl do not fail. */
-#legacy-state-directory{display:none!important}
-
-/* State drill-down transition: animated state profile and full district map */
-#wb-dashboard{scroll-margin-top:16px}
-#wb-dashboard.atlas-state-enter{animation:atlasStateEnter .55s ease-out both}
-@keyframes atlasStateEnter{from{opacity:.35;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-#wb-map{height:clamp(430px,70vh,720px)!important;min-height:430px;background:#151a31!important}
-#wb-map .leaflet-interactive{transition:fill-opacity .22s ease,stroke-width .22s ease}
-#wb-map .leaflet-interactive:focus{outline:none}
-@media(prefers-reduced-motion:reduce){#wb-dashboard.atlas-state-enter{animation:none}}
-
-#legacy-state-directory{display:none!important}
-#india-map{height:clamp(420px,68vh,760px)!important;min-height:420px}
-#wb-dashboard[hidden]{display:none!important}
-#wb-dashboard:not([hidden]){display:block!important}
-@media(max-width:760px){.atlas-layout{grid-template-columns:minmax(0,1fr)!important}#india-map{height:62vh!important;min-height:390px}#wb-map{height:64vh!important;min-height:420px}.atlas-map-card{width:100%;min-width:0}}
-
-/* ZipPrep atlas UI cleanup: one primary map, one profile, no duplicate dashboard. */
-#v-india .atlas-layout,
-#wb-dashboard .atlas-layout { display:grid!important; grid-template-columns:minmax(0,1fr)!important; gap:14px!important; align-items:stretch; }
-#v-india > .blk > .atlas-layout > .atlas-panel { display:none!important; }
-#atlas-admin-panel { display:none!important; }
-#legacy-state-directory { display:none!important; }
-#india-map { height:clamp(380px,66vh,680px)!important; min-height:380px; width:100%; background:#151a31!important; border-radius:18px; }
-#wb-map { height:clamp(360px,58vh,580px)!important; min-height:360px; width:100%; background:#151a31!important; border-radius:18px; }
-.atlas-map-card { min-width:0!important; width:100%!important; padding:14px!important; border:1px solid #303030!important; border-radius:18px!important; background:#171717!important; }
-.atlas-tools { display:flex; align-items:center; gap:10px; width:100%; }
-.atlas-tools input { flex:1 1 auto; min-width:0; }
-#wb-dashboard { margin-top:18px!important; padding:18px!important; border:1px solid #303030!important; border-radius:20px!important; background:#171717!important; }
-#wb-dashboard > h2 { font-size:clamp(24px,4vw,34px); margin-bottom:8px; }
-#wb-facts { display:grid!important; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px!important; margin:14px 0 18px; }
-#wb-admin { display:grid!important; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px!important; }
-#wb-dashboard .atlas-stat { min-width:0; background:#1e1e1e!important; border:1px solid #303030!important; border-radius:13px!important; padding:12px!important; }
-#wb-dashboard .atlas-stat strong { overflow-wrap:anywhere; }
-#wb-dashboard .atlas-tools { margin:12px 0; }
-#wb-dashboard .atlas-panel { display:block!important; width:100%; min-width:0; border:1px solid #303030; border-radius:14px; padding:14px; background:#1c1c1c; }
-#wb-dashboard .atlas-layout .atlas-status { overflow-wrap:anywhere; }
-#wb-dashboard #wb-district-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
-#wb-dashboard #wb-district-list button { min-width:0; border:1px solid #393939; background:#202020; color:#fff; border-radius:10px; padding:10px; text-align:left; font:inherit; cursor:pointer; }
-#wb-dashboard #wb-district-list button:hover { border-color:#ffd24a; }
-#wb-notes { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
-#wb-notes .atlas-accordion { margin:0; padding:12px; background:#1e1e1e; border:1px solid #303030; border-radius:12px; }
-@media(max-width:760px){
- #v-india .atlas-layout,#wb-dashboard .atlas-layout {grid-template-columns:minmax(0,1fr)!important;}
- #india-map {height:56vh!important;min-height:340px;}
- #wb-map {height:52vh!important;min-height:320px;}
- #wb-facts,#wb-admin {grid-template-columns:repeat(2,minmax(0,1fr))!important;}
- #wb-dashboard #wb-district-list {grid-template-columns:repeat(2,minmax(0,1fr));}
- #wb-notes {grid-template-columns:minmax(0,1fr);}
- .atlas-tools {flex-wrap:wrap;}
- .atlas-tools input {width:100%;flex-basis:100%;}
-}
-@media(prefers-reduced-motion:reduce){#wb-dashboard.atlas-state-enter{animation:none!important}}
-
-
-/* Single clean state profile: state facts first, district map directly below. */
-.atlas-state-profile{padding:clamp(14px,2.2vw,24px)!important;overflow:hidden}
-.atlas-state-profile h2{margin:4px 0 8px}
-.atlas-state-profile .atlas-admin-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
-.atlas-state-profile .atlas-admin-famous{margin:12px 0 16px}
-.atlas-district-tools{margin:14px 0 10px!important}
-.atlas-state-map-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(210px,.85fr);gap:14px;align-items:start}
-.atlas-district-map-card{min-width:0;padding:0!important;overflow:hidden}
-#wb-map{height:clamp(350px,62vh,620px)!important;min-height:350px;width:100%;border-radius:14px}
-.atlas-selected-district-panel{position:sticky;top:12px;min-width:0;padding:14px!important}
-.atlas-selected-district-panel h3{margin-top:0}
-.atlas-state-profile .atlas-status{font-size:12px;line-height:1.5;padding:0 12px 10px}
-.atlas-district-list-compact{display:none!important}
-@media(max-width:760px){.atlas-state-profile .atlas-admin-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-state-map-layout{grid-template-columns:minmax(0,1fr)}.atlas-selected-district-panel{position:static}.atlas-state-profile .atlas-tools input{min-width:0;width:100%}#wb-map{height:58vh!important;min-height:340px}}
-
-
-/* India geography learning layers */
-.geo-learning{margin-top:22px;padding:clamp(14px,2vw,22px);border:1px solid var(--line,rgba(255,255,255,.1));border-radius:18px;background:var(--card,#171717)}
-.geo-learning h2{margin:4px 0 8px}.geo-intro{color:var(--mut);font-size:13px;line-height:1.6}
-.geo-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.geo-tab{border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:9px 13px;background:#202020;color:inherit;cursor:pointer;font:inherit;font-size:12px}.geo-tab[aria-selected="true"]{background:#ffd24a;color:#161616;border-color:#ffd24a;font-weight:800}
-.geo-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.geo-topic{padding:12px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.025);min-width:0}.geo-topic h3{font-size:14px;margin:0 0 7px;color:#ffd24a}.geo-topic p,.geo-topic li{font-size:12px;line-height:1.55;color:var(--mut,#c4c4c4)}.geo-topic ul{padding-left:17px;margin:6px 0}.geo-river-diagram{margin:12px 0;padding:12px;border-radius:14px;background:linear-gradient(180deg,#19253a,#10131c);overflow:hidden}.geo-river-diagram svg{width:100%;height:auto;display:block;max-height:350px}.geo-river-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:10px}.geo-river-card{border:1px solid rgba(80,183,255,.22);border-radius:12px;padding:11px;background:rgba(80,183,255,.04)}.geo-river-card b{display:block;color:#7dcaff;margin-bottom:4px;font-size:13px}.geo-river-card span{font-size:12px;line-height:1.5;color:var(--mut,#c4c4c4)}.geo-note{font-size:11px;color:var(--mut,#c4c4c4);margin-top:12px;line-height:1.5}
-@media(max-width:760px){.geo-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.geo-river-cards{grid-template-columns:1fr}}
-@media(max-width:420px){.geo-topic-grid{grid-template-columns:1fr}}
-
-
-/* Minimal infographic atlas styling inspired by the supplied reference */
-#v-india .blk{max-width:1400px}
-#v-india .atlas-map-card,#wb-dashboard .atlas-map-card{background:#fbfcf9!important;border:1px solid #e4e8e3!important;border-radius:18px!important;padding:12px!important;box-shadow:0 12px 34px rgba(0,0,0,.08)}
-#v-india #india-map,#wb-dashboard #wb-map{background:#f7f8f5!important;border-radius:12px!important}
-#v-india .leaflet-container,#wb-dashboard .leaflet-container{background:#f7f8f5!important}
-#v-india .atlas-legend,#wb-dashboard .atlas-legend{color:#273044!important;font-size:11px;display:flex;gap:12px;flex-wrap:wrap;padding:10px 4px 0}
-#v-india .atlas-status,#wb-dashboard .atlas-status{color:#667085!important}
-#v-india .geo-learning{background:#fbfcf9!important;border:1px solid #e1e7df!important;color:#1e293b!important;box-shadow:0 12px 30px rgba(0,0,0,.06)}
-#v-india .geo-learning .geo-intro,#v-india .geo-learning .geo-topic p,#v-india .geo-learning .geo-topic li,#v-india .geo-learning .geo-note{color:#526071!important}
-#v-india .geo-learning .geo-topic{background:#fff!important;border-color:#e5e9e2!important}
-#v-india .geo-learning .geo-topic h3{color:#167c69!important}
-#v-india .geo-learning .geo-tab{background:#fff!important;color:#243047!important;border-color:#dce4dc!important}
-#v-india .geo-learning .geo-tab[aria-selected="true"]{background:#d8f0e3!important;color:#125c4d!important;border-color:#8fc9aa!important}
-#v-india .geo-river-diagram{background:#f1f7f5!important;border:1px solid #dfe9e4!important}
-#v-india .geo-river-diagram svg text{filter:none}
-#v-india .geo-river-cards .geo-river-card{background:#fff!important;border-color:#d8e9e3!important}
-#v-india .geo-river-cards .geo-river-card b{color:#137b8b!important}
-#v-india .atlas-tools input,#wb-dashboard .atlas-tools input{border:1px solid #d9dfd9!important;background:#fff!important;color:#1f2937!important}
-#v-india .atlas-button,#wb-dashboard .atlas-button{box-shadow:none!important}
-#wb-dashboard{background:#fbfcf9!important;color:#1f2937!important;border-color:#e2e8e0!important}
-#wb-dashboard .atlas-stat,#wb-dashboard .atlas-panel{background:#fff!important;color:#1f2937!important;border-color:#e3e8e1!important}
-#wb-dashboard .atlas-stat small,#wb-dashboard .sub{color:#596579!important}
-@media(max-width:760px){#v-india #india-map{height:55vh!important;min-height:360px}#wb-dashboard #wb-map{height:52vh!important;min-height:330px}}
-
-.india-map-caption{font-family:"Bebas Neue",Impact,sans-serif;letter-spacing:.24em;text-align:center;color:#c8d7d0;font-size:clamp(22px,3vw,34px);line-height:1;padding:7px 0 15px;opacity:.9}
-@media(max-width:760px){.india-map-caption{padding:4px 0 12px;font-size:25px}}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
@@ -478,50 +296,9 @@ html{scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}.vh{position:
 <section class="vw" id="v-gk" hidden><div class="blk"><nav class="bc" aria-label="Breadcrumb"><a href="#top">Home</a> › <a href="#revision">Revision</a> › G.K.</nav><h1 class="t">General Knowledge</h1><p class="sub">Choose how you want to revise.</p><div class="bg2"><a class="big" style="--a:#7ae582" href="#know-india"><div class="im"><svg width="120" height="96" viewBox="0 0 80 64" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><circle cx="40" cy="34" r="24"/><ellipse cx="40" cy="34" rx="10" ry="24"/><path d="M16 34h48"/><path d="M40 8a9 9 0 0 1 9 9c0 9-9 18-9 18s-9-9-9-18a9 9 0 0 1 9-9z" fill="#ffd24a"/></svg></div><h3>Know More About India</h3><p>Explore India’s states, capitals, districts, rivers, geography, political administration, and important facts through an interactive map.</p><span>Explore →</span></a><a class="big" style="--a:#a78bfa" href="#quiz"><div class="im"><svg width="120" height="96" viewBox="0 0 80 64" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><circle cx="40" cy="26" r="20"/><path d="M32 50h16M34 57h12"/><text x="40" y="36" text-anchor="middle" font-size="26" font-weight="800" fill="#111" stroke="none">?</text></svg></div><h3>General Knowledge Questions</h3><p>Practice important GK questions, revise facts, and test your knowledge through interactive quizzes.</p><span>Start practice →</span></a></div></div></section>
 <section class="vw" id="v-india" hidden><div class="blk"><nav class="bc" aria-label="Breadcrumb"><a href="#top">Home</a> › <a href="#revision">Revision</a> › <a href="#gk">G.K.</a> › Know More About India</nav><h1 class="t">Explore India</h1><p class="sub">An interactive atlas for competitive-exam revision. Select a state or union territory on the map or search by name.</p>
 <div class="atlas-tools"><label class="vh" for="atlas-search">Search states and capitals</label><input id="atlas-search" type="search" placeholder="Search state, union territory or capital…"><button class="atlas-button" id="atlas-reset" type="button">India view</button></div>
-<div class="atlas-layout"><div class="atlas-map-card"><div id="india-map" class="atlas-map" role="application" aria-label="Interactive map of Indian states and union territories"></div><div class="india-map-caption" aria-hidden="true">INDIA</div><div class="atlas-legend"><span><i></i>Selected region</span><span><i class="district"></i>Administrative boundary</span><span><i class="river"></i>River layer (where available)</span></div><p class="atlas-status" id="atlas-status" aria-live="polite">Loading real administrative boundary data…</p></div><aside class="atlas-panel" aria-live="polite"><h2 id="atlas-region-title">Explore a region</h2><p id="atlas-region-summary" class="sub">Tap a state or union territory to view its profile.</p><div class="atlas-facts" id="atlas-facts"><div class="atlas-stat"><small>Capital</small><strong>—</strong></div><div class="atlas-stat"><small>Region</small><strong>India</strong></div><div class="atlas-stat"><small>Map status</small><strong>Loading</strong></div></div><div id="atlas-region-detail" class="atlas-note"><h3>How to use the atlas</h3><p>Tap a region to explore it. Zoom and pan controls are available on the map. Keyboard users can search a region and activate its result.</p></div><div id="atlas-district-list"></div></aside></div>
-<section id="atlas-admin-panel" class="atlas-note atlas-admin-panel" style="margin-top:18px" aria-live="polite">
-  <div class="atlas-admin-head"><div><p class="atlas-kicker">STATE &amp; DISTRICT PROFILE</p><h2 id="atlas-admin-heading">Explore a state</h2><p id="atlas-admin-intro" class="sub">Select any state on the map to see its political and administrative information here.</p></div><span class="atlas-live-badge">Interactive atlas</span></div>
-  <div id="atlas-admin-stats" class="atlas-facts atlas-admin-stats"></div>
-  <div id="atlas-admin-famous" class="atlas-admin-famous"><strong>Famous for</strong><p>Select a state to view its geography, culture, heritage and major attractions.</p></div>
-  <div id="atlas-admin-district-wrap" hidden>
-    <h3>District explorer</h3><p class="sub">Select a district to view its MLAs, blocks, panchayats, municipalities and highlights.</p>
-    <input id="atlas-admin-district-search" type="search" placeholder="Search districts…" aria-label="Search districts">
-    <div id="atlas-admin-districts" class="atlas-district-buttons"></div>
-    <div id="atlas-district-profile" class="atlas-admin-district-profile" hidden></div>
-  </div>
-  <p class="atlas-data-note">Data integrity: values that have not yet been verified against current official sources are labelled “Needs verification”; they are not estimates.</p>
-</section>
-<section id="legacy-state-directory" class="atlas-note" style="margin-top:18px"><h2>State and Union Territory Explorer</h2><p>Searchable directory. Select any state or union territory to open its animated state and district atlas.</p><div id="sl" class="sl"></div></section>
-<section id="wb-dashboard" class="atlas-note atlas-state-profile" style="margin-top:18px" hidden><nav class="bc"><a href="#know-india">← Back to India map</a></nav><p class="atlas-kicker">STATE &amp; DISTRICT PROFILE</p><h2 id="wb-state-heading">Selected State — Profile</h2><p class="sub">Choose a district on the map to switch from state-level facts to district-level facts.</p><div class="atlas-facts atlas-admin-stats" id="wb-admin"></div><div class="atlas-admin-famous" id="wb-state-famous"><strong>Famous for</strong><p>State highlights will appear here.</p></div><div class="atlas-tools atlas-district-tools"><label class="vh" for="wb-district-search">Search districts in the selected state</label><input id="wb-district-search" type="search" placeholder="Search districts in this state…"><button class="atlas-button" id="wb-back" type="button">Back to India map</button></div><div class="atlas-state-map-layout"><div class="atlas-map-card atlas-district-map-card"><div id="wb-map" class="atlas-map" role="application" aria-label="Selected state's district boundary map"></div><div class="atlas-legend"><span><i></i>Selected district</span><span><i class="district"></i>District boundary</span></div><p class="atlas-status" id="wb-status" aria-live="polite">Loading district boundary data…</p></div><aside class="atlas-panel atlas-selected-district-panel"><h3 id="wb-district-title">Select a district</h3><p class="sub">Tap a district on the map to see its administrative facts.</p><div id="wb-district-info"><p>District-level details will appear here.</p></div></aside></div><div id="wb-district-list" class="atlas-district-list-compact" hidden></div><p class="atlas-data-note">Counts can change after administrative reorganisations. Any unavailable figure should be verified against the relevant state or district administration.</p></section>
-
-<section class="geo-learning" id="india-geography-layers">
- <p class="atlas-kicker">VISUAL GK ATLAS</p><h2>India Geography — Map Layers</h2>
- <p class="geo-intro">Explore exam-focused map facts by topic. Choose a layer to reveal key places and locations. The Himalaya-and-rivers panel shows the broad source-to-sea flow schematically; it is a learning diagram, not a surveyed river map.</p>
- <div class="geo-tabs" role="tablist" aria-label="India geography topics">
-  <button class="geo-tab" type="button" role="tab" aria-selected="true" data-geo="rivers">Himalayas &amp; Rivers</button>
-  <button class="geo-tab" type="button" role="tab" aria-selected="false" data-geo="lakes">Major Lakes</button>
-  <button class="geo-tab" type="button" role="tab" aria-selected="false" data-geo="waterfalls">Waterfalls</button>
-  <button class="geo-tab" type="button" role="tab" aria-selected="false" data-geo="parks">National Parks</button>
-  <button class="geo-tab" type="button" role="tab" aria-selected="false" data-geo="biosphere">Biosphere Reserves</button>
-  <button class="geo-tab" type="button" role="tab" aria-selected="false" data-geo="heritage">UNESCO Heritage</button>
- </div>
- <div id="geo-topic-content" role="tabpanel">
-  <h3>Himalayas: where major rivers begin</h3><p class="geo-intro">Many Himalayan rivers are fed by snow, glaciers and monsoon rainfall. The Indus system flows west/southwest; the Ganga system flows east and then southeast; the Brahmaputra flows east through Tibet before turning south and west through northeast India and Bangladesh.</p>
-  <div class="geo-river-diagram"><svg viewBox="0 0 760 320" role="img" aria-label="Schematic of Himalayan river origins and broad flow directions"><defs><linearGradient id="snow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4fbff"/><stop offset="1" stop-color="#8ca9c5"/></linearGradient><marker id="arrBlue" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#55bfff"/></marker><marker id="arrGreen" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#7ae582"/></marker><marker id="arrGold" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#ffd24a"/></marker></defs><path d="M15 95 L65 38 L102 75 L144 20 L192 75 L232 35 L278 85 L325 42 L367 92 L415 47 L461 91 L507 34 L553 82 L602 28 L653 77 L705 38 L748 95 L748 130 L15 130Z" fill="#28394b" stroke="#9bb5ce" stroke-width="2"/><path d="M65 38l18 16 19-2 17 22 25-54 20 30 28 25 22-17 18-23 25 25 25 27 18-23 25-20 18 24 28 27 18-24 25-18 24 26 28-30 21 23 26-10 19 26" fill="none" stroke="url(#snow)" stroke-width="5" stroke-linecap="round"/><text x="380" y="17" fill="#f3f7ff" font-size="17" text-anchor="middle" font-weight="700">THE HIMALAYAS</text><text x="380" y="153" fill="#dbe8f6" font-size="11" text-anchor="middle">High mountain and glacier source region (schematic)</text><path d="M155 108 C160 145 185 163 204 190 S238 226 245 275" fill="none" stroke="#55bfff" stroke-width="4" marker-end="url(#arrBlue)"/><path d="M365 106 C355 145 382 163 402 187 S420 224 440 275" fill="none" stroke="#7ae582" stroke-width="4" marker-end="url(#arrGreen)"/><path d="M568 105 C560 145 604 156 620 184 S590 226 585 275" fill="none" stroke="#ffd24a" stroke-width="4" marker-end="url(#arrGold)"/><text x="128" y="180" fill="#8bd5ff" font-size="14" font-weight="700">Indus system</text><text x="128" y="197" fill="#d8e3f0" font-size="11">west / southwest</text><text x="360" y="211" fill="#9cf5a4" font-size="14" font-weight="700">Ganga system</text><text x="360" y="228" fill="#d8e3f0" font-size="11">east / southeast</text><text x="570" y="190" fill="#ffe17a" font-size="14" font-weight="700">Brahmaputra</text><text x="570" y="207" fill="#d8e3f0" font-size="11">east, then south-west</text><path d="M205 277h80M400 277h80M545 277h80" stroke="#e9f3ff" stroke-width="1" stroke-dasharray="4 4"/><text x="245" y="300" fill="#e9f3ff" font-size="12" text-anchor="middle">Arabian Sea</text><text x="440" y="300" fill="#e9f3ff" font-size="12" text-anchor="middle">Bay of Bengal</text><text x="585" y="300" fill="#e9f3ff" font-size="12" text-anchor="middle">Bay of Bengal</text></svg></div>
-  <div class="geo-river-cards"><div class="geo-river-card"><b>Indus River System</b><span>Indus — rises near the Tibetan Plateau around the Lake Manasarovar region; tributaries include Jhelum, Chenab, Ravi, Beas and Sutlej.</span></div><div class="geo-river-card"><b>Ganga River System</b><span>Bhagirathi begins at Gaumukh, Gangotri Glacier; joins Alaknanda at Devprayag to form the Ganga. Major tributaries include Yamuna, Ghaghara, Gandak, Kosi and Son.</span></div><div class="geo-river-card"><b>Brahmaputra River System</b><span>Known as Yarlung Tsangpo in Tibet; it flows east, bends around the eastern Himalaya, enters Arunachal Pradesh as Siang/Dihang and continues as the Brahmaputra in Assam.</span></div><div class="geo-river-card"><b>Peninsular Rivers</b><span>Narmada and Tapi flow west to the Arabian Sea. Godavari, Krishna, Mahanadi and Kaveri generally flow east to the Bay of Bengal.</span></div></div>
- </div>
- <p class="geo-note">Study note: map facts in the reference images are useful revision prompts, but counts and rankings (such as national park totals, UNESCO site totals and “largest/oldest” claims) can change or depend on definitions. Verify current exam facts from official sources before publication.</p>
-</section>
-<script>
-(function(){var data={
- lakes:{title:'Major Lakes in India',groups:[['Ladakh & Jammu and Kashmir','Pangong Tso, Tso Moriri, Dal Lake, Wular Lake, Mansar Lake'],['Himachal Pradesh & Uttarakhand','Chandra Taal, Suraj Taal, Prashar Lake, Bhimtal'],['Rajasthan & Gujarat','Lake Pichola, Ana Sagar, Sambhar Lake, Nal Sarovar, Kankaria Lake'],['Northeast India','Loktak Lake (Manipur), Umiam Lake (Meghalaya), Deepor Beel (Assam), Rudrasagar (Tripura)'],['Eastern & Southern India','Chilika Lake (Odisha), Kolleru Lake (Andhra Pradesh), Pulicat Lake, Vembanad Lake (Kerala), Hussain Sagar (Telangana)']]},
- waterfalls:{title:'Waterfalls of India',groups:[['Karnataka','Kunchikal Falls, Jog Falls, Shivanasamudra Falls, Abbey Falls'],['Meghalaya','Nohkalikai Falls, Seven Sisters Falls, Dainthlen Falls'],['Uttarakhand & Himachal Pradesh','Kempty Falls, Tiger Falls, Chadwick Falls'],['Madhya Pradesh & Chhattisgarh','Dhuandhar Falls, Kapil Dhara, Chitrakote Falls, Tirathgarh Falls'],['Kerala & Tamil Nadu','Athirappilly Falls, Meenmutty Falls, Hogenakkal Falls, Courtallam Falls'],['Northeast & Odisha','Nuranang Falls (Arunachal Pradesh), Vantawng Falls (Mizoram), Barehipani Falls (Odisha)']]},
- parks:{title:'National Parks — examples by state',groups:[['Madhya Pradesh','Kanha, Bandhavgarh, Pench, Panna, Satpura'],['Assam','Kaziranga, Manas, Orang, Nameri, Dibru-Saikhowa'],['Uttarakhand','Jim Corbett, Rajaji, Valley of Flowers, Nanda Devi'],['Rajasthan & Gujarat','Ranthambore, Keoladeo, Desert National Park; Gir, Blackbuck National Park'],['Southern India','Bandipur, Nagarhole, Periyar, Silent Valley, Mudumalai'],['Eastern India','Sundarbans, Jaldapara, Buxa (West Bengal); Similipal (Odisha)']]},
- biosphere:{title:'Biosphere Reserves of India',groups:[['Himalayan region','Cold Desert (Himachal Pradesh), Nanda Devi (Uttarakhand), Khangchendzonga (Sikkim)'],['Northeast & East','Dibru-Saikhowa (Assam), Nokrek (Meghalaya), Sundarbans (West Bengal), Similipal (Odisha)'],['Central & Western India','Pachmarhi (Madhya Pradesh), Achanakmar–Amarkantak (Madhya Pradesh/Chhattisgarh), Great Rann of Kutch (Gujarat)'],['Southern India','Nilgiri (Tamil Nadu/Kerala/Karnataka), Agasthyamalai (Tamil Nadu/Kerala), Gulf of Mannar (Tamil Nadu), Seshachalam Hills (Andhra Pradesh)'],['Islands','Great Nicobar Biosphere Reserve (Andaman and Nicobar Islands)']]},
- heritage:{title:'UNESCO World Heritage — selected examples',groups:[['Uttar Pradesh','Taj Mahal, Agra Fort, Fatehpur Sikri'],['Rajasthan','Hill Forts of Rajasthan, Jantar Mantar (Jaipur), Jaipur City'],['Maharashtra','Ajanta Caves, Ellora Caves, Elephanta Caves, Chhatrapati Shivaji Terminus'],['Eastern India','Santiniketan and Sundarbans National Park (West Bengal); Sun Temple, Konark (Odisha); Mahabodhi Temple Complex (Bihar)'],['South India','Group of Monuments at Hampi and Pattadakal (Karnataka); Great Living Chola Temples (Tamil Nadu); Ramappa Temple (Telangana)'],['Himalayan region & Northeast','Great Himalayan National Park (Himachal Pradesh); Khangchendzonga National Park (Sikkim); Kaziranga and Manas (Assam)']]}
-};var root=document.getElementById('india-geography-layers');if(!root)return;var content=root.querySelector('#geo-topic-content');root.querySelectorAll('[data-geo]').forEach(function(btn){btn.addEventListener('click',function(){root.querySelectorAll('[data-geo]').forEach(function(b){b.setAttribute('aria-selected',String(b===btn))});var key=btn.dataset.geo;if(key==='rivers'){content.innerHTML='<h3>Himalayas: where major rivers begin</h3><p class="geo-intro">Use the Himalaya-to-sea schematic above to revise the broad flow directions. Indus flows west/southwest, Ganga east/southeast, and Brahmaputra east through Tibet before turning south through northeast India.</p>'+root.querySelector('.geo-river-diagram').outerHTML+root.querySelector('.geo-river-cards').outerHTML;return}var d=data[key];if(!d)return;content.innerHTML='<h3>'+d.title+'</h3><div class="geo-topic-grid">'+d.groups.map(function(g){return '<article class="geo-topic"><h3>'+g[0]+'</h3><p>'+g[1]+'</p></article>'}).join('')+'</div>';});});})();
-</script>
-
+<div class="atlas-layout"><div class="atlas-map-card"><div id="india-map" class="atlas-map" role="application" aria-label="Interactive map of Indian states and union territories"></div><div class="atlas-legend"><span><i></i>Selected region</span><span><i class="district"></i>Administrative boundary</span><span><i class="river"></i>River layer (where available)</span></div><p class="atlas-status" id="atlas-status" aria-live="polite">Loading real administrative boundary data…</p></div><aside class="atlas-panel" aria-live="polite"><h2 id="atlas-region-title">Explore a region</h2><p id="atlas-region-summary" class="sub">Tap a state or union territory to view its profile.</p><div class="atlas-facts" id="atlas-facts"><div class="atlas-stat"><small>Capital</small><strong>—</strong></div><div class="atlas-stat"><small>Region</small><strong>India</strong></div><div class="atlas-stat"><small>Map status</small><strong>Loading</strong></div></div><div id="atlas-region-detail" class="atlas-note"><h3>How to use the atlas</h3><p>Tap a region to explore it. Zoom and pan controls are available on the map. Keyboard users can search a region and activate its result.</p></div><div id="atlas-district-list"></div></aside></div>
+<section class="atlas-note" style="margin-top:18px"><h2>State and Union Territory Explorer</h2><p>Searchable directory. Detailed district boundaries are progressively available; West Bengal is the first state profile.</p><div id="sl" class="sl"></div></section>
+<section id="wb-dashboard" class="atlas-note" style="margin-top:18px" hidden><nav class="bc"><a href="#know-india">← Back to India map</a></nav><h2>West Bengal — State Revision Dashboard</h2><p class="sub">Verified values are sourced where available. Unknown or unverified values are explicitly marked.</p><div class="atlas-facts" id="wb-facts"></div><div class="atlas-tools"><label class="vh" for="wb-district-search">Search West Bengal districts</label><input id="wb-district-search" type="search" placeholder="Search a district…"><button class="atlas-button" id="wb-back" type="button">Back to India map</button></div><div class="atlas-layout"><div class="atlas-map-card"><div id="wb-map" class="atlas-map" role="application" aria-label="West Bengal district boundary map"></div><div class="atlas-legend"><span><i></i>Selected district</span><span><i class="district"></i>District boundary</span><span><i class="river"></i>River overlay (not loaded)</span></div><p class="atlas-status" id="wb-status" aria-live="polite">Loading district boundary data…</p></div><aside class="atlas-panel"><h3 id="wb-district-title">Select a district</h3><div id="wb-district-info"><p>Choose a district on the map or in the searchable list.</p></div><h3 style="margin-top:18px">Major river systems</h3><p>Ganga–Bhagirathi-Hooghly, Teesta, Damodar, Mahananda, Ajay, Mayurakshi, Rupnarayan, Subarnarekha, Torsa, Jaldhaka and Sankosh.</p><p class="atlas-status">River courses are not drawn until a verified river-line dataset is available; this avoids presenting invented lines as geographic data.</p></aside></div><section class="atlas-note" style="margin-top:18px" aria-labelledby="wb-district-list-heading"><h2 id="wb-district-list-heading">Find a West Bengal district</h2><p class="sub">Select a district from the map or use this searchable list.</p><div id="wb-district-list"></div></section><h2 style="margin-top:24px">Political and administrative information</h2><div class="atlas-facts" id="wb-admin"></div><h2>Know Your State</h2><p class="sub">Quick, expandable revision notes.</p><div id="wb-notes"></div><p class="atlas-status">Data references: <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries administrative boundaries</a>; <a href="https://wb.gov.in/" target="_blank" rel="noopener">Government of West Bengal</a>; <a href="https://censusindia.gov.in/" target="_blank" rel="noopener">Census of India</a>. Last checked: 29 October 2026. Political and administrative figures should be verified against the linked official sources before exam publication.</p></section>
 </div></section>
 <section class="vw" id="v-quiz" hidden><div class="blk"><nav class="bc" aria-label="Breadcrumb"><a href="#top">Home</a> › <a href="#revision">Revision</a> › <a href="#gk">G.K.</a> › Questions</nav><h1 class="t">G.K. Questions</h1><div id="qz" aria-live="polite"></div></div></section></main></div></div>
 <script>
@@ -572,255 +349,34 @@ document.querySelectorAll('#home .c,#home .s,#home .rc,#home .lc,#home .mt,#home
 (function(){
 'use strict';
 var API='https://www.geoboundaries.org/api/current/gbOpen/';
-var map=null,wbMap=null,indiaLayer=null,wbLayer=null,selectedLayer=null,wbSelected=null,indiaData=null,wbData=null,searchResults=[],lastStateLayerClick=0;
+var map=null,wbMap=null,indiaLayer=null,wbLayer=null,selectedLayer=null,wbSelected=null,indiaData=null,wbData=null,searchResults=[];
 var STATES=[['Andhra Pradesh','Amaravati'],['Arunachal Pradesh','Itanagar'],['Assam','Dispur'],['Bihar','Patna'],['Chhattisgarh','Raipur'],['Goa','Panaji'],['Gujarat','Gandhinagar'],['Haryana','Chandigarh'],['Himachal Pradesh','Shimla'],['Jharkhand','Ranchi'],['Karnataka','Bengaluru'],['Kerala','Thiruvananthapuram'],['Madhya Pradesh','Bhopal'],['Maharashtra','Mumbai'],['Manipur','Imphal'],['Meghalaya','Shillong'],['Mizoram','Aizawl'],['Nagaland','Kohima'],['Odisha','Bhubaneswar'],['Punjab','Chandigarh'],['Rajasthan','Jaipur'],['Sikkim','Gangtok'],['Tamil Nadu','Chennai'],['Telangana','Hyderabad'],['Tripura','Agartala'],['Uttar Pradesh','Lucknow'],['Uttarakhand','Dehradun'],['West Bengal','Kolkata'],['Andaman and Nicobar Islands','Sri Vijaya Puram (Port Blair)'],['Chandigarh','Chandigarh'],['Dadra and Nagar Haveli and Daman and Diu','Daman'],['Delhi','New Delhi'],['Jammu and Kashmir','Srinagar (summer), Jammu (winter)'],['Ladakh','Leh'],['Lakshadweep','Kavaratti'],['Puducherry','Puducherry']];
 function $(id){return document.getElementById(id)}
 function safe(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-function featureName(f){var p=f&&f.properties||{};var candidates=[p.st_nm,p.ST_NM,p.state_name,p.STATE_NAME,p.State_Name,p.state,p.State,p.STATE,p.NAME_1,p.NAME_2,p.shapeName,p.shape_name,p.name,p.NAME,p.admin,p.NAME_ENG,p.STNAME,p.shapeGroupName,p.shapeGroupNameEnglish,p.District,p.DISTRICT,p.district,p.district_name,p.dtname];for(var i=0;i<candidates.length;i++){if(typeof candidates[i]==='string'&&candidates[i].trim())return candidates[i].trim()}return 'Unnamed region'}
+function featureName(f){var p=f&&f.properties||{};return p.shapeName||p.shape_name||p.NAME_1||p.NAME_2||p.name||p.NAME||p.admin||'Unnamed region'}
 function stateCapital(name){var n=name.toLowerCase();var x=STATES.find(function(s){return s[0].toLowerCase()===n||s[0].toLowerCase().replace(/ and /g,' & ')===n});return x?x[1]:'Data unavailable'}
-function stateFeatureName(f){
- var p=f&&f.properties||{};
- var candidates=[p.st_nm,p.ST_NM,p.state_name,p.STATE_NAME,p.State_Name,p.state,p.State,p.STATE,p.STNAME,p.ST_NAME,p.NAME_1,p.shapeGroupNameEnglish,p.shapeGroupName,p.shapeName,p.shape_name,p.name,p.NAME,p.admin,p.NAME_ENG];
- for(var i=0;i<candidates.length;i++)if(typeof candidates[i]==='string'&&candidates[i].trim())return candidates[i].trim();
- return featureName(f);
-}
-function canonicalStateName(raw){
- var n=String(raw||'').trim().toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,' ').trim();
- var aliases={'nct of delhi':'Delhi','national capital territory of delhi':'Delhi','orissa':'Odisha','uttaranchal':'Uttarakhand','jammu kashmir':'Jammu and Kashmir','andaman nicobar islands':'Andaman and Nicobar Islands','dadra nagar haveli daman diu':'Dadra and Nagar Haveli and Daman and Diu'};
- if(aliases[n])return aliases[n];
- for(var i=0;i<STATES.length;i++){
-  var key=STATES[i][0].toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,' ').trim();
-  if(key===n)return STATES[i][0];
- }
- return String(raw||'').trim();
-}
-function pointInRing(point,ring){var inside=false;for(var i=0,j=ring.length-1;i<ring.length;j=i++){
- var xi=ring[i][0],yi=ring[i][1],xj=ring[j][0],yj=ring[j][1];
- var intersect=((yi>point[1])!==(yj>point[1]))&&(point[0]<(xj-xi)*(point[1]-yi)/((yj-yi)||1e-12)+xi);if(intersect)inside=!inside;
- }return inside;}
-function pointInGeometry(point,geometry){if(!geometry)return false;var c=geometry.coordinates||[];
- if(geometry.type==='Polygon')return c.length>0&&pointInRing(point,c[0])&&!c.slice(1).some(function(r){return pointInRing(point,r)});
- if(geometry.type==='MultiPolygon')return c.some(function(poly){return poly.length>0&&pointInRing(point,poly[0])&&!poly.slice(1).some(function(r){return pointInRing(point,r)})});
- if(geometry.type==='GeometryCollection')return (geometry.geometries||[]).some(function(g){return pointInGeometry(point,g)});
- return false;
-}
-function initMap(){
- if(!window.L){$('atlas-status').textContent='The map library could not load. Check your internet connection and reload.';return}
- map=L.map('india-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.8,79.0],4);map.getContainer().style.background='#211f20';
- map.on('click',function(e){
-  map.scrollWheelZoom.disable();
-  /* Mobile browsers can show a Leaflet tooltip on tap without reliably dispatching the
-     polygon click. Recover by testing the tapped coordinate against the GeoJSON polygons. */
-  if(Date.now()-lastStateLayerClick<180||!indiaData||!indiaLayer)return;
-  var pt=[e.latlng.lng,e.latlng.lat],hits=[];
-  (indiaData.features||[]).forEach(function(f){if(pointInGeometry(pt,f.geometry)){var n=stateFeatureName(f);if(n&&n!=='Unnamed region')hits.push({feature:f,name:canonicalStateName(n),bounds:L.geoJSON(f).getBounds()})}});
-  if(!hits.length)return;
-  hits.sort(function(a,b){var aa=a.bounds.getNorth()-a.bounds.getSouth(),bb=b.bounds.getNorth()-b.bounds.getSouth();return aa-bb});
-  var hit=hits[0],layer=null;indiaLayer.eachLayer(function(l){if(l.feature===hit.feature||stateFeatureName(l.feature)===stateFeatureName(hit.feature))layer=l});
-  if(layer){try{selectRegion(layer.feature,layer)}catch(err){$('atlas-status').textContent='State selected, but the profile encountered an error: '+err.message}}
- });
- map.on('focus',function(){map.scrollWheelZoom.enable()});
-}
-function styleRegion(f){return {color:'#c8c2ad',weight:1.05,opacity:.95,fillColor:'#f6f0d8',fillOpacity:1}}
-function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#d8bd71',weight:2,fillColor:'#e8d79d',fillOpacity:1});}
-
-var ATLAS_STATE_DATA={
- "West Bengal":{cm:"Shri Suvendu Adhikari",lokSabha:"42",rajyaSabha:"16",districts:"23",mlas:"294 Assembly seats",blocks:"342 community development blocks",panchayats:"3,341 Gram Panchayats",municipalities:"125 urban local bodies (municipal corporations and municipalities)",famous:"Darjeeling tea, the Sundarbans, the Himalayas and Dooars, Durga Puja, Bengali literature, terracotta temples, Kolkata's cultural heritage."}
-};
-var ATLAS_DISTRICT_DATA={
- "West Bengal":{
-  "Darjeeling":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Darjeeling, Kurseong and Mirik municipal areas (verify current list)",famous:"Darjeeling tea, Himalayan views, toy train and mountain tourism."},
-  "Kalimpong":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Himalayan landscapes, orchids, monasteries and mountain tourism."},
-  "Jalpaiguri":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Dooars tea gardens, forests and wildlife tourism."},
-  "Alipurduar":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Buxa Tiger Reserve, forests and Dooars landscapes."},
-  "Cooch Behar":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Cooch Behar Palace and regional royal heritage."},
-  "Uttar Dinajpur":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Agriculture, regional culture and the Kulik bird sanctuary area."},
-  "Dakshin Dinajpur":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Agriculture, heritage sites and the Bangarh archaeological area."},
-  "Malda":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Mangoes, Gaur-Pandua heritage and the Adina complex."},
-  "Murshidabad":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Hazarduari Palace, silk and Nawabi history."},
-  "Birbhum":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Santiniketan, Baul music and terracotta heritage."},
-  "Purba Bardhaman":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Rice production, agriculture and historic temples."},
-  "Paschim Bardhaman":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Coal, steel and the Asansol-Durgapur industrial belt."},
-  "Nadia":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Nabadwip, Mayapur and Vaishnava religious heritage."},
-  "North 24 Parganas":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Urban centres, wetlands and diverse cultural heritage."},
-  "South 24 Parganas":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Sundarbans delta, mangrove forests and coastal communities."},
-  "Kolkata":{mlas:"Needs verification",blocks:"Not applicable / verify district structure",panchayats:"Not applicable / verify district structure",municipalities:"Kolkata Municipal Corporation (verify current jurisdiction)",famous:"Victoria Memorial, Howrah Bridge, colonial architecture, literature and Durga Puja."},
-  "Howrah":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Howrah Bridge, riverfront, engineering and industrial heritage."},
-  "Hooghly":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Bandel Church, Serampore heritage and Hooghly river settlements."},
-  "Purba Medinipur":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Digha coast, beaches and Haldia port-industrial area."},
-  "Paschim Medinipur":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Forests, rural crafts and historic temples."},
-  "Jhargram":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Sal forests, tribal culture and Jhargram Palace."},
-  "Bankura":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Bishnupur terracotta temples, Baluchari sarees and Dokra craft."},
-  "Purulia":{mlas:"Needs verification",blocks:"Needs verification",panchayats:"Needs verification",municipalities:"Needs verification",famous:"Chhau dance, Ajodhya Hills and distinctive rock landscapes."}
- }
-};
-function statMarkup(label,value){return '<div class="atlas-stat"><small>'+safe(label)+'</small><strong>'+safe(value||'Needs verification')+'</strong></div>'}
-function renderAdminState(name){
- var root=$('atlas-admin-stats'),heading=$('atlas-admin-heading'),intro=$('atlas-admin-intro'),famous=$('atlas-admin-famous'),districtWrap=$('atlas-admin-district-wrap');if(!root)return;
- heading.textContent=name+' — State Profile';intro.textContent='Political and administrative facts for '+name+'. Unverified or changing figures are clearly marked.';
- var d=ATLAS_STATE_INFO[(name||'').toLowerCase()]||ATLAS_STATE_DATA[name]||{};
- root.innerHTML=statMarkup('Chief Minister / administrator',d.cm||'Needs verification')+statMarkup('Lok Sabha MPs',d.lokSabha||'Needs verification')+statMarkup('Rajya Sabha MPs',d.rajyaSabha||'Needs verification')+statMarkup('Total districts',d.districts||'Needs verification')+statMarkup('Total blocks',d.blocks||'Needs verification')+statMarkup('Gram Panchayats',d.panchayats||'Needs verification')+statMarkup('Municipalities / urban local bodies',d.municipalities||'Needs verification')+statMarkup('Assembly MLAs / seats',d.mlas||'Needs verification');
- famous.innerHTML='<strong>Famous for</strong><p>'+safe(d.famous||'State-specific highlights need verification from reliable references.')+'</p>';districtWrap.hidden=false;
-}
-function renderDistrictButtons(query){
- var root=$('atlas-admin-districts');if(!root)return;
- var names=Object.keys(ATLAS_DISTRICT_DATA['West Bengal']||{}),q=(query||'').toLowerCase();
- names=names.filter(function(n){return n.toLowerCase().indexOf(q)>=0});
- root.innerHTML=names.map(function(n){return '<button type="button" data-admin-district="'+safe(n)+'">'+safe(n)+'</button>'}).join('');
- root.querySelectorAll('[data-admin-district]').forEach(function(b){b.onclick=function(){renderAdminDistrict(b.getAttribute('data-admin-district'))}});
-}
-
-/* General state/UT atlas registry. Administrative counts are left unverified unless reliable
-   baseline data is available; this prevents silently publishing fabricated exam facts. */
-var ATLAS_STATE_INFO = {
-"andhra pradesh":{cm:"N. Chandrababu Naidu",lokSabha:"25",rajyaSabha:"11",districts:"26",mlas:"175",famous:"Tirupati, Kuchipudi, Kalamkari, long coastline and the Eastern Ghats."},
-"arunachal pradesh":{cm:"Pema Khandu",lokSabha:"2",rajyaSabha:"1",districts:"Needs verification",mlas:"60",famous:"Eastern Himalayas, Tawang Monastery, tribal cultures and biodiversity."},
-"assam":{cm:"Himanta Biswa Sarma",lokSabha:"14",rajyaSabha:"7",districts:"Needs verification",mlas:"126",famous:"Tea, Kaziranga, Brahmaputra, silk and Bihu."},
-"bihar":{cm:"Nitish Kumar",lokSabha:"40",rajyaSabha:"16",districts:"38",mlas:"243",famous:"Buddhist and Jain heritage, Nalanda, Bodh Gaya, Madhubani art."},
-"chhattisgarh":{cm:"Vishnu Deo Sai",lokSabha:"11",rajyaSabha:"5",districts:"Needs verification",mlas:"90",famous:"Forests, waterfalls, tribal heritage and Bastar art."},
-"goa":{cm:"Pramod Sawant",lokSabha:"2",rajyaSabha:"1",districts:"2",mlas:"40",famous:"Beaches, Portuguese-era heritage, Konkani culture and biodiversity."},
-"gujarat":{cm:"Bhupendra Patel",lokSabha:"26",rajyaSabha:"11",districts:"Needs verification",mlas:"182",famous:"Gir lions, Rann of Kutch, textiles, ports and Statue of Unity."},
-"haryana":{cm:"Nayab Singh Saini",lokSabha:"10",rajyaSabha:"5",districts:"22",mlas:"90",famous:"Agriculture, Kurukshetra, sports and automobile manufacturing."},
-"himachal pradesh":{cm:"Sukhvinder Singh Sukhu",lokSabha:"4",rajyaSabha:"3",districts:"12",mlas:"68",famous:"Himalayan landscapes, apple orchards, temples and hill stations."},
-"jharkhand":{cm:"Hemant Soren",lokSabha:"14",rajyaSabha:"6",districts:"24",mlas:"81",famous:"Minerals, forests, waterfalls and tribal heritage."},
-"karnataka":{cm:"Siddaramaiah",lokSabha:"28",rajyaSabha:"12",districts:"31",mlas:"224",famous:"Bengaluru technology sector, Hampi, Mysuru heritage and coffee."},
-"kerala":{cm:"Pinarayi Vijayan",lokSabha:"20",rajyaSabha:"9",districts:"14",mlas:"140",famous:"Backwaters, Western Ghats, spices, Ayurveda and high literacy."},
-"madhya pradesh":{cm:"Mohan Yadav",lokSabha:"29",rajyaSabha:"11",districts:"Needs verification",mlas:"230",famous:"Khajuraho, Sanchi, tiger reserves and central Indian forests."},
-"maharashtra":{cm:"Devendra Fadnavis",lokSabha:"48",rajyaSabha:"19",districts:"36",mlas:"288",famous:"Mumbai, film industry, forts, Ajanta-Ellora and agriculture."},
-"manipur":{cm:"Needs current verification",lokSabha:"2",rajyaSabha:"1",districts:"16",mlas:"60",famous:"Loktak Lake, Sangai, classical dance and handloom."},
-"meghalaya":{cm:"Conrad K. Sangma",lokSabha:"2",rajyaSabha:"1",districts:"12",mlas:"60",famous:"Living root bridges, caves, rainfall and Khasi-Garo-Jaintia cultures."},
-"mizoram":{cm:"Lalduhoma",lokSabha:"1",rajyaSabha:"1",districts:"11",mlas:"40",famous:"Hills, bamboo, Mizo culture and Cheraw bamboo dance."},
-"nagaland":{cm:"Neiphiu Rio",lokSabha:"1",rajyaSabha:"1",districts:"Needs verification",mlas:"60",famous:"Hornbill Festival, Naga cultures and mountain landscapes."},
-"odisha":{cm:"Mohan Charan Majhi",lokSabha:"21",rajyaSabha:"10",districts:"30",mlas:"147",famous:"Jagannath Temple, Konark, Chilika Lake, Odissi and handicrafts."},
-"punjab":{cm:"Bhagwant Mann",lokSabha:"13",rajyaSabha:"7",districts:"23",mlas:"117",famous:"Sikh heritage, Golden Temple, agriculture and Punjabi music."},
-"rajasthan":{cm:"Bhajan Lal Sharma",lokSabha:"25",rajyaSabha:"10",districts:"Needs verification",mlas:"200",famous:"Forts, Thar Desert, folk arts, textiles and wildlife."},
-"sikkim":{cm:"Prem Singh Tamang",lokSabha:"1",rajyaSabha:"1",districts:"6",mlas:"32",famous:"Kanchenjunga, monasteries, orchids and Himalayan biodiversity."},
-"tamil nadu":{cm:"M. K. Stalin",lokSabha:"39",rajyaSabha:"18",districts:"38",mlas:"234",famous:"Dravidian temples, classical Tamil, Bharatanatyam and coastline."},
-"telangana":{cm:"A. Revanth Reddy",lokSabha:"17",rajyaSabha:"7",districts:"33",mlas:"119",famous:"Hyderabad, Deccan heritage, IT, pearls and cuisine."},
-"tripura":{cm:"Manik Saha",lokSabha:"2",rajyaSabha:"1",districts:"8",mlas:"60",famous:"Ujjayanta Palace, bamboo crafts, forests and diverse communities."},
-"uttar pradesh":{cm:"Yogi Adityanath",lokSabha:"80",rajyaSabha:"31",districts:"75",mlas:"403",famous:"Taj Mahal, Varanasi, Ayodhya, Prayagraj and Ganga-Yamuna plains."},
-"uttarakhand":{cm:"Pushkar Singh Dhami",lokSabha:"5",rajyaSabha:"3",districts:"13",mlas:"70",famous:"Himalayas, Char Dham, yoga centres and national parks."},
-"west bengal":{cm:"Shri Suvendu Adhikari",lokSabha:"42",rajyaSabha:"16",districts:"23",mlas:"294",famous:"Darjeeling tea, Sundarbans, Durga Puja, Bengali literature and terracotta temples.",blocks:"342",panchayats:"3,341",municipalities:"125"},
-"andaman and nicobar islands":{capital:"Sri Vijaya Puram",lokSabha:"1",rajyaSabha:"—",districts:"3",famous:"Coral reefs, tropical forests and cellular jail."},
-"chandigarh":{capital:"Chandigarh",lokSabha:"1",rajyaSabha:"—",districts:"1",famous:"Planned city architecture and the Rock Garden."},
-"dadra and nagar haveli and daman and diu":{capital:"Daman",lokSabha:"2",rajyaSabha:"—",districts:"3",famous:"Coastal heritage and former Portuguese settlements."},
-"delhi":{cm:"Rekha Gupta",lokSabha:"7",rajyaSabha:"3",districts:"11",mlas:"70",famous:"India's capital, Red Fort, Qutub Minar and Mughal-era heritage."},
-"jammu and kashmir":{capital:"Srinagar (summer), Jammu (winter)",lokSabha:"5",rajyaSabha:"—",districts:"20",mlas:"90",famous:"Kashmir Valley, lakes, gardens and Himalayan landscapes."},
-"ladakh":{capital:"Leh",lokSabha:"1",rajyaSabha:"—",districts:"Needs verification",famous:"High-altitude desert, monasteries, Pangong Lake and mountain passes."},
-"lakshadweep":{capital:"Kavaratti",lokSabha:"1",rajyaSabha:"—",districts:"1",famous:"Coral atolls, lagoons and marine biodiversity."},
-"puducherry":{capital:"Puducherry",lokSabha:"1",rajyaSabha:"1",districts:"4",mlas:"30 elected seats",famous:"French colonial heritage, coastal promenades and Tamil culture."}
-};
-
-function renderAdminDistrict(name){
- var root=$('atlas-district-profile'),d=(ATLAS_DISTRICT_DATA['West Bengal']||{})[name]||{};
- root.hidden=false;root.innerHTML='<h3>'+safe(name)+' — District Profile</h3><div class="atlas-facts atlas-admin-stats">'+statMarkup('Total MLAs',d.mlas)+statMarkup('Total blocks',d.blocks)+statMarkup('Gram Panchayats',d.panchayats)+statMarkup('Municipalities',d.municipalities)+'</div><div class="atlas-admin-famous"><strong>District famous for</strong><p>'+safe(d.famous||'Needs verification')+'</p></div><p class="atlas-data-note">Administrative totals and MLA mapping require verification against current district and election-office sources.</p>';
- root.scrollIntoView({behavior:'smooth',block:'nearest'});
-}
-document.addEventListener('input',function(e){if(e.target&&e.target.id==='atlas-admin-district-search')renderDistrictButtons(e.target.value)});
-var activeAtlasState = '';
-function selectRegion(f,layer){
- var name=canonicalStateName(stateFeatureName(f));
- if(!name||name==='Unnamed region'){ $('atlas-status').textContent='This map feature does not include a recognised state name. Try selecting the state from the search/list.';return; }
- activeAtlasState=name;
- try{highlight(layer)}catch(e){selectedLayer=layer}
- /* Update the state facts immediately, before any network requests. */
- renderAdminState(name);
- $('atlas-region-title').textContent=name;
- $('atlas-region-summary').textContent='Selected '+name+'. The map will zoom in, then load the state and its district boundaries below.';
- var capital=stateCapital(name);
- $('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'Union Territory':'State')+'</strong></div><div class="atlas-stat"><small>Map status</small><strong>Opening district atlas</strong></div>';
- $('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>Scroll to the state and district atlas below to explore district boundaries and facts.</p>';
- var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- if(map&&layer&&layer.getBounds){
-   map.stop();
-   var bounds=layer.getBounds();
-   if(bounds&&bounds.isValid&&bounds.isValid()){
-     if(reduced)map.fitBounds(bounds,{padding:[24,24],maxZoom:7,animate:false});
-     else map.flyToBounds(bounds,{padding:[24,24],maxZoom:7,duration:1.15,easeLinearity:.2});
-   }
- }
- var dash=$('wb-dashboard');
- dash.hidden=false;dash.style.display='block';
- dash.classList.remove('atlas-state-enter');void dash.offsetWidth;dash.classList.add('atlas-state-enter');
- dash.querySelector('#wb-state-heading').textContent=name+' — State Profile';
- dash.querySelector('.bc a').textContent='← Back to India map';
- renderGenericStateFacts(name);
- renderDistrictButtons('');
- $('atlas-status').textContent=name+' selected. The map is zooming to the state, and its district map and state facts are loading below.';
- window.setTimeout(function(){
-   if(activeAtlasState!==name)return;
-   loadStateDistrictMap(name);
-   dash.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});
- },reduced?0:180);
+function initMap(){if(!window.L){$('atlas-status').textContent='The map library could not load. Check your internet connection and reload.';return}map=L.map('india-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.8,79.0],4);map.getContainer().style.background='#151a31';map.on('click',function(){map.scrollWheelZoom.disable()});map.on('focus',function(){map.scrollWheelZoom.enable()});}
+function styleRegion(f){var isWB=featureName(f).toLowerCase().indexOf('west bengal')>=0;return {color:'#7ae582',weight:1.3,fillColor:isWB?'#ffd24a':'#6b7cff',fillOpacity:.48}}
+function highlight(layer){if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=layer;if(layer)layer.setStyle({color:'#fff',weight:2.5,fillColor:'#ffd24a',fillOpacity:.85});}
+function selectRegion(f,layer){highlight(layer);var name=featureName(f),capital=stateCapital(name);$('atlas-region-title').textContent=name;$('atlas-region-summary').textContent=name==='West Bengal'?'First detailed state profile available below.':'Explore exam-relevant facts and administrative geography.';$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(capital)+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>'+(/islands|chandigarh|delhi|ladakh|puducherry|lakshadweep|jammu|dadra/i.test(name)?'UT':'State')+'</strong></div><div class="atlas-stat"><small>Boundary source</small><strong>geoBoundaries</strong></div>';$('atlas-region-detail').innerHTML='<h3>'+safe(name)+'</h3><p>Capital: <b>'+safe(capital)+'</b></p><p>Boundary geometry is loaded from geoBoundaries. Detailed profile fields not yet verified are not shown as facts.</p>';
+if(layer&&map){map.fitBounds(layer.getBounds(),{padding:[20,20],maxZoom:7,animate:true});}
+if(name.toLowerCase().indexOf('west bengal')>=0){$('wb-dashboard').hidden=false;setTimeout(function(){loadWB();$('wb-dashboard').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})},100)}else{$('wb-dashboard').hidden=true}
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function geoUrl(iso,adm){return API+iso+'/'+adm+'/'}
-function fetchAdmin(iso,adm){if(iso==='IND'&&adm==='ADM1'){var sources=['./indian-states.geojson','indian-states.geojson','https://cdn.jsdelivr.net/gh/iamaanahmad/GeoJson-of-Indian-States@main/indian-states.geojson','https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/indian-states.geojson'];return sources.reduce(function(chain,url){return chain.catch(function(){return loadGeoJSON(url).then(function(g){if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('Invalid state boundary data from '+url);return g})})},Promise.reject()).catch(function(){return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})})}return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})}
-function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=g;indiaLayer=L.geoJSON(g,{interactive:true,style:styleRegion,onEachFeature:function(f,l){var n=canonicalStateName(stateFeatureName(f));l.bindTooltip(safe(n),{sticky:true,direction:'top',opacity:1,className:'india-state-label'});l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer)indiaLayer.resetStyle(l)},click:function(e){lastStateLayerClick=Date.now();if(e&&e.originalEvent&&e.originalEvent.stopPropagation)e.originalEvent.stopPropagation();try{selectRegion(f,l)}catch(err){$('atlas-status').textContent='State selected, but the profile encountered an error: '+err.message}}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Vector boundaries loaded. Tap a state or union territory to explore. Source: jsDelivr-hosted India administrative GeoJSON with raw GitHub and geoBoundaries fallbacks.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Upload indian-states.geojson beside index.html to enable the local map, then reload.';list('')})}
-function list(q){q=(q||'').trim().toLowerCase();var root=$('sl');if(!root)return;var arr=STATES.filter(function(x){return !q||(x[0]+' '+x[1]).toLowerCase().includes(q)});root.innerHTML='<div class="atlas-districts">'+arr.map(function(x){return '<button type="button" data-region="'+safe(x[0])+'"><b>'+safe(x[0])+'</b><br><small>Capital: '+safe(x[1])+'</small></button>'}).join('')+'</div>';root.querySelectorAll('[data-region]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-region');var l=null;if(indiaLayer){indiaLayer.eachLayer(function(x){if(stateFeatureName(x.feature).toLowerCase()===n.toLowerCase())l=x})}if(l)selectRegion(l.feature,l);else{activeAtlasState=n;$('atlas-region-title').textContent=n;$('atlas-region-summary').textContent='Explore '+n+' and its administrative districts.';renderAdminState(n);$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(stateCapital(n))+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>State / UT</strong></div><div class="atlas-stat"><small>Detail status</small><strong>Loading district atlas</strong></div>';$('wb-dashboard').hidden=false;$('wb-dashboard').querySelector('h2').textContent=n+' — State & District Atlas';setTimeout(function(){renderGenericStateFacts(n);loadStateDistrictMap(n);$('wb-dashboard').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})},100);}})})}
-$('atlas-search').addEventListener('input',function(e){list(e.target.value);if(map&&indiaLayer){var q=e.target.value.toLowerCase();indiaLayer.eachLayer(function(l){if(stateFeatureName(l.feature).toLowerCase().includes(q)&&q){selectRegion(l.feature,l)}})}});
-$('atlas-reset').addEventListener('click',function(){activeAtlasState='';$('wb-dashboard').hidden=true;$('wb-dashboard').style.display='none';if(map&&indiaLayer){map.stop();map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});}if(selectedLayer&&indiaLayer)indiaLayer.resetStyle(selectedLayer);selectedLayer=null;$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.';$('atlas-status').textContent='India view. Select any state or union territory to open its district atlas.'});
-
-function renderGenericStateFacts(name){
- var d=ATLAS_STATE_INFO[(name||'').toLowerCase()]||{},wb=ATLAS_STATE_DATA[name]||{},capital=d.capital||stateCapital(name);
- var value=function(k){return d[k]!==undefined&&d[k]!==''?d[k]:(wb[k]||'Needs verification')};
- var admin=$('wb-admin');
- if(admin){admin.innerHTML=[['Capital',capital],['Chief Minister / administrator',value('cm')],['Lok Sabha MPs',value('lokSabha')],['Rajya Sabha MPs',value('rajyaSabha')],['Total districts',value('districts')],['Assembly seats / MLAs',value('mlas')],['Total blocks',value('blocks')],['Gram Panchayats',value('panchayats')],['Municipalities / urban local bodies',value('municipalities')]].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');}
- var famous=$('wb-state-famous');
- if(famous){famous.innerHTML='<strong>Famous for</strong><p>'+safe(d.famous||wb.famous||'State-specific highlights need verification from reliable references.')+'</p>';}
- var title=$('wb-district-title'),info=$('wb-district-info'),list=$('wb-district-list'),profile=$('atlas-admin-district-profile');
- if(title)title.textContent='Select a district in '+name;
- if(info)info.innerHTML='<p>Choose a district on the map to view its administrative facts.</p>';
- if(list)list.innerHTML='';
- if(profile)profile.hidden=true;
+function fetchAdmin(iso,adm){if(iso==='IND'&&adm==='ADM1'){return loadGeoJSON('https://raw.githubusercontent.com/iamaanahmad/GeoJson-of-Indian-States/main/indian-states.geojson').catch(function(){return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})})}return fetch(geoUrl(iso,adm)).then(function(r){if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');return r.json()}).then(function(meta){var u=meta.gjDownloadURL||meta.simplifiedGeometryGeoJSON||meta.geoJSON;if(!u)throw Error('Dataset download URL not provided');return loadGeoJSON(u)})}
+function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=g;indiaLayer=L.geoJSON(g,{style:styleRegion,onEachFeature:function(f,l){var n=featureName(f);l.bindTooltip(safe(n),{sticky:true});l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer)indiaLayer.resetStyle(l)},click:function(){selectRegion(f,l)}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Vector boundaries loaded. Tap a state or union territory to explore. Source: open India administrative GeoJSON; geoBoundaries fallback.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. You can still use the searchable state directory below.';list('')})}
+function list(q){q=(q||'').trim().toLowerCase();var root=$('sl');if(!root)return;var arr=STATES.filter(function(x){return !q||(x[0]+' '+x[1]).toLowerCase().includes(q)});root.innerHTML='<div class="atlas-districts">'+arr.map(function(x){return '<button type="button" data-region="'+safe(x[0])+'"><b>'+safe(x[0])+'</b><br><small>Capital: '+safe(x[1])+'</small></button>'}).join('')+'</div>';root.querySelectorAll('[data-region]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-region');if(n==='West Bengal'){if(indiaLayer){var l;indiaLayer.eachLayer(function(x){if(featureName(x.feature).toLowerCase().indexOf('west bengal')>=0)l=x});if(l)selectRegion(l.feature,l);else loadWB()}else loadWB()}else{$('atlas-region-title').textContent=n;$('atlas-region-summary').textContent='Detailed profile not implemented yet.';$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(stateCapital(n))+'</strong></div><div class="atlas-stat"><small>Detail status</small><strong>Coming later</strong></div>';$('wb-dashboard').hidden=true;}})})}
+$('atlas-search').addEventListener('input',function(e){list(e.target.value);if(map&&indiaLayer){var q=e.target.value.toLowerCase();indiaLayer.eachLayer(function(l){if(featureName(l.feature).toLowerCase().includes(q)&&q){selectRegion(l.feature,l)}})}});
+$('atlas-reset').addEventListener('click',function(){$('wb-dashboard').hidden=true;if(map&&indiaLayer)map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.'});
+function loadWB(){if(wbMap){setTimeout(function(){wbMap.invalidateSize()},100);return}if(!window.L)return;wbMap=L.map('wb-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([23.2,87.8],7);wbMap.getContainer().style.background='#151a31';$('wb-status').textContent='Loading West Bengal district boundaries into the vector atlas…';fetchAdmin('IND','ADM2').then(function(g){var fs=(g.features||[]).filter(function(f){var p=f.properties||{};return /west bengal/i.test([p.shapeGroup,p.shapeGroupName,p.shapeGroupNameEnglish,p.shapeName,p.shape_name,p.NAME_1,p.state,p.admin1Name].join(' '))});if(!fs.length){throw Error('The source did not expose a reliable state field for filtering West Bengal districts.')}wbData={type:'FeatureCollection',features:fs};drawDistricts();}).catch(function(e){$('wb-status').textContent='District boundaries unavailable: '+e.message+'. District list and verified state notes remain available; no substitute shapes are drawn.'});
+$('wb-facts').innerHTML=[['Capital','Kolkata'],['Formation','26 January 1950 (state formation; verify context for exam)'],['Area','88,752 km²'],['Population','91,276,115 (Census 2011)'],['Official languages','Bengali; English (additional official languages apply in specified areas)'],['District count','23 (administrative reorganisation may change; verify current source)']].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
+$('wb-admin').innerHTML=[['Chief Minister','Verify current official source'],['Governor','Verify current official source'],['Lok Sabha seats','42'],['Rajya Sabha seats','16'],['Legislative Assembly seats','294'],['Subdivisions / blocks / panchayats','Data unavailable in this verified build'],['Municipalities / corporations','Data unavailable in this verified build']].map(function(x){return '<div class="atlas-stat"><small>'+safe(x[0])+'</small><strong>'+safe(x[1])+'</strong></div>'}).join('');
+$('wb-notes').innerHTML=[['History and formation','West Bengal became a state of the Indian Union on 26 January 1950.'],['Geography and neighbours','West Bengal connects the eastern Himalayan region in the north with the Gangetic plain and the Sundarbans delta in the south. Neighbours include Sikkim, Assam, Bihar, Jharkhand and Odisha; it also shares international borders.'],['Major rivers','Ganga distributary system, Bhagirathi-Hooghly, Teesta, Damodar, Mahananda, Ajay, Mayurakshi, Rupnarayan, Subarnarekha, Torsa, Jaldhaka and Sankosh. River-specific district routes require a verified hydrography dataset.'],['National parks and wildlife','Sundarbans National Park is associated with the mangrove delta. Verify current protected-area lists against the West Bengal Forest Department.'],['Economy and agriculture','Important topics include rice, jute, tea in northern hill/foothill regions, fisheries, ports and manufacturing.'],['Culture and heritage','Durga Puja is a major cultural festival; Darjeeling Himalayan Railway and Sundarbans are UNESCO World Heritage properties.'],['State symbols and schemes','Use official state references before memorising changing or designation-specific details.']].map(function(x){return '<details class="atlas-accordion"><summary>'+safe(x[0])+'</summary><p>'+safe(x[1])+'</p></details>'}).join('')+'<button class="atlas-button" id="wb-practice" type="button">Practice GK questions</button>';$('wb-practice').onclick=function(){location.hash='quiz'};
 }
-
-function loadStateDistrictMap(stateName){
- activeAtlasState=stateName;var requestState=stateName;
- if(!wbMap){if(!window.L)return;wbMap=L.map('wb-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([22.5,80],4);wbMap.getContainer().style.background='#151a31'}
- wbMap.invalidateSize({pan:false});$('wb-status').textContent='Loading district boundaries for '+stateName+'…';
- var aliases={'Delhi':'NCT of Delhi','Odisha':'Orissa','Uttarakhand':'Uttaranchal'};
- var serviceName=aliases[stateName]||stateName;
- var url='https://mapservice.gov.in/gismapservice/rest/services/BharatMapService/Admin_Boundary_District/MapServer/1/query?where='+encodeURIComponent("STNAME='"+serviceName.replace(/'/g,"''")+"'")+'&outFields=*&returnGeometry=true&outSR=4326&f=geojson';
- fetch(url).then(function(r){if(!r.ok)throw Error('Government boundary service HTTP '+r.status);return r.json()}).then(function(g){
-  if(activeAtlasState!==requestState)return;
-  if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('No district polygons returned for '+serviceName);
-  wbData={type:'FeatureCollection',features:g.features};drawDistricts();
-  $('wb-status').textContent='District boundaries loaded for '+stateName+'. Source: Government of India BharatMapService; some newer district changes may not be reflected.';
- }).catch(function(err){if(activeAtlasState!==requestState)return;$('wb-status').textContent='District map could not load for '+stateName+': '+err.message+'. State facts remain available. Check network access and try again.'});
-}
-function loadWB(){if(wbMap){setTimeout(function(){wbMap.invalidateSize()},100);return}if(!window.L)return;wbMap=L.map('wb-map',{scrollWheelZoom:false,zoomControl:true,preferCanvas:false}).setView([23.2,87.8],7);wbMap.getContainer().style.background='#151a31';$('wb-status').textContent='Loading selected state/UT district boundaries into the vector atlas…';fetchAdmin('IND','ADM2').then(function(g){var fs=(g.features||[]).filter(function(f){var p=f.properties||{};return /west bengal/i.test([p.shapeGroup,p.shapeGroupName,p.shapeGroupNameEnglish,p.shapeName,p.shape_name,p.NAME_1,p.state,p.admin1Name].join(' '))});if(!fs.length){throw Error('The source did not expose a reliable state field for filtering West Bengal districts.')}wbData={type:'FeatureCollection',features:fs};drawDistricts();}).catch(function(e){$('wb-status').textContent='District boundaries unavailable: '+e.message+'. District list and verified state notes remain available; no substitute shapes are drawn.'});
-/* State facts are rendered into the unified profile by renderGenericStateFacts(). */
-}
-function districtFeatureName(f){var p=f&&f.properties||{},c=[p.DTNAME,p.dtname,p.DISTRICT,p.district,p.DIST_NAME,p.NAME_2,p.shapeName,p.shape_name,p.name,p.NAME];for(var i=0;i<c.length;i++)if(typeof c[i]==='string'&&c[i].trim())return c[i].trim();return 'District'}
-function drawDistricts(){
- if(!wbMap||!wbData)return;
- if(wbLayer)wbMap.removeLayer(wbLayer);wbSelected=null;
- wbLayer=L.geoJSON(wbData,{style:function(){return {color:'#7ae582',weight:1.2,fillColor:'#5366c7',fillOpacity:.36}},onEachFeature:function(f,l){
-  var n=districtFeatureName(f);l.bindTooltip(safe(n),{sticky:true,direction:'top',opacity:1,className:'india-state-label'});
-  l.on('click',function(){
-   if(wbSelected)wbLayer.resetStyle(wbSelected);wbSelected=l;
-   var bb=l.getBounds();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.flyToBounds(bb,{padding:[25,25],maxZoom:9,duration:.9,easeLinearity:.2});else wbMap.fitBounds(bb,{padding:[20,20],maxZoom:9,animate:false});
-   l.setStyle({color:'#fff',weight:2.4,fillColor:'#ffd24a',fillOpacity:.82});
-   $('wb-district-title').textContent=n;renderAdminDistrictForState(activeAtlasState,n);
-   var d=((ATLAS_DISTRICT_DATA[activeAtlasState]||{})[n])||{};
-   $('wb-district-info').innerHTML='<p><b>District:</b> '+safe(n)+'</p><p><b>MLAs:</b> '+safe(d.mlas||'Needs verification')+'</p><p><b>Blocks:</b> '+safe(d.blocks||'Needs verification')+'</p><p><b>Gram Panchayats:</b> '+safe(d.panchayats||'Needs verification')+'</p><p><b>Municipalities:</b> '+safe(d.municipalities||'Needs verification')+'</p><p><b>Famous for:</b> '+safe(d.famous||'Needs verification')+'</p>';
-  });
- }}).addTo(wbMap);
- var b=wbLayer.getBounds();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)wbMap.flyToBounds(b,{padding:[18,18],maxZoom:7,duration:.8,easeLinearity:.2});else wbMap.fitBounds(b,{padding:[18,18],maxZoom:7,animate:false});
- $('wb-status').textContent='District boundaries loaded for '+activeAtlasState+'. Select a district to zoom in and view its facts.';
- var root=$('wb-district-list');
- root.innerHTML='<h3>Find a district in '+safe(activeAtlasState)+'</h3><input id="atlas-district-search-live" type="search" placeholder="Search district…" aria-label="Search district"><div class="atlas-districts">'+wbData.features.map(function(f){var n=districtFeatureName(f);return '<button type="button" data-district="'+safe(n)+'">'+safe(n)+'</button>'}).join('')+'</div>';
- var search=$('atlas-district-search-live');search.addEventListener('input',function(){var q=search.value.toLowerCase();root.querySelectorAll('[data-district]').forEach(function(b){b.hidden=b.textContent.toLowerCase().indexOf(q)<0})});
- root.querySelectorAll('[data-district]').forEach(function(b){b.onclick=function(){var n=b.getAttribute('data-district');wbLayer.eachLayer(function(l){if(districtFeatureName(l.feature)===n)l.fire('click')})}});
-}
-function renderAdminDistrictForState(stateName,name){
- var root=$('atlas-admin-district-profile');if(!root)return;var d=((ATLAS_DISTRICT_DATA[stateName]||{})[name])||{};root.hidden=false;
- root.innerHTML='<h3>'+safe(name)+' — District Profile</h3><div class="atlas-facts atlas-admin-stats">'+statMarkup('Total MLAs',d.mlas||'Needs verification')+statMarkup('Total blocks',d.blocks||'Needs verification')+statMarkup('Gram Panchayats',d.panchayats||'Needs verification')+statMarkup('Municipalities',d.municipalities||'Needs verification')+'</div><div class="atlas-admin-famous"><strong>District famous for</strong><p>'+safe(d.famous||'Needs verification from reliable district sources')+'</p></div><p class="atlas-data-note">Administrative totals can change; verify current district and election-office records.</p>';
-}
-
-$('wb-back').addEventListener('click',function(){activeAtlasState='';$('wb-dashboard').hidden=true;if(map&&indiaLayer){map.stop();map.flyToBounds(indiaLayer.getBounds(),{padding:[10,10],duration:.8})}$('v-india').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})});$('wb-district-search').addEventListener('input',function(e){var q=e.target.value.toLowerCase();document.querySelectorAll('#wb-district-list [data-district]').forEach(function(b){b.hidden=!b.textContent.toLowerCase().includes(q)})});
-function onRoute(){var h=decodeURIComponent(location.hash.replace(/^#/,''));if(h==='know-india'||h==='revision/gk/know-india'||h==='revision/gk/know-india/west-bengal'){setTimeout(function(){if(!map){initMap();loadIndia()}else{map.invalidateSize({pan:false});if(!indiaLayer)loadIndia()}},180)}}window.addEventListener('hashchange',onRoute);document.addEventListener('zipprep:map-ready',onRoute);if(location.hash)onRoute();
+function drawDistricts(){if(!wbMap||!wbData)return;if(wbLayer)wbMap.removeLayer(wbLayer);wbLayer=L.geoJSON(wbData,{style:function(){return {color:'#7ae582',weight:1.2,fillColor:'#6b7cff',fillOpacity:.3}},onEachFeature:function(f,l){var n=featureName(f);l.bindTooltip(safe(n),{sticky:true});l.on({click:function(){if(wbSelected)wbLayer.resetStyle(wbSelected);wbSelected=l;l.setStyle({color:'#fff',weight:2.4,fillColor:'#ffd24a',fillOpacity:.8});$('wb-district-title').textContent=n;$('wb-district-info').innerHTML='<p><b>District:</b> '+safe(n)+'</p><p><b>Headquarters:</b> Data unavailable in this build; verify with the district administration.</p><p><b>Rivers and facts:</b> Not shown unless verified against a district-level official source.</p>'}})}}).addTo(wbMap);wbMap.fitBounds(wbLayer.getBounds(),{padding:[10,10]});$('wb-status').textContent='District boundary data loaded from geoBoundaries. District facts are only shown when verified.';var root=$('wb-district-list');root.innerHTML='<h3>Find a district</h3><div class="atlas-districts">'+wbData.features.map(function(f){var n=featureName(f);return '<button type="button" data-district="'+safe(n)+'">'+safe(n)+'</button>'}).join('')+'</div>';root.querySelectorAll('[data-district]').forEach(function(b){b.onclick=function(){var n=b.getAttribute('data-district');wbLayer.eachLayer(function(l){if(featureName(l.feature)===n){l.fire('click');wbMap.fitBounds(l.getBounds(),{padding:[20,20],maxZoom:9})}})}})}
+$('wb-back').addEventListener('click',function(){$('wb-dashboard').hidden=true;if(map&&indiaLayer)map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('v-india').scrollIntoView({behavior:'smooth'})});$('wb-district-search').addEventListener('input',function(e){var q=e.target.value.toLowerCase();document.querySelectorAll('#wb-district-list [data-district]').forEach(function(b){b.hidden=!b.textContent.toLowerCase().includes(q)})});
+function onRoute(){var h=decodeURIComponent(location.hash.replace(/^#/,''));if(h==='know-india'||h==='revision/gk/know-india'||h==='revision/gk/know-india/west-bengal'){setTimeout(function(){if(!map){initMap();loadIndia()}else{map.invalidateSize()}},100)}}window.addEventListener('hashchange',onRoute);document.addEventListener('zipprep:map-ready',onRoute);if(location.hash)onRoute();
 })();
 </script>
 

@@ -381,6 +381,30 @@
       "url": "https://uttarainformation.gov.in/mountaineering-gets-a-new-boost-in-uttarakhand/",
       "referenceDate": "2026-02-03",
       "note": "Official announcement of 83 peaks opened in Garhwal and Kumaon, elevations 5,700–7,756 m; examples include Kamet, Nanda Devi East, Chaukhamba, Trishul, Shivling, Satopanth, Changabang, Panchachuli and Neelkanth."
+    },
+    {
+      "id": "mahaKalsubai",
+      "name": "Kalsubai Peak — official government source",
+      "url": "https://maharashtratourism.gov.in/nature/kalsubai-peak/",
+      "note": "Government source documenting this named peak and its state-level significance."
+    },
+    {
+      "id": "rajGuruShikhar",
+      "name": "Guru Shikhar — official government source",
+      "url": "https://environment.rajasthan.gov.in/content/environment/en/rajasthan-state-biodiversity-board/about-rajasthan/physiography-of-rajasthan.html",
+      "note": "Government source documenting this named peak and its state-level significance."
+    },
+    {
+      "id": "wbSandakphu",
+      "name": "Sandakphu — official government source",
+      "url": "https://wbtourism.gov.in/The%20Mountains/details?id=63d7f015e4bbd858c2063387&template_id=1",
+      "note": "Government source documenting this named peak and its state-level significance."
+    },
+    {
+      "id": "tnDoddabetta",
+      "name": "Doddabetta Peak — official government source",
+      "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/ooty/doddabetta-peak",
+      "note": "Government source documenting this named peak and its state-level significance."
     }
   ],
   "regions": [
@@ -6707,7 +6731,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Kalsubai Peak",
+            "height": "1,646 m",
+            "sourceId": "mahaKalsubai",
+            "sourceUrl": "https://maharashtratourism.gov.in/nature/kalsubai-peak/",
+            "description": "Named peak documented by an official tourism or government source."
+          }
+        ],
         "passes": [],
         "rivers": [
           {
@@ -9555,7 +9587,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Guru Shikhar",
+            "height": "1,722 m",
+            "sourceId": "rajGuruShikhar",
+            "sourceUrl": "https://environment.rajasthan.gov.in/content/environment/en/rajasthan-state-biodiversity-board/about-rajasthan/physiography-of-rajasthan.html",
+            "description": "Named peak documented by an official tourism or government source."
+          }
+        ],
         "passes": [],
         "rivers": [
           {
@@ -10576,7 +10616,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Doddabetta Peak",
+            "height": "2,637 m",
+            "sourceId": "tnDoddabetta",
+            "sourceUrl": "https://www.incredibleindia.gov.in/en/tamil-nadu/ooty/doddabetta-peak",
+            "description": "Named peak documented by an official tourism or government source."
+          }
+        ],
         "passes": [],
         "rivers": [
           {
@@ -13276,7 +13324,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Sandakphu",
+            "height": "3,636 m",
+            "sourceId": "wbSandakphu",
+            "sourceUrl": "https://wbtourism.gov.in/The%20Mountains/details?id=63d7f015e4bbd858c2063387&template_id=1",
+            "description": "Named peak documented by an official tourism or government source."
+          }
+        ],
         "passes": [],
         "rivers": [
           {

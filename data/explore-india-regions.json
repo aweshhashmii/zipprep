@@ -277,7 +277,7 @@
       "name": "Central Water Commission — Weekly Bulletin on Live Storage Status of 166 Reservoirs",
       "url": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
       "referenceDate": "2026-04-09",
-      "note": "Named reservoir records are transcribed from the CWC weekly bulletin dated 9 April 2026. The currently imported entries are the first 69 records visible in the bulletin's national table; this is a partial named inventory, not the full 166-reservoir register or a current live-storage feed."
+      "note": "Named entries include the first 69 records in the national 166-reservoir table plus 14 additional reservoirs explicitly named in the state-wise low-storage tables. This is still a partial named inventory, not the full 166-reservoir register or a current live-storage feed."
     }
   ],
   "regions": [
@@ -3846,6 +3846,13 @@
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
             "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Tenughat",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
           }
         ],
         "wetlands": [
@@ -4254,6 +4261,20 @@
             "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Narayanpur",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Tattihalla",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
             "referenceDate": "2026-04-09"
           }
         ],
@@ -4689,6 +4710,20 @@
             "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Malampuzha",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Periyar",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
             "referenceDate": "2026-04-09"
           }
         ],
@@ -5692,6 +5727,20 @@
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
             "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Panshet",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Tanajisagar",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
           }
         ],
         "wetlands": [
@@ -6594,6 +6643,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named inventory from the CWC 166-reservoir weekly bulletin, including names explicitly listed in state-wise low-storage tables."
         }
       ],
       "lastVerifiedAt": null,
@@ -6654,7 +6711,15 @@
             "totalCount": 1
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Tuirial",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -7294,6 +7359,13 @@
             "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Rengali",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
             "referenceDate": "2026-04-09"
           }
         ],
@@ -8799,6 +8871,20 @@
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
             "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Sholayar",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Vaigai",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
           }
         ],
         "wetlands": [
@@ -9337,6 +9423,20 @@
             "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Priyadarshini Jurala",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Singur",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
             "referenceDate": "2026-04-09"
           }
         ],
@@ -10000,6 +10100,13 @@
             "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
             "sourceId": "cwcReservoirBulletin2026",
             "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Matatila",
+            "description": "CWC-monitored reservoir identified in the state-wise low-storage tables of the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://images.assettype.com/downtoearth-hindi/2026-04-10/hlghpttu/bulletin_09_04_2026_91__1_.pdf",
             "referenceDate": "2026-04-09"
           }
         ],

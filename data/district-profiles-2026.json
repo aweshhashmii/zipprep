@@ -6,6 +6,121 @@
   "sourcePolicy": "Each populated field must be supported by a district administration or other authoritative government source. Historical demographic figures must retain their Census reference year and boundary basis.",
   "records": [
     {
+      "lgdCode": "664",
+      "name": "Alipurduar",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Alipurduar",
+          "sourceUrl": "https://alipurduar.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://alipurduar.gov.in/"
+    },
+    {
+      "lgdCode": "305",
+      "name": "Bankura",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Bankura",
+          "sourceUrl": "https://bankura.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://bankura.gov.in/"
+    },
+    {
+      "lgdCode": "307",
+      "name": "Birbhum",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Birbhum",
+          "sourceUrl": "https://birbhum.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://birbhum.gov.in/"
+    },
+    {
+      "lgdCode": "308",
+      "name": "Cooch Behar",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Cooch Behar",
+          "sourceUrl": "https://coochbehar.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://coochbehar.gov.in/"
+    },
+    {
+      "lgdCode": "310",
+      "name": "Dakshin Dinajpur",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Dakshin Dinajpur",
+          "sourceUrl": "https://ddinajpur.nic.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://ddinajpur.nic.in/"
+    },
+    {
       "lgdCode": "309",
       "name": "Darjeeling",
       "stateLgdCode": "19",
@@ -45,7 +160,8 @@
         "subdivisions",
         "blocks",
         "culturalHighlights",
-        "description"
+        "description",
+        "officialDistrictPortalUrl"
       ],
       "sourceRecords": [
         {
@@ -91,8 +207,410 @@
           "sourceUrl": "https://darjeeling.gov.in/",
           "referenceDate": "accessed 2026-10-31",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Darjeeling",
+          "sourceUrl": "https://darjeeling.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
         }
-      ]
+      ],
+      "officialDistrictPortalUrl": "https://darjeeling.gov.in/"
+    },
+    {
+      "lgdCode": "312",
+      "name": "Hooghly",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Hooghly",
+          "sourceUrl": "https://hooghly.nic.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://hooghly.nic.in/"
+    },
+    {
+      "lgdCode": "313",
+      "name": "Howrah",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Howrah",
+          "sourceUrl": "https://howrah.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://howrah.gov.in/"
+    },
+    {
+      "lgdCode": "314",
+      "name": "Jalpaiguri",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Jalpaiguri",
+          "sourceUrl": "https://jalpaiguri.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://jalpaiguri.gov.in/"
+    },
+    {
+      "lgdCode": "703",
+      "name": "Jhargram",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Jhargram",
+          "sourceUrl": "https://jhargram.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://jhargram.gov.in/"
+    },
+    {
+      "lgdCode": "702",
+      "name": "Kalimpong",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Kalimpong",
+          "sourceUrl": "https://kalimpong.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://kalimpong.gov.in/"
+    },
+    {
+      "lgdCode": "315",
+      "name": "Kolkata",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Kolkata Municipal Corporation — Official portal",
+          "sourceUrl": "https://www.kmcgov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory links to the Kolkata Municipal Corporation portal for Kolkata."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://www.kmcgov.in/"
+    },
+    {
+      "lgdCode": "316",
+      "name": "Malda",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Malda",
+          "sourceUrl": "https://www.malda.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://www.malda.gov.in/"
+    },
+    {
+      "lgdCode": "319",
+      "name": "Murshidabad",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Murshidabad",
+          "sourceUrl": "https://murshidabad.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://murshidabad.gov.in/"
+    },
+    {
+      "lgdCode": "320",
+      "name": "Nadia",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Nadia",
+          "sourceUrl": "https://nadia.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://nadia.gov.in/"
+    },
+    {
+      "lgdCode": "303",
+      "name": "North 24 Parganas",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — North 24 Parganas",
+          "sourceUrl": "https://north24parganas.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://north24parganas.gov.in/"
+    },
+    {
+      "lgdCode": "704",
+      "name": "Paschim Bardhaman",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Paschim Bardhaman",
+          "sourceUrl": "https://paschimbardhaman.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://paschimbardhaman.gov.in/"
+    },
+    {
+      "lgdCode": "318",
+      "name": "Paschim Medinipur",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Paschim Medinipur",
+          "sourceUrl": "https://www.paschimmedinipur.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://www.paschimmedinipur.gov.in/"
+    },
+    {
+      "lgdCode": "306",
+      "name": "Purba Bardhaman",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Purba Bardhaman",
+          "sourceUrl": "https://purbabardhaman.nic.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://purbabardhaman.nic.in/"
+    },
+    {
+      "lgdCode": "317",
+      "name": "Purba Medinipur",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Purba Medinipur",
+          "sourceUrl": "https://purbamedinipur.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://purbamedinipur.gov.in/"
+    },
+    {
+      "lgdCode": "321",
+      "name": "Purulia",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Purulia",
+          "sourceUrl": "https://purulia.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://purulia.gov.in/"
+    },
+    {
+      "lgdCode": "304",
+      "name": "South 24 Parganas",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — South 24 Parganas",
+          "sourceUrl": "https://s24pgs.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://s24pgs.gov.in/"
+    },
+    {
+      "lgdCode": "311",
+      "name": "Uttar Dinajpur",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "officialDistrictPortalUrl"
+      ],
+      "sourceRecords": [
+        {
+          "field": "officialDistrictPortalUrl",
+          "sourceId": "wbDistrictPortalDirectory2021",
+          "title": "Official district portal — Uttar Dinajpur",
+          "sourceUrl": "https://uttardinajpur.gov.in/",
+          "referenceUrl": "https://wb.gov.in/government-district-and-localgovt.aspx",
+          "referenceDate": "West Bengal directory last updated 2021-09-09; link checked 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "The Government of West Bengal district directory lists this as the district website."
+        }
+      ],
+      "officialDistrictPortalUrl": "https://uttardinajpur.gov.in/"
     }
   ]
 }

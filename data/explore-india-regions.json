@@ -367,6 +367,20 @@
       "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
       "referenceDate": "2019-08-21",
       "note": "Official list: Uttarakhand 51, Sikkim 24, Jammu and Kashmir 15, Himachal Pradesh 47. Jammu and Kashmir reflects pre-2019 state boundaries."
+    },
+    {
+      "id": "tourism340Peaks2021",
+      "name": "Ministry of Tourism — 340 mountain peaks opened for mountaineering/trekking",
+      "url": "https://tourism.gov.in/sites/default/files/2021-03/usq%202386%20for%2016032021.pdf",
+      "referenceDate": "2021-03-16",
+      "note": "Official annexure lists Himachal Pradesh 91, Jammu and Kashmir 133 (including Ladakh), Sikkim 10 and Uttarakhand 106. Expedition access inventory, not a complete geographical inventory."
+    },
+    {
+      "id": "uk83Peaks2026",
+      "name": "Uttarakhand Government — 83 major Himalayan peaks opened for mountaineers",
+      "url": "https://uttarainformation.gov.in/mountaineering-gets-a-new-boost-in-uttarakhand/",
+      "referenceDate": "2026-02-03",
+      "note": "Official announcement of 83 peaks opened in Garhwal and Kumaon, elevations 5,700–7,756 m; examples include Kamet, Nanda Devi East, Chaukhamba, Trishul, Shivling, Satopanth, Changabang, Panchachuli and Neelkanth."
     }
   ],
   "regions": [
@@ -3895,7 +3909,384 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Kullu Makalu",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KulluPumori",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KulluEiger",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Dibibokri Pyramid",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Fluted Peak",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Hunnungma",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Pyramid",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Parbati South",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Rubal Kang",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Shigri Parbat",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Snow Cone",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Snow Dome",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Shitidhar",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Ashagiri",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-17",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-18",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-19",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-48 (Tamoo)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-49 (Tilakalhar)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-50",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-52",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-53 (Sharmili)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-54",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-55 (Sharmili)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "CB-57 (Tapugiri)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-1",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-2",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-3",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-4",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-5 (CB-7)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-6",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-7",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "KR-8",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Lalana",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-1",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-2",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-3",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-4 (Mulkila)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-5",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-6",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-7 (Taragiri)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-8",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-9",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "M-10",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "Mulkila (M04)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "T-1",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          },
+          {
+            "name": "T-2",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "State boundary at publication"
+          }
+        ],
         "passes": [],
         "rivers": [
           {
@@ -14353,7 +14744,128 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/mountain-ranges.html"
           }
         ],
-        "peaks": [],
+        "peaks": [
+          {
+            "name": "Golapkangri",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Eiger",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Cerro Kisthwar",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Chomochior",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Kailash",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Agyasol",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Umasi",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Kalidahar, Kishtwar (Spires)",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Dandagoporum",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Mardi Phabrang",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Tupendu-I",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Tupendu-II",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "KishtwarShivling",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Tanak Peak",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          },
+          {
+            "name": "Barmal Peak",
+            "sourceId": "pibMountainPeaks1372019",
+            "sourceYear": 2019,
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1582541&lang=2&reg=3",
+            "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory.",
+            "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
+          }
+        ],
         "passes": [],
         "rivers": [
           {

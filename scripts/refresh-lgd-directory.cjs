@@ -39,6 +39,12 @@ function main() {
       'Unexpected LGD metadata source.');
     assert(typeof meta.source_date === 'string' && /^\d{1,2}[A-Za-z]{3}\d{4}$/.test(meta.source_date),
       'LGD source_date is missing or malformed.');
+    const sourceTimestamp = Date.parse(meta.source_date.replace(/^(\d{1,2})([A-Za-z]{3})(\d{4})$/, '$1 $2 $3 UTC'));
+    assert(Number.isFinite(sourceTimestamp), 'LGD source_date could not be parsed.');
+    const sourceAgeDays = (Date.now() - sourceTimestamp) / 86400000;
+    assert(sourceAgeDays >= -1 && sourceAgeDays <= 45,
+      'LGD snapshot is outside the 45-day freshness window: ' + meta.source_date + '.');
+
     assert(states.length === 36, 'Expected 36 LGD states/UTs; received ' + states.length + '.');
     assert(states.filter(x => x.type === 'S').length === EXPECTED_STATE_TYPES.state,
       'LGD state classification does not reconcile to 28 states.');
@@ -47,6 +53,7 @@ function main() {
     assert(districts.length > 600, 'LGD district snapshot unexpectedly small: ' + districts.length + '.');
 
     const stateCodes = new Set(states.map(x => String(x.code)));
+    assert(stateCodes.size === states.length, 'Duplicate LGD state code detected.');
     const districtCodes = new Set();
     for (const state of states) {
       assert(state.code && state.name, 'LGD state row missing code or name.');

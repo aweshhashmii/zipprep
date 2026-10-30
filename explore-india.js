@@ -143,26 +143,41 @@ function renderProfile(name,count){
  var root=$('panel-profile');if(!root)return;
  var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
  root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Other changing figures remain marked pending until an official source record is imported.</p>'+
+ var pol=record&&record.political||{},adm=record&&record.administration||{};
+ var display=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
  '<div class="atlas-profile-grid">'+
- stat('Official capital',record&&record.capital||'Verification pending','Relevant state / UT government portal · source record pending')+
+ stat('Official capital',display(record&&record.capital),'Relevant state / UT government portal · source record pending')+
  stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Verification pending','Government of India administrative structure')+
  stat('Districts in loaded boundary service',count,'BharatMapService district polygons · current response')+
- stat('Chief Minister / administrator','Verification pending','Relevant state/UT government portal · last verified: pending')+
- stat('Governor / Lieutenant Governor','Verification pending','President of India / relevant Raj Bhavan or UT administration')+
- stat('Lok Sabha elected seats','Verification pending','Election Commission of India / Delimitation records')+
- stat('Rajya Sabha seats','Verification pending','Parliament of India')+
- stat('Legislative Assembly membership','Verification pending','Election Commission of India / state legislature')+
- stat('Legislative Council','Verification pending','Relevant state legislature / Parliament records')+
- stat('Blocks and Panchayats','Verification pending','Ministry of Panchayati Raj / state rural development department')+
- stat('Municipal corporations / municipalities','Verification pending','Ministry of Housing and Urban Affairs / state ULB directory')+
- stat('Area and formation date','Verification pending','Know India / state government portal')+
+ stat('Chief Minister / administrator',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
+ stat('Governor / Lieutenant Governor',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+
+ stat('Lok Sabha elected seats',display(pol.lokSabhaSeats),'Election Commission of India / Delimitation records')+
+ stat('Rajya Sabha seats',display(pol.rajyaSabhaSeats),'Parliament of India')+
+ stat('Legislative Assembly membership',display(pol.assemblySeats),'Election Commission of India / state legislature')+
+ stat('Legislative Council',display(pol.legislativeCouncil),'Relevant state legislature / Parliament records')+
+ stat('Development blocks',display(adm.blocks),'Ministry of Panchayati Raj / state rural development department')+
+ stat('Gram Panchayats',display(adm.gramPanchayats),'Ministry of Panchayati Raj / state rural development department')+
+ stat('Municipal corporations',display(adm.municipalCorporations),'Ministry of Housing and Urban Affairs / state ULB directory')+
+ stat('Municipalities / Nagar Panchayats',display(adm.municipalities)+' / '+display(adm.nagarPanchayats),'Ministry of Housing and Urban Affairs / state ULB directory')+
+ stat('Geographical area',display(record&&record.areaSqKm)+' km²','Know India / state government portal')+
+ stat('Formation date',display(record&&record.formationDate),'Relevant state / UT government portal')+
  '</div><div id="district-directory-section"><h3>District directory · '+count+' mapped districts</h3><div class="atlas-district-tools"><input id="district-search" type="search" placeholder="Search districts by name…" aria-label="Search districts"><span class="atlas-data-pending">Alphabetical · select a district to highlight it on the map</span></div><div id="district-directory" class="atlas-district-directory"></div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><p class="atlas-data-pending">Select a district on the map or in the directory to open its profile.</p></div></div>'+
  '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. No current officeholders or administrative totals are guessed. Last verified date: not yet recorded.</p>'+sourceLinks();
 }
 function renderGeography(name){
  var root=$('panel-geography');if(!root)return;
- var cats=['Geographical location & neighbours','Mountains, peaks & passes','Plains, plateaus & desert regions','Climate, soil & vegetation','Major rivers & river basins','Lakes, dams, reservoirs & wetlands','National parks & wildlife sanctuaries','Tiger reserves & biosphere reserves','Ramsar wetlands','UNESCO World Heritage & monuments','Minerals, forests & agriculture','GI-tagged products, arts & culture'];
- root.innerHTML='<p class="atlas-kicker">PHYSICAL GEOGRAPHY · NATURAL HERITAGE · EXAM FACTS</p><h3>'+textSafe(name)+' geography</h3><p class="atlas-data-pending">This panel is region-specific and ready for sourced geography records. No rivers, dams, parks, protected-area designations or UNESCO entries are displayed until their location and official designation have been verified.</p><div class="atlas-geography-grid">'+cats.map(function(c){return '<article class="atlas-geography-item"><b>'+textSafe(c)+'</b><p>Verified '+textSafe(name)+' dataset not yet connected. Source and last-verified metadata required.</p></article>'}).join('')+'</div>'+sourceLinks();
+ var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
+ var geography=record&&record.geography||{};
+ var cats=[
+  ['Geographical location & neighbours','location'],['Mountain ranges','mountainRanges'],['Important peaks','peaks'],['Mountain passes','passes'],
+  ['Major rivers','rivers'],['River basins','riverBasins'],['Lakes & reservoirs','lakes'],['Dams & water projects','dams'],
+  ['Wetlands','wetlands'],['National parks','nationalParks'],['Wildlife sanctuaries','wildlifeSanctuaries'],
+  ['Tiger reserves','tigerReserves'],['Biosphere reserves','biosphereReserves'],['Ramsar sites','ramsarSites'],
+  ['UNESCO World Heritage','unescoWorldHeritage'],['Monuments & archaeology','monuments'],['Mineral resources','minerals'],
+  ['Major crops','crops'],['Climate','climate'],['Soil types','soilTypes'],['GI-tagged products','giProducts'],['Arts & culture','culturalHighlights']
+ ];
+ function itemText(v){if(typeof v==='string')return textSafe(v);if(!v)return '';var title=v.name||v.title||v.officialName||'Verified entry';var desc=v.description||v.notes||'';return '<b>'+textSafe(title)+'</b>'+(desc?'<br>'+textSafe(desc):'')+(v.sourceUrl?' · <a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener">source</a>':'')}
+ root.innerHTML='<p class="atlas-kicker">PHYSICAL GEOGRAPHY · NATURAL HERITAGE · EXAM FACTS</p><h3>'+textSafe(name)+' geography</h3><p class="atlas-data-pending">Only records with a populated source-backed entry are displayed. Empty categories remain clearly marked rather than being filled with generic or unrelated facts.</p><div class="atlas-geography-grid">'+cats.map(function(c){var value=geography[c[1]],items=Array.isArray(value)?value:(value?[value]:[]);return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b><p>'+(items.length?items.map(itemText).join('<br><br>'):'No verified records imported for '+textSafe(name)+'.')+'</p></article>'}).join('')+'</div>'+sourceLinks();
 }
 function loadDistricts(name,token){
  var status=$('focus-status');if(status)status.textContent='Loading official district polygons for '+name+'…';

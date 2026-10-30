@@ -325,6 +325,34 @@
       "url": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF+AuYkB55WCPqjxR9Ug%3D%3D",
       "referenceDate": "2026-10-30",
       "note": "Official Himachal Pradesh Government portal labels the subject as Tani Jubbar Lake, Narkanda; Wetlands of India portal inventory also records Tani Jubbar Lake in Himachal Pradesh. Entry is a curated named-lake record, not a comprehensive lake inventory."
+    },
+    {
+      "id": "assamChandubi2026",
+      "name": "Kamrup District Administration, Government of Assam — Chandubi Lake",
+      "url": "https://kamrup.assam.gov.in/tourist-place-detail/275",
+      "referenceDate": "2026-10-30",
+      "note": "Official district tourism entry describes Chandubi as a natural lagoon and lake."
+    },
+    {
+      "id": "assamSonBeel2026",
+      "name": "Sribhumi District Administration, Government of Assam — Son Beel",
+      "url": "https://sribhumi.assam.gov.in/tourist-place-detail/218",
+      "referenceDate": "2026-10-30",
+      "note": "Official district entry describes Son Beel as a seasonal wetland which fills to become a lake."
+    },
+    {
+      "id": "assamSamaguri2026",
+      "name": "Nagaon District Administration, Government of Assam — Samaguri Beel",
+      "url": "https://nagaon.assam.gov.in/about-us/tourism",
+      "referenceDate": "2026-10-30",
+      "note": "Official district tourism entry describes Samaguri Beel as a lake-like wetland formed by the changing course of the Kolong River."
+    },
+    {
+      "id": "assamHajongLake2026",
+      "name": "Assam State Biodiversity Board — Hajong Lake aquatic biodiversity assessment",
+      "url": "https://forest.assam.gov.in/information-services/detail/assam-state-biodiversity-board-apfbc-outcomes-aquatic-biodiversity",
+      "referenceDate": "2026-10-30",
+      "note": "Official biodiversity assessment resource specifically titled Hajong Lake."
     }
   ],
   "regions": [
@@ -1342,7 +1370,32 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [],
+        "lakes": [
+          {
+            "name": "Chandubi Lake",
+            "description": "Natural lagoon/lake in Kamrup district; official district administration describes it as a natural lagoon and lake. Included as a named lake, not a complete wetland inventory.",
+            "sourceId": "assamChandubi2026",
+            "sourceUrl": "https://kamrup.assam.gov.in/tourist-place-detail/275"
+          },
+          {
+            "name": "Son Beel",
+            "description": "Seasonal wetland that fills to become a lake; officially described by Sribhumi district administration as a lake and seasonal wetland.",
+            "sourceId": "assamSonBeel2026",
+            "sourceUrl": "https://sribhumi.assam.gov.in/tourist-place-detail/218"
+          },
+          {
+            "name": "Samaguri Beel",
+            "description": "Wetland formed by changes in the Kolong River course; Nagaon district administration describes it as a lake-like wetland.",
+            "sourceId": "assamSamaguri2026",
+            "sourceUrl": "https://nagaon.assam.gov.in/about-us/tourism"
+          },
+          {
+            "name": "Hajong Lake",
+            "description": "Named lake covered by an Assam State Biodiversity Board aquatic biodiversity assessment; listed as a named lake, not a complete state inventory.",
+            "sourceId": "assamHajongLake2026",
+            "sourceUrl": "https://forest.assam.gov.in/information-services/detail/assam-state-biodiversity-board-apfbc-outcomes-aquatic-biodiversity"
+          }
+        ],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",

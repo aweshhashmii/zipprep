@@ -69,3 +69,11 @@
 @media(prefers-reduced-motion:reduce){
  .atlas-focus-map-wrap.is-extracting,.atlas-focus-content{animation:none!important}
 }
+
+/* The map remains the sole India-level selector; legacy side directories stay out of view. */
+#v-india .atlas-layout{display:block!important}
+#v-india .atlas-panel,#v-india #atlas-admin-panel,#v-india .atlas-tools{display:none!important}
+#v-india .atlas-map-card{width:100%;max-width:100%}
+#v-india #india-map{height:clamp(460px,76vh,820px)!important;min-height:420px!important}
+#v-india .atlas-legend{justify-content:center}
+@media(max-width:760px){#v-india #india-map{height:clamp(420px,68vh,650px)!important;min-height:390px!important}}

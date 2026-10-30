@@ -11,7 +11,7 @@ var ALIASES={
 'ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU & KASHMIR':'Jammu and Kashmir','JAMMU AND KASHMIR':'Jammu and Kashmir',
 'JAMMU AND KASHMIR (UT)':'Jammu and Kashmir','LADAKH (UT)':'Ladakh'
 };
-var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null,censusDistrictsVerified=false;var lgdDirectory=null;
+var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null,censusDistrictsVerified=false;var lgdDirectory=null;var districtProfileData=null;
 var SOURCE_LINKS=[
 ['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],['Local Government Directory — current district codes','https://lgdirectory.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
@@ -46,12 +46,14 @@ function loadRegionCatalog(){
   fetch('./data/region-political-2026.json').then(function(r){if(!r.ok)throw Error('Political dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/india-lgd-administrative-2026.json').then(function(r){if(!r.ok)throw Error('LGD directory HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/india-lgd-administrative-2026.json').then(function(r){if(!r.ok)throw Error('LGD directory HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
-  var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4];
+  var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
+  districtProfileData=districtProfiles&&Array.isArray(districtProfiles.records)?districtProfiles:null;
   if(lgdDirectory)data.regions.forEach(function(region){
    var state=lgdDirectory.states.find(function(item){var a=item.name.toLowerCase().replace(/&/g,'and').replace(/^the /,'');var b=region.name.toLowerCase().replace(/&/g,'and').replace(/^the /,'');return a===b});
    if(!state)return;
@@ -206,9 +208,13 @@ function selectDistrict(name,layer){
  var districtDirectory=region&&region.districts&&region.districts.currentDirectory||[];
  var normDistrict=function(v){return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'')};
  var lgdDistrict=districtDirectory.find(function(item){return normDistrict(item.name)===normDistrict(name)})||null;
+ var importedDistrictProfile=districtProfileData&&districtProfileData.records.find(function(item){return lgdDistrict&&item.lgdCode===lgdDistrict.lgdCode})||null;
+ if(importedDistrictProfile)record=Object.assign({},record,importedDistrictProfile);
 
  var value=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
  var pop=record.population&&record.population.value!==undefined?String(record.population.value)+(record.population.referenceYear?' (Census '+record.population.referenceYear+')':''): 'Not loaded — use a dated Census reference';
+ var districtSourcesHtml=Array.isArray(record.sourceRecords)&&record.sourceRecords.length?'<h4>District source records</h4><div class="atlas-data-sources">'+record.sourceRecords.map(function(src){return '<div><a href="'+textSafe(src.sourceUrl||'#')+'" target="_blank" rel="noopener noreferrer">'+textSafe(src.title||src.sourceId||src.field||'District source')+'</a><small>'+textSafe(src.field||'')+(src.referenceDate?' · '+textSafe(src.referenceDate):'')+'</small>'+(src.note?'<small>'+textSafe(src.note)+'</small>':'')+'</div>'}).join('')+'</div>':'';
+
  var profile=$('district-selected-profile');
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+
  stat('District headquarters',value(record.headquarters),'Official district administration portal · source record pending')+
@@ -228,7 +234,7 @@ function selectDistrict(name,layer){
 
  stat('Blocks',Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'Verification pending','District administration / Ministry of Panchayati Raj')+
  stat('Major rivers',Array.isArray(record.majorRivers)&&record.majorRivers.length?record.majorRivers.join(', '):'Verification pending','Official hydrography / state water resources department')+
- '</div><h3>History & culture</h3><p class="atlas-data-pending">'+textSafe(record.historicalSignificance||'Historical information not yet verified.')+'</p><p class="atlas-data-pending">'+textSafe(Array.isArray(record.culturalHighlights)&&record.culturalHighlights.length?record.culturalHighlights.join(', '):'Cultural highlights not yet verified.')+'</p><p class="atlas-data-pending">'+(census?'Demographic figures are historical Census 2011 data. District names and boundaries have changed in some states since 2011; unmatched records are deliberately left blank.':'No exact district match was found in the Census 2011 file. Demographic values are withheld rather than guessed.')+'</p><p class="atlas-data-pending">Census source: <a href="https://censusindia.gov.in/census.website/en/data/population-finder" target="_blank" rel="noopener">Census of India — Population Finder</a>.</p>';
+ '</div><h3>History & culture</h3><p class="atlas-data-pending">'+textSafe(record.historicalSignificance||'Historical information not yet verified.')+'</p><p class="atlas-data-pending">'+textSafe(Array.isArray(record.culturalHighlights)&&record.culturalHighlights.length?record.culturalHighlights.join(', '):'Cultural highlights not yet verified.')+'</p>'+(record.description?'<p class="atlas-data-pending">'+textSafe(record.description)+'</p>':'')+districtSourcesHtml+'<p class="atlas-data-pending">'+(census?'Demographic figures are historical Census 2011 data. District names and boundaries have changed in some states since 2011; unmatched records are deliberately left blank.':'No exact match to a verified Census 2011 district profile is available. Demographic values are withheld rather than guessed.')+'</p><p class="atlas-data-pending">Census source: <a href="https://censusindia.gov.in/census.website/en/data/population-finder" target="_blank" rel="noopener">Census of India — Population Finder</a>.</p>';
  var root=$('district-directory');if(root)root.querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',String(b.textContent===name))});
 }
 

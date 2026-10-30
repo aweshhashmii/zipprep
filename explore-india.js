@@ -13,9 +13,9 @@ var ALIASES={
 };
 var regionCatalog=null,regionCatalogPromise=null;
 var SOURCE_LINKS=[
-['Election Commission of India','https://eci.gov.in/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
+['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
-['BharatMapService','https://mapservice.gov.in/'],['geoBoundaries India ADM1 (CC BY 2.5 IN)','https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/'],['Community boundary source','https://github.com/iamaanahmad/GeoJson-of-Indian-States']
+['UNESCO World Heritage Centre — India','https://whc.unesco.org/en/statesparties/IN'],['BharatMapService','https://mapservice.gov.in/'],['geoBoundaries India ADM1 (CC BY 2.5 IN)','https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/'],['Community boundary source','https://github.com/iamaanahmad/GeoJson-of-Indian-States']
 ];
 var focusMap=null,stateLayer=null,districtLayer=null,selectedDistrictLayer=null,currentState='',currentFeature=null,currentTab='profile',districtFeatures=[],retryButton=null;
 var $=function(id){return document.getElementById(id)};
@@ -59,7 +59,7 @@ function loadRegionCatalog(){
    region.political.referenceYear=row.referenceYear;
    region.political.lastVerifiedAt=row.lastVerifiedAt;
    region.sourceRecords=region.sourceRecords||[];
-   region.sourceRecords.push({id:'eci-seats-2026',sourceId:row.sourceId,title:political.title,url:row.sourceUrl,fields:['political.lokSabhaSeats','political.rajyaSabhaSeats','political.assemblySeats'],referenceYear:row.referenceYear,lastVerifiedAt:row.lastVerifiedAt});
+   region.sourceRecords.push({id:'eci-seats-2026',sourceId:row.sourceId,title:political.source||'Election Commission of India — Terms of the Houses',url:row.sourceUrl,fields:['political.lokSabhaSeats','political.rajyaSabhaSeats','political.assemblySeats'],referenceYear:row.referenceYear,lastVerifiedAt:row.lastVerifiedAt});
   });
   if(heritage&&Array.isArray(heritage.records))data.regions.forEach(function(region){
    var entries=heritage.records.filter(function(item){return item.regionName===region.name});

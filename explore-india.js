@@ -164,11 +164,15 @@ function renderProfile(name,count){
  stat('Legislative Council',display(pol.legislativeCouncil),'Relevant state legislature / Parliament records')+
  stat('Development blocks',display(adm.blocks),'Ministry of Panchayati Raj / state rural development department')+
  stat('Gram Panchayats',display(adm.gramPanchayats),'Ministry of Panchayati Raj / state rural development department')+
+ stat('Intermediate Panchayats',display(adm.intermediatePanchayats),'Ministry of Panchayati Raj / state rural development department')+
+ stat('District Panchayats',display(adm.districtPanchayats),'Ministry of Panchayati Raj / state rural development department')+
  stat('Municipal corporations',display(adm.municipalCorporations),'Ministry of Housing and Urban Affairs / state ULB directory')+
  stat('Municipalities / Nagar Panchayats',display(adm.municipalities)+' / '+display(adm.nagarPanchayats),'Ministry of Housing and Urban Affairs / state ULB directory')+
  stat('Geographical area',display(record&&record.areaSqKm)+' km²','Know India / state government portal')+
  stat('Formation date',display(record&&record.formationDate),'Relevant state / UT government portal')+
- '</div><div id="district-directory-section"><h3>District directory · '+count+' mapped districts</h3><div class="atlas-district-tools"><input id="district-search" type="search" placeholder="Search districts by name…" aria-label="Search districts"><span class="atlas-data-pending">Alphabetical · select a district to highlight it on the map</span></div><div id="district-directory" class="atlas-district-directory"></div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><p class="atlas-data-pending">Select a district on the map or in the directory to open its profile.</p></div></div>'+
+ stat('High Court',display(record&&record.highCourt),'Official High Court / state government portal')+
+ stat('Official languages',record&&record.officialLanguages&&record.officialLanguages.length?record.officialLanguages.join(', '):'Verification pending','Relevant state / UT government portal')+
+ '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p><div id="district-directory-section"><h3>District directory · '+count+' mapped districts</h3><div class="atlas-district-tools"><input id="district-search" type="search" placeholder="Search districts by name…" aria-label="Search districts"><span class="atlas-data-pending">Alphabetical · select a district to highlight it on the map</span></div><div id="district-directory" class="atlas-district-directory"></div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><p class="atlas-data-pending">Select a district on the map or in the directory to open its profile.</p></div></div>'+
  '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. No current officeholders or administrative totals are guessed. Last verified date: not yet recorded.</p>'+sourceLinks();
 }
 function renderGeography(name){
@@ -176,12 +180,12 @@ function renderGeography(name){
  var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
  var geography=record&&record.geography||{};
  var cats=[
-  ['Geographical location & neighbours','location'],['Mountain ranges','mountainRanges'],['Important peaks','peaks'],['Mountain passes','passes'],
+  ['Geographical location & neighbours','location'],['Mountain ranges','mountainRanges'],['Important peaks','peaks'],['Mountain passes','passes'],['Coastal features','coastalFeatures'],['Ports','ports'],['Islands','islands'],
   ['Major rivers','rivers'],['River basins','riverBasins'],['Lakes & reservoirs','lakes'],['Dams & water projects','dams'],
   ['Wetlands','wetlands'],['National parks','nationalParks'],['Wildlife sanctuaries','wildlifeSanctuaries'],
   ['Tiger reserves','tigerReserves'],['Biosphere reserves','biosphereReserves'],['Ramsar sites','ramsarSites'],
   ['UNESCO World Heritage','unescoWorldHeritage'],['Monuments & archaeology','monuments'],['Mineral resources','minerals'],
-  ['Major crops','crops'],['Climate','climate'],['Soil types','soilTypes'],['GI-tagged products','giProducts'],['Arts & culture','culturalHighlights']
+  ['Major crops','crops'],['Climate','climate'],['Soil types','soilTypes'],['GI-tagged products','giProducts'],['Arts & culture','culturalHighlights'],['Renewable energy projects','renewableEnergyProjects'],['Industrial corridors','industrialCorridors'],['River-valley projects','riverValleyProjects'],['Environmental challenges','environmentalChallenges'],['Disaster-prone regions','disasterProneRegions']
  ];
  function itemText(v){if(typeof v==='string')return textSafe(v);if(!v)return '';var title=v.name||v.title||v.officialName||'Verified entry';var desc=v.description||v.notes||'';return '<b>'+textSafe(title)+'</b>'+(desc?'<br>'+textSafe(desc):'')+(v.sourceUrl?' · <a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener">source</a>':'')}
  root.innerHTML='<p class="atlas-kicker">PHYSICAL GEOGRAPHY · NATURAL HERITAGE · EXAM FACTS</p><h3>'+textSafe(name)+' geography</h3><p class="atlas-data-pending">Only records with a populated source-backed entry are displayed. Empty categories remain clearly marked rather than being filled with generic or unrelated facts.</p><div class="atlas-geography-grid">'+cats.map(function(c){var value=geography[c[1]],items=Array.isArray(value)?value:(value?[value]:[]);return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b><p>'+(items.length?items.map(itemText).join('<br><br>'):'No verified records imported for '+textSafe(name)+'.')+'</p></article>'}).join('')+'</div>'+sourceLinks();

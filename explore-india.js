@@ -11,7 +11,7 @@ var ALIASES={
 'ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU & KASHMIR':'Jammu and Kashmir','JAMMU AND KASHMIR':'Jammu and Kashmir',
 'JAMMU AND KASHMIR (UT)':'Jammu and Kashmir','LADAKH (UT)':'Ladakh'
 };
-var regionCatalog=null,regionCatalogPromise=null;
+var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null;
 var SOURCE_LINKS=[
 ['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
@@ -44,9 +44,11 @@ function loadRegionCatalog(){
  if(!regionCatalogPromise)regionCatalogPromise=Promise.all([
   fetch('./data/explore-india-regions.json').then(function(r){if(!r.ok)throw Error('Region catalogue HTTP '+r.status);return r.json()}),
   fetch('./data/region-political-2026.json').then(function(r){if(!r.ok)throw Error('Political dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
-  var data=parts[0],political=parts[1],heritage=parts[2];
+  var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3];
+  censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
@@ -152,6 +154,15 @@ function renderDistrictDirectory(){
  })});
  var search=$('district-search');if(search)search.addEventListener('input',function(){var q=search.value.trim().toLowerCase();root.querySelectorAll('button').forEach(function(btn){btn.hidden=!btn.textContent.toLowerCase().includes(q)})});
 }
+function censusDistrictRecord(stateName,district){
+ if(!Array.isArray(censusDistricts))return null;
+ var norm=function(s){return String(s||'').toLowerCase().replace(/district/g,'').replace(/[^a-z0-9]/g,'')};
+ var d=norm(district),state=norm(stateName);
+ var stateAliases={'delhi':'nctofdelhi','uttarakhand':'uttaranchal','odisha':'orissa','telangana':'andhrapradesh','ladakh':'jammuandkashmir','dadraandnagarhavelianddamananddiu':'damananddiu'};
+ var candidates=censusDistricts.filter(function(r){return norm(r.district)===d});
+ var exact=candidates.find(function(r){var rs=norm(r.state);return rs===state||rs===(stateAliases[state]||'')});
+ return exact||(candidates.length===1?candidates[0]:null);
+}
 function selectDistrict(name,layer){
  if(selectedDistrictLayer&&districtLayer)districtLayer.resetStyle(selectedDistrictLayer);
  selectedDistrictLayer=layer;layer.setStyle({color:'#fff',weight:2.8,fillColor:'#ffd24a',fillOpacity:.78});
@@ -159,13 +170,18 @@ function selectDistrict(name,layer){
  var region=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===currentState});
  var records=region&&region.districts&&region.districts.records||[];
  var record=records.find(function(r){return r.name===name||r.id===name})||{};
+ var census=censusDistrictRecord(currentState,name);
  var value=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
  var pop=record.population&&record.population.value!==undefined?String(record.population.value)+(record.population.referenceYear?' (Census '+record.population.referenceYear+')':''): 'Not loaded — use a dated Census reference';
  var profile=$('district-selected-profile');
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+
  stat('District headquarters',value(record.headquarters),'Official district administration portal · source record pending')+
  stat('Area',value(record.areaSqKm)==='Verification pending'?'Verification pending':value(record.areaSqKm)+' km²','Official district statistical handbook')+
- stat('Population',pop,'Census of India · year must be shown')+
+ stat('Population',census?Number(census.population).toLocaleString('en-IN')+' (Census 2011)':pop,'Census of India · Primary Census Abstract 2011')+
+ stat('Male / female population',census?Number(census.male).toLocaleString('en-IN')+' / '+Number(census.female).toLocaleString('en-IN'):'Verification pending','Census of India · 2011')+
+ stat('Literacy',census?Number(census.literate).toLocaleString('en-IN')+' literates · '+census.literacyRate+'%':'Verification pending','Census of India · 2011; literacy calculated as literate population / total population')+
+ stat('Sex ratio',census?census.sexRatio+' females per 1,000 males':'Verification pending','Census of India · 2011')+
+ stat('Scheduled Castes / Tribes',census?Number(census.sc).toLocaleString('en-IN')+' / '+Number(census.st).toLocaleString('en-IN'):'Verification pending','Census of India · 2011')+
  stat('Subdivisions',Array.isArray(record.subdivisions)&&record.subdivisions.length?record.subdivisions.join(', '):'Verification pending','District administration / state government')+
  stat('Blocks',Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'Verification pending','District administration / Ministry of Panchayati Raj')+
  stat('Major rivers',Array.isArray(record.majorRivers)&&record.majorRivers.length?record.majorRivers.join(', '):'Verification pending','Official hydrography / state water resources department')+

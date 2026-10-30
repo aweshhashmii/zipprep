@@ -228,7 +228,7 @@ function renderGeography(name){
   ['Geographical location & neighbours','location'],['Mountain ranges','mountainRanges'],['Important peaks','peaks'],['Mountain passes','passes'],['Coastal features','coastalFeatures'],['Ports','ports'],['Islands','islands'],
   ['Major rivers','rivers'],['River basins','riverBasins'],['Lakes & reservoirs','lakes'],['Dams & water projects','dams'],
   ['Forest and tree cover','forestCover'],['Wetlands','wetlands'],['National parks','nationalParks'],['Wildlife sanctuaries','wildlifeSanctuaries'],
-  ['Tiger reserves','tigerReserves'],['Biosphere reserves','biosphereReserves'],['Conservation reserves','conservationReserves'],['Community reserves','communityReserves'],['Ramsar sites','ramsarSites'],
+  ['Tiger reserves','tigerReserves'],['Biosphere reserves','biosphereReserves'],['Conservation reserves','conservationReserves'],['Community reserves','communityReserves'],['Marine protected areas','marineProtectedAreas'],['Ramsar sites','ramsarSites'],
   ['UNESCO World Heritage','unescoWorldHeritage'],['Monuments & archaeology','monuments'],['Mineral resources','minerals'],
   ['Major crops','crops'],['Climate','climate'],['Soil types','soilTypes'],['GI-tagged products','giProducts'],['Arts & culture','culturalHighlights'],['Renewable energy projects','renewableEnergyProjects'],['Industrial corridors','industrialCorridors'],['River-valley projects','riverValleyProjects'],['Environmental challenges','environmentalChallenges'],['Disaster-prone regions','disasterProneRegions']
  ];

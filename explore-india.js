@@ -173,7 +173,7 @@ function renderProfile(name,count){
  stat('High Court',display(record&&record.highCourt),'Official High Court / state government portal')+
  stat('Official languages',record&&record.officialLanguages&&record.officialLanguages.length?record.officialLanguages.join(', '):'Verification pending','Relevant state / UT government portal')+
  '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p><div id="district-directory-section"><h3>District directory · '+count+' mapped districts</h3><div class="atlas-district-tools"><input id="district-search" type="search" placeholder="Search districts by name…" aria-label="Search districts"><span class="atlas-data-pending">Alphabetical · select a district to highlight it on the map</span></div><div id="district-directory" class="atlas-district-directory"></div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><p class="atlas-data-pending">Select a district on the map or in the directory to open its profile.</p></div></div>'+
- '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. No current officeholders or administrative totals are guessed. Last verified date: not yet recorded.</p>'+sourceLinks();
+ '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. No current officeholders or administrative totals are guessed. Last verified date: '+textSafe(record&&record.lastVerifiedAt||'not yet recorded')+'.</p>'+sourceLinks();
 }
 function renderGeography(name){
  var root=$('panel-geography');if(!root)return;

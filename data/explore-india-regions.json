@@ -208,6 +208,13 @@
       "url": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
       "referenceDate": "2026-04-02",
       "note": "Authoritative parliamentary annexure with 36 state/UT figures; forest + tree cover combined. Ladakh percentage not separately stated."
+    },
+    {
+      "id": "ramsarSecretariat2026",
+      "name": "Ramsar Convention Secretariat — India country profile and 2026 site additions",
+      "url": "https://www.ramsar.org/country-profile/india",
+      "referenceDate": "2026-10-15",
+      "note": "Country profile reports 103 Indian Ramsar Sites; latest additions and site numbers confirmed by Secretariat notices. Designation date and Indian announcement date are separate fields."
     }
   ],
   "regions": [
@@ -634,6 +641,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "ramsarSecretariat2026",
+          "sourceUrl": "https://www.ramsar.org/country-profile/india",
+          "referenceDate": "2026-10-15",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Ramsar Secretariat country profile confirms 103 sites nationally; latest four records cross-checked against Ramsar Secretariat and PIB announcements. Official designation date is distinct from India's announcement date."
         }
       ],
       "lastVerifiedAt": null,
@@ -785,11 +800,23 @@
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
-            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "description": "1 designated site(s); state tally cross-checked against the national Ramsar register (latest additions through 15 October 2026).",
             "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Glaw Lake",
+            "district": "Lohit",
+            "designationDate": "2026-01-21",
+            "announcementDate": "2026-08-03",
+            "areaHectares": 128.98,
+            "ramsarSiteNumber": 2597,
+            "sourceId": "ramsarSecretariat2026",
+            "sourceUrl": "https://www.ramsar.org/country-profile/india",
+            "referenceDate": "2026-10-15",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
           }
         ],
         "unescoWorldHeritage": [],
@@ -7325,6 +7352,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "ramsarSecretariat2026",
+          "sourceUrl": "https://www.ramsar.org/country-profile/india",
+          "referenceDate": "2026-10-15",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Ramsar Secretariat country profile confirms 103 sites nationally; latest four records cross-checked against Ramsar Secretariat and PIB announcements. Official designation date is distinct from India's announcement date."
         }
       ],
       "lastVerifiedAt": null,
@@ -7449,11 +7484,35 @@
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
-            "description": "14 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "description": "2 designated site(s); state tally cross-checked against the national Ramsar register (latest additions through 15 October 2026).",
             "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
-            "count": 14
+            "count": 2
+          },
+          {
+            "name": "Jai Prakash Narayan Bird Sanctuary (Surha Tal)",
+            "district": "Ballia",
+            "designationDate": "2026-01-19",
+            "announcementDate": "2026-06-05",
+            "areaHectares": 3432,
+            "ramsarSiteNumber": 2595,
+            "sourceId": "ramsarSecretariat2026",
+            "sourceUrl": "https://www.ramsar.org/country-profile/india",
+            "referenceDate": "2026-10-15",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
+          },
+          {
+            "name": "Sauj Jheel",
+            "district": "Mainpuri",
+            "designationDate": "2026-06-18",
+            "announcementDate": "2026-10-15",
+            "areaHectares": 40.76,
+            "ramsarSiteNumber": 2603,
+            "sourceId": "ramsarSecretariat2026",
+            "sourceUrl": "https://www.ramsar.org/country-profile/india",
+            "referenceDate": "2026-10-15",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
           }
         ],
         "unescoWorldHeritage": [],
@@ -8434,6 +8493,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "ramsarSecretariat2026",
+          "sourceUrl": "https://www.ramsar.org/country-profile/india",
+          "referenceDate": "2026-10-15",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Ramsar Secretariat country profile confirms 103 sites nationally; latest four records cross-checked against Ramsar Secretariat and PIB announcements. Official designation date is distinct from India's announcement date."
         }
       ],
       "lastVerifiedAt": null,
@@ -8499,11 +8566,23 @@
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
-            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "description": "1 designated site(s); state tally cross-checked against the national Ramsar register (latest additions through 15 October 2026).",
             "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Sukhna Wetland",
+            "district": "Chandigarh",
+            "designationDate": "2026-03-16",
+            "announcementDate": "2026-10-15",
+            "areaHectares": 199.51,
+            "ramsarSiteNumber": 2602,
+            "sourceId": "ramsarSecretariat2026",
+            "sourceUrl": "https://www.ramsar.org/country-profile/india",
+            "referenceDate": "2026-10-15",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
           }
         ],
         "unescoWorldHeritage": [],

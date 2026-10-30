@@ -73,7 +73,7 @@ function close(){
  var mapEl=$('india-map');if(mapEl)mapEl.classList.remove('atlas-map-state-focus');
  if(focusMap){focusMap.remove();focusMap=null;stateLayer=null;districtLayer=null;selectedDistrictLayer=null;}
  var original=$('atlas-status');if(original)original.textContent='India map remains active. Select another state or Union Territory to continue.';
- var back=$('atlas-reset');if(back)back.focus();
+ var back=$('atlas-reset');if(back)back.click();var mapEl=$('india-map');if(mapEl){mapEl.setAttribute('tabindex','0');mapEl.focus();}
 }
 function stateServiceName(name){
  var aliases={'Delhi':'NCT of Delhi','Odisha':'Orissa','Uttarakhand':'Uttaranchal'};

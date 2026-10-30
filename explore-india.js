@@ -53,7 +53,7 @@ function loadRegionCatalog(){
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
   if(lgdDirectory)data.regions.forEach(function(region){
-   var state=lgdDirectory.states.find(function(item){return item.name.toLowerCase().replace(/&/g,'and')===region.name.toLowerCase().replace(/&/g,'and')});
+   var state=lgdDirectory.states.find(function(item){var a=item.name.toLowerCase().replace(/&/g,'and').replace(/^the /,'');var b=region.name.toLowerCase().replace(/&/g,'and').replace(/^the /,'');return a===b});
    if(!state)return;
    var currentDistricts=lgdDirectory.districts.filter(function(item){return item.stateLgdCode===state.lgdCode});
    region.lgdStateCode=state.lgdCode;

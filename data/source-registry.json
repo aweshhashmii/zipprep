@@ -383,6 +383,19 @@
         "Cultural and heritage highlights"
       ],
       "cadence": "Review when official district portal content is updated"
+    },
+    {
+      "id": "wbDistrictPortalDirectory2021",
+      "name": "Government of West Bengal — Districts and Local Government portal directory",
+      "url": "https://wb.gov.in/government-district-and-localgovt.aspx",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "Official district portal links for all 23 West Bengal districts"
+      ],
+      "referenceDate": "Page last updated 2021-09-09; district portal links rechecked 2026-10-31",
+      "cadence": "Recheck when the state directory or district portal domains change"
     }
   ]
 }

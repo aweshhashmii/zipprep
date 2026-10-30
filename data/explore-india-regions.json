@@ -122,6 +122,13 @@
       "url": "https://www.sci.gov.in/jurisdiction/",
       "referenceDate": "2026-10-30",
       "note": "Territorial jurisdiction and principal seats/benches; jurisdiction for Union Territories is assigned to the relevant High Court."
+    },
+    {
+      "id": "moefccBiosphereReserves",
+      "name": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves (18 notified reserves)",
+      "url": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+      "referenceYear": "2023-24",
+      "note": "Official national list of 18 notified Biosphere Reserves; UNESCO World Network membership is a separate international designation and is not implied by national notification."
     }
   ],
   "regions": [
@@ -209,6 +216,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present enlarged Andhra Pradesh formed on 1 November 1956; Andhra State, its predecessor, was formed on 1 October 1953."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -311,7 +326,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Seshachalam",
+            "designationYear": 2011,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -435,6 +459,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -555,7 +587,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Dehang-Dibang",
+            "designationYear": 1998,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -672,6 +713,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -780,7 +829,24 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Manas",
+            "designationYear": 1989,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dibru-Saikhowa",
+            "designationYear": 1997,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -1104,6 +1170,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -1206,7 +1280,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Achanakmar-Amarkantak",
+            "designationYear": 2005,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -1533,6 +1616,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -1617,7 +1708,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Kachchh (Great Rann of Kutch)",
+            "designationYear": 2008,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -1930,6 +2030,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -2026,7 +2134,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Cold Desert",
+            "designationYear": 2009,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -2351,6 +2468,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -2471,7 +2596,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Nilgiri",
+            "designationYear": 1986,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -2602,6 +2736,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -2698,7 +2840,24 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Nilgiri",
+            "designationYear": 1986,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Agasthyamalai",
+            "designationYear": 2001,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -2822,6 +2981,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -2966,7 +3133,32 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Pachmarhi",
+            "designationYear": 1999,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Achanakmar-Amarkantak",
+            "designationYear": 2005,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Panna",
+            "designationYear": 2011,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -3534,6 +3726,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -3618,7 +3818,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Nokrek",
+            "designationYear": 1988,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -4095,6 +4304,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Statehood date used for the present state profile: 26 January 1950; Odisha province was created on 1 April 1936."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -4191,7 +4408,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Similipal",
+            "designationYear": 1994,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -4729,6 +4955,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -4795,7 +5029,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Khangchendzonga",
+            "designationYear": 2000,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -4919,6 +5162,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -5045,7 +5296,32 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Nilgiri",
+            "designationYear": 1986,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gulf of Mannar",
+            "designationYear": 1989,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Agasthyamalai",
+            "designationYear": 2001,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -5786,6 +6062,14 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -5888,7 +6172,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Nanda Devi",
+            "designationYear": 1988,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -6012,6 +6305,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Statehood date used for the present state profile: 26 January 1950."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -6108,7 +6409,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Sundarbans",
+            "designationYear": 1989,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -6232,6 +6542,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National notification list; UNESCO World Network status is tracked separately."
         }
       ],
       "lastVerifiedAt": null,
@@ -6292,7 +6610,16 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Great Nicobar",
+            "designationYear": 1989,
+            "description": "Nationally notified Biosphere Reserve. Its inclusion in UNESCO’s World Network is a separate designation.",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],

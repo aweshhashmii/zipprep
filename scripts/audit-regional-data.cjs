@@ -194,7 +194,9 @@ const report = {
     eciSeatRows: politicalRows.length,
     lgdStateRows: lgdStates.length,
     lgdDistrictRows: lgdDistricts.length,
+    regionsWithLGDDistrictDirectory: Object.keys(regionLgdCounts).length,
     lgdDistrictCounts,
+
     regionLgdCounts,
     eciSeatTotals: politicalTotals,
     census2011Rows: censusRows.length,
@@ -217,6 +219,7 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '- State/UT map features: **' + report.coverage.mapFeatures + '/36**',
     '- Source-attributed geography records: **' + report.coverage.sourceAttributedGeographyRecords + '**',
     '- ECI seat rows: **' + report.coverage.eciSeatRows + '/36**',
+    '- Current LGD districts: **' + report.coverage.lgdDistrictRows + '** across **' + report.coverage.regionsWithLGDDistrictDirectory + '/36** regions',
     '- UNESCO named properties: **' + report.coverage.unescoProperties + '**',
     '- Regions with imported district profiles: **' + report.coverage.regionsWithDistrictProfiles + '/36**',
     '',

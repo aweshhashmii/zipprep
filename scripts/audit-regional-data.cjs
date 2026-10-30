@@ -62,6 +62,15 @@ for (const row of politicalRows) {
 assert(politicalRows.length === 36, 'ECI political dataset must contain 36 rows.');
 for (const name of expectedNames) assert(politicalByName.has(name), 'Missing ECI political row: ' + name);
 
+const politicalTotals = politicalRows.reduce((sum,row) => ({
+  lokSabha: sum.lokSabha + row.lokSabhaSeats,
+  rajyaSabha: sum.rajyaSabha + row.rajyaSabhaSeats,
+  assembly: sum.assembly + row.assemblySeats
+}), {lokSabha:0,rajyaSabha:0,assembly:0});
+assert(politicalTotals.lokSabha === 543, 'ECI Lok Sabha elected-seat total must equal 543.');
+assert(politicalTotals.rajyaSabha === 233, 'ECI elected Rajya Sabha-seat total must equal 233 (nominated members excluded).');
+assert(politicalTotals.assembly === 4123, 'ECI state/UT Legislative Assembly-seat total must equal 4,123.');
+
 const heritageRows = heritageData.records || [];
 const heritageKeys = new Set();
 for (const row of heritageRows) {
@@ -104,6 +113,22 @@ if (heritageRows.length) {
   const heritageRegions = new Set(heritageRows.map(r => r.regionName)).size;
   warnings.push('UNESCO dataset currently contains ' + heritageRows.length + ' named properties across ' + heritageRegions + '/36 regions; this is not a complete heritage inventory.');
 }
+
+const censusRows = censusData.records || [];
+const censusTotals = censusRows.reduce((sum,row) => ({
+  population: sum.population + (Number(row.population)||0),
+  male: sum.male + (Number(row.male)||0),
+  female: sum.female + (Number(row.female)||0),
+  literate: sum.literate + (Number(row.literate)||0),
+  sc: sum.sc + (Number(row.sc)||0),
+  st: sum.st + (Number(row.st)||0)
+}), {population:0,male:0,female:0,literate:0,sc:0,st:0});
+assert(censusRows.length === 640, 'Census 2011 district mirror expected 640 historical district rows; review if the source edition changes.');
+assert(censusTotals.population === 1210854977, 'Census 2011 district rows do not reconcile to the official national population total.');
+assert(censusTotals.male === 623270258 && censusTotals.female === 587584719, 'Census 2011 male/female totals do not reconcile.');
+assert(censusTotals.male + censusTotals.female === censusTotals.population, 'Census 2011 sex totals do not equal total population.');
+assert(censusTotals.st === 104545716, 'Census 2011 Scheduled Tribe total does not reconcile.');
+assert(censusTotals.literate === 763638812, 'Census 2011 literate population total does not reconcile.');
 const censusVerification = censusData.source && censusData.source.verificationStatus;
 if (censusVerification !== 'officially_verified') {
   warnings.push('Census 2011 district file is not marked officially verified. Its values must remain hidden or visibly provisional until cross-checked against Census of India primary tables.');
@@ -133,6 +158,9 @@ const report = {
     sourceAttributedGeographyRecords: sourceCheckedRecords - unsourcedRecords,
     unsourcedGeographyRecords: unsourcedRecords,
     eciSeatRows: politicalRows.length,
+    eciSeatTotals: politicalTotals,
+    census2011Rows: censusRows.length,
+    census2011Aggregate: censusTotals,
     unescoProperties: heritageRows.length,
     unescoRegions: new Set(heritageRows.map(r => r.regionName)).size,
     regionsWithDistrictProfiles: districtProfileRegions

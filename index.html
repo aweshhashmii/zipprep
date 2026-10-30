@@ -608,18 +608,37 @@ function selectRegion(f,layer){
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function fetchAdmin(iso,adm){
- /* Fetch a pinned, prebuilt 36-region GeoJSON directly. This avoids the
-    geoBoundaries metadata API, which was failing on some mobile networks. */
- var urls=[
-  'https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@2884453/geojson/india.geojson',
-  'https://raw.githubusercontent.com/udit-001/india-maps-data/2884453/geojson/india.geojson'
+ /* The repository's all-india.geojson is a national outline, not a
+    collection of state boundaries. Load the documented per-state district
+    GeoJSON files and merge their district polygons into state/UT features. */
+ var slugs=[
+  'andhra-pradesh','arunachal-pradesh','assam','bihar','chhattisgarh','goa',
+  'gujarat','haryana','himachal-pradesh','jharkhand','karnataka','kerala',
+  'madhya-pradesh','maharashtra','manipur','meghalaya','mizoram','nagaland',
+  'odisha','punjab','rajasthan','sikkim','tamil-nadu','telangana','tripura',
+  'uttar-pradesh','uttarakhand','west-bengal','andaman-and-nicobar-islands',
+  'chandigarh','dnh-and-dd','delhi','jammu-and-kashmir','ladakh',
+  'lakshadweep','puducherry'
  ];
- var lastError;
- return urls.reduce(function(chain,url){
-  return chain.catch(function(){return loadGeoJSON(url).then(function(g){
-   return normalizeIndiaFeatures(g);
-  }).catch(function(e){lastError=e;throw e})});
- },Promise.reject()).catch(function(){throw lastError||Error('India boundary dataset could not be downloaded')});
+ var revision='2884453';
+ function loadOne(slug){
+  var path='geojson/states/'+slug+'.geojson';
+  var urls=[
+   'https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@'+revision+'/'+path,
+   'https://raw.githubusercontent.com/udit-001/india-maps-data/'+revision+'/'+path
+  ];
+  return loadGeoJSON(urls[0]).catch(function(){return loadGeoJSON(urls[1])});
+ }
+ return Promise.all(slugs.map(loadOne)).then(function(collections){
+  var features=[];
+  collections.forEach(function(g){
+   if(!g||!Array.isArray(g.features))throw Error('A state boundary file has an invalid GeoJSON format');
+   features=features.concat(g.features);
+  });
+  return {type:'FeatureCollection',features:features};
+ }).catch(function(e){
+  throw Error('Could not download the individual state boundary files ('+e.message+'). Check the connection and retry.');
+ });
 }
 function normalizeIndiaFeatures(g){
  if(!g||!Array.isArray(g.features))throw Error('Invalid India boundary FeatureCollection');

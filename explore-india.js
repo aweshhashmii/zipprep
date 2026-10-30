@@ -226,7 +226,7 @@ function renderGeography(name){
  var geography=record&&record.geography||{};
  var cats=[
   ['Geographical location & neighbours','location'],['Mountain ranges','mountainRanges'],['Important peaks','peaks'],['Mountain passes','passes'],['Coastal features','coastalFeatures'],['Ports','ports'],['Islands','islands'],
-  ['Major rivers','rivers'],['River basins','riverBasins'],['Lakes','lakes'],['Reservoirs','reservoirs'],['Dams & water projects','dams'],
+  ['Major rivers','rivers'],['River basins','riverBasins'],['Lakes','lakes'],['Glacial lakes','glacialLakes'],['Reservoirs','reservoirs'],['Dams & water projects','dams'],
   ['Forest and tree cover','forestCover'],['Wetlands','wetlands'],['Water bodies (First Census)','waterBodies'],['National parks','nationalParks'],['Wildlife sanctuaries','wildlifeSanctuaries'],
   ['Tiger reserves','tigerReserves'],['Biosphere reserves','biosphereReserves'],['Conservation reserves','conservationReserves'],['Community reserves','communityReserves'],['Marine protected areas','marineProtectedAreas'],['Ramsar sites','ramsarSites'],
   ['UNESCO World Heritage','unescoWorldHeritage'],['Monuments & archaeology','monuments'],['Mineral resources','minerals'],

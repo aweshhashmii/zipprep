@@ -29,6 +29,7 @@ const regionsData = read('data/explore-india-regions.json');
 const politicalData = read('data/region-political-2026.json');
 const heritageData = read('data/region-unesco-heritage-2026.json');
 const censusData = read('data/india-district-census-2011.json');
+const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
 
@@ -47,6 +48,23 @@ assert(regionSet.size === 36, 'Regional catalogue contains duplicate region name
 for (const name of expectedNames) assert(regionSet.has(name), 'Missing expected region: ' + name);
 for (const name of regionNames) assert(expectedNames.includes(name), 'Unexpected region: ' + name);
 
+
+const lgdStates = lgdData.states || [];
+const lgdDistricts = lgdData.districts || [];
+assert(lgdStates.length === 36, 'LGD snapshot must contain 36 states/UTs.');
+assert(lgdDistricts.length === 784, 'LGD snapshot district count changed; review source snapshot and update the expected count with evidence.');
+assert(new Set(lgdStates.map(x => x.lgdCode)).size === 36, 'LGD state codes must be unique.');
+assert(new Set(lgdDistricts.map(x => x.lgdCode)).size === lgdDistricts.length, 'LGD district codes must be unique.');
+for (const state of lgdStates) {
+  assert(expectedNames.some(name => normalized(name) === normalized(state.name) || (name === 'Delhi' && normalized(state.name) === 'nctofdelhi')), 'LGD contains unexpected state/UT name: ' + state.name);
+  assert(['state','union_territory'].includes(state.type), 'Invalid LGD state type: ' + state.name);
+}
+for (const district of lgdDistricts) {
+  assert(lgdStates.some(state => state.lgdCode === district.stateLgdCode), 'District has unknown LGD state code: ' + district.name + ' / ' + district.stateLgdCode);
+  assert(district.lgdCode && district.name, 'LGD district missing code or name.');
+}
+const lgdDistrictCounts = Object.fromEntries(lgdStates.map(state => [state.name, lgdDistricts.filter(d => d.stateLgdCode === state.lgdCode).length]));
+warnings.push('Current LGD district snapshot date: ' + (lgdData.source && lgdData.source.sourceDate || 'unknown') + '; verify against live LGD/DILRMP before each release.');
 const politicalRows = politicalData.records || [];
 const politicalByName = new Map();
 for (const row of politicalRows) {
@@ -158,6 +176,9 @@ const report = {
     sourceAttributedGeographyRecords: sourceCheckedRecords - unsourcedRecords,
     unsourcedGeographyRecords: unsourcedRecords,
     eciSeatRows: politicalRows.length,
+    lgdStateRows: lgdStates.length,
+    lgdDistrictRows: lgdDistricts.length,
+    lgdDistrictCounts,
     eciSeatTotals: politicalTotals,
     census2011Rows: censusRows.length,
     census2011Aggregate: censusTotals,

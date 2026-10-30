@@ -247,7 +247,7 @@ function loadDistricts(name,token){
  var status=$('focus-status');if(status)status.textContent='Loading official district polygons for '+name+'…';
  fetch(districtUrl(name)).then(function(r){if(!r.ok)throw new Error('BharatMapService returned HTTP '+r.status);return r.json()}).then(function(data){
   if(token!==currentState||!data||!Array.isArray(data.features)||!data.features.length)throw new Error('No district polygons were returned for '+name+'.');
-  renderDistrictLayer(data);renderProfile(name,data.features.length);renderGeography(name);
+  renderDistrictLayer(data);renderProfile(name,data.features.length);renderDistrictDirectory();renderGeography(name);
   if(status)status.textContent='District geometry source: Government of India BharatMapService · '+data.features.length+' features returned. Administrative and geography records are shown only when verified.';
  }).catch(function(err){
   if(token!==currentState)return;

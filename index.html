@@ -607,23 +607,23 @@ function selectRegion(f,layer){
  setTimeout(function(){loadStateDistrictMap(name);if(dash)dash.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'})},180);
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
-function geoUrl(iso,adm){return API+iso+'/'+adm+'/'}
 function fetchAdmin(iso,adm){
- /* Use the validated geoBoundaries India ADM1 layer. The former bundled
-    community file contains hand-drawn placeholder polygons, not real state
-    outlines, and must never be preferred as an atlas boundary source. */
- return fetch(geoUrl(iso,adm)).then(function(r){
-  if(!r.ok)throw Error('Boundary metadata unavailable ('+r.status+')');
-  return r.json();
- }).then(function(meta){
-  var u=meta.simplifiedGeometryGeoJSON||meta.gjDownloadURL;
-  if(!u)throw Error('geoBoundaries did not provide a GeoJSON download URL');
-  return loadGeoJSON(u).then(function(g){return normalizeIndiaFeatures(g)});
- });
+ /* Fetch a pinned, prebuilt 36-region GeoJSON directly. This avoids the
+    geoBoundaries metadata API, which was failing on some mobile networks. */
+ var urls=[
+  'https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@2884453/geojson/india.geojson',
+  'https://raw.githubusercontent.com/udit-001/india-maps-data/2884453/geojson/india.geojson'
+ ];
+ var lastError;
+ return urls.reduce(function(chain,url){
+  return chain.catch(function(){return loadGeoJSON(url).then(function(g){
+   return normalizeIndiaFeatures(g);
+  }).catch(function(e){lastError=e;throw e})});
+ },Promise.reject()).catch(function(){throw lastError||Error('India boundary dataset could not be downloaded')});
 }
 function normalizeIndiaFeatures(g){
  if(!g||!Array.isArray(g.features))throw Error('Invalid India boundary FeatureCollection');
- var aliases={'PONDICHERRY':'Puducherry','PUDUCHERRY':'Puducherry','ANDAMAN AND NICOBAR ISLANDS':'Andaman and Nicobar Islands','ANDAMAN & NICOBAR ISLANDS':'Andaman and Nicobar Islands','DADAR AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU AND KASHMIR':'Jammu and Kashmir'};
+ var aliases={'PONDICHERRY':'Puducherry','PUDUCHERRY':'Puducherry','ANDAMAN AND NICOBAR ISLANDS':'Andaman and Nicobar Islands','ANDAMAN & NICOBAR ISLANDS':'Andaman and Nicobar Islands','DADAR AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN & DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU AND KASHMIR':'Jammu and Kashmir'};
  var expected=['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal','Andaman and Nicobar Islands','Chandigarh','Dadra and Nagar Haveli and Daman and Diu','Delhi','Jammu and Kashmir','Ladakh','Lakshadweep','Puducherry'];
  var groups={};
  g.features.forEach(function(f){
@@ -640,7 +640,7 @@ function normalizeIndiaFeatures(g){
  return {type:'FeatureCollection',features:result};
 }
 
-function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=normalizeIndiaFeatures(g);g=indiaData;indiaLayer=L.geoJSON(g,{style:styleRegion,onEachFeature:function(f,l){var n=featureName(f);l.bindTooltip(safe(n),{permanent:!window.matchMedia('(max-width: 760px)').matches,direction:'center',className:'atlas-state-label',opacity:.92,interactive:false});l.options.interactive=true;l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer&&indiaLayer)indiaLayer.resetStyle(l)},click:function(){window.__zipprepRegionClickAt=Date.now();selectRegion(f,l)}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='Accurate state and Union Territory outlines loaded from geoBoundaries India ADM1 (2011 boundary vintage; CC BY 2.5 IN, sourced from DataMeet India community and Election Commission of India). Tap a region to explore. Administrative boundaries may have changed since the source vintage.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Upload indian-states.geojson beside index.html to enable the local map, then reload.';list('')})}
+function loadIndia(){if(!map)return;$('atlas-status').textContent='Loading the built-in vector atlas…';fetchAdmin('IND','ADM1').then(function(g){indiaData=normalizeIndiaFeatures(g);g=indiaData;indiaLayer=L.geoJSON(g,{style:styleRegion,onEachFeature:function(f,l){var n=featureName(f);l.bindTooltip(safe(n),{permanent:!window.matchMedia('(max-width: 760px)').matches,direction:'center',className:'atlas-state-label',opacity:.92,interactive:false});l.options.interactive=true;l.on({mouseover:function(){if(l!==selectedLayer)l.setStyle({weight:2.2,fillOpacity:.72})},mouseout:function(){if(l!==selectedLayer&&indiaLayer)indiaLayer.resetStyle(l)},click:function(){window.__zipprepRegionClickAt=Date.now();selectRegion(f,l)}})}}).addTo(map);map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-status').textContent='State and Union Territory outlines loaded from the India Maps GeoJSON collection (pinned dataset revision). Tap a region to explore. This community dataset is for educational revision, not legal boundary determination.';list('');}).catch(function(e){$('atlas-status').textContent='Could not load state boundaries: '+e.message+'. Check your connection and tap Reload to try again.';list('')})}
 function list(q){q=(q||'').trim().toLowerCase();var root=$('sl');if(!root)return;var arr=STATES.filter(function(x){return !q||(x[0]+' '+x[1]).toLowerCase().includes(q)});root.innerHTML='<div class="atlas-districts">'+arr.map(function(x){return '<button type="button" data-region="'+safe(x[0])+'"><b>'+safe(x[0])+'</b><br><small>Capital: '+safe(x[1])+'</small></button>'}).join('')+'</div>';root.querySelectorAll('[data-region]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-region');var l=null;if(indiaLayer){indiaLayer.eachLayer(function(x){if(featureName(x.feature).toLowerCase()===n.toLowerCase())l=x})}if(l)selectRegion(l.feature,l);else{activeAtlasState=n;$('atlas-region-title').textContent=n;$('atlas-region-summary').textContent='Explore '+n+' and its administrative districts.';renderAdminState(n);$('atlas-facts').innerHTML='<div class="atlas-stat"><small>Capital</small><strong>'+safe(stateCapital(n))+'</strong></div><div class="atlas-stat"><small>Region type</small><strong>State / UT</strong></div><div class="atlas-stat"><small>Detail status</small><strong>Loading district atlas</strong></div>';$('wb-dashboard').hidden=false;$('wb-dashboard').querySelector('h2').textContent=n+' — State & District Atlas';setTimeout(function(){renderGenericStateFacts(n);loadStateDistrictMap(n);$('wb-dashboard').scrollIntoView({behavior:'smooth',block:'start'})},100);}})})}
 $('atlas-search').addEventListener('input',function(e){list(e.target.value)});
 $('atlas-reset').addEventListener('click',function(){$('wb-dashboard').hidden=true;if(map&&indiaLayer)map.fitBounds(indiaLayer.getBounds(),{padding:[10,10]});$('atlas-region-title').textContent='Explore a region';$('atlas-region-summary').textContent='Tap a state or union territory to view its profile.'});

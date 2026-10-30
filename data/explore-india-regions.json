@@ -103,6 +103,12 @@
       "url": "https://ntca.gov.in/tiger-reserves/",
       "referenceDate": "2026-10-30",
       "note": "Official state-wise list of notified tiger reserves; reserve names reflect the NTCA list accessed 30 October 2026."
+    },
+    {
+      "id": "incredibleIndiaRivers",
+      "name": "Incredible India — Rivers of India",
+      "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html",
+      "note": "Selected major rivers associated with each region; several rivers cross state boundaries and are not wholly contained within the named region."
     }
   ],
   "regions": [
@@ -189,7 +195,44 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Godavari",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Krishna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Pennar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tungabhadra",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Vamsadhara",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Nagavali",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -345,7 +388,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Siang (upper Brahmaputra)",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Subansiri",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Lohit",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Dibang",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Kameng",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -499,7 +573,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Brahmaputra",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Barak",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Manas",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Subansiri",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Dhansiri",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -659,7 +764,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Ganga",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Kosi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Gandak",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Son",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Bagmati",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -808,7 +944,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Mahanadi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Indravati",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Hasdeo",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Shivnath",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -982,7 +1143,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Mandovi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Zuari",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Terekhol",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Chapora",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -1145,7 +1331,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Narmada",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tapi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Sabarmati",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Mahi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -1301,7 +1512,26 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Yamuna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ghaggar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Markanda",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -1450,7 +1680,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Sutlej",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Beas",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ravi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Chenab",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Spiti",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -1599,7 +1860,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Damodar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Subarnarekha",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "North Koel",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Barakar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -1748,7 +2034,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Kaveri",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Krishna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tungabhadra",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Sharavathi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Kali",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -1928,7 +2245,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Periyar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Bharathapuzha",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Pamba",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Chaliyar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -2083,7 +2425,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Narmada",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Chambal",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Betwa",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Son",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tapti",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -2280,7 +2653,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Godavari",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Krishna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tapi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Bhima",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Wardha",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -2466,7 +2870,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Barak",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Imphal",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Thoubal",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ir​​il",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -2608,7 +3037,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Umngot",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Simsang",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Myntdu",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Umiam",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -2748,7 +3202,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Tlawng",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tuirial",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Chhimtuipui (Kaladan)",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tuivawl",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -2890,7 +3369,26 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Doyang",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Dikhu",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Dhansiri",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3030,7 +3528,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Mahanadi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Brahmani",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Baitarani",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Subarnarekha",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Rushikulya",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3185,7 +3714,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Sutlej",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Beas",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ravi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ghaggar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3327,7 +3881,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Chambal",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Banas",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Luni",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Mahi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3500,7 +4079,20 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Teesta",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Rangeet",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3649,7 +4241,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Kaveri",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Vaigai",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Palar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tamiraparani",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3822,7 +4439,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Godavari",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Krishna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Musi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Manjira",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -3968,7 +4610,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Gomati",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Manu",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Khowai",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Feni",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -4110,7 +4777,44 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Ganga",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Yamuna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ghaghara",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Gomti",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Rapti",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Betwa",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -4271,7 +4975,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Ganga",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Yamuna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Alaknanda",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Bhagirathi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ramganga",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -4426,7 +5161,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Ganga-Hooghly",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Teesta",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Damodar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Mahananda",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -4581,7 +5341,14 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Short island streams; no major mainland river system",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -4713,7 +5480,14 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Seasonal Sukhna choe and local seasonal drainage; no major river",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [],
@@ -4843,7 +5617,20 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Damanganga",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Kolak",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [],
@@ -4950,7 +5737,14 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Yamuna",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [],
@@ -5079,7 +5873,38 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Jhelum",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Chenab",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Ravi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Tawi",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Indus",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -5284,7 +6109,32 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Indus",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Zanskar",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Shyok",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Sur​​u",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [
@@ -5411,7 +6261,14 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "No major perennial river system; short island drainage",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [],
@@ -5532,7 +6389,26 @@
         "mountainRanges": [],
         "peaks": [],
         "passes": [],
-        "rivers": [],
+        "rivers": [
+          {
+            "name": "Gingee",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Sankaraparani",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          },
+          {
+            "name": "Pennaiyar (South Pennar)",
+            "description": "Major river or drainage system associated with this State/UT; some are transboundary.",
+            "sourceId": "incredibleIndiaRivers",
+            "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
+          }
+        ],
         "riverBasins": [],
         "lakes": [],
         "dams": [],

@@ -128,17 +128,24 @@ function renderDistrictDirectory(){
 function selectDistrict(name,layer){
  if(selectedDistrictLayer&&districtLayer)districtLayer.resetStyle(selectedDistrictLayer);
  selectedDistrictLayer=layer;layer.setStyle({color:'#fff',weight:2.8,fillColor:'#ffd24a',fillOpacity:.78});
- var bounds=layer.getBounds();if(bounds&&bounds.isValid())focusMap.flyToBounds(bounds,{padding:[25,25],maxZoom:9,duration:reduced?0:.75});
+ var bounds=layer.getBounds();if(bounds&&bounds.isValid())focusMap.flyToBounds(bounds,{padding:[25,25],maxZoom:9,animate:!reduced,duration:.75});
+ var region=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===currentState});
+ var records=region&&region.districts&&region.districts.records||[];
+ var record=records.find(function(r){return r.name===name||r.id===name})||{};
+ var value=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
+ var pop=record.population&&record.population.value!==undefined?String(record.population.value)+(record.population.referenceYear?' (Census '+record.population.referenceYear+')':''): 'Not loaded — use a dated Census reference';
  var profile=$('district-selected-profile');
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+
- stat('District headquarters','Verification pending','Official district administration portal')+
- stat('Area','Verification pending','Official district statistical handbook')+
- stat('Population','Not loaded — Census 2011 reference required','Census of India; no current population estimate shown')+
- stat('Subdivisions / blocks','Verification pending','District administration / state government')+
- stat('Rivers and protected areas','Verification pending','Official state geography and forest department')+
- '</div><p class="atlas-data-pending">Only the district boundary and name have been loaded. Other district facts are intentionally withheld until a source record is connected.</p>';
+ stat('District headquarters',value(record.headquarters),'Official district administration portal · source record pending')+
+ stat('Area',value(record.areaSqKm)==='Verification pending'?'Verification pending':value(record.areaSqKm)+' km²','Official district statistical handbook')+
+ stat('Population',pop,'Census of India · year must be shown')+
+ stat('Subdivisions',Array.isArray(record.subdivisions)&&record.subdivisions.length?record.subdivisions.join(', '):'Verification pending','District administration / state government')+
+ stat('Blocks',Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'Verification pending','District administration / Ministry of Panchayati Raj')+
+ stat('Major rivers',Array.isArray(record.majorRivers)&&record.majorRivers.length?record.majorRivers.join(', '):'Verification pending','Official hydrography / state water resources department')+
+ '</div><h3>History & culture</h3><p class="atlas-data-pending">'+textSafe(record.historicalSignificance||'Historical information not yet verified.')+'</p><p class="atlas-data-pending">'+textSafe(Array.isArray(record.culturalHighlights)&&record.culturalHighlights.length?record.culturalHighlights.join(', '):'Cultural highlights not yet verified.')+'</p><p class="atlas-data-pending">Only the district boundary and name are currently loaded. Other facts are withheld until a source record is connected.</p>';
  var root=$('district-directory');if(root)root.querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',String(b.textContent===name))});
 }
+
 function renderProfile(name,count){
  var root=$('panel-profile');if(!root)return;
  var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});

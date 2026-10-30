@@ -102,6 +102,7 @@ for (const region of regions) {
 }
 
 warnings.push('Current LGD district snapshot date: ' + (lgdData.source && lgdData.source.sourceDate || 'unknown') + '; verify against live LGD/DILRMP before each release.');
+if (districtProfileRows.length < lgdDistricts.length) warnings.push((lgdDistricts.length - districtProfileRows.length) + ' current LGD districts still lack an imported district profile record; directory presence does not imply a complete district profile.');
 const politicalRows = politicalData.records || [];
 const politicalByName = new Map();
 for (const row of politicalRows) {
@@ -243,7 +244,7 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '- Source-attributed geography records: **' + report.coverage.sourceAttributedGeographyRecords + '**',
     '- ECI seat rows: **' + report.coverage.eciSeatRows + '/36**',
     '- Current LGD districts: **' + report.coverage.lgdDistrictRows + '** across **' + report.coverage.regionsWithLGDDistrictDirectory + '/36** regions',
-    '- Individually sourced district profiles: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with verified fields)
+    '- District profile records: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with at least one verified field)
     '- UNESCO named properties: **' + report.coverage.unescoProperties + '**',
     '- Regions with imported district profiles: **' + report.coverage.regionsWithDistrictProfiles + '/36**',
     '',

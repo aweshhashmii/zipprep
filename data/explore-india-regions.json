@@ -352,6 +352,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -490,6 +498,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Kolleru Lake",
+            "designationDate": "2002-08-19",
+            "areaHectares": 90100,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -977,6 +994,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -1129,6 +1154,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Deepor Beel",
+            "designationDate": "2002-08-19",
+            "areaHectares": 4000,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -1273,6 +1307,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -1390,6 +1432,60 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 6
+          },
+          {
+            "name": "Kabartal Wetland",
+            "designationDate": "2020-07-21",
+            "areaHectares": 2620,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Nagi Bird Sanctuary",
+            "designationDate": "2023-10-11",
+            "areaHectares": 205.817,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Nakti Bird Sanctuary",
+            "designationDate": "2023-10-11",
+            "areaHectares": 332.608,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Gokul Jalashay",
+            "designationDate": "2025-05-13",
+            "areaHectares": 448,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Udaipur Jheel",
+            "designationDate": "2025-05-13",
+            "areaHectares": 319,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Gogabil Lake",
+            "designationDate": "2025-05-13",
+            "areaHectares": 86.63,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -1542,6 +1638,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -1680,6 +1784,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Kopra Jalashay",
+            "designationDate": "2025-08-08",
+            "areaHectares": 210,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -1831,6 +1944,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -1930,6 +2051,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Nanda Lake",
+            "designationDate": "2022-06-08",
+            "areaHectares": 42,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -2235,7 +2365,43 @@
             "sourceId": "moefccRamsar2026",
             "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
             "referenceDate": "2026-01-30",
-            "description": "Wetland of International Importance designated under the Ramsar Convention."
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Nalsarovar",
+            "designationDate": "2012-09-24",
+            "areaHectares": 12000,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Wadhvana Wetland",
+            "designationDate": "2021-04-05",
+            "areaHectares": 630,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Thol Lake Wildlife Sanctuary",
+            "designationDate": "2021-04-05",
+            "areaHectares": 699,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Khijadia Wildlife Sanctuary",
+            "designationDate": "2021-04-13",
+            "areaHectares": 512,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -2387,6 +2553,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -2486,6 +2660,24 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 2
+          },
+          {
+            "name": "Sultanpur National Park",
+            "designationDate": "2021-05-25",
+            "areaHectares": 143,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Bhindawas Wildlife Sanctuary",
+            "designationDate": "2021-05-25",
+            "areaHectares": 412,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -2638,6 +2830,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -2770,6 +2970,33 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 3
+          },
+          {
+            "name": "Pong Dam Lake",
+            "designationDate": "2002-08-19",
+            "areaHectares": 15662,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Chandertal Wetland",
+            "designationDate": "2005-11-08",
+            "areaHectares": 49,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Renuka Wetland",
+            "designationDate": "2005-11-08",
+            "areaHectares": 20,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -2928,6 +3155,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -3039,6 +3274,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Udhwa Lake Bird Sanctuary",
+            "designationDate": "2024-01-08",
+            "areaHectares": 935.5,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -3197,6 +3441,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -3353,6 +3605,42 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 4
+          },
+          {
+            "name": "Ranganathittu Bird Sanctuary",
+            "designationDate": "2022-02-15",
+            "areaHectares": 518,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Ankasamudra Bird Conservation Reserve",
+            "designationDate": "2023-03-10",
+            "areaHectares": 98.76,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Aghanashini Estuary",
+            "designationDate": "2023-02-14",
+            "areaHectares": 4801,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Magadi Kere Conservation Reserve",
+            "designationDate": "2023-02-14",
+            "areaHectares": 54.38,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -3518,6 +3806,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -3658,6 +3954,33 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 3
+          },
+          {
+            "name": "Ashtamudi Wetland",
+            "designationDate": "2002-08-19",
+            "areaHectares": 6140,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sasthamkotta Lake",
+            "designationDate": "2002-08-19",
+            "areaHectares": 373,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Vembanad-Kol Wetland",
+            "designationDate": "2002-08-19",
+            "areaHectares": 151250,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -3816,6 +4139,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -4012,6 +4343,51 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 5
+          },
+          {
+            "name": "Bhoj Wetlands",
+            "designationDate": "2002-08-19",
+            "areaHectares": 3201,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sirpur Wetland",
+            "designationDate": "2022-01-07",
+            "areaHectares": 161,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sakhya Sagar",
+            "designationDate": "2022-01-07",
+            "areaHectares": 248,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Yashwant Sagar",
+            "designationDate": "2022-01-07",
+            "areaHectares": 823,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Tawa Reservoir",
+            "designationDate": "2024-01-08",
+            "areaHectares": 20050,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -4162,6 +4538,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -4315,6 +4699,33 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 3
+          },
+          {
+            "name": "Nandur Madhameshwar",
+            "designationDate": "2019-06-21",
+            "areaHectares": 1437,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Lonar Lake",
+            "designationDate": "2020-07-22",
+            "areaHectares": 427,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Thane Creek",
+            "designationDate": "2022-04-13",
+            "areaHectares": 6521,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -4466,6 +4877,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -4577,6 +4996,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Loktak Lake",
+            "designationDate": "1990-03-23",
+            "areaHectares": 26600,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -4978,6 +5406,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -5077,6 +5513,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Pala Wetland",
+            "designationDate": "2021-08-31",
+            "areaHectares": 1850,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -5461,6 +5906,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -5593,6 +6046,60 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 6
+          },
+          {
+            "name": "Chilika Lake",
+            "designationDate": "1981-10-01",
+            "areaHectares": 116500,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Bhitarkanika Mangroves",
+            "designationDate": "2002-08-19",
+            "areaHectares": 65000,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Satkosia Gorge",
+            "designationDate": "2021-10-12",
+            "areaHectares": 98197,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Tampara Lake",
+            "designationDate": "2021-10-12",
+            "areaHectares": 300,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Hirakud Reservoir",
+            "designationDate": "2021-10-12",
+            "areaHectares": 65400,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Ansupa Lake",
+            "designationDate": "2021-10-12",
+            "areaHectares": 231,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -5743,6 +6250,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -5842,6 +6357,60 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 6
+          },
+          {
+            "name": "Harike Lake",
+            "designationDate": "1990-03-23",
+            "areaHectares": 4100,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Kanjli Lake",
+            "designationDate": "2002-01-22",
+            "areaHectares": 183,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Ropar Lake",
+            "designationDate": "2002-01-22",
+            "areaHectares": 1365,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Beas Conservation Reserve",
+            "designationDate": "2019-09-26",
+            "areaHectares": 6429,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Keshopur-Miani Community Reserve",
+            "designationDate": "2019-09-26",
+            "areaHectares": 344,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Nangal Wildlife Sanctuary",
+            "designationDate": "2019-09-26",
+            "areaHectares": 116,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -5985,6 +6554,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -6120,6 +6697,51 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 5
+          },
+          {
+            "name": "Keoladeo Ghana National Park",
+            "designationDate": "1981-10-01",
+            "areaHectares": 2873,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sambhar Lake",
+            "designationDate": "1990-03-23",
+            "areaHectares": 24000,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Menar Wetland Complex",
+            "designationDate": "2025-02-19",
+            "areaHectares": 463.413,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Khichan Wetland",
+            "designationDate": "2025-02-19",
+            "areaHectares": 54.187,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Siliserh Lake",
+            "designationDate": "2025-07-07",
+            "areaHectares": 315.97,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -6282,6 +6904,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -6384,6 +7014,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Khecheopalri Wetland",
+            "designationDate": "2024-07-15",
+            "areaHectares": 172,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -6543,6 +7182,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -6721,6 +7368,186 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 20
+          },
+          {
+            "name": "Point Calimere Wildlife and Bird Sanctuary",
+            "designationDate": "2002-08-19",
+            "areaHectares": 38500,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Koonthankulam Bird Sanctuary",
+            "designationDate": "2021-11-08",
+            "areaHectares": 72,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Chitrangudi Bird Sanctuary",
+            "designationDate": "2021-11-08",
+            "areaHectares": 260,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Karikili Bird Sanctuary",
+            "designationDate": "2022-04-08",
+            "areaHectares": 58,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Pichavaram Mangrove",
+            "designationDate": "2022-04-08",
+            "areaHectares": 1479,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Pallikaranai Marsh Reserve Forest",
+            "designationDate": "2022-04-08",
+            "areaHectares": 1248,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Gulf of Mannar Marine Biosphere Reserve",
+            "designationDate": "2022-04-08",
+            "areaHectares": 52672,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Vembannur Wetland Complex",
+            "designationDate": "2022-04-08",
+            "areaHectares": 20,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Vellode Bird Sanctuary",
+            "designationDate": "2022-04-08",
+            "areaHectares": 77,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Udhayamarthandapuram Bird Sanctuary",
+            "designationDate": "2022-04-08",
+            "areaHectares": 44,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Vedanthangal Bird Sanctuary",
+            "designationDate": "2022-04-08",
+            "areaHectares": 40,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Suchindram Theroor Wetland Complex",
+            "designationDate": "2022-04-08",
+            "areaHectares": 94,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Vaduvur Bird Sanctuary",
+            "designationDate": "2022-04-08",
+            "areaHectares": 113,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Kanjirankulam Bird Sanctuary",
+            "designationDate": "2022-04-08",
+            "areaHectares": 97,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Karivetti Bird Sanctuary",
+            "designationDate": "2023-05-24",
+            "areaHectares": 453.72,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Longwood Shola Reserve Forest",
+            "designationDate": "2023-05-24",
+            "areaHectares": 116.007,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Kazhuveli Bird Sanctuary",
+            "designationDate": "2024-01-16",
+            "areaHectares": 5151.6,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Nanjarayan Bird Sanctuary",
+            "designationDate": "2024-01-16",
+            "areaHectares": 125.865,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sakkarakottai Bird Sanctuary",
+            "designationDate": "2024-07-15",
+            "areaHectares": 230.495,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Therthangal Bird Sanctuary",
+            "designationDate": "2024-07-15",
+            "areaHectares": 29.295,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -7118,6 +7945,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -7235,6 +8070,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Rudrasagar Lake",
+            "designationDate": "2005-11-08",
+            "areaHectares": 240,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -7559,7 +8403,7 @@
             "sourceId": "moefccRamsar2026",
             "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
             "referenceDate": "2026-01-30",
-            "description": "Wetland of International Importance designated under the Ramsar Convention."
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           },
           {
             "name": "Shekha (Sheikha) Jheel Bird Sanctuary",
@@ -7572,6 +8416,96 @@
             "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
             "referenceDate": "2026-01-30",
             "description": "Wetland of International Importance designated under the Ramsar Convention."
+          },
+          {
+            "name": "Upper Ganga River",
+            "designationDate": "2005-11-08",
+            "areaHectares": 26590,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Nawabganj Bird Sanctuary",
+            "designationDate": "2019-09-19",
+            "areaHectares": 225,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Parvati Arga Bird Sanctuary",
+            "designationDate": "2019-12-02",
+            "areaHectares": 722,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Saman Bird Sanctuary",
+            "designationDate": "2019-12-02",
+            "areaHectares": 526,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Samaspur Bird Sanctuary",
+            "designationDate": "2019-10-03",
+            "areaHectares": 799,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sandi Bird Sanctuary",
+            "designationDate": "2019-09-26",
+            "areaHectares": 309,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sarsai Nawar Jheel",
+            "designationDate": "2019-09-19",
+            "areaHectares": 161,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sur Sarovar",
+            "designationDate": "2020-08-21",
+            "areaHectares": 431,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Haiderpur Wetland",
+            "designationDate": "2021-04-13",
+            "areaHectares": 6908,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Bakhira Wildlife Sanctuary",
+            "designationDate": "2021-06-29",
+            "areaHectares": 2894,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -7724,6 +8658,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -7862,6 +8804,15 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 1
+          },
+          {
+            "name": "Asan Conservation Reserve",
+            "designationDate": "2020-07-21",
+            "areaHectares": 444,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -8032,6 +8983,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -8164,6 +9123,24 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 2
+          },
+          {
+            "name": "East Kolkata Wetlands",
+            "designationDate": "2002-08-19",
+            "areaHectares": 12500,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Sundarban Wetland",
+            "designationDate": "2019-01-30",
+            "areaHectares": 423000,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -9193,6 +10170,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": null,
@@ -9316,6 +10301,51 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 5
+          },
+          {
+            "name": "Wular Lake",
+            "designationDate": "1990-03-23",
+            "areaHectares": 18900,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Surinsar-Mansar Lakes",
+            "designationDate": "2005-11-08",
+            "areaHectares": 350,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Hokera Wetland",
+            "designationDate": "2005-11-08",
+            "areaHectares": 1375,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Hygam Wetland Conservation Reserve",
+            "designationDate": "2022-06-08",
+            "areaHectares": 802,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Shallbugh Wetland Conservation Reserve",
+            "designationDate": "2022-06-08",
+            "areaHectares": 1675,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],
@@ -9471,6 +10501,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -9643,6 +10681,24 @@
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 2
+          },
+          {
+            "name": "Tso Kar Wetland Complex",
+            "designationDate": "2020-11-17",
+            "areaHectares": 9577,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
+          },
+          {
+            "name": "Tsomoriri Lake",
+            "designationDate": "2002-08-19",
+            "areaHectares": 12000,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance; designation date and area from the Ministry of Environment, Forest and Climate Change register."
           }
         ],
         "unescoWorldHeritage": [],

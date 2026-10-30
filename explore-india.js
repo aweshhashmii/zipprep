@@ -257,7 +257,7 @@ function loadDistricts(name,token){
   if(token!==currentState)return;
   if(status)status.innerHTML='District boundaries could not be loaded: '+textSafe(err.message)+'. <button class="atlas-focus-retry" id="focus-retry" type="button">Retry</button>';
   var retry=$('focus-retry');if(retry)retry.addEventListener('click',function(){loadDistricts(name,token)});
-  renderProfile(name,0);renderGeography(name);
+  renderProfile(name,null);renderGeography(name);
  });
 }
 function selectRegion(feature,layer){

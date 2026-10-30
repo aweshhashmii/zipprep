@@ -155,6 +155,31 @@
       "url": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
       "referenceDate": "2026-03-19",
       "note": "Secondary compilation used as a cross-check; language lists that require legal qualification are not interpreted as implying identical official status for every listed language."
+    },
+    {
+      "id": "ladakhOfficialLanguagesRegulation2025",
+      "name": "The Ladakh Official Languages Regulation, 2025 — Gazette of India",
+      "url": "https://egazette.gov.in/WriteReadData/2025/263538.pdf",
+      "referenceDate": "2025-06-02"
+    },
+    {
+      "id": "mhaJkLadakhLanguages",
+      "name": "Ministry of Home Affairs — Jammu & Kashmir and Ladakh Affairs Division",
+      "url": "https://www.mha.gov.in/jammu-kashmir-ladakh-affairs",
+      "referenceDate": "2025-09-05"
+    },
+    {
+      "id": "moefccProtectedAreas",
+      "name": "Ministry of Environment, Forest and Climate Change — Wildlife / Protected Areas",
+      "url": "https://moef.gov.in/wildlife-wl",
+      "note": "Current aggregate PA network figure on ministry page; state-wise named records should be imported from the National Wildlife Database and Gazette notifications, not inferred from this national total."
+    },
+    {
+      "id": "wiiMEE2025",
+      "name": "Wildlife Institute of India — Management Effectiveness Evaluation reports",
+      "url": "https://www.wii.gov.in/mee-reports",
+      "referenceDate": "2025-08-05",
+      "note": "WII national aggregate reporting for national parks, wildlife sanctuaries, tiger reserves and coastal/marine protected areas; not a complete state-wise name register."
     }
   ],
   "regions": [
@@ -7697,8 +7722,8 @@
       "formationDate": "2019-10-31",
       "areaSqKm": 59146,
       "officialLanguages": [
-        "Hindi",
         "English",
+        "Hindi",
         "Urdu",
         "Bhoti",
         "Purgi"
@@ -7783,10 +7808,10 @@
         },
         {
           "field": "officialLanguages",
-          "sourceId": "officialLanguagesCrossCheck2026",
-          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "sourceId": "ladakhOfficialLanguagesRegulation2025",
+          "sourceUrl": "https://egazette.gov.in/WriteReadData/2025/263538.pdf",
           "lastVerifiedAt": "2026-10-30",
-          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+          "note": "Section 3 specifies English, Hindi, Urdu, Bhoti and Purgi as official languages, effective from a date appointed by notification. MHA lists the same five languages."
         }
       ],
       "lastVerifiedAt": "2026-10-30",

@@ -11,10 +11,7 @@ var ALIASES={
 'ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU & KASHMIR':'Jammu and Kashmir','JAMMU AND KASHMIR':'Jammu and Kashmir',
 'JAMMU AND KASHMIR (UT)':'Jammu and Kashmir','LADAKH (UT)':'Ladakh'
 };
-var CAPITALS={
-'Andhra Pradesh':'Amaravati','Arunachal Pradesh':'Itanagar','Assam':'Dispur','Bihar':'Patna','Chhattisgarh':'Raipur','Goa':'Panaji','Gujarat':'Gandhinagar','Haryana':'Chandigarh','Himachal Pradesh':'Shimla','Jharkhand':'Ranchi','Karnataka':'Bengaluru','Kerala':'Thiruvananthapuram','Madhya Pradesh':'Bhopal','Maharashtra':'Mumbai','Manipur':'Imphal','Meghalaya':'Shillong','Mizoram':'Aizawl','Nagaland':'Kohima','Odisha':'Bhubaneswar','Punjab':'Chandigarh','Rajasthan':'Jaipur','Sikkim':'Gangtok','Tamil Nadu':'Chennai','Telangana':'Hyderabad','Tripura':'Agartala','Uttar Pradesh':'Lucknow','Uttarakhand':'Dehradun','West Bengal':'Kolkata',
-'Andaman and Nicobar Islands':'Sri Vijaya Puram','Chandigarh':'Chandigarh','Dadra and Nagar Haveli and Daman and Diu':'Daman','Delhi':'New Delhi','Jammu and Kashmir':'Srinagar (summer), Jammu (winter)','Ladakh':'Leh','Lakshadweep':'Kavaratti','Puducherry':'Puducherry'
-};
+var regionCatalog=null,regionCatalogPromise=null;
 var SOURCE_LINKS=[
 ['Election Commission of India','https://eci.gov.in/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
@@ -41,6 +38,11 @@ function validateIndia(data){
 function textSafe(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function stat(label,value,source){
  return '<div class="atlas-profile-stat"><small>'+textSafe(label)+'</small><strong>'+textSafe(value||'Verification pending')+'</strong><em>'+textSafe(source||'No verified source record attached')+'</em></div>';
+}
+function loadRegionCatalog(){
+ if(regionCatalog)return Promise.resolve(regionCatalog);
+ if(!regionCatalogPromise)regionCatalogPromise=fetch('./data/explore-india-regions.json').then(function(r){if(!r.ok)throw Error('Region catalogue HTTP '+r.status);return r.json()}).then(function(data){if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');regionCatalog=data;return data}).catch(function(e){regionCatalogPromise=null;throw e});
+ return regionCatalogPromise;
 }
 function sourceLinks(){
  return '<div class="atlas-data-sources">'+SOURCE_LINKS.map(function(s){return '<a href="'+s[1]+'" target="_blank" rel="noopener noreferrer">'+textSafe(s[0])+'</a>'}).join('')+'</div>';
@@ -139,10 +141,11 @@ function selectDistrict(name,layer){
 }
 function renderProfile(name,count){
  var root=$('panel-profile');if(!root)return;
+ var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
  root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Other changing figures remain marked pending until an official source record is imported.</p>'+
  '<div class="atlas-profile-grid">'+
- stat('Official capital',CAPITALS[name]||'Verification pending','Know India / relevant state or UT government portal · reverify on update')+
- stat('Region type',EXPECTED.indexOf(name)<28?'State':'Union Territory','Government of India administrative structure')+
+ stat('Official capital',record&&record.capital||'Verification pending','Relevant state / UT government portal · source record pending')+
+ stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Verification pending','Government of India administrative structure')+
  stat('Districts in loaded boundary service',count,'BharatMapService district polygons · current response')+
  stat('Chief Minister / administrator','Verification pending','Relevant state/UT government portal · last verified: pending')+
  stat('Governor / Lieutenant Governor','Verification pending','President of India / relevant Raj Bhavan or UT administration')+
@@ -189,7 +192,7 @@ function selectRegion(feature,layer){
  try{initFocusMap();drawState(feature)}catch(e){$('focus-status').textContent=e.message;return true;}
  switchTab('profile');
  var wrap=$('focus-map-wrap');if(wrap&&!reduced){wrap.classList.remove('is-extracting');void wrap.offsetWidth;wrap.classList.add('is-extracting')}
- loadDistricts(name,name);
+ loadRegionCatalog().catch(function(){return null}).then(function(){if(currentState===name)loadDistricts(name,name)});
  return true;
 }
 window.ZipPrepExploreIndia={

@@ -36,37 +36,53 @@
       "cadence": "Review after delimitation, reorganisation or ECI updates"
     },
     {
-      "id": "lgd",
-      "name": "Ministry of Panchayati Raj — Local Government Directory",
+      "id": "lgdDistricts",
+      "name": "Ministry of Panchayati Raj — Local Government Directory (districts)",
       "url": "https://lgdirectory.gov.in/",
+      "catalogUrl": "https://data.gov.in/resource/local-government-directory-lgd-districts",
+      "secondaryMirror": "https://india-lgd-index-api.vercel.app/docs",
       "tabs": [
         "profile"
       ],
       "fields": [
-        "Current districts",
-        "Sub-districts",
-        "Blocks",
-        "Panchayats",
-        "Local bodies"
+        "Current district names",
+        "LGD district codes",
+        "State/UT mapping"
       ],
-      "cadence": "Monthly/current directory snapshot"
+      "cadence": "Monthly snapshot; preserve source date and LGD code"
     },
     {
-      "id": "censusIndia",
-      "name": "Census of India — Population Finder",
-      "url": "https://censusindia.gov.in/census.website/en/data/population-finder",
+      "id": "dilrmpDistrictList",
+      "name": "Department of Land Resources — DILRMP District List",
+      "url": "https://dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
       "tabs": [
         "profile"
       ],
       "fields": [
-        "Population",
+        "District names",
+        "District LGD codes",
+        "State/UT mapping"
+      ],
+      "cadence": "Use dashboard report date; reconcile with LGD monthly snapshot"
+    },
+    {
+      "id": "censusPcaSd2011",
+      "name": "Office of the Registrar General & Census Commissioner — PCA SD 2011",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/6191",
+      "downloadUrl": "https://censusindia.gov.in/nada/index.php/catalog/6191/download/9268/DDW_PCA0000_2011_Indiastatedist.xlsx",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "District population",
+        "Male/female population",
         "Literacy",
         "Sex ratio",
         "SC/ST population",
         "Workers",
         "Households"
       ],
-      "cadence": "Census reference year; retain historical labels"
+      "cadence": "Historical Census 2011 reference; do not relabel as current data"
     },
     {
       "id": "fsiIsfr",

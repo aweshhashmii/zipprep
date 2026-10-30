@@ -215,6 +215,13 @@
       "url": "https://www.ramsar.org/country-profile/india",
       "referenceDate": "2026-10-15",
       "note": "Country profile reports 103 Indian Ramsar Sites; latest additions and site numbers confirmed by Secretariat notices. Designation date and Indian announcement date are separate fields."
+    },
+    {
+      "id": "moefccRamsar2026",
+      "name": "MoEFCC — Ramsar Sites of India (as on 30 January 2026)",
+      "url": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+      "referenceDate": "2026-01-30",
+      "note": "Official Ministry table includes site name, state/UT, designation date, area and date/year of declaration."
     }
   ],
   "regions": [
@@ -2089,6 +2096,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC official Ramsar list as of 30 January 2026; later 2026 additions are recorded separately from Ramsar Secretariat notices."
         }
       ],
       "lastVerifiedAt": null,
@@ -2204,11 +2219,23 @@
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
-            "description": "5 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "description": "5 designated site(s); state/UT total from the national Ramsar register, including individual site records where imported.",
             "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
             "count": 5
+          },
+          {
+            "name": "Chhari Dhand",
+            "district": "Kachchh",
+            "designationDate": "2025-06-16",
+            "announcementDate": "2026-01-30",
+            "areaHectares": 22700,
+            "ramsarSiteNumber": 2588,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
           }
         ],
         "unescoWorldHeritage": [],
@@ -7360,6 +7387,14 @@
           "referenceDate": "2026-10-15",
           "lastVerifiedAt": "2026-10-30",
           "note": "Ramsar Secretariat country profile confirms 103 sites nationally; latest four records cross-checked against Ramsar Secretariat and PIB announcements. Official designation date is distinct from India's announcement date."
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "moefccRamsar2026",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+          "referenceDate": "2026-01-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "MoEFCC official Ramsar list as of 30 January 2026; later 2026 additions are recorded separately from Ramsar Secretariat notices."
         }
       ],
       "lastVerifiedAt": null,
@@ -7484,7 +7519,7 @@
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
-            "description": "14 designated site(s) in the state/UT; state tally is a count, while individual site records are listed separately.",
+            "description": "14 designated site(s); state/UT total from the national Ramsar register, including individual site records where imported.",
             "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
             "sourceId": "tnswaRamsar2026",
             "referenceDate": "2026-10-21",
@@ -7512,6 +7547,30 @@
             "sourceId": "ramsarSecretariat2026",
             "sourceUrl": "https://www.ramsar.org/country-profile/india",
             "referenceDate": "2026-10-15",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
+          },
+          {
+            "name": "Patna Bird Sanctuary",
+            "district": "Etah",
+            "designationDate": "2025-12-04",
+            "announcementDate": "2026-01-30",
+            "areaHectares": 108.86,
+            "ramsarSiteNumber": 2589,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
+            "description": "Wetland of International Importance designated under the Ramsar Convention."
+          },
+          {
+            "name": "Shekha (Sheikha) Jheel Bird Sanctuary",
+            "district": "Aligarh",
+            "designationDate": "2026-01-19",
+            "announcementDate": "2026-04-21",
+            "areaHectares": 40.31,
+            "ramsarSiteNumber": 2594,
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-01-30",
             "description": "Wetland of International Importance designated under the Ramsar Convention."
           }
         ],

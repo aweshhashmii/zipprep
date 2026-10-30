@@ -52,11 +52,13 @@ for (const name of regionNames) assert(expectedNames.includes(name), 'Unexpected
 const lgdStates = lgdData.states || [];
 const lgdDistricts = lgdData.districts || [];
 assert(lgdStates.length === 36, 'LGD snapshot must contain 36 states/UTs.');
+assert(lgdStates.filter(x => x.type === 'state').length === 28, 'LGD snapshot must contain 28 states.');
+assert(lgdStates.filter(x => x.type === 'union_territory').length === 8, 'LGD snapshot must contain 8 Union Territories.');
 assert(lgdDistricts.length === 784, 'LGD snapshot district count changed; review source snapshot and update the expected count with evidence.');
 assert(new Set(lgdStates.map(x => x.lgdCode)).size === 36, 'LGD state codes must be unique.');
 assert(new Set(lgdDistricts.map(x => x.lgdCode)).size === lgdDistricts.length, 'LGD district codes must be unique.');
 for (const state of lgdStates) {
-  assert(expectedNames.some(name => normalized(name) === normalized(state.name) || (name === 'Delhi' && normalized(state.name) === 'nctofdelhi')), 'LGD contains unexpected state/UT name: ' + state.name);
+  assert(expectedNames.some(name => normalized(name) === normalized(state.name) || (name === 'Delhi' && normalized(state.name) === 'nctofdelhi') || (name === 'Dadra and Nagar Haveli and Daman and Diu' && normalized(state.name) === 'thedadraandnagarhavelianddamananddiu')), 'LGD contains unexpected state/UT name: ' + state.name);
   assert(['state','union_territory'].includes(state.type), 'Invalid LGD state type: ' + state.name);
 }
 for (const district of lgdDistricts) {

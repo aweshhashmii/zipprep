@@ -82,21 +82,35 @@ function shell(){
  '<header class="atlas-focus-top"><div><p class="atlas-kicker">EXPLORE INDIA · STATE ATLAS</p><h2 id="focus-title"></h2><p id="focus-subtitle">The selected region is shown with its district boundaries.</p></div><div class="atlas-focus-actions"><button type="button" id="focus-back" class="primary">← India map</button></div></header>'+
  '<div class="atlas-focus-map-wrap is-extracting" id="focus-map-wrap"><div id="focus-map" role="application" aria-label="Selected state or union territory with district boundaries"></div></div>'+
  '<p class="atlas-focus-status" id="focus-status" role="status" aria-live="polite">Loading official district boundaries…</p>'+
- '<div class="atlas-focus-tabs" role="tablist" aria-label="State information"><button type="button" role="tab" id="tab-profile" aria-controls="panel-profile" aria-selected="true">STATE &amp; DISTRICT PROFILE</button><button type="button" role="tab" id="tab-geography" aria-controls="panel-geography" aria-selected="false">STATE GEOGRAPHY</button></div>'+
+ '<div class="atlas-focus-tabs" role="tablist" aria-label="State and Union Territory information">'+
+ '<button type="button" role="tab" id="tab-profile" aria-controls="panel-profile" aria-selected="true">STATE &amp; DISTRICT PROFILE</button>'+
+ '<button type="button" role="tab" id="tab-geography" aria-controls="panel-geography" aria-selected="false">PHYSICAL GEOGRAPHY</button>'+
+ '<button type="button" role="tab" id="tab-environment" aria-controls="panel-environment" aria-selected="false">ENVIRONMENT &amp; BIODIVERSITY</button>'+
+ '<button type="button" role="tab" id="tab-economy" aria-controls="panel-economy" aria-selected="false">ECONOMY &amp; INFRASTRUCTURE</button>'+
+ '<button type="button" role="tab" id="tab-heritage" aria-controls="panel-heritage" aria-selected="false">HISTORY, CULTURE &amp; HERITAGE</button></div>'+
  '<section class="atlas-focus-content" id="panel-profile" role="tabpanel" aria-labelledby="tab-profile"></section>'+
  '<section class="atlas-focus-content" id="panel-geography" role="tabpanel" aria-labelledby="tab-geography" hidden></section>'+
+ '<section class="atlas-focus-content" id="panel-environment" role="tabpanel" aria-labelledby="tab-environment" hidden></section>'+
+ '<section class="atlas-focus-content" id="panel-economy" role="tabpanel" aria-labelledby="tab-economy" hidden></section>'+
+ '<section class="atlas-focus-content" id="panel-heritage" role="tabpanel" aria-labelledby="tab-heritage" hidden></section>'+
  '</div>';
  $('focus-back').addEventListener('click',close);
  $('tab-profile').addEventListener('click',function(){switchTab('profile')});
  $('tab-geography').addEventListener('click',function(){switchTab('geography')});
+ $('tab-environment').addEventListener('click',function(){switchTab('environment')});
+ $('tab-economy').addEventListener('click',function(){switchTab('economy')});
+ $('tab-heritage').addEventListener('click',function(){switchTab('heritage')});
  dash.hidden=false;
 }
 function switchTab(which){
- currentTab=which;var p=$('panel-profile'),g=$('panel-geography');
- if(!p||!g)return;
- p.hidden=which!=='profile';g.hidden=which!=='geography';
- $('tab-profile').setAttribute('aria-selected',String(which==='profile'));
- $('tab-geography').setAttribute('aria-selected',String(which==='geography'));
+ var tabs=['profile','geography','environment','economy','heritage'];
+ if(tabs.indexOf(which)<0)which='profile';
+ currentTab=which;
+ tabs.forEach(function(tab){
+  var panel=$('panel-'+tab),button=$('tab-'+tab),active=tab===which;
+  if(panel)panel.hidden=!active;
+  if(button)button.setAttribute('aria-selected',String(active));
+ });
 }
 function close(){
  var dash=$('wb-dashboard');if(dash)dash.hidden=true;
@@ -140,7 +154,7 @@ function renderDistrictLayer(data){
   l.on('add',function(){var el=l.getElement();if(el){el.setAttribute('tabindex','0');el.setAttribute('role','button');el.setAttribute('aria-label','Select district '+name);el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();l.fire('click')}})}});
  }}).addTo(focusMap);
  var bounds=districtLayer.getBounds();if(bounds&&bounds.isValid())focusMap.fitBounds(bounds,{padding:[25,25],maxZoom:9,animate:!reduced});
- renderDistrictDirectory();
+ 
 }
 function renderDistrictDirectory(){
  var panel=$('panel-profile');if(!panel)return;
@@ -229,35 +243,155 @@ function renderProfile(name,count){
  stat('District boundary version / effective date',record&&record.districts?(display(record.districts.boundaryVersion)+' / '+display(record.districts.effectiveFrom)):'Verification pending','Existing district boundary metadata')+
  stat('High Court',display(record&&record.highCourt),'Official High Court / state government portal')+
  stat('Official languages',record&&record.officialLanguages&&record.officialLanguages.length?record.officialLanguages.join(', '):'Verification pending','Relevant state / UT government portal')+
- '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p>'+((record&&Array.isArray(record.sourceRecords)&&record.sourceRecords.length)?'<h3>Region-specific source notes</h3><div class="atlas-data-sources">'+record.sourceRecords.map(function(src){var url=src.sourceUrl||src.url;var label=src.title||src.sourceId||src.field||'Source record';var fields=Array.isArray(src.fields)&&src.fields.length?' · fields: '+src.fields.join(', '):'';var verified=src.lastVerifiedAt?' · last verified '+src.lastVerifiedAt:'';var note=src.note?'<small>'+textSafe(src.note)+'</small>':'';return '<div><a href="'+textSafe(url||'#')+'" target="_blank" rel="noopener noreferrer">'+textSafe(label)+(src.referenceYear?' · '+textSafe(src.referenceYear):src.referenceDate?' · '+textSafe(src.referenceDate):'')+textSafe(fields)+textSafe(verified)+'</a>'+note+'</div>'}).join('')+'</div>':'')+'<div id="district-directory-section"><h3>District directory · '+count+' mapped districts</h3><div class="atlas-district-tools"><input id="district-search" type="search" placeholder="Search districts by name…" aria-label="Search districts"><span class="atlas-data-pending">Alphabetical · select a district to highlight it on the map</span></div><div id="district-directory" class="atlas-district-directory"></div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><p class="atlas-data-pending">Select a district on the map or in the directory to open its profile.</p></div></div>'+
+ '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p>'+((record&&Array.isArray(record.sourceRecords)&&record.sourceRecords.length)?'<h3>Region-specific source notes</h3><div class="atlas-data-sources">'+record.sourceRecords.map(function(src){var url=src.sourceUrl||src.url;var label=src.title||src.sourceId||src.field||'Source record';var fields=Array.isArray(src.fields)&&src.fields.length?' · fields: '+src.fields.join(', '):'';var verified=src.lastVerifiedAt?' · last verified '+src.lastVerifiedAt:'';var note=src.note?'<small>'+textSafe(src.note)+'</small>':'';return '<div><a href="'+textSafe(url||'#')+'" target="_blank" rel="noopener noreferrer">'+textSafe(label)+(src.referenceYear?' · '+textSafe(src.referenceYear):src.referenceDate?' · '+textSafe(src.referenceDate):'')+textSafe(fields)+textSafe(verified)+'</a>'+note+'</div>'}).join('')+'</div>':'')+'<div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><h3>District Explorer</h3><p class="atlas-data-pending">Select a district directly on the map to open its individual profile. District names are not duplicated in a separate directory.</p></div>'+
  '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. ECI seat strengths last verified 30 Oct 2026; current officeholders and other administrative totals are not yet verified.</p>'+sourceLinks();
 }
-function renderGeography(name){
- var root=$('panel-geography');if(!root)return;
+function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
+ var root=$(panelId);if(!root)return;
  var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
  var geography=record&&record.geography||{};
- var cats=[
-  ['Geographical location & neighbours','location'],['Mountain ranges','mountainRanges'],['Important peaks','peaks'],['Mountain passes','passes'],['Coastal features','coastalFeatures'],['Ports','ports'],['Islands','islands'],
-  ['Major rivers','rivers'],['River basins','riverBasins'],['Lakes','lakes'],['Glacial lakes','glacialLakes'],['Reservoirs','reservoirs'],['Dams & water projects','dams'],
-  ['Forest and tree cover','forestCover'],['Wetlands','wetlands'],['Water bodies (First Census)','waterBodies'],['National parks','nationalParks'],['Wildlife sanctuaries','wildlifeSanctuaries'],
-  ['Tiger reserves','tigerReserves'],['Biosphere reserves','biosphereReserves'],['Conservation reserves','conservationReserves'],['Community reserves','communityReserves'],['Marine protected areas','marineProtectedAreas'],['Ramsar sites','ramsarSites'],
-  ['UNESCO World Heritage','unescoWorldHeritage'],['Monuments & archaeology','monuments'],['Mineral resources','minerals'],
-  ['Major crops','crops'],['Climate','climate'],['Soil types','soilTypes'],['GI-tagged products','giProducts'],['Arts & culture','culturalHighlights'],['Renewable energy projects','renewableEnergyProjects'],['Industrial corridors','industrialCorridors'],['River-valley projects','riverValleyProjects'],['Environmental challenges','environmentalChallenges'],['Disaster-prone regions','disasterProneRegions']
- ];
- function itemText(v){if(typeof v==='string')return textSafe(v);if(!v)return '';var title=v.name||v.title||v.officialName||'Verified entry';var desc=v.description||v.notes||'';var meta=[v.district?'District: '+v.district:'',v.ramsarSiteNumber?'Ramsar site no. '+v.ramsarSiteNumber:'',v.designationDate?'Designated '+v.designationDate:'',v.announcementDate?'Announced '+v.announcementDate:'',v.designationYear?'Designated '+v.designationYear:'',v.areaHectares!==undefined?Number(v.areaHectares).toLocaleString('en-IN')+' hectares':'',v.height!==undefined&&v.height!==null?'Elevation '+v.height:'',v.designation,v.inscriptionYear?'Inscribed '+v.inscriptionYear:'',v.sourceYear?'Source year '+v.sourceYear:'',v.referenceYear?'Reference '+v.referenceYear:'',v.count!==undefined?'Count '+v.count+(v.referenceDate?' · as of '+v.referenceDate:''):'',v.referenceDate&&v.count===undefined?'Reference date '+v.referenceDate:'',v.date_as_on?'Dataset snapshot '+v.date_as_on:'',v.operationalCount!==undefined?'Operational '+v.operationalCount:'',v.underConstructionCount!==undefined?'Under construction '+v.underConstructionCount:'',v.totalCount!==undefined?'Total '+v.totalCount:'',v.administrativeScope?'Administrative scope: '+v.administrativeScope:'',v.forestAndTreeCoverSqKm!==undefined?Number(v.forestAndTreeCoverSqKm).toLocaleString('en-IN')+' km²':'',v.percentOfGeographicalArea!==undefined&&v.percentOfGeographicalArea!==null?v.percentOfGeographicalArea+'% of geographical area':'',v.sourceId?'Source ID '+v.sourceId:''].filter(Boolean).join(' · ');return '<b>'+textSafe(title)+'</b>'+(meta?'<br><small>'+textSafe(meta)+'</small>':'')+(desc?'<br>'+textSafe(desc):'')+(v.sourceUrl?' · <a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener">source</a>':'')}
- root.innerHTML='<p class="atlas-kicker">PHYSICAL GEOGRAPHY · NATURAL HERITAGE · EXAM FACTS</p><h3>'+textSafe(name)+' geography</h3><p class="atlas-data-pending">Only records with a populated source-backed entry are displayed. Empty categories remain clearly marked rather than being filled with generic or unrelated facts.</p><div class="atlas-geography-grid">'+cats.map(function(c){var value=geography[c[1]],items=Array.isArray(value)?value:(value?[value]:[]);return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b><p>'+(items.length?items.map(itemText).join('<br><br>'):'No verified records imported for '+textSafe(name)+'.')+'</p></article>'}).join('')+'</div>'+sourceLinks();
+ function itemText(v){
+  if(typeof v==='string')return textSafe(v);
+  if(!v)return '';
+  var title=v.name||v.title||v.officialName||'Verified entry';
+  var desc=v.description||v.notes||'';
+  var meta=[
+   v.district?'District: '+v.district:'',
+   v.ramsarSiteNumber?'Ramsar site no. '+v.ramsarSiteNumber:'',
+   v.designationDate?'Designated '+v.designationDate:'',
+   v.announcementDate?'Announced '+v.announcementDate:'',
+   v.designationYear?'Designated '+v.designationYear:'',
+   v.areaHectares!==undefined?Number(v.areaHectares).toLocaleString('en-IN')+' hectares':'',
+   v.height!==undefined&&v.height!==null?'Height/elevation '+v.height:'',
+   v.designation||'',
+   v.inscriptionYear?'Inscribed '+v.inscriptionYear:'',
+   v.sourceYear?'Source year '+v.sourceYear:'',
+   v.referenceYear?'Reference '+v.referenceYear:'',
+   v.count!==undefined?'Count '+v.count+(v.referenceDate?' · as of '+v.referenceDate:''):'',
+   v.referenceDate&&v.count===undefined?'Reference date '+v.referenceDate:'',
+   v.operationalCount!==undefined?'Operational '+v.operationalCount:'',
+   v.underConstructionCount!==undefined?'Under construction '+v.underConstructionCount:'',
+   v.totalCount!==undefined?'Total '+v.totalCount:'',
+   v.forestAndTreeCoverSqKm!==undefined?Number(v.forestAndTreeCoverSqKm).toLocaleString('en-IN')+' km²':'',
+   v.percentOfGeographicalArea!==undefined&&v.percentOfGeographicalArea!==null?v.percentOfGeographicalArea+'% of geographical area':'',
+   v.sourceId?'Source ID '+v.sourceId:''
+  ].filter(Boolean).join(' · ');
+  return '<div class="atlas-record"><b>'+textSafe(title)+'</b>'+
+   (meta?'<small>'+textSafe(meta)+'</small>':'')+
+   (desc?'<p>'+textSafe(desc)+'</p>':'')+
+   (v.sourceUrl?'<a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener noreferrer">View source ↗</a>':'')+
+   '</div>';
+ }
+ var populated=0;
+ var cards=categories.map(function(c){
+  var value=geography[c[1]],items=Array.isArray(value)?value:(value?[value]:[]);
+  if(items.length)populated++;
+  return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b>'+
+   (c[2]?'<small class="atlas-category-description">'+textSafe(c[2])+'</small>':'')+
+   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending">No verified records imported for this category yet.</p>')+'</div></article>';
+ }).join('');
+ root.innerHTML='<p class="atlas-kicker">'+textSafe(eyebrow)+'</p><h3>'+textSafe(name)+' · '+textSafe(tabTitle)+'</h3>'+
+  '<p class="atlas-data-pending">Showing source-backed records already available in the regional catalogue. Empty categories are explicitly marked; they are not treated as zero and are not filled with guesses.</p>'+
+  '<p class="atlas-data-pending">'+populated+' of '+categories.length+' categories currently contain imported records for this region. This is a data-import indicator, not a completeness score.</p>'+
+  '<div class="atlas-geography-grid">'+cards+'</div>'+sourceLinks();
+}
+function renderGeography(name){
+ renderCategoryPanel('panel-geography',name,'Physical Geography','PHYSICAL GEOGRAPHY · LANDFORMS · DRAINAGE · CLIMATE',[
+  ['Geographical location & neighbours','location','Regional position and adjoining states, UTs or countries'],
+  ['Mountain ranges & hills','mountainRanges','Major ranges and hill systems'],
+  ['Important peaks','peaks','Named peaks and elevations'],
+  ['Mountain passes','passes','Important passes and connecting routes'],
+  ['Plateaus','plateaus','Major plateaus and uplands'],
+  ['Plains & valleys','plains','Alluvial, coastal and regional plains; important valleys'],
+  ['Major rivers','rivers','River origins, courses and tributary relationships'],
+  ['Tributaries & drainage','tributaries','Tributaries and sub-tributaries'],
+  ['River basins & watersheds','riverBasins','Basins, sub-basins and drainage systems'],
+  ['Lakes','lakes','Natural, artificial, freshwater and saline lakes'],
+  ['Glacial lakes','glacialLakes','High-altitude and glacial lakes'],
+  ['Wetlands & lagoons','wetlands','Wetland geography, marshes, lagoons and estuaries'],
+  ['Dams & water projects','dams','Dams and multipurpose river projects'],
+  ['Reservoirs','reservoirs','Reservoirs and associated rivers'],
+  ['Waterfalls','waterfalls','Named waterfalls, rivers and heights'],
+  ['Soil types','soilTypes','Soil classification, distribution and characteristics'],
+  ['Climate','climate','Rainfall, temperature, monsoon and climatic regions'],
+  ['Coastal features','coastalFeatures','Coastline, deltas, estuaries, beaches and creeks'],
+  ['Islands & reefs','islands','Island groups, reefs, channels and marine features'],
+  ['Geology','geology','Rock systems, geological formations and structures']
+ ]);
+}
+function renderEnvironment(name){
+ renderCategoryPanel('panel-environment',name,'Environment & Biodiversity','ENVIRONMENT · PROTECTED AREAS · SPECIES · CONSERVATION',[
+  ['National parks','nationalParks','Notified national parks and their ecosystems'],
+  ['Wildlife sanctuaries','wildlifeSanctuaries','Notified wildlife sanctuaries'],
+  ['Tiger reserves','tigerReserves','NTCA-notified tiger reserves and landscapes'],
+  ['Elephant reserves & corridors','elephantReserves','Elephant reserves, habitats and corridors'],
+  ['Biosphere reserves','biosphereReserves','Nationally notified reserves; UNESCO recognition is separately identified'],
+  ['Ramsar sites','ramsarSites','Wetlands of International Importance'],
+  ['Conservation reserves','conservationReserves','Notified conservation reserves'],
+  ['Community reserves','communityReserves','Notified community reserves'],
+  ['Marine protected areas','marineProtectedAreas','Marine and coastal protected areas'],
+  ['Forests & forest cover','forestCover','Forest types and dated forest/tree-cover assessments'],
+  ['Ecosystems','ecosystems','Mountain, forest, grassland, desert, coastal and marine ecosystems'],
+  ['Flora & fauna','floraFauna','Important, endemic and regionally significant species'],
+  ['Endangered & threatened species','endangeredSpecies','IUCN category and legal status must be distinguished'],
+  ['Conservation projects','conservationProjects','Species and habitat conservation programmes'],
+  ['Environmental challenges','environmentalChallenges','Documented environmental pressures'],
+  ['Disaster-prone regions','disasterProneRegions','Flood, drought, cyclone, landslide and other hazards']
+ ]);
+}
+function renderEconomy(name){
+ renderCategoryPanel('panel-economy',name,'Economy & Infrastructure','ECONOMY · RESOURCES · INDUSTRY · CONNECTIVITY',[
+  ['Agriculture & major crops','crops','Kharif, Rabi, Zaid and major cash crops'],
+  ['Horticulture','horticulture','Fruits, vegetables, spices and plantation crops'],
+  ['Minerals & mining regions','minerals','Mineral resources and producing districts'],
+  ['Industries & industrial clusters','industries','Major sectors, industrial centres and manufacturing clusters'],
+  ['Industrial corridors & zones','industrialCorridors','Industrial corridors, SEZs and industrial parks'],
+  ['Power plants','powerPlants','Thermal, hydro, nuclear and renewable installations'],
+  ['Renewable energy projects','renewableEnergyProjects','Solar, wind, biomass and other renewable projects'],
+  ['Irrigation projects','irrigationProjects','Canals, irrigation systems and command areas'],
+  ['Highways & expressways','highways','National highways, expressways and major corridors'],
+  ['Railways','railways','Railway zones, divisions, junctions and projects'],
+  ['Airports','airports','International, domestic and regional airports'],
+  ['Ports & harbours','ports','Major/non-major ports and important harbours'],
+  ['Inland waterways','waterways','National waterways, terminals and navigation routes'],
+  ['Important institutions','institutions','Research, education, science and specialised institutions'],
+  ['Economic centres & trade','economicCentres','Major commercial centres, exports and trade hubs'],
+  ['Tourism economy','tourism','Major tourism circuits and economic significance']
+ ]);
+}
+function renderHeritage(name){
+ renderCategoryPanel('panel-heritage',name,'History, Culture & Heritage','HISTORY · CULTURE · ARCHAEOLOGY · IDENTITY',[
+  ['Ancient kingdoms & dynasties','ancientKingdoms','Ancient states, dynasties, rulers and capitals'],
+  ['Medieval kingdoms & dynasties','medievalKingdoms','Regional powers, rulers, battles and capitals'],
+  ['Modern history','modernHistory','Colonial administration, princely states and regional developments'],
+  ['Freedom movement','freedomMovement','Revolts, tribal uprisings, leaders and movements'],
+  ['Archaeological sites','archaeologicalSites','Excavations, ancient settlements and archaeological cultures'],
+  ['UNESCO World Heritage','unescoWorldHeritage','Inscribed properties; tentative-list sites are kept separate'],
+  ['Historical monuments','monuments','Forts, palaces, temples, mosques and other monuments'],
+  ['Festivals & fairs','festivals','Religious, harvest, tribal and cultural festivals'],
+  ['Folk dances','folkDances','Regional and community dance traditions'],
+  ['Classical dances','classicalDances','Recognised classical dance forms and regional associations'],
+  ['Music & instruments','music','Folk music, traditions and musical instruments'],
+  ['Languages','languages','Official, scheduled, regional and tribal languages'],
+  ['Literature & personalities','literature','Writers, poets, scholars and literary traditions'],
+  ['GI-tagged products','giProducts','Registered products, regions and registration years'],
+  ['Handicrafts & traditional arts','handicrafts','Textiles, paintings, crafts and traditional art forms'],
+  ['Tribal communities & PVTGs','tribalCommunities','Scheduled Tribes, PVTGs, distribution and cultural context'],
+  ['Religious & pilgrimage heritage','religiousHeritage','Important pilgrimage centres and religious traditions'],
+  ['Historical personalities','historicalPersonalities','Leaders, reformers, artists and notable figures']
+ ]);
 }
 function loadDistricts(name,token){
  var status=$('focus-status');if(status)status.textContent='Loading official district polygons for '+name+'…';
  fetch(districtUrl(name)).then(function(r){if(!r.ok)throw new Error('BharatMapService returned HTTP '+r.status);return r.json()}).then(function(data){
   if(token!==currentState||!data||!Array.isArray(data.features)||!data.features.length)throw new Error('No district polygons were returned for '+name+'.');
-  renderDistrictLayer(data);renderProfile(name,data.features.length);renderDistrictDirectory();renderGeography(name);
+  renderDistrictLayer(data);renderProfile(name,data.features.length);renderGeography(name);renderEnvironment(name);renderEconomy(name);renderHeritage(name);
   if(status)status.textContent='District geometry source: Government of India BharatMapService · '+data.features.length+' features returned. Administrative and geography records are shown only when verified.';
  }).catch(function(err){
   if(token!==currentState)return;
   if(status)status.innerHTML='District boundaries could not be loaded: '+textSafe(err.message)+'. <button class="atlas-focus-retry" id="focus-retry" type="button">Retry</button>';
   var retry=$('focus-retry');if(retry)retry.addEventListener('click',function(){loadDistricts(name,token)});
-  renderProfile(name,null);renderGeography(name);
+  renderProfile(name,null);renderGeography(name);renderEnvironment(name);renderEconomy(name);renderHeritage(name);
  });
 }
 function selectRegion(feature,layer){

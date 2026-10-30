@@ -37,6 +37,18 @@
       "id": "geoboundaries",
       "name": "geoBoundaries",
       "url": "https://www.geoboundaries.org/"
+    },
+    {
+      "id": "communityGeojson",
+      "name": "iamaanahmad GeoJson of Indian States (community dataset)",
+      "url": "https://github.com/iamaanahmad/GeoJson-of-Indian-States",
+      "licenseNote": "The upstream README describes educational/development use; confirm permissions and official boundary alignment before production reuse."
+    },
+    {
+      "id": "geoboundariesIndiaAdm1",
+      "name": "geoBoundaries India ADM1 — DataMeet India community / Election Commission of India",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+      "licenseNote": "CC BY 2.5 India; boundary year represented 2011; upstream source-data update recorded 19 January 2023."
     }
   ],
   "regions": [
@@ -68,8 +80,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -135,8 +147,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -202,8 +214,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -269,8 +281,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -336,8 +348,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -403,8 +415,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -470,8 +482,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -537,8 +549,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -604,8 +616,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -671,8 +683,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -738,8 +750,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -805,8 +817,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -872,8 +884,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -939,8 +951,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1006,8 +1018,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1073,8 +1085,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1140,8 +1152,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1207,8 +1219,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1274,8 +1286,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1341,8 +1353,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1408,8 +1420,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1475,8 +1487,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1542,8 +1554,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1609,8 +1621,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1676,8 +1688,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1743,8 +1755,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1810,8 +1822,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1877,8 +1889,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -1944,8 +1956,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2011,8 +2023,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2078,8 +2090,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2145,8 +2157,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2212,8 +2224,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2279,8 +2291,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2346,8 +2358,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },
@@ -2413,8 +2425,8 @@
         "nagarPanchayats": null
       },
       "boundary": {
-        "asset": "/indian-states.geojson",
-        "sourceId": "bharatmap",
+        "asset": "/data/india-states-36.geojson",
+        "sourceId": "communityGeojson",
         "geometryVersion": null,
         "effectiveFrom": null
       },

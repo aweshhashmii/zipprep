@@ -36,34 +36,28 @@
       "cadence": "Review after delimitation, reorganisation or ECI updates"
     },
     {
-      "id": "lgdDistricts",
-      "name": "Ministry of Panchayati Raj — Local Government Directory (districts)",
+      "id": "lgdCurrentDistrictDirectory2026",
+      "name": "Ministry of Panchayati Raj — Local Government Directory (LGD), current state and district snapshot",
       "url": "https://lgdirectory.gov.in/",
-      "catalogUrl": "https://data.gov.in/resource/local-government-directory-lgd-districts",
-      "secondaryMirror": "https://india-lgd-index-api.vercel.app/docs",
+      "officialCrossCheckUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
+      "mirrorRepository": "https://github.com/ramSeraph/opendata",
+      "mirrorApiRepository": "https://github.com/shrinivas-sn/india-lgd-index-api",
+      "snapshotDate": "21Oct2026",
+      "ingestedAt": "2026-10-29T17:11:49.883Z",
+      "archive": "districts.21Oct2026.csv.7z",
+      "archiveSha256": "dd1033e8b2961131c41ab4d6bf11d7c124c930c57c784c400041c4257eac4441",
+      "license": "Government Open Data License - India (GODL-India)",
       "tabs": [
         "profile"
       ],
       "fields": [
+        "Current state/UT names",
+        "LGD state codes",
         "Current district names",
         "LGD district codes",
-        "State/UT mapping"
+        "State-district mapping"
       ],
-      "cadence": "Monthly snapshot; preserve source date and LGD code"
-    },
-    {
-      "id": "dilrmpDistrictList",
-      "name": "Department of Land Resources — DILRMP District List",
-      "url": "https://dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
-      "tabs": [
-        "profile"
-      ],
-      "fields": [
-        "District names",
-        "District LGD codes",
-        "State/UT mapping"
-      ],
-      "cadence": "Use dashboard report date; reconcile with LGD monthly snapshot"
+      "cadence": "Refresh from monthly LGD release; record source_date and archive checksum; verify against the live LGD/DILRMP register before publication"
     },
     {
       "id": "censusPcaSd2011",

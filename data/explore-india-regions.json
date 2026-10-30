@@ -201,6 +201,13 @@
       "url": "https://dataful.in/datasets/1337/",
       "referenceDate": "2025-02",
       "note": "574 named sanctuary records, source attributed to ENVIS Centre on Wildlife & Protected Areas; Dataful page last updated December 2025, records current to February 2025."
+    },
+    {
+      "id": "fsiIsfr2023Parliament2026",
+      "name": "Forest Survey of India ISFR 2023 — state/UT forest and tree cover, reproduced in Rajya Sabha answer 4384 (2 April 2026)",
+      "url": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+      "referenceDate": "2026-04-02",
+      "note": "Authoritative parliamentary annexure with 36 state/UT figures; forest + tree cover combined. Ladakh percentage not separately stated."
     }
   ],
   "regions": [
@@ -322,6 +329,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -470,10 +486,11 @@
           "forestAndTreeCoverSqKm": 35424.98,
           "percentOfGeographicalArea": 21.74,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -608,6 +625,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -774,10 +800,11 @@
           "forestAndTreeCoverSqKm": 67083.2,
           "percentOfGeographicalArea": 80.11,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -907,6 +934,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -1069,10 +1105,11 @@
           "forestAndTreeCoverSqKm": 30415.01,
           "percentOfGeographicalArea": 38.78,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -1193,6 +1230,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -1320,10 +1366,11 @@
           "forestAndTreeCoverSqKm": 9902.66,
           "percentOfGeographicalArea": 10.52,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -1452,6 +1499,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -1600,10 +1656,11 @@
           "forestAndTreeCoverSqKm": 62350.45,
           "percentOfGeographicalArea": 46.12,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -1731,6 +1788,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -1840,10 +1906,11 @@
           "forestAndTreeCoverSqKm": 2523.54,
           "percentOfGeographicalArea": 68.17,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -1986,6 +2053,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -2116,10 +2192,11 @@
           "forestAndTreeCoverSqKm": 21648.93,
           "percentOfGeographicalArea": 11.03,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -2247,6 +2324,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -2356,10 +2442,11 @@
           "forestAndTreeCoverSqKm": 3307.28,
           "percentOfGeographicalArea": 7.48,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -2488,6 +2575,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -2630,10 +2726,11 @@
           "forestAndTreeCoverSqKm": 16435.42,
           "percentOfGeographicalArea": 29.52,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -2768,6 +2865,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -2889,10 +2995,11 @@
           "forestAndTreeCoverSqKm": 27403.33,
           "percentOfGeographicalArea": 34.38,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -3027,6 +3134,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -3193,10 +3309,11 @@
           "forestAndTreeCoverSqKm": 47033.42,
           "percentOfGeographicalArea": 24.52,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -3338,6 +3455,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -3488,10 +3614,11 @@
           "forestAndTreeCoverSqKm": 24965.3,
           "percentOfGeographicalArea": 64.26,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -3626,6 +3753,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -3832,10 +3968,11 @@
           "forestAndTreeCoverSqKm": 85723.58,
           "percentOfGeographicalArea": 27.81,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -3962,6 +4099,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -4125,10 +4271,11 @@
           "forestAndTreeCoverSqKm": 65383.41,
           "percentOfGeographicalArea": 21.25,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -4256,6 +4403,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -4377,10 +4533,11 @@
           "forestAndTreeCoverSqKm": 16795.28,
           "percentOfGeographicalArea": 75.22,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -4503,6 +4660,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -4624,10 +4790,11 @@
           "forestAndTreeCoverSqKm": 17687.4,
           "percentOfGeographicalArea": 78.86,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -4748,6 +4915,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -4857,10 +5033,11 @@
           "forestAndTreeCoverSqKm": 18558.26,
           "percentOfGeographicalArea": 88.03,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -4973,6 +5150,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -5073,10 +5259,11 @@
           "forestAndTreeCoverSqKm": 12616.49,
           "percentOfGeographicalArea": 76.1,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -5211,6 +5398,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -5353,10 +5549,11 @@
           "forestAndTreeCoverSqKm": 58597.01,
           "percentOfGeographicalArea": 37.63,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -5483,6 +5680,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -5592,10 +5798,11 @@
           "forestAndTreeCoverSqKm": 3321.24,
           "percentOfGeographicalArea": 6.59,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -5715,6 +5922,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -5860,10 +6076,11 @@
           "forestAndTreeCoverSqKm": 27389.33,
           "percentOfGeographicalArea": 8,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -6002,6 +6219,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -6114,10 +6340,11 @@
           "forestAndTreeCoverSqKm": 3406.73,
           "percentOfGeographicalArea": 48.01,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -6253,6 +6480,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -6441,10 +6677,11 @@
           "forestAndTreeCoverSqKm": 31820.94,
           "percentOfGeographicalArea": 24.47,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -6565,6 +6802,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -6683,10 +6929,11 @@
           "forestAndTreeCoverSqKm": 24696.7,
           "percentOfGeographicalArea": 22.03,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -6808,6 +7055,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -6935,10 +7191,11 @@
           "forestAndTreeCoverSqKm": 7832.33,
           "percentOfGeographicalArea": 74.69,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -7059,6 +7316,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -7198,10 +7464,11 @@
           "forestAndTreeCoverSqKm": 23996.72,
           "percentOfGeographicalArea": 9.96,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -7330,6 +7597,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -7478,10 +7754,11 @@
           "forestAndTreeCoverSqKm": 25534.97,
           "percentOfGeographicalArea": 47.74,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -7628,6 +7905,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -7770,10 +8056,11 @@
           "forestAndTreeCoverSqKm": 19770.45,
           "percentOfGeographicalArea": 22.28,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -7909,6 +8196,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -8006,10 +8302,11 @@
           "forestAndTreeCoverSqKm": 6759.89,
           "percentOfGeographicalArea": 81.95,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -8128,6 +8425,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -8208,10 +8514,11 @@
           "forestAndTreeCoverSqKm": 46.18,
           "percentOfGeographicalArea": 40.51,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -8326,6 +8633,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -8399,7 +8715,16 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "name": "Forest and tree cover",
+          "forestAndTreeCoverSqKm": 262.45,
+          "percentOfGeographicalArea": 43.6,
+          "referenceYear": 2023,
+          "referenceDate": "2026-04-02",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -8513,6 +8838,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -8584,10 +8918,11 @@
           "forestAndTreeCoverSqKm": 371.31,
           "percentOfGeographicalArea": 25.04,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -8711,6 +9046,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -8840,7 +9184,16 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "name": "Forest and tree cover",
+          "forestAndTreeCoverSqKm": 25013.36,
+          "percentOfGeographicalArea": 12.69,
+          "referenceYear": 2023,
+          "referenceDate": "2026-04-02",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -8971,6 +9324,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -9149,7 +9511,16 @@
         "monuments": [],
         "minerals": [],
         "crops": [],
-        "forestCover": null,
+        "forestCover": {
+          "name": "Forest and tree cover",
+          "forestAndTreeCoverSqKm": 3178.94,
+          "percentOfGeographicalArea": null,
+          "referenceYear": 2023,
+          "referenceDate": "2026-04-02",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars"
+        },
         "climate": null,
         "soilTypes": [],
         "giProducts": [],
@@ -9261,6 +9632,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -9332,10 +9712,11 @@
           "forestAndTreeCoverSqKm": 27.26,
           "percentOfGeographicalArea": 92,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],
@@ -9458,6 +9839,15 @@
           "referenceDate": "2023-08-10",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.forestCover",
+          "sourceId": "fsiIsfr2023Parliament2026",
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
+          "referenceDate": "2026-04-02",
+          "referenceYear": 2023,
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
         }
       ],
       "lastVerifiedAt": null,
@@ -9541,10 +9931,11 @@
           "forestAndTreeCoverSqKm": 73.2,
           "percentOfGeographicalArea": 14.94,
           "referenceYear": 2023,
-          "description": "Combined forest and tree cover as assessed in the India State of Forest Report 2023.",
-          "sourceId": "fsiIsfr2023",
+          "description": "Combined forest cover and tree cover as assessed in the India State of Forest Report 2023. Percentage is the reported share of geographical area; Ladakh's percentage was not stated in the parliamentary annexure.",
+          "sourceId": "fsiIsfr2023Parliament2026",
           "sourceUrl": "https://sansad.in/getFile/annex/270/AU4384_bfCgS1.pdf?source=pqars",
-          "name": "Forest and tree cover"
+          "name": "Forest and tree cover",
+          "referenceDate": "2026-04-02"
         },
         "climate": null,
         "soilTypes": [],

@@ -318,6 +318,13 @@
       "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
       "referenceDate": "2025-12-30",
       "note": "PIB reports 681 glacial lakes located in India, state/UT split: Ladakh 179, Jammu and Kashmir 76, Himachal Pradesh 17, Uttarakhand 13, Sikkim 72, Arunachal Pradesh 324. CWC began monitoring 2,843 glacial lakes and water bodies across the wider Himalayan river basins in 2025; the 681 figure is the India-located subset."
+    },
+    {
+      "id": "hpGovTaniJubbar2026",
+      "name": "Government of Himachal Pradesh — Tani Jubbar Lake, Narkanda",
+      "url": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF+AuYkB55WCPqjxR9Ug%3D%3D",
+      "referenceDate": "2026-10-30",
+      "note": "Official Himachal Pradesh Government portal labels the subject as Tani Jubbar Lake, Narkanda; Wetlands of India portal inventory also records Tani Jubbar Lake in Himachal Pradesh. Entry is a curated named-lake record, not a comprehensive lake inventory."
     }
   ],
   "regions": [
@@ -3686,6 +3693,12 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "pibWetlandTypes2007",
             "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
+          },
+          {
+            "name": "Tani Jubbar Lake",
+            "description": "Named lake recorded in the Himachal Pradesh Government portal and the Wetlands of India portal inventory. Included as a curated named-lake entry; not a complete state inventory.",
+            "sourceId": "hpGovTaniJubbar2026",
+            "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF+AuYkB55WCPqjxR9Ug%3D%3D"
           }
         ],
         "dams": [

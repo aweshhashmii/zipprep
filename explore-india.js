@@ -142,9 +142,9 @@ function selectDistrict(name,layer){
 function renderProfile(name,count){
  var root=$('panel-profile');if(!root)return;
  var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
- root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Other changing figures remain marked pending until an official source record is imported.</p>'+
  var pol=record&&record.political||{},adm=record&&record.administration||{};
  var display=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
+ root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Other changing figures remain pending until an official source record is imported.</p>'+
  '<div class="atlas-profile-grid">'+
  stat('Official capital',display(record&&record.capital),'Relevant state / UT government portal · source record pending')+
  stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Verification pending','Government of India administrative structure')+

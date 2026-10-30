@@ -311,6 +311,13 @@
       "url": "https://www.nrsc.gov.in/nrscnew/resources_atlas_glacialLake.php?lang_code=en",
       "referenceYear": "2016–17",
       "note": "Official inventory of 28,043 glacial lakes >=0.25 ha across Indus, Ganga and Brahmaputra basins, mapped from 2016–17 satellite data. This is a spatial lake-ID inventory, not a register of individually named lakes; keep distinct from named natural lakes."
+    },
+    {
+      "id": "cwcGlacialLakeCounts2025",
+      "name": "Ministry of Jal Shakti / CWC — Glacial-lake counts from NRSC Glacial Lake Atlas",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+      "referenceDate": "2025-12-30",
+      "note": "PIB reports 681 glacial lakes located in India, state/UT split: Ladakh 179, Jammu and Kashmir 76, Himachal Pradesh 17, Uttarakhand 13, Sikkim 72, Arunachal Pradesh 324. CWC began monitoring 2,843 glacial lakes and water bodies across the wider Himalayan river basins in 2025; the 681 figure is the India-located subset."
     }
   ],
   "regions": [
@@ -721,7 +728,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
     },
@@ -868,6 +876,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.glacialLakes",
+          "sourceId": "cwcGlacialLakeCounts2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+          "referenceDate": "2025-12-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
         }
       ],
       "lastVerifiedAt": null,
@@ -1086,6 +1102,16 @@
             "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ],
+        "glacialLakes": [
+          {
+            "name": "NRSC glacial-lake inventory — state/UT count",
+            "count": 324,
+            "referenceDate": "2025-12-30",
+            "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
+            "sourceId": "cwcGlacialLakeCounts2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
           }
         ]
       },
@@ -1471,7 +1497,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Gauhati High Court — Guwahati"
     },
@@ -1863,7 +1890,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Patna High Court — Patna"
     },
@@ -2260,7 +2288,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Chhattisgarh High Court — Bilaspur"
     },
@@ -2589,7 +2618,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Bombay High Court — Goa Bench, Panaji"
     },
@@ -3098,7 +3128,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
     },
@@ -3406,7 +3437,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -3569,6 +3601,14 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
+        },
+        {
+          "field": "geography.glacialLakes",
+          "sourceId": "cwcGlacialLakeCounts2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+          "referenceDate": "2025-12-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
         }
       ],
       "lastVerifiedAt": null,
@@ -3807,6 +3847,16 @@
             "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ],
+        "glacialLakes": [
+          {
+            "name": "NRSC glacial-lake inventory — state/UT count",
+            "count": 17,
+            "referenceDate": "2025-12-30",
+            "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
+            "sourceId": "cwcGlacialLakeCounts2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
           }
         ]
       },
@@ -4184,7 +4234,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Jharkhand High Court — Ranchi"
     },
@@ -4723,7 +4774,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Karnataka High Court — Bengaluru"
     },
@@ -5153,7 +5205,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -5678,7 +5731,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Madhya Pradesh High Court — Jabalpur"
     },
@@ -6330,7 +6384,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Bombay High Court — Mumbai"
     },
@@ -6641,7 +6696,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Manipur High Court — Imphal"
     },
@@ -6953,7 +7009,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Meghalaya High Court — Shillong"
     },
@@ -7268,7 +7325,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Gauhati High Court — Aizawl Bench"
     },
@@ -7549,7 +7607,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Gauhati High Court — Kohima Bench"
     },
@@ -8026,7 +8085,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Orissa High Court — Cuttack"
     },
@@ -8385,7 +8445,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -8813,7 +8874,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
     },
@@ -8971,6 +9033,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.glacialLakes",
+          "sourceId": "cwcGlacialLakeCounts2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+          "referenceDate": "2025-12-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
         }
       ],
       "lastVerifiedAt": null,
@@ -9132,6 +9202,16 @@
             "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ],
+        "glacialLakes": [
+          {
+            "name": "NRSC glacial-lake inventory — state/UT count",
+            "count": 72,
+            "referenceDate": "2025-12-30",
+            "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
+            "sourceId": "cwcGlacialLakeCounts2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
           }
         ]
       },
@@ -9776,7 +9856,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Madras High Court — Chennai"
     },
@@ -10125,7 +10206,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Telangana High Court — Hyderabad"
     },
@@ -10459,7 +10541,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Tripura High Court — Agartala"
     },
@@ -10990,7 +11073,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Allahabad High Court — Prayagraj"
     },
@@ -11153,6 +11237,14 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
+        },
+        {
+          "field": "geography.glacialLakes",
+          "sourceId": "cwcGlacialLakeCounts2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+          "referenceDate": "2025-12-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
         }
       ],
       "lastVerifiedAt": null,
@@ -11385,6 +11477,16 @@
             "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ],
+        "glacialLakes": [
+          {
+            "name": "NRSC glacial-lake inventory — state/UT count",
+            "count": 13,
+            "referenceDate": "2025-12-30",
+            "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
+            "sourceId": "cwcGlacialLakeCounts2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
           }
         ]
       },
@@ -11783,7 +11885,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Calcutta High Court — Kolkata"
     },
@@ -12068,7 +12171,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
     },
@@ -12332,7 +12436,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -12566,7 +12671,8 @@
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
-        "waterBodies": []
+        "waterBodies": [],
+        "glacialLakes": []
       },
       "highCourt": "Bombay High Court — territorial jurisdiction"
     },
@@ -12797,7 +12903,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Delhi High Court — New Delhi"
     },
@@ -12954,6 +13061,14 @@
           "sourceUrl": "https://www.india.gov.in/category/travel-tourism/subcategory/tourism-in-india/details/jammu-and-kashmir-lakes-information",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
+        },
+        {
+          "field": "geography.glacialLakes",
+          "sourceId": "cwcGlacialLakeCounts2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+          "referenceDate": "2025-12-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
         }
       ],
       "lastVerifiedAt": null,
@@ -13210,6 +13325,16 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
+        ],
+        "glacialLakes": [
+          {
+            "name": "NRSC glacial-lake inventory — state/UT count",
+            "count": 76,
+            "referenceDate": "2025-12-30",
+            "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
+            "sourceId": "cwcGlacialLakeCounts2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -13367,6 +13492,14 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
+        },
+        {
+          "field": "geography.glacialLakes",
+          "sourceId": "cwcGlacialLakeCounts2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1",
+          "referenceDate": "2025-12-30",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -13493,12 +13626,6 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "ladakhPangongGov",
             "sourceUrl": "https://ladakh.gov.in/places-centres/pangong-lake/"
-          },
-          {
-            "name": "Tso Moriri",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "pibWetlandTypes2007",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
           }
         ],
         "dams": [
@@ -13612,7 +13739,17 @@
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
-        "waterBodies": []
+        "waterBodies": [],
+        "glacialLakes": [
+          {
+            "name": "NRSC glacial-lake inventory — state/UT count",
+            "count": 179,
+            "referenceDate": "2025-12-30",
+            "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
+            "sourceId": "cwcGlacialLakeCounts2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
     },
@@ -13838,7 +13975,8 @@
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
-        "waterBodies": []
+        "waterBodies": [],
+        "glacialLakes": []
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -14096,7 +14234,8 @@
             "sourceId": "nationalWaterMissionCensus2026",
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
-        ]
+        ],
+        "glacialLakes": []
       },
       "highCourt": "Madras High Court — Chennai"
     }

@@ -75,6 +75,13 @@
       "id": "mhaFormationHistory",
       "name": "Ministry of Home Affairs — Centre-State Relations / state reorganisation history and official reorganisation legislation",
       "url": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf"
+    },
+    {
+      "id": "nrld2023",
+      "name": "Ministry of Jal Shakti / National Dam Safety Authority — National Register of Large (Specified) Dams 2023",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+      "referenceYear": "2023",
+      "note": "State/UT counts of operational and under-construction specified large dams. The source lists 28 states and 3 UTs; unlisted UTs are left unpopulated, not treated as zero."
     }
   ],
   "regions": [
@@ -140,6 +147,14 @@
           "sourceUrl": "https://egazette.gov.in/WriteReadData/2026/271493.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -156,7 +171,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "164 total: 140 operational and 24 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 140,
+            "underConstructionCount": 24,
+            "totalCount": 164
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -263,6 +289,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -279,7 +313,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "4 total: 1 operational and 3 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 1,
+            "underConstructionCount": 3,
+            "totalCount": 4
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -372,6 +417,14 @@
           "sourceUrl": "https://mdoner.gov.in/",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -388,7 +441,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "5 total: 3 operational and 2 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 3,
+            "underConstructionCount": 2,
+            "totalCount": 5
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -481,6 +545,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -497,7 +569,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "28 total: 27 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 27,
+            "underConstructionCount": 1,
+            "totalCount": 28
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -597,6 +680,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts?page=0",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -613,7 +704,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "346 total: 339 operational and 7 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 339,
+            "underConstructionCount": 7,
+            "totalCount": 346
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -720,6 +822,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -736,7 +846,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "5 total: 5 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 5,
+            "underConstructionCount": 0,
+            "totalCount": 5
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -850,6 +971,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/The%2520Bombay%2520Reorganisation%2520Act%25201960_270614%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -866,7 +995,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "491 total: 487 operational and 4 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 487,
+            "underConstructionCount": 4,
+            "totalCount": 491
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -973,6 +1113,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules?page=9",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -989,7 +1137,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 1,
+            "underConstructionCount": 0,
+            "totalCount": 1
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1089,6 +1248,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1105,7 +1272,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "29 total: 23 operational and 6 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 23,
+            "underConstructionCount": 6,
+            "totalCount": 29
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1205,6 +1383,14 @@
           "sourceUrl": "https://www.mha.gov.in/acts?page=0",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1221,7 +1407,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "79 total: 55 operational and 24 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 55,
+            "underConstructionCount": 24,
+            "totalCount": 79
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1321,6 +1518,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1337,7 +1542,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "231 total: 231 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 231,
+            "underConstructionCount": 0,
+            "totalCount": 231
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1444,6 +1660,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1460,7 +1684,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "61 total: 61 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 61,
+            "underConstructionCount": 0,
+            "totalCount": 61
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1560,6 +1795,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1576,7 +1819,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "1,354 total: 1,354 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 1354,
+            "underConstructionCount": 0,
+            "totalCount": 1354
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1676,6 +1930,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1692,7 +1954,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "2,374 total: 2,333 operational and 41 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 2333,
+            "underConstructionCount": 41,
+            "totalCount": 2374
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1799,6 +2072,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1815,7 +2096,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "4 total: 3 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 3,
+            "underConstructionCount": 1,
+            "totalCount": 4
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -1908,6 +2200,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -1924,7 +2224,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "9 total: 8 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 8,
+            "underConstructionCount": 1,
+            "totalCount": 9
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2015,6 +2326,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2031,7 +2350,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 1,
+            "underConstructionCount": 0,
+            "totalCount": 1
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2124,6 +2454,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2140,7 +2478,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 1,
+            "underConstructionCount": 0,
+            "totalCount": 1
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2231,6 +2580,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2247,7 +2604,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "210 total: 210 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 210,
+            "underConstructionCount": 0,
+            "totalCount": 210
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2347,6 +2715,14 @@
           "sourceUrl": "https://punjab.gov.in/know-punjab/",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2363,7 +2739,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "19 total: 18 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 18,
+            "underConstructionCount": 1,
+            "totalCount": 19
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2456,6 +2843,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2472,7 +2867,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "314 total: 310 operational and 4 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 310,
+            "underConstructionCount": 4,
+            "totalCount": 314
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2572,6 +2978,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2588,7 +3002,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "2 total: 2 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 2,
+            "underConstructionCount": 0,
+            "totalCount": 2
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2688,6 +3113,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2704,7 +3137,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "127 total: 127 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 127,
+            "underConstructionCount": 0,
+            "totalCount": 127
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2804,6 +3248,14 @@
           "sourceUrl": "https://www.mha.gov.in/en/acts?page=0",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2820,7 +3272,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "174 total: 161 operational and 13 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 161,
+            "underConstructionCount": 13,
+            "totalCount": 174
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -2911,6 +3374,14 @@
           "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -2927,7 +3398,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 1,
+            "underConstructionCount": 0,
+            "totalCount": 1
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -3020,6 +3502,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -3036,7 +3526,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "155 total: 151 operational and 4 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 151,
+            "underConstructionCount": 4,
+            "totalCount": 155
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -3136,6 +3637,14 @@
           "sourceUrl": "https://cm.uk.gov.in/geography/",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -3152,7 +3661,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "37 total: 32 operational and 5 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 32,
+            "underConstructionCount": 5,
+            "totalCount": 37
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -3252,6 +3772,14 @@
           "sourceUrl": "https://igod.gov.in/sg/states",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -3268,7 +3796,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "36 total: 36 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 36,
+            "underConstructionCount": 0,
+            "totalCount": 36
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -3368,6 +3907,14 @@
           "sourceUrl": "https://andamannicobar.gov.in/about",
           "lastVerifiedAt": "2026-10-30",
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -3384,7 +3931,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "2 total: 2 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 2,
+            "underConstructionCount": 0,
+            "totalCount": 2
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -3790,6 +4348,14 @@
           "sourceUrl": "https://www.mha.gov.in/jammu-kashmir-ladakh-affairs",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -3806,7 +4372,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "15 total: 13 operational and 2 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 13,
+            "underConstructionCount": 2,
+            "totalCount": 15
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],
@@ -3906,6 +4483,14 @@
           "sourceUrl": "https://www.mha.gov.in/jammu-kashmir-ladakh-affairs",
           "lastVerifiedAt": "2026-10-30",
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "nrld2023",
+          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
         }
       ],
       "lastVerifiedAt": null,
@@ -3922,7 +4507,18 @@
         "rivers": [],
         "riverBasins": [],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "NRLD-2023 specified large-dam tally",
+            "description": "2 total: 2 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
+            "sourceId": "nrld2023",
+            "referenceYear": "2023",
+            "operationalCount": 2,
+            "underConstructionCount": 0,
+            "totalCount": 2
+          }
+        ],
         "reservoirs": [],
         "wetlands": [],
         "nationalParks": [],

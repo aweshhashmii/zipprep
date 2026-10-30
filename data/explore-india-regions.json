@@ -129,6 +129,32 @@
       "url": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
       "referenceYear": "2023-24",
       "note": "Official national list of 18 notified Biosphere Reserves; UNESCO World Network membership is a separate international designation and is not implied by national notification."
+    },
+    {
+      "id": "prsStateLanguageActs",
+      "name": "PRS Legislative Research — State Acts indexed by language / official-language legislation",
+      "url": "https://prsindia.org/acts/states?title=language",
+      "note": "Legislative index used to identify state official-language enactments; not treated as a substitute for the text of each Act."
+    },
+    {
+      "id": "jkOfficialLanguagesAct2020",
+      "name": "India Code — Jammu and Kashmir Official Languages Act, 2020",
+      "url": "https://www.indiacode.nic.in/indiacode/handle/123456789/15512?view_type=browse",
+      "referenceYear": "2020"
+    },
+    {
+      "id": "meghalayaOfficialLanguageOrdinance2026",
+      "name": "Meghalaya Official Language Ordinance, 2026 — reported by Prasar Bharati News On AIR",
+      "url": "https://newsonair.gov.in/meghalaya-declares-khasi-and-garo-as-official-languages-alongside-english/",
+      "referenceDate": "2026-04-28",
+      "note": "Ordinance provides for English, Khasi and Garo as official languages; commencement for official purposes is from a date to be notified."
+    },
+    {
+      "id": "officialLanguagesCrossCheck2026",
+      "name": "2026 consolidated state and UT official-language list — cross-check only",
+      "url": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+      "referenceDate": "2026-03-19",
+      "note": "Secondary compilation used as a cross-check; language lists that require legal qualification are not interpreted as implying identical official status for every listed language."
     }
   ],
   "regions": [
@@ -139,7 +165,10 @@
       "capital": "Amaravati",
       "formationDate": "1956-11-01",
       "areaSqKm": 162975,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Telugu",
+        "Urdu"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -224,6 +253,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -389,7 +425,9 @@
       "capital": "Itanagar",
       "formationDate": "1987-02-20",
       "areaSqKm": 83743,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -467,6 +505,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -643,7 +688,11 @@
       "capital": "Dispur",
       "formationDate": "1950-01-26",
       "areaSqKm": 78438,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Assamese",
+        "Bengali (Barak Valley)",
+        "Bodo"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -721,6 +770,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -893,7 +949,10 @@
       "capital": "Patna",
       "formationDate": "1950-01-26",
       "areaSqKm": 94163,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Urdu"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -963,6 +1022,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Statehood date used for the present state profile: 26 January 1950; Bihar province was created in 1912."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -1100,7 +1166,10 @@
       "capital": "Raipur",
       "formationDate": "2000-11-01",
       "areaSqKm": 135192,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Chhattisgarhi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -1178,6 +1247,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -1336,7 +1412,10 @@
       "capital": "Panaji",
       "formationDate": "1987-05-30",
       "areaSqKm": 3702,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Konkani",
+        "Marathi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -1413,6 +1492,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -1539,7 +1625,10 @@
       "capital": "Gandhinagar",
       "formationDate": "1960-05-01",
       "areaSqKm": 196244,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Gujarati",
+        "Hindi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -1624,6 +1713,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -1771,7 +1867,10 @@
       "capital": "Chandigarh",
       "formationDate": "1966-11-01",
       "areaSqKm": 44212,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Punjabi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -1841,6 +1940,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -1960,7 +2066,10 @@
       "capital": "Shimla (Dharamshala is the winter/second capital)",
       "formationDate": "1971-01-25",
       "areaSqKm": 55673,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Sanskrit"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -2038,6 +2147,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -2190,7 +2306,24 @@
       "capital": "Ranchi",
       "formationDate": "2000-11-15",
       "areaSqKm": 79716,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Angika",
+        "Bengali",
+        "Bhojpuri",
+        "Ho",
+        "Kharia",
+        "Khortha",
+        "Kurmali",
+        "Kurukh",
+        "Magahi",
+        "Maithili",
+        "Mundari",
+        "Nagpuri",
+        "Odia",
+        "Santali",
+        "Urdu"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -2260,6 +2393,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -2391,7 +2531,9 @@
       "capital": "Bengaluru",
       "formationDate": "1956-11-01",
       "areaSqKm": 191791,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Kannada"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -2476,6 +2618,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -2659,7 +2808,9 @@
       "capital": "Thiruvananthapuram",
       "formationDate": "1956-11-01",
       "areaSqKm": 38852,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Malayalam"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -2744,6 +2895,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -2911,7 +3069,9 @@
       "capital": "Bhopal",
       "formationDate": "1956-11-01",
       "areaSqKm": 308252,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -2989,6 +3149,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -3205,7 +3372,9 @@
       "capital": "Mumbai",
       "formationDate": "1960-05-01",
       "areaSqKm": 307713,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Marathi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -3282,6 +3451,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -3462,7 +3638,10 @@
       "capital": "Imphal",
       "formationDate": "1972-01-21",
       "areaSqKm": 22327,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Meitei (Manipuri)",
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -3532,6 +3711,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -3663,7 +3849,11 @@
       "capital": "Shillong",
       "formationDate": "1972-01-21",
       "areaSqKm": 22429,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "English",
+        "Khasi",
+        "Garo"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -3734,6 +3924,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "meghalayaOfficialLanguageOrdinance2026",
+          "sourceUrl": "https://newsonair.gov.in/meghalaya-declares-khasi-and-garo-as-official-languages-alongside-english/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "The 2026 Ordinance adds Khasi and Garo alongside English; its provisions state that commencement for official purposes is from a date to be notified."
         }
       ],
       "lastVerifiedAt": null,
@@ -3865,7 +4062,10 @@
       "capital": "Aizawl",
       "formationDate": "1987-02-20",
       "areaSqKm": 21081,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Mizo",
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -3935,6 +4135,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -4054,7 +4261,9 @@
       "capital": "Kohima",
       "formationDate": "1963-12-01",
       "areaSqKm": 16579,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -4117,6 +4326,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -4227,7 +4443,9 @@
       "capital": "Bhubaneswar",
       "formationDate": "1950-01-26",
       "areaSqKm": 155707,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Odia"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -4312,6 +4530,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -4471,7 +4696,9 @@
       "capital": "Chandigarh",
       "formationDate": "1966-11-01",
       "areaSqKm": 50362,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Punjabi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -4541,6 +4768,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -4660,7 +4894,9 @@
       "capital": "Jaipur",
       "formationDate": "1956-11-01",
       "areaSqKm": 342239,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -4730,6 +4966,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Final reorganisation/integration date used for the present state profile: 1 November 1956; Rajasthan's formation process began in 1948."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -4885,7 +5128,20 @@
       "capital": "Gangtok",
       "formationDate": "1975-05-16",
       "areaSqKm": 7096,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "English",
+        "Nepali",
+        "Sikkimese",
+        "Lepcha",
+        "Gurung",
+        "Limbu",
+        "Magar",
+        "Mukhia",
+        "Newari",
+        "Rai",
+        "Sherpa",
+        "Tamang"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -4963,6 +5219,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -5085,7 +5348,10 @@
       "capital": "Chennai",
       "formationDate": "1956-11-01",
       "areaSqKm": 130060,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Tamil",
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -5170,6 +5436,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -5375,7 +5648,10 @@
       "capital": "Hyderabad",
       "formationDate": "2014-06-02",
       "areaSqKm": 98684,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Telugu",
+        "Urdu"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -5438,6 +5714,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -5566,7 +5849,11 @@
       "capital": "Agartala",
       "formationDate": "1972-01-21",
       "areaSqKm": 10486,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Bengali",
+        "English",
+        "Kokborok"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -5636,6 +5923,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -5773,7 +6067,10 @@
       "capital": "Lucknow",
       "formationDate": "1950-01-24",
       "areaSqKm": 240928,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Urdu"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -5843,6 +6140,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -5992,7 +6296,10 @@
       "capital": "Dehradun (temporary/winter); Gairsain (summer)",
       "formationDate": "2000-11-09",
       "areaSqKm": 53483,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "Sanskrit"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -6070,6 +6377,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -6228,7 +6542,21 @@
       "capital": "Kolkata",
       "formationDate": "1950-01-26",
       "areaSqKm": 88752,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Bengali",
+        "English",
+        "Nepali",
+        "Urdu",
+        "Hindi",
+        "Odia",
+        "Santali",
+        "Punjabi",
+        "Kamtapuri",
+        "Rajbanshi",
+        "Kurmali",
+        "Kurukh",
+        "Telugu"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -6313,6 +6641,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -6472,7 +6807,10 @@
       "capital": "Sri Vijaya Puram (formerly Port Blair)",
       "formationDate": "1956-11-01",
       "areaSqKm": 8249,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -6550,6 +6888,13 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-30",
           "note": "National notification list; UNESCO World Network status is tracked separately."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -6664,7 +7009,9 @@
       "capital": "Chandigarh",
       "formationDate": "1966-11-01",
       "areaSqKm": 114,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -6726,6 +7073,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -6816,7 +7170,12 @@
       "capital": "Daman",
       "formationDate": "2020-01-26",
       "areaSqKm": 602,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Gujarati",
+        "Konkani",
+        "Marathi",
+        "Hindi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -6878,6 +7237,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -6964,7 +7330,12 @@
       "capital": "New Delhi",
       "formationDate": "1956-11-01",
       "areaSqKm": 1483,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "English",
+        "Urdu",
+        "Punjabi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -7019,6 +7390,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -7100,7 +7478,13 @@
       "capital": "Srinagar (summer); Jammu (winter)",
       "formationDate": "2019-10-31",
       "areaSqKm": 42241,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Kashmiri",
+        "Dogri",
+        "Hindi",
+        "Urdu",
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -7170,6 +7554,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "jkOfficialLanguagesAct2020",
+          "sourceUrl": "https://www.indiacode.nic.in/indiacode/handle/123456789/15512?view_type=browse",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official languages specified by section 3 of the Jammu and Kashmir Official Languages Act, 2020."
         }
       ],
       "lastVerifiedAt": null,
@@ -7305,7 +7696,13 @@
       "capital": "Leh",
       "formationDate": "2019-10-31",
       "areaSqKm": 59146,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Hindi",
+        "English",
+        "Urdu",
+        "Bhoti",
+        "Purgi"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -7383,6 +7780,13 @@
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
           "lastVerifiedAt": "2026-10-30",
           "note": "High Court and principal seat / relevant bench or territorial jurisdiction."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -7567,7 +7971,10 @@
       "capital": "Kavaratti",
       "formationDate": "1956-11-01",
       "areaSqKm": 30,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Malayalam",
+        "English"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -7629,6 +8036,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "Present state/UT constitutional formation or statehood date. Earlier historical province, merger or linguistic-state milestones may differ."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,
@@ -7717,7 +8131,13 @@
       "capital": "Puducherry",
       "formationDate": "1954-11-01",
       "areaSqKm": 490,
-      "officialLanguages": [],
+      "officialLanguages": [
+        "Tamil",
+        "French",
+        "English",
+        "Telugu",
+        "Malayalam"
+      ],
       "introduction": null,
       "political": {
         "chiefMinisterOrAdministrator": null,
@@ -7779,6 +8199,13 @@
           "sourceUrl": "https://www.mha.gov.in/acts-rules",
           "lastVerifiedAt": "2026-10-30",
           "note": "De facto transfer/merger date used for the present UT profile: 1 November 1954; de jure transfer followed in 1962."
+        },
+        {
+          "field": "officialLanguages",
+          "sourceId": "officialLanguagesCrossCheck2026",
+          "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
         }
       ],
       "lastVerifiedAt": null,

@@ -353,6 +353,13 @@
       "url": "https://forest.assam.gov.in/information-services/detail/assam-state-biodiversity-board-apfbc-outcomes-aquatic-biodiversity",
       "referenceDate": "2026-10-30",
       "note": "Official biodiversity assessment resource specifically titled Hajong Lake."
+    },
+    {
+      "id": "cwcIsroRiverBasinAtlas2012",
+      "name": "Central Water Commission and ISRO/NRSC — River Basin Atlas of India",
+      "url": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+      "referenceYear": 2012,
+      "note": "Official CWC–ISRO India-WRIS atlas. State/UT basin associations are curated from CWC basin delineations and the atlas basin maps. The atlas distinguishes CWC's 20 basins from India-WRIS's 25-basin/101-sub-basin framework; this dataset uses the atlas's CWC basin names and labels partial state coverage as an association, not full containment."
     }
   ],
   "regions": [
@@ -591,7 +598,43 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Godavari Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Krishna Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Pennar Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "East flowing rivers between Mahanadi and Pennar",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "East flowing rivers between Pennar and Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -1001,7 +1044,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Brahmaputra Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -1369,7 +1427,29 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Brahmaputra Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Barak and Others Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [
           {
             "name": "Chandubi Lake",
@@ -1770,7 +1850,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -2165,7 +2253,29 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Mahanadi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Godavari Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -2550,7 +2660,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "West flowing rivers from Tapi to Tadri",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tadri to Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -2900,7 +3025,50 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Mahi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Sabarmati Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Narmada Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Tapi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tapi to Tadri",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers of Kutch and Saurashtra including Luni",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -3375,7 +3543,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -3739,7 +3922,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [
           {
             "name": "Khajjiar Lake",
@@ -4144,7 +4342,29 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Subernarekha Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Brahmani and Baitarni Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -4533,7 +4753,43 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Krishna Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Cauvery Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Pennar Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tapi to Tadri",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tadri to Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -5067,7 +5323,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Cauvery Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tadri to Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -5497,7 +5768,50 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Narmada Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Tapi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Mahi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Godavari Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Mahanadi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -6029,7 +6343,43 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Godavari Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Krishna Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Narmada Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Tapi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tapi to Tadri",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [
           {
             "name": "Lonar Lake",
@@ -6649,7 +6999,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Barak and Others Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -6963,7 +7328,29 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Brahmaputra Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Barak and Others Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -7270,7 +7657,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Barak and Others Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -7570,7 +7972,29 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Brahmaputra Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Barak and Others Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -7900,7 +8324,43 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Mahanadi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Brahmani and Baitarni Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Subernarekha Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "East flowing rivers between Mahanadi and Pennar",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Godavari Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -8345,7 +8805,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -8717,7 +9185,43 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Mahi Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers of Kutch and Saurashtra including Luni",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Area of Inland Drainage in Rajasthan",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -9147,7 +9651,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Brahmaputra Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -9518,7 +10037,36 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Cauvery Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Pennar Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "East flowing rivers between Pennar and Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "West flowing rivers from Tadri to Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -10114,7 +10662,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Godavari Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Krishna Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -10486,7 +11049,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Barak and Others Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -10828,7 +11406,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -11381,7 +11967,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [
           {
             "name": "Nainital Lake",
@@ -11792,7 +12386,36 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Brahmaputra Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Subernarekha Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Minor rivers draining into Myanmar and Bangladesh",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -12126,7 +12749,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Drainage area of Andaman and Nicobar Islands",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [
           {
@@ -12397,7 +13028,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [],
         "reservoirs": [],
@@ -12655,7 +13294,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "West flowing rivers from Tapi to Tadri",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [],
         "reservoirs": [],
@@ -12885,7 +13532,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [],
         "reservoirs": [],
@@ -13205,7 +13860,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Ganga Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [
           {
             "name": "Dal Lake",
@@ -13685,7 +14355,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Indus Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "Area of North Ladakh not Draining into Indus",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [
           {
             "name": "Pangong Tso",
@@ -13959,7 +14644,15 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Drainage area of Lakshadweep Islands",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [],
         "reservoirs": [],
@@ -14209,7 +14902,22 @@
             "sourceUrl": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/experiences/nature-and-wildlife/rivers.html"
           }
         ],
-        "riverBasins": [],
+        "riverBasins": [
+          {
+            "name": "Cauvery Basin",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          },
+          {
+            "name": "East flowing rivers between Pennar and Kanyakumari",
+            "description": "State/UT intersects or drains to this basin or composite drainage unit in the CWC River Basin Atlas of India (2012). State boundaries may intersect multiple basins; inclusion does not imply the entire State/UT lies within the basin.",
+            "sourceId": "cwcIsroRiverBasinAtlas2012",
+            "sourceUrl": "https://www.nrsc.gov.in/nrscnew/assets/pdf/atlas/RiverBasinAtlas_Full.pdf",
+            "referenceYear": 2012
+          }
+        ],
         "lakes": [],
         "dams": [],
         "reservoirs": [],

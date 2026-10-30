@@ -651,14 +651,14 @@ function fetchAdmin(iso,adm){
 }
 function normalizeIndiaFeatures(g){
  if(!g||!Array.isArray(g.features))throw Error('Invalid India boundary FeatureCollection');
- var aliases={'PONDICHERRY':'Puducherry','PUDUCHERRY':'Puducherry','ANDAMAN AND NICOBAR ISLANDS':'Andaman and Nicobar Islands','ANDAMAN & NICOBAR ISLANDS':'Andaman and Nicobar Islands','DADAR AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN & DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU AND KASHMIR':'Jammu and Kashmir'};
+ var aliases={'PONDICHERRY':'Puducherry','PUDUCHERRY':'Puducherry','ANDAMAN AND NICOBAR':'Andaman and Nicobar Islands','ANDAMAN AND NICOBAR ISLANDS':'Andaman and Nicobar Islands','ANDAMAN & NICOBAR ISLANDS':'Andaman and Nicobar Islands','DADAR AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI':'Dadra and Nagar Haveli and Daman and Diu','DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA AND NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN & DIU':'Dadra and Nagar Haveli and Daman and Diu','DADRA & NAGAR HAVELI AND DAMAN AND DIU':'Dadra and Nagar Haveli and Daman and Diu','ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU AND KASHMIR':'Jammu and Kashmir'};
  var expected=['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana','Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal','Andaman and Nicobar Islands','Chandigarh','Dadra and Nagar Haveli and Daman and Diu','Delhi','Jammu and Kashmir','Ladakh','Lakshadweep','Puducherry'];
  var groups={};
  g.features.forEach(function(f){
   var raw=featureName(f),props=f&&f.properties||{},values=Object.keys(props).map(function(k){return props[k]}).filter(function(v){return typeof v==='string'&&v.trim()});
   var candidates=[raw].concat(values),name=null;
   for(var ci=0;ci<candidates.length&&!name;ci++){
-   var candidate=candidates[ci],key=candidate.normalize?candidate.normalize('NFD').replace(/[\\u0300-\\u036f]/g,''):candidate;
+   var candidate=candidates[ci],key=candidate.normalize?candidate.normalize('NFD').replace(/[\u0300-\u036f]/g,''):candidate;
    name=aliases[key.toUpperCase()]||expected.find(function(x){return x.toLowerCase()===key.toLowerCase()});
   }
   if(!name)return;

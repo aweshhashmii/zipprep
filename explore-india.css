@@ -111,3 +111,38 @@
   #v-india .atlas-status{font-size:12px!important;line-height:1.55!important}
   #india-map .atlas-state-label{display:none!important}
 }
+
+
+/* India overview: colourful political atlas inspired by the supplied reference. */
+#v-india #india-map,
+#v-india #india-map .leaflet-container{
+  background:#0d1530!important;
+}
+#v-india #india-map{
+  border-radius:18px!important;
+  overflow:hidden!important;
+  isolation:isolate;
+}
+#v-india #india-map .leaflet-overlay-pane svg{
+  overflow:visible;
+}
+#v-india #india-map .leaflet-overlay-pane path.leaflet-interactive{
+  stroke-linejoin:round;
+  stroke-linecap:round;
+}
+#v-india #india-map .atlas-state-label{
+  background:rgba(11,18,39,.9)!important;
+  border:1px solid rgba(255,255,255,.28)!important;
+  color:#f8fafc!important;
+}
+#v-india .atlas-legend{
+  border-color:#293653!important;
+}
+@media(max-width:760px){
+  #v-india #india-map{
+    height:clamp(430px,70svh,650px)!important;
+    min-height:430px!important;
+    max-height:650px!important;
+    border-radius:14px!important;
+  }
+}

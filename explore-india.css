@@ -77,3 +77,37 @@
 #v-india #india-map{height:clamp(460px,76vh,820px)!important;min-height:420px!important}
 #v-india .atlas-legend{justify-content:center}
 @media(max-width:760px){#v-india #india-map{height:clamp(420px,68vh,650px)!important;min-height:390px!important}}
+
+
+/* Mobile/tablet atlas correction: keep the workspace navigation horizontal
+   until there is enough width for the full desktop sidebar. */
+@media(max-width:1099px){
+  .app{display:block!important;min-width:0}
+  .sb{position:sticky!important;top:env(safe-area-inset-top,0px)!important;height:auto!important;
+    min-height:0!important;max-height:none!important;overflow:visible!important;
+    display:block!important;padding:10px 14px!important}
+  .sb .br{display:flex!important;flex-direction:row!important;align-items:center!important;
+    gap:10px!important;padding:0!important}
+  .sb .br img{width:140px!important;height:auto!important;max-height:42px;object-fit:contain}
+  .sb .br small{display:none!important}
+  .sb nav{display:flex!important;flex-direction:row!important;gap:7px!important;
+    overflow-x:auto!important;overflow-y:hidden!important;padding:10px 0 3px!important;
+    scrollbar-width:none}
+  .sb nav::-webkit-scrollbar{display:none}
+  .sb nav p{display:none!important}
+  .sb nav a{display:flex!important;flex:none!important;white-space:nowrap!important;
+    padding:8px 12px!important;font-size:13px!important}
+  .sb .ic{display:none!important}
+  .sb .sk,.sb .ac{display:none!important}
+  .mn{min-width:0!important;width:100%!important}
+  #v-india .blk{padding-left:clamp(12px,3vw,24px)!important;
+    padding-right:clamp(12px,3vw,24px)!important}
+}
+@media(max-width:760px){
+  #v-india #india-map{height:clamp(390px,66svh,590px)!important;
+    min-height:390px!important;max-height:590px!important;width:100%!important}
+  #v-india .atlas-map-card{width:100%!important;max-width:100%!important}
+  #v-india .atlas-legend{justify-content:flex-start!important;gap:8px 14px!important}
+  #v-india .atlas-status{font-size:12px!important;line-height:1.55!important}
+  #india-map .atlas-state-label{display:none!important}
+}

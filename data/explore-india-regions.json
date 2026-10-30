@@ -54,6 +54,11 @@
       "id": "mhaCoastline2020",
       "name": "Ministry of Home Affairs — Annual Report 2020–21 (India's Coastline)",
       "url": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf"
+    },
+    {
+      "id": "tnswaRamsar2026",
+      "name": "Tamil Nadu State Wetlands Authority — Ramsar Sites of India (as on 21 October 2026)",
+      "url": "https://tnswa.tn.gov.in/ramsar-convention.php"
     }
   ],
   "regions": [
@@ -97,6 +102,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -120,7 +132,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -182,7 +203,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -204,7 +233,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -259,7 +297,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -281,7 +327,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -336,7 +391,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -358,7 +421,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "6 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 6
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -413,7 +485,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -435,7 +515,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -497,6 +586,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -520,7 +616,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -589,6 +694,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -612,7 +724,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "5 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 5
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -674,7 +795,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -696,7 +825,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "2 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 2
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -751,7 +889,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -773,7 +919,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "3 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 3
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -828,7 +983,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -850,7 +1013,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -912,6 +1084,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -935,7 +1114,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "4 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 4
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1004,6 +1192,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -1027,7 +1222,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "3 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 3
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1089,7 +1293,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1111,7 +1323,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "5 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 5
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1173,6 +1394,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -1196,7 +1424,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "3 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 3
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1258,7 +1495,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1280,7 +1525,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1412,7 +1666,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1434,7 +1696,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1573,6 +1844,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -1596,7 +1874,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "6 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 6
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1658,7 +1945,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1680,7 +1975,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "6 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 6
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1735,7 +2039,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1757,7 +2069,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "5 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 5
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1812,7 +2133,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1834,7 +2163,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -1896,6 +2234,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -1919,7 +2264,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "20 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 20
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2058,7 +2412,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2080,7 +2442,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2135,7 +2506,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2157,7 +2536,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "14 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 14
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2212,7 +2600,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2234,7 +2630,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2296,6 +2701,13 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
         }
       ],
       "lastVerifiedAt": null,
@@ -2319,7 +2731,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "2 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 2
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2473,7 +2894,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2495,7 +2924,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "1 designated site (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 1
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2719,7 +3157,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2741,7 +3187,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "5 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 5
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],
@@ -2796,7 +3251,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.ramsarSites",
+          "sourceId": "tnswaRamsar2026",
+          "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+          "referenceDate": "2026-10-21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2818,7 +3281,16 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [],
         "biosphereReserves": [],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "name": "Ramsar site tally",
+            "description": "2 designated sites (Tamil Nadu State Wetlands Authority state-wise snapshot dated 21 October 2026).",
+            "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
+            "sourceId": "tnswaRamsar2026",
+            "referenceDate": "2026-10-21",
+            "count": 2
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [],
         "minerals": [],

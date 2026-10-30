@@ -15,7 +15,7 @@ var regionCatalog=null,regionCatalogPromise=null;
 var SOURCE_LINKS=[
 ['Election Commission of India','https://eci.gov.in/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
-['BharatMapService','https://mapservice.gov.in/'],['geoBoundaries','https://www.geoboundaries.org/']
+['BharatMapService','https://mapservice.gov.in/'],['geoBoundaries India ADM1 (CC BY 2.5 IN)','https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/'],['Community boundary source','https://github.com/iamaanahmad/GeoJson-of-Indian-States']
 ];
 var focusMap=null,stateLayer=null,districtLayer=null,selectedDistrictLayer=null,currentState='',currentFeature=null,currentTab='profile',districtFeatures=[],retryButton=null;
 var $=function(id){return document.getElementById(id)};

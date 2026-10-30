@@ -139,7 +139,7 @@ function renderDistrictLayer(data){
   l.on('click',function(){selectDistrict(name,l)});
   l.on('add',function(){var el=l.getElement();if(el){el.setAttribute('tabindex','0');el.setAttribute('role','button');el.setAttribute('aria-label','Select district '+name);el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();l.fire('click')}})}});
  }}).addTo(focusMap);
- var bounds=districtLayer.getBounds();if(bounds&&bounds.isValid())focusMap.fitBounds(bounds,{padding:[25,25],maxZoom:7,animate:!reduced});
+ var bounds=districtLayer.getBounds();if(bounds&&bounds.isValid())focusMap.fitBounds(bounds,{padding:[25,25],maxZoom:9,animate:!reduced});
  renderDistrictDirectory();
 }
 function renderDistrictDirectory(){

@@ -25,6 +25,9 @@ jobs:
       - name: Check Explore India JavaScript syntax
         run: node --check explore-india.js
 
+      - name: Audit regional content, source attribution and exam-data coverage
+        run: node scripts/audit-regional-data.cjs
+
       - name: Validate inline scripts and JSON datasets
         run: |
           node <<'NODE'

@@ -299,64 +299,18 @@
       "note": "Official Ladakh Administration tourism page."
     },
     {
-      "id": "ilecWorldLakeDatabase",
-      "name": "International Lake Environment Committee — World Lake Database, India list",
-      "url": "https://wldb.ilec.or.jp/Search/CountryLakeList/IN",
-      "note": "International lake database with named Indian lakes and geographic coordinates; records are selectively included as lake entries."
+      "id": "sacHighAltitudeLakesAtlas2012",
+      "name": "ISRO Space Applications Centre — National Wetland Atlas: High Altitude Lakes of India",
+      "url": "https://www.sac.gov.in/data/Publication/55/National_Wetland_Atlas_High_Altitude_Lakes_of_India.pdf",
+      "referenceYear": 2012,
+      "note": "Official high-altitude lake inventory for Himalayan states. The 128-page atlas contains mapped lake distributions and state-level statistics; individually named records should only be added after extracting and verifying the atlas maps/tables."
     },
     {
-      "id": "himachalTourismLakes",
-      "name": "Himachal Pradesh Tourism — official portal",
-      "url": "https://himachaltourism.gov.in/",
-      "note": "State tourism portal; selected lake names are included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "uttarakhandTourismLakes",
-      "name": "Uttarakhand Tourism — official portal",
-      "url": "https://uttarakhandtourism.gov.in/",
-      "note": "State tourism portal; selected lake names are included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "rajasthanTourismLakes",
-      "name": "Rajasthan Tourism — official portal",
-      "url": "https://www.tourism.rajasthan.gov.in/",
-      "note": "State tourism portal; selected lake names are included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "goaTourismLakes",
-      "name": "Goa Tourism — official portal",
-      "url": "https://goa-tourism.com/",
-      "note": "State tourism portal; selected lake name is included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "mizoramTourismLakes",
-      "name": "Mizoram Tourism — official portal",
-      "url": "https://mizoramtourism.com/",
-      "note": "State tourism portal; selected lake name is included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "meghalayaTourismLakes",
-      "name": "Meghalaya Tourism — official portal",
-      "url": "https://meghalayatourism.in/",
-      "note": "State tourism portal; selected lake name is included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "assamTourismLakes",
-      "name": "Assam Tourism — official portal",
-      "url": "https://assamtourism.gov.in/",
-      "note": "State tourism portal; selected lake names are included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "chandigarhTourismLakes",
-      "name": "Chandigarh Tourism — official portal",
-      "url": "https://chandigarhtourism.gov.in/",
-      "note": "UT tourism portal; selected lake name is included as a curated reference list, not a complete wetland inventory."
-    },
-    {
-      "id": "westBengalTourismLakes",
-      "name": "West Bengal Tourism — official portal",
-      "url": "https://wbtourism.gov.in/",
-      "note": "State tourism portal; selected lake names are included as a curated reference list, not a complete wetland inventory."
+      "id": "nrscGlacialLakeAtlas2023",
+      "name": "NRSC — Glacial Lake Atlas of Indian Himalayan River Basins",
+      "url": "https://www.nrsc.gov.in/nrscnew/resources_atlas_glacialLake.php?lang_code=en",
+      "referenceYear": "2016–17",
+      "note": "Official inventory of 28,043 glacial lakes >=0.25 ha across Indus, Ganga and Brahmaputra basins, mapped from 2016–17 satellite data. This is a spatial lake-ID inventory, not a register of individually named lakes; keep distinct from named natural lakes."
     }
   ],
   "regions": [
@@ -1290,13 +1244,6 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "assamTourismLakes",
-          "sourceUrl": "https://assamtourism.gov.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -1362,20 +1309,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Chandubi Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "assamTourismLakes",
-            "sourceUrl": "https://assamtourism.gov.in/"
-          },
-          {
-            "name": "Sone Beel",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "assamTourismLakes",
-            "sourceUrl": "https://assamtourism.gov.in/"
-          }
-        ],
+        "lakes": [],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",
@@ -2481,13 +2415,6 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "goaTourismLakes",
-          "sourceUrl": "https://goa-tourism.com/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -2535,14 +2462,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Mayem Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "goaTourismLakes",
-            "sourceUrl": "https://goa-tourism.com/"
-          }
-        ],
+        "lakes": [],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",
@@ -3649,13 +3569,6 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "himachalTourismLakes",
-          "sourceUrl": "https://himachaltourism.gov.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -3733,18 +3646,6 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "pibWetlandTypes2007",
             "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
-          },
-          {
-            "name": "Renuka Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "himachalTourismLakes",
-            "sourceUrl": "https://himachaltourism.gov.in/"
-          },
-          {
-            "name": "Rewalsar Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "himachalTourismLakes",
-            "sourceUrl": "https://himachaltourism.gov.in/"
           }
         ],
         "dams": [
@@ -5938,13 +5839,6 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "ilecWorldLakeDatabase",
-          "sourceUrl": "https://wldb.ilec.or.jp/Search/CountryLakeList/IN",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -6022,24 +5916,6 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "pibWetlandTypes2007",
             "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
-          },
-          {
-            "name": "Powai Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "ilecWorldLakeDatabase",
-            "sourceUrl": "https://wldb.ilec.or.jp/Search/CountryLakeList/IN"
-          },
-          {
-            "name": "Tulsi Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "ilecWorldLakeDatabase",
-            "sourceUrl": "https://wldb.ilec.or.jp/Search/CountryLakeList/IN"
-          },
-          {
-            "name": "Vihar Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "ilecWorldLakeDatabase",
-            "sourceUrl": "https://wldb.ilec.or.jp/Search/CountryLakeList/IN"
           }
         ],
         "dams": [
@@ -6907,13 +6783,6 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "meghalayaTourismLakes",
-          "sourceUrl": "https://meghalayatourism.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -6973,14 +6842,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Umiam Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "meghalayaTourismLakes",
-            "sourceUrl": "https://meghalayatourism.in/"
-          }
-        ],
+        "lakes": [],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",
@@ -7239,13 +7101,6 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "mizoramTourismLakes",
-          "sourceUrl": "https://mizoramtourism.com/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -7293,14 +7148,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Tam Dil",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "mizoramTourismLakes",
-            "sourceUrl": "https://mizoramtourism.com/"
-          }
-        ],
+        "lakes": [],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",
@@ -8684,13 +8532,6 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "rajasthanTourismLakes",
-          "sourceUrl": "https://www.tourism.rajasthan.gov.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -8750,32 +8591,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Pushkar Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "rajasthanTourismLakes",
-            "sourceUrl": "https://www.tourism.rajasthan.gov.in/"
-          },
-          {
-            "name": "Pichola Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "rajasthanTourismLakes",
-            "sourceUrl": "https://www.tourism.rajasthan.gov.in/"
-          },
-          {
-            "name": "Fateh Sagar Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "rajasthanTourismLakes",
-            "sourceUrl": "https://www.tourism.rajasthan.gov.in/"
-          },
-          {
-            "name": "Ana Sagar Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "rajasthanTourismLakes",
-            "sourceUrl": "https://www.tourism.rajasthan.gov.in/"
-          }
-        ],
+        "lakes": [],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",
@@ -11337,13 +11153,6 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "uttarakhandTourismLakes",
-          "sourceUrl": "https://uttarakhandtourism.gov.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -11427,18 +11236,6 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "pibWetlandTypes2007",
             "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
-          },
-          {
-            "name": "Sattal",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "uttarakhandTourismLakes",
-            "sourceUrl": "https://uttarakhandtourism.gov.in/"
-          },
-          {
-            "name": "Naukuchiatal",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "uttarakhandTourismLakes",
-            "sourceUrl": "https://uttarakhandtourism.gov.in/"
           }
         ],
         "dams": [
@@ -11763,13 +11560,6 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "westBengalTourismLakes",
-          "sourceUrl": "https://wbtourism.gov.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -11835,20 +11625,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Mirik Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "westBengalTourismLakes",
-            "sourceUrl": "https://wbtourism.gov.in/"
-          },
-          {
-            "name": "Rabindra Sarobar",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "westBengalTourismLakes",
-            "sourceUrl": "https://wbtourism.gov.in/"
-          }
-        ],
+        "lakes": [],
         "dams": [
           {
             "name": "NRLD-2023 specified large-dam tally",
@@ -12422,13 +12199,6 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "chandigarhTourismLakes",
-          "sourceUrl": "https://chandigarhtourism.gov.in/",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": null,
@@ -12458,14 +12228,7 @@
           }
         ],
         "riverBasins": [],
-        "lakes": [
-          {
-            "name": "Sukhna Lake",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "chandigarhTourismLakes",
-            "sourceUrl": "https://chandigarhtourism.gov.in/"
-          }
-        ],
+        "lakes": [],
         "dams": [],
         "reservoirs": [],
         "wetlands": [
@@ -13604,13 +13367,6 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
-        },
-        {
-          "field": "geography.lakes",
-          "sourceId": "moefccRamsar2026",
-          "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -13743,12 +13499,6 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "pibWetlandTypes2007",
             "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
-          },
-          {
-            "name": "Tso Kar",
-            "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
-            "sourceId": "moefccRamsar2026",
-            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf"
           }
         ],
         "dams": [

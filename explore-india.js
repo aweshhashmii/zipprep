@@ -179,7 +179,7 @@ function renderProfile(name,count){
  var pol=record&&record.political||{},adm=record&&record.administration||{};
  var display=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
  var seatSource=pol.sourceId==='eci'?'Election Commission of India · reference '+(pol.referenceYear||'2026')+' · last verified '+(pol.lastVerifiedAt||'not recorded'):'Election Commission of India · source record pending';
- root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Other changing figures remain pending until an official source record is imported.</p>'+
+ root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Parliamentary seat strengths are sourced from the Election Commission of India; officeholders and other administrative totals remain pending until separately verified.</p>'+
  '<div class="atlas-profile-grid">'+
  stat('Official capital',display(record&&record.capital),'Relevant state / UT government portal · source record pending')+
  stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Verification pending','Government of India administrative structure')+
@@ -201,7 +201,7 @@ function renderProfile(name,count){
  stat('High Court',display(record&&record.highCourt),'Official High Court / state government portal')+
  stat('Official languages',record&&record.officialLanguages&&record.officialLanguages.length?record.officialLanguages.join(', '):'Verification pending','Relevant state / UT government portal')+
  '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p><div id="district-directory-section"><h3>District directory · '+count+' mapped districts</h3><div class="atlas-district-tools"><input id="district-search" type="search" placeholder="Search districts by name…" aria-label="Search districts"><span class="atlas-data-pending">Alphabetical · select a district to highlight it on the map</span></div><div id="district-directory" class="atlas-district-directory"></div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><p class="atlas-data-pending">Select a district on the map or in the directory to open its profile.</p></div></div>'+
- '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. No current officeholders or administrative totals are guessed. Last verified date: '+textSafe(record&&record.lastVerifiedAt||'not yet recorded')+'.</p>'+sourceLinks();
+ '<p class="atlas-data-pending">Data status: values without a verified source record are shown as “Verification pending”. ECI seat strengths last verified 30 Oct 2026; current officeholders and other administrative totals are not yet verified.</p>'+sourceLinks();
 }
 function renderGeography(name){
  var root=$('panel-geography');if(!root)return;

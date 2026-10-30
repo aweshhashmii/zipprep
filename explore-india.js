@@ -11,7 +11,7 @@ var ALIASES={
 'ORISSA':'Odisha','UTTARANCHAL':'Uttarakhand','JAMMU & KASHMIR':'Jammu and Kashmir','JAMMU AND KASHMIR':'Jammu and Kashmir',
 'JAMMU AND KASHMIR (UT)':'Jammu and Kashmir','LADAKH (UT)':'Ladakh'
 };
-var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null,censusDistrictsVerified=false;
+var regionCatalog=null,regionCatalogPromise=null,censusDistricts=null,censusDistrictsVerified=false;var lgdDirectory=null;
 var SOURCE_LINKS=[
 ['Election Commission of India — Terms of the Houses','https://www.eci.gov.in/term-of-the-houses/'],['Parliament of India','https://sansad.in/'],['Ministry of Panchayati Raj','https://panchayat.gov.in/'],
 ['Ministry of Housing and Urban Affairs','https://mohua.gov.in/'],['Census of India','https://censusindia.gov.in/'],
@@ -45,11 +45,28 @@ function loadRegionCatalog(){
   fetch('./data/explore-india-regions.json').then(function(r){if(!r.ok)throw Error('Region catalogue HTTP '+r.status);return r.json()}),
   fetch('./data/region-political-2026.json').then(function(r){if(!r.ok)throw Error('Political dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/india-lgd-administrative-2026.json').then(function(r){if(!r.ok)throw Error('LGD directory HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
-  var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3];
+  var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4];
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
+  lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
+  if(lgdDirectory)data.regions.forEach(function(region){
+   var state=lgdDirectory.states.find(function(item){return item.name.toLowerCase().replace(/&/g,'and')===region.name.toLowerCase().replace(/&/g,'and')});
+   if(!state)return;
+   var currentDistricts=lgdDirectory.districts.filter(function(item){return item.stateLgdCode===state.lgdCode});
+   region.lgdStateCode=state.lgdCode;
+   region.administration=region.administration||{};
+   region.administration.districtCount=currentDistricts.length;
+   region.administration.districtCountSourceId='lgdCurrentDistrictDirectory2026';
+   region.administration.districtCountReferenceDate=lgdDirectory.source.sourceDate;
+   region.districts=region.districts||{};
+   region.districts.currentDirectory=currentDistricts;
+   region.sourceRecords=region.sourceRecords||[];
+   region.sourceRecords.push({sourceId:'lgdCurrentDistrictDirectory2026',title:'Ministry of Panchayati Raj — Local Government Directory (current district directory)',sourceUrl:'https://lgdirectory.gov.in/',referenceDate:lgdDirectory.source.sourceDate,lastVerifiedAt:lgdDirectory.source.ingestedAt,fields:['administration.districtCount','districts.currentDirectory'],note:'Current district names and LGD codes are from the LGD snapshot dated '+lgdDirectory.source.sourceDate+'; district boundary polygons are a separate map layer.'});
+  });
+
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
@@ -186,11 +203,16 @@ function selectDistrict(name,layer){
  var records=region&&region.districts&&region.districts.records||[];
  var record=records.find(function(r){return r.name===name||r.id===name})||{};
  var census=censusDistrictRecord(currentState,name);
+ var districtDirectory=region&&region.districts&&region.districts.currentDirectory||[];
+ var normDistrict=function(v){return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'')};
+ var lgdDistrict=districtDirectory.find(function(item){return normDistrict(item.name)===normDistrict(name)})||null;
+
  var value=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
  var pop=record.population&&record.population.value!==undefined?String(record.population.value)+(record.population.referenceYear?' (Census '+record.population.referenceYear+')':''): 'Not loaded — use a dated Census reference';
  var profile=$('district-selected-profile');
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+
  stat('District headquarters',value(record.headquarters),'Official district administration portal · source record pending')+
+ stat('Current LGD district code',lgdDistrict?lgdDistrict.lgdCode:'Not matched to current LGD directory','Ministry of Panchayati Raj · LGD snapshot '+(lgdDirectory&&lgdDirectory.source.sourceDate||'not loaded'))+
  stat('District status',value(record.status),'Existing district record')+
  stat('District formation date',value(record.formationDate),'Existing district record')+
  stat('Subdivisions',Array.isArray(record.subdivisions)&&record.subdivisions.length?record.subdivisions.join(', '):'Verification pending','Existing district record')+
@@ -223,7 +245,7 @@ function renderProfile(name,count){
  stat('Regional catalogue updated',display(regionCatalog&&regionCatalog.lastUpdatedAt),'Existing catalogue metadata')+
  stat('State boundary source',display(record&&record.boundary&&record.boundary.sourceId),'Existing state boundary metadata')+
  stat('State boundary geometry version / effective date',record&&record.boundary?(display(record.boundary.geometryVersion)+' / '+display(record.boundary.effectiveFrom)):'Verification pending','Existing state boundary metadata')+
- stat('Administrative district count',record&&record.administration&&record.administration.districtCount!==null&&record.administration.districtCount!==undefined?record.administration.districtCount:(record&&record.districts&&record.districts.records&&record.districts.records.length?record.districts.records.length:'Verification pending'),'State/UT administrative records; may differ from currently available boundary polygons')+
+ stat('Current administrative district count',display(adm.districtCount),'Local Government Directory · snapshot '+(adm.districtCountReferenceDate||'not loaded')+'; not the number of map polygons')+
  stat('Districts mapped in boundary service',count,'BharatMapService district polygons · current response; geometry coverage only')+
  stat('Chief Minister / administrator',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
  stat('Governor / Lieutenant Governor',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+

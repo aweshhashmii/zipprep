@@ -271,6 +271,13 @@
       "url": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
       "referenceDate": "2026-07-27",
       "note": "State/UT totals shown on the dashboard as per the ongoing First Census of Water Bodies, data as on 27 July 2026. This is a count of water bodies of multiple classes, not a named lake/reservoir inventory. Only listed state/UT entries are populated; unlisted present-day UTs are not assumed to have zero water bodies."
+    },
+    {
+      "id": "cwcReservoirBulletin2026",
+      "name": "Central Water Commission — Weekly Bulletin on Live Storage Status of 166 Reservoirs",
+      "url": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+      "referenceDate": "2026-04-09",
+      "note": "Named reservoir records are transcribed from the CWC weekly bulletin dated 9 April 2026. The currently imported entries are the first 69 records visible in the bulletin's national table; this is a partial named inventory, not the full 166-reservoir register or a current live-storage feed."
     }
   ],
   "regions": [
@@ -425,6 +432,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -515,7 +530,22 @@
             "totalCount": 164
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Donkarayi",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kandaleru",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -1145,6 +1175,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -1223,7 +1261,15 @@
             "totalCount": 5
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Khandong",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -1497,6 +1543,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -1575,7 +1629,29 @@
             "totalCount": 28
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Badua Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Chandan Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Durgavati",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -1867,6 +1943,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -1939,7 +2023,15 @@
             "totalCount": 346
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Dudhawa",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -2533,6 +2625,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -2605,7 +2705,57 @@
             "totalCount": 491
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Bhadar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Brahmani",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Damanganga",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Dantiwada",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Hathmati",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kadana",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Karjan",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -3215,6 +3365,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -3299,7 +3457,22 @@
             "totalCount": 29
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Gobind Sagar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kol Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -3579,6 +3752,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -3651,7 +3832,22 @@
             "totalCount": 79
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Getalsud",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Konar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -3904,6 +4100,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -3988,7 +4192,71 @@
             "totalCount": 231
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Almatti",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bennithora",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bhadra",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Gerusoppa",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Ghataprabha",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Harangi",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Hemavathy",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kabini",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Karanja",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -4308,6 +4576,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -4386,7 +4662,36 @@
             "totalCount": 61
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Idamalayar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Idukki",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kakki",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kallada",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -4680,6 +4985,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -4764,7 +5077,57 @@
             "totalCount": 1354
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Atal Sagar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bansagar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bargi",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Barna Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Gandhi Sagar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Indira Sagar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kolar Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -5118,6 +5481,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -5202,7 +5573,127 @@
             "totalCount": 2374
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Barvi Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bhama Askhed",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bhandardara",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bhatghar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bhatsa",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Bhima Ujjaini",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Chaskaman",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Darna Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Dhom",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Dimbhe Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Dudhganga",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Girna",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Isapur",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Jayakwadi",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Kanher",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Khadakvasla",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Koyana",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -6386,6 +6877,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -6446,7 +6945,15 @@
             "totalCount": 1
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Doyang HEP",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -6681,6 +7188,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -6759,7 +7274,29 @@
             "totalCount": 210
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Balimela",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Hariharjhor",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Hirakud",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -7407,6 +7944,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -7479,7 +8024,36 @@
             "totalCount": 314
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Bisalpur",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Jaisamand",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Jawai Dam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Jhakam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -8113,6 +8687,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -8203,7 +8785,22 @@
             "totalCount": 127
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Aliyar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          },
+          {
+            "name": "Karayar",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -8654,6 +9251,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -8726,7 +9331,15 @@
             "totalCount": 174
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Kaddam",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -8954,6 +9567,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -9032,7 +9653,15 @@
             "totalCount": 1
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Gumti",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -9279,6 +9908,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -9357,7 +9994,15 @@
             "totalCount": 155
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Jirgo",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",
@@ -10109,6 +10754,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.reservoirs",
+          "sourceId": "cwcReservoirBulletin2026",
+          "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+          "referenceDate": "2026-04-09",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Partial named list: first 69 records of the CWC 166-reservoir national table, not a complete state inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -10187,7 +10840,15 @@
             "totalCount": 36
           }
         ],
-        "reservoirs": [],
+        "reservoirs": [
+          {
+            "name": "Kangsabati",
+            "description": "CWC-monitored reservoir listed in the national weekly bulletin.",
+            "sourceId": "cwcReservoirBulletin2026",
+            "sourceUrl": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-09-04-2026-91.pdf",
+            "referenceDate": "2026-04-09"
+          }
+        ],
         "wetlands": [
           {
             "name": "Wetland inventory (2017–18 snapshot)",

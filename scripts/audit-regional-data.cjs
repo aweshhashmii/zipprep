@@ -66,6 +66,19 @@ for (const district of lgdDistricts) {
   assert(district.lgdCode && district.name, 'LGD district missing code or name.');
 }
 const lgdDistrictCounts = Object.fromEntries(lgdStates.map(state => [state.name, lgdDistricts.filter(d => d.stateLgdCode === state.lgdCode).length]));
+
+const lgdStateByNormalizedName = new Map(lgdStates.map(state => [normalized(state.name).replace(/^the/,''), state]));
+const regionLgdCounts = {};
+for (const region of regions) {
+  const state = lgdStateByNormalizedName.get(normalized(region.name).replace(/^the/,''));
+  assert(!!state, 'Regional catalogue region does not map to an LGD state: ' + region.name);
+  if (state) {
+    const count = lgdDistricts.filter(d => d.stateLgdCode === state.lgdCode).length;
+    assert(count > 0, 'No LGD districts mapped to region: ' + region.name);
+    regionLgdCounts[region.name] = count;
+  }
+}
+
 warnings.push('Current LGD district snapshot date: ' + (lgdData.source && lgdData.source.sourceDate || 'unknown') + '; verify against live LGD/DILRMP before each release.');
 const politicalRows = politicalData.records || [];
 const politicalByName = new Map();
@@ -181,6 +194,7 @@ const report = {
     lgdStateRows: lgdStates.length,
     lgdDistrictRows: lgdDistricts.length,
     lgdDistrictCounts,
+    regionLgdCounts,
     eciSeatTotals: politicalTotals,
     census2011Rows: censusRows.length,
     census2011Aggregate: censusTotals,

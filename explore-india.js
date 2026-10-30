@@ -158,10 +158,10 @@ function censusDistrictRecord(stateName,district){
  if(!Array.isArray(censusDistricts))return null;
  var norm=function(s){return String(s||'').toLowerCase().replace(/district/g,'').replace(/[^a-z0-9]/g,'')};
  var d=norm(district),state=norm(stateName);
- var stateAliases={'delhi':'nctofdelhi','uttarakhand':'uttaranchal','odisha':'orissa','telangana':'andhrapradesh','ladakh':'jammuandkashmir','dadraandnagarhavelianddamananddiu':'damananddiu'};
+ var stateAliases={'delhi':['nctofdelhi'],'odisha':['orissa'],'telangana':['andhrapradesh'],'ladakh':['jammuandkashmir'],'puducherry':['pondicherry'],'dadraandnagarhavelianddamananddiu':['dadraandnagarhaveli','damananddiu']};
+ var allowed=[state].concat(stateAliases[state]||[]);
  var candidates=censusDistricts.filter(function(r){return norm(r.district)===d});
- var exact=candidates.find(function(r){var rs=norm(r.state);return rs===state||rs===(stateAliases[state]||'')});
- return exact||(candidates.length===1?candidates[0]:null);
+ return candidates.find(function(r){return allowed.indexOf(norm(r.state))!==-1})||null;
 }
 function selectDistrict(name,layer){
  if(selectedDistrictLayer&&districtLayer)districtLayer.resetStyle(selectedDistrictLayer);

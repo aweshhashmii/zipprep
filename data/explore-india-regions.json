@@ -264,6 +264,13 @@
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
       "referenceYear": "2017–18",
       "note": "State/UT wetland counts and mapped area reported in the Lok Sabha reply on National Wetland Conservation Programme. The former Dadra and Nagar Haveli and Daman and Diu rows are combined for the present merged UT. This is a historical remote-sensing inventory snapshot, not a current list of individually named wetlands; Ramsar site records remain in the separate Ramsar category."
+    },
+    {
+      "id": "nationalWaterMissionCensus2026",
+      "name": "National Water Mission, Ministry of Jal Shakti — First Census of Water Bodies dashboard",
+      "url": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+      "referenceDate": "2026-08-28",
+      "note": "State/UT totals shown on the dashboard as per the ongoing First Census of Water Bodies, data as on 28 August 2026. This is a count of water bodies of multiple classes, not a named lake/reservoir inventory. Only listed state/UT entries are populated; unlisted present-day UTs are not assumed to have zero water bodies."
     }
   ],
   "regions": [
@@ -410,6 +417,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -605,7 +620,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 190777,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
     },
@@ -744,6 +769,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -953,7 +986,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 993,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Gauhati High Court — Itanagar Permanent Bench"
     },
@@ -1094,6 +1137,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -1296,7 +1347,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 172492,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
     },
@@ -1428,6 +1489,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -1640,7 +1709,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 45793,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Patna High Court — Patna"
     },
@@ -1780,6 +1859,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -1968,7 +2055,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 34000,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Chhattisgarh High Court — Bilaspur"
     },
@@ -2107,6 +2204,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -2263,7 +2368,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 1463,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Bombay High Court — Goa Bench, Panaji"
     },
@@ -2410,6 +2525,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -2626,7 +2749,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 54069,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
     },
@@ -2758,6 +2891,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -2916,7 +3057,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 14898,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -3056,6 +3207,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -3256,7 +3415,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 88017,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
     },
@@ -3402,6 +3571,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -3563,7 +3740,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 107598,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Jharkhand High Court — Ranchi"
     },
@@ -3709,6 +3896,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -3949,7 +4144,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 27013,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
     },
@@ -4095,6 +4300,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -4310,7 +4523,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 55734,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -4449,6 +4672,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -4731,7 +4962,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 82643,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Madhya Pradesh High Court — Jabalpur"
     },
@@ -4869,6 +5110,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -5097,7 +5346,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 97062,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Bombay High Court — Mumbai"
     },
@@ -5229,6 +5488,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -5390,7 +5657,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 1658,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Manipur High Court — Imphal"
     },
@@ -5516,6 +5793,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -5668,7 +5953,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 13332,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
     },
@@ -5800,6 +6095,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -5949,7 +6252,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 2185,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Gauhati High Court — Aizawl Bench"
     },
@@ -6065,6 +6378,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -6196,7 +6517,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 1432,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Gauhati High Court — Kohima Bench"
     },
@@ -6342,6 +6673,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -6576,7 +6915,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 181837,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Orissa High Court — Cuttack"
     },
@@ -6707,6 +7056,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -6901,7 +7258,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 16012,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -7032,6 +7399,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -7253,7 +7628,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 16939,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
     },
@@ -7403,6 +7788,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -7555,7 +7948,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 134,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Sikkim High Court — Gangtok"
     },
@@ -7702,6 +8105,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -8108,7 +8519,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 106957,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Madras High Court — Chennai"
     },
@@ -8225,6 +8646,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -8374,7 +8803,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 64055,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Telangana High Court — Hyderabad"
     },
@@ -8507,6 +8946,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -8674,7 +9121,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 36239,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Tripura High Court — Agartala"
     },
@@ -8814,6 +9271,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -9122,7 +9587,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 245087,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
     },
@@ -9262,6 +9737,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -9450,7 +9933,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 3096,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
     },
@@ -9608,6 +10101,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -9806,7 +10307,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 747480,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
     },
@@ -9938,6 +10449,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -10073,7 +10592,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 3528,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
     },
@@ -10196,6 +10725,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -10319,7 +10856,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 188,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -10552,7 +11099,8 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": []
       },
       "highCourt": "Bombay High Court — territorial jurisdiction"
     },
@@ -10663,6 +11211,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -10765,7 +11321,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 893,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Delhi High Court — New Delhi"
     },
@@ -10900,6 +11466,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -11109,7 +11683,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 9765,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
     },
@@ -11483,7 +12067,8 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": []
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
     },
@@ -11708,7 +12293,8 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": []
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -11827,6 +12413,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.waterBodies",
+          "sourceId": "nationalWaterMissionCensus2026",
+          "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx",
+          "referenceDate": "2026-08-28",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
         }
       ],
       "lastVerifiedAt": null,
@@ -11948,7 +12542,17 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": []
+        "marineProtectedAreas": [],
+        "waterBodies": [
+          {
+            "name": "First Census of Water Bodies — state/UT total",
+            "count": 1171,
+            "referenceDate": "2026-08-28",
+            "description": "Dashboard total for water bodies across reported classes; this is not a count of lakes alone and not an individually named inventory.",
+            "sourceId": "nationalWaterMissionCensus2026",
+            "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
+          }
+        ]
       },
       "highCourt": "Madras High Court — Chennai"
     }

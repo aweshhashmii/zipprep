@@ -29,6 +29,7 @@ const regionsData = read('data/explore-india-regions.json');
 const politicalData = read('data/region-political-2026.json');
 const heritageData = read('data/region-unesco-heritage-2026.json');
 const censusData = read('data/india-district-census-2011.json');
+const districtProfileData = read('data/district-profiles-2026.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -49,6 +50,22 @@ for (const name of expectedNames) assert(regionSet.has(name), 'Missing expected 
 for (const name of regionNames) assert(expectedNames.includes(name), 'Unexpected region: ' + name);
 
 
+
+const districtProfileRows = districtProfileData.records || [];
+const districtProfileCodes = new Set();
+const allowedVerification = new Set(['verified','verification_pending','not_available']);
+for (const row of districtProfileRows) {
+  assert(row.lgdCode && row.name && row.stateLgdCode, 'District profile missing current LGD identity.');
+  assert(!districtProfileCodes.has(row.lgdCode), 'Duplicate district profile LGD code: ' + row.lgdCode);
+  districtProfileCodes.add(row.lgdCode);
+  assert(allowedVerification.has(row.verificationStatus), 'Invalid district profile verification status: ' + row.name);
+  assert(Array.isArray(row.sourceRecords) && row.sourceRecords.length > 0, 'District profile has no source records: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row[field] !== null && row[field] !== undefined && row[field] !== '', 'Verified district field is empty: ' + row.name + '.' + field);
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceUrl && source.sourceUrl.startsWith('https://')),
+      'Verified district field lacks a field-specific HTTPS source: ' + row.name + '.' + field);
+  }
+}
 const lgdStates = lgdData.states || [];
 const lgdDistricts = lgdData.districts || [];
 assert(lgdStates.length === 36, 'LGD snapshot must contain 36 states/UTs.');
@@ -61,6 +78,9 @@ assert(new Set(lgdDistricts.map(x => x.lgdCode)).size === lgdDistricts.length, '
 for (const state of lgdStates) {
   assert(expectedNames.some(name => normalized(name) === normalized(state.name) || (name === 'Delhi' && normalized(state.name) === 'nctofdelhi') || (name === 'Dadra and Nagar Haveli and Daman and Diu' && normalized(state.name) === 'thedadraandnagarhavelianddamananddiu')), 'LGD contains unexpected state/UT name: ' + state.name);
   assert(['state','union_territory'].includes(state.type), 'Invalid LGD state type: ' + state.name);
+}
+for (const profile of districtProfileRows) {
+  assert(lgdDistricts.some(d => d.lgdCode === profile.lgdCode && d.stateLgdCode === profile.stateLgdCode), 'District profile does not match a current LGD district identity: ' + profile.name);
 }
 for (const district of lgdDistricts) {
   assert(lgdStates.some(state => state.lgdCode === district.stateLgdCode), 'District has unknown LGD state code: ' + district.name + ' / ' + district.stateLgdCode);
@@ -195,6 +215,8 @@ const report = {
     eciSeatRows: politicalRows.length,
     lgdStateRows: lgdStates.length,
     lgdDistrictRows: lgdDistricts.length,
+    districtProfilesImported: districtProfileRows.length,
+    districtProfilesWithVerifiedFields: districtProfileRows.filter(row => (row.verifiedFields || []).length > 0).length,
     regionsWithLGDDistrictDirectory: Object.keys(regionLgdCounts).length,
     lgdDistrictCounts,
 
@@ -221,6 +243,7 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '- Source-attributed geography records: **' + report.coverage.sourceAttributedGeographyRecords + '**',
     '- ECI seat rows: **' + report.coverage.eciSeatRows + '/36**',
     '- Current LGD districts: **' + report.coverage.lgdDistrictRows + '** across **' + report.coverage.regionsWithLGDDistrictDirectory + '/36** regions',
+    '- Individually sourced district profiles: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with verified fields)
     '- UNESCO named properties: **' + report.coverage.unescoProperties + '**',
     '- Regions with imported district profiles: **' + report.coverage.regionsWithDistrictProfiles + '/36**',
     '',

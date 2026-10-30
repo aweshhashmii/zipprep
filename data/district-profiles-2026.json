@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "India district profiles — source-backed records",
+  "description": "Individually verified district facts keyed by current LGD district code. Missing records or fields remain pending; current district names are maintained separately in the LGD directory.",
+  "lastUpdatedAt": "2026-10-31",
+  "sourcePolicy": "Each populated field must be supported by a district administration or other authoritative government source. Historical demographic figures must retain their Census reference year and boundary basis.",
+  "records": [
+    {
+      "lgdCode": "309",
+      "name": "Darjeeling",
+      "stateLgdCode": "19",
+      "stateName": "West Bengal",
+      "verificationStatus": "verification_pending",
+      "headquarters": "Darjeeling",
+      "status": null,
+      "formationDate": null,
+      "subdivisions": [
+        "Darjeeling Sadar",
+        "Kurseong",
+        "Mirik",
+        "Siliguri"
+      ],
+      "blocks": [
+        "Darjeeling Pulbazar",
+        "Jorebunglow Sukhiapokhri",
+        "Rangli Rangliot",
+        "Kurseong",
+        "Mirik",
+        "Matigara",
+        "Khoribari",
+        "Naxalbari",
+        "Phansidewa"
+      ],
+      "areaSqKm": null,
+      "population": null,
+      "majorRivers": [],
+      "historicalSignificance": null,
+      "culturalHighlights": [
+        "Darjeeling tea",
+        "Darjeeling Himalayan Railway"
+      ],
+      "description": "The official district portal highlights Darjeeling tea and the Darjeeling Himalayan Railway among the district's cultural and heritage associations.",
+      "verifiedFields": [
+        "headquarters",
+        "subdivisions",
+        "blocks",
+        "culturalHighlights",
+        "description"
+      ],
+      "sourceRecords": [
+        {
+          "field": "headquarters",
+          "sourceId": "darjeelingDistrictAdministrationSetup",
+          "title": "Darjeeling District Administration — Administrative Setup",
+          "sourceUrl": "https://darjeeling.gov.in/administrative-setup/",
+          "referenceDate": "accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Identifies Darjeeling Sadar as district headquarters."
+        },
+        {
+          "field": "subdivisions",
+          "sourceId": "darjeelingDistrictAdministrationSetup",
+          "title": "Darjeeling District Administration — Administrative Setup",
+          "sourceUrl": "https://darjeeling.gov.in/administrative-setup/",
+          "referenceDate": "accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Lists Darjeeling Sadar, Kurseong, Mirik and Siliguri subdivisions."
+        },
+        {
+          "field": "blocks",
+          "sourceId": "darjeelingDistrictAdministrationSetup",
+          "title": "Darjeeling District Administration — Administrative Setup",
+          "sourceUrl": "https://darjeeling.gov.in/administrative-setup/",
+          "referenceDate": "accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Lists nine development blocks under the four subdivisions."
+        },
+        {
+          "field": "culturalHighlights",
+          "sourceId": "darjeelingDistrictOfficialPortal",
+          "title": "Darjeeling District Administration — Official District Portal",
+          "sourceUrl": "https://darjeeling.gov.in/",
+          "referenceDate": "accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Official district portal identifies Darjeeling tea and the Darjeeling Himalayan Railway as district heritage associations."
+        },
+        {
+          "field": "description",
+          "sourceId": "darjeelingDistrictOfficialPortal",
+          "title": "Darjeeling District Administration — Official District Portal",
+          "sourceUrl": "https://darjeeling.gov.in/",
+          "referenceDate": "accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31"
+        }
+      ]
+    }
+  ]
+}

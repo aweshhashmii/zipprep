@@ -156,7 +156,7 @@ function renderDistrictDirectory(){
 }
 function censusDistrictRecord(stateName,district){
  if(!Array.isArray(censusDistricts))return null;
- var norm=function(s){return String(s||'').toLowerCase().replace(/district/g,'').replace(/[^a-z0-9]/g,'')};
+ var norm=function(s){return String(s||'').toLowerCase().replace(/\([^)]*\)/g,'').replace(/district/g,'').replace(/[^a-z0-9]/g,'')};
  var d=norm(district),state=norm(stateName);
  var stateAliases={'delhi':['nctofdelhi'],'odisha':['orissa'],'telangana':['andhrapradesh'],'ladakh':['jammuandkashmir'],'puducherry':['pondicherry'],'dadraandnagarhavelianddamananddiu':['dadraandnagarhaveli','damananddiu']};
  var allowed=[state].concat(stateAliases[state]||[]);

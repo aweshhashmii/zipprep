@@ -64,7 +64,7 @@ function loadRegionCatalog(){
    region.districts=region.districts||{};
    region.districts.currentDirectory=currentDistricts;
    region.sourceRecords=region.sourceRecords||[];
-   region.sourceRecords.push({sourceId:'lgdCurrentDistrictDirectory2026',title:'Ministry of Panchayati Raj — Local Government Directory (current district directory)',sourceUrl:'https://lgdirectory.gov.in/',referenceDate:lgdDirectory.source.sourceDate,lastVerifiedAt:lgdDirectory.source.ingestedAt,fields:['administration.districtCount','districts.currentDirectory'],note:'Current district names and LGD codes are from the LGD snapshot dated '+lgdDirectory.source.sourceDate+'; district boundary polygons are a separate map layer.'});
+   if(!region.sourceRecords.some(function(src){return src.sourceId==='lgdCurrentDistrictDirectory2026'}))   region.sourceRecords.push({sourceId:'lgdCurrentDistrictDirectory2026',title:'Ministry of Panchayati Raj — Local Government Directory (current district directory)',sourceUrl:'https://lgdirectory.gov.in/',referenceDate:lgdDirectory.source.sourceDate,lastVerifiedAt:lgdDirectory.source.ingestedAt,fields:['administration.districtCount','districts.currentDirectory'],note:'Current district names and LGD codes are from the LGD snapshot dated '+lgdDirectory.source.sourceDate+'; district boundary polygons are a separate map layer.'});
   });
 
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');

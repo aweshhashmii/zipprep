@@ -76,6 +76,7 @@ for (const region of regions) {
   if (state) {
     const count = lgdDistricts.filter(d => d.stateLgdCode === state.lgdCode).length;
     assert(count > 0, 'No LGD districts mapped to region: ' + region.name);
+    assert(region.administration && region.administration.districtCount === count, 'Regional catalogue LGD district count does not match snapshot: ' + region.name);
     regionLgdCounts[region.name] = count;
   }
 }

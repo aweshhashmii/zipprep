@@ -9604,12 +9604,26 @@
     }
   ],
   "source": {
-    "name": "Census of India — Primary Census Abstract / Population Finder",
-    "url": "https://censusindia.gov.in/census.website/en/data/population-finder",
+    "name": "Office of the Registrar General & Census Commissioner, India — Primary Census Abstract (PCA SD), 2011",
+    "url": "https://censusindia.gov.in/nada/index.php/catalog/6191",
     "licenseNote": "Historical 2011 administrative boundaries and figures; not current population estimates.",
-    "provenance": "Imported from a publicly accessible Census 2011 district PCA CSV mirror at https://github.com/nikhilvinoy/Kerala-Census/blob/master/india-districts-census-2011.csv; verify values against the official Census of India source before treating as authoritative. The mirror repository does not declare a license.",
+    "provenance": "Current JSON records were imported from a third-party CSV mirror of the 2011 PCA. The official Census of India NADA catalogue identifies the corresponding original dataset and downloadable XLSX. The local rows have not yet been reconciled record-by-record against that official XLSX; therefore they remain withheld in the application.",
     "verificationStatus": "secondary_source_unverified",
-    "displayPolicy": "Do not display as verified Census of India data until every field is cross-checked against official primary Census tables.",
-    "verificationNote": "The imported CSV mirror is not the Census of India itself and its repository does not declare a licence. Values are retained for audit/reference only and are withheld by the application until official verification is recorded."
+    "displayPolicy": "Do not display district demographic rows until every record has been reconciled against the official Census of India PCA SD 2011 primary XLSX and mapped to the correct historical district.",
+    "verificationNote": "The source mirror is not the Census of India itself. The official primary dataset is linked above. National aggregate reconciliation is a quality check only and is not row-level verification.",
+    "downloadUrl": "https://censusindia.gov.in/nada/index.php/catalog/6191/download/9268/DDW_PCA0000_2011_Indiastatedist.xlsx",
+    "officialPopulationFinderUrl": "https://censusindia.gov.in/census.website/en/data/population-finder",
+    "aggregateReconciliation": {
+      "status": "aggregate_only",
+      "districtRows": 640,
+      "historicalStateUtUnits": 35,
+      "population": 1210854977,
+      "male": 623270258,
+      "female": 587584719,
+      "literate": 763638812,
+      "scheduledCastes": 201378372,
+      "scheduledTribes": 104545716,
+      "note": "Aggregate totals reconcile to published Census 2011 national totals, but this does not establish row-level accuracy or current-district matching."
+    }
   }
 }

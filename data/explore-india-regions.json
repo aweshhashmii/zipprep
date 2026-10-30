@@ -59,6 +59,22 @@
       "id": "tnswaRamsar2026",
       "name": "Tamil Nadu State Wetlands Authority — Ramsar Sites of India (as on 21 October 2026)",
       "url": "https://tnswa.tn.gov.in/ramsar-convention.php"
+    },
+    {
+      "id": "mohfwArea2011",
+      "name": "Ministry of Health and Family Welfare — Rural Health Statistics 2020–21, Table 1 (area figures sourced from Census 2011)",
+      "url": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+      "referenceYear": "2011"
+    },
+    {
+      "id": "capitalGovSources2026",
+      "name": "Government state/UT sources for capital details (including seasonal/administrative qualifications)",
+      "url": "https://igod.gov.in/sg/states"
+    },
+    {
+      "id": "mhaFormationHistory",
+      "name": "Ministry of Home Affairs — Centre-State Relations / state reorganisation history and official reorganisation legislation",
+      "url": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf"
     }
   ],
   "regions": [
@@ -66,9 +82,9 @@
       "id": "IN-AP",
       "name": "Andhra Pradesh",
       "regionType": "state",
-      "capital": null,
+      "capital": "Amaravati",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 162975,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -109,6 +125,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://egazette.gov.in/WriteReadData/2026/271493.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -174,9 +205,9 @@
       "id": "IN-AR",
       "name": "Arunachal Pradesh",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Itanagar",
+      "formationDate": "1987-02-20",
+      "areaSqKm": 83743,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -210,6 +241,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -268,9 +321,9 @@
       "id": "IN-AS",
       "name": "Assam",
       "regionType": "state",
-      "capital": null,
+      "capital": "Dispur",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 78438,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -304,6 +357,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://mdoner.gov.in/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -362,9 +430,9 @@
       "id": "IN-BR",
       "name": "Bihar",
       "regionType": "state",
-      "capital": null,
+      "capital": "Patna",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 94163,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -398,6 +466,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -456,9 +539,9 @@
       "id": "IN-CT",
       "name": "Chhattisgarh",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Raipur",
+      "formationDate": "2000-11-01",
+      "areaSqKm": 135192,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -492,6 +575,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/acts?page=0",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -550,9 +655,9 @@
       "id": "IN-GA",
       "name": "Goa",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Panaji",
+      "formationDate": "1987-05-30",
+      "areaSqKm": 3702,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -593,6 +698,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -658,9 +785,9 @@
       "id": "IN-GJ",
       "name": "Gujarat",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Gandhinagar",
+      "formationDate": "1960-05-01",
+      "areaSqKm": 196244,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -701,6 +828,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/The%2520Bombay%2520Reorganisation%2520Act%25201960_270614%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -766,9 +915,9 @@
       "id": "IN-HR",
       "name": "Haryana",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Chandigarh",
+      "formationDate": "1966-11-01",
+      "areaSqKm": 44212,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -802,6 +951,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/acts-rules?page=9",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -860,9 +1031,9 @@
       "id": "IN-HP",
       "name": "Himachal Pradesh",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Shimla (Dharamshala is the winter/second capital)",
+      "formationDate": "1971-01-25",
+      "areaSqKm": 55673,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -896,6 +1067,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -954,9 +1147,9 @@
       "id": "IN-JH",
       "name": "Jharkhand",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Ranchi",
+      "formationDate": "2000-11-15",
+      "areaSqKm": 79716,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -990,6 +1183,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/acts?page=0",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -1048,9 +1263,9 @@
       "id": "IN-KA",
       "name": "Karnataka",
       "regionType": "state",
-      "capital": null,
+      "capital": "Bengaluru",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 191791,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1091,6 +1306,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -1156,9 +1386,9 @@
       "id": "IN-KL",
       "name": "Kerala",
       "regionType": "state",
-      "capital": null,
+      "capital": "Thiruvananthapuram",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 38852,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1199,6 +1429,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -1264,9 +1509,9 @@
       "id": "IN-MP",
       "name": "Madhya Pradesh",
       "regionType": "state",
-      "capital": null,
+      "capital": "Bhopal",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 308252,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1300,6 +1545,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -1358,9 +1618,9 @@
       "id": "IN-MH",
       "name": "Maharashtra",
       "regionType": "state",
-      "capital": null,
+      "capital": "Mumbai",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 307713,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1401,6 +1661,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -1466,9 +1741,9 @@
       "id": "IN-MN",
       "name": "Manipur",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Imphal",
+      "formationDate": "1972-01-21",
+      "areaSqKm": 22327,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1502,6 +1777,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -1560,9 +1857,9 @@
       "id": "IN-ML",
       "name": "Meghalaya",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Shillong",
+      "formationDate": "1972-01-21",
+      "areaSqKm": 22429,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1589,7 +1886,30 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1637,9 +1957,9 @@
       "id": "IN-MZ",
       "name": "Mizoram",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Aizawl",
+      "formationDate": "1987-02-20",
+      "areaSqKm": 21081,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1673,6 +1993,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -1731,9 +2073,9 @@
       "id": "IN-NL",
       "name": "Nagaland",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Kohima",
+      "formationDate": "1963-12-01",
+      "areaSqKm": 16579,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1760,7 +2102,30 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1808,9 +2173,9 @@
       "id": "IN-OD",
       "name": "Odisha",
       "regionType": "state",
-      "capital": null,
+      "capital": "Bhubaneswar",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 155707,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1851,6 +2216,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -1916,9 +2296,9 @@
       "id": "IN-PB",
       "name": "Punjab",
       "regionType": "state",
-      "capital": null,
+      "capital": "Chandigarh",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 50362,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -1952,6 +2332,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://punjab.gov.in/know-punjab/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2010,9 +2405,9 @@
       "id": "IN-RJ",
       "name": "Rajasthan",
       "regionType": "state",
-      "capital": null,
+      "capital": "Jaipur",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 342239,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2046,6 +2441,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2104,9 +2514,9 @@
       "id": "IN-SK",
       "name": "Sikkim",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Gangtok",
+      "formationDate": "1975-05-16",
+      "areaSqKm": 7096,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2140,6 +2550,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -2198,9 +2630,9 @@
       "id": "IN-TN",
       "name": "Tamil Nadu",
       "regionType": "state",
-      "capital": null,
+      "capital": "Chennai",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 130060,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2241,6 +2673,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2306,9 +2753,9 @@
       "id": "IN-TS",
       "name": "Telangana",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Hyderabad",
+      "formationDate": "2014-06-02",
+      "areaSqKm": 98684,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2335,7 +2782,30 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/en/acts?page=0",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2383,9 +2853,9 @@
       "id": "IN-TR",
       "name": "Tripura",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Agartala",
+      "formationDate": "1972-01-21",
+      "areaSqKm": 10486,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2419,6 +2889,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/sites/default/files/2022-08/CCSAP-REPORT-060111%5B1%5D.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -2477,9 +2969,9 @@
       "id": "IN-UP",
       "name": "Uttar Pradesh",
       "regionType": "state",
-      "capital": null,
+      "capital": "Lucknow",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 240928,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2513,6 +3005,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2571,9 +3078,9 @@
       "id": "IN-UK",
       "name": "Uttarakhand",
       "regionType": "state",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Dehradun (temporary/winter); Gairsain (summer)",
+      "formationDate": "2000-11-09",
+      "areaSqKm": 53483,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2607,6 +3114,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://cm.uk.gov.in/geography/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://cm.uk.gov.in/geography/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -2665,9 +3194,9 @@
       "id": "IN-WB",
       "name": "West Bengal",
       "regionType": "state",
-      "capital": null,
+      "capital": "Kolkata",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 88752,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2708,6 +3237,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2773,9 +3317,9 @@
       "id": "IN-AN",
       "name": "Andaman and Nicobar Islands",
       "regionType": "union_territory",
-      "capital": null,
+      "capital": "Sri Vijaya Puram (formerly Port Blair)",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 8249,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2809,6 +3353,21 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://andamannicobar.gov.in/about",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2865,9 +3424,9 @@
       "id": "IN-CH",
       "name": "Chandigarh",
       "regionType": "union_territory",
-      "capital": null,
+      "capital": "Chandigarh",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 114,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2901,6 +3460,21 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -2959,9 +3533,9 @@
       "id": "IN-DHDD",
       "name": "Dadra and Nagar Haveli and Daman and Diu",
       "regionType": "union_territory",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Daman",
+      "formationDate": "2020-01-26",
+      "areaSqKm": 602,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -2995,6 +3569,28 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://ddd.gov.in/faqs/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://ddd.gov.in/",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -3051,9 +3647,9 @@
       "id": "IN-DL",
       "name": "Delhi",
       "regionType": "union_territory",
-      "capital": null,
+      "capital": "New Delhi",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 1483,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -3080,7 +3676,23 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -3128,8 +3740,8 @@
       "id": "IN-JK",
       "name": "Jammu and Kashmir",
       "regionType": "union_territory",
-      "capital": null,
-      "formationDate": null,
+      "capital": "Srinagar (summer); Jammu (winter)",
+      "formationDate": "2019-10-31",
       "areaSqKm": null,
       "officialLanguages": [],
       "introduction": null,
@@ -3164,6 +3776,20 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://jmc.jk.gov.in/JMP2032.pdf",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/jammu-kashmir-ladakh-affairs",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -3222,9 +3848,9 @@
       "id": "IN-LA",
       "name": "Ladakh",
       "regionType": "union_territory",
-      "capital": null,
-      "formationDate": null,
-      "areaSqKm": null,
+      "capital": "Leh",
+      "formationDate": "2019-10-31",
+      "areaSqKm": 59146,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -3258,6 +3884,28 @@
           "sourceUrl": "https://tnswa.tn.gov.in/ramsar-convention.php",
           "referenceDate": "2026-10-21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
+        },
+        {
+          "field": "formationDate",
+          "sourceId": "mhaFormationHistory",
+          "sourceUrl": "https://www.mha.gov.in/jammu-kashmir-ladakh-affairs",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         }
       ],
       "lastVerifiedAt": null,
@@ -3316,9 +3964,9 @@
       "id": "IN-LD",
       "name": "Lakshadweep",
       "regionType": "union_territory",
-      "capital": null,
+      "capital": "Kavaratti",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 30,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -3352,6 +4000,21 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,
@@ -3408,9 +4071,9 @@
       "id": "IN-PY",
       "name": "Puducherry",
       "regionType": "union_territory",
-      "capital": null,
+      "capital": "Puducherry",
       "formationDate": null,
-      "areaSqKm": null,
+      "areaSqKm": 490,
       "officialLanguages": [],
       "introduction": null,
       "political": {
@@ -3444,6 +4107,21 @@
           "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
           "referenceYear": "2020–21",
           "lastVerifiedAt": "2026-10-30"
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "mohfwArea2011",
+          "sourceUrl": "https://mohfw.gov.in/sites/default/files/rhs20-21_2.pdf",
+          "referenceYear": "2011",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Census 2011 area figure reproduced in MoHFW Rural Health Statistics 2020–21 Table 1; historical baseline, not a new 2026 survey."
+        },
+        {
+          "field": "capital",
+          "sourceId": "capitalGovSources2026",
+          "sourceUrl": "https://igod.gov.in/sg/states",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         }
       ],
       "lastVerifiedAt": null,

@@ -647,8 +647,11 @@ function fetchAdmin(iso,adm){
     });
   })).then(function(features){return {type:'FeatureCollection',features:features}});
  }
- return trySource(0).catch(function(e){
-  throw Error('All independent boundary sources failed. '+e.message+'. Tried DataMeet-derived state GeoJSON, a second complete India boundary dataset, and individual state files with CDN and raw-host fallbacks.');
+ return loadGeoJSON('./data/india-states-36.geojson').then(function(g){
+  g=validate(g,'Bundled India boundary file');
+  return normalizeIndiaFeatures(g);
+ }).catch(function(){return trySource(0)}).catch(function(e){
+  throw Error('All bundled and independent boundary sources failed. '+e.message+'. Tried the local 36-region GeoJSON, a second complete India boundary dataset, and individual state files with CDN and raw-host fallbacks.');
  });
 }
 function normalizeIndiaFeatures(g){

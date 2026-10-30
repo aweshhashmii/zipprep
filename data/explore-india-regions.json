@@ -180,6 +180,27 @@
       "url": "https://www.wii.gov.in/mee-reports",
       "referenceDate": "2025-08-05",
       "note": "WII national aggregate reporting for national parks, wildlife sanctuaries, tiger reserves and coastal/marine protected areas; not a complete state-wise name register."
+    },
+    {
+      "id": "pibProtectedAreas2023",
+      "name": "PIB / Ministry of Environment, Forest and Climate Change — State-wise National Parks and Wildlife Sanctuaries (Rajya Sabha reply)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+      "referenceDate": "2023-08-10",
+      "note": "State-wise counts only; national totals in this snapshot are 106 national parks and 570 wildlife sanctuaries. Do not conflate with later MoEFCC aggregate snapshots."
+    },
+    {
+      "id": "wiiNationalParks2025",
+      "name": "WII National Wildlife Database — National Parks (repackaged by Dataful)",
+      "url": "https://dataful.in/datasets/1338/",
+      "referenceDate": "2025-04",
+      "note": "106 named parks, source attributed to ENVIS Centre on Wildlife & Protected Areas; last updated on Dataful April 2025. Underlying notification year range 1936–2021."
+    },
+    {
+      "id": "wiiWildlifeSanctuaries2025",
+      "name": "WII National Wildlife Database — Wildlife Sanctuaries (repackaged by Dataful)",
+      "url": "https://dataful.in/datasets/1337/",
+      "referenceDate": "2025-02",
+      "note": "574 named sanctuary records, source attributed to ENVIS Centre on Wildlife & Protected Areas; Dataful page last updated December 2025, records current to February 2025."
     }
   ],
   "regions": [
@@ -285,6 +306,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -377,8 +414,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 3,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 13,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Nagarjunsagar-Srisailam",
@@ -537,6 +592,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -635,8 +706,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 13,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Kamlang",
@@ -802,6 +891,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -882,8 +987,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 7,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 17,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Kaziranga",
@@ -1054,6 +1177,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -1134,8 +1273,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 12,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Valmiki",
@@ -1279,6 +1436,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -1353,8 +1526,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 3,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 11,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Achanakmar",
@@ -1524,6 +1715,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -1586,8 +1793,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 6,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -1745,6 +1970,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -1819,8 +2060,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 4,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 23,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -1972,6 +2231,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -2034,8 +2309,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 7,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -2179,6 +2472,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -2265,8 +2574,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 5,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 28,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -2425,6 +2752,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -2499,8 +2842,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 11,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Palamau",
@@ -2650,6 +3011,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -2736,8 +3113,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 5,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 35,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Bandipur",
@@ -2927,6 +3322,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -3007,8 +3418,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 6,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 18,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Parambikulam",
@@ -3181,6 +3610,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -3267,8 +3712,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 11,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 24,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Bandhavgarh",
@@ -3483,6 +3946,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -3569,8 +4048,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 6,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 49,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Bor",
@@ -3743,6 +4240,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -3817,8 +4330,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 7,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -3956,6 +4487,22 @@
           "sourceUrl": "https://newsonair.gov.in/meghalaya-declares-khasi-and-garo-as-official-languages-alongside-english/",
           "lastVerifiedAt": "2026-10-30",
           "note": "The 2026 Ordinance adds Khasi and Garo alongside English; its provisions state that commencement for official purposes is from a date to be notified."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -4030,8 +4577,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 4,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -4167,6 +4732,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -4229,8 +4810,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 9,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Dampa",
@@ -4358,6 +4957,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -4420,8 +5035,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 4,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -4562,6 +5195,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -4642,8 +5291,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 19,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Satkosia",
@@ -4800,6 +5467,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -4862,8 +5545,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 0,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 13,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -4998,6 +5699,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -5072,8 +5789,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 5,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 25,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Dholpur-Karauli",
@@ -5251,6 +5986,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -5307,8 +6058,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 7,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -5468,6 +6237,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -5560,8 +6345,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 5,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 33,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Anamalai",
@@ -5746,6 +6549,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -5820,8 +6639,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 3,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 9,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Amrabad",
@@ -5955,6 +6792,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -6035,8 +6888,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 4,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -6172,6 +7043,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -6252,8 +7139,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 26,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Dudhwa",
@@ -6409,6 +7314,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -6495,8 +7416,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 6,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 7,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Corbett",
@@ -6673,6 +7612,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -6753,8 +7708,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 6,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 16,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "Buxa",
@@ -6920,6 +7893,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -6970,8 +7959,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 6,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 97,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -7105,6 +8112,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -7138,8 +8161,26 @@
         "dams": [],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 0,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -7269,6 +8310,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -7308,8 +8365,26 @@
         "dams": [],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 0,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -7422,6 +8497,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -7455,8 +8546,26 @@
         "dams": [],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 0,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -7586,6 +8695,22 @@
           "sourceUrl": "https://www.indiacode.nic.in/indiacode/handle/123456789/15512?view_type=browse",
           "lastVerifiedAt": "2026-10-30",
           "note": "Official languages specified by section 3 of the Jammu and Kashmir Official Languages Act, 2020."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -7672,8 +8797,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 4,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 14,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -7812,6 +8955,22 @@
           "sourceUrl": "https://egazette.gov.in/WriteReadData/2025/263538.pdf",
           "lastVerifiedAt": "2026-10-30",
           "note": "Section 3 specifies English, Hindi, Urdu, Bhoti and Purgi as official languages, effective from a date appointed by notification. MHA lists the same five languages."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -7947,8 +9106,26 @@
         ],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 2,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -8068,6 +9245,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -8101,8 +9294,26 @@
         "dams": [],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 0,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",
@@ -8231,6 +9442,22 @@
           "sourceUrl": "https://www.jagranjosh.com/general-knowledge/list-of-official-languages-of-indian-states-and-union-territories-1624022980-1",
           "lastVerifiedAt": "2026-10-30",
           "note": "Consolidated cross-check against state official-language enactments indexed by PRS; special territorial or regional provisions are retained in the language labels where known."
+        },
+        {
+          "field": "geography.nationalParks",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
+        },
+        {
+          "field": "geography.wildlifeSanctuaries",
+          "sourceId": "pibProtectedAreas2023",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3",
+          "referenceDate": "2023-08-10",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "Official state/UT counts from the PIB/MoEFCC Rajya Sabha annexure. National totals in this historical snapshot: 106 national parks and 570 wildlife sanctuaries."
         }
       ],
       "lastVerifiedAt": null,
@@ -8276,8 +9503,26 @@
         "dams": [],
         "reservoirs": [],
         "wetlands": [],
-        "nationalParks": [],
-        "wildlifeSanctuaries": [],
+        "nationalParks": [
+          {
+            "name": "National park count (official 2023 snapshot)",
+            "count": 0,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
+        "wildlifeSanctuaries": [
+          {
+            "name": "Wildlife sanctuary count (official 2023 snapshot)",
+            "count": 1,
+            "referenceDate": "2023-08-10",
+            "description": "State/UT count reported by MoEFCC in a Rajya Sabha reply. This is a dated count, not a current individual-name list.",
+            "sourceId": "pibProtectedAreas2023",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1947431&lang=2&reg=3"
+          }
+        ],
         "tigerReserves": [
           {
             "name": "No tiger reserve listed",

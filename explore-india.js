@@ -43,9 +43,10 @@ function loadRegionCatalog(){
  if(regionCatalog)return Promise.resolve(regionCatalog);
  if(!regionCatalogPromise)regionCatalogPromise=Promise.all([
   fetch('./data/explore-india-regions.json').then(function(r){if(!r.ok)throw Error('Region catalogue HTTP '+r.status);return r.json()}),
-  fetch('./data/region-political-2026.json').then(function(r){if(!r.ok)throw Error('Political dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-political-2026.json').then(function(r){if(!r.ok)throw Error('Political dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
-  var data=parts[0],political=parts[1];
+  var data=parts[0],political=parts[1],heritage=parts[2];
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
@@ -59,6 +60,12 @@ function loadRegionCatalog(){
    region.political.lastVerifiedAt=row.lastVerifiedAt;
    region.sourceRecords=region.sourceRecords||[];
    region.sourceRecords.push({id:'eci-seats-2026',sourceId:row.sourceId,title:political.title,url:row.sourceUrl,fields:['political.lokSabhaSeats','political.rajyaSabhaSeats','political.assemblySeats'],referenceYear:row.referenceYear,lastVerifiedAt:row.lastVerifiedAt});
+  });
+  if(heritage&&Array.isArray(heritage.records))data.regions.forEach(function(region){
+   var entries=heritage.records.filter(function(item){return item.regionName===region.name});
+   if(!entries.length)return;
+   region.geography=region.geography||{};
+   region.geography.unescoWorldHeritage=entries.map(function(item){return {name:item.name,designation:item.designation,inscriptionYear:item.inscriptionYear,description:item.description,sourceUrl:item.sourceUrl,sourceId:item.sourceId,lastVerifiedAt:item.lastVerifiedAt}});
   });
   regionCatalog=data;return data;
  }).catch(function(e){regionCatalogPromise=null;throw e});
@@ -208,7 +215,7 @@ function renderGeography(name){
   ['UNESCO World Heritage','unescoWorldHeritage'],['Monuments & archaeology','monuments'],['Mineral resources','minerals'],
   ['Major crops','crops'],['Climate','climate'],['Soil types','soilTypes'],['GI-tagged products','giProducts'],['Arts & culture','culturalHighlights'],['Renewable energy projects','renewableEnergyProjects'],['Industrial corridors','industrialCorridors'],['River-valley projects','riverValleyProjects'],['Environmental challenges','environmentalChallenges'],['Disaster-prone regions','disasterProneRegions']
  ];
- function itemText(v){if(typeof v==='string')return textSafe(v);if(!v)return '';var title=v.name||v.title||v.officialName||'Verified entry';var desc=v.description||v.notes||'';return '<b>'+textSafe(title)+'</b>'+(desc?'<br>'+textSafe(desc):'')+(v.sourceUrl?' · <a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener">source</a>':'')}
+ function itemText(v){if(typeof v==='string')return textSafe(v);if(!v)return '';var title=v.name||v.title||v.officialName||'Verified entry';var desc=v.description||v.notes||'';var meta=[v.designation,v.inscriptionYear?'Inscribed '+v.inscriptionYear:''].filter(Boolean).join(' · ');return '<b>'+textSafe(title)+'</b>'+(meta?'<br><small>'+textSafe(meta)+'</small>':'')+(desc?'<br>'+textSafe(desc):'')+(v.sourceUrl?' · <a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener">source</a>':'')}
  root.innerHTML='<p class="atlas-kicker">PHYSICAL GEOGRAPHY · NATURAL HERITAGE · EXAM FACTS</p><h3>'+textSafe(name)+' geography</h3><p class="atlas-data-pending">Only records with a populated source-backed entry are displayed. Empty categories remain clearly marked rather than being filled with generic or unrelated facts.</p><div class="atlas-geography-grid">'+cats.map(function(c){var value=geography[c[1]],items=Array.isArray(value)?value:(value?[value]:[]);return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b><p>'+(items.length?items.map(itemText).join('<br><br>'):'No verified records imported for '+textSafe(name)+'.')+'</p></article>'}).join('')+'</div>'+sourceLinks();
 }
 function loadDistricts(name,token){

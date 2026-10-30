@@ -257,6 +257,13 @@
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987749&lang=2&reg=48",
       "referenceDate": "2023-12-18",
       "note": "Government statement reports 130 notified Marine Protected Areas and 106 prioritized Important Coastal and Marine Biodiversity Areas. These are different concepts; ICMBAs are not all notified protected areas."
+    },
+    {
+      "id": "pibWetlandInventory2017",
+      "name": "Ministry of Jal Shakti — State-wise wetland distribution, National Wetland Decadal Change Atlas (2017–18)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+      "referenceYear": "2017–18",
+      "note": "State/UT wetland counts and mapped area reported in the Lok Sabha reply on National Wetland Conservation Programme. The former Dadra and Nagar Haveli and Daman and Diu rows are combined for the present merged UT. This is a historical remote-sensing inventory snapshot, not a current list of individually named wetlands; Ramsar site records remain in the separate Ramsar category."
     }
   ],
   "regions": [
@@ -395,6 +402,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -486,7 +501,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 24104,
+            "areaHectares": 1141606,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -711,6 +736,14 @@
           "referenceDate": "2026-10-15",
           "lastVerifiedAt": "2026-10-30",
           "note": "Ramsar Secretariat country profile confirms 103 sites nationally; latest four records cross-checked against Ramsar Secretariat and PIB announcements. Official designation date is distinct from India's announcement date."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -808,7 +841,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 1182,
+            "areaHectares": 151104,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -1043,6 +1086,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -1122,7 +1173,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 5902,
+            "areaHectares": 849078,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -1359,6 +1420,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -1438,7 +1507,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 4526,
+            "areaHectares": 374766,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -1693,6 +1772,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -1766,7 +1853,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 11457,
+            "areaHectares": 342443,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -2002,6 +2099,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -2063,7 +2168,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 742,
+            "areaHectares": 24749,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -2287,6 +2402,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC official Ramsar list as of 30 January 2026; later 2026 additions are recorded separately from Ramsar Secretariat notices."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -2360,7 +2483,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 17613,
+            "areaHectares": 3499429,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -2617,6 +2750,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -2678,7 +2819,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 1905,
+            "areaHectares": 33649,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -2897,6 +3048,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -2982,7 +3141,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 215,
+            "areaHectares": 94011,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -3225,6 +3394,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -3298,7 +3475,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 2635,
+            "areaHectares": 187045,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -3514,6 +3701,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -3599,7 +3794,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 14936,
+            "areaHectares": 787127,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -3882,6 +4087,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -3961,7 +4174,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 1399,
+            "areaHectares": 158336,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -4218,6 +4441,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -4303,7 +4534,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 13947,
+            "areaHectares": 861736,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -4620,6 +4861,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -4705,7 +4954,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 25935,
+            "areaHectares": 1152625,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -4962,6 +5221,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -5035,7 +5302,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 132,
+            "areaHectares": 67408,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -5231,6 +5508,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -5304,7 +5589,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 225,
+            "areaHectares": 31002,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -5497,6 +5792,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -5558,7 +5861,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 127,
+            "areaHectares": 19476,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -5744,6 +6057,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -5805,7 +6126,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 148,
+            "areaHectares": 21118,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -6003,6 +6334,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -6082,7 +6421,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 13331,
+            "areaHectares": 719942,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -6350,6 +6699,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -6411,7 +6768,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 1190,
+            "areaHectares": 47024,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -6657,6 +7024,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -6730,7 +7105,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 13321,
+            "areaHectares": 778824,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -7010,6 +7395,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -7065,7 +7458,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 259,
+            "areaHectares": 7049,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -7291,6 +7694,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -7382,7 +7793,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 26883,
+            "areaHectares": 925712,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -7796,6 +8217,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -7869,7 +8298,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 12338,
+            "areaHectares": 566680,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -8060,6 +8499,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -8139,7 +8586,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 416,
+            "areaHectares": 18438,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -8349,6 +8806,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC official Ramsar list as of 30 January 2026; later 2026 additions are recorded separately from Ramsar Secretariat notices."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -8428,7 +8893,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 18555,
+            "areaHectares": 1104562,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -8779,6 +9254,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -8864,7 +9347,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 172,
+            "areaHectares": 112882,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -9107,6 +9600,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -9186,7 +9687,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 12955,
+            "areaHectares": 1130127,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -9419,6 +9930,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -9468,7 +9987,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 2774,
+            "areaHectares": 143238,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -9659,6 +10188,14 @@
           "referenceDate": "2026-10-15",
           "lastVerifiedAt": "2026-10-30",
           "note": "Ramsar Secretariat country profile confirms 103 sites nationally; latest four records cross-checked against Ramsar Secretariat and PIB announcements. Official designation date is distinct from India's announcement date."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -9691,7 +10228,17 @@
         "lakes": [],
         "dams": [],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 11,
+            "areaHectares": 336,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -9882,6 +10429,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -9920,7 +10475,17 @@
         "lakes": [],
         "dams": [],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 71,
+            "areaHectares": 4791,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -10090,6 +10655,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -10122,7 +10695,17 @@
         "lakes": [],
         "dams": [],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 123,
+            "areaHectares": 2773,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -10309,6 +10892,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -10394,7 +10985,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 404,
+            "areaHectares": 164110,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -10643,6 +11244,14 @@
           "referenceDate": "2026-01-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "MoEFCC list as of 30 January 2026; named wetland records include designation date and area. Later 2026 additions are separately sourced."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -10777,7 +11386,17 @@
           }
         ],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 1073,
+            "areaHectares": 373049,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -10972,6 +11591,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -11004,7 +11631,17 @@
         "lakes": [],
         "dams": [],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 50,
+            "areaHectares": 79716,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",
@@ -11182,6 +11819,14 @@
           "referenceYear": 2023,
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT forest and tree cover values and reported percentages reproduced in Rajya Sabha Unstarred Question 4384, answered 2 April 2026, based on FSI ISFR 2023."
+        },
+        {
+          "field": "geography.wetlands",
+          "sourceId": "pibWetlandInventory2017",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48",
+          "referenceYear": "2017–18",
+          "lastVerifiedAt": "2026-10-30",
+          "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
         }
       ],
       "lastVerifiedAt": null,
@@ -11226,7 +11871,17 @@
         "lakes": [],
         "dams": [],
         "reservoirs": [],
-        "wetlands": [],
+        "wetlands": [
+          {
+            "name": "Wetland inventory (2017–18 snapshot)",
+            "count": 139,
+            "areaHectares": 5555,
+            "referenceYear": "2017–18",
+            "description": "State/UT total from the National Wetland Decadal Change Atlas table. Count and area are inventory statistics, not a list of individually named sites.",
+            "sourceId": "pibWetlandInventory2017",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1911129&lang=2&reg=48"
+          }
+        ],
         "nationalParks": [
           {
             "name": "National park count (official 2023 snapshot)",

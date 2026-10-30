@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "description": "Source-aware state and Union Territory catalogue for ZipPrep Explore India. Null fields are intentionally unpopulated until an authoritative record is imported.",
-  "lastUpdatedAt": null,
+  "lastUpdatedAt": "2026-10-30",
   "sourceRegistry": [
     {
       "id": "eci",
@@ -49,6 +49,11 @@
       "name": "geoBoundaries India ADM1 — DataMeet India community / Election Commission of India",
       "url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
       "licenseNote": "CC BY 2.5 India; boundary year represented 2011; upstream source-data update recorded 19 January 2023."
+    },
+    {
+      "id": "mhaCoastline2020",
+      "name": "Ministry of Home Affairs — Annual Report 2020–21 (India's Coastline)",
+      "url": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf"
     }
   ],
   "regions": [
@@ -85,7 +90,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -118,7 +131,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Andhra Pradesh coast",
+            "description": "973.70 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -470,7 +490,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -503,7 +531,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Goa coast",
+            "description": "101.00 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -547,7 +582,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -580,7 +623,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Mainland Gujarat coast",
+            "description": "1,214.70 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -855,7 +905,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -888,7 +946,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Karnataka coast",
+            "description": "280.00 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -932,7 +997,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -965,7 +1038,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Kerala coast",
+            "description": "569.70 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -1086,7 +1166,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1119,7 +1207,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Mainland Maharashtra coast",
+            "description": "652.60 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -1471,7 +1566,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1504,7 +1607,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Odisha coast",
+            "description": "476.40 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -1779,7 +1889,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -1812,7 +1930,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Tamil Nadu coast",
+            "description": "906.90 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -2164,7 +2289,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2197,7 +2330,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "West Bengal coast",
+            "description": "157.50 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -2241,7 +2381,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2274,7 +2422,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Andaman & Nicobar Islands coast",
+            "description": "1,962.00 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -2395,7 +2550,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2428,7 +2591,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Daman & Diu coastal sector (pre-merger reporting unit)",
+            "description": "42.50 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -2703,7 +2873,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2736,7 +2914,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Lakshadweep coast",
+            "description": "132.00 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],
@@ -2780,7 +2965,15 @@
         "geometryVersion": null,
         "effectiveFrom": null
       },
-      "sourceRecords": [],
+      "sourceRecords": [
+        {
+          "field": "geography.coastalFeatures",
+          "sourceId": "mhaCoastline2020",
+          "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+          "referenceYear": "2020–21",
+          "lastVerifiedAt": "2026-10-30"
+        }
+      ],
       "lastVerifiedAt": null,
       "districts": {
         "boundarySourceId": "bharatmap",
@@ -2813,7 +3006,14 @@
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
-        "coastalFeatures": [],
+        "coastalFeatures": [
+          {
+            "name": "Puducherry coast",
+            "description": "47.60 km (Ministry of Home Affairs Annual Report 2020–21; published reporting figure).",
+            "sourceUrl": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+            "sourceId": "mhaCoastline2020"
+          }
+        ],
         "ports": [],
         "islands": [],
         "renewableEnergyProjects": [],

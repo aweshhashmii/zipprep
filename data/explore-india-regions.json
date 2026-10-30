@@ -211,8 +211,7 @@
         "tigerReserves": [
           {
             "name": "Nagarjunsagar-Srisailam",
-            "count": 1,
-            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -367,9 +366,20 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Kamlang; Namdapha; Pakke",
-            "count": 3,
-            "description": "3 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Kamlang",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Namdapha",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Pakke",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -510,9 +520,26 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Kaziranga; Manas; Nameri; Orang",
-            "count": 4,
-            "description": "4 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Kaziranga",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Manas",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Nameri",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Orang",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -654,8 +681,7 @@
         "tigerReserves": [
           {
             "name": "Valmiki",
-            "count": 1,
-            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -803,9 +829,26 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Achanakmar; Guru Ghasidas–Tamor Pingla; Indravati; Udanti-Sitanadi",
-            "count": 4,
-            "description": "4 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Achanakmar",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Guru Ghasidas–Tamor Pingla",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Indravati",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Udanti-Sitanadi",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -960,8 +1003,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -1124,8 +1166,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -1281,8 +1322,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -1431,8 +1471,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -1582,8 +1621,7 @@
         "tigerReserves": [
           {
             "name": "Palamau",
-            "count": 1,
-            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -1731,9 +1769,32 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Bandipur; Bhadra; Biligiri Ranganatha Temple; Kali; Nagarahole",
-            "count": 5,
-            "description": "5 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Bandipur",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Bhadra",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Biligiri Ranganatha Temple",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Kali",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Nagarahole",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -1888,9 +1949,14 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Parambikulam; Periyar",
-            "count": 2,
-            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Parambikulam",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Periyar",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -2038,9 +2104,56 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Bandhavgarh; Kanha; Madhav; Panna; Pench; Ratapani; Sanjay-Dubri; Satpura; Veerangana Durgavati",
-            "count": 9,
-            "description": "9 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Bandhavgarh",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Kanha",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Madhav",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Panna",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Pench",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Ratapani",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Sanjay-Dubri",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Satpura",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Veerangana Durgavati",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -2188,9 +2301,38 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Bor; Melghat; Nawegaon-Nagzira; Pench; Sahyadri; Tadoba-Andhari",
-            "count": 6,
-            "description": "6 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Bor",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Melghat",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Nawegaon-Nagzira",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Pench",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Sahyadri",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Tadoba-Andhari",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -2345,8 +2487,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -2488,8 +2629,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -2630,8 +2770,7 @@
         "tigerReserves": [
           {
             "name": "Dampa",
-            "count": 1,
-            "description": "1 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -2772,8 +2911,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -2913,9 +3051,14 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Satkosia; Similipal",
-            "count": 2,
-            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Satkosia",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Similipal",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -3063,8 +3206,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -3206,9 +3348,32 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Dholpur-Karauli; Mukundara Hills; Ramgarh Vishdhari; Ranthambore; Sariska",
-            "count": 5,
-            "description": "5 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Dholpur-Karauli",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Mukundara Hills",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Ramgarh Vishdhari",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Ranthambore",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Sariska",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -3356,8 +3521,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -3506,9 +3670,32 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Anamalai; Kalakad-Mundanthurai; Mudumalai; Sathyamangalam; Srivilliputhur-Megamalai",
-            "count": 5,
-            "description": "5 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Anamalai",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Kalakad-Mundanthurai",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Mudumalai",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Sathyamangalam",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Srivilliputhur-Megamalai",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -3656,9 +3843,14 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Amrabad; Kawal",
-            "count": 2,
-            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Amrabad",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Kawal",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -3797,8 +3989,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -3940,9 +4131,20 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Dudhwa; Pilibhit; Ranipur",
-            "count": 3,
-            "description": "3 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Dudhwa",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Pilibhit",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Ranipur",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -4090,9 +4292,14 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Corbett; Rajaji",
-            "count": 2,
-            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Corbett",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Rajaji",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -4240,9 +4447,14 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "Buxa; Sundarban",
-            "count": 2,
-            "description": "2 tiger reserve(s) listed by the National Tiger Conservation Authority.",
+            "name": "Buxa",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
+          },
+          {
+            "name": "Sundarban",
+            "description": "Tiger reserve listed by the National Tiger Conservation Authority.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
@@ -4390,8 +4602,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -4512,8 +4723,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -4643,8 +4853,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -4751,8 +4960,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -4892,8 +5100,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -5098,8 +5305,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -5215,8 +5421,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
@@ -5337,8 +5542,7 @@
         "wildlifeSanctuaries": [],
         "tigerReserves": [
           {
-            "name": "No tiger reserve listed for this State/UT",
-            "count": 0,
+            "name": "No tiger reserve listed",
             "description": "The NTCA state-wise tiger-reserve list accessed 30 October 2026 does not list a tiger reserve for this State/UT.",
             "sourceId": "ntcaTigerReserves",
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"

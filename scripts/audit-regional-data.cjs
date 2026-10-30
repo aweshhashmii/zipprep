@@ -244,7 +244,7 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '- Source-attributed geography records: **' + report.coverage.sourceAttributedGeographyRecords + '**',
     '- ECI seat rows: **' + report.coverage.eciSeatRows + '/36**',
     '- Current LGD districts: **' + report.coverage.lgdDistrictRows + '** across **' + report.coverage.regionsWithLGDDistrictDirectory + '/36** regions',
-    '- District profile records: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with at least one verified field)
+    '- District profile records: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with at least one verified field)',
     '- UNESCO named properties: **' + report.coverage.unescoProperties + '**',
     '- Regions with imported district profiles: **' + report.coverage.regionsWithDistrictProfiles + '/36**',
     '',

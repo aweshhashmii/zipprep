@@ -1,0 +1,93 @@
+name: Validate and deploy ZipPrep
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: zipprep-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate site assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check Explore India JavaScript syntax
+        run: node --check explore-india.js
+
+      - name: Validate inline scripts and JSON datasets
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const path = require('node:path');
+
+          const html = fs.readFileSync('index.html', 'utf8');
+          const inlineScripts = [...html.matchAll(/<script\b(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi)];
+          if (!inlineScripts.length) throw new Error('No inline JavaScript blocks found in index.html');
+          inlineScripts.forEach((match, index) => {
+            try { new Function(match[1]); }
+            catch (error) { throw new Error(`Inline script ${index + 1} is invalid: ${error.message}`); }
+          });
+
+          const dataDir = 'data';
+          const jsonFiles = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
+          if (!jsonFiles.length) throw new Error('No JSON datasets found in data/');
+          for (const file of jsonFiles) {
+            JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf8'));
+          }
+
+          const regions = JSON.parse(fs.readFileSync(path.join(dataDir, 'explore-india-regions.json'), 'utf8'));
+          const geo = JSON.parse(fs.readFileSync(path.join(dataDir, 'india-states-36.geojson'), 'utf8'));
+          if (!Array.isArray(regions.regions) || regions.regions.length !== 36) {
+            throw new Error('Expected exactly 36 catalogue regions');
+          }
+          if (!Array.isArray(geo.features) || geo.features.length !== 36) {
+            throw new Error('Expected exactly 36 GeoJSON features');
+          }
+          const names = geo.features.map(feature => {
+            const p = feature.properties || {};
+            return p.name || p.STATE || p.shapeName || p.NAME_1;
+          });
+          if (names.some(name => !name) || new Set(names).size !== 36) {
+            throw new Error('GeoJSON region names are missing or duplicated');
+          }
+          console.log(`Validated ${inlineScripts.length} inline scripts, ${jsonFiles.length} JSON files, and 36 unique GeoJSON features.`);
+          NODE
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4

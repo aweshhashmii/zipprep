@@ -41,7 +41,27 @@ function stat(label,value,source){
 }
 function loadRegionCatalog(){
  if(regionCatalog)return Promise.resolve(regionCatalog);
- if(!regionCatalogPromise)regionCatalogPromise=fetch('./data/explore-india-regions.json').then(function(r){if(!r.ok)throw Error('Region catalogue HTTP '+r.status);return r.json()}).then(function(data){if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');regionCatalog=data;return data}).catch(function(e){regionCatalogPromise=null;throw e});
+ if(!regionCatalogPromise)regionCatalogPromise=Promise.all([
+  fetch('./data/explore-india-regions.json').then(function(r){if(!r.ok)throw Error('Region catalogue HTTP '+r.status);return r.json()}),
+  fetch('./data/region-political-2026.json').then(function(r){if(!r.ok)throw Error('Political dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
+ ]).then(function(parts){
+  var data=parts[0],political=parts[1];
+  if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
+  if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
+   var row=political.records.find(function(item){return item.regionName===region.name});
+   if(!row)return;
+   region.political=region.political||{};
+   region.political.lokSabhaSeats=row.lokSabhaSeats;
+   region.political.rajyaSabhaSeats=row.rajyaSabhaSeats;
+   region.political.assemblySeats=row.assemblySeats;
+   region.political.sourceId=row.sourceId;
+   region.political.referenceYear=row.referenceYear;
+   region.political.lastVerifiedAt=row.lastVerifiedAt;
+   region.sourceRecords=region.sourceRecords||[];
+   region.sourceRecords.push({id:'eci-seats-2026',sourceId:row.sourceId,title:political.title,url:row.sourceUrl,fields:['political.lokSabhaSeats','political.rajyaSabhaSeats','political.assemblySeats'],referenceYear:row.referenceYear,lastVerifiedAt:row.lastVerifiedAt});
+  });
+  regionCatalog=data;return data;
+ }).catch(function(e){regionCatalogPromise=null;throw e});
  return regionCatalogPromise;
 }
 function sourceLinks(){
@@ -151,6 +171,7 @@ function renderProfile(name,count){
  var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
  var pol=record&&record.political||{},adm=record&&record.administration||{};
  var display=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
+ var seatSource=pol.sourceId==='eci'?'Election Commission of India · reference '+(pol.referenceYear||'2026')+' · last verified '+(pol.lastVerifiedAt||'not recorded'):'Election Commission of India · source record pending';
  root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">The district count below is calculated from the returned BharatMapService district features. Other changing figures remain pending until an official source record is imported.</p>'+
  '<div class="atlas-profile-grid">'+
  stat('Official capital',display(record&&record.capital),'Relevant state / UT government portal · source record pending')+
@@ -158,9 +179,9 @@ function renderProfile(name,count){
  stat('Districts in loaded boundary service',count,'BharatMapService district polygons · current response')+
  stat('Chief Minister / administrator',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
  stat('Governor / Lieutenant Governor',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+
- stat('Lok Sabha elected seats',display(pol.lokSabhaSeats),'Election Commission of India / Delimitation records')+
- stat('Rajya Sabha seats',display(pol.rajyaSabhaSeats),'Parliament of India')+
- stat('Legislative Assembly membership',display(pol.assemblySeats),'Election Commission of India / state legislature')+
+ stat('Lok Sabha elected seats',display(pol.lokSabhaSeats),seatSource)+
+ stat('Rajya Sabha seats',display(pol.rajyaSabhaSeats),seatSource)+
+ stat('Legislative Assembly membership',display(pol.assemblySeats),seatSource)+
  stat('Legislative Council',display(pol.legislativeCouncil),'Relevant state legislature / Parliament records')+
  stat('Development blocks',display(adm.blocks),'Ministry of Panchayati Raj / state rural development department')+
  stat('Gram Panchayats',display(adm.gramPanchayats),'Ministry of Panchayati Raj / state rural development department')+

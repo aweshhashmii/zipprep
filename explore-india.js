@@ -37,7 +37,7 @@ function validateIndia(data){
 }
 function textSafe(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function stat(label,value,source){
- return '<div class="atlas-profile-stat"><small>'+textSafe(label)+'</small><strong>'+textSafe(value||'Verification pending')+'</strong><em>'+textSafe(source||'No verified source record attached')+'</em></div>';
+ var shown=value===null||value===undefined||value===''?'Verification pending':value;return '<div class="atlas-profile-stat"><small>'+textSafe(label)+'</small><strong>'+textSafe(shown)+'</strong><em>'+textSafe(source||'No verified source record attached')+'</em></div>';
 }
 function loadRegionCatalog(){
  if(regionCatalog)return Promise.resolve(regionCatalog);

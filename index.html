@@ -608,36 +608,48 @@ function selectRegion(f,layer){
 }
 function loadGeoJSON(url){return fetch(url).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()})}
 function fetchAdmin(iso,adm){
- /* The repository's all-india.geojson is a national outline, not a
-    collection of state boundaries. Load the documented per-state district
-    GeoJSON files and merge their district polygons into state/UT features. */
- var slugs=[
-  'andhra-pradesh','arunachal-pradesh','assam','bihar','chhattisgarh','goa',
-  'gujarat','haryana','himachal-pradesh','jharkhand','karnataka','kerala',
-  'madhya-pradesh','maharashtra','manipur','meghalaya','mizoram','nagaland',
-  'odisha','punjab','rajasthan','sikkim','tamil-nadu','telangana','tripura',
-  'uttar-pradesh','uttarakhand','west-bengal','andaman-and-nicobar-islands',
-  'chandigarh','dnh-and-dd','delhi','jammu-and-kashmir','ladakh',
-  'lakshadweep','puducherry'
+ /* State files contain district-level features. Build one state feature per
+    file using the filename-to-region mapping, not property-name guessing. */
+ var regions=[
+  ['andhra-pradesh','Andhra Pradesh'],['arunachal-pradesh','Arunachal Pradesh'],
+  ['assam','Assam'],['bihar','Bihar'],['chhattisgarh','Chhattisgarh'],['goa','Goa'],
+  ['gujarat','Gujarat'],['haryana','Haryana'],['himachal-pradesh','Himachal Pradesh'],
+  ['jharkhand','Jharkhand'],['karnataka','Karnataka'],['kerala','Kerala'],
+  ['madhya-pradesh','Madhya Pradesh'],['maharashtra','Maharashtra'],['manipur','Manipur'],
+  ['meghalaya','Meghalaya'],['mizoram','Mizoram'],['nagaland','Nagaland'],
+  ['odisha','Odisha'],['punjab','Punjab'],['rajasthan','Rajasthan'],['sikkim','Sikkim'],
+  ['tamil-nadu','Tamil Nadu'],['telangana','Telangana'],['tripura','Tripura'],
+  ['uttar-pradesh','Uttar Pradesh'],['uttarakhand','Uttarakhand'],['west-bengal','West Bengal'],
+  ['andaman-and-nicobar-islands','Andaman and Nicobar Islands'],['chandigarh','Chandigarh'],
+  ['dnh-and-dd','Dadra and Nagar Haveli and Daman and Diu'],['delhi','Delhi'],
+  ['jammu-and-kashmir','Jammu and Kashmir'],['ladakh','Ladakh'],
+  ['lakshadweep','Lakshadweep'],['puducherry','Puducherry']
  ];
  var revision='2884453';
- function loadOne(slug){
-  var path='geojson/states/'+slug+'.geojson';
+ function loadOne(region){
+  var path='geojson/states/'+region[0]+'.geojson';
   var urls=[
    'https://cdn.jsdelivr.net/gh/udit-001/india-maps-data@'+revision+'/'+path,
    'https://raw.githubusercontent.com/udit-001/india-maps-data/'+revision+'/'+path
   ];
-  return loadGeoJSON(urls[0]).catch(function(){return loadGeoJSON(urls[1])});
- }
- return Promise.all(slugs.map(loadOne)).then(function(collections){
-  var features=[];
-  collections.forEach(function(g){
-   if(!g||!Array.isArray(g.features))throw Error('A state boundary file has an invalid GeoJSON format');
-   features=features.concat(g.features);
+  return loadGeoJSON(urls[0]).catch(function(){return loadGeoJSON(urls[1])}).then(function(g){
+   if(!g||!Array.isArray(g.features)||!g.features.length)throw Error('Empty GeoJSON for '+region[1]);
+   var coordinates=[];
+   g.features.forEach(function(f){
+    if(!f||!f.geometry)return;
+    if(f.geometry.type==='Polygon')coordinates.push(f.geometry.coordinates);
+    else if(f.geometry.type==='MultiPolygon')coordinates=coordinates.concat(f.geometry.coordinates);
+   });
+   if(!coordinates.length)throw Error('No polygon geometry for '+region[1]);
+   var n=region[1];
+   return {type:'Feature',properties:{STATE:n,st_nm:n,ST_NM:n,state_name:n,shapeName:n,name:n},geometry:{type:'MultiPolygon',coordinates:coordinates}};
   });
+ }
+ return Promise.all(regions.map(loadOne)).then(function(features){
+  if(features.length!==36)throw Error('Expected 36 state and UT boundaries; received '+features.length);
   return {type:'FeatureCollection',features:features};
  }).catch(function(e){
-  throw Error('Could not download the individual state boundary files ('+e.message+'). Check the connection and retry.');
+  throw Error('State boundary sources failed: '+e.message+'. Both jsDelivr and GitHub raw sources were attempted for each region.');
  });
 }
 function normalizeIndiaFeatures(g){

@@ -47,9 +47,11 @@ function loadRegionCatalog(){
   fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/india-lgd-administrative-2026.json').then(function(r){if(!r.ok)throw Error('LGD directory HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-gi-2026.json').then(function(r){if(!r.ok)throw Error('GI register HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
+  var giRegister=parts[6];
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
@@ -70,6 +72,14 @@ function loadRegionCatalog(){
   });
 
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
+  if(giRegister&&Array.isArray(giRegister.records))data.regions.forEach(function(region){
+   var giEntries=giRegister.records.filter(function(item){return item.regionName===region.name});
+   if(!giEntries.length)return;
+   region.geography=region.geography||{};
+   region.geography.giProducts=(Array.isArray(region.geography.giProducts)?region.geography.giProducts:[]).concat(giEntries);
+   region.sourceRecords=region.sourceRecords||[];
+   if(!region.sourceRecords.some(function(src){return src.sourceId==='ipindiaStatewiseRegisteredGI2026'}))region.sourceRecords.push({sourceId:'ipindiaStatewiseRegisteredGI2026',title:'IP India — State-wise Registered Geographical Indications of India',sourceUrl:giRegister.source.sourceUrl,referenceDate:giRegister.source.registerDataAsOf,lastVerifiedAt:giRegister.source.lastVerifiedAt,fields:['geography.giProducts'],note:giRegister.description});
+  });
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
    if(!row)return;

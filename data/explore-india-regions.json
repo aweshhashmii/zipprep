@@ -464,6 +464,12 @@
       "name": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
       "url": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
       "note": "District-level flood/drought hazard, exposure, vulnerability and risk assessment; retain the 1970–2019 baseline and within-state comparison limitation."
+    },
+    {
+      "id": "cpcbPollutedRiverStretches2025",
+      "name": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+      "url": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+      "note": "CPCB 2025 assessment of 2022–2023 monitoring: 296 polluted river stretches/locations across 32 States/UTs; 156 stretches and 140 single locations. Not listed/monitored does not mean pollution-free."
     }
   ],
   "regions": [
@@ -1698,7 +1704,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-AP-ENV-PRS-2025",
+            "regionId": "IN-AP",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (4)",
+            "officialName": "Andhra Pradesh: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 4,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 1,
+              "IV": 0,
+              "V": 3
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 4 polluted river stretches and/or single polluted river locations for Andhra Pradesh: Priority I 0, II 0, III 1, IV 0, V 3. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -2889,7 +2919,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-AR-ENV-PRS-2025",
+            "regionId": "IN-AR",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (4)",
+            "officialName": "Arunachal Pradesh: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 4,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 4
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 4 polluted river stretches and/or single polluted river locations for Arunachal Pradesh: Priority I 0, II 0, III 0, IV 0, V 4. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [
@@ -3949,7 +4003,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; proposal dropped. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-AS-ENV-PRS-2025",
+            "regionId": "IN-AS",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (6)",
+            "officialName": "Assam: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 6,
+            "priorityClassCounts": {
+              "I": 1,
+              "II": 0,
+              "III": 0,
+              "IV": 1,
+              "V": 4
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 6 polluted river stretches and/or single polluted river locations for Assam: Priority I 1, II 0, III 0, IV 1, V 4. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-AS-DPR-001",
@@ -5100,7 +5178,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; proposal dropped. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-BR-ENV-PRS-2025",
+            "regionId": "IN-BR",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (12)",
+            "officialName": "Bihar: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 12,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 4,
+              "IV": 2,
+              "V": 6
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 12 polluted river stretches and/or single polluted river locations for Bihar: Priority I 0, II 0, III 4, IV 2, V 6. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-BR-DPR-002",
@@ -5893,7 +5995,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-CT-ENV-PRS-2025",
+            "regionId": "IN-CT",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (6)",
+            "officialName": "Chhattisgarh: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 6,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 1,
+              "III": 3,
+              "IV": 0,
+              "V": 2
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 6 polluted river stretches and/or single polluted river locations for Chhattisgarh: Priority I 0, II 1, III 3, IV 0, V 2. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-CT-DPR-012",
@@ -6632,7 +6758,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-GA-ENV-PRS-2025",
+            "regionId": "IN-GA",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (2)",
+            "officialName": "Goa: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 2,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 1,
+              "III": 0,
+              "IV": 0,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 2 polluted river stretches and/or single polluted river locations for Goa: Priority I 0, II 1, III 0, IV 0, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -8140,7 +8290,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Rajasthan, Gujarat. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-GJ-ENV-PRS-2025",
+            "regionId": "IN-GJ",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (10)",
+            "officialName": "Gujarat: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 10,
+            "priorityClassCounts": {
+              "I": 4,
+              "II": 2,
+              "III": 0,
+              "IV": 2,
+              "V": 2
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 10 polluted river stretches and/or single polluted river locations for Gujarat: Priority I 4, II 2, III 0, IV 2, V 2. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-GJ-DPR-005",
@@ -9058,7 +9232,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Haryana, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-HR-ENV-PRS-2025",
+            "regionId": "IN-HR",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (4)",
+            "officialName": "Haryana: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 4,
+            "priorityClassCounts": {
+              "I": 2,
+              "II": 1,
+              "III": 1,
+              "IV": 0,
+              "V": 0
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 4 polluted river stretches and/or single polluted river locations for Haryana: Priority I 2, II 1, III 1, IV 0, V 0. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-HR-DPR-015",
@@ -10328,7 +10526,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-HP-ENV-PRS-2025",
+            "regionId": "IN-HP",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (10)",
+            "officialName": "Himachal Pradesh: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 10,
+            "priorityClassCounts": {
+              "I": 2,
+              "II": 3,
+              "III": 2,
+              "IV": 2,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 10 polluted river stretches and/or single polluted river locations for Himachal Pradesh: Priority I 2, II 3, III 2, IV 2, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [
           {
@@ -11322,7 +11544,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha, Jharkhand. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-JH-ENV-PRS-2025",
+            "regionId": "IN-JH",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (10)",
+            "officialName": "Jharkhand: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 10,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 1,
+              "IV": 1,
+              "V": 8
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 10 polluted river stretches and/or single polluted river locations for Jharkhand: Priority I 0, II 0, III 1, IV 1, V 8. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-JH-DPR-008",
@@ -12575,7 +12821,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; further studies not taken up. States/UTs benefited as listed by the source: Karnataka. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-KA-ENV-PRS-2025",
+            "regionId": "IN-KA",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (14)",
+            "officialName": "Karnataka: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 14,
+            "priorityClassCounts": {
+              "I": 3,
+              "II": 0,
+              "III": 4,
+              "IV": 2,
+              "V": 5
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 14 polluted river stretches and/or single polluted river locations for Karnataka: Priority I 3, II 0, III 4, IV 2, V 5. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-KA-DPR-010",
@@ -13720,7 +13990,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Tamil Nadu, Kerala. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-KL-ENV-PRS-2025",
+            "regionId": "IN-KL",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (32)",
+            "officialName": "Kerala: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 32,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 2,
+              "IV": 4,
+              "V": 26
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 32 polluted river stretches and/or single polluted river locations for Kerala: Priority I 0, II 0, III 2, IV 4, V 26. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-KL-DPR-013",
@@ -15120,7 +15414,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Work commenced; DPR completed. States/UTs benefited as listed by the source: Uttar Pradesh, Madhya Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-MP-ENV-PRS-2025",
+            "regionId": "IN-MP",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (18)",
+            "officialName": "Madhya Pradesh: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 18,
+            "priorityClassCounts": {
+              "I": 2,
+              "II": 1,
+              "III": 2,
+              "IV": 3,
+              "V": 10
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 18 polluted river stretches and/or single polluted river locations for Madhya Pradesh: Priority I 2, II 1, III 2, IV 3, V 10. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -16693,7 +17011,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed; dropped from priority-link status. States/UTs benefited as listed by the source: Gujarat, Maharashtra. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-MH-ENV-PRS-2025",
+            "regionId": "IN-MH",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (54)",
+            "officialName": "Maharashtra: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 54,
+            "priorityClassCounts": {
+              "I": 2,
+              "II": 5,
+              "III": 9,
+              "IV": 15,
+              "V": 23
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 54 polluted river stretches and/or single polluted river locations for Maharashtra: Priority I 2, II 5, III 9, IV 15, V 23. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-MH-DPR-009",
@@ -17335,7 +17677,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-MN-ENV-PRS-2025",
+            "regionId": "IN-MN",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (18)",
+            "officialName": "Manipur: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 18,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 18
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 18 polluted river stretches and/or single polluted river locations for Manipur: Priority I 0, II 0, III 0, IV 0, V 18. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [
@@ -18060,7 +18426,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-ML-ENV-PRS-2025",
+            "regionId": "IN-ML",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (2)",
+            "officialName": "Meghalaya: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 2,
+            "priorityClassCounts": {
+              "I": 2,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 0
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 2 polluted river stretches and/or single polluted river locations for Meghalaya: Priority I 2, II 0, III 0, IV 0, V 0. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [
@@ -19434,7 +19824,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-MZ-ENV-PRS-2025",
+            "regionId": "IN-MZ",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (4)",
+            "officialName": "Mizoram: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 4,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 2,
+              "III": 1,
+              "IV": 0,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 4 polluted river stretches and/or single polluted river locations for Mizoram: Priority I 0, II 2, III 1, IV 0, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -20014,7 +20428,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-NL-ENV-PRS-2025",
+            "regionId": "IN-NL",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (2)",
+            "officialName": "Nagaland: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 2,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 0,
+              "IV": 1,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 2 polluted river stretches and/or single polluted river locations for Nagaland: Priority I 0, II 0, III 0, IV 1, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [
@@ -21813,7 +22251,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-OD-ENV-PRS-2025",
+            "regionId": "IN-OD",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (6)",
+            "officialName": "Odisha: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 6,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 1,
+              "IV": 0,
+              "V": 5
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 6 polluted river stretches and/or single polluted river locations for Odisha: Priority I 0, II 0, III 1, IV 0, V 5. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-OD-DPR-006",
@@ -22602,7 +23064,31 @@
           }
         ],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-PB-ENV-PRS-2025",
+            "regionId": "IN-PB",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (2)",
+            "officialName": "Punjab: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 2,
+            "priorityClassCounts": {
+              "I": 2,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 0
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 2 polluted river stretches and/or single polluted river locations for Punjab: Priority I 2, II 0, III 0, IV 0, V 0. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [
@@ -23789,7 +24275,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Rajasthan, Gujarat. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-RJ-ENV-PRS-2025",
+            "regionId": "IN-RJ",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (8)",
+            "officialName": "Rajasthan: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 8,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 8
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 8 polluted river stretches and/or single polluted river locations for Rajasthan: Priority I 0, II 0, III 0, IV 0, V 8. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [
           {
@@ -24938,7 +25448,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-SK-ENV-PRS-2025",
+            "regionId": "IN-SK",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (3)",
+            "officialName": "Sikkim: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 3,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 2,
+              "III": 0,
+              "IV": 1,
+              "V": 0
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 3 polluted river stretches and/or single polluted river locations for Sikkim: Priority I 0, II 2, III 0, IV 1, V 0. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -26485,7 +27019,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Tamil Nadu, Kerala. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-TN-ENV-PRS-2025",
+            "regionId": "IN-TN",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (9)",
+            "officialName": "Tamil Nadu: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 9,
+            "priorityClassCounts": {
+              "I": 5,
+              "II": 1,
+              "III": 0,
+              "IV": 1,
+              "V": 2
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 9 polluted river stretches and/or single polluted river locations for Tamil Nadu: Priority I 5, II 1, III 0, IV 1, V 2. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-TN-DPR-011",
@@ -27320,7 +27878,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Telangana, Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-TS-ENV-PRS-2025",
+            "regionId": "IN-TS",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (5)",
+            "officialName": "Telangana: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 5,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 1,
+              "III": 3,
+              "IV": 0,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 5 polluted river stretches and/or single polluted river locations for Telangana: Priority I 0, II 1, III 3, IV 0, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -28003,7 +28585,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-TR-ENV-PRS-2025",
+            "regionId": "IN-TR",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (1)",
+            "officialName": "Tripura: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 1,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 1 polluted river stretches and/or single polluted river locations for Tripura: Priority I 0, II 0, III 0, IV 0, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -29092,7 +29698,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-UP-ENV-PRS-2025",
+            "regionId": "IN-UP",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (16)",
+            "officialName": "Uttar Pradesh: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 16,
+            "priorityClassCounts": {
+              "I": 5,
+              "II": 1,
+              "III": 2,
+              "IV": 3,
+              "V": 5
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 16 polluted river stretches and/or single polluted river locations for Uttar Pradesh: Priority I 5, II 1, III 2, IV 3, V 5. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-UP-DPR-003",
@@ -30581,7 +31211,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Uttar Pradesh, Uttarakhand. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-UK-ENV-PRS-2025",
+            "regionId": "IN-UK",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (12)",
+            "officialName": "Uttarakhand: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 12,
+            "priorityClassCounts": {
+              "I": 5,
+              "II": 0,
+              "III": 4,
+              "IV": 2,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 12 polluted river stretches and/or single polluted river locations for Uttarakhand: Priority I 5, II 0, III 4, IV 2, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-UK-DPR-014",
@@ -31755,7 +32409,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-WB-ENV-PRS-2025",
+            "regionId": "IN-WB",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (11)",
+            "officialName": "West Bengal: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 11,
+            "priorityClassCounts": {
+              "I": 1,
+              "II": 0,
+              "III": 2,
+              "IV": 2,
+              "V": 6
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 11 polluted river stretches and/or single polluted river locations for West Bengal: Priority I 1, II 0, III 2, IV 2, V 6. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-WB-DPR-004",
@@ -33452,7 +34130,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-DHDD-ENV-PRS-2025",
+            "regionId": "IN-DHDD",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (1)",
+            "officialName": "Dadra and Nagar Haveli and Daman and Diu: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 1,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 1,
+              "III": 0,
+              "IV": 0,
+              "V": 0
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 1 polluted river stretches and/or single polluted river locations for Dadra and Nagar Haveli and Daman and Diu: Priority I 0, II 1, III 0, IV 0, V 0. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -33826,7 +34528,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-DL-ENV-PRS-2025",
+            "regionId": "IN-DL",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (1)",
+            "officialName": "Delhi: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 1,
+            "priorityClassCounts": {
+              "I": 1,
+              "II": 0,
+              "III": 0,
+              "IV": 0,
+              "V": 0
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 1 polluted river stretches and/or single polluted river locations for Delhi: Priority I 1, II 0, III 0, IV 0, V 0. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
@@ -34636,7 +35362,31 @@
         ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-JK-ENV-PRS-2025",
+            "regionId": "IN-JK",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (7)",
+            "officialName": "Jammu and Kashmir: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 7,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 1,
+              "IV": 2,
+              "V": 4
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 7 polluted river stretches and/or single polluted river locations for Jammu and Kashmir: Priority I 0, II 0, III 1, IV 2, V 4. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [
           {
             "id": "IN-JK-DPR-007",
@@ -36115,7 +36865,31 @@
             "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
           }
         ],
-        "environmentalChallenges": [],
+        "environmentalChallenges": [
+          {
+            "id": "IN-PY-ENV-PRS-2025",
+            "regionId": "IN-PY",
+            "category": "environmentalChallenges",
+            "name": "CPCB-identified polluted river locations and stretches (2)",
+            "officialName": "Puducherry: polluted river stretches and locations in CPCB 2025 assessment",
+            "challengeType": "River-water quality pollution",
+            "pollutedRiverStretchesAndLocations": 2,
+            "priorityClassCounts": {
+              "I": 0,
+              "II": 0,
+              "III": 0,
+              "IV": 1,
+              "V": 1
+            },
+            "monitoringPeriod": "2022–2023",
+            "referenceDate": "2025-10",
+            "sourceName": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025",
+            "sourceId": "cpcbPollutedRiverStretches2025",
+            "sourceUrl": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+            "verificationStatus": "verified",
+            "description": "CPCB's October 2025 assessment, based on river-water monitoring during 2022–2023, lists 2 polluted river stretches and/or single polluted river locations for Puducherry: Priority I 0, II 0, III 0, IV 1, V 1. The total combines multi-location polluted stretches with single monitoring locations; it is not a count of unique rivers or necessarily of separate stretches. Priority classes are based on maximum observed biochemical oxygen demand (BOD): I >30.1 mg/L; II 20.1–30.0; III 10.1–20.0; IV 6.1–10.0; V 3.1–6.0. A polluted segment does not mean the entire river is polluted."
+          }
+        ],
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],

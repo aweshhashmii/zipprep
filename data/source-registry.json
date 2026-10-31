@@ -780,6 +780,24 @@
       "issuingAuthority": "Department of Science & Technology, Government of India; research partners IIT Mandi, IIT Guwahati and CSTEP",
       "cadence": "Retain the 1970–2019 hazard baseline and within-state comparison limitation. Replace only with a newer comparable district risk assessment.",
       "note": "The report assesses 698 districts and presents state/UT-specific comparisons for 29 states and UTs. District risk categories are comparable within a state/UT, not across states/UTs. Its national summary says about 85% of very-high/high flood-risk districts are in Assam, Bihar, Uttar Pradesh, West Bengal, Gujarat, Odisha and Jammu & Kashmir; more than 85% of very-high/high drought-risk districts are in Bihar, Assam, Jharkhand, Odisha, Uttar Pradesh, Maharashtra, West Bengal, Karnataka, Tamil Nadu, Chhattisgarh, Kerala, Uttarakhand and Haryana. Eleven named districts are in the very-high dual-risk group."
+    },
+    {
+      "id": "cpcbPollutedRiverStretches2025",
+      "name": "Central Pollution Control Board — Polluted River Stretches for Restoration of Water Quality, October 2025 (updated version)",
+      "url": "https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTc3N18xNzYwNjgxNDA4X21lZGlhcGhvdG80MzkyLnBkZg%3D%3D",
+      "tabs": [
+        "environment",
+        "geography"
+      ],
+      "fields": [
+        "State/UT-wise counts of polluted river stretches and single polluted river locations",
+        "Priority class I–V based on maximum observed biochemical oxygen demand",
+        "Named polluted river stretches and monitoring locations"
+      ],
+      "referenceDate": "Monitoring data 2022–2023; report October 2025 (updated version)",
+      "issuingAuthority": "Central Pollution Control Board, Ministry of Environment, Forest and Climate Change, Government of India",
+      "cadence": "Refresh after CPCB issues a newer Polluted River Stretches assessment. Preserve monitoring years and distinguish a multi-location stretch from a single polluted location.",
+      "note": "CPCB identified 296 polluted river stretches/locations on 271 rivers across 32 States/UTs from 2022–2023 monitoring. This total comprises 156 multi-location stretches and 140 single polluted locations. Priority classes use maximum observed BOD: I >30 mg/L; II 20.1–30; III 10.1–20; IV 6.1–10; V 3.1–6. No pollution-free conclusion should be drawn for territories not listed or not covered by the monitoring network."
     }
   ]
 }

@@ -626,6 +626,21 @@
       "referenceDate": "2026-10-31",
       "cadence": "Refresh after each World Heritage Committee session; keep Tentative List properties separate from inscribed properties.",
       "note": "The country page lists 45 inscribed properties: 37 cultural, 7 natural and 1 mixed. State attribution for serial properties is represented in each relevant regional profile."
+    },
+    {
+      "id": "asiProtectedMonuments2026",
+      "name": "Archaeological Survey of India — State/UT-wise centrally protected monuments and archaeological sites",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "State/UT-wise count of ASI-protected monuments and archaeological sites"
+      ],
+      "referenceDate": "2026-03-23",
+      "issuingAuthority": "Ministry of Culture / Archaeological Survey of India",
+      "cadence": "Refresh from the next Ministry of Culture parliamentary annexure; this is a dated ASI-protected-site count, not a complete inventory of all heritage places.",
+      "note": "The 23 March 2026 annexure reports 3,686 protected monuments/sites across 33 listed administrative entries. Three present-day UTs are not listed. The Daman & Diu figure refers to the former Daman & Diu territory and does not cover former Dadra & Nagar Haveli."
     }
   ]
 }

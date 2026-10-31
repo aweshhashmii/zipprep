@@ -428,6 +428,11 @@
       "id": "ladakhDistrictNotifications2026",
       "name": "Ladakh Administration",
       "url": "https://ladakh.gov.in/ladakh-administration-notifies-creation-of-sankoo-as-new-district-of-ut-ladakh/"
+    },
+    {
+      "id": "asiProtectedMonuments2026",
+      "name": "Archaeological Survey of India — State/UT-wise centrally protected monuments and archaeological sites",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3"
     }
   ],
   "regions": [
@@ -640,6 +645,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -881,7 +894,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-AP-ASI-2026",
+            "regionId": "IN-AP",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 135,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 135 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Barytes",
@@ -1760,6 +1788,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1958,7 +1994,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-AR-ASI-2026",
+            "regionId": "IN-AR",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 3,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 3 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Coal",
@@ -2537,6 +2588,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2803,7 +2862,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-AS-ASI-2026",
+            "regionId": "IN-AS",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 55,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 55 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Coal",
@@ -3515,6 +3589,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3758,7 +3840,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-BR-ASI-2026",
+            "regionId": "IN-BR",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 70,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 70 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Pyrite",
@@ -4255,6 +4352,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -4482,7 +4587,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-CT-ASI-2026",
+            "regionId": "IN-CT",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 46,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 46 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Bauxite",
@@ -4917,6 +5037,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -5090,7 +5218,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-GA-ASI-2026",
+            "regionId": "IN-GA",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 21,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 21 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Iron ore (haematite)",
@@ -5642,6 +5785,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -6034,7 +6185,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-GJ-ASI-2026",
+            "regionId": "IN-GJ",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 205,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 205 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Apatite",
@@ -6822,6 +6988,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -6977,7 +7151,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-HR-ASI-2026",
+            "regionId": "IN-HR",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 91,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 91 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "China clay",
@@ -7567,6 +7756,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -8187,7 +8384,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-HP-ASI-2026",
+            "regionId": "IN-HP",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 40,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 40 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Barytes",
@@ -8690,6 +8902,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -8906,7 +9126,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-JH-ASI-2026",
+            "regionId": "IN-JH",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 14,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 14 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Bauxite",
@@ -9582,6 +9817,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -9997,7 +10240,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-KA-ASI-2026",
+            "regionId": "IN-KA",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 506,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 506 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Bauxite",
@@ -10754,6 +11012,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -11012,7 +11278,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-KL-ASI-2026",
+            "regionId": "IN-KL",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 30,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 30 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Bauxite",
@@ -11563,6 +11844,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -11968,7 +12257,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-MP-ASI-2026",
+            "regionId": "IN-MP",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 291,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 291 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Antimony",
@@ -12867,6 +13171,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -13431,7 +13743,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-MH-ASI-2026",
+            "regionId": "IN-MH",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 286,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 286 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "MCDR mineral production — 2023-24",
@@ -13790,6 +14117,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -13948,7 +14283,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-MN-ASI-2026",
+            "regionId": "IN-MN",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 1,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 1 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Chromite",
@@ -14293,6 +14643,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -14449,7 +14807,22 @@
         ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-ML-ASI-2026",
+            "regionId": "IN-ML",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 8,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 8 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Coal",
@@ -15668,6 +16041,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -15822,7 +16203,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-MZ-ASI-2026",
+            "regionId": "IN-MZ",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 2,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 2 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Lignite",
@@ -16106,6 +16502,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -16249,7 +16653,22 @@
         ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-NL-ASI-2026",
+            "regionId": "IN-NL",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 4,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 4 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Coal",
@@ -17335,6 +17754,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -17653,7 +18080,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-OD-ASI-2026",
+            "regionId": "IN-OD",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 82,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 82 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Bauxite",
@@ -18299,6 +18741,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -18491,7 +18941,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-PB-ASI-2026",
+            "regionId": "IN-PB",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 33,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 33 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Quartz and silica sand",
@@ -18838,6 +19303,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -19172,7 +19645,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-RJ-ASI-2026",
+            "regionId": "IN-RJ",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 161,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 161 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Apatite",
@@ -20154,6 +20642,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -20474,7 +20970,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-SK-ASI-2026",
+            "regionId": "IN-SK",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 3,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 3 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Coal",
@@ -20888,6 +21399,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -21408,7 +21927,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-TN-ASI-2026",
+            "regionId": "IN-TN",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 412,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 412 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "MCDR mineral production — 2023-24",
@@ -22104,6 +22638,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -22317,7 +22859,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-TS-ASI-2026",
+            "regionId": "IN-TS",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 8,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 8 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "MCDR mineral production — 2023-24",
@@ -22702,6 +23259,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -22874,7 +23439,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-TR-ASI-2026",
+            "regionId": "IN-TR",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 8,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 8 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Natural gas",
@@ -23282,6 +23862,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -23674,7 +24262,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-UP-ASI-2026",
+            "regionId": "IN-UP",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 734,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 734 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Andalusite",
@@ -24480,6 +25083,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -25109,7 +25720,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-UK-ASI-2026",
+            "regionId": "IN-UK",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 43,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 43 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Limestone",
@@ -25589,6 +26215,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -25834,7 +26468,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-WB-ASI-2026",
+            "regionId": "IN-WB",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 135,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 135 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [
           {
             "name": "Apatite",
@@ -26496,6 +27145,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -26606,7 +27263,21 @@
         ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-AN-ASI-2026-unlisted",
+            "regionId": "IN-AN",
+            "category": "monuments",
+            "name": "ASI table coverage note — not listed",
+            "officialName": "ASI-protected monuments and archaeological sites — not reported in this annexure",
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "not_available",
+            "description": "This present-day Union Territory is not separately listed in the Ministry's 23 March 2026 state/UT annexure. This is not evidence that it has zero centrally protected monuments or heritage sites."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -26912,6 +27583,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -27042,7 +27721,21 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-CH-ASI-2026-unlisted",
+            "regionId": "IN-CH",
+            "category": "monuments",
+            "name": "ASI table coverage note — not listed",
+            "officialName": "ASI-protected monuments and archaeological sites — not reported in this annexure",
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "not_available",
+            "description": "This present-day Union Territory is not separately listed in the Ministry's 23 March 2026 state/UT annexure. This is not evidence that it has zero centrally protected monuments or heritage sites."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -27251,6 +27944,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -27356,7 +28057,21 @@
         ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-DHDD-ASI-2026-scope",
+            "regionId": "IN-DHDD",
+            "category": "monuments",
+            "name": "ASI table coverage note — former Daman & Diu territory only",
+            "officialName": "ASI-protected monuments and archaeological sites — partial UT coverage",
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "not_available",
+            "description": "The 23 March 2026 annexure lists 11 sites for the former Daman & Diu territory. It does not separately report the former Dadra & Nagar Haveli territory; 11 must not be treated as a complete count for the merged UT."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -27564,6 +28279,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -27691,7 +28414,22 @@
             "referenceYear": 2026
           }
         ],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-DL-ASI-2026",
+            "regionId": "IN-DL",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 170,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 170 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -27946,6 +28684,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -28310,7 +29056,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-JK-ASI-2026",
+            "regionId": "IN-JK",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 56,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 56 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -28728,6 +29489,14 @@
           "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
           "referenceDate": "31 December 2025",
           "lastVerifiedAt": "2026-10-31"
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -28963,7 +29732,22 @@
           }
         ],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-LA-ASI-2026",
+            "regionId": "IN-LA",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 15,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 15 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -29224,6 +30008,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -29323,7 +30115,21 @@
         ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-LD-ASI-2026-unlisted",
+            "regionId": "IN-LD",
+            "category": "monuments",
+            "name": "ASI table coverage note — not listed",
+            "officialName": "ASI-protected monuments and archaeological sites — not reported in this annexure",
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "not_available",
+            "description": "This present-day Union Territory is not separately listed in the Ministry's 23 March 2026 state/UT annexure. This is not evidence that it has zero centrally protected monuments or heritage sites."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {
@@ -29558,6 +30364,14 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.monuments",
+          "sourceId": "asiProtectedMonuments2026",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+          "referenceDate": "2026-03-23",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
         }
       ],
       "lastVerifiedAt": null,
@@ -29676,7 +30490,22 @@
         ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
-        "monuments": [],
+        "monuments": [
+          {
+            "id": "IN-PY-ASI-2026",
+            "regionId": "IN-PY",
+            "category": "monuments",
+            "name": "ASI-protected monuments and archaeological sites (2026 snapshot)",
+            "officialName": "ASI-protected monuments and archaeological sites",
+            "count": 7,
+            "sourceName": "Archaeological Survey of India / Ministry of Culture",
+            "sourceId": "asiProtectedMonuments2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786&lang=1&reg=3",
+            "referenceDate": "2026-03-23",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Culture reported 7 centrally protected monuments and archaeological sites for this State/UT in its 23 March 2026 parliamentary annexure. This is a dated ASI register count, not the total number of all heritage sites or locally protected monuments."
+          }
+        ],
         "minerals": [],
         "crops": [],
         "forestCover": {

@@ -2781,7 +2781,15 @@
       "verificationStatus": "verification_pending",
       "verifiedFields": [
         "forestCover2019SqKm",
-        "forestCoverPercent2019"
+        "forestCoverPercent2019",
+        "headquarters",
+        "areaSqKm",
+        "blocksCount",
+        "subdivisionsCount",
+        "hobliesCount",
+        "gramPanchayats",
+        "villages",
+        "urbanLocalBodies"
       ],
       "sourceRecords": [
         {
@@ -2801,8 +2809,88 @@
           "referenceDate": "ISFR 2019, Volume II, Table 11.13.4; 2019 forest-cover assessment",
           "lastVerifiedAt": "2026-10-31",
           "note": "Historical satellite-assessed forest cover; only exact district-name matches after punctuation/spacing normalization are linked."
+        },
+        {
+          "field": "headquarters",
+          "sourceId": "chitradurgaDistrictOfficialProfile",
+          "title": "Chitradurga District — Government of Karnataka, official district portal",
+          "sourceUrl": "https://chitradurga.nic.in/en/about-district/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "District headquarters town is Chitradurga."
+        },
+        {
+          "field": "areaSqKm",
+          "sourceId": "chitradurgaDistrictOfficialProfile",
+          "title": "Chitradurga District — Government of Karnataka, official district portal",
+          "sourceUrl": "https://chitradurga.nic.in/en/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "District area reported as 8,436 sq km."
+        },
+        {
+          "field": "blocksCount",
+          "sourceId": "chitradurgaDistrictDemographyOfficial",
+          "title": "Chitradurga District — Demography and Administrative Setup, Government of Karnataka",
+          "sourceUrl": "https://chitradurga.nic.in/en/demography/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "No of Blocks: 6"
+        },
+        {
+          "field": "subdivisionsCount",
+          "sourceId": "chitradurgaDistrictDemographyOfficial",
+          "title": "Chitradurga District — Demography and Administrative Setup, Government of Karnataka",
+          "sourceUrl": "https://chitradurga.nic.in/en/demography/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "No of Sub-Divisions: 1"
+        },
+        {
+          "field": "hobliesCount",
+          "sourceId": "chitradurgaDistrictDemographyOfficial",
+          "title": "Chitradurga District — Demography and Administrative Setup, Government of Karnataka",
+          "sourceUrl": "https://chitradurga.nic.in/en/demography/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "No of Hoblies: 22"
+        },
+        {
+          "field": "gramPanchayats",
+          "sourceId": "chitradurgaDistrictDemographyOfficial",
+          "title": "Chitradurga District — Demography and Administrative Setup, Government of Karnataka",
+          "sourceUrl": "https://chitradurga.nic.in/en/demography/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "No of Grama Panchayaths: 189"
+        },
+        {
+          "field": "villages",
+          "sourceId": "chitradurgaDistrictDemographyOfficial",
+          "title": "Chitradurga District — Demography and Administrative Setup, Government of Karnataka",
+          "sourceUrl": "https://chitradurga.nic.in/en/demography/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "No of Villages: 1,063"
+        },
+        {
+          "field": "urbanLocalBodies",
+          "sourceId": "chitradurgaDistrictDemographyOfficial",
+          "title": "Chitradurga District — Demography and Administrative Setup, Government of Karnataka",
+          "sourceUrl": "https://chitradurga.nic.in/en/demography/",
+          "referenceDate": "Official district portal; accessed 2026-10-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "No of Urban Local Bodies: 7"
         }
-      ]
+      ],
+      "headquarters": "Chitradurga",
+      "areaSqKm": 8436,
+      "blocksCount": 6,
+      "subdivisionsCount": 1,
+      "hobliesCount": 22,
+      "gramPanchayats": 189,
+      "villages": 1063,
+      "urbanLocalBodies": 7
     },
     {
       "lgdCode": "534",

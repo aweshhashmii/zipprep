@@ -51,10 +51,11 @@ function loadRegionCatalog(){
   fetch('./data/region-gi-2026.json').then(function(r){if(!r.ok)throw Error('GI register HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-supplemental-categories-2026.json').then(function(r){if(!r.ok)throw Error('Supplemental regional categories HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-supplemental-categories-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Supplemental category batch HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/district-profile-enrichment-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('District profile enrichment batch HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/district-profile-enrichment-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('District profile enrichment batch HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-administration-enrichment-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Regional administration enrichment HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
-  var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9];
+  var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
   [supplemental,supplementalBatch].forEach(function(dataset){
    if(dataset&&Array.isArray(dataset.records))dataset.records.forEach(function(item){
     var region=data.regions.find(function(r){return r.name===item.regionName});
@@ -68,7 +69,8 @@ function loadRegionCatalog(){
    });
   });
 
-  censusDistricts=census&&Array.isArray(census.records)?census.records:[];
+  if(administrationBatch&&Array.isArray(administrationBatch.records))administrationBatch.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.administration=region.administration||{};Object.keys(item.fields||{}).forEach(function(key){region.administration[key]=item.fields[key]});region.sourceRecords=region.sourceRecords||[];region.sourceRecords.push({sourceId:item.sourceId,title:item.sourceTitle,sourceUrl:item.sourceUrl,referenceDate:item.referenceDate,lastVerifiedAt:item.lastVerifiedAt,fields:Object.keys(item.fields||{}).map(function(key){return 'administration.'+key}),note:item.note});if(item.secondarySourceUrl){region.sourceRecords.push({sourceId:item.sourceId+'-secondary',title:'16th Finance Commission — Karnataka local government study',sourceUrl:item.secondarySourceUrl,referenceDate:'2023 table',lastVerifiedAt:item.lastVerifiedAt,fields:['administration.intermediatePanchayats','administration.districtPanchayats'],note:'Source for Taluk Panchayat and Zilla Panchayat counts.'})}});
+   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
   if(districtProfiles&&Array.isArray(districtProfiles.records)&&districtProfileBatch&&Array.isArray(districtProfileBatch.records))districtProfileBatch.records.forEach(function(batchRow){
    var existing=districtProfiles.records.find(function(row){return String(row.lgdCode)===String(batchRow.lgdCode)});
@@ -266,7 +268,12 @@ function selectDistrict(name,layer){
  stat('Households',census?Number(census.households).toLocaleString('en-IN'):'Verification pending','Census of India · 2011')+
  stat('Census district code',census?census.censusDistrictCode:'Verification pending','Census of India · 2011')+
 
- stat('Blocks',Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'Verification pending','District administration / Ministry of Panchayati Raj')+
+ stat('Development blocks',record.blocksCount!==undefined?record.blocksCount:(Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'Verification pending'),'Government of Karnataka · Chitradurga district administrative summary')+
+ stat('Sub-divisions',record.subdivisionsCount!==undefined?record.subdivisionsCount:'Verification pending','Government of Karnataka · Chitradurga district administrative summary')+
+ stat('Hoblies',record.hobliesCount!==undefined?record.hobliesCount:'Verification pending','Government of Karnataka · Chitradurga district administrative summary')+
+ stat('Gram Panchayats',record.gramPanchayats!==undefined?record.gramPanchayats:'Verification pending','Government of Karnataka · Chitradurga district administrative summary')+
+ stat('Villages',record.villages!==undefined?record.villages:'Verification pending','Government of Karnataka · Chitradurga district administrative summary')+
+ stat('Urban local bodies',record.urbanLocalBodies!==undefined?record.urbanLocalBodies:'Verification pending','Government of Karnataka · Chitradurga district administrative summary')+
  stat('Major rivers',Array.isArray(record.majorRivers)&&record.majorRivers.length?record.majorRivers.join(', '):'Verification pending','Official hydrography / state water resources department')+
  '</div><h3>History & culture</h3><p class="atlas-data-pending">'+textSafe(record.historicalSignificance||'Historical information not yet verified.')+'</p><p class="atlas-data-pending">'+textSafe(Array.isArray(record.culturalHighlights)&&record.culturalHighlights.length?record.culturalHighlights.join(', '):'Cultural highlights not yet verified.')+'</p>'+(record.description?'<p class="atlas-data-pending">'+textSafe(record.description)+'</p>':'')+districtSourcesHtml+'<p class="atlas-data-pending">'+(census?'Demographic figures are historical Census 2011 data. District names and boundaries have changed in some states since 2011; unmatched records are deliberately left blank.':'No exact match to a verified Census 2011 district profile is available. Demographic values are withheld rather than guessed.')+'</p><p class="atlas-data-pending">Census source: <a href="https://censusindia.gov.in/census.website/en/data/population-finder" target="_blank" rel="noopener">Census of India — Population Finder</a>.</p>';
  var root=$('district-directory');if(root)root.querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',String(b.textContent===name))});

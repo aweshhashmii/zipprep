@@ -533,6 +533,12 @@
       "name": "Ministry of Ports, Shipping and Waterways / PIB — Operational Major and Other Than Major Ports (13 February 2026)",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227670&lang=1&reg=1",
       "note": "12 operational Major Ports, 68 operational Other Than Major Ports, plus four Andhra Pradesh ports explicitly listed as under construction. Vadhavan and Galathea Bay are notified but not included as operational in the source list."
+    },
+    {
+      "id": "pibWindInstalledCapacityJun2026",
+      "name": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity as of 30 June 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+      "note": "State-wise installed wind power capacity for nine States; 4 MW 'Others' remains unallocated rather than being assigned to any State/UT."
     }
   ],
   "regions": [
@@ -1710,6 +1716,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 15,980.11 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-AP-WIND-CAPACITY-2026",
+            "regionId": "IN-AP",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 4,461 MW",
+            "officialName": "Andhra Pradesh: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 4461,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 4,461 MW of installed wind power capacity in Andhra Pradesh as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -10448,6 +10469,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 47,178.33 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-GJ-WIND-CAPACITY-2026",
+            "regionId": "IN-GJ",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 16,086 MW",
+            "officialName": "Gujarat: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 16086,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 16,086 MW of installed wind power capacity in Gujarat as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -16402,6 +16438,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 26,722.76 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-KA-WIND-CAPACITY-2026",
+            "regionId": "IN-KA",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 8,896 MW",
+            "officialName": "Karnataka: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 8896,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 8,896 MW of installed wind power capacity in Karnataka as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -18129,6 +18180,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 4,574.28 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-KL-WIND-CAPACITY-2026",
+            "regionId": "IN-KL",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 71 MW",
+            "officialName": "Kerala: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 71,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 71 MW of installed wind power capacity in Kerala as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -19915,6 +19981,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 12,182.64 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-MP-WIND-CAPACITY-2026",
+            "regionId": "IN-MP",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 3,686 MW",
+            "officialName": "Madhya Pradesh: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 3686,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 3,686 MW of installed wind power capacity in Madhya Pradesh as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -22131,6 +22212,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 31,980.63 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-MH-WIND-CAPACITY-2026",
+            "regionId": "IN-MH",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 6,318 MW",
+            "officialName": "Maharashtra: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 6318,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 6,318 MW of installed wind power capacity in Maharashtra as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -31736,6 +31832,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 47,020.54 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-RJ-WIND-CAPACITY-2026",
+            "regionId": "IN-RJ",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 5,516 MW",
+            "officialName": "Rajasthan: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 5516,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 5,516 MW of installed wind power capacity in Rajasthan as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -35180,6 +35291,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 29,108.27 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-TN-WIND-CAPACITY-2026",
+            "regionId": "IN-TN",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 12,273 MW",
+            "officialName": "Tamil Nadu: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 12273,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 12,273 MW of installed wind power capacity in Tamil Nadu as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [
@@ -36432,6 +36558,21 @@
             "referenceDate": "2026-03-31",
             "verificationStatus": "verified",
             "description": "MNRE reports 7,930.58 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          },
+          {
+            "id": "IN-TS-WIND-CAPACITY-2026",
+            "regionId": "IN-TS",
+            "category": "renewableEnergyProjects",
+            "name": "Installed wind power capacity — 128 MW",
+            "officialName": "Telangana: installed wind power capacity as of 30 June 2026",
+            "technology": "Wind energy",
+            "installedCapacityMW": 128,
+            "referenceDate": "2026-06-30",
+            "sourceName": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity",
+            "sourceId": "pibWindInstalledCapacityJun2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 128 MW of installed wind power capacity in Telangana as of 30 June 2026. The national total was 57,443 MW; a further 4 MW was grouped as 'Others' and is not allocated to individual States/UTs in the source."
           }
         ],
         "industrialCorridors": [

@@ -491,6 +491,12 @@
       "id": "gangtokDistrictNathuLa",
       "name": "Gangtok District Administration — Signature Attractions: Nathu La Pass",
       "url": "https://gangtokdistrict.nic.in/signature-attractions/"
+    },
+    {
+      "id": "motaStatewisePvtgList",
+      "name": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+      "url": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+      "note": "Official list of PVTG communities. The Ministry's 2023–24 Annual Report reports 75 PVTGs in 18 States and one UT. Legacy combined-state entries are deliberately not split into successor States without an authoritative mapping."
     }
   ],
   "regions": [
@@ -9637,6 +9643,78 @@
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
           }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-GJ-PVTG-KOLGHA",
+            "regionId": "IN-GJ",
+            "category": "tribalCommunities",
+            "name": "Kolgha",
+            "officialName": "Kolgha",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kolgha is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Gujarat. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-GJ-PVTG-KATHODI",
+            "regionId": "IN-GJ",
+            "category": "tribalCommunities",
+            "name": "Kathodi",
+            "officialName": "Kathodi",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kathodi is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Gujarat. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-GJ-PVTG-KOTWALIA",
+            "regionId": "IN-GJ",
+            "category": "tribalCommunities",
+            "name": "Kotwalia",
+            "officialName": "Kotwalia",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kotwalia is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Gujarat. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-GJ-PVTG-PADHAR",
+            "regionId": "IN-GJ",
+            "category": "tribalCommunities",
+            "name": "Padhar",
+            "officialName": "Padhar",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Padhar is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Gujarat. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-GJ-PVTG-SIDDI",
+            "regionId": "IN-GJ",
+            "category": "tribalCommunities",
+            "name": "Siddi",
+            "officialName": "Siddi",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Siddi is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Gujarat. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -14844,6 +14922,36 @@
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
           }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-KA-PVTG-JENU-KURUBA",
+            "regionId": "IN-KA",
+            "category": "tribalCommunities",
+            "name": "Jenu Kuruba",
+            "officialName": "Jenu Kuruba",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Jenu Kuruba is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Karnataka. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-KA-PVTG-KORAGA",
+            "regionId": "IN-KA",
+            "category": "tribalCommunities",
+            "name": "Koraga",
+            "officialName": "Koraga",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Koraga is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Karnataka. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -16143,6 +16251,78 @@
             "referenceDate": "2025-12-08",
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
+          }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-KL-PVTG-CHOLANAIKAYAN",
+            "regionId": "IN-KL",
+            "category": "tribalCommunities",
+            "name": "Cholanaikayan",
+            "officialName": "Cholanaikayan",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Cholanaikayan is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Kerala. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-KL-PVTG-KADAR",
+            "regionId": "IN-KL",
+            "category": "tribalCommunities",
+            "name": "Kadar",
+            "officialName": "Kadar",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kadar is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Kerala. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-KL-PVTG-KATTUNAYAKAN",
+            "regionId": "IN-KL",
+            "category": "tribalCommunities",
+            "name": "Kattunayakan",
+            "officialName": "Kattunayakan",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kattunayakan is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Kerala. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-KL-PVTG-KORAGA",
+            "regionId": "IN-KL",
+            "category": "tribalCommunities",
+            "name": "Koraga",
+            "officialName": "Koraga",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Koraga is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Kerala. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-KL-PVTG-KURUMBAS",
+            "regionId": "IN-KL",
+            "category": "tribalCommunities",
+            "name": "Kurumbas",
+            "officialName": "Kurumbas",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kurumbas is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Kerala. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
           }
         ]
       },
@@ -19388,6 +19568,50 @@
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
           }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-MH-PVTG-KATKARIA-KATHODI",
+            "regionId": "IN-MH",
+            "category": "tribalCommunities",
+            "name": "Katkaria / Kathodi",
+            "officialName": "Katkaria / Kathodi",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Katkaria / Kathodi is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Maharashtra. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-MH-PVTG-KOLAM",
+            "regionId": "IN-MH",
+            "category": "tribalCommunities",
+            "name": "Kolam",
+            "officialName": "Kolam",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kolam is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Maharashtra. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-MH-PVTG-MARIA-GOND",
+            "regionId": "IN-MH",
+            "category": "tribalCommunities",
+            "name": "Maria Gond",
+            "officialName": "Maria Gond",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Maria Gond is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Maharashtra. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          }
         ]
       },
       "highCourt": "Bombay High Court — Mumbai"
@@ -20189,6 +20413,22 @@
             "referenceDate": "2025-12-08",
             "verificationStatus": "verified",
             "description": "Sankirtana is the ritual singing, drumming and dancing tradition of Manipur, inscribed on UNESCO's Representative List in 2013."
+          }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-MN-PVTG-MARAM-NAGA",
+            "regionId": "IN-MN",
+            "category": "tribalCommunities",
+            "name": "Maram Naga",
+            "officialName": "Maram Naga",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Maram Naga is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Manipur. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
           }
         ]
       },
@@ -25537,6 +25777,190 @@
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
           }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-OD-PVTG-CHUKUTIA-BHUNJIA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Chukutia Bhunjia",
+            "officialName": "Chukutia Bhunjia",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Chukutia Bhunjia is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-BIRHOR",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Birhor",
+            "officialName": "Birhor",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Birhor is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-BONDO",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Bondo",
+            "officialName": "Bondo",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Bondo is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-DIDAYI",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Didayi",
+            "officialName": "Didayi",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Didayi is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-DONGARIA-KHOND",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Dongaria Khond",
+            "officialName": "Dongaria Khond",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Dongaria Khond is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-JUANG",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Juang",
+            "officialName": "Juang",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Juang is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-KHARIA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Kharia",
+            "officialName": "Kharia",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kharia is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-KUTIA-KONDHA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Kutia Kondha",
+            "officialName": "Kutia Kondha",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kutia Kondha is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-LANJIA-SAURA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Lanjia Saura",
+            "officialName": "Lanjia Saura",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Lanjia Saura is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-LODHA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Lodha",
+            "officialName": "Lodha",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Lodha is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-MANKIRDIA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Mankirdia",
+            "officialName": "Mankirdia",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Mankirdia is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-PAUDI-BHUIYA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Paudi Bhuiya",
+            "officialName": "Paudi Bhuiya",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Paudi Bhuiya is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-OD-PVTG-SAURA",
+            "regionId": "IN-OD",
+            "category": "tribalCommunities",
+            "name": "Saura",
+            "officialName": "Saura",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Saura is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Odisha. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -27975,6 +28399,22 @@
             "referenceDate": "2025-12-08",
             "verificationStatus": "verified",
             "description": "Kalbelia folk songs and dances are associated with Rajasthan and inscribed on UNESCO's Representative List in 2010."
+          }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-RJ-PVTG-SAHARIA",
+            "regionId": "IN-RJ",
+            "category": "tribalCommunities",
+            "name": "Saharia",
+            "officialName": "Saharia",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Saharia is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Rajasthan. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
           }
         ]
       },
@@ -30806,6 +31246,92 @@
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
           }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-TN-PVTG-IRULAR",
+            "regionId": "IN-TN",
+            "category": "tribalCommunities",
+            "name": "Irular",
+            "officialName": "Irular",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Irular is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tamil Nadu. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-TN-PVTG-KATTUNAYAKAN",
+            "regionId": "IN-TN",
+            "category": "tribalCommunities",
+            "name": "Kattunayakan",
+            "officialName": "Kattunayakan",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kattunayakan is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tamil Nadu. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-TN-PVTG-KOTA",
+            "regionId": "IN-TN",
+            "category": "tribalCommunities",
+            "name": "Kota",
+            "officialName": "Kota",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kota is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tamil Nadu. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-TN-PVTG-KURUMBA",
+            "regionId": "IN-TN",
+            "category": "tribalCommunities",
+            "name": "Kurumba",
+            "officialName": "Kurumba",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Kurumba is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tamil Nadu. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-TN-PVTG-PANIYAN",
+            "regionId": "IN-TN",
+            "category": "tribalCommunities",
+            "name": "Paniyan",
+            "officialName": "Paniyan",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Paniyan is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tamil Nadu. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-TN-PVTG-TODA",
+            "regionId": "IN-TN",
+            "category": "tribalCommunities",
+            "name": "Toda",
+            "officialName": "Toda",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Toda is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tamil Nadu. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          }
         ]
       },
       "highCourt": "Madras High Court — Chennai"
@@ -32551,6 +33077,22 @@
             "referenceDate": "2025-12-08",
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
+          }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-TR-PVTG-RAING",
+            "regionId": "IN-TR",
+            "category": "tribalCommunities",
+            "name": "Raing",
+            "officialName": "Raing",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Raing is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Tripura. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
           }
         ]
       },
@@ -37360,6 +37902,50 @@
             "verificationStatus": "verified",
             "description": "The oral tradition of Vedic chanting is inscribed on UNESCO's Representative List (2008). The Ministry of Culture's annexure associates it with all Indian States."
           }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-WB-PVTG-BIRHOR",
+            "regionId": "IN-WB",
+            "category": "tribalCommunities",
+            "name": "Birhor",
+            "officialName": "Birhor",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Birhor is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under West Bengal. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-WB-PVTG-LODHA",
+            "regionId": "IN-WB",
+            "category": "tribalCommunities",
+            "name": "Lodha",
+            "officialName": "Lodha",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Lodha is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under West Bengal. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-WB-PVTG-TOTOS",
+            "regionId": "IN-WB",
+            "category": "tribalCommunities",
+            "name": "Totos",
+            "officialName": "Totos",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Totos is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under West Bengal. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -38025,6 +38611,78 @@
             "sourceId": "moefccElephantReserveAtlas2023",
             "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
             "referenceYear": "2023"
+          }
+        ],
+        "tribalCommunities": [
+          {
+            "id": "IN-AN-PVTG-GREAT-ANDAMANESE",
+            "regionId": "IN-AN",
+            "category": "tribalCommunities",
+            "name": "Great Andamanese",
+            "officialName": "Great Andamanese",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Great Andamanese is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Andaman and Nicobar Islands. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-AN-PVTG-JARAWA",
+            "regionId": "IN-AN",
+            "category": "tribalCommunities",
+            "name": "Jarawa",
+            "officialName": "Jarawa",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Jarawa is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Andaman and Nicobar Islands. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-AN-PVTG-ONGE",
+            "regionId": "IN-AN",
+            "category": "tribalCommunities",
+            "name": "Onge",
+            "officialName": "Onge",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Onge is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Andaman and Nicobar Islands. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-AN-PVTG-SENTINELESE",
+            "regionId": "IN-AN",
+            "category": "tribalCommunities",
+            "name": "Sentinelese",
+            "officialName": "Sentinelese",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Sentinelese is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Andaman and Nicobar Islands. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
+          },
+          {
+            "id": "IN-AN-PVTG-SHOM-PEN",
+            "regionId": "IN-AN",
+            "category": "tribalCommunities",
+            "name": "Shom Pen",
+            "officialName": "Shom Pen",
+            "communityClassification": "Particularly Vulnerable Tribal Group (PVTG)",
+            "sourceName": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+            "sourceId": "motaStatewisePvtgList",
+            "sourceUrl": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+            "referenceDate": "Ministry of Tribal Affairs official state-wise list; 2023–24 Annual Report context",
+            "verificationStatus": "verified",
+            "description": "Shom Pen is included in the Ministry of Tribal Affairs' state-wise list of Particularly Vulnerable Tribal Groups (PVTGs) under Andaman and Nicobar Islands. The Ministry's annual report identifies 75 PVTGs across 18 States and one Union Territory. This is a PVTG classification record, not a complete list of all Scheduled Tribes or a population estimate."
           }
         ]
       },

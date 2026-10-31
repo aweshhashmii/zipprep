@@ -15427,6 +15427,318 @@
       "referenceDate": "Central Ground Water Board, Tamil Nadu and Puducherry report, 2023",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1288",
+      "regionName": "Arunachal Pradesh",
+      "category": "plains",
+      "name": "Foothill alluvial tracts and narrow river-valley plains",
+      "description": "The CGWB Changlang district aquifer report records newer alluvium along valley floors and flat-to-low hill tracts in the northern part of the district, grading into steep ridges and gorges. The entry describes local foothill and valley plains, not a continuous State-wide plain.",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/16841293582055348601file.pdf",
+      "sourceId": "cgwbArunachalChanglang2023",
+      "referenceDate": "CGWB Aquifer Mapping, Changlang District, 2023",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1289",
+      "regionName": "Jharkhand",
+      "category": "plains",
+      "name": "Damodar Valley lowlands",
+      "description": "The Jharkhand Space Applications Center's Hazaribagh district profile divides the terrain into the central plateau, lower plateau and Damodar Valley. The valley forms a lower-elevation corridor along the southern part of the district, distinct from the surrounding plateau uplands.",
+      "sourceUrl": "https://jsac.jharkhand.gov.in/district_profile/Haz.pdf",
+      "sourceId": "jsacJharkhandDamodarValley2026",
+      "referenceDate": "Jharkhand Space Applications Center, Hazaribagh District Profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1290",
+      "regionName": "Meghalaya",
+      "category": "plains",
+      "name": "Southern foothill plains along the Bangladesh border and northern plains adjoining Assam",
+      "description": "The Meghalaya Government's official physiographic profile describes a narrow strip of plains at the foot of the southern Khasi–Jaintia plateau along the Bangladesh boundary; the northern plateau slopes gradually and merges with the Assam plains.",
+      "sourceUrl": "https://www.megipr.gov.in/about-meghalaya.html",
+      "sourceId": "meghalayaPhysiography2026",
+      "referenceDate": "Government of Meghalaya, Geography and Physiology profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1291",
+      "regionName": "Mizoram",
+      "category": "plains",
+      "name": "Champhai Plain and smaller valley plains at North Vanlaiphai and Thenzawl",
+      "description": "The Ministry of Tribal Affairs' Tribal Atlas of Mizoram documents small patches of flat valley land between the north–south hill ranges, including Champhai Plain, North Vanlaiphai and Thenzawl. Champhai is identified as the State's largest plain, approximately 11.27 km long and 4.88 km wide.",
+      "sourceUrl": "https://repository.tribal.gov.in/upload/bitstream/123456789/61938/1/TRMZ_2020_book1.pdf",
+      "sourceId": "tribalAtlasMizoram2020",
+      "referenceDate": "Ministry of Tribal Affairs, Tribal Atlas of Mizoram, 2020",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1292",
+      "regionName": "Rajasthan",
+      "category": "plains",
+      "name": "Thar Desert plains and eastern Rajasthan alluvial plains",
+      "description": "The Geological Survey of India state geology profile identifies the western desert plain, eastern alluvial plains and Aravalli uplands as major physiographic units of Rajasthan. The western plain includes the Thar Desert; the eastern plain is drained by the Banas and Chambal systems.",
+      "sourceUrl": "https://www.gsi.gov.in/",
+      "sourceId": "gsiRajasthanGeology2026",
+      "referenceDate": "Geological Survey of India State geology and physiography profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1293",
+      "regionName": "Sikkim",
+      "category": "plains",
+      "name": "No extensive plains; only narrow Teesta and Rangeet river-valley floors",
+      "description": "The Government of Sikkim describes the State as a steep Himalayan stairway descending from the Tibetan Plateau to the plains of West Bengal, with rugged mountains and deep valleys. No extensive plain lies within Sikkim; local river-valley floors are narrow and are not classified as plains in this entry.",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/AQM/NAQUIM_REPORT/Sikkim/SIKKIM.pdf",
+      "sourceId": "cgwbSikkimGeology2019",
+      "referenceDate": "Central Ground Water Board, South Sikkim Aquifer Mapping report, 2018–19",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1294",
+      "regionName": "Telangana",
+      "category": "plains",
+      "name": "Godavari and Krishna river-valley alluvial plains",
+      "description": "The CGWB Telangana geological and hydrogeological report identifies broad alluvial tracts and floodplains along the Godavari and Krishna river systems within the predominantly Deccan plateau landscape. These valley plains are local lowland corridors rather than a continuous State-wide plain.",
+      "sourceUrl": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/16879348451346854421file.pdf",
+      "sourceId": "cgwbTelanganaGeology2024",
+      "referenceDate": "Central Ground Water Board, Telangana geological and hydrogeological report",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1295",
+      "regionName": "Tripura",
+      "category": "plains",
+      "name": "Western Tripura Plain and alluvial valley plains",
+      "description": "The Government of India's India Cine Hub profile describes Tripura as a hilly State with altitudes from 15 to 940 metres, while noting that most of its population lives in the plains. These include the broad western lowlands and the alluvial valleys between the north–south hill ranges.",
+      "sourceUrl": "https://www.indiacinehub.gov.in/location/states-union-territories/tripura",
+      "sourceId": "indiaGovTripuraBetlingchhip2026",
+      "referenceDate": "India Cine Hub, Government of India profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1296",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "plains",
+      "name": "Narrow coastal plains and beach-ridge lowlands",
+      "description": "NITI Aayog's island physiography profile describes the islands as forested ridges separated by narrow coastal plains and beaches. The plains are discontinuous and generally restricted to coastal margins and valley mouths.",
+      "sourceUrl": "https://www.niti.gov.in/node/702",
+      "sourceId": "nitiAndamanSaddlePeak2019",
+      "referenceDate": "NITI Aayog island physiography profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1297",
+      "regionName": "Chandigarh",
+      "category": "plains",
+      "name": "Gently sloping alluvial plain at the Shivalik foothills",
+      "description": "The Chandigarh Administration describes the UT as gently sloping plains at the foothills of the Shivalik range, with elevations of approximately 304–365 metres and a mix of Kandi, Sirowal and alluvial terrain.",
+      "sourceUrl": "https://chandigarh.gov.in/general-information",
+      "sourceId": "chandigarhTopography2026",
+      "referenceDate": "Chandigarh Administration General Information and Topography profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1298",
+      "regionName": "Ladakh",
+      "category": "plains",
+      "name": "Indus Valley floor and Shyok Valley lowlands",
+      "description": "The CGWB Ladakh report describes the Indus Valley between the Zanskar and Ladakh ranges as a broad, flat valley, with its floor rising from approximately 3,195 metres at Leh to 3,395 metres at Upshi. It records recent floodplains, river bars, terraces and bajada surfaces along the Indus and Shyok valleys.",
+      "sourceUrl": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/1748240662654639626file.pdf",
+      "sourceId": "cgwbLadakhGeology2024",
+      "referenceDate": "Central Ground Water Board, Ladakh geological and hydrogeological report",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1299",
+      "regionName": "Lakshadweep",
+      "category": "plains",
+      "name": "Low coral-island plains, reef flats and beach ridges",
+      "description": "The CGWB aquifer-mapping report describes Lakshadweep as low-lying coral islands formed from reef limestone, coral sand and carbonate crusts. The islands consist of narrow coastal plains, beach ridges and lagoon-side reef flats rather than continental alluvial plains.",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/AQM/NAQUIM_REPORT/Kerala/Lakshadweep_fina.pdf",
+      "sourceId": "cgwbLakshadweepGeology2020",
+      "referenceDate": "Central Ground Water Board, Aquifer Mapping and Groundwater Management of Lakshadweep",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1300",
+      "regionName": "Haryana",
+      "category": "waterfalls",
+      "name": "No major natural waterfall recorded in the cited State tourism and physiographic profiles",
+      "description": "The cited Haryana State Action Plan describes the State's main landforms as alluvial plains, the Aravalli belt and the Shivalik hills but does not identify a major natural waterfall. This is a scope-limited 'none recorded' entry; it does not include artificial cascades or seasonal drainage drops.",
+      "sourceUrl": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Submission%20by%20HSPCB%20in%20OA%20No.582%20of%202024%20%28Rakesh%20Kumar%20Vs%20UoI%20%26%20Ors.%29.pdf",
+      "sourceId": "haryanaKarohPeak2024",
+      "referenceDate": "Karoh Peak, Haryana's highest point",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1301",
+      "regionName": "Punjab",
+      "category": "waterfalls",
+      "name": "No major natural waterfall recorded in the cited State physiographic profile",
+      "description": "The CGWB describes Punjab as a predominantly alluvial plain with a narrow Kandi–Shivalik foothill belt. The cited State profile does not identify a major natural waterfall; small seasonal stream drops are not separately inventoried.",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/1743586755819187488file.pdf",
+      "sourceId": "cgwbPunjabGeology2024",
+      "referenceDate": "Alluvial deposits, Kandi and Sirowal piedmont geology",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1302",
+      "regionName": "Chandigarh",
+      "category": "waterfalls",
+      "name": "No natural waterfall recorded within the UT boundary",
+      "description": "The Chandigarh Administration describes the UT as gently sloping foothill plains with seasonal choes and urban drainage channels. No natural waterfall is identified within the UT's boundary in the cited topographic profile.",
+      "sourceUrl": "https://chandigarh.gov.in/general-information",
+      "sourceId": "chandigarhTopography2026",
+      "referenceDate": "Shivalik foothills and low-relief topography",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1303",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "waterfalls",
+      "name": "No major natural waterfall recorded in the cited UT profiles",
+      "description": "The cited UT profiles document coastal plains, low hills, rivers and reservoirs but do not identify a major natural waterfall. Artificial garden cascades and dam spillways are not counted as natural waterfalls in this entry.",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/DNH%20%26%20DD_GWYB%202023-24.pdf",
+      "sourceId": "cgwbDNHDD2024",
+      "referenceDate": "Official government source; publication year as indicated in title",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1304",
+      "regionName": "Delhi",
+      "category": "waterfalls",
+      "name": "No natural waterfall recorded in the NCT",
+      "description": "The Delhi Ridge and Yamuna floodplain profiles describe rocky uplands, seasonal drains and the river plain but do not identify a natural waterfall within the National Capital Territory.",
+      "sourceUrl": "https://www.delhitourism.gov.in/dt/explore_the_city/delhi_ridge.html",
+      "sourceId": "delhiRidgePeak2026",
+      "referenceDate": "Delhi Ridge as the city's Aravalli rocky upland",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1305",
+      "regionName": "Ladakh",
+      "category": "waterfalls",
+      "name": "No major named natural waterfall recorded in the cited high-altitude geography profile",
+      "description": "The CGWB Ladakh profile documents glaciers, snow-fed rivers, broad valleys and seasonal meltwater channels but does not identify a major named natural waterfall. This is a scope-limited 'none recorded' entry.",
+      "sourceUrl": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/1748240662654639626file.pdf",
+      "sourceId": "cgwbLadakhGeology2024",
+      "referenceDate": "Moraines, fluvioglacial deposits, lacustrine sediments and hard rocks",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1306",
+      "regionName": "Lakshadweep",
+      "category": "waterfalls",
+      "name": "No natural waterfall: low coral atolls without surface river systems",
+      "description": "The CGWB describes Lakshadweep as low-lying coral islands with shallow groundwater lenses and reef lagoons. The islands have no natural river network or mountain relief to generate waterfalls.",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/AQM/NAQUIM_REPORT/Kerala/Lakshadweep_fina.pdf",
+      "sourceId": "cgwbLakshadweepGeology2020",
+      "referenceDate": "Coral limestone and reef-derived deposits",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1307",
+      "regionName": "Puducherry",
+      "category": "waterfalls",
+      "name": "No major natural waterfall recorded in the cited coastal-plain profile",
+      "description": "The CGWB's joint Tamil Nadu and Puducherry report describes the UT as low-lying coastal plain with alluvial and sedimentary formations. It does not identify a major natural waterfall within Puducherry.",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/1707999694554625199file.pdf",
+      "sourceId": "cgwbTamilNaduPuducherryGeology2023",
+      "referenceDate": "Coastal alluvium, beach sands and sedimentary formations in Puducherry",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1308",
+      "regionName": "Arunachal Pradesh",
+      "category": "geology",
+      "name": "Alluvium, Tertiary sedimentary formations and Proterozoic metamorphic rocks",
+      "description": "The CGWB Changlang aquifer-mapping report records geology ranging from newer alluvium to Proterozoic metamorphics, with Disang, Barail, Tipam and Dihing groups, folded structures and sandstone-rich sequences. This is a district-scope profile and is not a complete lithological inventory for all Arunachal Pradesh.",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/16841293582055348601file.pdf",
+      "sourceId": "cgwbArunachalChanglang2023",
+      "referenceDate": "CGWB Aquifer Mapping, Changlang District, 2023",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1309",
+      "regionName": "Himachal Pradesh",
+      "category": "geology",
+      "name": "Spiti Tethyan rocks: schist, slate, conglomerate and fossil-bearing sedimentary formations",
+      "description": "The Himachal Pradesh Forest Department's Upper Spiti Landscape Management Plan describes the region's geology as fossil-rich rocks including schists, slates and conglomerates, with conglomerates prominent in Spiti and gruvite and slate in Lahaul. This is a regional profile for Lahaul–Spiti, not the entire State.",
+      "sourceUrl": "https://hpforest.gov.in/storage/files/1/pdf/Management%20Plan/Management%20Plan%20for%20Upper%20Spiti%20Landscape%20including%20Kibber%20WLS_compressed.pdf",
+      "sourceId": "himachalSpitiPlateau2025",
+      "referenceDate": "Himachal Pradesh Forest Department, Upper Spiti Landscape Management Plan",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1310",
+      "regionName": "West Bengal",
+      "category": "geology",
+      "name": "Archaean metamorphic rocks, Gondwana formations, Siwalik sediments and Quaternary alluvium",
+      "description": "The CGWB Ground Water Year Book 2023–24 describes West Bengal's geology from Archaean metamorphites to Quaternary unconsolidated sediments. About two-thirds of the State is covered by alluvial and deltaic deposits, while the north and southwest contain hard rocks, Siwalik sandstone/conglomerate, Gondwana formations and Proterozoic units.",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/West%20Bengal_A%20%26%20N_Sikkim_GWYB_2023-24.pdf",
+      "sourceId": "cgwbWestBengalGeology2024",
+      "referenceDate": "Central Ground Water Board, West Bengal Ground Water Year Book 2023–24",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1311",
+      "regionName": "Chandigarh",
+      "category": "geology",
+      "name": "Siwalik foothill deposits, Kandi–Sirowal sediments and Quaternary alluvium",
+      "description": "The CGWB Punjab and Chandigarh Ground Water Year Book 2023–24 describes the Chandigarh region's geology through foothill deposits and Quaternary alluvium, with coarse piedmont material grading into finer alluvial sediments across the adjoining Punjab–Chandigarh plain.",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/Punjab%20%26%20Chandigarh_GWYB%202023-24.pdf",
+      "sourceId": "cgwbPunjabChandigarh2024",
+      "referenceDate": "Central Ground Water Board, Punjab and Chandigarh Ground Water Year Book 2023–24",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1312",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "geology",
+      "name": "Deccan Trap basalt, alluvium, beach sand, miliolite and Sahyadri hill rocks",
+      "description": "The CGWB UT Ground Water Year Book 2023–24 records basalt as the main basement rock in Daman, with alluvium along river terraces and beach sands on the coast. Diu is underlain by alluvium and miliolite soft rock; Dadra and Nagar Haveli includes hilly terrain adjoining the Sahyadri/Western Ghats.",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/DNH%20%26%20DD_GWYB%202023-24.pdf",
+      "sourceId": "cgwbDNHDD2024",
+      "referenceDate": "Central Ground Water Board, DNH and Daman & Diu Ground Water Year Book 2023–24",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1313",
+      "regionName": "Jammu and Kashmir",
+      "category": "geology",
+      "name": "Karewa glacial-lacustrine sediments, Siwalik piedmont deposits and recent alluvium",
+      "description": "The CGWB Dynamic Ground Water Resources report describes the Kashmir Valley as a synclinal basin with thick Karewa deposits of sand, silt and clay interspersed with glacial boulder beds. Jammu's outer plains contain Pleistocene–Recent piedmont deposits, terraces and alluvial fans below the Siwalik Hills.",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/1748241612866910089file.pdf",
+      "sourceId": "cgwbJammuKashmirGeology2024",
+      "referenceDate": "Central Ground Water Board, Dynamic Ground Water Resources of Jammu and Kashmir, 2024",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -17194,6 +17506,54 @@
       "title": "Kerala Tourism — Wayanad Topography",
       "sourceUrl": "https://www.keralatourism.org/wayanad/wayanad-topography.php",
       "referenceDate": "Official State/UT tourism or forest department publication"
+    },
+    {
+      "sourceId": "cgwbArunachalChanglang2023",
+      "title": "Central Ground Water Board — Aquifer Mapping in Changlang District, Arunachal Pradesh",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/16841293582055348601file.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "jsacJharkhandDamodarValley2026",
+      "title": "Jharkhand Space Applications Center — Hazaribagh District Profile",
+      "sourceUrl": "https://jsac.jharkhand.gov.in/district_profile/Haz.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "meghalayaPhysiography2026",
+      "title": "Government of Meghalaya — Geography and Physiology",
+      "sourceUrl": "https://www.megipr.gov.in/about-meghalaya.html",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "tribalAtlasMizoram2020",
+      "title": "Ministry of Tribal Affairs — Tribal Atlas of Mizoram",
+      "sourceUrl": "https://repository.tribal.gov.in/upload/bitstream/123456789/61938/1/TRMZ_2020_book1.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "cgwbDNHDD2024",
+      "title": "Central Ground Water Board — DNH and Daman & Diu Ground Water Year Book 2023–24",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/DNH%20%26%20DD_GWYB%202023-24.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "cgwbWestBengalGeology2024",
+      "title": "Central Ground Water Board — West Bengal Ground Water Year Book 2023–24",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/West%20Bengal_A%20%26%20N_Sikkim_GWYB_2023-24.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "cgwbPunjabChandigarh2024",
+      "title": "Central Ground Water Board — Punjab and Chandigarh Ground Water Year Book 2023–24",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/Punjab%20%26%20Chandigarh_GWYB%202023-24.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
+    },
+    {
+      "sourceId": "cgwbJammuKashmirGeology2024",
+      "title": "Central Ground Water Board — Dynamic Ground Water Resources of Jammu and Kashmir, 2024",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/1748241612866910089file.pdf",
+      "referenceDate": "Official government source; publication year as indicated in title"
     }
   ]
 }

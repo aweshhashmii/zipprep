@@ -1862,9 +1862,33 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Bihar State Review. Non-coal resource estimates as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Capacities are in thousand tonnes per year."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Bihar State Review. Non-coal resource estimates as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Capacities are in thousand tonnes per year."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Bihar State Review. Non-coal resource estimates as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Capacities are in thousand tonnes per year."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -2077,7 +2101,152 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Pyrite",
+            "district": "Rohtas (Amjhore)",
+            "description": "Remaining resources: 1,574.561 million tonnes as at 1 April 2020; no reserves reported. Bihar accounts for about 94% of India's reported pyrite resources. The historic Amjhore pyrite unit was closed in 2003; resource presence must not be interpreted as current production.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Kaimur (Bhabhua), Munger (Monghyr) and Rohtas",
+            "description": "Total resources: 1,005.995 million tonnes as at 1 April 2020, including 11.807 million tonnes reserves and 994.188 million tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Rajmahal coalfield",
+            "description": "Coal resources as at 1 April 2024: 5,397.67 million tonnes (2,346.36 proved; 3,014.65 indicated; 36.66 inferred), as reported in Coal Directory of India 2023-24.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold (primary)",
+            "district": "Jamui",
+            "description": "IBM lists 222.885 million tonnes of primary gold ore resources containing 37.6 tonnes of gold metal as at 1 April 2020. The gold review classifies the Bihar estimate at preliminary inferred/reconnaissance stages; it is not a proved economic reserve.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bauxite",
+            "district": "Munger (Monghyr) and Rohtas",
+            "description": "4.114 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mica",
+            "district": "Nawada",
+            "description": "Occurrence district identified by IBM; the Bihar State Review does not quantify mica resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Bhagalpur, Jamui, Munger (Monghyr) and Nalanda",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartzite",
+            "district": "Lakhisarai, Munger (Monghyr) and Nalanda",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Talc, soapstone and steatite",
+            "district": "Munger (Monghyr)",
+            "description": "Occurrence district identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "Bhagalpur and Munger (Monghyr)",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Gaya, Jamui and Munger (Monghyr)",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Bhagalpur and Purnea",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Bhagalpur, Gaya, Jehanabad and Jamui",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (haematite)",
+            "district": "Bhagalpur",
+            "description": "55,000 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "Gaya and Jamui",
+            "description": "49.439 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead-zinc",
+            "district": "Banka and Rohtas",
+            "description": "11.435 million tonnes of remaining ore resources as at 1 April 2020, containing 24,000 tonnes of lead metal and 38,750 tonnes of zinc metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Potash",
+            "district": "Bihar (district not specified in IBM State Review)",
+            "description": "230 million tonnes of remaining resources as at 1 April 2020; no reserves reported. District-level location is not provided in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rare-earth elements",
+            "district": "Bihar (district not specified in IBM State Review)",
+            "description": "1,459 tonnes of remaining resources as at 1 April 2020; no reserves reported. District-level location is not provided in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 9902.66,
@@ -2115,7 +2284,83 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Limestone",
+            "district": "Bihar (one reporting mine; district not specified in table)",
+            "description": "2023-24 provisional production: 999,000 tonnes from 1 reporting mine; production value ₹396.419 million (₹39.6419 crore). Production increased 7.53% over 2022-23.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sulphur (oil-refinery by-product)",
+            "district": "Barauni, Begusarai",
+            "description": "2023-24 provisional by-product recovery: 16,240 tonnes. This is recovered from an oil refinery, not mined sulphur; IBM excludes by-product sulphur value from mineral production value.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Eco Cement — Durgawati",
+            "district": "Kaimur (Bhabhua)",
+            "description": "Listed installed cement capacity: 1,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kalyanpur Cements Ltd — Banjari",
+            "district": "Rohtas",
+            "description": "Listed installed cement capacity: 1,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kanodia Cement — Bhabhua Bangar Cement",
+            "district": "Kaimur (Bhabhua)",
+            "description": "Listed installed cement capacity: 1,200 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Jasoia Aurangabad grinding unit",
+            "district": "Aurangabad",
+            "description": "Listed installed capacity: 3,600 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — New Bihar Cement plant",
+            "district": "Aurangabad",
+            "description": "Listed installed cement capacity: 2,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Patliputra plant",
+            "district": "Bihar (plant district not specified in IBM table)",
+            "description": "Listed installed cement capacity: 1,900 thousand tonnes per year; IBM table does not specify the district.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation — Barauni Refinery",
+            "district": "Barauni, Begusarai",
+            "description": "Listed refinery capacity: 6,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Patna High Court — Patna"
     },

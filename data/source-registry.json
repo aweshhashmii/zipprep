@@ -641,6 +641,25 @@
       "issuingAuthority": "Ministry of Culture / Archaeological Survey of India",
       "cadence": "Refresh from the next Ministry of Culture parliamentary annexure; this is a dated ASI-protected-site count, not a complete inventory of all heritage places.",
       "note": "The 23 March 2026 annexure reports 3,686 protected monuments/sites across 33 listed administrative entries. Three present-day UTs are not listed. The Daman & Diu figure refers to the former Daman & Diu territory and does not cover former Dadra & Nagar Haveli."
+    },
+    {
+      "id": "mopwsOperationalPorts2026",
+      "name": "Ministry of Ports, Shipping and Waterways — operational major and other-than-major ports, notified major ports and projects under construction",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227670&lang=1&reg=1",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "12 operational major ports",
+        "68 operational other-than-major ports",
+        "Newly notified major ports",
+        "Andhra Pradesh ports under construction"
+      ],
+      "referenceDate": "2026-02-13",
+      "issuingAuthority": "Ministry of Ports, Shipping and Waterways",
+      "cadence": "Refresh from the Ministry's next port-wise parliamentary annexure; keep operational, notified and under-construction status separate.",
+      "note": "The 68 operational OTMP entries are reproduced as listed in the parliamentary reply. Names and spellings follow the annexure; duplicated or closely related port/terminal names are not silently merged."
     }
   ]
 }

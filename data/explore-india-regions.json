@@ -2684,6 +2684,39 @@
             "verificationStatus": "verified",
             "description": "Seshachalam is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-AP-PROJECT-TIGER-NAGARJUNSAGAR-SRISAILAM",
+            "regionId": "IN-AP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Nagarjunsagar-Srisailam Tiger Reserve",
+            "officialName": "Project Tiger association: Nagarjunsagar-Srisailam Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Nagarjunsagar-Srisailam",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Nagarjunsagar-Srisailam is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AP-PROJECT-ELEPHANT-RAYALA",
+            "regionId": "IN-AP",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Rayala Elephant Reserve",
+            "officialName": "Project Elephant association: Rayala Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Rayala",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Rayala is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -3921,6 +3954,85 @@
             "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
             "verificationStatus": "verified",
             "description": "Dehang-Dibang is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-AR-PROJECT-TIGER-KAMLANG",
+            "regionId": "IN-AR",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Kamlang Tiger Reserve",
+            "officialName": "Project Tiger association: Kamlang Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Kamlang",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Kamlang is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AR-PROJECT-TIGER-NAMDAPHA",
+            "regionId": "IN-AR",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Namdapha Tiger Reserve",
+            "officialName": "Project Tiger association: Namdapha Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Namdapha",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Namdapha is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AR-PROJECT-TIGER-PAKKE",
+            "regionId": "IN-AR",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Pakke Tiger Reserve",
+            "officialName": "Project Tiger association: Pakke Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Pakke",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Pakke is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AR-PROJECT-ELEPHANT-KAMENG",
+            "regionId": "IN-AR",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Kameng Elephant Reserve",
+            "officialName": "Project Elephant association: Kameng Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Kameng",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Kameng is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AR-PROJECT-ELEPHANT-SOUTH-ARUNACHAL",
+            "regionId": "IN-AR",
+            "category": "conservationProjects",
+            "name": "Project Elephant — South Arunachal Elephant Reserve",
+            "officialName": "Project Elephant association: South Arunachal Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "South Arunachal",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "South Arunachal is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -5631,6 +5743,148 @@
             "verificationStatus": "verified",
             "description": "Dibru-Saikhowa is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-AS-PROJECT-TIGER-KAZIRANGA",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Kaziranga Tiger Reserve",
+            "officialName": "Project Tiger association: Kaziranga Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Kaziranga",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Kaziranga is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-TIGER-MANAS",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Manas Tiger Reserve",
+            "officialName": "Project Tiger association: Manas Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Manas",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Manas is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-TIGER-NAMERI",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Nameri Tiger Reserve",
+            "officialName": "Project Tiger association: Nameri Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Nameri",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Nameri is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-TIGER-ORANG",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Orang Tiger Reserve",
+            "officialName": "Project Tiger association: Orang Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Orang",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Orang is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-ELEPHANT-CHIRANG-RIPU",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Chirang-Ripu Elephant Reserve",
+            "officialName": "Project Elephant association: Chirang-Ripu Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Chirang-Ripu",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Chirang-Ripu is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-ELEPHANT-DHANSIRI-LUNGDING",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Dhansiri-Lungding Elephant Reserve",
+            "officialName": "Project Elephant association: Dhansiri-Lungding Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Dhansiri-Lungding",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Dhansiri-Lungding is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-ELEPHANT-DIHING-PATKAI",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Dihing-Patkai Elephant Reserve",
+            "officialName": "Project Elephant association: Dihing-Patkai Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Dihing-Patkai",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Dihing-Patkai is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-ELEPHANT-KAZIRANGA-KARBI-ANGLONG",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Kaziranga-Karbi Anglong Elephant Reserve",
+            "officialName": "Project Elephant association: Kaziranga-Karbi Anglong Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Kaziranga-Karbi Anglong",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Kaziranga-Karbi Anglong is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-AS-PROJECT-ELEPHANT-SONITPUR",
+            "regionId": "IN-AS",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Sonitpur Elephant Reserve",
+            "officialName": "Project Elephant association: Sonitpur Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Sonitpur",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Sonitpur is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
@@ -7033,6 +7287,23 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-BR-PROJECT-TIGER-VALMIKI",
+            "regionId": "IN-BR",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Valmiki Tiger Reserve",
+            "officialName": "Project Tiger association: Valmiki Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Valmiki",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Valmiki is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Patna High Court — Patna"
@@ -8021,6 +8292,100 @@
             "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
             "verificationStatus": "verified",
             "description": "Achanakmar-Amarkantak is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-CT-PROJECT-TIGER-ACHANAKMAR",
+            "regionId": "IN-CT",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Achanakmar Tiger Reserve",
+            "officialName": "Project Tiger association: Achanakmar Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Achanakmar",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Achanakmar is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-CT-PROJECT-TIGER-GURU-GHASIDAS-TAMOR-PINGLA",
+            "regionId": "IN-CT",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Guru Ghasidas–Tamor Pingla Tiger Reserve",
+            "officialName": "Project Tiger association: Guru Ghasidas–Tamor Pingla Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Guru Ghasidas–Tamor Pingla",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Guru Ghasidas–Tamor Pingla is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-CT-PROJECT-TIGER-INDRAVATI",
+            "regionId": "IN-CT",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Indravati Tiger Reserve",
+            "officialName": "Project Tiger association: Indravati Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Indravati",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Indravati is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-CT-PROJECT-TIGER-UDANTI-SITANADI",
+            "regionId": "IN-CT",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Udanti-Sitanadi Tiger Reserve",
+            "officialName": "Project Tiger association: Udanti-Sitanadi Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Udanti-Sitanadi",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Udanti-Sitanadi is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-CT-PROJECT-ELEPHANT-SARGUJA-JASHPUR",
+            "regionId": "IN-CT",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Sarguja-Jashpur Elephant Reserve",
+            "officialName": "Project Elephant association: Sarguja-Jashpur Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Sarguja-Jashpur",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Sarguja-Jashpur is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-CT-PROJECT-ELEPHANT-LEMRU",
+            "regionId": "IN-CT",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Lemru Elephant Reserve",
+            "officialName": "Project Elephant association: Lemru Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Lemru",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Lemru is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -9188,6 +9553,23 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-111 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-GA-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-GA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -11907,6 +12289,23 @@
             "verificationStatus": "verified",
             "description": "Kachchh is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-GJ-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-GJ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -12988,6 +13387,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 1780 route km in Haryana at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 2709,
             "totalTrackKilometres": 3230
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-HR-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-HR",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -14701,6 +15117,23 @@
             "verificationStatus": "verified",
             "description": "Cold Desert is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-HP-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-HP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
@@ -16057,6 +16490,39 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-JH-PROJECT-TIGER-PALAMAU",
+            "regionId": "IN-JH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Palamau Tiger Reserve",
+            "officialName": "Project Tiger association: Palamau Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Palamau",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Palamau is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-JH-PROJECT-ELEPHANT-SINGHBHUM",
+            "regionId": "IN-JH",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Singhbhum Elephant Reserve",
+            "officialName": "Project Elephant association: Singhbhum Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Singhbhum",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Singhbhum is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -17960,6 +18426,115 @@
             "verificationStatus": "verified",
             "description": "Nilgiri is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-KA-PROJECT-TIGER-BANDIPUR",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Bandipur Tiger Reserve",
+            "officialName": "Project Tiger association: Bandipur Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Bandipur",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Bandipur is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KA-PROJECT-TIGER-BHADRA",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Bhadra Tiger Reserve",
+            "officialName": "Project Tiger association: Bhadra Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Bhadra",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Bhadra is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KA-PROJECT-TIGER-BILIGIRI-RANGANATHA-TEMPLE",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Biligiri Ranganatha Temple Tiger Reserve",
+            "officialName": "Project Tiger association: Biligiri Ranganatha Temple Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Biligiri Ranganatha Temple",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Biligiri Ranganatha Temple is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KA-PROJECT-TIGER-KALI",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Kali Tiger Reserve",
+            "officialName": "Project Tiger association: Kali Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Kali",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Kali is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KA-PROJECT-TIGER-NAGARAHOLE",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Nagarahole Tiger Reserve",
+            "officialName": "Project Tiger association: Nagarahole Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Nagarahole",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Nagarahole is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KA-PROJECT-ELEPHANT-DANDELI",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Dandeli Elephant Reserve",
+            "officialName": "Project Elephant association: Dandeli Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Dandeli",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Dandeli is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KA-PROJECT-ELEPHANT-MYSURU",
+            "regionId": "IN-KA",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Mysuru Elephant Reserve",
+            "officialName": "Project Elephant association: Mysuru Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Mysuru",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Mysuru is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -19645,6 +20220,102 @@
             "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
             "verificationStatus": "verified",
             "description": "Nilgiri is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-KL-PROJECT-TIGER-PARAMBIKULAM",
+            "regionId": "IN-KL",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Parambikulam Tiger Reserve",
+            "officialName": "Project Tiger association: Parambikulam Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Parambikulam",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Parambikulam is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KL-PROJECT-TIGER-PERIYAR",
+            "regionId": "IN-KL",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Periyar Tiger Reserve",
+            "officialName": "Project Tiger association: Periyar Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Periyar",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Periyar is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KL-PROJECT-ELEPHANT-ANAMUDI",
+            "regionId": "IN-KL",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Anamudi Elephant Reserve",
+            "officialName": "Project Elephant association: Anamudi Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Anamudi",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Anamudi is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KL-PROJECT-ELEPHANT-NILAMBUR",
+            "regionId": "IN-KL",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Nilambur Elephant Reserve",
+            "officialName": "Project Elephant association: Nilambur Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Nilambur",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Nilambur is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KL-PROJECT-ELEPHANT-PERIYAR",
+            "regionId": "IN-KL",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Periyar Elephant Reserve",
+            "officialName": "Project Elephant association: Periyar Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Periyar",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Periyar is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-KL-PROJECT-ELEPHANT-WAYANAD",
+            "regionId": "IN-KL",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Wayanad Elephant Reserve",
+            "officialName": "Project Elephant association: Wayanad Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Wayanad",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Wayanad is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -21606,6 +22277,143 @@
             "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
             "verificationStatus": "verified",
             "description": "Achanakmar-Amarkantak is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-MP-PROJECT-TIGER-BANDHAVGARH",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Bandhavgarh Tiger Reserve",
+            "officialName": "Project Tiger association: Bandhavgarh Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Bandhavgarh",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Bandhavgarh is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-KANHA",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Kanha Tiger Reserve",
+            "officialName": "Project Tiger association: Kanha Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Kanha",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Kanha is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-MADHAV",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Madhav Tiger Reserve",
+            "officialName": "Project Tiger association: Madhav Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Madhav",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Madhav is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-PANNA",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Panna Tiger Reserve",
+            "officialName": "Project Tiger association: Panna Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Panna",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Panna is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-PENCH",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Pench Tiger Reserve",
+            "officialName": "Project Tiger association: Pench Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Pench",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Pench is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-RATAPANI",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Ratapani Tiger Reserve",
+            "officialName": "Project Tiger association: Ratapani Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Ratapani",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Ratapani is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-SANJAY-DUBRI",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Sanjay-Dubri Tiger Reserve",
+            "officialName": "Project Tiger association: Sanjay-Dubri Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Sanjay-Dubri",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Sanjay-Dubri is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-SATPURA",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Satpura Tiger Reserve",
+            "officialName": "Project Tiger association: Satpura Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Satpura",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Satpura is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MP-PROJECT-TIGER-VEERANGANA-DURGAVATI",
+            "regionId": "IN-MP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Veerangana Durgavati Tiger Reserve",
+            "officialName": "Project Tiger association: Veerangana Durgavati Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Veerangana Durgavati",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Veerangana Durgavati is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -24017,6 +24825,98 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-91 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-MH-PROJECT-TIGER-BOR",
+            "regionId": "IN-MH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Bor Tiger Reserve",
+            "officialName": "Project Tiger association: Bor Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Bor",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Bor is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MH-PROJECT-TIGER-MELGHAT",
+            "regionId": "IN-MH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Melghat Tiger Reserve",
+            "officialName": "Project Tiger association: Melghat Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Melghat",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Melghat is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MH-PROJECT-TIGER-NAWEGAON-NAGZIRA",
+            "regionId": "IN-MH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Nawegaon-Nagzira Tiger Reserve",
+            "officialName": "Project Tiger association: Nawegaon-Nagzira Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Nawegaon-Nagzira",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Nawegaon-Nagzira is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MH-PROJECT-TIGER-PENCH",
+            "regionId": "IN-MH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Pench Tiger Reserve",
+            "officialName": "Project Tiger association: Pench Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Pench",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Pench is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MH-PROJECT-TIGER-SAHYADRI",
+            "regionId": "IN-MH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Sahyadri Tiger Reserve",
+            "officialName": "Project Tiger association: Sahyadri Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Sahyadri",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Sahyadri is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-MH-PROJECT-TIGER-TADOBA-ANDHARI",
+            "regionId": "IN-MH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Tadoba-Andhari Tiger Reserve",
+            "officialName": "Project Tiger association: Tadoba-Andhari Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Tadoba-Andhari",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Tadoba-Andhari is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Bombay High Court — Mumbai"
@@ -24964,6 +25864,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 56 route km in Manipur at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 56,
             "totalTrackKilometres": 70
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-MN-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-MN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -26730,6 +27647,39 @@
             "verificationStatus": "verified",
             "description": "Nokrek is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-ML-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-ML",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-ML-PROJECT-ELEPHANT-GARO-HILLS",
+            "regionId": "IN-ML",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Garo Hills Elephant Reserve",
+            "officialName": "Project Elephant association: Garo Hills Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Garo Hills",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Garo Hills is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -27535,6 +28485,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 1 route km in Mizoram at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 2,
             "totalTrackKilometres": 6
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-MZ-PROJECT-TIGER-DAMPA",
+            "regionId": "IN-MZ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Dampa Tiger Reserve",
+            "officialName": "Project Tiger association: Dampa Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Dampa",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Dampa is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -29105,6 +30072,55 @@
             "description": "Indian Railways Year Book 2023–24 reports 25 route km in Nagaland at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 25,
             "totalTrackKilometres": 41
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-NL-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-NL",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-NL-PROJECT-ELEPHANT-INTANKI",
+            "regionId": "IN-NL",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Intanki Elephant Reserve",
+            "officialName": "Project Elephant association: Intanki Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Intanki",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Intanki is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-NL-PROJECT-ELEPHANT-SINGPHAN",
+            "regionId": "IN-NL",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Singphan Elephant Reserve",
+            "officialName": "Project Elephant association: Singphan Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Singphan",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Singphan is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -31157,6 +32173,86 @@
             "verificationStatus": "verified",
             "description": "Similipal is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-OD-PROJECT-TIGER-SATKOSIA",
+            "regionId": "IN-OD",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Satkosia Tiger Reserve",
+            "officialName": "Project Tiger association: Satkosia Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Satkosia",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Satkosia is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-OD-PROJECT-TIGER-SIMILIPAL",
+            "regionId": "IN-OD",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Similipal Tiger Reserve",
+            "officialName": "Project Tiger association: Similipal Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Similipal",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Similipal is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-OD-PROJECT-ELEPHANT-MAHANADI",
+            "regionId": "IN-OD",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Mahanadi Elephant Reserve",
+            "officialName": "Project Elephant association: Mahanadi Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Mahanadi",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Mahanadi is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-OD-PROJECT-ELEPHANT-MAYURBHANJ",
+            "regionId": "IN-OD",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Mayurbhanj Elephant Reserve",
+            "officialName": "Project Elephant association: Mayurbhanj Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Mayurbhanj",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Mayurbhanj is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-OD-PROJECT-ELEPHANT-SAMBALPUR",
+            "regionId": "IN-OD",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Sambalpur Elephant Reserve",
+            "officialName": "Project Elephant association: Sambalpur Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Sambalpur",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Sambalpur is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -32233,6 +33329,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 2265 route km in Punjab at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 2879,
             "totalTrackKilometres": 3680
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-PB-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-PB",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -34178,6 +35291,83 @@
             "runningTrackKilometres": 8882,
             "totalTrackKilometres": 9918
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-RJ-PROJECT-TIGER-DHOLPUR-KARAULI",
+            "regionId": "IN-RJ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Dholpur-Karauli Tiger Reserve",
+            "officialName": "Project Tiger association: Dholpur-Karauli Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Dholpur-Karauli",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Dholpur-Karauli is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-RJ-PROJECT-TIGER-MUKUNDARA-HILLS",
+            "regionId": "IN-RJ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Mukundara Hills Tiger Reserve",
+            "officialName": "Project Tiger association: Mukundara Hills Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Mukundara Hills",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Mukundara Hills is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-RJ-PROJECT-TIGER-RAMGARH-VISHDHARI",
+            "regionId": "IN-RJ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Ramgarh Vishdhari Tiger Reserve",
+            "officialName": "Project Tiger association: Ramgarh Vishdhari Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Ramgarh Vishdhari",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Ramgarh Vishdhari is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-RJ-PROJECT-TIGER-RANTHAMBORE",
+            "regionId": "IN-RJ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Ranthambore Tiger Reserve",
+            "officialName": "Project Tiger association: Ranthambore Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Ranthambore",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Ranthambore is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-RJ-PROJECT-TIGER-SARISKA",
+            "regionId": "IN-RJ",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Sariska Tiger Reserve",
+            "officialName": "Project Tiger association: Sariska Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Sariska",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Sariska is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
@@ -35315,6 +36505,23 @@
             "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
             "verificationStatus": "verified",
             "description": "Khangchendzonga is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-SK-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-SK",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -37844,6 +39051,163 @@
             "verificationStatus": "verified",
             "description": "Gulf of Mannar is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-TN-PROJECT-TIGER-ANAMALAI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Anamalai Tiger Reserve",
+            "officialName": "Project Tiger association: Anamalai Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Anamalai",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Anamalai is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-TIGER-KALAKAD-MUNDANTHURAI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Kalakad-Mundanthurai Tiger Reserve",
+            "officialName": "Project Tiger association: Kalakad-Mundanthurai Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Kalakad-Mundanthurai",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Kalakad-Mundanthurai is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-TIGER-MUDUMALAI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Mudumalai Tiger Reserve",
+            "officialName": "Project Tiger association: Mudumalai Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Mudumalai",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Mudumalai is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-TIGER-SATHYAMANGALAM",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Sathyamangalam Tiger Reserve",
+            "officialName": "Project Tiger association: Sathyamangalam Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Sathyamangalam",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Sathyamangalam is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-TIGER-SRIVILLIPUTHUR-MEGAMALAI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Srivilliputhur-Megamalai Tiger Reserve",
+            "officialName": "Project Tiger association: Srivilliputhur-Megamalai Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Srivilliputhur-Megamalai",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Srivilliputhur-Megamalai is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-ELEPHANT-ANAMALAI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Anamalai Elephant Reserve",
+            "officialName": "Project Elephant association: Anamalai Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Anamalai",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Anamalai is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-ELEPHANT-COIMBATORE",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Coimbatore Elephant Reserve",
+            "officialName": "Project Elephant association: Coimbatore Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Coimbatore",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Coimbatore is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-ELEPHANT-NILGIRI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Nilgiri Elephant Reserve",
+            "officialName": "Project Elephant association: Nilgiri Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Nilgiri",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Nilgiri is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-ELEPHANT-SRIVILLIPUTHUR",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Srivilliputhur Elephant Reserve",
+            "officialName": "Project Elephant association: Srivilliputhur Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Srivilliputhur",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Srivilliputhur is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TN-PROJECT-ELEPHANT-AGASTHYAMALAI",
+            "regionId": "IN-TN",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Agasthyamalai Elephant Reserve",
+            "officialName": "Project Elephant association: Agasthyamalai Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Agasthyamalai",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Agasthyamalai is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Madras High Court — Chennai"
@@ -38843,6 +40207,38 @@
             "runningTrackKilometres": 3101,
             "totalTrackKilometres": 3753
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-TS-PROJECT-TIGER-AMRABAD",
+            "regionId": "IN-TS",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Amrabad Tiger Reserve",
+            "officialName": "Project Tiger association: Amrabad Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Amrabad",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Amrabad is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-TS-PROJECT-TIGER-KAWAL",
+            "regionId": "IN-TS",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Kawal Tiger Reserve",
+            "officialName": "Project Tiger association: Kawal Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Kawal",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Kawal is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Telangana High Court — Hyderabad"
@@ -39837,6 +41233,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 265 route km in Tripura at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 265,
             "totalTrackKilometres": 337
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-TR-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-TR",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -42069,6 +43482,85 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-UP-PROJECT-TIGER-DUDHWA",
+            "regionId": "IN-UP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Dudhwa Tiger Reserve",
+            "officialName": "Project Tiger association: Dudhwa Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Dudhwa",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Dudhwa is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-UP-PROJECT-TIGER-PILIBHIT",
+            "regionId": "IN-UP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Pilibhit Tiger Reserve",
+            "officialName": "Project Tiger association: Pilibhit Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Pilibhit",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Pilibhit is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-UP-PROJECT-TIGER-RANIPUR",
+            "regionId": "IN-UP",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Ranipur Tiger Reserve",
+            "officialName": "Project Tiger association: Ranipur Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Ranipur",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Ranipur is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-UP-PROJECT-ELEPHANT-UTTAR-PRADESH",
+            "regionId": "IN-UP",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Uttar Pradesh Elephant Reserve",
+            "officialName": "Project Elephant association: Uttar Pradesh Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Uttar Pradesh",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Uttar Pradesh is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-UP-PROJECT-ELEPHANT-TERAI",
+            "regionId": "IN-UP",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Terai Elephant Reserve",
+            "officialName": "Project Elephant association: Terai Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Terai",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Terai is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
@@ -43987,6 +45479,54 @@
             "verificationStatus": "verified",
             "description": "Nanda Devi is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-UK-PROJECT-TIGER-CORBETT",
+            "regionId": "IN-UK",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Corbett Tiger Reserve",
+            "officialName": "Project Tiger association: Corbett Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Corbett",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Corbett is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-UK-PROJECT-TIGER-RAJAJI",
+            "regionId": "IN-UK",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Rajaji Tiger Reserve",
+            "officialName": "Project Tiger association: Rajaji Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Rajaji",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Rajaji is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-UK-PROJECT-ELEPHANT-SHIVALIK",
+            "regionId": "IN-UK",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Shivalik Elephant Reserve",
+            "officialName": "Project Elephant association: Shivalik Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Shivalik",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Shivalik is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -45826,6 +47366,70 @@
             "verificationStatus": "verified",
             "description": "Sundarbans is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-WB-PROJECT-TIGER-BUXA",
+            "regionId": "IN-WB",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Buxa Tiger Reserve",
+            "officialName": "Project Tiger association: Buxa Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Buxa",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Buxa is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-WB-PROJECT-TIGER-SUNDARBAN",
+            "regionId": "IN-WB",
+            "category": "conservationProjects",
+            "name": "Project Tiger — Sundarban Tiger Reserve",
+            "officialName": "Project Tiger association: Sundarban Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "Sundarban",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "Sundarban is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-WB-PROJECT-ELEPHANT-EASTERN-DOOARS",
+            "regionId": "IN-WB",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Eastern Dooars Elephant Reserve",
+            "officialName": "Project Elephant association: Eastern Dooars Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Eastern Dooars",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Eastern Dooars is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          },
+          {
+            "id": "IN-WB-PROJECT-ELEPHANT-MAYURJHARNA",
+            "regionId": "IN-WB",
+            "category": "conservationProjects",
+            "name": "Project Elephant — Mayurjharna Elephant Reserve",
+            "officialName": "Project Elephant association: Mayurjharna Elephant Reserve",
+            "projectName": "Project Elephant",
+            "associatedProtectedArea": "Mayurjharna",
+            "projectType": "National elephant conservation programme",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Elephant Reserves of India Atlas",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceDate": "2023",
+            "verificationStatus": "verified",
+            "description": "Mayurjharna is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -46814,6 +48418,23 @@
             "verificationStatus": "verified",
             "description": "Great Nicobar is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-AN-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-AN",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
@@ -47295,6 +48916,23 @@
             "runningTrackKilometres": 18,
             "totalTrackKilometres": 103
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-CH-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-CH",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
@@ -47759,6 +49397,23 @@
             "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
             "verificationStatus": "verified",
             "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-DHDD-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-DHDD",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -48311,6 +49966,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 188 route km in Delhi at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 355,
             "totalTrackKilometres": 694
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-DL-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-DL",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -49402,6 +51074,23 @@
             "runningTrackKilometres": 372,
             "totalTrackKilometres": 526
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-JK-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-JK",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -50129,6 +51818,23 @@
             "verificationStatus": "verified",
             "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
           }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-LA-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-LA",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -50588,6 +52294,23 @@
             "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
             "verificationStatus": "verified",
             "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-LD-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-LD",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },
@@ -51211,6 +52934,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 23 route km in Puducherry at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 25,
             "totalTrackKilometres": 29
+          }
+        ],
+        "conservationProjects": [
+          {
+            "id": "IN-PY-PROJECT-TIGER-NO-TIGER-RESERVE-LISTED",
+            "regionId": "IN-PY",
+            "category": "conservationProjects",
+            "name": "Project Tiger — No tiger reserve listed Tiger Reserve",
+            "officialName": "Project Tiger association: No tiger reserve listed Tiger Reserve",
+            "projectName": "Project Tiger",
+            "associatedProtectedArea": "No tiger reserve listed",
+            "projectType": "National tiger conservation programme",
+            "sourceName": "National Tiger Conservation Authority — Tiger Reserves of India",
+            "sourceId": "ntcaTigerReserves",
+            "sourceUrl": "https://ntca.gov.in/tiger-reserves/",
+            "verificationStatus": "verified",
+            "description": "No tiger reserve listed is listed by the National Tiger Conservation Authority as a notified Tiger Reserve under India's Project Tiger framework. This record associates the reserve with the national conservation programme; it does not imply a separate new project or a current funding allocation."
           }
         ]
       },

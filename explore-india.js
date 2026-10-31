@@ -256,7 +256,7 @@ function selectDistrict(name,layer){
  stat('District formation date',value(record.formationDate),'Existing district record')+
  stat('Subdivisions',Array.isArray(record.subdivisions)&&record.subdivisions.length?record.subdivisions.join(', '):'Verification pending','Existing district record')+
  stat('Area',value(record.areaSqKm)==='Verification pending'?'Verification pending':value(record.areaSqKm)+' km²','Official district statistical handbook')+
- stat('Forest cover (2019 assessment)',record.forestCover2019SqKm!==undefined?record.forestCover2019SqKm+' km² · '+record.forestCoverPercent2019+'% of district area':'Verification pending','Forest Survey of India · India State of Forest Report 2019; district-wise satellite assessment')+
+ stat('Forest cover (2019 assessment)',record.forestCover2019SqKm!==undefined?record.forestCover2019SqKm+' km² · '+record.forestCoverPercent2019+'% of 2019 report district area':'Verification pending','Forest Survey of India · India State of Forest Report 2019; district-wise satellite assessment')+
  stat('Population',census?Number(census.population).toLocaleString('en-IN')+' (Census 2011)':pop,'Census of India · Primary Census Abstract 2011')+
  stat('Male / female population',census?Number(census.male).toLocaleString('en-IN')+' / '+Number(census.female).toLocaleString('en-IN'):'Verification pending','Census of India · 2011')+
  stat('Literacy',census?Number(census.literate).toLocaleString('en-IN')+' literates · '+census.literacyRate+'%':'Verification pending','Census of India · 2011; literacy calculated as literate population / total population')+

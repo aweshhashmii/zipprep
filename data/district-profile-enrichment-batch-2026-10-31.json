@@ -9068,6 +9068,846 @@
           "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
         }
       ]
+    },
+    {
+      "lgdCode": "438",
+      "name": "Ahmedabad",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 131.21,
+      "forestCoverPercent2019": 1.62,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "439",
+      "name": "Amreli",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 260.4,
+      "forestCoverPercent2019": 3.52,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "440",
+      "name": "Anand",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 50.48,
+      "forestCoverPercent2019": 1.58,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "441",
+      "name": "Banas Kantha",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 822.5,
+      "forestCoverPercent2019": 7.66,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "442",
+      "name": "Bharuch",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 277.52,
+      "forestCoverPercent2019": 4.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "443",
+      "name": "Bhavnagar",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 293.21,
+      "forestCoverPercent2019": 2.92,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "446",
+      "name": "Gandhinagar",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 92.05,
+      "forestCoverPercent2019": 4.3,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "447",
+      "name": "Jamnagar",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 471.11,
+      "forestCoverPercent2019": 3.32,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "448",
+      "name": "Junagadh",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 1693.31,
+      "forestCoverPercent2019": 19.17,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "449",
+      "name": "Kachchh",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 2345.29,
+      "forestCoverPercent2019": 5.13,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "450",
+      "name": "Kheda",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 94.44,
+      "forestCoverPercent2019": 2.39,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "451",
+      "name": "Mahesana",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 158.62,
+      "forestCoverPercent2019": 3.6,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "452",
+      "name": "Narmada",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 948,
+      "forestCoverPercent2019": 33.65,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "453",
+      "name": "Navsari",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 362.43,
+      "forestCoverPercent2019": 16.14,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "454",
+      "name": "Panch Mahals",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 710.06,
+      "forestCoverPercent2019": 13.57,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "455",
+      "name": "Patan",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 102.51,
+      "forestCoverPercent2019": 1.77,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "456",
+      "name": "Porbandar",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 126.68,
+      "forestCoverPercent2019": 5.47,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "457",
+      "name": "Rajkot",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 154.32,
+      "forestCoverPercent2019": 1.38,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "458",
+      "name": "Sabar Kantha",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 815.27,
+      "forestCoverPercent2019": 11.03,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "459",
+      "name": "Surat",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 500.06,
+      "forestCoverPercent2019": 10.99,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "460",
+      "name": "Surendranagar",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 173.99,
+      "forestCoverPercent2019": 1.67,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "641",
+      "name": "Tapi",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 792.41,
+      "forestCoverPercent2019": 25.24,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "461",
+      "name": "Vadodara",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 603.21,
+      "forestCoverPercent2019": 7.99,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "462",
+      "name": "Valsad",
+      "stateName": "Gujarat",
+      "forestCover2019SqKm": 985.81,
+      "forestCoverPercent2019": 32.77,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+        }
+      ]
     }
   ],
   "sources": [
@@ -9094,6 +9934,14 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+    },
+    {
+      "sourceId": "fsiISFR2019GujaratDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Gujarat chapter, Table 11.8.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-gujarat.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
     }
   ]
 }

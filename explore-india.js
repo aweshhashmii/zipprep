@@ -50,10 +50,11 @@ function loadRegionCatalog(){
   fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-gi-2026.json').then(function(r){if(!r.ok)throw Error('GI register HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-supplemental-categories-2026.json').then(function(r){if(!r.ok)throw Error('Supplemental regional categories HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/region-supplemental-categories-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Supplemental category batch HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-supplemental-categories-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Supplemental category batch HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/district-profile-enrichment-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('District profile enrichment batch HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
-  var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8];
+  var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9];
   [supplemental,supplementalBatch].forEach(function(dataset){
    if(dataset&&Array.isArray(dataset.records))dataset.records.forEach(function(item){
     var region=data.regions.find(function(r){return r.name===item.regionName});
@@ -69,6 +70,11 @@ function loadRegionCatalog(){
 
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
+  if(districtProfiles&&Array.isArray(districtProfiles.records)&&districtProfileBatch&&Array.isArray(districtProfileBatch.records))districtProfileBatch.records.forEach(function(batchRow){
+   var existing=districtProfiles.records.find(function(row){return String(row.lgdCode)===String(batchRow.lgdCode)});
+   if(existing){Object.keys(batchRow).forEach(function(key){if(key!=='verifiedFields'&&key!=='sourceRecords')existing[key]=batchRow[key]});existing.verifiedFields=Array.from(new Set((existing.verifiedFields||[]).concat(batchRow.verifiedFields||[])));existing.sourceRecords=(existing.sourceRecords||[]).concat(batchRow.sourceRecords||[])}
+   else districtProfiles.records.push(batchRow);
+  });
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
   districtProfileData=districtProfiles&&Array.isArray(districtProfiles.records)?districtProfiles:null;
   if(lgdDirectory)data.regions.forEach(function(region){

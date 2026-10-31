@@ -11148,6 +11148,30 @@
           "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060",
           "lastVerifiedAt": "2026-10-30",
           "note": "Selected named lake entries; not a comprehensive state inventory. Ramsar-designated sites remain in the separate Ramsar category."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24; mineral resource baselines 01.04.2020 and coal 01.04.2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Mineral resource estimates are not equivalent to active production."
+        },
+        {
+          "field": "geography.crops",
+          "sourceId": "desAgricultureStatistics2024_25",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceYear": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Major-producing-state crop tables; not a complete crop inventory."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Selected mineral-based industrial plants and capacities."
         }
       ],
       "lastVerifiedAt": null,
@@ -11639,8 +11663,93 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
-        "crops": [],
+        "minerals": [
+          {
+            "name": "MCDR mineral production — 2023-24",
+            "description": "₹5,523.79 crore estimated production value (excluding atomic, fuel and minor minerals); 96 reporting mines. Provisional yearbook figures.",
+            "productionValueCrore": 5523.79,
+            "reportingMines": 96,
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Bauxite",
+            "description": "Resource total 232.430 million tonnes; principal occurrences include Kolhapur, Raigad, Ratnagiri, Satara, Sindhudurg and Thane.",
+            "districts": "Kolhapur; Raigad; Ratnagiri; Satara; Sindhudurg; Thane",
+            "totalResourcesMillionTonnes": 232.43,
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Manganese ore",
+            "description": "Resource total 59.036 million tonnes; occurrences include Bhandara, Nagpur and Ratnagiri.",
+            "districts": "Bhandara; Nagpur; Ratnagiri",
+            "totalResourcesMillionTonnes": 59.036,
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Limestone",
+            "description": "Resource total 3,808.392 million tonnes; occurrences include Ahmednagar, Chandrapur, Dhule, Gadchiroli, Nagpur, Nanded, Pune, Sangli and Yavatmal.",
+            "districts": "Ahmednagar; Chandrapur; Dhule; Gadchiroli; Nagpur; Nanded; Pune; Sangli; Yavatmal",
+            "totalResourcesMillionTonnes": 3808.392,
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Coal — Wardha Valley and Kamptee fields",
+            "description": "Coal resources total 13,351.63 million tonnes as at 01.04.2024; Wardha Valley is the largest listed field.",
+            "districts": "Chandrapur; Nagpur; Yavatmal",
+            "totalResourcesMillionTonnes": 13351.63,
+            "resourceReferenceDate": "01.04.2024",
+            "resourceType": "coal resources",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          }
+        ],
+        "crops": [
+          {
+            "name": "Maize",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 1.63,
+            "productionMillionTonnes": 4.75,
+            "yieldKgPerHectare": 2922,
+            "irrigatedAreaPercent": 64.69,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          },
+          {
+            "name": "Gram (chickpea)",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 2.87,
+            "productionMillionTonnes": 2.96,
+            "yieldKgPerHectare": 1031,
+            "irrigatedAreaPercent": 52.33,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          },
+          {
+            "name": "Tur (arhar / pigeon pea)",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 1.23,
+            "productionMillionTonnes": 1.42,
+            "yieldKgPerHectare": 1160,
+            "irrigatedAreaPercent": 14.07,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 65383.41,
           "percentOfGeographicalArea": 21.25,
@@ -11684,7 +11793,42 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "industries": [
+          {
+            "name": "Cement manufacturing cluster",
+            "description": "IBM lists cement plants at Ghugus, Upparwahi and Korpana in Chandrapur; Dolvi in Raigad; and Hotgi in Solapur.",
+            "district": "Chandrapur; Raigad; Solapur",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Iron and steel",
+            "description": "Documented iron and steel facilities include JSW Ispat Steel at Dolvi and steel units at Wardha and Nagpur.",
+            "district": "Raigad; Wardha; Nagpur",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Aluminium products",
+            "description": "Hindalco facilities include a recycling plant at Taloja and a rolling mill/conductor-rod facility at Mouda, Nagpur.",
+            "district": "Raigad; Nagpur",
+            "reportedCapacity": "60; 30 (rolling mill); 14 (conductor rod)",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Fertilizers and chemicals",
+            "description": "The yearbook lists fertilizer and chemical manufacturing facilities in Raigad, Thane, Pune and Nanded.",
+            "district": "Raigad; Thane; Pune; Nanded",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          }
+        ]
       },
       "highCourt": "Bombay High Court — Mumbai"
     },
@@ -16844,6 +16988,30 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24; mineral resource baselines 01.04.2020 and lignite 01.04.2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Resource estimates and mine output are distinct."
+        },
+        {
+          "field": "geography.crops",
+          "sourceId": "desAgricultureStatistics2024_25",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceYear": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Major-producing-state crop tables."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Selected mineral-based plants from the state review."
         }
       ],
       "lastVerifiedAt": null,
@@ -17317,8 +17485,70 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
-        "crops": [],
+        "minerals": [
+          {
+            "name": "MCDR mineral production — 2023-24",
+            "description": "₹881.95 crore value of major minerals; 83 reporting mines. Important reported minerals include graphite, limestone, magnesite, marl and vermiculite.",
+            "productionValueCrore": 881.9511,
+            "reportingMines": 83,
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Vermiculite, molybdenum, dunite, rutile, garnet and ilmenite",
+            "description": "Tamil Nadu holds major national resource shares: 79% vermiculite, 65% dunite, 46% garnet, 66% molybdenum, 24% sillimanite and 16% fire clay resources.",
+            "districts": "Dharmapuri; Dindigul; Salem; Tiruchirappalli; Vellore; Kanyakumari",
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Lignite — Neyveli, Mannargudi and Ramanathapuram fields",
+            "description": "Total lignite resources 37,523.65 million tonnes as at 01.04.2024.",
+            "districts": "Cuddalore; Thanjavur; Tiruvarur; Ramanathapuram",
+            "totalResourcesMillionTonnes": 37523.65,
+            "resourceReferenceDate": "01.04.2024",
+            "resourceType": "lignite resources",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Limestone",
+            "description": "Occurrences are reported across Ariyalur, Cuddalore, Dindigul, Karur, Madurai, Namakkal, Perambalur, Salem, Tiruchirappalli, Tirunelveli and Virudhunagar.",
+            "districts": "Ariyalur; Cuddalore; Dindigul; Karur; Madurai; Namakkal; Perambalur; Salem; Tiruchirappalli; Tirunelveli; Virudhunagar",
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          }
+        ],
+        "crops": [
+          {
+            "name": "Maize",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 0.49,
+            "productionMillionTonnes": 2.66,
+            "yieldKgPerHectare": 5487,
+            "irrigatedAreaPercent": 36.73,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          },
+          {
+            "name": "Tur (arhar / pigeon pea)",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 0.06,
+            "productionMillionTonnes": 0.04,
+            "yieldKgPerHectare": 677,
+            "irrigatedAreaPercent": 3.18,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 31820.94,
           "percentOfGeographicalArea": 24.47,
@@ -17362,7 +17592,42 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "industries": [
+          {
+            "name": "Cement manufacturing cluster",
+            "description": "IBM lists cement plants in Ariyalur, Tiruchirappalli, Coimbatore, Karur, Dindigul, Salem, Tirunelveli, Virudhunagar and Chennai-region locations.",
+            "district": "Ariyalur; Tiruchirappalli; Coimbatore; Karur; Dindigul; Salem; Tirunelveli; Virudhunagar",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Iron and steel",
+            "description": "The state review lists Salem Steel Plant (SAIL) and JSW Steel at Salem among principal mineral-based industries.",
+            "district": "Salem",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Magnesite and refractory products",
+            "description": "The yearbook records magnesite mining and calcined magnesite / dead-burnt magnesite facilities concentrated around Salem.",
+            "district": "Salem",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Petroleum refining",
+            "description": "Chennai Petroleum Corporation Ltd. facilities are listed at Manali and Narimanam.",
+            "district": "Chennai; Nagapattinam",
+            "reportedCapacity": "10,500 and 1,000 ('000 tonnes per year)",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          }
+        ]
       },
       "highCourt": "Madras High Court — Chennai"
     },
@@ -17497,6 +17762,30 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24; mineral resource baselines 01.04.2020 and coal 01.04.2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Coal resource figures are from Coal Directory of India 2023-24."
+        },
+        {
+          "field": "geography.crops",
+          "sourceId": "desAgricultureStatistics2024_25",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceYear": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Major-producing-state crop tables."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Selected mineral-based plants from the state review."
         }
       ],
       "lastVerifiedAt": null,
@@ -17691,8 +17980,82 @@
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
-        "crops": [],
+        "minerals": [
+          {
+            "name": "MCDR mineral production — 2023-24",
+            "description": "₹556.52 crore provisional value; 33 reporting mines. Manganese ore and limestone were the important minerals produced.",
+            "productionValueCrore": 556.5237,
+            "reportingMines": 33,
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Limestone",
+            "description": "Total resources 17,652.454 million tonnes as at 01.04.2020; occurrences include Adilabad, Hyderabad, Karimnagar, Mahabubnagar, Nalgonda and Rangareddy.",
+            "districts": "Adilabad; Hyderabad; Karimnagar; Mahabubnagar; Nalgonda; Rangareddy",
+            "totalResourcesMillionTonnes": 17652.454,
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Godavari Valley coalfield",
+            "description": "Coal resources total 23,205.52 million tonnes as at 01.04.2024.",
+            "districts": "Adilabad; Karimnagar; Khammam; Warangal",
+            "totalResourcesMillionTonnes": 23205.52,
+            "resourceReferenceDate": "01.04.2024",
+            "resourceType": "coal resources",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          },
+          {
+            "name": "Barytes, dolomite, feldspar, laterite and quartz",
+            "description": "The yearbook identifies these among Telangana's important mineral-resource groups; granite varieties are also noted.",
+            "districts": "Khammam; Warangal; Hyderabad; Mahabubnagar; Medak; Rangareddy",
+            "resourceReferenceDate": "01.04.2020",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24; resource baseline 01.04.2020"
+          }
+        ],
+        "crops": [
+          {
+            "name": "Maize",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 0.58,
+            "productionMillionTonnes": 3.39,
+            "yieldKgPerHectare": 5860,
+            "irrigatedAreaPercent": 60.57,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          },
+          {
+            "name": "Gram (chickpea)",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 0.07,
+            "productionMillionTonnes": 0.12,
+            "yieldKgPerHectare": 1762,
+            "irrigatedAreaPercent": 36.37,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          },
+          {
+            "name": "Tur (arhar / pigeon pea)",
+            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "areaMillionHectares": 0.22,
+            "productionMillionTonnes": 0.2,
+            "yieldKgPerHectare": 934,
+            "irrigatedAreaPercent": 10.88,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf"
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 24696.7,
           "percentOfGeographicalArea": 22.03,
@@ -17729,7 +18092,34 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "industries": [
+          {
+            "name": "Cement manufacturing cluster",
+            "description": "The state review lists cement plants around Nalgonda, Rangareddy, Karimnagar, Mancherial and Suryapet.",
+            "district": "Nalgonda; Rangareddy; Karimnagar; Mancherial; Suryapet",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Aluminium foil and aluminium products",
+            "description": "Hindalco's aluminium foil facility is listed at Kollur, Medak.",
+            "district": "Medak",
+            "reportedCapacity": "4 ('000 tonnes per year)",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          },
+          {
+            "name": "Mineral processing and building materials",
+            "description": "The yearbook lists bleaching-clay and fibre-cement product facilities in Medak, Rangareddy and Nizamabad districts.",
+            "district": "Medak; Rangareddy; Nizamabad",
+            "referenceYear": "2023-24",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          }
+        ]
       },
       "highCourt": "Telangana High Court — Hyderabad"
     },
@@ -21291,6 +21681,22 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://andamannicobar.gov.in/about",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.islands",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://andamannicobar.gov.in/about",
+          "referenceYear": "2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Official UT profile for island groups and inhabited-island summary."
         }
       ],
       "lastVerifiedAt": null,
@@ -21416,7 +21822,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "Bay of Bengal and eastern Indian Ocean island chain comprising the Andaman and Nicobar groups; the Ten Degree Channel separates the two groups. The UT profile records 836 islands, islets and rocky outcrops, of which 31 are inhabited (profile snapshot).",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://andamannicobar.gov.in/about",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [
           {
             "name": "Andaman & Nicobar Islands coast",
@@ -21426,7 +21840,20 @@
           }
         ],
         "ports": [],
-        "islands": [],
+        "islands": [
+          {
+            "name": "Andaman Islands",
+            "description": "Northern island group of the UT, separated from the Nicobar group by the Ten Degree Channel.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://andamannicobar.gov.in/about"
+          },
+          {
+            "name": "Nicobar Islands",
+            "description": "Southern island group of the UT in the eastern Indian Ocean.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://andamannicobar.gov.in/about"
+          }
+        ],
         "renewableEnergyProjects": [],
         "industrialCorridors": [],
         "riverValleyProjects": [],
@@ -21578,6 +22005,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://chandigarh.gov.in/about-us",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
         }
       ],
       "lastVerifiedAt": null,
@@ -21698,7 +22133,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "Located in the Shivalik foothills in north-western India; terrain includes Kandi, Sirowal and alluvial plains. It is also the joint capital of Punjab and Haryana.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://chandigarh.gov.in/about-us",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
@@ -21840,6 +22283,14 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
         }
       ],
       "lastVerifiedAt": null,
@@ -21945,7 +22396,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "A non-contiguous western Indian UT comprising Dadra and Nagar Haveli inland and the coastal districts of Daman and Diu; official UT material describes Daman Ganga drainage and separate coastal settings.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [
           {
             "name": "Daman & Diu coastal sector (pre-merger reporting unit)",
@@ -22086,6 +22545,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_6.05.2024.pdf",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
         }
       ],
       "lastVerifiedAt": null,
@@ -22185,7 +22652,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "The National Capital Territory lies in the Indo-Gangetic plains, with the Yamuna floodplain and the Delhi Ridge, an extension of the Aravalli system, as principal physiographic features.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_6.05.2024.pdf",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
@@ -22374,6 +22849,14 @@
           "referenceDate": "2025-12-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://jktpo.jk.gov.in/adminpanel/files/1202525026716.pdf",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
         }
       ],
       "lastVerifiedAt": null,
@@ -22745,7 +23228,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "A Himalayan-region Union Territory formed under the Jammu and Kashmir Reorganisation Act, 2019; its administrative centres are Srinagar (summer) and Jammu (winter).",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://jktpo.jk.gov.in/adminpanel/files/1202525026716.pdf",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
@@ -22943,6 +23434,14 @@
           "referenceDate": "2025-12-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://landrecords.ladakh.gov.in/lalr/Home/About",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -23185,7 +23684,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "High-altitude trans-Himalayan plateau region; the Indus basin crosses the UT. The official land-records portal identifies Leh and Kargil as its two districts.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://landrecords.ladakh.gov.in/lalr/Home/About",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
@@ -23325,6 +23832,22 @@
           "referenceYear": "2017–18",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT inventory count and mapped area from the 2017–18 National Wetland Decadal Change Atlas snapshot; not a current named-site register."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.islands",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://lakshadweep.gov.in/islands/",
+          "referenceYear": "2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Official UT island directory; ten inhabited islands are listed."
         }
       ],
       "lastVerifiedAt": null,
@@ -23424,7 +23947,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "Arabian Sea archipelago off the Kerala coast, comprising atolls, coral reefs and submerged banks; the official island profile records ten inhabited islands and one district.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [
           {
             "name": "Lakshadweep coast",
@@ -23434,7 +23965,26 @@
           }
         ],
         "ports": [],
-        "islands": [],
+        "islands": [
+          {
+            "name": "Kavaratti",
+            "description": "Administrative capital and one of the ten inhabited islands.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://lakshadweep.gov.in/islands/"
+          },
+          {
+            "name": "Minicoy",
+            "description": "Inhabited island at the southern end of the archipelago; local language Mahl is noted by the UT administration.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://lakshadweep.gov.in/islands/"
+          },
+          {
+            "name": "Agatti",
+            "description": "One of the ten inhabited islands in the Lakshadweep archipelago.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://lakshadweep.gov.in/islands/"
+          }
+        ],
         "renewableEnergyProjects": [],
         "industrialCorridors": [],
         "riverValleyProjects": [],
@@ -23573,6 +24123,14 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.location",
+          "sourceId": "officialUtGeography2026",
+          "sourceUrl": "https://revenue.py.gov.in/downloads/dm/DDMP%20Vol-I%202024.pdf",
+          "referenceYear": "2024-2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
         }
       ],
       "lastVerifiedAt": null,
@@ -23691,7 +24249,15 @@
         "soilTypes": [],
         "giProducts": [],
         "culturalHighlights": [],
-        "location": [],
+        "location": [
+          {
+            "name": "Geographical setting",
+            "description": "Non-contiguous Union Territory formed from four former French Indian enclaves: Puducherry, Karaikal, Mahe and Yanam; the enclaves are surrounded by Tamil Nadu, Andhra Pradesh and Kerala.",
+            "sourceId": "officialUtGeography2026",
+            "sourceUrl": "https://revenue.py.gov.in/downloads/dm/DDMP%20Vol-I%202024.pdf",
+            "referenceYear": "2024-2026"
+          }
+        ],
         "coastalFeatures": [
           {
             "name": "Puducherry coast",

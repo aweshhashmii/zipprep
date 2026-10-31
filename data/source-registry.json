@@ -1099,6 +1099,50 @@
       "issuingAuthority": "Ministry of Home Affairs, Government of India; Press Information Bureau",
       "cadence": "Use as a dated district-level reference and supplement with the Ministry of Culture/ICHR Dictionary of Martyrs and Digital District Repository. Do not treat the 75-district list as exhaustive.",
       "note": "The annexure identifies 75 districts and corresponding freedom fighters. It is a curated list, not a complete list of freedom fighters in India. Name spellings are retained or normalized conservatively; descriptions do not infer biographies beyond the source association."
+    },
+    {
+      "id": "icarNbsslupSouthernStateSoils",
+      "name": "ICAR–NBSS&LUP Regional Centre, Bengaluru — state-level soil resource mapping for southern States",
+      "url": "https://icar-nbsslup.org.in/bangalore_hindi/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "State-level USDA soil-order classifications and reported area shares for Andhra Pradesh, Karnataka, Tamil Nadu and Kerala"
+      ],
+      "issuingAuthority": "ICAR–National Bureau of Soil Survey and Land Use Planning, Government of India",
+      "referenceDate": "State soil-resource mapping at 1:250,000 scale; source page accessed 31 October 2026",
+      "cadence": "Refresh against updated ICAR–NBSS&LUP state soil-resource maps; retain mapping scale and do not infer unreported shares."
+    },
+    {
+      "id": "icarNbsslupNorthWesternStateSoils",
+      "name": "ICAR–NBSS&LUP Regional Centre, New Delhi — state soil-resource mapping for Haryana",
+      "url": "https://icar-nbsslup.org.in/new-delhi/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Haryana state soil orders and reported area shares",
+        "Soil mapping scale and regional soil characteristics"
+      ],
+      "issuingAuthority": "ICAR–National Bureau of Soil Survey and Land Use Planning, Government of India",
+      "referenceDate": "State soil-resource mapping summary; source page accessed 31 October 2026",
+      "cadence": "Refresh against updated ICAR–NBSS&LUP state soil-resource maps; preserve the distinction between number of orders and the orders quantified in the summary."
+    },
+    {
+      "id": "icarNbsslupGujaratSoils",
+      "name": "ICAR–NBSS&LUP Regional Centre, Udaipur — Gujarat state soil-resource mapping",
+      "url": "https://icar-nbsslup.org.in/udaipur_hindi/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Gujarat soil orders and reported area shares",
+        "Rann of Kachchh and rock-outcrop land-cover context"
+      ],
+      "issuingAuthority": "ICAR–National Bureau of Soil Survey and Land Use Planning, Government of India",
+      "referenceDate": "State soil-resource mapping at 1:250,000 scale; source page accessed 31 October 2026",
+      "cadence": "Refresh against updated ICAR–NBSS&LUP state soil-resource maps; do not allocate the Rann or rock-outcrop area to soil orders."
     }
   ]
 }

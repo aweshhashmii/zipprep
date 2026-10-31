@@ -11666,7 +11666,7 @@
         "minerals": [
           {
             "name": "MCDR mineral production — 2023-24",
-            "description": "₹552.38 crore estimated production value (excluding atomic, fuel and minor minerals); 96 reporting mines. Provisional yearbook figures.",
+            "description": "MCDR minerals (excluding atomic, fuel and minor minerals): provisional value ₹552.38 crore; 96 reporting mines.",
             "productionValueCrore": 552.37866,
             "reportingMines": 96,
             "sourceId": "ibmIndianMineralsYearbook2024",
@@ -11675,48 +11675,48 @@
           },
           {
             "name": "Bauxite",
-            "description": "Resource total 232.430 million tonnes; principal occurrences include Kolhapur, Raigad, Ratnagiri, Satara, Sindhudurg and Thane.",
-            "districts": "Kolhapur; Raigad; Ratnagiri; Satara; Sindhudurg; Thane",
+            "description": "Bauxite resources occur in Kolhapur, Raigad, Ratnagiri, Satara, Sindhudurg and Thane districts. The state is a principal producer of bauxite.",
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Kolhapur; Raigad; Ratnagiri; Satara; Sindhudurg; Thane"
           },
           {
             "name": "Manganese ore",
-            "description": "Resource total 59.036 million tonnes; occurrences include Bhandara, Nagpur and Ratnagiri.",
-            "districts": "Bhandara; Nagpur; Ratnagiri",
+            "description": "Manganese ore occurrences are reported in Bhandara, Nagpur and Ratnagiri districts.",
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Bhandara; Nagpur; Ratnagiri"
           },
           {
             "name": "Limestone",
-            "description": "Resource total 3,808.392 million tonnes; occurrences include Ahmednagar, Chandrapur, Dhule, Gadchiroli, Nagpur, Nanded, Pune, Sangli and Yavatmal.",
-            "districts": "Ahmednagar; Chandrapur; Dhule; Gadchiroli; Nagpur; Nanded; Pune; Sangli; Yavatmal",
+            "description": "About 3,808 million tonnes of limestone resources; occurrences include Ahmednagar, Chandrapur, Dhule, Gadchiroli, Nagpur, Nanded, Pune, Sangli and Yavatmal districts.",
             "totalResourcesMillionTonnes": 3808,
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Ahmednagar; Chandrapur; Dhule; Gadchiroli; Nagpur; Nanded; Pune; Sangli; Yavatmal"
           },
           {
             "name": "Coal — Wardha Valley and Kamptee fields",
             "description": "Coal resources total 13,351.63 million tonnes as at 01.04.2024; Wardha Valley is the largest listed field.",
-            "districts": "Chandrapur; Nagpur; Yavatmal",
             "totalResourcesMillionTonnes": 13351.63,
             "resourceReferenceDate": "01.04.2024",
             "resourceType": "coal resources",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Chandrapur; Nagpur; Yavatmal"
           }
         ],
         "crops": [
           {
             "name": "Maize",
-            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "description": "2024-25: area 1.63 million ha; production 4.75 million tonnes; yield 2,922 kg/ha. Irrigation coverage 64.69% (2023-24 table column).",
             "areaMillionHectares": 1.63,
             "productionMillionTonnes": 4.75,
             "yieldKgPerHectare": 2922,
@@ -17464,7 +17464,7 @@
         "minerals": [
           {
             "name": "MCDR mineral production — 2023-24",
-            "description": "₹88.20 crore value of major minerals (excluding atomic, fuel and minor minerals); 83 reporting mines. Provisional yearbook figures.",
+            "description": "MCDR minerals (excluding atomic, fuel and minor minerals): provisional value ₹88.20 crore; 83 reporting mines.",
             "productionValueCrore": 88.19511,
             "reportingMines": 83,
             "sourceId": "ibmIndianMineralsYearbook2024",
@@ -17474,37 +17474,37 @@
           {
             "name": "Vermiculite, molybdenum, dunite, rutile, garnet and ilmenite",
             "description": "Tamil Nadu holds major national resource shares: 79% vermiculite, 65% dunite, 46% garnet, 66% molybdenum, 24% sillimanite and 16% fire clay resources.",
-            "districts": "Dharmapuri; Dindigul; Salem; Tiruchirappalli; Vellore; Kanyakumari",
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Dharmapuri; Dindigul; Salem; Tiruchirappalli; Vellore; Kanyakumari"
           },
           {
             "name": "Lignite — Neyveli, Mannargudi and Ramanathapuram fields",
-            "description": "Total lignite resources 37,523.65 million tonnes as at 01.04.2024.",
-            "districts": "Cuddalore; Thanjavur; Tiruvarur; Ramanathapuram",
+            "description": "Lignite resources total 37,523.65 million tonnes as at 01.04.2024: Neyveli 8,496.38 MT; Mannargudi 24,693.90 MT; Ramanathapuram 4,333.37 MT.",
             "totalResourcesMillionTonnes": 37523.65,
             "resourceReferenceDate": "01.04.2024",
             "resourceType": "lignite resources",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Cuddalore; Thanjavur; Tiruvarur; Ramanathapuram"
           },
           {
             "name": "Limestone",
-            "description": "Occurrences are reported across Ariyalur, Cuddalore, Dindigul, Karur, Madurai, Namakkal, Perambalur, Salem, Tiruchirappalli, Tirunelveli and Virudhunagar.",
-            "districts": "Ariyalur; Cuddalore; Dindigul; Karur; Madurai; Namakkal; Perambalur; Salem; Tiruchirappalli; Tirunelveli; Virudhunagar",
+            "description": "Limestone occurrences include Ariyalur, Coimbatore, Cuddalore, Dindigul, Kanchipuram, Karur, Madurai, Nagapattinam, Namakkal, Perambalur, Ramanathapuram, Salem, Tiruchirappalli, Tirunelveli, Vellore, Villupuram and Virudhunagar.",
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Ariyalur; Cuddalore; Dindigul; Karur; Madurai; Namakkal; Perambalur; Salem; Tiruchirappalli; Tirunelveli; Virudhunagar"
           }
         ],
         "crops": [
           {
             "name": "Maize",
-            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "description": "2024-25: area 0.49 million ha; production 2.66 million tonnes; yield 5,487 kg/ha. Irrigation coverage 36.73% (2023-24 table column).",
             "areaMillionHectares": 0.49,
             "productionMillionTonnes": 2.66,
             "yieldKgPerHectare": 5487,
@@ -17948,7 +17948,7 @@
         "minerals": [
           {
             "name": "MCDR mineral production — 2023-24",
-            "description": "₹55.65 crore value of major minerals (excluding atomic, fuel and minor minerals); 33 reporting mines. Provisional yearbook figures.",
+            "description": "MCDR minerals (excluding atomic, fuel and minor minerals): provisional value ₹55.65 crore; 33 reporting mines.",
             "productionValueCrore": 55.65237,
             "reportingMines": 33,
             "sourceId": "ibmIndianMineralsYearbook2024",
@@ -17957,38 +17957,38 @@
           },
           {
             "name": "Limestone",
-            "description": "Total resources 17,652.454 million tonnes as at 01.04.2020; occurrences include Adilabad, Hyderabad, Karimnagar, Mahabubnagar, Nalgonda and Rangareddy.",
-            "districts": "Adilabad; Hyderabad; Karimnagar; Mahabubnagar; Nalgonda; Rangareddy",
+            "description": "Limestone resources and occurrences are reported in Adilabad, Hyderabad, Karimnagar, Mahabubnagar, Nalgonda and Rangareddy districts.",
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Adilabad; Hyderabad; Karimnagar; Mahabubnagar; Nalgonda; Rangareddy"
           },
           {
             "name": "Godavari Valley coalfield",
-            "description": "Coal resources total 23,205.52 million tonnes as at 01.04.2024.",
-            "districts": "Adilabad; Karimnagar; Khammam; Warangal",
+            "description": "Coal resources total 23,205.52 million tonnes as at 01.04.2024; the Godavari Valley is the state's principal coalfield.",
             "totalResourcesMillionTonnes": 23205.52,
             "resourceReferenceDate": "01.04.2024",
             "resourceType": "coal resources",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Adilabad; Karimnagar; Khammam; Warangal"
           },
           {
             "name": "Barytes, dolomite, feldspar, laterite and quartz",
             "description": "The yearbook identifies these among Telangana's important mineral-resource groups; granite varieties are also noted.",
-            "districts": "Khammam; Warangal; Hyderabad; Mahabubnagar; Medak; Rangareddy",
             "resourceReferenceDate": "01.04.2020",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
-            "referenceYear": "2023-24; resource baseline 01.04.2020"
+            "referenceYear": "2023-24; resource baseline 01.04.2020",
+            "district": "Khammam; Warangal; Hyderabad; Mahabubnagar; Medak; Rangareddy"
           }
         ],
         "crops": [
           {
             "name": "Maize",
-            "description": "Major-producing-state estimate; area, production and yield from the Ministry of Agriculture table.",
+            "description": "2024-25: area 0.58 million ha; production 3.39 million tonnes; yield 5,860 kg/ha. Irrigation coverage 60.57% (2023-24 table column).",
             "areaMillionHectares": 0.58,
             "productionMillionTonnes": 3.39,
             "yieldKgPerHectare": 5860,

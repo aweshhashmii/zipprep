@@ -1499,7 +1499,199 @@
             "description": "Project/node listed under the Hyderabad-Bengaluru Industrial Corridor (HBIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-AP-RVP-001",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Mahanadi (Manibhadra)–Godavari (Dowlaiswaram) link",
+            "officialName": "Mahanadi (Manibhadra)–Godavari (Dowlaiswaram) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Odisha"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-002",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Alternate Mahanadi (Barmul)–Rushikulya–Godavari (Dowlaiswaram) link",
+            "officialName": "Alternate Mahanadi (Barmul)–Rushikulya–Godavari (Dowlaiswaram) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Odisha"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-003",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "officialName": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Completed (footnote clarification)",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Karnataka",
+              "Maharashtra",
+              "Telangana"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Completed (footnote clarification). States/UTs benefited as listed by the source: Andhra Pradesh, Karnataka, Maharashtra, Telangana. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-004",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Inchampalli/SSMPP)–Krishna (Pulichintala) link",
+            "officialName": "Godavari (Inchampalli/SSMPP)–Krishna (Pulichintala) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Telangana",
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Telangana, Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-005",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Krishna (Nagarjunasagar)–Pennar (Somasila) link",
+            "officialName": "Krishna (Nagarjunasagar)–Pennar (Somasila) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-006",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Alternate Krishna (Nagarjunasagar)–Pennar (Somasila) link",
+            "officialName": "Alternate Krishna (Nagarjunasagar)–Pennar (Somasila) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-007",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Krishna (Srisailam)–Pennar link",
+            "officialName": "Krishna (Srisailam)–Pennar link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-008",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Krishna (Almatti)–Pennar link",
+            "officialName": "Krishna (Almatti)–Pennar link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Karnataka",
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Karnataka, Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-009",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "officialName": "Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Tamil Nadu",
+              "Puducherry"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AP-RVP-010",
+            "regionId": "IN-AP",
+            "category": "riverValleyProjects",
+            "name": "Alternate Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "officialName": "Alternate Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Tamil Nadu",
+              "Puducherry"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -3709,7 +3901,48 @@
           }
         ],
         "industrialCorridors": [],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-AS-RVP-001",
+            "regionId": "IN-AS",
+            "category": "riverValleyProjects",
+            "name": "Manas–Sankosh–Tista–Ganga (M-S-T-G) link",
+            "officialName": "Manas–Sankosh–Tista–Ganga (M-S-T-G) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Assam",
+              "West Bengal",
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-AS-RVP-002",
+            "regionId": "IN-AS",
+            "category": "riverValleyProjects",
+            "name": "Jogighopa–Tista–Farakka link (alternative to M-S-T-G)",
+            "officialName": "Jogighopa–Tista–Farakka link (alternative to M-S-T-G)",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Pre-Feasibility Report completed; proposal dropped",
+            "beneficiaryRegions": [
+              "Assam",
+              "West Bengal",
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; proposal dropped. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -4619,7 +4852,123 @@
             "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-BR-RVP-001",
+            "regionId": "IN-BR",
+            "category": "riverValleyProjects",
+            "name": "Kosi–Mechi link (inter-state proposal)",
+            "officialName": "Kosi–Mechi link (inter-state proposal)",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Proposal dropped; intra-state variant DPR submitted to Bihar",
+            "beneficiaryRegions": [
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Proposal dropped; intra-state variant DPR submitted to Bihar. States/UTs benefited as listed by the source: Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-BR-RVP-002",
+            "regionId": "IN-BR",
+            "category": "riverValleyProjects",
+            "name": "Kosi–Ghaghra link",
+            "officialName": "Kosi–Ghaghra link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Bihar",
+              "Uttar Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-BR-RVP-003",
+            "regionId": "IN-BR",
+            "category": "riverValleyProjects",
+            "name": "Chunar–Sone Barrage link",
+            "officialName": "Chunar–Sone Barrage link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Bihar",
+              "Uttar Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-BR-RVP-004",
+            "regionId": "IN-BR",
+            "category": "riverValleyProjects",
+            "name": "Sone Dam–Southern Tributaries of Ganga link",
+            "officialName": "Sone Dam–Southern Tributaries of Ganga link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Draft Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Bihar",
+              "Jharkhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Draft Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Jharkhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-BR-RVP-005",
+            "regionId": "IN-BR",
+            "category": "riverValleyProjects",
+            "name": "Manas–Sankosh–Tista–Ganga (M-S-T-G) link",
+            "officialName": "Manas–Sankosh–Tista–Ganga (M-S-T-G) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Assam",
+              "West Bengal",
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-BR-RVP-006",
+            "regionId": "IN-BR",
+            "category": "riverValleyProjects",
+            "name": "Jogighopa–Tista–Farakka link (alternative to M-S-T-G)",
+            "officialName": "Jogighopa–Tista–Farakka link (alternative to M-S-T-G)",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Pre-Feasibility Report completed; proposal dropped",
+            "beneficiaryRegions": [
+              "Assam",
+              "West Bengal",
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; proposal dropped. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -7560,7 +7909,46 @@
             "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-GJ-RVP-001",
+            "regionId": "IN-GJ",
+            "category": "riverValleyProjects",
+            "name": "Par–Tapi–Narmada link",
+            "officialName": "Par–Tapi–Narmada link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed; dropped from priority-link status",
+            "beneficiaryRegions": [
+              "Gujarat",
+              "Maharashtra"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed; dropped from priority-link status. States/UTs benefited as listed by the source: Gujarat, Maharashtra. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-GJ-RVP-002",
+            "regionId": "IN-GJ",
+            "category": "riverValleyProjects",
+            "name": "Rajasthan–Sabarmati link",
+            "officialName": "Rajasthan–Sabarmati link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Rajasthan",
+              "Gujarat"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Rajasthan, Gujarat. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -8439,7 +8827,27 @@
             "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-HR-RVP-001",
+            "regionId": "IN-HR",
+            "category": "riverValleyProjects",
+            "name": "Yamuna–Rajasthan link",
+            "officialName": "Yamuna–Rajasthan link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Haryana",
+              "Rajasthan"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Haryana, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -10644,7 +11052,47 @@
             "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-JH-RVP-001",
+            "regionId": "IN-JH",
+            "category": "riverValleyProjects",
+            "name": "Sone Dam–Southern Tributaries of Ganga link",
+            "officialName": "Sone Dam–Southern Tributaries of Ganga link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Draft Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Bihar",
+              "Jharkhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Draft Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Jharkhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-JH-RVP-002",
+            "regionId": "IN-JH",
+            "category": "riverValleyProjects",
+            "name": "Ganga (Farakka)–Damodar–Subarnarekha link",
+            "officialName": "Ganga (Farakka)–Damodar–Subarnarekha link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "West Bengal",
+              "Odisha",
+              "Jharkhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha, Jharkhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -11801,7 +12249,84 @@
             "description": "Project/node listed under the Bengaluru-Mumbai Industrial Corridor (BMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-KA-RVP-001",
+            "regionId": "IN-KA",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "officialName": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Completed (footnote clarification)",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Karnataka",
+              "Maharashtra",
+              "Telangana"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Completed (footnote clarification). States/UTs benefited as listed by the source: Andhra Pradesh, Karnataka, Maharashtra, Telangana. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-KA-RVP-002",
+            "regionId": "IN-KA",
+            "category": "riverValleyProjects",
+            "name": "Krishna (Almatti)–Pennar link",
+            "officialName": "Krishna (Almatti)–Pennar link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Karnataka",
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Karnataka, Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-KA-RVP-003",
+            "regionId": "IN-KA",
+            "category": "riverValleyProjects",
+            "name": "Bedti–Varda link",
+            "officialName": "Bedti–Varda link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Karnataka"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Karnataka. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-KA-RVP-004",
+            "regionId": "IN-KA",
+            "category": "riverValleyProjects",
+            "name": "Netravati–Hemavati link",
+            "officialName": "Netravati–Hemavati link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Pre-Feasibility Report completed; further studies not taken up",
+            "beneficiaryRegions": [
+              "Karnataka"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; further studies not taken up. States/UTs benefited as listed by the source: Karnataka. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -12907,7 +13432,27 @@
             "description": "Project/node listed under the Extension of CBIC to Kochi via Coimbatore (ECKC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-KL-RVP-001",
+            "regionId": "IN-KL",
+            "category": "riverValleyProjects",
+            "name": "Pamba–Achankovil–Vaippar link",
+            "officialName": "Pamba–Achankovil–Vaippar link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Tamil Nadu",
+              "Kerala"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Tamil Nadu, Kerala. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -14209,7 +14754,65 @@
             "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Completed. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-MP-RVP-001",
+            "regionId": "IN-MP",
+            "category": "riverValleyProjects",
+            "name": "Parbati–Kalisindh–Chambal link",
+            "officialName": "Parbati–Kalisindh–Chambal link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Madhya Pradesh",
+              "Rajasthan"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Madhya Pradesh, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-MP-RVP-002",
+            "regionId": "IN-MP",
+            "category": "riverValleyProjects",
+            "name": "Modified Parbati–Kalisindh–Chambal link",
+            "officialName": "Modified Parbati–Kalisindh–Chambal link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "MoA for implementation signed by both States",
+            "beneficiaryRegions": [
+              "Madhya Pradesh",
+              "Rajasthan"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: MoA for implementation signed by both States. States/UTs benefited as listed by the source: Madhya Pradesh, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-MP-RVP-003",
+            "regionId": "IN-MP",
+            "category": "riverValleyProjects",
+            "name": "Ken–Betwa link",
+            "officialName": "Ken–Betwa link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Work commenced; DPR completed",
+            "beneficiaryRegions": [
+              "Uttar Pradesh",
+              "Madhya Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Work commenced; DPR completed. States/UTs benefited as listed by the source: Uttar Pradesh, Madhya Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -15723,7 +16326,66 @@
             "description": "Project/node listed under the Bengaluru-Mumbai Industrial Corridor (BMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-MH-RVP-001",
+            "regionId": "IN-MH",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "officialName": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Completed (footnote clarification)",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Karnataka",
+              "Maharashtra",
+              "Telangana"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Completed (footnote clarification). States/UTs benefited as listed by the source: Andhra Pradesh, Karnataka, Maharashtra, Telangana. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-MH-RVP-002",
+            "regionId": "IN-MH",
+            "category": "riverValleyProjects",
+            "name": "Damanganga–Pinjal link",
+            "officialName": "Damanganga–Pinjal link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed; dropped from priority-link status",
+            "beneficiaryRegions": [
+              "Maharashtra"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed; dropped from priority-link status. States/UTs benefited as listed by the source: Maharashtra. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-MH-RVP-003",
+            "regionId": "IN-MH",
+            "category": "riverValleyProjects",
+            "name": "Par–Tapi–Narmada link",
+            "officialName": "Par–Tapi–Narmada link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed; dropped from priority-link status",
+            "beneficiaryRegions": [
+              "Gujarat",
+              "Maharashtra"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed; dropped from priority-link status. States/UTs benefited as listed by the source: Gujarat, Maharashtra. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -20746,7 +21408,85 @@
             "description": "Project/node listed under the Odisha Economic Corridor (OEC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-OD-RVP-001",
+            "regionId": "IN-OD",
+            "category": "riverValleyProjects",
+            "name": "Mahanadi (Manibhadra)–Godavari (Dowlaiswaram) link",
+            "officialName": "Mahanadi (Manibhadra)–Godavari (Dowlaiswaram) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Odisha"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-OD-RVP-002",
+            "regionId": "IN-OD",
+            "category": "riverValleyProjects",
+            "name": "Alternate Mahanadi (Barmul)–Rushikulya–Godavari (Dowlaiswaram) link",
+            "officialName": "Alternate Mahanadi (Barmul)–Rushikulya–Godavari (Dowlaiswaram) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Odisha"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-OD-RVP-003",
+            "regionId": "IN-OD",
+            "category": "riverValleyProjects",
+            "name": "Ganga (Farakka)–Damodar–Subarnarekha link",
+            "officialName": "Ganga (Farakka)–Damodar–Subarnarekha link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "West Bengal",
+              "Odisha",
+              "Jharkhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha, Jharkhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-OD-RVP-004",
+            "regionId": "IN-OD",
+            "category": "riverValleyProjects",
+            "name": "Subarnarekha–Mahanadi link",
+            "officialName": "Subarnarekha–Mahanadi link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "West Bengal",
+              "Odisha"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -22604,7 +23344,84 @@
             "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-RJ-RVP-001",
+            "regionId": "IN-RJ",
+            "category": "riverValleyProjects",
+            "name": "Parbati–Kalisindh–Chambal link",
+            "officialName": "Parbati–Kalisindh–Chambal link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Madhya Pradesh",
+              "Rajasthan"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Madhya Pradesh, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-RJ-RVP-002",
+            "regionId": "IN-RJ",
+            "category": "riverValleyProjects",
+            "name": "Modified Parbati–Kalisindh–Chambal link",
+            "officialName": "Modified Parbati–Kalisindh–Chambal link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "MoA for implementation signed by both States",
+            "beneficiaryRegions": [
+              "Madhya Pradesh",
+              "Rajasthan"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: MoA for implementation signed by both States. States/UTs benefited as listed by the source: Madhya Pradesh, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-RJ-RVP-003",
+            "regionId": "IN-RJ",
+            "category": "riverValleyProjects",
+            "name": "Yamuna–Rajasthan link",
+            "officialName": "Yamuna–Rajasthan link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Haryana",
+              "Rajasthan"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Haryana, Rajasthan. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-RJ-RVP-004",
+            "regionId": "IN-RJ",
+            "category": "riverValleyProjects",
+            "name": "Rajasthan–Sabarmati link",
+            "officialName": "Rajasthan–Sabarmati link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Rajasthan",
+              "Gujarat"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Rajasthan, Gujarat. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -25222,7 +26039,85 @@
             "description": "Project/node listed under the Extension of CBIC to Kochi via Coimbatore (ECKC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-TN-RVP-001",
+            "regionId": "IN-TN",
+            "category": "riverValleyProjects",
+            "name": "Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "officialName": "Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Tamil Nadu",
+              "Puducherry"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-TN-RVP-002",
+            "regionId": "IN-TN",
+            "category": "riverValleyProjects",
+            "name": "Alternate Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "officialName": "Alternate Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Tamil Nadu",
+              "Puducherry"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-TN-RVP-003",
+            "regionId": "IN-TN",
+            "category": "riverValleyProjects",
+            "name": "Cauvery (Kattalai)–Vaigai–Gundar link",
+            "officialName": "Cauvery (Kattalai)–Vaigai–Gundar link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Tamil Nadu"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Tamil Nadu. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-TN-RVP-004",
+            "regionId": "IN-TN",
+            "category": "riverValleyProjects",
+            "name": "Pamba–Achankovil–Vaippar link",
+            "officialName": "Pamba–Achankovil–Vaippar link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Tamil Nadu",
+              "Kerala"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Tamil Nadu, Kerala. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -25961,7 +26856,84 @@
             "description": "Project/node listed under the Hyderabad-Warangal Industrial Corridor (HWIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-TS-RVP-001",
+            "regionId": "IN-TS",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "officialName": "Godavari (Polavaram)–Krishna (Vijayawada) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Completed (footnote clarification)",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Karnataka",
+              "Maharashtra",
+              "Telangana"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Completed (footnote clarification). States/UTs benefited as listed by the source: Andhra Pradesh, Karnataka, Maharashtra, Telangana. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-TS-RVP-002",
+            "regionId": "IN-TS",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Inchampalli)–Krishna (Nagarjunasagar) link",
+            "officialName": "Godavari (Inchampalli)–Krishna (Nagarjunasagar) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Telangana"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Telangana. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-TS-RVP-003",
+            "regionId": "IN-TS",
+            "category": "riverValleyProjects",
+            "name": "Alternate Godavari (Inchampalli)–Krishna (Nagarjunasagar) link",
+            "officialName": "Alternate Godavari (Inchampalli)–Krishna (Nagarjunasagar) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Telangana"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Telangana. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-TS-RVP-004",
+            "regionId": "IN-TS",
+            "category": "riverValleyProjects",
+            "name": "Godavari (Inchampalli/SSMPP)–Krishna (Pulichintala) link",
+            "officialName": "Godavari (Inchampalli/SSMPP)–Krishna (Pulichintala) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Telangana",
+              "Andhra Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Telangana, Andhra Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -27620,7 +28592,120 @@
             "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-UP-RVP-001",
+            "regionId": "IN-UP",
+            "category": "riverValleyProjects",
+            "name": "Ken–Betwa link",
+            "officialName": "Ken–Betwa link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Work commenced; DPR completed",
+            "beneficiaryRegions": [
+              "Uttar Pradesh",
+              "Madhya Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Work commenced; DPR completed. States/UTs benefited as listed by the source: Uttar Pradesh, Madhya Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-UP-RVP-002",
+            "regionId": "IN-UP",
+            "category": "riverValleyProjects",
+            "name": "Kosi–Ghaghra link",
+            "officialName": "Kosi–Ghaghra link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Bihar",
+              "Uttar Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-UP-RVP-003",
+            "regionId": "IN-UP",
+            "category": "riverValleyProjects",
+            "name": "Gandak–Ganga link",
+            "officialName": "Gandak–Ganga link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Uttar Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-UP-RVP-004",
+            "regionId": "IN-UP",
+            "category": "riverValleyProjects",
+            "name": "Ghaghra–Yamuna link",
+            "officialName": "Ghaghra–Yamuna link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Uttar Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-UP-RVP-005",
+            "regionId": "IN-UP",
+            "category": "riverValleyProjects",
+            "name": "Sarda–Yamuna link",
+            "officialName": "Sarda–Yamuna link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Uttar Pradesh",
+              "Uttarakhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Uttar Pradesh, Uttarakhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-UP-RVP-006",
+            "regionId": "IN-UP",
+            "category": "riverValleyProjects",
+            "name": "Chunar–Sone Barrage link",
+            "officialName": "Chunar–Sone Barrage link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Bihar",
+              "Uttar Pradesh"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Bihar, Uttar Pradesh. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -29069,7 +30154,27 @@
             "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-UK-RVP-001",
+            "regionId": "IN-UK",
+            "category": "riverValleyProjects",
+            "name": "Sarda–Yamuna link",
+            "officialName": "Sarda–Yamuna link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Uttar Pradesh",
+              "Uttarakhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Uttar Pradesh, Uttarakhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],
@@ -30126,7 +31231,105 @@
             "description": "The PIB 26 February 2026 explainer states that Union Budget 2026-27 announced an integrated East Coast Industrial Corridor with a well-connected node at Durgapur. This is an announcement, not a claim that the corridor or node is operational."
           }
         ],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-WB-RVP-001",
+            "regionId": "IN-WB",
+            "category": "riverValleyProjects",
+            "name": "Manas–Sankosh–Tista–Ganga (M-S-T-G) link",
+            "officialName": "Manas–Sankosh–Tista–Ganga (M-S-T-G) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Assam",
+              "West Bengal",
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-WB-RVP-002",
+            "regionId": "IN-WB",
+            "category": "riverValleyProjects",
+            "name": "Jogighopa–Tista–Farakka link (alternative to M-S-T-G)",
+            "officialName": "Jogighopa–Tista–Farakka link (alternative to M-S-T-G)",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Pre-Feasibility Report completed; proposal dropped",
+            "beneficiaryRegions": [
+              "Assam",
+              "West Bengal",
+              "Bihar"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Pre-Feasibility Report completed; proposal dropped. States/UTs benefited as listed by the source: Assam, West Bengal, Bihar. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-WB-RVP-003",
+            "regionId": "IN-WB",
+            "category": "riverValleyProjects",
+            "name": "Farakka–Sundarbans link",
+            "officialName": "Farakka–Sundarbans link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "West Bengal"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-WB-RVP-004",
+            "regionId": "IN-WB",
+            "category": "riverValleyProjects",
+            "name": "Ganga (Farakka)–Damodar–Subarnarekha link",
+            "officialName": "Ganga (Farakka)–Damodar–Subarnarekha link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "West Bengal",
+              "Odisha",
+              "Jharkhand"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha, Jharkhand. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-WB-RVP-005",
+            "regionId": "IN-WB",
+            "category": "riverValleyProjects",
+            "name": "Subarnarekha–Mahanadi link",
+            "officialName": "Subarnarekha–Mahanadi link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "West Bengal",
+              "Odisha"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: West Bengal, Odisha. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [
@@ -34343,7 +35546,48 @@
           }
         ],
         "industrialCorridors": [],
-        "riverValleyProjects": [],
+        "riverValleyProjects": [
+          {
+            "id": "IN-PY-RVP-001",
+            "regionId": "IN-PY",
+            "category": "riverValleyProjects",
+            "name": "Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "officialName": "Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "Feasibility Report completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Tamil Nadu",
+              "Puducherry"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: Feasibility Report completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
+          },
+          {
+            "id": "IN-PY-RVP-002",
+            "regionId": "IN-PY",
+            "category": "riverValleyProjects",
+            "name": "Alternate Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "officialName": "Alternate Pennar (Somasila)–Cauvery (Grand Anicut) link",
+            "projectType": "National Perspective Plan inter-basin river-link project",
+            "status": "DPR completed",
+            "beneficiaryRegions": [
+              "Andhra Pradesh",
+              "Tamil Nadu",
+              "Puducherry"
+            ],
+            "sourceName": "Ministry of Jal Shakti / Press Information Bureau — Status of National Rivers Interlinking Programme",
+            "sourceId": "pibNationalRiverLinkProgrammeAug2026",
+            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+            "referenceDate": "2026-08-10",
+            "verificationStatus": "verified",
+            "description": "National Perspective Plan river interlinking project. Status reported by the Ministry of Jal Shakti on 10 August 2026: DPR completed. States/UTs benefited as listed by the source: Andhra Pradesh, Tamil Nadu, Puducherry. This is a project-status record, not a statement that all project works are under construction or operational."
+          }
+        ],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
         "conservationReserves": [],

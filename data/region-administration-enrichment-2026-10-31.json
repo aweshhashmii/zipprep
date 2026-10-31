@@ -3,19 +3,449 @@
   "title": "Regional administration enrichment — 31 October 2026",
   "records": [
     {
-      "regionName": "Karnataka",
-      "sourceId": "karnatakaLocalGovernance2026",
-      "sourceTitle": "Karnataka Economic Survey 2025–26; Government of India e-GramSwaraj GPDP annexure",
+      "regionName": "Andaman and Nicobar Islands",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
       "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
-      "referenceDate": "2025–26 Economic Survey; GPDP count as of 2026-01-29",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 70,
+        "gpdpUploaded": 69
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Andhra Pradesh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 13326,
+        "gpdpUploaded": 13320
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Arunachal Pradesh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 2108,
+        "gpdpUploaded": 2093
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Assam",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 2664,
+        "gpdpUploaded": 2255
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Bihar",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 8053,
+        "gpdpUploaded": 8053
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Chhattisgarh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 11693,
+        "gpdpUploaded": 11647
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 50,
+        "gpdpUploaded": 38
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Goa",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 191,
+        "gpdpUploaded": 191
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Gujarat",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 14619,
+        "gpdpUploaded": 14563
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Haryana",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 6230,
+        "gpdpUploaded": 6221
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Himachal Pradesh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 3615,
+        "gpdpUploaded": 3608
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Jammu and Kashmir",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 4291,
+        "gpdpUploaded": 4291
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Jharkhand",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 4347,
+        "gpdpUploaded": 4343
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Karnataka",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
       "lastVerifiedAt": "2026-10-31",
       "fields": {
         "gramPanchayats": 5949,
         "intermediatePanchayats": 239,
-        "districtPanchayats": 31
+        "districtPanchayats": 31,
+        "gpdpUploaded": 5941
       },
-      "note": "Gram Panchayats: 5,949 from the Ministry of Panchayati Raj e-GramSwaraj GPDP annexure, as of 29 Jan 2026. Intermediate/Taluk Panchayats: 239 and District/Zilla Panchayats: 31 from the 16th Finance Commission Karnataka study (2023 table). Source years differ and are retained in this note; urban local-body counts are not inferred.",
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero.",
       "secondarySourceUrl": "https://fincomindia.nic.in/asset/doc/commission-reports/16th-FC/studies/evaluation/Karnataka.pdf"
+    },
+    {
+      "regionName": "Kerala",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 941,
+        "gpdpUploaded": 941
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Ladakh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 193,
+        "gpdpUploaded": 191
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Lakshadweep",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 10,
+        "gpdpUploaded": 0
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Madhya Pradesh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 23011,
+        "gpdpUploaded": 22978
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Maharashtra",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 27994,
+        "gpdpUploaded": 27909
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Manipur",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 3810,
+        "gpdpUploaded": 161
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Meghalaya",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 0,
+        "gpdpUploaded": 0
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Mizoram",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 855,
+        "gpdpUploaded": 812
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Nagaland",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 1327,
+        "gpdpUploaded": 0
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Odisha",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 6794,
+        "gpdpUploaded": 6793
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Puducherry",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 108,
+        "gpdpUploaded": 0
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Punjab",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 13236,
+        "gpdpUploaded": 13172
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Rajasthan",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 13129,
+        "gpdpUploaded": 11173
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Sikkim",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 199,
+        "gpdpUploaded": 199
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Tamil Nadu",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 12482,
+        "gpdpUploaded": 12441
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Telangana",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 12849,
+        "gpdpUploaded": 10548
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Tripura",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 1194,
+        "gpdpUploaded": 1193
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Uttar Pradesh",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 57695,
+        "gpdpUploaded": 57691
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "Uttarakhand",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 7817,
+        "gpdpUploaded": 7763
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
+    },
+    {
+      "regionName": "West Bengal",
+      "sourceId": "pibEgramSwarajGpdpStatewise2026",
+      "sourceTitle": "Ministry of Panchayati Raj — e-GramSwaraj state/UT-wise GPDP uploads, Lok Sabha reply dated 10 February 2026",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225837&lang=1&reg=48",
+      "referenceDate": "e-GramSwaraj portal snapshot as of 2026-01-29; plan year 2025-26",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 3339,
+        "gpdpUploaded": 3337
+      },
+      "note": "The count is the Ministry of Panchayati Raj's state/UT-wise total Gram Panchayats and equivalents for GPDP plan year 2025-26, as reported from e-GramSwaraj on 29 January 2026. GPDP uploaded is a separate progress count, not the number of all functioning local bodies. Counts are retained as published; a missing region from the annexure is not inferred to have zero."
     }
   ]
 }

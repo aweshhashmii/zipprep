@@ -633,6 +633,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1130,7 +1137,35 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Atreyapuram Pootarekulu",
+            "goodsCategory": "Food Stuff",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Food Stuff.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Narasapur Crochet Lace Products",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Ponduru Khadi",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [
@@ -1718,6 +1753,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2004,7 +2046,161 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Arunachal Pradesh Khaw Tai (Khamti Rice)",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Yak Churpi",
+            "goodsCategory": "Food Stuff",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Food Stuff.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Tangsa Textile Product",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Handmade Carpet",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Wancho Wooden Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Adi Kekir (Ginger)",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Apatani Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Monpa Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Nyishi Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Monpa Handmade Paper",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Adi Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Galo Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Adi Apong",
+            "goodsCategory": "Manufactured",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Manufactured.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Dao (Sword)",
+            "goodsCategory": "Manufactured",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Manufactured.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Angnyat Millet",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Marua Apo (Marua Millet Beverage)",
+            "goodsCategory": "Manufactured",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Manufactured.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Arunachal Pradesh Tai Khamti Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],
@@ -2325,6 +2521,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2667,7 +2870,206 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Judima",
+            "goodsCategory": "Manufactured",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Manufactured.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Gamosa of Assam",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Majuli Mask of Assam",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Assam Majuli Manuscript Painting",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Dokhona",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Eri Silk",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Jwmgra",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Gamsa",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Keradapini",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Thorkha",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Gongar Dunjia",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Kham",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Serja",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Sifung",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Khardwi",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Gongona",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bodo Jotha",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Assam Jaapi",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Assam Asharikandi Terracotta Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Assam Bihu Dhol",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Assam Pani Meteka Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Sarthebari Metal Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],
@@ -3069,6 +3471,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3453,7 +3862,35 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Manjusha Art",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Mithila Makhana",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Marcha Rice",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],
@@ -3737,6 +4174,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": null,
@@ -4124,7 +4568,17 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Nagri Dubraj",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],
@@ -4382,6 +4836,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -4608,7 +5069,125 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Harmal Chilli",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Myndoli Banana",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goan Khaje",
+            "goodsCategory": "Food Stuff",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Food Stuff.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Agsechi Vayingim (Agassaim Brinjal)",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Sat Shiro Bheno (Sat Shirancho Bhendo)",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goa Mankurad Mango",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goan Bebinca",
+            "goodsCategory": "Food Stuff",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Food Stuff.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goa Cashew (Kaju Or Caju)",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Taleigao Vayingim (Taleigao Brinjal)",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goa Hilario Mango",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goa Korgut Rice",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goa Kaju Apple",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Goa Mussarad Mango",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [
@@ -4963,6 +5542,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -5510,7 +6096,134 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Pithora",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Mata ni Pachedhi",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Ambaji White Marble",
+            "goodsCategory": "Natural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Natural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Surat Cut Diamond",
+            "goodsCategory": "Manufactured",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Manufactured.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kachchhi Kharek",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kutch Rogan Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kutch Bandhani",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Gharchola Craft of Gujarat",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Gujarat Sut Embroidery",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Ahmedabad Sodagari Block Print",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Surat Sadei Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bharuch Sujani Weaving",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kutch Ajrakh",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Amalsad Chikoo",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [
@@ -6699,6 +7412,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7404,7 +8124,26 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Chamba Chappal",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Lahauli Knitted Socks & Gloves",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],
@@ -22752,6 +23491,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": null,
@@ -22877,7 +23623,71 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Andaman Karen Musley Rice",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Nguat-Kuk-‘Khawtha’ Coconut of Andaman & Nicobar",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Nicobari Canoe - Hodi Craft of Andaman & Nicobar",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Nicobari Mat (Chatrai / Hileuoi) of Andaman & Nicobar",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Padauk Wood Craft of Andaman & Nicobar",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Nicobari Hut of Andaman & Nicobar",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Nicobari Tavi-i-Ngaich (Virgin Coconut Oil) of Andaman & Nicobar",
+            "goodsCategory": "Manufactured",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Manufactured.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [
           {
@@ -24093,6 +24903,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": null,
@@ -24472,7 +25289,152 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Basohli Painting",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Mushqbudji Rice",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Rajouri Chikri Wood Craft",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Bhaderwah Rajmash",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Ramban Sulai Honey",
+            "goodsCategory": "Natural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Natural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Basohli Pashmina Woolen Products",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Udhampur Kaladi",
+            "goodsCategory": "Food Stuff",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Food Stuff.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kashmir Namda",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kashmir Wagguv",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Shikara",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Gabba",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kashmir Willow Bat",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kashmir Chain Stitch",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kashmir Crewel",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Kashmir Tweed",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Handicraft.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Ramban Anardana",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register; goods category: Agricultural.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [
           {

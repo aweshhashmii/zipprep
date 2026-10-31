@@ -27,6 +27,8 @@ const errors = [];
 const warnings = [];
 const regionsData = read('data/explore-india-regions.json');
 const supplementalData = read('data/region-supplemental-categories-2026.json');
+const giData = read('data/region-gi-2026.json');
+const sourceRegistry = read('data/source-registry.json');
 const politicalData = read('data/region-political-2026.json');
 const heritageData = read('data/region-unesco-heritage-2026.json');
 const censusData = read('data/india-district-census-2011.json');
@@ -65,6 +67,22 @@ for (const row of supplementalData.records || []) {
 }
 
 
+
+const giSourceIds = new Set((sourceRegistry.sources || []).map(source => source.id));
+const giKeys = new Set();
+const giRegions = new Set();
+for (const row of giData.records || []) {
+  const key = normalized(row.regionName) + '|' + normalized(row.name);
+  assert(regionSet.has(row.regionName), 'GI record references unknown region: ' + row.regionName);
+  assert(row.name && row.applicationNo && row.registrationStatus === 'Registered', 'GI record lacks registered-product details: ' + (row.name || '(missing)'));
+  assert(row.sourceId === 'ipindiaStatewiseRegisteredGI2026' && giSourceIds.has(row.sourceId), 'GI record references an unregistered source: ' + (row.name || '(missing)'));
+  assert(row.sourceUrl === giData.source.sourceUrl && /^https:\/\//i.test(row.sourceUrl), 'GI record source URL does not match the registered Part A source: ' + (row.name || '(missing)'));
+  assert(row.referenceDate && row.lastVerifiedAt, 'GI record lacks reference or verification date: ' + (row.name || '(missing)'));
+  assert(!giKeys.has(key), 'Duplicate GI record for region: ' + row.regionName + ' / ' + row.name);
+  giKeys.add(key);
+  giRegions.add(row.regionName);
+}
+if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
 const districtProfileCodes = new Set();

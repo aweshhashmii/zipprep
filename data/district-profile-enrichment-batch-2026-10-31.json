@@ -8683,6 +8683,391 @@
           "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
         }
       ]
+    },
+    {
+      "lgdCode": "15",
+      "name": "Bilaspur",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 380.7,
+      "forestCoverPercent2019": 32.62,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "16",
+      "name": "Chamba",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 2455.16,
+      "forestCoverPercent2019": 37.64,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "17",
+      "name": "Hamirpur",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 354.9,
+      "forestCoverPercent2019": 31.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "18",
+      "name": "Kangra",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 2354.19,
+      "forestCoverPercent2019": 41.02,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "19",
+      "name": "Kinnaur",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 645.99,
+      "forestCoverPercent2019": 10.09,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "20",
+      "name": "Kullu",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 1976.29,
+      "forestCoverPercent2019": 35.91,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "22",
+      "name": "Mandi",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 1773.02,
+      "forestCoverPercent2019": 44.89,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "23",
+      "name": "Shimla",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 2419.41,
+      "forestCoverPercent2019": 47.14,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "24",
+      "name": "Sirmaur",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 1390.87,
+      "forestCoverPercent2019": 49.23,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "25",
+      "name": "Solan",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 890.29,
+      "forestCoverPercent2019": 45.99,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "26",
+      "name": "Una",
+      "stateName": "Himachal Pradesh",
+      "forestCover2019SqKm": 632.35,
+      "forestCoverPercent2019": 41.06,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
+        }
+      ]
     }
   ],
   "sources": [
@@ -8701,6 +9086,14 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.31.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
+    },
+    {
+      "sourceId": "fsiISFR2019HimachalPradeshDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Himachal Pradesh chapter, Table 11.10.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-himachal-pradesh.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.10.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover on the 2019 district units. Himachal Pradesh's 12-district structure is stable across the report and current LGD snapshot; the spelling variant Lahul/Lahaul & Spiti is deliberately not mapped. Values are not current forest-cover estimates."
     }
   ]
 }

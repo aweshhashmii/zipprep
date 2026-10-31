@@ -12895,6 +12895,30 @@
       "referenceDate": "12 July 2024; published 1 August 2024",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1077",
+      "regionName": "Madhya Pradesh",
+      "category": "economicCentres",
+      "name": "Smart Cities Mission urban and economic centres: Bhopal, Gwalior, Indore, Jabalpur, Sagar, Satna and Ujjain",
+      "description": "The Ministry of Housing and Urban Affairs' Smart Cities Mission annexure lists Bhopal, Gwalior, Indore, Jabalpur, Sagar, Satna and Ujjain as participating urban development centres in Madhya Pradesh, with city-level project investments recorded as of 12 July 2024.",
+      "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2040054&lang=2&reg=48",
+      "sourceId": "mohuaSmartCitiesPIB2024",
+      "referenceDate": "12 July 2024; published 1 August 2024",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1078",
+      "regionName": "Ladakh",
+      "category": "economicCentres",
+      "name": "Leh and Kargil district industrial and market centres",
+      "description": "The Ladakh Industries and Commerce Department operates District Industries Centres in Leh and Kargil and administers industrial, handicraft, handloom and geology/mining services through both districts. The Ladakh Administration also documents entrepreneur networks, common facility centres and market infrastructure in these two districts. This is a district-level economic-centre profile, not a claim that either is a Smart City.",
+      "sourceUrl": "https://ladakh.gov.in/industries-and-commerce-department/",
+      "sourceId": "ladakhIndustryCentres2026",
+      "referenceDate": "Official Ladakh Administration department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -14104,6 +14128,12 @@
       "title": "Ministry of Housing and Urban Affairs — Smart Cities Mission, city-wise coverage and investment (PIB, 1 August 2024)",
       "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2040054&lang=2&reg=48",
       "referenceDate": "12 July 2024 data; published 1 August 2024"
+    },
+    {
+      "sourceId": "ladakhIndustryCentres2026",
+      "title": "Ladakh Administration — Industries and Commerce Department",
+      "sourceUrl": "https://ladakh.gov.in/industries-and-commerce-department/",
+      "referenceDate": "Official department profile accessed 31 October 2026"
     }
   ]
 }

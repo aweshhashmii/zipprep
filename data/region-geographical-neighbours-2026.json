@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "title": "State and Union Territory geographical position and neighbours",
+  "source": {
+    "sourceId": "surveyOfIndiaPoliticalMap2025",
+    "title": "Survey of India — Political Map of India, Twelfth Edition (2025)",
+    "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+    "referenceDate": "2025",
+    "lastVerifiedAt": "2026-10-31",
+    "note": "Neighbouring administrative regions and international surroundings are transcribed as a reference-level geographic summary from the national political map. Coastlines and island geography are stated separately; this is not a legal boundary adjudication."
+  },
+  "records": [
+    {
+      "regionName": "Andhra Pradesh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Coastal state on India's south-eastern coast; the Bay of Bengal lies to the east.",
+      "adjoiningRegions": [
+        "Telangana",
+        "Chhattisgarh",
+        "Odisha",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "internationalNeighbours": [
+        "Bay of Bengal"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Arunachal Pradesh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-eastern Himalayan state; international boundaries lie to the north, east and south-east.",
+      "adjoiningRegions": [
+        "Assam",
+        "Nagaland"
+      ],
+      "internationalNeighbours": [
+        "Bhutan",
+        "China",
+        "Myanmar"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Assam",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Brahmaputra and Barak valley state connecting the north-eastern region with West Bengal.",
+      "adjoiningRegions": [
+        "Arunachal Pradesh",
+        "Nagaland",
+        "Manipur",
+        "Mizoram",
+        "Tripura",
+        "Meghalaya",
+        "West Bengal"
+      ],
+      "internationalNeighbours": [
+        "Bhutan",
+        "Bangladesh"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Bihar",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Landlocked state in the middle Gangetic plain, along Nepal to the north.",
+      "adjoiningRegions": [
+        "Uttar Pradesh",
+        "Jharkhand",
+        "West Bengal"
+      ],
+      "internationalNeighbours": [
+        "Nepal"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Chhattisgarh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Landlocked central-eastern state adjoining seven states.",
+      "adjoiningRegions": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Jharkhand",
+        "Odisha",
+        "Telangana",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Goa",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Konkan coastal state between Maharashtra and Karnataka.",
+      "adjoiningRegions": [
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "internationalNeighbours": [
+        "Arabian Sea"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Gujarat",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Western state with an Arabian Sea coastline and an international boundary with Pakistan.",
+      "adjoiningRegions": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Maharashtra"
+      ],
+      "internationalNeighbours": [
+        "Pakistan"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Haryana",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Northern inland state surrounding three sides of the National Capital Territory of Delhi.",
+      "adjoiningRegions": [
+        "Punjab",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Delhi"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Himachal Pradesh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Western Himalayan state; its northern boundary adjoins the Union Territory of Ladakh.",
+      "adjoiningRegions": [
+        "Jammu and Kashmir",
+        "Ladakh",
+        "Punjab",
+        "Haryana",
+        "Uttarakhand"
+      ],
+      "internationalNeighbours": [
+        "China"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Jharkhand",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Landlocked eastern state on the Chota Nagpur Plateau.",
+      "adjoiningRegions": [
+        "Bihar",
+        "West Bengal",
+        "Odisha",
+        "Chhattisgarh",
+        "Uttar Pradesh"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Karnataka",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "South-western state with an Arabian Sea coastline.",
+      "adjoiningRegions": [
+        "Goa",
+        "Maharashtra",
+        "Telangana",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Kerala"
+      ],
+      "internationalNeighbours": [
+        "Arabian Sea"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Kerala",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "South-western coastal state along the Arabian Sea and Western Ghats.",
+      "adjoiningRegions": [
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "internationalNeighbours": [
+        "Arabian Sea"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Madhya Pradesh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Landlocked state in central India.",
+      "adjoiningRegions": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Chhattisgarh",
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Maharashtra",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Western peninsular state with a long Arabian Sea coastline.",
+      "adjoiningRegions": [
+        "Gujarat",
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Telangana",
+        "Karnataka",
+        "Goa"
+      ],
+      "internationalNeighbours": [
+        "Arabian Sea"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Manipur",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-eastern hill state bordering Myanmar to the east.",
+      "adjoiningRegions": [
+        "Nagaland",
+        "Assam",
+        "Mizoram"
+      ],
+      "internationalNeighbours": [
+        "Myanmar"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Meghalaya",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Hill state south of Assam, sharing an international boundary with Bangladesh.",
+      "adjoiningRegions": [
+        "Assam"
+      ],
+      "internationalNeighbours": [
+        "Bangladesh"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Mizoram",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-eastern state between Bangladesh and Myanmar.",
+      "adjoiningRegions": [
+        "Tripura",
+        "Assam",
+        "Manipur"
+      ],
+      "internationalNeighbours": [
+        "Bangladesh",
+        "Myanmar"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Nagaland",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-eastern hill state bordering Myanmar to the east.",
+      "adjoiningRegions": [
+        "Arunachal Pradesh",
+        "Assam",
+        "Manipur"
+      ],
+      "internationalNeighbours": [
+        "Myanmar"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Odisha",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Eastern coastal state along the Bay of Bengal.",
+      "adjoiningRegions": [
+        "West Bengal",
+        "Jharkhand",
+        "Chhattisgarh",
+        "Andhra Pradesh"
+      ],
+      "internationalNeighbours": [
+        "Bay of Bengal"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Punjab",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-western state sharing an international boundary with Pakistan.",
+      "adjoiningRegions": [
+        "Jammu and Kashmir",
+        "Himachal Pradesh",
+        "Haryana",
+        "Rajasthan"
+      ],
+      "internationalNeighbours": [
+        "Pakistan"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Rajasthan",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-western state; the Thar Desert extends towards its international boundary with Pakistan.",
+      "adjoiningRegions": [
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Gujarat"
+      ],
+      "internationalNeighbours": [
+        "Pakistan"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Sikkim",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Himalayan state between Nepal, Bhutan and China, connected to the rest of India through West Bengal.",
+      "adjoiningRegions": [
+        "West Bengal"
+      ],
+      "internationalNeighbours": [
+        "Nepal",
+        "Bhutan",
+        "China"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Tamil Nadu",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Southern peninsular state with coastlines on the Bay of Bengal, Arabian Sea and Indian Ocean.",
+      "adjoiningRegions": [
+        "Kerala",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "internationalNeighbours": [
+        "Bay of Bengal",
+        "Arabian Sea",
+        "Indian Ocean"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Telangana",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Landlocked south-central state.",
+      "adjoiningRegions": [
+        "Maharashtra",
+        "Chhattisgarh",
+        "Andhra Pradesh",
+        "Karnataka"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Tripura",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "North-eastern state bordered on three sides by Bangladesh.",
+      "adjoiningRegions": [
+        "Assam",
+        "Mizoram"
+      ],
+      "internationalNeighbours": [
+        "Bangladesh"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Uttar Pradesh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Northern Gangetic state sharing an international boundary with Nepal.",
+      "adjoiningRegions": [
+        "Uttarakhand",
+        "Himachal Pradesh",
+        "Haryana",
+        "Delhi",
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Jharkhand",
+        "Bihar"
+      ],
+      "internationalNeighbours": [
+        "Nepal"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Uttarakhand",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Himalayan state with international boundaries along Tibet (China) and Nepal.",
+      "adjoiningRegions": [
+        "Himachal Pradesh",
+        "Uttar Pradesh"
+      ],
+      "internationalNeighbours": [
+        "China",
+        "Nepal"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "West Bengal",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Eastern state with international boundaries adjoining Nepal, Bhutan and Bangladesh.",
+      "adjoiningRegions": [
+        "Sikkim",
+        "Assam",
+        "Bihar",
+        "Jharkhand",
+        "Odisha"
+      ],
+      "internationalNeighbours": [
+        "Nepal",
+        "Bhutan",
+        "Bangladesh"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Island union territory in the Bay of Bengal and Andaman Sea; no adjoining Indian state or land border.",
+      "adjoiningRegions": [],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Chandigarh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Inland union territory bordered by Punjab and Haryana.",
+      "adjoiningRegions": [
+        "Punjab",
+        "Haryana"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Western union territory comprising separated enclaves: Dadra and Nagar Haveli inland, and Daman and Diu on the Arabian Sea coast.",
+      "adjoiningRegions": [
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "internationalNeighbours": [
+        "Arabian Sea"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Delhi",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Inland National Capital Territory bordered by Haryana and Uttar Pradesh.",
+      "adjoiningRegions": [
+        "Haryana",
+        "Uttar Pradesh"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Jammu and Kashmir",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Northern union territory; its international boundary/Line of Control context is politically sensitive and is shown using Survey of India terminology.",
+      "adjoiningRegions": [
+        "Punjab",
+        "Himachal Pradesh",
+        "Ladakh"
+      ],
+      "internationalNeighbours": [
+        "Pakistan"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Ladakh",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "High-altitude union territory in the Trans-Himalaya; international boundary claims and control lines are politically sensitive.",
+      "adjoiningRegions": [
+        "Jammu and Kashmir",
+        "Himachal Pradesh"
+      ],
+      "internationalNeighbours": [
+        "China",
+        "Pakistan"
+      ],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Lakshadweep",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Island union territory in the Arabian Sea, west of the Kerala coast; no land neighbours.",
+      "adjoiningRegions": [],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    },
+    {
+      "regionName": "Puducherry",
+      "category": "location",
+      "name": "Geographical position and neighbours",
+      "description": "Union territory of four geographically separate enclaves; Puducherry and Karaikal adjoin Tamil Nadu, while Mahe is surrounded by Kerala and Yanam by Andhra Pradesh.",
+      "adjoiningRegions": [
+        "Tamil Nadu"
+      ],
+      "internationalNeighbours": [],
+      "sourceId": "surveyOfIndiaPoliticalMap2025",
+      "sourceUrl": "https://surveyofindia.gov.in/UserFiles/files/POL_MAP_ENGLISH_4M%281%29.pdf",
+      "referenceDate": "2025",
+      "verificationStatus": "verified"
+    }
+  ]
+}

@@ -762,6 +762,24 @@
       "issuingAuthority": "Ministry of Jal Shakti, Government of India; National Water Development Agency",
       "cadence": "Refresh after new Ministry of Jal Shakti / NWDA status statements. Distinguish proposals, pre-feasibility, feasibility, DPR, implementation and completion.",
       "note": "Covers the 30 National Perspective Plan inter-basin transfer links listed in the 10 August 2026 Rajya Sabha reply. It is not a register of all state irrigation, hydropower or river-valley projects."
+    },
+    {
+      "id": "dstDistrictClimateRiskAssessment2024",
+      "name": "Department of Science & Technology — District-level Climate Risk Assessment for India: Mapping Flood and Drought Risks Using IPCC Framework",
+      "url": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+      "tabs": [
+        "environment",
+        "geography"
+      ],
+      "fields": [
+        "District-level flood and drought hazard, exposure, vulnerability and composite risk indices",
+        "Within-state district risk categories",
+        "Named districts in the very-high dual flood-and-drought risk group"
+      ],
+      "referenceDate": "Risk baseline 1970–2019; report released 2024-12-13",
+      "issuingAuthority": "Department of Science & Technology, Government of India; research partners IIT Mandi, IIT Guwahati and CSTEP",
+      "cadence": "Retain the 1970–2019 hazard baseline and within-state comparison limitation. Replace only with a newer comparable district risk assessment.",
+      "note": "The report assesses 698 districts and presents state/UT-specific comparisons for 29 states and UTs. District risk categories are comparable within a state/UT, not across states/UTs. Its national summary says about 85% of very-high/high flood-risk districts are in Assam, Bihar, Uttar Pradesh, West Bengal, Gujarat, Odisha and Jammu & Kashmir; more than 85% of very-high/high drought-risk districts are in Bihar, Assam, Jharkhand, Odisha, Uttar Pradesh, Maharashtra, West Bengal, Karnataka, Tamil Nadu, Chhattisgarh, Kerala, Uttarakhand and Haryana. Eleven named districts are in the very-high dual-risk group."
     }
   ]
 }

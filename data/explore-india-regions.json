@@ -11264,7 +11264,312 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Apatite",
+            "district": "Udaipur and Sikar",
+            "description": "IBM reports 1,067,521 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asbestos (amphibole)",
+            "district": "Ajmer, Bhilwara, Dungarpur, Pali, Rajsamand and Udaipur",
+            "description": "Occurrence recorded in the state mineral inventory; 13.616 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ball clay",
+            "district": "Bikaner, Nagaur and Pali",
+            "description": "Occurrence recorded by IBM in the Rajasthan State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes",
+            "district": "Alwar, Bharatpur, Bhilwara, Bundi, Chittorgarh, Jalore, Pali, Rajsamand, Sikar and Udaipur",
+            "description": "Occurrence recorded across these districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bauxite",
+            "district": "Kota",
+            "description": "528 thousand tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Calcite",
+            "district": "Ajmer, Alwar, Bhilwara, Jaipur, Jhunjhunu, Pali, Sikar, Sirohi and Udaipur",
+            "description": "Occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "Ajmer, Barmer, Bharatpur, Bhilwara, Bikaner, Bundi, Chittorgarh, Dausa, Jaipur, Jaisalmer, Jhunjhunu, Kota, Nagaur, Pali, Sawai Madhopur and Udaipur",
+            "description": "Occurrence recorded across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper ore",
+            "district": "Khetri belt (Jhunjhunu), Dariba (Rajsamand) and other listed districts",
+            "description": "IBM reports 867.849 million tonnes total copper ore resources and 4.636 million tonnes contained copper-metal resources as at 1 April 2020. Additional occurrences include Ajmer, Bharatpur, Bhilwara, Bundi, Chittorgarh, Dausa, Dungarpur, Jaipur, Pali, Sikar, Sirohi and Udaipur.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Ajmer, Alwar, Bhilwara, Chittorgarh, Dausa, Jaipur, Jaisalmer, Jhunjhunu, Jodhpur, Sikar and Udaipur",
+            "description": "Occurrence recorded in the IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Ajmer, Alwar, Bhilwara, Jaipur, Pali, Rajsamand, Sikar, Tonk and Udaipur",
+            "description": "Occurrence recorded in the IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Alwar, Barmer, Bharatpur, Bhilwara, Bikaner, Dausa, Jaisalmer, Jhunjhunu and Sawai Madhopur",
+            "description": "Occurrence recorded in the IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fluorite (fluorspar)",
+            "district": "Ajmer, Dungarpur, Jalore, Jhunjhunu, Sikar, Sirohi and Udaipur",
+            "description": "5.606 million tonnes total resources as at 1 April 2020; graded fluorite production is separately recorded for 2023–24.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Garnet",
+            "district": "Ajmer, Bhilwara, Jhunjhunu, Sikar and Tonk",
+            "description": "1.051 million tonnes total resources as at 1 April 2020; abrasive-grade production reported separately.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gypsum",
+            "district": "Barmer, Bikaner, Churu, Sri Ganganagar, Hanumangarh, Jaisalmer, Jalore, Nagaur and Pali",
+            "description": "Important industrial mineral occurrences recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore — haematite",
+            "district": "Alwar, Dausa, Jaipur, Jhunjhunu, Sikar and Udaipur",
+            "description": "35.480 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore — magnetite",
+            "district": "Bhilwara, Jhunjhunu and Sikar",
+            "description": "794.926 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead-zinc ore",
+            "district": "Zawar (Udaipur), Rajpura-Dariba (Rajsamand), Rampura-Agucha (Bhilwara), Ajmer, Chittorgarh, Pali and Sirohi",
+            "description": "684.656 million tonnes total lead-zinc ore resources as at 1 April 2020; Rajasthan is the sole Indian producer of lead and zinc ores in the yearbook summary.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lignite",
+            "district": "Barmer, Bikaner, Jaisalmer, Jalore, Nagaur and Pali",
+            "description": "6,586.24 million tonnes total resources as at 1 April 2024; Barmer accounts for 4,559.69 million tonnes and Bikaner 1,099.82 million tonnes.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Ajmer, Alwar, Banswara, Bhilwara, Bikaner, Bundi, Chittorgarh, Churu, Dungarpur, Jaipur, Jaisalmer, Jodhpur, Jhunjhunu, Kota, Nagaur, Pali, Sawai Madhopur, Sikar, Sirohi and Udaipur",
+            "description": "28,961.249 million tonnes total resources as at 1 April 2020. Flux-grade limestone occurs in Jodhpur and Nagaur; chemical-grade deposits in Jodhpur, Nagaur and Alwar.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Ajmer, Dungarpur, Pali and Udaipur",
+            "description": "54,091 thousand tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Banswara, Jaipur and Pali",
+            "description": "2.359 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Marble",
+            "district": "Ajmer, Alwar, Banswara, Bhilwara, Bundi, Chittorgarh, Dungarpur, Jaipur, Nagaur, Sikar, Sirohi and Udaipur",
+            "description": "Rajasthan is an important producer of marble; Makrana is a nationally and internationally known marble-mining centre.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ochre",
+            "district": "Baran, Bharatpur, Bhilwara, Bikaner, Chittorgarh, Jaipur, Sawai Madhopur and Udaipur",
+            "description": "Occurrence recorded in the IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Phosphorite / rock phosphate",
+            "district": "Alwar, Banswara, Jaipur, Jaisalmer and Udaipur",
+            "description": "93,848,769 tonnes total rock-phosphate resources as at 1 April 2020; production was 1,320,819 tonnes in 2023–24 provisional.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Potash",
+            "district": "Jaisalmer and Nagaur",
+            "description": "20,572 million tonnes total resources as at 1 April 2020; this is a geological resource figure, not a statement of current commercial production.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Ajmer, Alwar, Bharatpur, Bhilwara, Bikaner, Bundi, Chittorgarh, Dausa, Jaipur, Jaisalmer, Jhunjhunu, Jodhpur, Kota, Pali, Rajsamand, Sawai Madhopur, Sikar, Sirohi, Tonk and Udaipur",
+            "description": "Occurrence recorded across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silver",
+            "district": "Ajmer, Bhilwara, Jhunjhunu, Rajsamand, Sikar and Udaipur",
+            "description": "490.710 million tonnes silver ore resources and 29,642.21 tonnes silver-metal resources as at 1 April 2020; silver is largely recovered as a by-product from lead-zinc concentrates.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Talc, steatite and soapstone",
+            "district": "Ajmer, Alwar, Banswara, Bharatpur, Bhilwara, Chittorgarh, Dausa, Dungarpur, Jaipur, Jhunjhunu, Karauli, Pali, Rajsamand, Sawai Madhopur, Sirohi and Tonk",
+            "description": "Occurrence recorded across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tungsten",
+            "district": "Nagaur and Sirohi",
+            "description": "23.928 million tonnes tungsten ore resources and 93,707.94 tonnes contained WO3 as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Ajmer and Barmer",
+            "description": "104,125 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Wollastonite",
+            "district": "Ajmer, Dungarpur, Pali, Sirohi and Udaipur",
+            "description": "23.115 million tonnes total resources as at 1 April 2020; Rajasthan is the sole Indian producer recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold",
+            "district": "Banswara, Bhilwara, Dausa, Sirohi and Udaipur",
+            "description": "Primary gold ore resources of 125.914 million tonnes and 234.56 tonnes gold-metal resources as at 1 April 2020; these are resource estimates, not mine output.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "Ajmer, Alwar and Banswara",
+            "description": "1.914 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Ajmer, Alwar, Banswara, Barmer, Bhilwara, Chittorgarh, Jaipur, Jaisalmer, Jalore, Jhunjhunu, Jodhpur, Pali, Rajsamand, Sawai Madhopur, Sikar, Sirohi, Tonk and Udaipur",
+            "description": "Occurrence recorded across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrite",
+            "district": "Sikar",
+            "description": "Occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrophyllite",
+            "district": "Alwar, Bhilwara, Jhunjhunu, Rajsamand and Udaipur",
+            "description": "Occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock phosphate",
+            "district": "Alwar, Banswara, Jaipur, Jaisalmer and Udaipur",
+            "description": "Includes established deposits; IBM's resource table records 93.849 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Wollastonite",
+            "district": "Ajmer, Dungarpur, Pali, Sirohi and Udaipur",
+            "description": "23.115 million tonnes total resources as at 1 April 2020; Rajasthan is sole producer.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 27389.33,
@@ -11302,7 +11607,339 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Copper ore",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 1,231,500 tonnes; mine count not separately specified in the table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper concentrate",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 55,357 tonnes from 2 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 1.527 million tonnes from 10 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead-zinc ore",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 16,521,284 tonnes; the table does not separately state the mine count for ore.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead concentrate",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 380,800 tonnes from 10 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Zinc concentrate",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 1,710,144 tonnes; production value is separately reported by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 4,968 tonnes from one reporting mine.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silver (recovered metal)",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional recovery: 745,830 kg; recovered as a by-product at Hindustan Zinc's Chanderiya Lead-Zinc Smelter from Rajasthan lead concentrates.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Phosphorite",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 1,320,819 tonnes from 2 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fluorite (graded)",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 5,260 tonnes from one reporting mine.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Garnet (abrasive)",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 23,838 tonnes from 8 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 103.644 million tonnes from 44 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Selenite",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 14,136 tonnes from 3 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Siliceous earth",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 58,047 tonnes from 10 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Wollastonite",
+            "district": "Rajasthan",
+            "description": "2023–24 provisional production: 110,596 tonnes from 3 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "ACC — Lakheri Cement Works",
+            "district": "Lakheri, Bundi",
+            "description": "IBM lists 1,500 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cements — Rabriyawas",
+            "district": "Rabriyawas, Pali",
+            "description": "IBM lists 3,600 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Binani Cement — Binanipuram",
+            "district": "Sirohi",
+            "description": "IBM lists 4,850 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Birla Corporation — Birla Cement Works and Chanderia Cement Works",
+            "district": "Chittorgarh",
+            "description": "IBM lists 4,000 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JK Cement — Nimbahera",
+            "district": "Nimbahera, Chittorgarh",
+            "description": "IBM lists 3,250 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JK Cement — Mangrol",
+            "district": "Mangrol, Chittorgarh",
+            "description": "IBM lists 2,500 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JK Cement — Gotan",
+            "district": "Gotan, Nagaur",
+            "description": "IBM lists 500 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JK White Cement Works",
+            "district": "Gotan-Merta, Nagaur",
+            "description": "IBM lists 610 thousand tonnes per year white-cement capacity and 500 thousand tonnes per year white-putty capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JK Lakshmi Cement — Banas",
+            "district": "Banas, Sirohi",
+            "description": "IBM lists 8,700 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Nuvoco Vistas — Nimbahera",
+            "district": "Nimbahera, Chittorgarh",
+            "description": "IBM lists 2,600 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mangalam Cement",
+            "district": "Morak, Kota",
+            "description": "IBM lists 3,250 thousand tonnes per year combined installed capacity for Mangalam Cement and Neer Shree Cement.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Nirma — Nimbol",
+            "district": "Nimbol, Jaitaran, Pali",
+            "description": "IBM lists 2,280 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Beawar",
+            "district": "Beawar, Ajmer",
+            "description": "IBM lists 3,000 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Ras",
+            "district": "Ras, Pali",
+            "description": "IBM lists separate Ras plant entries with 3,000 and 4,000 thousand tonnes per year capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Jobner grinding unit",
+            "district": "Jobner, Jaipur",
+            "description": "IBM lists 1,500 thousand tonnes per year installed grinding capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Nathdwara",
+            "district": "Nathdwara, Rajsamand",
+            "description": "IBM lists 4,850 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Aditya I and II",
+            "district": "Shambhupura, Chittorgarh",
+            "description": "IBM lists 8,000 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Kotputli",
+            "district": "Kotputli, Jaipur",
+            "description": "IBM lists 4,000 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Wonder Cement — Nimbahera",
+            "district": "Nimbahera, Chittorgarh",
+            "description": "IBM lists 8,000 thousand tonnes per year installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "DCM Shriram Industries",
+            "district": "Kota",
+            "description": "IBM lists 9 thousand tonnes per year rayon/yarn capacity and 7.7 thousand tonnes per year sodium-sulphate capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Modi Alkalies and Chemicals",
+            "district": "Alwar",
+            "description": "IBM lists 84.2 thousand tonnes per year caustic-soda capacity, 50.3 thousand tonnes chlorine and 39.6 thousand tonnes hydrochloric acid capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bikaner Ceramics",
+            "district": "Bikaner",
+            "description": "IBM lists 9 thousand tonnes per year insulator capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kajaria Ceramics — Gailpur",
+            "district": "Gailpur, Alwar",
+            "description": "IBM lists 6.5 million square metres annual ceramic-tile capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kajaria Ceramics — Malootana",
+            "district": "Malootana, Alwar",
+            "description": "IBM lists 24.5 million square metres annual ceramic-tile capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chambal Fertilisers and Chemicals",
+            "district": "Gadepan, Kota",
+            "description": "IBM lists 180 thousand tonnes per year single superphosphate (SSP) capacity in its Rajasthan mineral-based industry table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shriram Fertilisers and Chemicals",
+            "district": "Shriramnagar, Kota",
+            "description": "IBM lists 379.5 thousand tonnes per year urea capacity, plus separate chemical-product capacities.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
     },

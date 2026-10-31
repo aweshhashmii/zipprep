@@ -157,6 +157,76 @@
       "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-puducherry.pdf",
       "referenceDate": "ISFR 2019, Volume II, Chapter 11.36; accessed 31 October 2026",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nhpcHydroPortfolio2026",
+      "title": "NHPC — official list of hydroelectric projects and power stations",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "referenceDate": "NHPC official project portfolio accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nhpcChameraOne2026",
+      "title": "NHPC — Chamera-I Power Station",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/18/welcome/index.php",
+      "referenceDate": "NHPC Chamera-I project profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "neepcoHydroStations2026",
+      "title": "NEEPCO — Hydro Power Stations",
+      "sourceUrl": "https://www.neepco.co.in/power-generation/hydro-power",
+      "referenceDate": "NEEPCO hydro station portfolio updated 24 April 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "goaSalaulimDam2026",
+      "title": "Government of Goa — Salaulim Dam",
+      "sourceUrl": "https://www.goa.gov.in/places/salaulim-dam/",
+      "referenceDate": "Government of Goa dam profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chhattisgarhHasdeoBango2026",
+      "title": "Chhattisgarh Government — Minimata Hasdeo Bango Dam and project",
+      "sourceUrl": "https://jansampark.cg.gov.in/dprnewsportal/NewsPopup.aspx?param=F08MYM0HBPA%3D&type=TQwAi5bC7eg%3D",
+      "referenceDate": "Chhattisgarh Government information accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "meghalayaPowerPolicy2024",
+      "title": "Government of Meghalaya — Meghalaya Power Policy 2024",
+      "sourceUrl": "https://meghalaya.gov.in/meghalaya/sites/default/files/documents/Meghalaya_Power_Policy_2024.pdf",
+      "referenceDate": "Meghalaya Power Policy 2024, existing power plants table",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ceaTripuraHydroProfile2024",
+      "title": "Central Electricity Authority — State Profile on Hydro Development for Tripura",
+      "sourceUrl": "https://cea.nic.in/wp-content/uploads/hpi/2024/10/State_Profile_on_Hydro_Development.pdf",
+      "referenceDate": "CEA State Profile on Hydro Development for Tripura, 18 November 2024",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "bbmbBhakraBeasSystem2026",
+      "title": "Bhakra Beas Management Board — Indus Basin and Bhakra-Beas development projects",
+      "sourceUrl": "https://bbmb.gov.in/indus-basin.htm",
+      "referenceDate": "BBMB official project history accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nhpcKalpong2026",
+      "title": "NHPC — Kalpong Hydroelectric Project",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/49/index.php.html",
+      "referenceDate": "NHPC Kalpong project profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "gujaratDamangangaAgreement1992",
+      "title": "Government of Gujarat — Damanganga Reservoir Project agreement with Dadra and Nagar Haveli and Daman and Diu",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/agreement_for_damanganga.pdf",
+      "referenceDate": "Inter-governmental agreement dated 29 September 1992",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -421,6 +491,186 @@
       "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-puducherry.pdf",
       "sourceId": "fsiISFR2019PuducherryForestTypes",
       "referenceDate": "ISFR 2019, Volume II, Chapter 11.36; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-arunachal-pradesh-subansiri-lower-hydroelectri",
+      "regionName": "Arunachal Pradesh",
+      "category": "riverValleyProjects",
+      "name": "Subansiri Lower Hydroelectric Project",
+      "description": "A 1,250 MW run-of-river hydropower project on the Subansiri River, located on the Arunachal Pradesh–Assam border. NHPC lists the project under Arunachal Pradesh and Assam; this entry records its Arunachal Pradesh location and cross-border setting.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC project portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-chhattisgarh-minimata-hasdeo-bango-projec",
+      "regionName": "Chhattisgarh",
+      "category": "riverValleyProjects",
+      "name": "Minimata Hasdeo Bango Project",
+      "description": "The Minimata Hasdeo Bango Dam and reservoir on the Hasdeo system is a major state water-resources project. The Chhattisgarh Government reports a live storage capacity of 2,894.33 million cubic metres and gross storage of 3,264.33 million cubic metres; the figures are reservoir capacities, not annual flows.",
+      "sourceUrl": "https://jansampark.cg.gov.in/dprnewsportal/NewsPopup.aspx?param=F08MYM0HBPA%3D&type=TQwAi5bC7eg%3D",
+      "sourceId": "chhattisgarhHasdeoBango2026",
+      "referenceDate": "Chhattisgarh Government project information, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-goa-salaulim-dam-irrigation-proj",
+      "regionName": "Goa",
+      "category": "riverValleyProjects",
+      "name": "Salaulim Dam Irrigation Project",
+      "description": "The Salaulim Dam on the Salaulim River, a tributary of the Zuari, is an integral component of Goa's irrigation project and is also used for drinking-water supply.",
+      "sourceUrl": "https://www.goa.gov.in/places/salaulim-dam/",
+      "sourceId": "goaSalaulimDam2026",
+      "referenceDate": "Government of Goa dam profile, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-himachal-pradesh-chamera-i-hydroelectric-proj",
+      "regionName": "Himachal Pradesh",
+      "category": "riverValleyProjects",
+      "name": "Chamera-I Hydroelectric Project",
+      "description": "NHPC's Chamera-I Power Station is located in Chamba district on the Ravi River. The three-unit station has an installed capacity of 540 MW and was commissioned in 1994.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/18/welcome/index.php",
+      "sourceId": "nhpcChameraOne2026",
+      "referenceDate": "NHPC Chamera-I project profile, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-manipur-loktak-hydroelectric-project",
+      "regionName": "Manipur",
+      "category": "riverValleyProjects",
+      "name": "Loktak Hydroelectric Project",
+      "description": "NHPC lists the Loktak Power Station in Manipur with three 35 MW units (105 MW total); the station was commissioned in 1983.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-meghalaya-umiam-umtru-hydroelectric-sc",
+      "regionName": "Meghalaya",
+      "category": "riverValleyProjects",
+      "name": "Umiam–Umtru Hydroelectric Scheme",
+      "description": "Meghalaya's 2024 Power Policy lists the Umiam Stage I–IV stations at 36, 20, 60 and 60 MW respectively, alongside other hydro stations in the state. The four Umiam stages therefore total 176 MW of installed capacity.",
+      "sourceUrl": "https://meghalaya.gov.in/meghalaya/sites/default/files/documents/Meghalaya_Power_Policy_2024.pdf",
+      "sourceId": "meghalayaPowerPolicy2024",
+      "referenceDate": "Meghalaya Power Policy 2024, existing power plants table",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-mizoram-tuirial-hydroelectric-projec",
+      "regionName": "Mizoram",
+      "category": "riverValleyProjects",
+      "name": "Tuirial Hydroelectric Project",
+      "description": "NEEPCO lists the Tuirial Hydro Power Station in Kolasib district, Mizoram, with two 30 MW units (60 MW total); it entered commercial operation in 2018.",
+      "sourceUrl": "https://www.neepco.co.in/power-generation/hydro-power",
+      "sourceId": "neepcoHydroStations2026",
+      "referenceDate": "NEEPCO Hydro Power Stations portfolio, updated 24 April 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-nagaland-doyang-hydroelectric-project",
+      "regionName": "Nagaland",
+      "category": "riverValleyProjects",
+      "name": "Doyang Hydroelectric Project",
+      "description": "NEEPCO lists the Doyang Hydro Power Station in Wokha district, Nagaland, with three 25 MW units (75 MW total).",
+      "sourceUrl": "https://www.neepco.co.in/power-generation/hydro-power",
+      "sourceId": "neepcoHydroStations2026",
+      "referenceDate": "NEEPCO Hydro Power Stations portfolio, updated 24 April 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-punjab-bhakra-beas-multipurpose-riv",
+      "regionName": "Punjab",
+      "category": "riverValleyProjects",
+      "name": "Bhakra–Beas Multipurpose River Valley System",
+      "description": "The BBMB project history describes the integrated Bhakra–Nangal, Beas and Ravi development system for irrigation and power generation, including the Bhakra Dam on the Sutlej and the Beas–Sutlej link. The system is interstate; its benefits and canal network extend into Punjab and neighboring states, while individual dams are not all located within Punjab.",
+      "sourceUrl": "https://bbmb.gov.in/indus-basin.htm",
+      "sourceId": "bbmbBhakraBeasSystem2026",
+      "referenceDate": "BBMB official project history, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-sikkim-teesta-v-hydroelectric-proje",
+      "regionName": "Sikkim",
+      "category": "riverValleyProjects",
+      "name": "Teesta-V Hydroelectric Project",
+      "description": "NHPC lists Teesta-V in Sikkim as a commissioned 510 MW power station (three 170 MW units), commissioned in 2008.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-tripura-gumti-hydroelectric-project",
+      "regionName": "Tripura",
+      "category": "riverValleyProjects",
+      "name": "Gumti Hydroelectric Project",
+      "description": "The Central Electricity Authority's Tripura hydro profile states that no large hydroelectric project has been identified in the State, but records the Gumti Hydroelectric Project in South Tripura as a 15 MW station (three 5 MW units) on the Gumti River, installed in 1976 and 1984.",
+      "sourceUrl": "https://cea.nic.in/wp-content/uploads/hpi/2024/10/State_Profile_on_Hydro_Development.pdf",
+      "sourceId": "ceaTripuraHydroProfile2024",
+      "referenceDate": "CEA State Profile on Hydro Development for Tripura, 18 November 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-andaman-and-nicobar-islands-kalpong-hydroelectric-projec",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "riverValleyProjects",
+      "name": "Kalpong Hydroelectric Project",
+      "description": "NHPC describes the 5.25 MW Kalpong Hydroelectric Project as the first hydropower project executed and commissioned for the Andaman and Nicobar Administration, providing a local renewable electricity source.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/49/index.php.html",
+      "sourceId": "nhpcKalpong2026",
+      "referenceDate": "NHPC Kalpong project profile, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-dadra-and-nagar-haveli-and-daman-and-diu-damanganga-reservoir-project",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "riverValleyProjects",
+      "name": "Damanganga Reservoir Project (Madhuban Dam)",
+      "description": "The Damanganga Reservoir Project agreement was made among Gujarat, Dadra and Nagar Haveli, and Daman and Diu. The dam is at Madhuban in Valsad district, Gujarat; the project agreement identifies both Union Territories as beneficiaries and provides for irrigation, domestic/industrial water supply and incidental hydropower. This is an inter-governmental beneficiary project, not a dam located inside the UT.",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/agreement_for_damanganga.pdf",
+      "sourceId": "gujaratDamangangaAgreement1992",
+      "referenceDate": "Inter-governmental agreement dated 29 September 1992",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-jammu-and-kashmir-salal-hydroelectric-project",
+      "regionName": "Jammu and Kashmir",
+      "category": "riverValleyProjects",
+      "name": "Salal Hydroelectric Project",
+      "description": "NHPC lists the Salal Power Station on the Chenab in the Union Territory of Jammu and Kashmir, with six 115 MW units (690 MW total), commissioned in 1987.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-ladakh-nimoo-bazgo-hydroelectric-pr",
+      "regionName": "Ladakh",
+      "category": "riverValleyProjects",
+      "name": "Nimoo-Bazgo Hydroelectric Project",
+      "description": "NHPC's Nimoo-Bazgo station is a 45 MW run-of-river scheme on the Indus near Alchi in Leh district, Ladakh. The three 15 MW units were commissioned in 2012–13.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
       "verificationStatus": "verified",
       "lastVerifiedAt": "2026-10-31"
     }

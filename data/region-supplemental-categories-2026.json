@@ -13891,6 +13891,42 @@
       "referenceDate": "February 2025 national register; metadata updated 5 January 2026",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1160",
+      "regionName": "Goa",
+      "category": "passes",
+      "name": "Chorla Ghat and Bhagaza Ghat",
+      "description": "The National Atlas and Thematic Mapping Organisation's State Atlas of Goa identifies two Western Ghats outcrops in the State: Chorla Ghat in the north and Bhagaza Ghat in the east. The North Goa District Disaster Management Plan also records the Sanquelim–Chorla Ghat road at the Karnataka boundary. These are named Western Ghats crossings rather than high Himalayan passes.",
+      "sourceUrl": "https://geoportal.natmo.gov.in/sites/default/files/State_Atlas_of_Goa.pdf",
+      "sourceId": "natmoGoaStateAtlas2020",
+      "referenceDate": "NATMO State Atlas of Goa; 2020",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1161",
+      "regionName": "Kerala",
+      "category": "passes",
+      "name": "Palakkad Gap (Palghat Gap)",
+      "description": "Kerala Tourism identifies the 30–40 km-wide Palakkad Gap as the lowest pass through the Western Ghats and a natural corridor between Kerala and Tamil Nadu. It is a major geographic pass connecting the east and west sides of the southern peninsula.",
+      "sourceUrl": "https://www.keralatourism.org/malabar/destination_detailed_view/nelliyampathy/36",
+      "sourceId": "keralaTourismPalakkadGap2026",
+      "referenceDate": "Kerala Tourism destination profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1162",
+      "regionName": "Maharashtra",
+      "category": "passes",
+      "name": "Bhor, Malshej, Tamhini, Amboli, Varandha, Kasara, Kumbharli, Kashedi and Amba Ghats",
+      "description": "The Maharashtra Tourism Department's 2025 pocket guide identifies these named Western Ghats crossings and describes the State's ghats as mountain passes. The listed routes connect the Konkan coast with the Deccan plateau and adjoining uplands.",
+      "sourceUrl": "https://maharashtratourism.gov.in/wp-content/uploads/2025/06/Maharashtra-Booklet_compressed.pdf",
+      "sourceId": "maharashtraTourismGhats2025",
+      "referenceDate": "Maharashtra Tourism pocket guide, 2025",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -15136,6 +15172,24 @@
       "title": "MoEFCC / ENVIS — Conservation Reserves in India, as of February 2025",
       "sourceUrl": "https://dataful.in/datasets/1339/",
       "referenceDate": "Register current to February 2025; Dataful metadata updated 5 January 2026"
+    },
+    {
+      "sourceId": "natmoGoaStateAtlas2020",
+      "title": "National Atlas and Thematic Mapping Organisation — State Atlas of Goa",
+      "sourceUrl": "https://geoportal.natmo.gov.in/sites/default/files/State_Atlas_of_Goa.pdf",
+      "referenceDate": "Chorla Ghat and Bhagaza Ghat"
+    },
+    {
+      "sourceId": "keralaTourismPalakkadGap2026",
+      "title": "Kerala Tourism — Nelliyampathy and Palakkad Gap",
+      "sourceUrl": "https://www.keralatourism.org/malabar/destination_detailed_view/nelliyampathy/36",
+      "referenceDate": "Palakkad Gap as a Western Ghats mountain pass"
+    },
+    {
+      "sourceId": "maharashtraTourismGhats2025",
+      "title": "Maharashtra Tourism — The Best of Maharashtra Pocket Guide",
+      "sourceUrl": "https://maharashtratourism.gov.in/wp-content/uploads/2025/06/Maharashtra-Booklet_compressed.pdf",
+      "referenceDate": "Named Western Ghats mountain passes and ghat routes"
     }
   ]
 }

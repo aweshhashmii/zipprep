@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "title": "Regional administration enrichment — 31 October 2026",
+  "records": [
+    {
+      "regionName": "Karnataka",
+      "sourceId": "karnatakaLocalGovernance2026",
+      "sourceTitle": "Karnataka Economic Survey 2025–26; Government of India e-GramSwaraj GPDP annexure",
+      "sourceUrl": "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf",
+      "referenceDate": "2025–26 Economic Survey; GPDP count as of 2026-01-29",
+      "lastVerifiedAt": "2026-10-31",
+      "fields": {
+        "gramPanchayats": 5949,
+        "intermediatePanchayats": 239,
+        "districtPanchayats": 31
+      },
+      "note": "Gram Panchayats: 5,949 from e-GramSwaraj state-wise GPDP annexure as of 29 Jan 2026. Taluk Panchayats: 239 and Zilla Panchayats: 31 from Karnataka Economic Survey 2025–26. Counts are reported with their source dates; urban local-body counts are not inferred."
+    }
+  ]
+}

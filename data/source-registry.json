@@ -396,6 +396,23 @@
       ],
       "referenceDate": "Page last updated 2021-09-09; district portal links rechecked 2026-10-31",
       "cadence": "Recheck when the state directory or district portal domains change"
+    },
+    {
+      "id": "ibmIndianMineralsYearbook2024",
+      "name": "Indian Bureau of Mines — Indian Minerals Yearbook 2024, State Reviews",
+      "url": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise mineral occurrences and districts",
+        "Mineral resource estimates",
+        "Coalfield resources",
+        "Mineral production",
+        "Mineral-based industries and listed installed capacities"
+      ],
+      "referenceYear": "2023-24; resource reference dates vary by table",
+      "cadence": "Annual; preserve each table's reference date and provisional/final status"
     }
   ]
 }

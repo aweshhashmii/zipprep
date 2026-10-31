@@ -1043,6 +1043,44 @@
         "Banihal Pass, Sinthan Pass, Margan Pass and Peer Ki Gali names and published route context"
       ],
       "cadence": "Recheck the Tourism Department destinations page for geographic descriptions; seasonal access and road conditions require separate current advisories."
+    },
+    {
+      "id": "arunachalTourismOfficialMountainPasses",
+      "name": "Arunachal Tourism — Official mountain pass destinations",
+      "url": "https://arunachaltourism.com/army-assets/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Bumla Pass location and approximate elevation",
+        "Official tourism descriptions of high-altitude pass destinations"
+      ],
+      "cadence": "Recheck Arunachal Tourism destination pages for geographic descriptions; restricted-area permits and access advisories are separate."
+    },
+    {
+      "id": "arunachalTourismPangsauPass",
+      "name": "Arunachal Tourism — Jairampur–Manmao–Nampong–Pangsau Pass circuit",
+      "url": "https://arunachaltourism.com/jairampur-manmao-nampong-pangsau-pass/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Pangsau Pass location on the Patkai Hills and India–Myanmar border",
+        "Published elevation and Stilwell Road context"
+      ],
+      "cadence": "Recheck Arunachal Tourism's circuit page for corrections; do not infer border access permissions."
+    },
+    {
+      "id": "arunachalStateGazetteerSelaPass",
+      "name": "Government of Arunachal Pradesh — State Gazetteer: Sela Pass",
+      "url": "https://arunachalpradesh.gov.in/images/Gazetteer/state-gazetteer.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Sela Pass location and elevation in the State Gazetteer"
+      ],
+      "cadence": "Historical gazetteer geography reference; preserve the published measurement and reconcile only against a newer official survey."
     }
   ]
 }

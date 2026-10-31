@@ -1,0 +1,2249 @@
+{
+  "schemaVersion": 1,
+  "title": "Punjab district forest-cover enrichment — ISFR 2023",
+  "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3",
+  "source": {
+    "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+    "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+    "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+    "referenceDate": "2023 assessment",
+    "lastVerifiedAt": "2026-11-01",
+    "note": "All 22 FSI report districts map to current LGD district codes. Explicit mappings are used for Firozpur → Ferozepur, Muktsar → Sri Muktsar Sahib and Sahibzada Ajit Singh Nagar → S.A.S Nagar. The current LGD directory contains 23 districts; Malerkotla is not listed in the FSI table and receives no inferred or zero forest values."
+  },
+  "totals": {
+    "area": 50362,
+    "vdf": 0,
+    "mdf": 9.44,
+    "open": 784.8899999999999,
+    "forest": 1051.76,
+    "change": -0.4499999999999996,
+    "scrub": 41.61
+  },
+  "records": [
+    {
+      "lgdCode": "27",
+      "name": "Amritsar",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2683,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0.7,
+      "openForest2023SqKm": 10.35,
+      "forestCover2023SqKm": 18.14,
+      "forestCoverPercent2023": 29.19,
+      "forestCoverChangeSince2021SqKm": 1.09,
+      "scrub2023SqKm": 1.67,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "605",
+      "name": "Barnala",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 1482,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 0.95,
+      "forestCover2023SqKm": 7.93,
+      "forestCoverPercent2023": 8.88,
+      "forestCoverChangeSince2021SqKm": 0.6,
+      "scrub2023SqKm": 0.07,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "28",
+      "name": "Bathinda",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 3377,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 20.75,
+      "forestCover2023SqKm": 33.2,
+      "forestCoverPercent2023": 53.95,
+      "forestCoverChangeSince2021SqKm": 1.6,
+      "scrub2023SqKm": 0.1,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "29",
+      "name": "Faridkot",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 1442,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 3.55,
+      "forestCover2023SqKm": 12.6,
+      "forestCoverPercent2023": 16.15,
+      "forestCoverChangeSince2021SqKm": 1.12,
+      "scrub2023SqKm": 0,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "30",
+      "name": "Fatehgarh Sahib",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 1180,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 2.74,
+      "forestCover2023SqKm": 0.27,
+      "forestCoverPercent2023": 3.01,
+      "forestCoverChangeSince2021SqKm": 0.26,
+      "scrub2023SqKm": 0,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "651",
+      "name": "Fazilka",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2873,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 4.14,
+      "forestCover2023SqKm": 52.71,
+      "forestCoverPercent2023": 56.85,
+      "forestCoverChangeSince2021SqKm": 1.98,
+      "scrub2023SqKm": 2.66,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "31",
+      "name": "Ferozepur",
+      "stateName": "Punjab",
+      "sourceDistrictName": "Firozpur",
+      "forestCoverCalculatedArea2023SqKm": 2389,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 2.19,
+      "forestCover2023SqKm": 11.46,
+      "forestCoverPercent2023": 13.65,
+      "forestCoverChangeSince2021SqKm": 0.57,
+      "scrub2023SqKm": 0.18,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Firozpur' is explicitly mapped to current LGD district 'Ferozepur' (LGD code 31); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "32",
+      "name": "Gurdaspur",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2601,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 5.55,
+      "forestCover2023SqKm": 18.36,
+      "forestCoverPercent2023": 23.91,
+      "forestCoverChangeSince2021SqKm": 0.92,
+      "scrub2023SqKm": 0.88,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "33",
+      "name": "Hoshiarpur",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 3386,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 368.14,
+      "forestCover2023SqKm": 329.17,
+      "forestCoverPercent2023": 697.31,
+      "forestCoverChangeSince2021SqKm": 20.59,
+      "scrub2023SqKm": -3.31,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "34",
+      "name": "Jalandhar",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2624,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 1.59,
+      "forestCover2023SqKm": 8.6,
+      "forestCoverPercent2023": 10.19,
+      "forestCoverChangeSince2021SqKm": 0.39,
+      "scrub2023SqKm": 0.26,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "35",
+      "name": "Kapurthala",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 1633,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 3.36,
+      "forestCover2023SqKm": 9.15,
+      "forestCoverPercent2023": 12.51,
+      "forestCoverChangeSince2021SqKm": 0.77,
+      "scrub2023SqKm": 0.33,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "36",
+      "name": "Ludhiana",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 3598,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 18.05,
+      "forestCover2023SqKm": 29.52,
+      "forestCoverPercent2023": 47.57,
+      "forestCoverChangeSince2021SqKm": 1.32,
+      "scrub2023SqKm": 1.46,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "37",
+      "name": "Mansa",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2174,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 1.35,
+      "forestCover2023SqKm": 9.26,
+      "forestCoverPercent2023": 10.61,
+      "forestCoverChangeSince2021SqKm": 0.49,
+      "scrub2023SqKm": 0,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "38",
+      "name": "Moga",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2258,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 0.45,
+      "forestCover2023SqKm": 8.42,
+      "forestCoverPercent2023": 8.87,
+      "forestCoverChangeSince2021SqKm": 0.39,
+      "scrub2023SqKm": 0,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "39",
+      "name": "Sri Muktsar Sahib",
+      "stateName": "Punjab",
+      "sourceDistrictName": "Muktsar",
+      "forestCoverCalculatedArea2023SqKm": 2636,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 5.18,
+      "forestCover2023SqKm": 13.38,
+      "forestCoverPercent2023": 18.56,
+      "forestCoverChangeSince2021SqKm": 0.7,
+      "scrub2023SqKm": 0.12,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Muktsar' is explicitly mapped to current LGD district 'Sri Muktsar Sahib' (LGD code 39); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "662",
+      "name": "Pathankot",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 950,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 96.46,
+      "forestCover2023SqKm": 96,
+      "forestCoverPercent2023": 192.46,
+      "forestCoverChangeSince2021SqKm": 20.26,
+      "scrub2023SqKm": 0.2,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "41",
+      "name": "Patiala",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 3222,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 7.48,
+      "openForest2023SqKm": 28.55,
+      "forestCover2023SqKm": 39.08,
+      "forestCoverPercent2023": 75.11,
+      "forestCoverChangeSince2021SqKm": 2.33,
+      "scrub2023SqKm": -0.48,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "42",
+      "name": "Rupnagar",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 1356,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 105.49,
+      "forestCover2023SqKm": 170.41,
+      "forestCoverPercent2023": 275.9,
+      "forestCoverChangeSince2021SqKm": 20.35,
+      "scrub2023SqKm": -0.43,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "608",
+      "name": "S.A.S Nagar",
+      "stateName": "Punjab",
+      "sourceDistrictName": "Sahibzada Ajit Singh Nagar",
+      "forestCoverCalculatedArea2023SqKm": 1197,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0.27,
+      "openForest2023SqKm": 70.52,
+      "forestCover2023SqKm": 64.07,
+      "forestCoverPercent2023": 134.86,
+      "forestCoverChangeSince2021SqKm": 11.27,
+      "scrub2023SqKm": -0.3,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Sahibzada Ajit Singh Nagar' is explicitly mapped to current LGD district 'S.A.S Nagar' (LGD code 608); no fuzzy match was used. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "43",
+      "name": "Sangrur",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 3625,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 6.86,
+      "forestCover2023SqKm": 16.54,
+      "forestCoverPercent2023": 23.4,
+      "forestCoverChangeSince2021SqKm": 0.65,
+      "scrub2023SqKm": 0,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "40",
+      "name": "Shahid Bhagat Singh Nagar",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 1262,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0,
+      "openForest2023SqKm": 24.43,
+      "forestCover2023SqKm": 90,
+      "forestCoverPercent2023": 114.43,
+      "forestCoverChangeSince2021SqKm": 9.07,
+      "scrub2023SqKm": -3.99,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "609",
+      "name": "Tarn Taran",
+      "stateName": "Punjab",
+      "forestCoverCalculatedArea2023SqKm": 2414,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0.99,
+      "openForest2023SqKm": 4.24,
+      "forestCover2023SqKm": 13.49,
+      "forestCoverPercent2023": 18.72,
+      "forestCoverChangeSince2021SqKm": 0.78,
+      "scrub2023SqKm": 0.13,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023PunjabDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.21.3 (Punjab)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Punjab districts; Malerkotla is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    }
+  ]
+}

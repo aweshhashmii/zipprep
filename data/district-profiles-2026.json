@@ -6288,8 +6288,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6299,9 +6302,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 573.55,
+      "forestCoverPercent2019": 19.89,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "323",
@@ -6309,8 +6334,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6320,9 +6348,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1777.35,
+      "forestCoverPercent2019": 47.8,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "324",
@@ -6330,8 +6380,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6341,9 +6394,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 203.71,
+      "forestCoverPercent2019": 8.22,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "325",
@@ -6351,8 +6426,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6362,9 +6440,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 213.51,
+      "forestCoverPercent2019": 10.47,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "326",
@@ -6372,8 +6472,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6383,9 +6486,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 577.31,
+      "forestCoverPercent2019": 15.35,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "327",
@@ -6414,8 +6539,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6425,9 +6553,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1391.59,
+      "forestCoverPercent2019": 34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "329",
@@ -6435,8 +6585,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6446,9 +6599,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 901.24,
+      "forestCoverPercent2019": 18.16,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "330",
@@ -6456,8 +6631,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6467,9 +6645,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 423.35,
+      "forestCoverPercent2019": 18.68,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "331",
@@ -6477,8 +6677,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6488,9 +6691,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1442.26,
+      "forestCoverPercent2019": 26.91,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "332",
@@ -6498,8 +6723,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6509,9 +6737,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1352.77,
+      "forestCoverPercent2019": 38.05,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "333",
@@ -6519,8 +6769,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6530,9 +6783,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 100.64,
+      "forestCoverPercent2019": 5.56,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "606",
@@ -6540,8 +6815,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6551,9 +6829,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 905.49,
+      "forestCoverPercent2019": 35.72,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "334",
@@ -6582,8 +6882,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6593,9 +6896,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 2406.34,
+      "forestCoverPercent2019": 56.08,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "336",
@@ -6603,8 +6928,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6614,9 +6942,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 504.62,
+      "forestCoverPercent2019": 33.6,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "337",
@@ -6624,8 +6974,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6635,9 +6988,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 287.13,
+      "forestCoverPercent2019": 15.85,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "338",
@@ -6645,8 +7020,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6656,9 +7034,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1200.78,
+      "forestCoverPercent2019": 27.33,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "607",
@@ -6666,8 +7066,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6677,9 +7080,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 329,
+      "forestCoverPercent2019": 24.53,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "339",
@@ -6687,8 +7112,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6698,9 +7126,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1164.49,
+      "forestCoverPercent2019": 22.85,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "340",
@@ -6750,8 +7200,11 @@
       "stateLgdCode": "20",
       "stateName": "Jharkhand",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -6761,9 +7214,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JharkhandForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand Chapter, Table 11.12.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.12.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; district boundaries and names are those used in the 2019 report."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1240.92,
+      "forestCoverPercent2019": 32.88,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "343",

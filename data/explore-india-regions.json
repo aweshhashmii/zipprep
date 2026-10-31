@@ -592,9 +592,33 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Andhra Pradesh State Review. Mineral resources as at 1 April 2020; coal resources as at 1 April 2024; 2023-24 production is provisional. Plant capacities retain IBM's reported units."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Andhra Pradesh State Review. Mineral resources as at 1 April 2020; coal resources as at 1 April 2024; 2023-24 production is provisional. Plant capacities retain IBM's reported units."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Andhra Pradesh State Review. Mineral resources as at 1 April 2020; coal resources as at 1 April 2024; 2023-24 production is provisional. Plant capacities retain IBM's reported units."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -832,7 +856,256 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Barytes",
+            "district": "Anantapur, YSR Kadapa, Krishna, Kurnool, Nellore and Prakasam",
+            "description": "Andhra Pradesh accounts for about 92% of India's barytes resources and is the leading producer. The State Review occurrence list is district-based; current production/resource estimates should be checked against the detailed mineral tables.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Anantapur, YSR Kadapa, East Godavari, West Godavari, Guntur, Krishna, Kurnool, Nellore, Srikakulam, Visakhapatnam and Vizianagaram",
+            "description": "Total resources: 29,838.822 million tonnes as at 1 April 2020 (3,256.690 million tonnes reserves; 26,582.132 million tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (haematite)",
+            "district": "Anantapur, YSR Kadapa, Guntur, Krishna, Kurnool and Nellore",
+            "description": "Total resources: 395.616 million tonnes as at 1 April 2020 (44.744 million tonnes reserves; 350.872 million tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "Prakasam",
+            "description": "1,472.383 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Srikakulam and Vizianagaram",
+            "description": "Total resources: 29.844 million tonnes as at 1 April 2020 (8.088 million tonnes reserves; 21.756 million tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold (primary)",
+            "district": "Anantapur, Chittoor and Kurnool",
+            "description": "Total primary gold ore resources: 15.731 million tonnes containing 47.17 tonnes of gold metal as at 1 April 2020 (5.3 tonnes gold reserves; 41.87 tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Apatite",
+            "district": "Anantapur, YSR Kadapa, Guntur, Krishna, Kurnool and Visakhapatnam",
+            "description": "229,558 tonnes total resources as at 1 April 2020 (29,395 tonnes reserves; 200,163 tonnes remaining resources). IBM identifies Andhra Pradesh as India's sole producer of apatite.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bauxite",
+            "district": "East Godavari and Visakhapatnam",
+            "description": "615.267 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Garnet",
+            "district": "East Godavari, Nellore and Srikakulam",
+            "description": "17.267 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Nellore and Visakhapatnam",
+            "description": "192,101 tonnes total resources as at 1 April 2020 (74,193 tonnes reserves; 117,908 tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "West Godavari and Srikakulam",
+            "description": "11.066 million tonnes total resources as at 1 April 2020 (1.670 million tonnes reserves; 9.396 million tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead-zinc",
+            "district": "YSR Kadapa, Guntur and Prakasam",
+            "description": "22.689 million tonnes of remaining ore resources as at 1 April 2020, containing 836,880 tonnes lead metal and 63,160 tonnes zinc metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "Guntur, Kurnool and Prakasam",
+            "description": "7.582 million tonnes of remaining copper ore resources containing 113,700 tonnes copper metal as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Anantapur, Chittoor, YSR Kadapa, West Godavari, Guntur, Krishna, Kurnool, Nellore, Prakasam, Srikakulam, Visakhapatnam and Vizianagaram",
+            "description": "Widespread occurrence districts identified by IBM; the State Review's mineral resource table does not give a separate quartz/silica-sand total.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Anantapur, Chittoor, YSR Kadapa, Guntur, Krishna, Nellore, Prakasam, Srikakulam and Vizianagaram",
+            "description": "IBM notes internationally known black, pink, blue and multicoloured granite varieties; occurrence districts listed in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "Anantapur, Chittoor, YSR Kadapa, East Godavari, West Godavari, Guntur, Kurnool, Nellore and Visakhapatnam",
+            "description": "Occurrence districts identified by IBM; no separate resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes",
+            "district": "Anantapur, YSR Kadapa, Krishna, Kurnool, Nellore and Prakasam",
+            "description": "Occurrence districts identified by IBM; leading producer and dominant national resource share.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Calcite",
+            "district": "Anantapur, YSR Kadapa, Kurnool and Visakhapatnam",
+            "description": "Occurrence districts identified by IBM; State accounts for about 40% of India's calcite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Anantapur and Kurnool",
+            "description": "Occurrence districts identified by IBM; State accounts for about 15% of national dolomite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Anantapur, YSR Kadapa, West Godavari, Nellore and Vizianagaram",
+            "description": "Occurrence districts identified by IBM; resource tonnage not separately stated in State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Chittoor, YSR Kadapa, East Godavari, West Godavari, Kurnool and Srikakulam",
+            "description": "Occurrence districts identified by IBM; resource tonnage not separately stated.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "East Godavari, West Godavari, Srikakulam, Visakhapatnam and Vizianagaram",
+            "description": "1.138 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mica",
+            "district": "Nellore and Visakhapatnam",
+            "description": "Occurrence districts identified by IBM; State accounts for about 41% of India's mica resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tungsten",
+            "district": "East Godavari",
+            "description": "14.8023 million tonnes of remaining tungsten ore resources containing 20,262.57 tonnes WO₃ as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "YSR Kadapa",
+            "description": "80,000 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrite",
+            "district": "Kurnool",
+            "description": "880,000 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Titanium minerals",
+            "district": "East Godavari, Krishna, Nellore, Srikakulam and Visakhapatnam",
+            "description": "76.734 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asbestos",
+            "district": "YSR Kadapa",
+            "description": "797,995 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Diamond",
+            "district": "Anantapur, Krishna and Kurnool",
+            "description": "1,822,955 carats of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gypsum",
+            "district": "Guntur, Nellore and Prakasam",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrophyllite",
+            "district": "Anantapur, Chittoor and YSR Kadapa",
+            "description": "Occurrence districts identified by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 35424.98,
@@ -877,7 +1150,323 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Gold ore",
+            "district": "Andhra Pradesh (one reporting mine; district not specified in table)",
+            "description": "2023-24 provisional production: 33,687 tonnes of gold ore. The table reports the ore quantity separately from refined/contained gold metal.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold (metal)",
+            "district": "Andhra Pradesh (one reporting mine; district not specified in table)",
+            "description": "2023-24 provisional production: 22 kg of gold metal; reported value ₹259.57 lakh (₹25.957 million).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore",
+            "district": "Andhra Pradesh",
+            "description": "2023-24 provisional production: 125,000 tonnes from 9 reporting mines; value ₹1,075.92 lakh (₹107.592 million).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Andhra Pradesh",
+            "description": "2023-24 provisional production: 297,537 tonnes from 21 reporting mines; value ₹17,487.84 lakh (₹1,748.784 million).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Andhra Pradesh",
+            "description": "2023-24 provisional production: 60.877 million tonnes from 78 reporting mines; value ₹131,245.56 lakh (₹13,124.556 million).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Andhra Pradesh",
+            "description": "2023-24 provisional production: 1,127 tonnes from 8 reporting mines; value ₹7.80 lakh.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Hyderabad Industries Ltd — asbestos/cement sheets",
+            "district": "Ibrahimpatnam, Krishna",
+            "description": "Listed capacity: 3,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ramco Industries — asbestos/cement sheets",
+            "district": "Ibrahimpatnam, Krishna",
+            "description": "IBM lists the plant; capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC Ltd — Visakhapatnam grinding unit",
+            "district": "Visakhapatnam",
+            "description": "Listed capacity: 300 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Andhra Cements — Visaka Cement Works",
+            "district": "Durga Nagar, Visakhapatnam",
+            "description": "Listed capacity: 540 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Andhra Cements — Dachepalli",
+            "district": "Guntur",
+            "description": "Listed capacity: 2,310 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Anjani Portland Cement",
+            "district": "Chintalapalem, Mellacheruvu",
+            "description": "Listed capacity: 1,925 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bharathi Cement",
+            "district": "Nallingayapalli, YSR Kadapa",
+            "description": "Listed capacity: 5,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bhavya Cement",
+            "district": "Thangeda, Guntur",
+            "description": "Listed capacity: 1,400 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "BMM Cement",
+            "district": "Gudipadu, Yadiki",
+            "description": "Listed capacity: 950 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dalmia Cement (Bharat)",
+            "district": "YSR Kadapa",
+            "description": "Listed capacity: 4,060 thousand tonnes per year of cement and 2,600 thousand tonnes per year of clinker.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "India Cements — Chilamkur",
+            "district": "YSR Kadapa",
+            "description": "Listed capacity: 1,460 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "India Cements — Malkapur",
+            "district": "Tandur",
+            "description": "Listed capacity: 2,900 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "India Cements — Vishnupuram Works",
+            "district": "Wadapally, Miryalaguda",
+            "description": "Listed capacity: 3,500 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech — Jaypee Balaji Cement",
+            "district": "Budawada, Krishna",
+            "description": "Listed capacity: 5,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JSW Cement — Nandyal",
+            "district": "Kurnool",
+            "description": "Listed capacity: 4,800 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "KCP Ltd — Macherla",
+            "district": "Guntur",
+            "description": "Listed capacity: 825 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "KCP Ltd — Muktyala",
+            "district": "Krishna",
+            "description": "Listed capacity: 1,860 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Penna Cement Industries — Talaricheruvu",
+            "district": "Anantapur",
+            "description": "Listed capacity: 2,200 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Penna Cement Industries — Boyareddypalli",
+            "district": "Anantapur",
+            "description": "Listed capacity: 2,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Prism Cement",
+            "district": "Kotapadu, Kolimigundla",
+            "description": "Listed capacity: 4,800 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ramco Cement — Jayanthipuram",
+            "district": "Krishna",
+            "description": "Listed capacity: 3,650 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Tadipatri",
+            "district": "Anantapur",
+            "description": "Listed capacity: 9,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Zuari Cement — Yerraguntla",
+            "district": "YSR Kadapa",
+            "description": "Listed capacity: 3,800 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Andhra Sugars",
+            "district": "Saggonda, West Godavari",
+            "description": "Listed capacities: 400 tonnes per day of caustic soda and 99 thousand tonnes per year of sulphuric acid.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Rayalaseema Alkalies & Allied Chemicals",
+            "district": "Gondiparla, Kurnool",
+            "description": "Listed total chemical capacity: 156.95 thousand tonnes per year, including caustic soda, chlorine, hydrochloric acid and potassium hydroxide.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coromandel International",
+            "district": "Visakhapatnam",
+            "description": "Listed capacity: 1,300 thousand tonnes per year of NP/NPK fertilizers.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coromandel International",
+            "district": "Kakinada, East Godavari",
+            "description": "Listed capacity: 1,925 thousand tonnes per year of DAP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Nagarjuna Fertilizers & Chemicals",
+            "district": "Kakinada, East Godavari",
+            "description": "Listed urea capacity: 1,500 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Visakhapatnam Steel Plant",
+            "district": "Visakhapatnam",
+            "description": "Listed capacities: 8,856 thousand tonnes per year sinter, 3,400 thousand tonnes per year pig iron and 6,300 thousand tonnes per year crude/liquid steel.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rashtriya Ispat Nigam Ltd — pig iron",
+            "district": "Visakhapatnam",
+            "description": "Listed capacity: 6,300 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Essar Steel — pellets",
+            "district": "Visakhapatnam",
+            "description": "Listed pellet capacity: 8,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "HPCL — Visakh Refinery",
+            "district": "Visakhapatnam",
+            "description": "Listed refinery capacity: 8,300 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ONGC — Tatipaka",
+            "district": "East Godavari",
+            "description": "Listed refinery capacity: 66 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
     },

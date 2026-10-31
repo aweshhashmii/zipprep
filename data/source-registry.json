@@ -2358,6 +2358,199 @@
       "referenceDate": "31 March 2023",
       "cadence": "Review against updated State water-resources, geology and CEA registers.",
       "note": "Use the source's dated scope; do not infer current plant operating status from an older CEA station list."
+    },
+    {
+      "id": "cea-power-stations-2025",
+      "name": "Central Electricity Authority — List of Power Stations (2025)",
+      "url": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-01",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "dc-msme-industrial-profiles",
+      "name": "Ministry of MSME — District Industrial Profiles",
+      "url": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "gsi-ngdr",
+      "name": "Geological Survey of India — National Geoscience Data Repository",
+      "url": "https://geodataindia.gov.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "sahitya-akademi",
+      "name": "Sahitya Akademi — Akademi Awards archive",
+      "url": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "cwc-river-basins",
+      "name": "Central Water Commission — River basin resources",
+      "url": "https://cwc.gov.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "unesco-india-tentative-list-2026",
+      "name": "UNESCO World Heritage Centre — India Tentative List",
+      "url": "https://whc.unesco.org/en/tentativelists/action=listtentative&state=in",
+      "tabs": [
+        "physicalGeography",
+        "heritage",
+        "culture",
+        "history"
+      ],
+      "fields": [
+        "Geological units, formations and State distribution",
+        "Archaeological site identity and location",
+        "Monument identity, heritage and location",
+        "State/UT cultural traditions and heritage highlights",
+        "Freedom movement and modern historical events"
+      ],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "karnataka-tourism",
+      "name": "Karnataka Tourism — Official Portal",
+      "url": "https://karnatakatourism.org/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "meghalaya-tourism",
+      "name": "Meghalaya Tourism — Official Portal",
+      "url": "https://meghalayatourism.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "goa-tourism",
+      "name": "Goa Tourism — Official Portal",
+      "url": "https://goa-tourism.com/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "kerala-tourism",
+      "name": "Kerala Tourism — Official Portal",
+      "url": "https://www.keralatourism.org/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "jharkhand-tourism",
+      "name": "Jharkhand Tourism — Official Portal",
+      "url": "https://tourism.jharkhand.gov.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "tamil-nadu-tourism",
+      "name": "Tamil Nadu Tourism — Official Portal",
+      "url": "https://www.tamilnadutourism.tn.gov.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "asi-archaeology",
+      "name": "Archaeological Survey of India — Official Portal",
+      "url": "https://asi.nic.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "assam-tourism-heritage",
+      "name": "Assam Tourism — Official Portal",
+      "url": "https://assamtourism.gov.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "manipur-tourism",
+      "name": "Manipur Tourism — Official Portal",
+      "url": "https://manipurtourism.gov.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "azadi-ka-amrit-mahotsav",
+      "name": "Azadi Ka Amrit Mahotsav — Government of India",
+      "url": "https://amritmahotsav.nic.in/",
+      "tabs": [],
+      "fields": [],
+      "referenceDate": "2026-10-31",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "ncertUnityCulturalDiversity2018",
+      "name": "NCERT — India: Unity in Cultural Diversity (State and UT profiles)",
+      "url": "https://www.ncert.nic.in/pdf/publication/otherpublications/Unity_cultural.pdf",
+      "tabs": [
+        "culture",
+        "history",
+        "geography"
+      ],
+      "fields": [
+        "State/UT cultural traditions and heritage highlights",
+        "Festival names, State/UT associations and dates",
+        "Folk dance names and State/UT associations",
+        "Indigenous communities and State/UT distribution",
+        "Freedom movement and modern historical events",
+        "Traditional crafts and State/UT associations",
+        "Named rivers and State/basin association"
+      ],
+      "referenceDate": "First edition June 2018",
+      "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
+      "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
     }
   ]
 }

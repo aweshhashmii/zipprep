@@ -1437,9 +1437,33 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Assam State Review. Coal resources as at 1 April 2024; other mineral resources as at 1 April 2020; 2023-24 production is provisional. Industry capacities are in thousand tonnes per year unless otherwise stated."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Assam State Review. Coal resources as at 1 April 2024; other mineral resources as at 1 April 2020; 2023-24 production is provisional. Industry capacities are in thousand tonnes per year unless otherwise stated."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Assam State Review. Coal resources as at 1 April 2024; other mineral resources as at 1 April 2020; 2023-24 production is provisional. Industry capacities are in thousand tonnes per year unless otherwise stated."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -1674,7 +1698,96 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Coal",
+            "district": "Makum, Dilli-Jeypore, Mikir Hills and Singrimari coalfields",
+            "description": "Coal resources as at 1 April 2024: 525.01 million tonnes (464.78 proved, 57.21 indicated and 3.02 inferred). Makum accounts for 452.79 million tonnes; Dilli-Jeypore 54.02; Singrimari 14.49; Mikir Hills 3.71.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Karbi Anglong, Dima Hasao (North Cachar Hills) and Nagaon (Nowgaon)",
+            "description": "Total resources: 1,871.670 million tonnes as at 1 April 2020, comprising 188.130 million tonnes reserves and 1,683.540 million tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Karbi Anglong and Nagaon (Nowgaon)",
+            "description": "4.6047 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (haematite)",
+            "district": "Kokrajhar",
+            "description": "30.890 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "Dhubri, Goalpara and Kokrajhar",
+            "description": "15.380 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Petroleum and natural gas",
+            "district": "Digboi (Tinsukia), Lakhimpur and Moran-Rudrasagar (Sivasagar)",
+            "description": "Important hydrocarbon-producing areas in the Assam-Arakan Fold Belt and Upper Assam/Assam basins. IBM State Review identifies petroleum and natural gas as major state mineral resources; district-wise reserve quantities are not tabulated in this chapter.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "Karbi Anglong and Lakhimpur",
+            "description": "Occurrence districts identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Dibrugarh, Karbi Anglong, Dima Hasao (North Cachar Hills) and Lakhimpur",
+            "description": "Occurrence districts identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fuller's earth",
+            "district": "Nalbari",
+            "description": "Occurrence district identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Goalpara, Kamrup and Karbi Anglong",
+            "description": "Occurrence districts identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Nagaon (Nowgaon)",
+            "description": "Occurrence district identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 30415.01,
@@ -1712,7 +1825,147 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Limestone",
+            "district": "Assam (4 reporting mines; district split not stated)",
+            "description": "2023-24 provisional production: 1.996 million tonnes from 4 reporting mines; production value ₹634.849 million (₹63.4849 crore).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sulphur (oil-refinery by-product)",
+            "district": "Assam (refinery-level district split not stated in production table)",
+            "description": "2023-24 provisional by-product recovery: 9,148 tonnes. Recovered from oil refineries, not mined sulphur; excluded from MCDR mineral production value.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Assam Roofing Ltd — asbestos products",
+            "district": "Bonda, Kamrup",
+            "description": "Listed capacity: 58 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barak Valley Cements Ltd",
+            "district": "Jhoom Basti, Badarpurghat, Karimganj",
+            "description": "Listed cement capacity: 330 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Calcom Cement (Dalmia subsidiary)",
+            "district": "Nagaon",
+            "description": "Listed cement capacity: 1,720 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Cement Corporation of India — Bokajan",
+            "district": "Karbi Anglong",
+            "description": "Listed cement capacity: 200 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Cement Manufacturing Co. Ltd",
+            "district": "Chamata Pathar, Sonapur, Kamrup Metropolitan",
+            "description": "Listed cement capacity: 2,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Purbanchal Cement",
+            "district": "Sarutari, Kamrup",
+            "description": "Listed cement capacity: 360 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Topcem Cement",
+            "district": "Gauripur, Kamrup",
+            "description": "Listed cement capacity: 660 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Assam State Fertilizer & Chemicals Ltd",
+            "district": "Chandrapur, Kamrup",
+            "description": "IBM table lists 33 thousand tonnes per year of SSP and 16.5 thousand tonnes per year of sulphuric acid.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Brahmaputra Valley Fertilizers Corporation — Namrup II & III",
+            "district": "Namrup, Dibrugarh",
+            "description": "Listed urea capacity: 510 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Progressive Fertichem Pvt. Ltd",
+            "district": "Topatoli, Kamrup",
+            "description": "Listed SSP capacity: 45 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shri Ganapati Ispat Pvt Ltd",
+            "district": "Tinsukia",
+            "description": "IBM lists an iron and steel unit; capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation — Bongaigaon Refinery",
+            "district": "Chirang",
+            "description": "Listed refinery capacity: 2,350 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation — Guwahati Refinery",
+            "district": "Noonmati, Kamrup Metropolitan",
+            "description": "Listed refinery capacity: 1,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation — Digboi Refinery",
+            "district": "Digboi, Tinsukia",
+            "description": "Listed refinery capacity: 650 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Numaligarh Refinery Ltd",
+            "district": "Numaligarh, Golaghat",
+            "description": "Listed refinery capacity: 3,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
     },

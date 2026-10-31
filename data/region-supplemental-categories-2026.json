@@ -14191,6 +14191,78 @@
       "referenceDate": "NITI Aayog island physiography profile",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1185",
+      "regionName": "Bihar",
+      "category": "plateaus",
+      "name": "Chota Nagpur Plateau (southern Bihar historical region)",
+      "description": "The Planning Commission's archived Bihar Government Second Five-Year Plan identifies three natural divisions in the then Bihar State: North Bihar Plains, South Bihar Plains and the Chota Nagpur Plateau. Present-day Bihar retains the northern part of the historical plateau region; the entry is a historical-physiographic attribution, not a claim that the entire Chota Nagpur Plateau lies within present Bihar.",
+      "sourceUrl": "https://digitallibrary.niti.gov.in/items/54ca7f13-abc0-4401-8248-3fc8c892d460",
+      "sourceId": "biharChotaNagpurPlateau1955",
+      "referenceDate": "Planning Commission / Government of Bihar, Draft Second Five-Year Plan, 1955",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1186",
+      "regionName": "Chhattisgarh",
+      "category": "plateaus",
+      "name": "Bastar Plateau and Chhattisgarh Plain",
+      "description": "The Durg District Administration's state topography profile distinguishes the Bastar Plateau in the south, the Northern Hilly Region and the Plains of Chhattisgarh. The Bastar Plateau includes Bastar, Dantewada, Bijapur and Narayanpur districts and part of Kanker.",
+      "sourceUrl": "https://durg.gov.in/en/about-district/",
+      "sourceId": "chhattisgarhBastarPlateau2026",
+      "referenceDate": "Official Durg District Administration geography profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1187",
+      "regionName": "Goa",
+      "category": "plateaus",
+      "name": "Central Upland Plateau",
+      "description": "The National Atlas and Thematic Mapping Organisation's State Atlas of Goa identifies the Central Upland Plateau as a distinct physiographic unit between the Western Ghats and the western coastal plains, with dissected lateritic uplands and river valleys.",
+      "sourceUrl": "https://geoportal.natmo.gov.in/sites/default/files/State_Atlas_of_Goa.pdf",
+      "sourceId": "natmoGoaStateAtlas2020",
+      "referenceDate": "National Atlas and Thematic Mapping Organisation, State Atlas of Goa",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1188",
+      "regionName": "Gujarat",
+      "category": "plateaus",
+      "name": "Saurashtra Plateau and Kachchh Upland",
+      "description": "The Central Ground Water Board's Gujarat groundwater assessment divides the State into physiographic zones and identifies the uplands of Saurashtra and Kachchh as plateau regions, with Mount Girnar rising from the Saurashtra upland.",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/GW-Assessment/GWR-2022-Reports%20State/Gujarat.pdf",
+      "sourceId": "cgwbGujaratPhysiography2022",
+      "referenceDate": "Central Ground Water Board, Ground Water Resources Assessment 2022 — Gujarat",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1189",
+      "regionName": "Jammu and Kashmir",
+      "category": "plateaus",
+      "name": "Karewa elevated tablelands of the Kashmir Valley",
+      "description": "The Directorate General of Hydrocarbons' National Data Repository describes Karewa as elevated table-land: unconsolidated to semi-consolidated sand, clay and conglomerate sediments forming terraces, plateaus and mounds around the Kashmir Basin.",
+      "sourceUrl": "https://www.ndrdgh.gov.in/NDR/?page_id=873",
+      "sourceId": "dghKarewaBasin2026",
+      "referenceDate": "Directorate General of Hydrocarbons, National Data Repository — Karewa Basin profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1190",
+      "regionName": "Ladakh",
+      "category": "plateaus",
+      "name": "Ladakh High-Altitude Plateau and Changthang Plateau",
+      "description": "The Ladakh Disaster Management Authority's Leh district profile describes Ladakh as India's highest-altitude plateau region, with elevations of approximately 2,900–5,900 metres. The high plateau landscape includes the Changthang region and adjoining trans-Himalayan tablelands.",
+      "sourceUrl": "https://ldma.ladakh.gov.in/dprofile.html",
+      "sourceId": "ladakhPlateauLDMA2026",
+      "referenceDate": "Ladakh Disaster Management Authority — Leh District Profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -15580,6 +15652,36 @@
       "title": "NITI Aayog — Andaman and Nicobar Islands physiography",
       "sourceUrl": "https://www.niti.gov.in/node/702",
       "referenceDate": "NITI Aayog island physiography profile"
+    },
+    {
+      "sourceId": "biharChotaNagpurPlateau1955",
+      "title": "Planning Commission Digital Library — Government of Bihar Second Five-Year Plan",
+      "sourceUrl": "https://digitallibrary.niti.gov.in/items/54ca7f13-abc0-4401-8248-3fc8c892d460",
+      "referenceDate": "1955"
+    },
+    {
+      "sourceId": "chhattisgarhBastarPlateau2026",
+      "title": "Durg District Administration — State physiographic regions",
+      "sourceUrl": "https://durg.gov.in/en/about-district/",
+      "referenceDate": "Official district profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "cgwbGujaratPhysiography2022",
+      "title": "Central Ground Water Board — Gujarat Ground Water Resources Assessment 2022",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/GW-Assessment/GWR-2022-Reports%20State/Gujarat.pdf",
+      "referenceDate": "2022 assessment"
+    },
+    {
+      "sourceId": "dghKarewaBasin2026",
+      "title": "Directorate General of Hydrocarbons — National Data Repository, Karewa Basin",
+      "sourceUrl": "https://www.ndrdgh.gov.in/NDR/?page_id=873",
+      "referenceDate": "Official DGH profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ladakhPlateauLDMA2026",
+      "title": "Ladakh Disaster Management Authority — Leh District Profile",
+      "sourceUrl": "https://ldma.ladakh.gov.in/dprofile.html",
+      "referenceDate": "Official district profile accessed 31 October 2026"
     }
   ]
 }

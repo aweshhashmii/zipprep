@@ -13462,6 +13462,14 @@
           "referenceYear": "2023-24; resource tables as at 1 April 2020 and coal resources as at 1 April 2024",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Minerals Yearbook 2024, Indian Bureau of Mines, Ministry of Mines. Mineral occurrence lists, resource estimates and listed plant installed capacities are different measures; resource figures are historical reference dates and installed capacities are not live production."
+        },
+        {
+          "field": "geography.crops, geography.horticulture",
+          "sourceId": "desAgricultureStatistics2024_25",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceYear": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Directorate of Economics & Statistics, Department of Agriculture & Farmers Welfare. Rice and maize state-level area, production, yield and irrigation coverage. Potato first advance estimate is cited separately to retain its estimate status."
         }
       ],
       "lastVerifiedAt": null,
@@ -13840,7 +13848,22 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 5.59 million ha; production 16.02 million tonnes; yield 2,865 kg/ha; 59.64% of area under irrigation. 2023–24 comparison: area 5.12 million ha; production 15.69 million tonnes; yield 3,064 kg/ha. State-level crop estimate.",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceYear": "2024-25"
+          },
+          {
+            "name": "Maize",
+            "description": "2024–25: area 0.41 million ha; production 2.84 million tonnes; yield 6,999 kg/ha; 91.85% of area under irrigation. 2023–24 comparison: area 0.39 million ha; production 2.60 million tonnes; yield 6,633 kg/ha. State-level crop estimate.",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceYear": "2024-25"
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 19770.45,
           "percentOfGeographicalArea": 22.28,
@@ -13958,6 +13981,15 @@
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
+          }
+        ],
+        "horticulture": [
+          {
+            "name": "Potato",
+            "description": "2024–25 First Advance Estimate: area 492.91 thousand ha; production 13,763.08 thousand tonnes; yield 27,922 kg/ha. 2023–24 comparison: area 489.00 thousand ha; production 13,000.00 thousand tonnes; yield 26,585 kg/ha. State-level horticulture crop estimate; advance estimate, not final.",
+            "sourceId": "desAgricultureStatistics2024",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2025/11/Agricultural-Statistics-at-a-Glance-2024_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024.pdf",
+            "referenceYear": "2024-25 (1st Advance Estimate)"
           }
         ]
       },

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "title": "Supplemental regional category batch — 31 October 2026",
+  "referenceDate": "2026-10-31",
+  "policy": "Only source-supported named examples are added to existing categories. A record verifies the stated feature and attributes, not an exhaustive regional inventory.",
+  "sources": [
+    {
+      "sourceId": "telanganaTourismBhuvanagiriHill2026",
+      "title": "Telangana Tourism — Bhuvanagiri destination profile",
+      "sourceUrl": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
+      "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    }
+  ],
+  "records": [
+    {
+      "id": "peak-bhuvanagiri-telangana-2026",
+      "regionName": "Telangana",
+      "category": "peaks",
+      "name": "Bhuvanagiri Hill",
+      "description": "A prominent monolithic hill crowned by Bhuvanagiri Fort. Telangana Tourism gives the hill's height as 610 metres; this record documents the named hill and the published elevation, not a claim that it is the state's highest point.",
+      "sourceUrl": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
+      "sourceId": "telanganaTourismBhuvanagiriHill2026",
+      "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    }
+  ]
+}

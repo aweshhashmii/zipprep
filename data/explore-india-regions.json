@@ -497,6 +497,12 @@
       "name": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
       "url": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
       "note": "Official list of PVTG communities. The Ministry's 2023–24 Annual Report reports 75 PVTGs in 18 States and one UT. Legacy combined-state entries are deliberately not split into successor States without an authoritative mapping."
+    },
+    {
+      "id": "pibCompleteRamsarRegisterOct2026",
+      "name": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+      "note": "Exhaustive 25 October 2026 state-wise list of 103 designated Ramsar Sites across 28 States/UTs; regions absent from the complete table receive a dated 'None listed' record, not a claim that no wetlands exist."
     }
   ],
   "regions": [
@@ -20833,7 +20839,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-ML-RAMSAR-NONE-2026",
+            "regionId": "IN-ML",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Meghalaya in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Meghalaya is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [
           {
@@ -23170,7 +23192,23 @@
             "referenceYear": "2023"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-NL-RAMSAR-NONE-2026",
+            "regionId": "IN-NL",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Nagaland in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Nagaland is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [
           {
@@ -31740,7 +31778,23 @@
             "referenceYear": "2023"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-TS-RAMSAR-NONE-2026",
+            "regionId": "IN-TS",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Telangana in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Telangana is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [
           {
             "name": "Kakatiya Rudreshwara (Ramappa) Temple, Telangana",
@@ -38260,7 +38314,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-AN-RAMSAR-NONE-2026",
+            "regionId": "IN-AN",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Andaman and Nicobar Islands in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Andaman and Nicobar Islands is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [
           {
@@ -39353,7 +39423,23 @@
             "referenceYear": "2023"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-DHDD-RAMSAR-NONE-2026",
+            "regionId": "IN-DHDD",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Dadra and Nagar Haveli and Daman and Diu in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Dadra and Nagar Haveli and Daman and Diu is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [
           {
@@ -39729,7 +39815,23 @@
             "referenceYear": "2023"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-DL-RAMSAR-NONE-2026",
+            "regionId": "IN-DL",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Delhi in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Delhi is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [
           {
             "name": "Humayun's Tomb, Delhi",
@@ -41662,7 +41764,23 @@
             "referenceYear": "2023"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-LD-RAMSAR-NONE-2026",
+            "regionId": "IN-LD",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Lakshadweep in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Lakshadweep is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [
           {
@@ -42068,7 +42186,23 @@
             "referenceYear": "2023"
           }
         ],
-        "ramsarSites": [],
+        "ramsarSites": [
+          {
+            "id": "IN-PY-RAMSAR-NONE-2026",
+            "regionId": "IN-PY",
+            "category": "ramsarSites",
+            "name": "None listed in the complete national Ramsar register (25 October 2026)",
+            "officialName": "No Ramsar Site listed for Puducherry in the 25 October 2026 national register",
+            "count": 0,
+            "availabilityStatus": "none_listed_in_complete_national_register",
+            "sourceName": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+            "sourceId": "pibCompleteRamsarRegisterOct2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+            "referenceDate": "2026-10-25",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Environment, Forest and Climate Change / PIB states that its 25 October 2026 table lists all 103 Indian Ramsar Sites across 28 States/UTs. Puducherry is absent from that complete state-wise list, so no Ramsar designation is listed for this region in this dated snapshot. This does not mean the region has no wetlands or that it cannot receive a future Ramsar designation."
+          }
+        ],
         "unescoWorldHeritage": [],
         "monuments": [
           {

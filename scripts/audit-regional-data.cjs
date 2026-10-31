@@ -26,6 +26,7 @@ const categoryGroups = {
 const errors = [];
 const warnings = [];
 const regionsData = read('data/explore-india-regions.json');
+const supplementalData = read('data/region-supplemental-categories-2026.json');
 const politicalData = read('data/region-political-2026.json');
 const heritageData = read('data/region-unesco-heritage-2026.json');
 const censusData = read('data/india-district-census-2011.json');
@@ -146,9 +147,11 @@ const coverage = {};
 for (const [group, keys] of Object.entries(categoryGroups)) {
   coverage[group] = {};
   for (const key of keys) {
-    const categoryRecords = (region) => key === 'languages' && !list((region.geography || {})[key]).length
-      ? list(region.officialLanguages)
-      : list((region.geography || {})[key]);
+    const categoryRecords = (region) => {
+      const base = key === 'languages' && !list((region.geography || {})[key]).length ? list(region.officialLanguages) : list((region.geography || {})[key]);
+      const extra = (supplementalData.records || []).filter(row => row.regionName === region.name && row.category === key);
+      return base.concat(extra);
+    };
     const regionsWithData = regions.filter(r => categoryRecords(r).length > 0).length;
     const recordCount = regions.reduce((sum,r) => sum + categoryRecords(r).length, 0);
     coverage[group][key] = { regionsWithData, recordCount };

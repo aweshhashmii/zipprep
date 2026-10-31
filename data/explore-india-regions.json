@@ -476,6 +476,21 @@
       "name": "Ministry of Culture / Press Information Bureau — UNESCO Intangible Cultural Heritage state associations (8 December 2025)",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200361&lang=1&reg=3",
       "note": "Ministry of Culture Lok Sabha reply dated 8 December 2025 lists 15 inscribed ICH elements and their state/UT associations; all-state associations are applied only to the 28 States. Deepawali and Chhath Mahaparv were nominations, not yet inscribed in this source."
+    },
+    {
+      "id": "kangraDistrictOfficialTrekkingPasses",
+      "name": "Kangra District Administration — Official trekking routes and mountain passes",
+      "url": "https://hpkangra.nic.in/trekking-routes/"
+    },
+    {
+      "id": "pithoragarhDistrictOfficialPasses",
+      "name": "Pithoragarh District Administration — Peaks and Passes",
+      "url": "https://pithoragarh.nic.in/peaks/"
+    },
+    {
+      "id": "gangtokDistrictNathuLa",
+      "name": "Gangtok District Administration — Signature Attractions: Nathu La Pass",
+      "url": "https://gangtokdistrict.nic.in/signature-attractions/"
     }
   ],
   "regions": [
@@ -10700,7 +10715,148 @@
             "administrativeScope": "State boundary at publication"
           }
         ],
-        "passes": [],
+        "passes": [
+          {
+            "id": "IN-HP-PASS-BLENI-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Bleni Pass",
+            "officialName": "Bleni Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 3710
+          },
+          {
+            "id": "IN-HP-PASS-MINIKIANI-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Minikiani Pass",
+            "officialName": "Minikiani Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4250
+          },
+          {
+            "id": "IN-HP-PASS-BHIMGHASUTRI-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Bhimghasutri Pass",
+            "officialName": "Bhimghasutri Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4580
+          },
+          {
+            "id": "IN-HP-PASS-INDRAHAR-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Indrahar Pass",
+            "officialName": "Indrahar Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4350
+          },
+          {
+            "id": "IN-HP-PASS-KUNDLI-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Kundli Pass",
+            "officialName": "Kundli Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4550
+          },
+          {
+            "id": "IN-HP-PASS-TORAL-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Toral Pass",
+            "officialName": "Toral Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4575
+          },
+          {
+            "id": "IN-HP-PASS-TALANG-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Talang Pass",
+            "officialName": "Talang Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4250
+          },
+          {
+            "id": "IN-HP-PASS-SINGHAR-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Singhar Pass",
+            "officialName": "Singhar Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 4315
+          },
+          {
+            "id": "IN-HP-PASS-WARU-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Waru Pass",
+            "officialName": "Waru Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 3850
+          },
+          {
+            "id": "IN-HP-PASS-JALSU-PASS",
+            "regionId": "IN-HP",
+            "category": "passes",
+            "name": "Jalsu Pass",
+            "officialName": "Jalsu Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Kangra District Administration — Official trekking routes and mountain passes",
+            "sourceId": "kangraDistrictOfficialTrekkingPasses",
+            "sourceUrl": "https://hpkangra.nic.in/trekking-routes/",
+            "verificationStatus": "verified",
+            "description": "Listed by Kangra District Administration in its official trekking-routes page, with the elevation and route description published there.",
+            "elevationMeters": 3600
+          }
+        ],
         "rivers": [
           {
             "name": "Sutlej",
@@ -26653,7 +26809,22 @@
             "description": "Government of India access-list entry for mountaineering or trekking; not a complete geographical inventory."
           }
         ],
-        "passes": [],
+        "passes": [
+          {
+            "id": "IN-SK-PASS-NATHU-LA-PASS",
+            "regionId": "IN-SK",
+            "category": "passes",
+            "name": "Nathu La Pass",
+            "officialName": "Nathu La Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Gangtok District Administration — Signature Attractions: Nathu La Pass",
+            "sourceId": "gangtokDistrictNathuLa",
+            "sourceUrl": "https://gangtokdistrict.nic.in/signature-attractions/",
+            "verificationStatus": "verified",
+            "description": "Listed as a signature attraction by Gangtok District Administration. The official district page gives an elevation of approximately 4,300 m and identifies it as a restricted border-area destination requiring permits.",
+            "elevationMeters": 4300
+          }
+        ],
         "rivers": [
           {
             "name": "Teesta",
@@ -32702,7 +32873,211 @@
             "description": "Peak or peak group named by the Uttarakhand Government among 83 Himalayan peaks opened for mountaineering in February 2026."
           }
         ],
-        "passes": [],
+        "passes": [
+          {
+            "id": "IN-UK-PASS-BELCHA-DHURA",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Belcha Dhura",
+            "officialName": "Belcha Dhura",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5384,
+            "routeDescription": "Gori Gunkha Valley"
+          },
+          {
+            "id": "IN-UK-PASS-KUNGRI-BHINGRI",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Kungri Bhingri",
+            "officialName": "Kungri Bhingri",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5564,
+            "routeDescription": "Gori Gunkha Valley"
+          },
+          {
+            "id": "IN-UK-PASS-KEO-DHURA",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Keo Dhura",
+            "officialName": "Keo Dhura",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5439,
+            "routeDescription": "Gori Gunkha Valley"
+          },
+          {
+            "id": "IN-UK-PASS-LWA-DHURA",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Lwa Dhura",
+            "officialName": "Lwa Dhura",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5564,
+            "routeDescription": "Dhauli E Valley"
+          },
+          {
+            "id": "IN-UK-PASS-LIPU-LEKH",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Lipu Lekh",
+            "officialName": "Lipu Lekh",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5122,
+            "routeDescription": "Kali Valley"
+          },
+          {
+            "id": "IN-UK-PASS-LAMPIYA-DHURA",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Lampiya Dhura",
+            "officialName": "Lampiya Dhura",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5553,
+            "routeDescription": "Kuti Valley"
+          },
+          {
+            "id": "IN-UK-PASS-NUWE-DHURA",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Nuwe Dhura",
+            "officialName": "Nuwe Dhura",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "elevationMeters": 5650,
+            "routeDescription": "Kuti Valley"
+          },
+          {
+            "id": "IN-UK-PASS-SIRLA-PASS",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Sirla Pass",
+            "officialName": "Sirla Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Bedang–Jolinkong route"
+          },
+          {
+            "id": "IN-UK-PASS-UNTADHURA-PASS",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Untadhura Pass",
+            "officialName": "Untadhura Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Milan–Topidhura route"
+          },
+          {
+            "id": "IN-UK-PASS-TRAILL-S-PASS",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Traill's Pass",
+            "officialName": "Traill's Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Martoli–Lwa to Khati route"
+          },
+          {
+            "id": "IN-UK-PASS-RALAM-PASS",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Ralam Pass",
+            "officialName": "Ralam Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Munsyari–Sipu route"
+          },
+          {
+            "id": "IN-UK-PASS-NAMA-PASS",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Nama Pass",
+            "officialName": "Nama Pass",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Sela–Kuti route"
+          },
+          {
+            "id": "IN-UK-PASS-KALGANGA-DHURA",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Kalganga Dhura",
+            "officialName": "Kalganga Dhura",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Sipu–Milam route"
+          },
+          {
+            "id": "IN-UK-PASS-ATHASI-BALATI",
+            "regionId": "IN-UK",
+            "category": "passes",
+            "name": "Athasi Balati",
+            "officialName": "Athasi Balati",
+            "passType": "Mountain pass",
+            "sourceName": "Pithoragarh District Administration — Peaks and Passes",
+            "sourceId": "pithoragarhDistrictOfficialPasses",
+            "sourceUrl": "https://pithoragarh.nic.in/peaks/",
+            "verificationStatus": "verified",
+            "description": "Listed by Pithoragarh District Administration in its official Peaks and Passes page. Route/valley association and elevation are included only where stated by the district source.",
+            "routeDescription": "Within the Panchchuli range"
+          }
+        ],
         "rivers": [
           {
             "name": "Ganga",

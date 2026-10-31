@@ -443,6 +443,11 @@
       "id": "mnreRenewableCapacityMar2026",
       "name": "Ministry of New and Renewable Energy — State-wise location-based installed renewable power capacity",
       "url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf"
+    },
+    {
+      "id": "pibIndustrialCorridorProjects2026",
+      "name": "PIB / Ministry of Commerce and Industry — Industrial corridor projects and status",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3"
     }
   ],
   "regions": [
@@ -679,6 +684,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1399,7 +1412,83 @@
             "description": "MNRE reports 15,980.11 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-AP-NICDP-1",
+            "regionId": "IN-AP",
+            "category": "industrialCorridors",
+            "name": "Krishnapatnam Industrial Area",
+            "officialName": "Krishnapatnam Industrial Area",
+            "corridor": "Chennai-Bengaluru Industrial Corridor (CBIC)",
+            "status": "Nearing completion",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Chennai-Bengaluru Industrial Corridor (CBIC). Status in the PIB 26 February 2026 overview: Nearing completion. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-AP-NICDP-2",
+            "regionId": "IN-AP",
+            "category": "industrialCorridors",
+            "name": "Kopparthy Industrial Area",
+            "officialName": "Kopparthy Industrial Area",
+            "corridor": "Vizag-Chennai Industrial Corridor (VCIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Vizag-Chennai Industrial Corridor (VCIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-AP-NICDP-3",
+            "regionId": "IN-AP",
+            "category": "industrialCorridors",
+            "name": "Visakhapatnam Industrial Area",
+            "officialName": "Visakhapatnam Industrial Area",
+            "corridor": "Vizag-Chennai Industrial Corridor (VCIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Vizag-Chennai Industrial Corridor (VCIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-AP-NICDP-4",
+            "regionId": "IN-AP",
+            "category": "industrialCorridors",
+            "name": "Chittoor Industrial Area",
+            "officialName": "Chittoor Industrial Area",
+            "corridor": "Vizag-Chennai Industrial Corridor (VCIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Vizag-Chennai Industrial Corridor (VCIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-AP-NICDP-5",
+            "regionId": "IN-AP",
+            "category": "industrialCorridors",
+            "name": "Orvakal Industrial Area",
+            "officialName": "Orvakal Industrial Area",
+            "corridor": "Hyderabad-Bengaluru Industrial Corridor (HBIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Hyderabad-Bengaluru Industrial Corridor (HBIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -3843,6 +3932,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -4311,7 +4408,23 @@
             "description": "MNRE reports 651.26 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-BR-NICDP-1",
+            "regionId": "IN-BR",
+            "category": "industrialCorridors",
+            "name": "IMC at Gaya",
+            "officialName": "IMC at Gaya",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -6155,6 +6268,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7196,7 +7317,38 @@
             "description": "MNRE reports 47,178.33 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-GJ-NICDP-1",
+            "regionId": "IN-GJ",
+            "category": "industrialCorridors",
+            "name": "Dholera Special Investment Region",
+            "officialName": "Dholera Special Investment Region",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Completed",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Completed. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-GJ-NICDP-2",
+            "regionId": "IN-GJ",
+            "category": "industrialCorridors",
+            "name": "Multi-Modal Logistics Park, Sanand",
+            "officialName": "Multi-Modal Logistics Park, Sanand",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -7667,6 +7819,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7987,7 +8147,38 @@
             "description": "MNRE reports 3,011.72 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-HR-NICDP-1",
+            "regionId": "IN-HR",
+            "category": "industrialCorridors",
+            "name": "Integrated Multi-Modal Logistics Hub, Nangal Chaudhary",
+            "officialName": "Integrated Multi-Modal Logistics Hub, Nangal Chaudhary",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Nearing completion",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Nearing completion. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-HR-NICDP-2",
+            "regionId": "IN-HR",
+            "category": "industrialCorridors",
+            "name": "Hisar Integrated Manufacturing Cluster (IMC)",
+            "officialName": "Hisar Integrated Manufacturing Cluster (IMC)",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -9627,6 +9818,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -10168,7 +10367,23 @@
             "description": "MNRE reports 489.59 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-JH-NICDP-1",
+            "regionId": "IN-JH",
+            "category": "industrialCorridors",
+            "name": "Bokaro Node",
+            "officialName": "Bokaro Node",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -10573,6 +10788,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -11286,7 +11509,38 @@
             "description": "MNRE reports 26,722.76 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-KA-NICDP-1",
+            "regionId": "IN-KA",
+            "category": "industrialCorridors",
+            "name": "Tumakuru Industrial Area",
+            "officialName": "Tumakuru Industrial Area",
+            "corridor": "Chennai-Bengaluru Industrial Corridor (CBIC)",
+            "status": "Nearing completion",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Chennai-Bengaluru Industrial Corridor (CBIC). Status in the PIB 26 February 2026 overview: Nearing completion. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-KA-NICDP-2",
+            "regionId": "IN-KA",
+            "category": "industrialCorridors",
+            "name": "Dharwad Node",
+            "officialName": "Dharwad Node",
+            "corridor": "Bengaluru-Mumbai Industrial Corridor (BMIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Bengaluru-Mumbai Industrial Corridor (BMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -11845,6 +12099,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -12368,7 +12630,23 @@
             "description": "MNRE reports 4,574.28 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-KL-NICDP-1",
+            "regionId": "IN-KL",
+            "category": "industrialCorridors",
+            "name": "Palakkad Industrial Area",
+            "officialName": "Palakkad Industrial Area",
+            "corridor": "Extension of CBIC to Kochi via Coimbatore (ECKC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Extension of CBIC to Kochi via Coimbatore (ECKC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -12761,6 +13039,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -13629,7 +13915,23 @@
             "description": "MNRE reports 12,182.64 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-MP-NICDP-1",
+            "regionId": "IN-MP",
+            "category": "industrialCorridors",
+            "name": "Integrated Industrial Township — Vikram Udyogpuri",
+            "officialName": "Integrated Industrial Township — Vikram Udyogpuri",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Completed",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Completed. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -14119,6 +14421,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -15089,7 +15399,53 @@
             "description": "MNRE reports 31,980.63 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-MH-NICDP-1",
+            "regionId": "IN-MH",
+            "category": "industrialCorridors",
+            "name": "Shendra-Bidkin Industrial Area",
+            "officialName": "Shendra-Bidkin Industrial Area",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Completed",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Completed. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-MH-NICDP-2",
+            "regionId": "IN-MH",
+            "category": "industrialCorridors",
+            "name": "Dighi Port Industrial Area",
+            "officialName": "Dighi Port Industrial Area",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-MH-NICDP-3",
+            "regionId": "IN-MH",
+            "category": "industrialCorridors",
+            "name": "Satara Node",
+            "officialName": "Satara Node",
+            "corridor": "Bengaluru-Mumbai Industrial Corridor (BMIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Bengaluru-Mumbai Industrial Corridor (BMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -19111,6 +19467,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -19785,7 +20149,23 @@
             "description": "MNRE reports 3,242.84 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-OD-NICDP-1",
+            "regionId": "IN-OD",
+            "category": "industrialCorridors",
+            "name": "Gopalpur-Bhubaneswar-Kalinganagar Node and Paradip-Kendrapada-Dhamra-Subernarekha Node",
+            "officialName": "Gopalpur-Bhubaneswar-Kalinganagar Node and Paradip-Kendrapada-Dhamra-Subernarekha Node",
+            "corridor": "Odisha Economic Corridor (OEC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Odisha Economic Corridor (OEC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -20167,6 +20547,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -20428,7 +20816,23 @@
             "description": "MNRE reports 3,439.93 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-PB-NICDP-1",
+            "regionId": "IN-PB",
+            "category": "industrialCorridors",
+            "name": "Rajpura-Patiala IMC",
+            "officialName": "Rajpura-Patiala IMC",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -20752,6 +21156,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -21499,7 +21911,38 @@
             "description": "MNRE reports 47,020.54 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-RJ-NICDP-1",
+            "regionId": "IN-RJ",
+            "category": "industrialCorridors",
+            "name": "Jodhpur Pali Marwar Industrial Area",
+            "officialName": "Jodhpur Pali Marwar Industrial Area",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-RJ-NICDP-2",
+            "regionId": "IN-RJ",
+            "category": "industrialCorridors",
+            "name": "Khushkhera-Bhiwadi-Neemrana Industrial Area",
+            "officialName": "Khushkhera-Bhiwadi-Neemrana Industrial Area",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -22902,6 +23345,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -24008,7 +24459,38 @@
             "description": "MNRE reports 29,108.27 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-TN-NICDP-1",
+            "regionId": "IN-TN",
+            "category": "industrialCorridors",
+            "name": "Ponneri Industrial Area",
+            "officialName": "Ponneri Industrial Area",
+            "corridor": "Chennai-Bengaluru Industrial Corridor (CBIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Chennai-Bengaluru Industrial Corridor (CBIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-TN-NICDP-2",
+            "regionId": "IN-TN",
+            "category": "industrialCorridors",
+            "name": "Dharmapuri-Salem Industrial Area",
+            "officialName": "Dharmapuri-Salem Industrial Area",
+            "corridor": "Extension of CBIC to Kochi via Coimbatore (ECKC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Extension of CBIC to Kochi via Coimbatore (ECKC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -24315,6 +24797,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -24659,7 +25149,38 @@
             "description": "MNRE reports 7,930.58 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-TS-NICDP-1",
+            "regionId": "IN-TS",
+            "category": "industrialCorridors",
+            "name": "Zaheerabad Phase 1",
+            "officialName": "Zaheerabad Phase 1",
+            "corridor": "Hyderabad-Nagpur Industrial Corridor (HNIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Hyderabad-Nagpur Industrial Corridor (HNIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-TS-NICDP-2",
+            "regionId": "IN-TS",
+            "category": "industrialCorridors",
+            "name": "Hyderabad Phase 1",
+            "officialName": "Hyderabad Phase 1",
+            "corridor": "Hyderabad-Warangal Industrial Corridor (HWIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Hyderabad-Warangal Industrial Corridor (HWIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -25585,6 +26106,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -26198,7 +26727,53 @@
             "description": "MNRE reports 7,005.23 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-UP-NICDP-1",
+            "regionId": "IN-UP",
+            "category": "industrialCorridors",
+            "name": "Integrated Industrial Township — Greater Noida",
+            "officialName": "Integrated Industrial Township — Greater Noida",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Completed",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Completed. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-UP-NICDP-2",
+            "regionId": "IN-UP",
+            "category": "industrialCorridors",
+            "name": "Multi Modal Logistics Hub & Multi Modal Transport Hub (MMLH & MMTH), Dadri / Greater Noida",
+            "officialName": "Multi Modal Logistics Hub & Multi Modal Transport Hub (MMLH & MMTH), Dadri / Greater Noida",
+            "corridor": "Delhi-Mumbai Industrial Corridor (DMIC)",
+            "status": "Nearing completion",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Delhi-Mumbai Industrial Corridor (DMIC). Status in the PIB 26 February 2026 overview: Nearing completion. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-UP-NICDP-3",
+            "regionId": "IN-UP",
+            "category": "industrialCorridors",
+            "name": "Node near Kanpur for IMC",
+            "officialName": "Node near Kanpur for IMC",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -26829,6 +27404,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -27623,7 +28206,23 @@
             "description": "MNRE reports 6,018.55 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-UK-NICDP-1",
+            "regionId": "IN-UK",
+            "category": "industrialCorridors",
+            "name": "Prag Khurpia Integrated Manufacturing Cluster (IMC)",
+            "officialName": "Prag Khurpia Integrated Manufacturing Cluster (IMC)",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Newly approved in August 2024",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Newly approved in August 2024. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],
@@ -27992,6 +28591,22 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "field": "geography.industrialCorridors",
+          "sourceId": "pibIndustrialCorridorProjects2026",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+          "referenceDate": "2026-02-26",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
         }
       ],
       "lastVerifiedAt": null,
@@ -28633,7 +29248,38 @@
             "description": "MNRE reports 2,112.18 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
           }
         ],
-        "industrialCorridors": [],
+        "industrialCorridors": [
+          {
+            "id": "IN-WB-NICDP-1",
+            "regionId": "IN-WB",
+            "category": "industrialCorridors",
+            "name": "Raghunathpur Industrial Park",
+            "officialName": "Raghunathpur Industrial Park",
+            "corridor": "Amritsar-Kolkata Industrial Corridor (AKIC)",
+            "status": "Status not individually stated in the source table",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "Project/node listed under the Amritsar-Kolkata Industrial Corridor (AKIC). Status in the PIB 26 February 2026 overview: Status not individually stated in the source table. This is a named node/project entry, not evidence that the entire corridor is complete or operational."
+          },
+          {
+            "id": "IN-WB-ECOAST-2026",
+            "regionId": "IN-WB",
+            "category": "industrialCorridors",
+            "name": "Integrated East Coast Industrial Corridor — Durgapur node",
+            "officialName": "Integrated East Coast Industrial Corridor — Durgapur node",
+            "corridor": "Integrated East Coast Industrial Corridor",
+            "status": "Announced in Union Budget 2026-27",
+            "sourceName": "Press Information Bureau / Ministry of Commerce and Industry",
+            "sourceId": "pibIndustrialCorridorProjects2026",
+            "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+            "referenceDate": "2026-02-26",
+            "verificationStatus": "verified",
+            "description": "The PIB 26 February 2026 explainer states that Union Budget 2026-27 announced an integrated East Coast Industrial Corridor with a well-connected node at Durgapur. This is an announcement, not a claim that the corridor or node is operational."
+          }
+        ],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
         "disasterProneRegions": [],

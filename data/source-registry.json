@@ -677,6 +677,23 @@
       "issuingAuthority": "Ministry of New and Renewable Energy",
       "cadence": "Refresh monthly from MNRE's state-wise location-based installed-capacity statement. Do not interpret installed capacity as electricity generated or a list of individual projects.",
       "note": "This source reports location-based installed capacity. The category record is a state/UT capacity snapshot and is explicitly not a named-project inventory."
+    },
+    {
+      "id": "pibIndustrialCorridorProjects2026",
+      "name": "PIB / Ministry of Commerce and Industry — Industrial corridor projects and status",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "National Industrial Corridor Development Programme corridor names",
+        "State-wise industrial nodes/projects",
+        "Explicitly reported completed, nearing-completion and newly approved project status"
+      ],
+      "referenceDate": "2026-02-26",
+      "issuingAuthority": "Press Information Bureau, Government of India; Ministry of Commerce and Industry / DPIIT",
+      "cadence": "Refresh against DPIIT/NICDC project status updates and the latest Union Budget; do not infer that a corridor's full route or every proposed node is approved.",
+      "note": "The PIB explainer lists 11 corridor programmes and named nodes/projects. Where the source does not state an individual node's implementation stage, the record says so rather than inferring it."
     }
   ]
 }

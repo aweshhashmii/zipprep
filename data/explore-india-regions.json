@@ -2889,6 +2889,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-AP-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-AP",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Andhra Pradesh: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 13,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 13 plant species for Andhra Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -4320,6 +4338,24 @@
             "referenceDate": "2022-04",
             "verificationStatus": "verified",
             "description": "Matmur Jamoh is named in the Government of India's 75-district annexure as a freedom fighter associated with East Siang, Arunachal Pradesh. This record preserves the official district association and does not add biographical claims beyond that source."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-AR-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-AR",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Arunachal Pradesh: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 33,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 33 plant species for Arunachal Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -6385,6 +6421,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-AS-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-AS",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Assam: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 24,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 24 plant species for Assam. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -10558,6 +10612,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-GA-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-GA",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Goa: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 6,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 6 plant species for Goa. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Bombay High Court — Goa Bench, Panaji"
@@ -13472,6 +13544,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-GJ-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-GJ",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Gujarat: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 9,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 9 plant species for Gujarat. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -16490,6 +16580,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-HP-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-HP",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Himachal Pradesh: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 23,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 23 plant species for Himachal Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -20209,6 +20317,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-KA-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-KA",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Karnataka: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 63,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 63 plant species for Karnataka. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -22169,6 +22295,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-KL-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-KL",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Kerala: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 87,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 87 plant species for Kerala. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -24457,6 +24601,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-MP-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-MP",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Madhya Pradesh: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 4,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 4 plant species for Madhya Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -27123,6 +27285,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-MH-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-MH",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Maharashtra: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 72,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 72 plant species for Maharashtra. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Bombay High Court — Mumbai"
@@ -28200,6 +28380,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-MN-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-MN",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Manipur: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 15,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 15 plant species for Manipur. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -30079,6 +30277,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-ML-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-ML",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Meghalaya: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 53,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 53 plant species for Meghalaya. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -30939,6 +31155,24 @@
             "referenceDate": "2022-04",
             "verificationStatus": "verified",
             "description": "Darthawma Renthlei is named in the Government of India's 75-district annexure as a freedom fighter associated with Lunglei, Mizoram. This record preserves the official district association and does not add biographical claims beyond that source."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-MZ-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-MZ",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Mizoram: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 6,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 6 plant species for Mizoram. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -34960,6 +35194,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-OD-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-OD",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Odisha: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 4,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 4 plant species for Odisha. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -38480,6 +38732,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-RJ-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-RJ",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Rajasthan: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 7,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 7 plant species for Rajasthan. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
@@ -39656,6 +39926,24 @@
             "referenceDate": "2022-04",
             "verificationStatus": "verified",
             "description": "Trilochan Pokhrel is named in the Government of India's 75-district annexure as a freedom fighter associated with Pakyong, Sikkim. This record preserves the official district association and does not add biographical claims beyond that source."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-SK-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-SK",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Sikkim: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 47,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 47 plant species for Sikkim. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -42537,6 +42825,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-TN-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-TN",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Tamil Nadu: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 133,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 133 plant species for Tamil Nadu. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },
@@ -49333,6 +49639,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-UK-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-UK",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Uttarakhand: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 33,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 33 plant species for Uttarakhand. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -51391,6 +51715,24 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-WB-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-WB",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "West Bengal: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 14,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 14 plant species for West Bengal. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -52380,7 +52722,25 @@
             "description": "Great Nicobar is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
         ],
-        "conservationProjects": []
+        "conservationProjects": [],
+        "endangeredSpecies": [
+          {
+            "id": "IN-AN-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-AN",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Andaman and Nicobar Islands: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 40,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 40 plant species for Andaman and Nicobar Islands. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
     },
@@ -55049,6 +55409,24 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "endangeredSpecies": [
+          {
+            "id": "IN-JK-THREATENED-PLANTS-WII-2015",
+            "regionId": "IN-JK",
+            "category": "endangeredSpecies",
+            "name": "Threatened plant species — WII state-wise database count",
+            "officialName": "Jammu and Kashmir: threatened plant species in the Wildlife Institute of India database",
+            "speciesGroup": "Plants",
+            "conservationScope": "Threatened plant list; not a complete list of all threatened taxa",
+            "count": 23,
+            "referenceYear": "Red Data Book source edition 1987; WII page last updated 2015",
+            "sourceName": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+            "sourceId": "wiiThreatenedPlantsDatabase2015",
+            "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
+            "verificationStatus": "verified",
+            "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 23 plant species for Jammu and Kashmir. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
         ]
       },

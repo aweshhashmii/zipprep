@@ -1864,6 +1864,90 @@
       "referenceDate": "FY 2024-25",
       "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
       "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
+    },
+    {
+      "id": "gsiDeccanTrapDistribution2026",
+      "name": "Geological Survey of India — Deccan Trap lava and pyroclastic occurrences",
+      "url": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Named geological unit and State association"
+      ],
+      "referenceDate": "GSI atlas accessed 31 October 2026",
+      "cadence": "Review against updated Geological Survey of India state geology profiles and publications.",
+      "note": "Geological units may extend across present-day State boundaries; descriptions preserve the source's geographic scope."
+    },
+    {
+      "id": "gsiRajasthanGeology2026",
+      "name": "Geological Survey of India — Geology and Mineral Resources of Rajasthan",
+      "url": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063377%2F%2FidcPrimaryFile&revision=latestreleased",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Named geological unit and State association"
+      ],
+      "referenceDate": "GSI state geology profile accessed 31 October 2026",
+      "cadence": "Review against updated Geological Survey of India state geology profiles and publications.",
+      "note": "Geological units may extend across present-day State boundaries; descriptions preserve the source's geographic scope."
+    },
+    {
+      "id": "gsiMeghalayaGeology2026",
+      "name": "Geological Survey of India — Geology and Mineral Resources of Meghalaya",
+      "url": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063331%2F%2FidcPrimaryFile&revision=latestreleased",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Named geological unit and State association"
+      ],
+      "referenceDate": "GSI state geology profile accessed 31 October 2026",
+      "cadence": "Review against updated Geological Survey of India state geology profiles and publications.",
+      "note": "Geological units may extend across present-day State boundaries; descriptions preserve the source's geographic scope."
+    },
+    {
+      "id": "gsiOdishaGeology2026",
+      "name": "Geological Survey of India — Geology and Mineral Resources of Odisha",
+      "url": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063318%2F%2FidcPrimaryFile&revision=latestreleased",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Named geological unit and State association"
+      ],
+      "referenceDate": "GSI state geology profile accessed 31 October 2026",
+      "cadence": "Review against updated Geological Survey of India state geology profiles and publications.",
+      "note": "Geological units may extend across present-day State boundaries; descriptions preserve the source's geographic scope."
+    },
+    {
+      "id": "gsiGujaratGeology2026",
+      "name": "Geological Survey of India — Geology and Mineral Resources of Gujarat",
+      "url": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063293%2F%2FidcPrimaryFile&revision=latestreleased",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Named geological unit and State association"
+      ],
+      "referenceDate": "GSI state geology profile accessed 31 October 2026",
+      "cadence": "Review against updated Geological Survey of India state geology profiles and publications.",
+      "note": "Geological units may extend across present-day State boundaries; descriptions preserve the source's geographic scope."
+    },
+    {
+      "id": "gsiChhattisgarhBasin2026",
+      "name": "Geological Survey of India — Chhattisgarh Basin and pyroclastic occurrences",
+      "url": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Named geological unit and State association"
+      ],
+      "referenceDate": "GSI atlas accessed 31 October 2026",
+      "cadence": "Review against updated Geological Survey of India state geology profiles and publications.",
+      "note": "Geological units may extend across present-day State boundaries; descriptions preserve the source's geographic scope."
     }
   ]
 }

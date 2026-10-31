@@ -11288,9 +11288,49 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2020",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Manipur State Review. Resource estimates are as at 1 April 2020; district-level locations are not specified in the State Review."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM reports no major mineral production in Manipur for 2023-24; this does not imply no minor-mineral activity."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibPMFME2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Ministry of Food Processing Industries / PIB state-wise PMFME micro-enterprise approvals as at 31 December 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibManipurGSTBackgrounder2025",
+          "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251010662001.pdf",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "PIB backgrounder on Manipur's handloom and processed-food sectors; workforce numbers are sector estimates."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; parks and available land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -11437,7 +11477,24 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Chromite",
+            "district": "Manipur (district-level location not specified in the IBM State Review)",
+            "description": "Total resources: 6.657 million tonnes as at 1 April 2020; all are remaining resources, with no reserves reported. IBM identifies chromite as one of the state's two important mineral occurrences.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Limestone",
+            "district": "Manipur (district-level location not specified in the IBM State Review)",
+            "description": "Total resources: 46.053 million tonnes as at 1 April 2020; all are remaining resources, with no reserves reported. IBM identifies limestone as one of the state's two important mineral occurrences.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 16795.28,
@@ -11475,7 +11532,51 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Major minerals — state production status",
+            "district": "Manipur",
+            "description": "No major mineral production was reported in 2023-24 in the IBM State Review. This does not mean that minor-mineral extraction was zero; minor minerals are not covered by that statement.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Micro food processing enterprises — PMFME",
+            "district": "Manipur (statewide)",
+            "description": "310 micro food processing enterprises had approved applications under PMFME as at 31 December 2025; approved subsidy ₹21.69 crore. These are scheme approvals, not a verified count of operating factories.",
+            "sourceId": "pibPMFME2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Handloom textiles",
+            "district": "Imphal, Thoubal, Bishnupur and Senapati",
+            "description": "PIB backgrounder identifies Phanek, Innaphi and Rani textiles and reports approximately 2.5 lakh weavers/artisans engaged in the handloom sector. This is a sector-level estimate, not an audited current employment count.",
+            "sourceId": "pibManipurGSTBackgrounder2025",
+            "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251010662001.pdf",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Processed food sector",
+            "district": "Imphal, Senapati and Chandel",
+            "description": "PIB backgrounder identifies these as major processed-food hubs and reports around 1.5 lakh workers in food-processing units. Sector includes pickles, bamboo shoots, fermented foods and vegetable preparations; figure is a backgrounder estimate.",
+            "sourceId": "pibManipurGSTBackgrounder2025",
+            "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251010662001.pdf",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Manipur (statewide inventory)",
+            "description": "DPIIT India Industrial Land Bank snapshot as at 23 December 2025 lists 7 industrial parks covering 36 hectares, with 13 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
+          }
+        ]
       },
       "highCourt": "Manipur High Court — Imphal"
     },

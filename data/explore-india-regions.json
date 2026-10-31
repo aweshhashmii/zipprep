@@ -16245,9 +16245,33 @@
           "referenceDate": "2025-12-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttarakhand State Review. Resource estimates are as at 1 April 2020; 2023-24 production is provisional."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttarakhand State Review. Resource estimates are as at 1 April 2020; 2023-24 production is provisional."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttarakhand State Review. Resource estimates are as at 1 April 2020; 2023-24 production is provisional."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -16863,7 +16887,120 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Limestone",
+            "district": "Almora, Bageshwar, Dehradun, Nainital, Pauri-Garhwal, Pithoragarh and Tehri-Garhwal",
+            "description": "High-grade limestone occurrence. Total resources: 1,575.771 million tonnes as at 1 April 2020; no reserves reported in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Almora, Bageshwar, Chamoli and Pithoragarh",
+            "description": "Total resources: 239.434 million tonnes as at 1 April 2020, comprising 9.959 million tonnes reserves and 229.476 million tonnes remaining resources. Uttarakhand accounts for about 52% of India's reported magnesite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Steatite",
+            "district": "Almora, Bageshwar, Chamoli and Pithoragarh",
+            "description": "Mineral occurrence districts identified by IBM; the Uttarakhand State Review does not provide a separate resource total for steatite.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tungsten",
+            "district": "Almora",
+            "description": "Mineral occurrence identified by IBM. Total tungsten ore resources: 658,000 tonnes as at 1 April 2020, containing 705 tonnes of WO₃; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asbestos",
+            "district": "Chamoli",
+            "description": "311 tonnes of remaining resources as at 1 April 2020; no reserves reported. Occurrence/resource listing is not evidence of active mining.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes",
+            "district": "Dehradun",
+            "description": "Occurrence district identified by IBM; no separate resource quantity is provided in the Uttarakhand State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Marble",
+            "district": "Dehradun",
+            "description": "Occurrence district identified by IBM; no separate resource quantity is provided in the Uttarakhand State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "Almora, Dehradun and Pithoragarh",
+            "description": "Total resources as at 1 April 2020: 4.220 million tonnes of copper ore and 60,040 tonnes of contained copper metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Dehradun, Nainital and Tehri-Garhwal",
+            "description": "Occurrence districts identified by IBM; no separate resource quantity is provided in the Uttarakhand State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "Almora",
+            "description": "10,700 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gypsum",
+            "district": "Dehradun, Pauri-Garhwal and Tehri-Garhwal",
+            "description": "Occurrence districts identified by IBM; no separate resource quantity is provided in the Uttarakhand State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead-zinc",
+            "district": "Dehradun and Pithoragarh",
+            "description": "Total resources as at 1 April 2020: 5.620 million tonnes of ore, containing 182,600 tonnes of lead metal and 266,830 tonnes of zinc metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock phosphate",
+            "district": "Dehradun and Tehri-Garhwal",
+            "description": "24,178,386 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silver",
+            "district": "Dehradun and Pithoragarh",
+            "description": "Total resources as at 1 April 2020: 3.390 million tonnes of ore containing 138.59 tonnes of silver metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 25534.97,
@@ -16909,6 +17046,98 @@
             "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
             "sourceId": "cwcGlacialLakeCounts2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ],
+        "mineralProduction": [
+          {
+            "name": "Magnesite — state total",
+            "district": "Uttarakhand",
+            "description": "2023-24 provisional production: 47,104 tonnes from 2 reporting mines; reported production value ₹113.917 million (₹113,917 thousand). IBM states magnesite was the only important mineral produced in the state in its major-mineral table; minor minerals are excluded.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Bageshwar",
+            "description": "2023-24 provisional production: 32,357 tonnes from 1 reporting mine; reported value ₹96.854 million (₹96,854 thousand).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Pithoragarh",
+            "description": "2023-24 provisional production: 14,747 tonnes from 1 reporting mine; reported value ₹17.063 million (₹17,063 thousand).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Tirupati Microns — abrasives powder",
+            "district": "Bhagwantpur, Kashipur, Udham Singh Nagar",
+            "description": "Listed capacity: 0.15 thousand tonnes per year of abrasives powder.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement — Roorkee grinding unit",
+            "district": "Haridwar",
+            "description": "Listed capacity: 1,200 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Roorkee grinding unit",
+            "district": "Haridwar",
+            "description": "Listed capacity: 1,800 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Laksar grinding unit",
+            "district": "Akbarpur-Oud, Laksar, Haridwar",
+            "description": "Listed capacity: 1,800 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Almora Magnesite Ltd — dead-burnt magnesite",
+            "district": "Matela, Bageshwar",
+            "description": "Listed capacity: 30 thousand tonnes per year for dead-burnt, calcined and semi-calcined magnesite.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Minerals & Refractories — dead-burnt magnesite",
+            "district": "Haldwani / Pithoragarh (as printed in IBM table)",
+            "description": "Listed capacity: 3 thousand tonnes per year of dead-burnt magnesite; the source's location wording is retained without assigning a single district.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kumaon Refractories — calcined magnesite",
+            "district": "Narsingh Talla, Haldwani, Nainital",
+            "description": "Listed capacity: 9 thousand tonnes per year of dead-burnt/calcined magnesite.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindustan National Glass & Industries Ltd",
+            "district": "Rishikesh, Dehradun",
+            "description": "Listed glass capacity: 155 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
           }
         ]
       },

@@ -17342,9 +17342,65 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2015",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Tripura State Review. Fireclay and quartz-silica-sand resource estimates are from the 1 April 2015 inventory cited by IBM; other minerals are reported as occurrences without a quantity."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "mopngGasReserves2024",
+          "sourceUrl": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU3285_Nrw7Vx.pdf?source=pqals",
+          "referenceYear": "2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Ministry of Petroleum and Natural Gas state-wise 2P balance recoverable reserves as at 1 April 2024, reproduced in a Lok Sabha answer."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "necYearbook2025",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "North Eastern Council Yearbook 2025, Tables 5.6.5 and 5.6.6; production values are rounded, crude oil includes condensate."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM reports no MCDR mineral production in Tripura during 2023-24; this statement excludes natural gas and crude oil reporting."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM lists the lime-pozzolana factory, glazed pottery unit and DP Group cold steel rolling plant, with stated capacities only for the first two."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibPMFME2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoFPI / PIB PMFME state-wise approved micro food-processing enterprises as at 31 December 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -17505,7 +17561,72 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Natural gas",
+            "district": "Tripura (Assam–Arakan Fold Belt basin; district-wise reserve split not provided in the cited table)",
+            "description": "2P balance recoverable gas reserves: 16.46 billion cubic metres as at 1 April 2024, according to the Ministry of Petroleum and Natural Gas data table annexed to a Lok Sabha reply. 2P reserves are not the same as total geological resources.",
+            "sourceId": "mopngGasReserves2024",
+            "sourceUrl": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU3285_Nrw7Vx.pdf?source=pqals",
+            "referenceYear": "2024"
+          },
+          {
+            "name": "Crude petroleum",
+            "district": "Tripura (district-wise reserve split not provided in the cited table)",
+            "description": "2P balance recoverable oil reserves: 0.07 million metric tonnes as at 1 April 2024, according to the Ministry of Petroleum and Natural Gas data table annexed to a Lok Sabha reply.",
+            "sourceId": "mopngGasReserves2024",
+            "sourceUrl": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU3285_Nrw7Vx.pdf?source=pqals",
+            "referenceYear": "2024"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Tripura (district-level location not specified in the IBM State Review)",
+            "description": "370,000 tonnes of remaining resources as at 1 April 2015; no reserves reported. IBM notes this was classified as a minor mineral by Gazette notification dated 10 February 2015.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2015"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Tripura (district-level location not specified in the IBM State Review)",
+            "description": "490,000 tonnes of remaining resources as at 1 April 2015; no reserves reported. IBM notes this was classified as a minor mineral by Gazette notification dated 10 February 2015.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2015"
+          },
+          {
+            "name": "Glass sand",
+            "district": "Tripura (district-level location not specified in the IBM State Review)",
+            "description": "Occurrence reported by IBM; used particularly for building and construction purposes. The State Review does not provide a separate resource quantity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Tripura (district-level location not specified in the IBM State Review)",
+            "description": "Occurrence reported by IBM; no resource quantity is provided in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Plastic clay",
+            "district": "Tripura (district-level location not specified in the IBM State Review)",
+            "description": "Occurrence reported by IBM; no resource quantity is provided in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shale",
+            "district": "Tripura (district-level location not specified in the IBM State Review)",
+            "description": "Occurrence reported by IBM; no resource quantity is provided in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 7832.33,
@@ -17543,7 +17664,75 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Natural gas",
+            "district": "Tripura (state total)",
+            "description": "2023-24 production: 1,525 million metric standard cubic metres, as reported by the North Eastern Council Yearbook 2025, sourced from Ministry of Petroleum & Natural Gas / IBM Monthly Statistics of Mineral Production.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Crude oil and condensate",
+            "district": "Tripura (state total)",
+            "description": "2023-24 production: approximately 2 thousand metric tonnes, rounded in the NEC Yearbook 2025. Production is very small relative to natural gas.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "MCDR minerals — state production status",
+            "district": "Tripura",
+            "description": "IBM reports that MCDR mineral production was not reported in Tripura during 2023-24. This does not mean natural gas production was zero; hydrocarbons are reported separately.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Lime-pozzolana mixture factory",
+            "district": "Kumarghat, North Tripura",
+            "description": "IBM reports an operating factory with installed capacity of 3,000 tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Glazed pottery unit — Tripura Khadi and Village Industrial Board",
+            "district": "Anandnagar, West Tripura",
+            "description": "IBM reports an operating glazed-pottery unit with installed capacity of 150 tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "DP Group — cold steel rolling plant",
+            "district": "Bodhjungnagar Industrial Complex, West Tripura",
+            "description": "IBM reports that DP Group has set up a cold steel rolling plant at Bodhjungnagar Industrial Complex; no installed capacity is stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Micro food processing enterprises — PMFME",
+            "district": "Tripura (statewide)",
+            "description": "286 micro food processing enterprises had approved applications under PMFME as at 31 December 2025; approved subsidy ₹7.05 crore. These are scheme approvals, not a verified count of operating factories.",
+            "sourceId": "pibPMFME2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Tripura (statewide inventory)",
+            "description": "DPIIT India Industrial Land Bank snapshot as at 23 December 2025 lists 20 industrial parks covering 1,828 hectares, with 623 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
+          }
+        ]
       },
       "highCourt": "Tripura High Court — Agartala"
     },

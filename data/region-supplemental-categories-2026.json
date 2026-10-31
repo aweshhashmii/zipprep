@@ -9943,6 +9943,78 @@
       "referenceDate": "CWC monitoring report, July 2024; inventory baseline 2011",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-747",
+      "regionName": "Haryana",
+      "category": "tribalCommunities",
+      "name": "Notified Scheduled Tribe list status",
+      "description": "No Scheduled Tribe community is specified for Haryana in the Ministry of Tribal Affairs' 2023-24 Annual Report. This is a statement about the notified Central list, not a claim that no tribal people reside in the State.",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/AnnualReport/AREnglish2324.pdf",
+      "sourceId": "tribalAffairsAnnualReport2023_24",
+      "referenceDate": "Ministry of Tribal Affairs 2023-24 publication",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-748",
+      "regionName": "Punjab",
+      "category": "tribalCommunities",
+      "name": "Notified Scheduled Tribe list status",
+      "description": "No Scheduled Tribe community is specified for Punjab in the Ministry of Tribal Affairs' 2023-24 Annual Report. This is a statement about the notified Central list, not a claim that no tribal people reside in the State.",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/AnnualReport/AREnglish2324.pdf",
+      "sourceId": "tribalAffairsAnnualReport2023_24",
+      "referenceDate": "Ministry of Tribal Affairs 2023-24 publication",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-749",
+      "regionName": "Chandigarh",
+      "category": "tribalCommunities",
+      "name": "Notified Scheduled Tribe list status",
+      "description": "No Scheduled Tribe community is specified for Chandigarh in the Ministry of Tribal Affairs' 2023-24 Annual Report. This is a statement about the notified Central list, not a claim that no tribal people reside in the Union Territory.",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/AnnualReport/AREnglish2324.pdf",
+      "sourceId": "tribalAffairsAnnualReport2023_24",
+      "referenceDate": "Ministry of Tribal Affairs 2023-24 publication",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-750",
+      "regionName": "Delhi",
+      "category": "tribalCommunities",
+      "name": "Notified Scheduled Tribe list status",
+      "description": "No Scheduled Tribe community is specified for Delhi in the Ministry of Tribal Affairs' 2023-24 Annual Report. This is a statement about the notified Central list, not a claim that no tribal people reside in the National Capital Territory.",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/AnnualReport/AREnglish2324.pdf",
+      "sourceId": "tribalAffairsAnnualReport2023_24",
+      "referenceDate": "Ministry of Tribal Affairs 2023-24 publication",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-751",
+      "regionName": "Puducherry",
+      "category": "tribalCommunities",
+      "name": "Notified Scheduled Tribe community entry",
+      "description": "The Ministry of Tribal Affairs' State/UT-wise list specifies Irular (including Villi and Vettaikaran) as a Scheduled Tribe in Puducherry.",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/NotifiedSTslistsason040823.pdf",
+      "sourceId": "tribalAffairsSTList2023",
+      "referenceDate": "Ministry of Tribal Affairs 2023-24 publication",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-752",
+      "regionName": "Lakshadweep",
+      "category": "tribalCommunities",
+      "name": "Notified Scheduled Tribe community entry",
+      "description": "The notified Scheduled Tribe entry covers inhabitants of the Laccadive, Minicoy and Aminidivi Islands who, and whose parents, were born in those islands, subject to the stated permanent-settlement provision.",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/NotifiedSTslistsason040823.pdf",
+      "sourceId": "tribalAffairsSTList2023",
+      "referenceDate": "Ministry of Tribal Affairs 2023-24 publication",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -10610,6 +10682,20 @@
       "title": "Central Water Commission — Glacial Lakes and Water Bodies Inventory and Monitoring, July 2024",
       "sourceUrl": "https://www.cwc.gov.in/sites/default/files/monitoring-report-july-2024.pdf",
       "referenceDate": "CWC monitoring report, July 2024; inventory baseline 2011"
+    },
+    {
+      "sourceId": "tribalAffairsSTList2023",
+      "title": "Ministry of Tribal Affairs — State/UT-wise List of Scheduled Tribes in India (2023) ",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/NotifiedSTslistsason040823.pdf",
+      "referenceDate": "2023-24 official publication",
+      "scope": "Official Presidential Order-based State/UT list; includes the specific entries for Lakshadweep and Puducherry."
+    },
+    {
+      "sourceId": "tribalAffairsAnnualReport2023_24",
+      "title": "Ministry of Tribal Affairs — Annual Report 2023-24, paragraphs 5.7–5.12",
+      "sourceUrl": "https://tribal.nic.in/downloads/Statistics/AnnualReport/AREnglish2324.pdf",
+      "referenceDate": "2023-24 official publication",
+      "scope": "Official statement that no community has been specified as a Scheduled Tribe in Haryana, Punjab, Chandigarh and Delhi."
     }
   ]
 }

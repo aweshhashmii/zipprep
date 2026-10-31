@@ -182,7 +182,8 @@ for (const [group, keys] of Object.entries(categoryGroups)) {
     const categoryRecords = (region) => {
       const base = key === 'languages' && !list((region.geography || {})[key]).length ? list(region.officialLanguages) : list((region.geography || {})[key]);
       const extra = (supplementalData.records || []).filter(row => row.regionName === region.name && row.category === key);
-      return base.concat(extra);
+      const giExtra = key === 'giProducts' ? (giData.records || []).filter(row => row.regionName === region.name) : [];
+      return base.concat(extra, giExtra);
     };
     const regionsWithData = regions.filter(r => categoryRecords(r).length > 0).length;
     const recordCount = regions.reduce((sum,r) => sum + categoryRecords(r).length, 0);

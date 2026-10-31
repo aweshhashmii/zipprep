@@ -3858,6 +3858,32 @@
       ],
       "referenceDate": "Official government source; see source publication date",
       "cadence": "Review against the latest WII/MoEFCC protected-area notifications and coastal-State list."
+    },
+    {
+      "id": "moefCommunityReserveRegister2025",
+      "name": "MoEFCC / ENVIS — Community Reserves in India (February 2025)",
+      "url": "https://dataful.in/datasets/1340/",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State-wise names, areas and notification years of community reserves"
+      ],
+      "referenceDate": "Register current to February 2025; dataset metadata updated 5 January 2026",
+      "cadence": "Review when MoEFCC/ENVIS publishes a new protected-area register."
+    },
+    {
+      "id": "moefConservationReserveRegister2025",
+      "name": "MoEFCC / ENVIS — Conservation Reserves in India (February 2025)",
+      "url": "https://dataful.in/datasets/1339/",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State-wise names, areas and notification years of conservation reserves"
+      ],
+      "referenceDate": "Register current to February 2025; dataset metadata updated 5 January 2026",
+      "cadence": "Review when MoEFCC/ENVIS publishes a new protected-area register."
     }
   ]
 }

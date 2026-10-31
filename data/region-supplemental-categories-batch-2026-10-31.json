@@ -1,0 +1,2994 @@
+{
+  "schemaVersion": 1,
+  "title": "Supplemental regional category batch — 31 October 2026",
+  "referenceDate": "2026-10-31",
+  "policy": "Only source-supported named examples are added to existing categories. A record verifies the stated feature and attributes, not an exhaustive regional inventory.",
+  "sources": [
+    {
+      "sourceId": "telanganaTourismBhuvanagiriHill2026",
+      "title": "Telangana Tourism — Bhuvanagiri destination profile",
+      "sourceUrl": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
+      "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019UttarPradeshForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Uttar Pradesh chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttar-pradesh.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.28; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019DadraNagarHaveliForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Dadra and Nagar Haveli chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-dadra-nagar-haveli.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.33; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019BiharForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.4; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019GoaForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Goa chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-goa.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.7; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019HaryanaForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.9; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019JharkhandForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Jharkhand chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.12; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019MaharashtraForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Maharashtra chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-maharashtra.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.16; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019ManipurForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.17; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019MizoramForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.19; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019NagalandForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.20; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019PunjabForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Punjab chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-punjab.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.22; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019RajasthanForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Rajasthan chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-rajasthan.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.23; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019TelanganaForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Telangana chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-telangana.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.26; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019TripuraForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.27; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019DelhiForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Delhi chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-delhi.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.6; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019JammuKashmirForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Jammu and Kashmir chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.11; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019JammuKashmirForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Ladakh chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.11; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019ChandigarhForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Chandigarh chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-chandigarh.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.32; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019DamanDiuForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Dadra and Nagar Haveli and Daman and Diu chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-daman-diu.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.34; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019LakshadweepForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Lakshadweep chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-lakshadweep.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.35; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019PuducherryForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Puducherry chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-puducherry.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.36; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nhpcHydroPortfolio2026",
+      "title": "NHPC — official list of hydroelectric projects and power stations",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "referenceDate": "NHPC official project portfolio accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nhpcChameraOne2026",
+      "title": "NHPC — Chamera-I Power Station",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/18/welcome/index.php",
+      "referenceDate": "NHPC Chamera-I project profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "neepcoHydroStations2026",
+      "title": "NEEPCO — Hydro Power Stations",
+      "sourceUrl": "https://www.neepco.co.in/power-generation/hydro-power",
+      "referenceDate": "NEEPCO hydro station portfolio updated 24 April 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "goaSalaulimDam2026",
+      "title": "Government of Goa — Salaulim Dam",
+      "sourceUrl": "https://www.goa.gov.in/places/salaulim-dam/",
+      "referenceDate": "Government of Goa dam profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chhattisgarhHasdeoBango2026",
+      "title": "Chhattisgarh Government — Minimata Hasdeo Bango Dam and project",
+      "sourceUrl": "https://jansampark.cg.gov.in/dprnewsportal/NewsPopup.aspx?param=F08MYM0HBPA%3D&type=TQwAi5bC7eg%3D",
+      "referenceDate": "Chhattisgarh Government information accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "meghalayaPowerPolicy2024",
+      "title": "Government of Meghalaya — Meghalaya Power Policy 2024",
+      "sourceUrl": "https://meghalaya.gov.in/meghalaya/sites/default/files/documents/Meghalaya_Power_Policy_2024.pdf",
+      "referenceDate": "Meghalaya Power Policy 2024, existing power plants table",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ceaTripuraHydroProfile2024",
+      "title": "Central Electricity Authority — State Profile on Hydro Development for Tripura",
+      "sourceUrl": "https://cea.nic.in/wp-content/uploads/hpi/2024/10/State_Profile_on_Hydro_Development.pdf",
+      "referenceDate": "CEA State Profile on Hydro Development for Tripura, 18 November 2024",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "bbmbBhakraBeasSystem2026",
+      "title": "Bhakra Beas Management Board — Indus Basin and Bhakra-Beas development projects",
+      "sourceUrl": "https://bbmb.gov.in/indus-basin.htm",
+      "referenceDate": "BBMB official project history accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nhpcKalpong2026",
+      "title": "NHPC — Kalpong Hydroelectric Project",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/49/index.php.html",
+      "referenceDate": "NHPC Kalpong project profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "gujaratDamangangaAgreement1992",
+      "title": "Government of Gujarat — Damanganga Reservoir Project agreement with Dadra and Nagar Haveli and Daman and Diu",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/agreement_for_damanganga.pdf",
+      "referenceDate": "Inter-governmental agreement dated 29 September 1992",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "title": "MHA/UNDP-supported study — Measuring Disaster Risks and Resilience at Sub-National Level in India",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "referenceDate": "Contributing paper to Global Assessment Report on Disaster Risk Reduction 2019; Table 1.6",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhBhakraCanalWaterSupply2024",
+      "title": "Chandigarh Administration — Water Quality Management and municipal water supply",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile, water-supply section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiJalBoardWaterSources2026",
+      "title": "Delhi Jal Board — About Us and raw-water sources",
+      "sourceUrl": "https://delhijalboard.delhi.gov.in/jalboard/about-us",
+      "referenceDate": "Delhi Jal Board official page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepAtollWaterInfrastructure2026",
+      "title": "Lakshadweep Administration — UT profile and OTEC desalination notice",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "cgwbChhattisgarhRiverBasin2023",
+      "title": "Central Ground Water Board — Ground Water Year Book, Chhattisgarh 2023–24",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/Chhattisgarh_GWYB%202023-24.pdf",
+      "referenceDate": "CGWB Chhattisgarh Ground Water Year Book 2023–24, section 2.2 Drainage",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "goaSDMANorthDistrictTributaries2022",
+      "title": "Goa State Disaster Management Authority — North Goa District Disaster Management Plan",
+      "sourceUrl": "https://www.sdma.goa.gov.in/sites/default/files/2022-07/District%20Disaster%20Management%20Plan%20%28North%29_0.pdf",
+      "referenceDate": "North Goa District Disaster Management Plan, river tributaries section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "gujaratNWRWSRiverGaugeTributaries2010",
+      "title": "Gujarat Narmada Water Resources, Water Supply and Kalpsar Department — River Gauge Availability",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/final_rivergauge_availibility.pdf",
+      "referenceDate": "Official river-gauge inventory, data coverage through 2010",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "keralaIrrigationPeriyarBasin2022",
+      "title": "Kerala Irrigation Department — Periyar River Basin, Room for River report",
+      "sourceUrl": "https://irrigation.kerala.gov.in/sites/default/files/2022-02/Room4River_Periyar_Report.pdf",
+      "referenceDate": "Kerala Irrigation Department Periyar River Basin report, 2022",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "manipurDistrictPlanImphalThoubal2020",
+      "title": "Government of Manipur — District Disaster Management Plan, river and lake section",
+      "sourceUrl": "https://manipur.gov.in/wp-content/uploads/2020/03/tbl-dmplan.pdf",
+      "referenceDate": "Government of Manipur district disaster plan, 2020",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mizoramDIPRPhysiography2026",
+      "title": "Mizoram Directorate of Information and Public Relations — Physiography",
+      "sourceUrl": "https://dipr.mizoram.gov.in/page/physiography",
+      "referenceDate": "Official Mizoram physiography profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "sikkimGovernmentPhysicalFeatures2019",
+      "title": "Government of Sikkim — Important Rivers of Sikkim and their Tributaries",
+      "sourceUrl": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
+      "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "wokhaDistrictDoyangTributaries2026",
+      "title": "Wokha District Administration — Doyang Hydro Project and river profile",
+      "sourceUrl": "https://wokha.nic.in/tourist-place/doyang-hydro-project/",
+      "referenceDate": "Wokha District Administration profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ambalaDistrictRiverSystem2026",
+      "title": "Ambala District Administration — River System and Water Resources",
+      "sourceUrl": "https://ambala.gov.in/climate/",
+      "referenceDate": "Ambala District Administration geography profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiIFCSahibiNajafgarh2026",
+      "title": "Delhi Irrigation and Flood Control Department — Flood Problem due to Sahibi River",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/flood-problem-due-sahibi-river",
+      "referenceDate": "Government of NCT of Delhi page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryWaterResourcesTributaries2018",
+      "title": "Government of Puducherry — Water Resources of Puducherry Region",
+      "sourceUrl": "https://police.py.gov.in/Water%20Resource%20of%20Puducherry%20Region%20-%2002.03.18%20-%20Presentation%20by%20Dr%20Bascarane%20CGO.pdf",
+      "referenceDate": "Government of Puducherry water-resources presentation, 2 March 2018",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "meghalayaGovernmentRiverSystems2026",
+      "title": "Meghalaya House, Government of Meghalaya — Natural Features",
+      "sourceUrl": "https://www.meghalayahousedelhi.nic.in/features.html",
+      "referenceDate": "Official Government of Meghalaya profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraGovernmentRiverCatchments2024",
+      "title": "Government of Tripura — Industrial Infrastructure Sector Development Program, Dewanpassa Industrial Estate",
+      "sourceUrl": "https://industries.tripura.gov.in/sites/default/files/Tripura%20Industrial%20Infrastructure%20Sector%20Development%20Program%20-%20Dewanpassa%20Industrial%20Estate%20Draft%20Resettlement%20Plan.pdf",
+      "referenceDate": "Tripura Government project report, Table 4-3: Rivers of Tripura and Catchment Area",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanForestDepartmentGreatNicobarHydrology2021",
+      "title": "Andaman and Nicobar Administration — Great Nicobar Biosphere Reserve Management Plan 2021–2031",
+      "sourceUrl": "https://forest.and.nic.in/Forest_upload/file.php?id=Mjg5",
+      "referenceDate": "Great Nicobar Biosphere Reserve Management Plan 2021–2031, section 2.5 Hydrology and Water Sources",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhAdministrationSeasonalRivulets2024",
+      "title": "Chandigarh Administration — District profile, physical setting and seasonal rivulets",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile, physical setting section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "title": "Dadra and Nagar Haveli and Daman and Diu Administration — UT at a Glance and river references",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepAdministrationAtollProfile2026",
+      "title": "Lakshadweep Administration — About Lakshadweep",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "goaForestOliveRidleyConservation2026",
+      "title": "Goa Forest Department — Olive Ridley turtle nesting and conservation sites",
+      "sourceUrl": "https://forest.goa.gov.in/node/1180",
+      "referenceDate": "Official Goa Forest Department page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "moefccProjectLionAnnualReport2025",
+      "title": "MoEFCC — Annual Report 2024–25, Project Lion",
+      "sourceUrl": "https://moef.gov.in/uploads/pdf-uploads/English_Annual_Report_2024-25.pdf",
+      "referenceDate": "MoEFCC Annual Report 2024–25, Project Lion section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "haryanaVultureBreedingCentre2026",
+      "title": "Haryana Forest Department — Vulture Conservation Breeding Centre, Pinjore",
+      "sourceUrl": "https://wildlife.haryanaforest.gov.in/places-centres/vulture-conservation-breeding-centre-pinjore/",
+      "referenceDate": "Official Haryana Forest Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "hpProjectSnowLeopard2026",
+      "title": "Himachal Pradesh Forest Department — Project Snow Leopard",
+      "sourceUrl": "https://hpforest.gov.in/project-snow-leopard",
+      "referenceDate": "Official HP Forest Department project profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "manipurKeibulLamjaoDevelopment2011",
+      "title": "Government of Manipur — Forest Department Annual Administrative Report 2010–11",
+      "sourceUrl": "https://manipur.gov.in/wp-content/uploads/2012/10/forest_2010-111.pdf",
+      "referenceDate": "Manipur Forest Department Annual Administrative Report 2010–11, Scheme 24",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "moefccBeasConservationReserve2020",
+      "title": "MoEFCC — Ramsar Sites of India Factsheets, Beas Conservation Reserve",
+      "sourceUrl": "https://www.moef.gov.in/uploads/2021/01/Ramsaar-Factsheets_2020_Low-3_compressed-2.pdf",
+      "referenceDate": "Ramsar Information Sheet for Beas Conservation Reserve, designated 26 September 2019",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "sikkimRedPandaConservation2026",
+      "title": "Government of Sikkim — Red Panda conservation and My Child from the Wild programme",
+      "sourceUrl": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=French+Ambassador+Aims+to+Support+Conservation+of+the+State+Animal+of+Sikkim",
+      "referenceDate": "Government of Sikkim news release, 13 November 2024",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraSepahijalaConservationBreeding2015",
+      "title": "Government of Tripura — Sepahijala Conservation Breeding Programme",
+      "sourceUrl": "https://tripura.gov.in/sites/default/files/press_meet_03_07_2015.pdf",
+      "referenceDate": "Government of Tripura press-meet note, 3 July 2015",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanGreatNicobarBiospherePlan2021",
+      "title": "Andaman and Nicobar Administration — Great Nicobar Biosphere Reserve Management Plan 2021–2031",
+      "sourceUrl": "https://forest.and.nic.in/Forest_upload/file.php?id=Mjg5",
+      "referenceDate": "Great Nicobar Biosphere Reserve Management Plan 2021–2031",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhSukhnaWetlandManagement2026",
+      "title": "Chandigarh Administration — Environmental status and Sukhna Wetland management",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/Updation26/env26-dep2026-1901.pdf",
+      "referenceDate": "Chandigarh Administration 2026 district environment report, Sukhna Wetland section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "dddForestDepartmentConservationMandate2026",
+      "title": "Forest Department, Dadra and Nagar Haveli and Daman and Diu — Department profile",
+      "sourceUrl": "https://forests.ddd.gov.in/",
+      "referenceDate": "Official UT Forest Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiAsolaBhattiRestoration2026",
+      "title": "Government of NCT of Delhi — Asola Bhatti Wildlife Sanctuary restoration and management",
+      "sourceUrl": "https://abwls.eforest.delhi.gov.in/about.aspx",
+      "referenceDate": "Official Delhi Forest and Wildlife Department sanctuary profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "projectSnowLeopardJammuKashmir2008",
+      "title": "MoEF — Project Snow Leopard, national strategy and state-level consultations",
+      "sourceUrl": "https://hpforest.gov.in/storage/files/1/pdf/Wildlife/Wildlife%20Resource%20Library/NCF/Project%20Snow%20Leopard%20%28Ministry%20of%20Environment%20and%20Forests%29%2C%202008.pdf",
+      "referenceDate": "Project Snow Leopard national strategy, 2008; identifies Jammu and Kashmir among participating Himalayan states",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ladakhProjectHimSarovar2026",
+      "title": "Ladakh Administration — Project Him Sarovar",
+      "sourceUrl": "https://ladakh.gov.in/l-g-vinai-kumar-saxena-launches-project-him-sarovar-to-strengthen-water-security-in-ladakh/",
+      "referenceDate": "Ladakh Administration press release, 10 April 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepMarineWildlifeConservation2026",
+      "title": "Lakshadweep Administration — Department of Environment and Forest",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-environment-and-forest/",
+      "referenceDate": "Official Lakshadweep Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryOliveRidleyConservation2047",
+      "title": "Government of Puducherry — UT Vision 2047, wildlife and turtle conservation",
+      "sourceUrl": "https://pandr.py.gov.in/sites/default/files/UTP%20-%20Vision%20%40%202047.pdf",
+      "referenceDate": "Puducherry UT Vision 2047, page 299, annual action plan 2026–27",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "biharGangeticDolphinOfficial2026",
+      "title": "Bihar Forest Department — Vikramshila Gangetic Dolphin Sanctuary",
+      "sourceUrl": "https://forestonline.bihar.gov.in/Dolphin/Dolphin.aspx",
+      "referenceDate": "Official Bihar Forest Department sanctuary profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ntcaWildWaterBuffaloChhattisgarh2025",
+      "title": "National Tiger Conservation Authority — Status of Ungulates in India",
+      "sourceUrl": "https://ntca.gov.in/wp-content/uploads/2025/05/Status-of-Ungulates-1.pdf",
+      "referenceDate": "NTCA Status of Ungulates in India, 2025, Indravati Tiger Reserve section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "haryanaVultureCentreSpecies2026",
+      "title": "Haryana Forest Department — Vulture Conservation Breeding Centre, Pinjore",
+      "sourceUrl": "https://wildlife.haryanaforest.gov.in/places-centres/vulture-conservation-breeding-centre-pinjore/",
+      "referenceDate": "Official Haryana Forest Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "jharkhandBiodiversityThreatenedSpecies2023",
+      "title": "Jharkhand Biodiversity Board — Booklet on Threatened Species of Jharkhand",
+      "sourceUrl": "https://jbb.jharkhand.gov.in/wp-content/uploads/2023/08/Boklet-on-Thretended-Species-of-Jharkhand.pdf",
+      "referenceDate": "Jharkhand Biodiversity Board threatened-species booklet, 2023",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nagalandIntankiEndangeredFauna2026",
+      "title": "Nagaland Forest Department — Intanki National Park",
+      "sourceUrl": "https://forest.nagaland.gov.in/intanki-national-park/",
+      "referenceDate": "Official Nagaland Forest Department protected-area profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nfdbPunjabIndusDolphin2025",
+      "title": "National Fisheries Development Board — State Fishes and Aquatic Animals of India",
+      "sourceUrl": "https://nfdb.gov.in/PDF/E%20Publications/15_State_fishes_and_aquatic_animals_of_India_english_final_48%20pages.pdf",
+      "referenceDate": "NFDB state aquatic animals compendium, Punjab entry; IUCN assessment year 2021",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "telanganaForestEndangeredFauna2026",
+      "title": "Telangana Forest Department — Wildlife in Telangana",
+      "sourceUrl": "https://forests.telangana.gov.in/Wildlife.aspx",
+      "referenceDate": "Official Telangana Forest Department wildlife profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraForestRareEndangeredFauna2025",
+      "title": "Tripura Forest Department — Environmental and Social Management Framework, rare and endangered fauna in protected areas",
+      "sourceUrl": "https://forest.tripura.gov.in/sites/default/files/documents/Environmental%20and%20Social%20Management%20Frameworks_P179935.pdf",
+      "referenceDate": "Tripura Forest Department framework, Table 4-14",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "upEcoBoardChambalEndangeredSpecies2026",
+      "title": "Uttar Pradesh Eco-Tourism Development Board — National Chambal Sanctuary",
+      "sourceUrl": "https://upecoboard.up.gov.in/en/article/national-chambal-sanctuary",
+      "referenceDate": "Official UP Eco-Tourism Board sanctuary profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhPangolinFauna2026",
+      "title": "Chandigarh Administration — Flora and Fauna of Sukhna Wildlife Sanctuary",
+      "sourceUrl": "https://chandigarh.gov.in/flora-and-fauna",
+      "referenceDate": "Official Chandigarh Administration fauna profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiAsolaThreatenedBirds2026",
+      "title": "Delhi Forest and Wildlife Department — Asola Bhatti Wildlife Sanctuary faunal diversity",
+      "sourceUrl": "https://abwls.eforest.delhi.gov.in/about.aspx",
+      "referenceDate": "Official sanctuary biodiversity survey accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryHawksbillTurtleEIA2025",
+      "title": "Puducherry Department of Science, Technology and Environment — Sagarmala EIA Report",
+      "sourceUrl": "https://dste.py.gov.in/ppcc/pdf/publichearing/sagarmala/EIA_Report.pdf",
+      "referenceDate": "Puducherry Minor Port EIA, Section 3.2.4.10; IUCN status references",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "dddForestFaunaScope2026",
+      "title": "Dadra and Nagar Haveli and Daman and Diu Forest Department — official department and wildlife profile",
+      "sourceUrl": "https://forests.ddd.gov.in/",
+      "referenceDate": "Official UT Forest Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ladakhWildlifeScope2026",
+      "title": "Ladakh Administration — Department of Wildlife Protection",
+      "sourceUrl": "https://ladakh.gov.in/",
+      "referenceDate": "Official Ladakh Administration portal accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepFaunaScope2026",
+      "title": "Lakshadweep Administration — Fauna and Flora",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/fauna-flora/",
+      "referenceDate": "Official Lakshadweep fauna profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "moefccCriticallyEndangeredSpeciesRecovery",
+      "title": "MoEFCC — Recovery Programme for Critically Endangered Species and Habitats",
+      "sourceUrl": "https://moef.gov.in/wildlife-wl",
+      "referenceDate": "MoEFCC official recovery programme page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "jharkhandForestElephantDistribution2026",
+      "title": "Jharkhand Forest Department — Wildlife and Elephant Reserve Network",
+      "sourceUrl": "https://forest.jharkhand.gov.in/wings_wildlife.aspx",
+      "referenceDate": "Official Jharkhand Forest Department wildlife profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "iucnGharialRedList",
+      "title": "IUCN Red List — Gharial (Gavialis gangeticus)",
+      "sourceUrl": "https://www.iucnredlist.org/species/8966/153791126",
+      "referenceDate": "IUCN Red List species assessment",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "iucnGangeticDolphinRedList",
+      "title": "IUCN Red List — South Asian river dolphin (Platanista gangetica)",
+      "sourceUrl": "https://www.iucnredlist.org/species/41756/50383346",
+      "referenceDate": "IUCN Red List species assessment",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "iucnIndianPangolinRedList",
+      "title": "IUCN Red List — Indian pangolin (Manis crassicaudata)",
+      "sourceUrl": "https://www.iucnredlist.org/species/12761/123584856",
+      "referenceDate": "IUCN Red List species assessment",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "arunachalPMKSYWatershed2024",
+      "title": "Arunachal Pradesh Rural Development Department — WDC-PMKSY 2.0 project dashboard",
+      "sourceUrl": "https://ruraldev.arunachal.gov.in/pmksy-data.php",
+      "referenceDate": "Official project dashboard accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mizoramMinorIrrigationSchemes2026",
+      "title": "Mizoram Irrigation and Water Resources Department — Programmes and Schemes",
+      "sourceUrl": "https://irrigation.mizoram.gov.in/page/programmes-schemes",
+      "referenceDate": "Official department programme profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nagalandMinorIrrigation2024",
+      "title": "Nagaland Information and Public Relations Department — Nagaland Basic Facts 2024, Minor Irrigation",
+      "sourceUrl": "https://ipr.nagaland.gov.in/sites/default/files/2025-03/Nagaland%20Basic%20Facts%202024.pdf",
+      "referenceDate": "Nagaland Basic Facts 2024, minor irrigation status through 2023–24",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "sikkimWaterResourcesIrrigation2026",
+      "title": "Sikkim Water Resources and River Development Department — Department profile and PMKSY schemes",
+      "sourceUrl": "https://www.sikkim.gov.in/departments/water-resource-river-development-department",
+      "referenceDate": "Official department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanAPWDMinorIrrigation2026",
+      "title": "Andaman Public Works Department — Minor Irrigation, Flood Control and Anti-Sea Erosion",
+      "sourceUrl": "https://apwd.and.nic.in/apwd/Activities.htm",
+      "referenceDate": "Official APWD activities page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiIFCIrrigationProjects2026",
+      "title": "Delhi Irrigation and Flood Control Department — Management of Irrigation Projects",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/management-irrigation-projects",
+      "referenceDate": "Official Government of NCT of Delhi page last updated 14 August 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryNeerumOorumIrrigation2019",
+      "title": "Puducherry District Environment Plan — Neerum Oorum water-body restoration and irrigation",
+      "sourceUrl": "https://dste.py.gov.in/sites/default/files/deppuducherry.pdf",
+      "referenceDate": "Puducherry District Environment Plan, section 10, page 52",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhIrrigationScope2024",
+      "title": "Chandigarh Administration — District profile and municipal water infrastructure",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepAgricultureScope2026",
+      "title": "Lakshadweep Administration — Department of Agriculture",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "referenceDate": "Official UT Agriculture Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "assamTourismKamarupaHistory2018",
+      "title": "Assam Tourism — History of Assam and Kamarupa",
+      "sourceUrl": "https://assamtourism.gov.in/blog-4.php",
+      "referenceDate": "Assam Tourism history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "cgYouthCommissionHistory2026",
+      "title": "Chhattisgarh State Youth Commission — History of Chhattisgarh",
+      "sourceUrl": "https://yuvaayog.cg.gov.in/en/about-us.php?yuvaayog=7",
+      "referenceDate": "Official Chhattisgarh State Youth Commission history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "goaDIPHistory2026",
+      "title": "Department of Information and Publicity, Goa — History of Goa",
+      "sourceUrl": "https://dip.goa.gov.in/history-of-goa/",
+      "referenceDate": "Official Goa history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "gujaratBhavnagarCensusHistory2011",
+      "title": "Census of India — District Census Handbook, Bhavnagar, historical perspective",
+      "sourceUrl": "https://censusindia.gov.in/nada/index.php/catalog/388/download/1200/DH_2011_2414_PART_A_DCHB_BHAVNAGAR.pdf",
+      "referenceDate": "Census of India 2011 District Census Handbook, Bhavnagar, historical perspective",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "haryanaKurukshetraHistory2026",
+      "title": "Kurukshetra District Administration — History of Kurukshetra",
+      "sourceUrl": "https://kurukshetra.gov.in/history/",
+      "referenceDate": "Official district history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "hpGovernmentEarlyHistory2026",
+      "title": "Government of Himachal Pradesh — Early History and hill states",
+      "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB6TUCCoK9ez%2FA%3D%3D",
+      "referenceDate": "Official Himachal Pradesh history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "manipurTourismHistory2026",
+      "title": "Manipur Tourism — History and heritage of Manipur",
+      "sourceUrl": "https://manipurtourism.gov.in/highlights/",
+      "referenceDate": "Official Manipur Tourism history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "telanganaTourismHistory2026",
+      "title": "Telangana Tourism — History and Culture",
+      "sourceUrl": "https://tourism.telangana.gov.in/page/history-culture",
+      "referenceDate": "Official Telangana Tourism history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "jkPlanningHistory2026",
+      "title": "Jammu and Kashmir Planning, Development and Monitoring Department — History",
+      "sourceUrl": "https://www.jkplanning.gov.in/history.html",
+      "referenceDate": "Official J&K Government history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "igncaMadraHistory",
+      "title": "Indira Gandhi National Centre for the Arts — Ancient Madra Kingdom",
+      "sourceUrl": "https://ignca.gov.in/Asi_data/6059.pdf",
+      "referenceDate": "IGNCA historical reference on ancient kingdoms of north-western India",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepGovernmentHistory2026",
+      "title": "Lakshadweep Administration — History of Lakshadweep",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/history/",
+      "referenceDate": "Official UT history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "arunachalStateGazetteer2026",
+      "title": "Government of Arunachal Pradesh — State Gazetteer",
+      "sourceUrl": "https://arunachalpradesh.gov.in/images/Gazetteer/state-gazetteer.pdf",
+      "referenceDate": "Arunachal Pradesh State Gazetteer, Chutiya and Bhismaknagar history sections",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "meghalayaJaintiaKingdomHistory2026",
+      "title": "Government of Meghalaya — Jaintia Kingdom and the Twelve Elakas",
+      "sourceUrl": "https://meghalaya.gov.in/index.php/node/34293",
+      "referenceDate": "Official Meghalaya Government history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "odishaGovernmentDynasticHistory2026",
+      "title": "Government of Odisha — Land and People, dynastic history",
+      "sourceUrl": "https://odisha.gov.in/en/odisha-profile/land-and-people",
+      "referenceDate": "Official Odisha Government history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "sikkimNamgyalHistory2026",
+      "title": "Government of Sikkim — Namgyal dynasty and statehood history",
+      "sourceUrl": "https://50yearsofstatehood.sikkim.gov.in/",
+      "referenceDate": "Official Sikkim 50 Years of Statehood history timeline",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraManikyaHistory2024",
+      "title": "Tripura Board of Secondary Education — History of Tripura and Manikya dynasty",
+      "sourceUrl": "https://tbse.tripura.gov.in/sites/default/files/Social%20Science.pdf",
+      "referenceDate": "Tripura Board of Secondary Education Social Science syllabus 2024–25",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "uttarakhandBoardRevenueHistory2026",
+      "title": "Board of Revenue, Uttarakhand — History of Kumaon and Garhwal dynasties",
+      "sourceUrl": "https://bor.uk.gov.in/content-category/history/",
+      "referenceDate": "Official Uttarakhand Board of Revenue history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "upKannaujHistory2026",
+      "title": "Kannauj District Administration — History of Kannauj and the Gahadavala kingdom",
+      "sourceUrl": "https://kannauj.nic.in/history/",
+      "referenceDate": "Official Kannauj District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "keralaTourismCheraHistory2026",
+      "title": "Kerala Tourism — Muziris history, Chera and post-Kulasekhara polities",
+      "sourceUrl": "https://www.keralatourism.org/muziris/history",
+      "referenceDate": "Official Kerala Tourism Muziris heritage history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "biharKaimurDistrictHistory2021",
+      "title": "Government of Bihar — Kaimur District Survey Report, historical perspective",
+      "sourceUrl": "https://state.bihar.gov.in/cache/17/Smart%20City/DReports/DSR-PR-MM-Kaimur.pdf",
+      "referenceDate": "Official Bihar district survey report, historical perspective section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "punjabGovernmentHistory2026",
+      "title": "Government of Punjab — History of Punjab",
+      "sourceUrl": "https://punjab.gov.in/know-punjab/history/",
+      "referenceDate": "Official Punjab Government history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "jharkhandPalamuCheroHistory2026",
+      "title": "Palamu District Administration — History of the Chero rulers",
+      "sourceUrl": "https://palamu.nic.in/history/",
+      "referenceDate": "Official Palamu District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mpDharParamaraHistory2026",
+      "title": "Dhar District Administration — History of the Paramara dynasty",
+      "sourceUrl": "https://dhar.nic.in/en/history/",
+      "referenceDate": "Official Dhar District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mpSatnaKalachuriHistory2026",
+      "title": "Satna District Administration — History of the Kalachuri and Chedi clans",
+      "sourceUrl": "https://satna.mp.gov.in/history/",
+      "referenceDate": "Official Satna District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andhraKrishnaDistrictHistory2026",
+      "title": "Krishna District Administration — History of the Andhra region",
+      "sourceUrl": "https://krishna.ap.gov.in/about_district/history/",
+      "referenceDate": "Official Krishna District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ladakhLehDistrictHistory2026",
+      "title": "Leh District Administration — History of Ladakh and Namgyal rulers",
+      "sourceUrl": "https://leh.nic.in/about-district/history/",
+      "referenceDate": "Official Leh District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryGovernmentHistory2026",
+      "title": "Government of Puducherry — History of Puducherry",
+      "sourceUrl": "https://www.py.gov.in/history",
+      "referenceDate": "Official Puducherry Government history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mizoramLandRevenueChiefdomHistory2026",
+      "title": "Mizoram Land Revenue and Settlement Department — History of village chieftainship",
+      "sourceUrl": "https://eram.mizoram.gov.in/pages/about-us",
+      "referenceDate": "Official Mizoram department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nagalandVillageRepublicsHistory2018",
+      "title": "Government of Nagaland — Nagaland Round Table Conference Report, traditional village republics",
+      "sourceUrl": "https://focus.nagaland.gov.in/wp-content/uploads/2018/03/Nagaland-Round-Table-Conference-Report.pdf",
+      "referenceDate": "Nagaland Round Table Conference Report, chapter 7",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanNicobarDistrictHistory2026",
+      "title": "Nicobar District Administration — History of the Nicobar Islands",
+      "sourceUrl": "https://nicobars.andaman.nic.in/history/",
+      "referenceDate": "Official Nicobar District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraIEETraditionalKings2024",
+      "title": "Agartala Smart City — Initial Environmental Examination, historical note on early Tripura rulers",
+      "sourceUrl": "https://agartalasmartcity.tripura.gov.in/sites/default/files/2024-10/IEE%20Ujjayanta%20Lake%20Part-A.pdf",
+      "referenceDate": "Agartala Smart City IEE, section 128, History, Culture and Tourism",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhAdministrationHistory2024",
+      "title": "Chandigarh Administration — District profile and regional history",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "lastVerifiedAt": "2026-10-31"
+    }
+  ],
+  "records": [
+    {
+      "id": "peak-bhuvanagiri-telangana-2026",
+      "regionName": "Telangana",
+      "category": "peaks",
+      "name": "Bhuvanagiri Hill",
+      "description": "A prominent monolithic hill crowned by Bhuvanagiri Fort. Telangana Tourism gives the hill's height as 610 metres; this record documents the named hill and the published elevation, not a claim that it is the state's highest point.",
+      "sourceUrl": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
+      "sourceId": "telanganaTourismBhuvanagiriHill2026",
+      "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-uttar-pradesh-forest-types-2019",
+      "regionName": "Uttar Pradesh",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Uttar Pradesh",
+      "description": "The Forest Survey of India’s 2019 State of Forest Report classifies Uttar Pradesh’s forests into five Champion and Seth forest-type groups and 28 forest types. Reported types include Northern Dry Mixed Deciduous Forest, Anogeissus pendula Forest, Dry Siwalik Sal Forest, Western and Eastern Alluvial Plains Sal Forests, swamp forest and alluvial grassland. This is a forest-ecosystem profile, not a complete inventory of all state ecosystems.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttar-pradesh.pdf",
+      "sourceId": "fsiISFR2019UttarPradeshForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.28, especially section 11.28.3 and Table 11.28.9",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-dnh-forest-types-2019",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "ecosystems",
+      "name": "Forest ecosystems — Dadra and Nagar Haveli component",
+      "description": "The Forest Survey of India’s 2019 State of Forest Report identifies two forest-type groups in the former Dadra and Nagar Haveli Union Territory: Tropical Moist Deciduous Forests and Tropical Dry Deciduous Forests, represented by four forest types. The cited chapter covers Dadra and Nagar Haveli only, not the former Daman and Diu districts; this entry is scoped to that component of the present merged Union Territory.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-dadra-nagar-haveli.pdf",
+      "sourceId": "fsiISFR2019DadraNagarHaveliForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.33, sections 11.33.1 and 11.33.3",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-bihar-forest-types-2019",
+      "regionName": "Bihar",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Bihar",
+      "description": "The Forest Survey of India (FSI) classifies Bihar's forests into four Champion and Seth forest-type groups and 13 forest types. Sal forests occur in the Terai of West Champaran (moist deciduous) and in southern districts including Kaimur, Rohtas, Gaya, Jamui, Munger and Banka (dry deciduous).",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+      "sourceId": "fsiISFR2019BiharForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.4; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-goa-forest-types-2019",
+      "regionName": "Goa",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Goa",
+      "description": "FSI identifies five forest-type groups and five forest types in Goa. The report describes plateau vegetation across undulating terrain and hills and records 16 mangrove species, including Rhizophora, Bruguiera, Avicennia and Sonneratia.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-goa.pdf",
+      "sourceId": "fsiISFR2019GoaForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.7; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-haryana-forest-types-2019",
+      "regionName": "Haryana",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Haryana",
+      "description": "FSI identifies three forest-type groups in Haryana: Tropical Dry Deciduous, Tropical Thorn and Subtropical Pine, divided into ten forest types. The report also notes the State's extensive agroforestry landscape.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+      "sourceId": "fsiISFR2019HaryanaForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.9; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-jharkhand-forest-types-2019",
+      "regionName": "Jharkhand",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Jharkhand",
+      "description": "FSI identifies two forest-type groups in Jharkhand, divided into eight forest types. The report describes a forest-rich plateau landscape, with tropical moist deciduous and tropical dry deciduous formations.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+      "sourceId": "fsiISFR2019JharkhandForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.12; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-maharashtra-forest-types-2019",
+      "regionName": "Maharashtra",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Maharashtra",
+      "description": "FSI identifies six forest-type groups in Maharashtra, divided into 17 forest types. The mapped formations include West Coast Semi-Evergreen, Southern Moist Mixed Deciduous, mangrove, littoral, riparian, dry teak, dry bamboo and Western Subtropical Hill Forest.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-maharashtra.pdf",
+      "sourceId": "fsiISFR2019MaharashtraForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.16; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-manipur-forest-types-2019",
+      "regionName": "Manipur",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Manipur",
+      "description": "FSI's forest-type mapping for Manipur includes Cachar Semi-Evergreen Forest, Secondary Moist Bamboo Brakes, East Himalayan Moist Mixed Deciduous Forest, Eastern Wet Alluvial Grassland, East Himalayan and Khasi Sub-Tropical Wet Hill Forests, Naga Hill Wet Temperate Forest and Montane Bamboo Brakes.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+      "sourceId": "fsiISFR2019ManipurForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.17; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-mizoram-forest-types-2019",
+      "regionName": "Mizoram",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Mizoram",
+      "description": "FSI's Champion and Seth forest-type mapping and biodiversity assessment for Mizoram records tropical semi-evergreen, tropical moist deciduous and subtropical pine forest groups. The rapid assessment observed 87 tree, 96 shrub and 56 herb species; these are survey observations, not a complete species inventory.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+      "sourceId": "fsiISFR2019MizoramForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.19; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-nagaland-forest-types-2019",
+      "regionName": "Nagaland",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Nagaland",
+      "description": "FSI's forest-type mapping for Nagaland classifies forest formations under the Champion and Seth system. Its rapid biodiversity assessment observed 56 tree, 137 shrub and 113 herb species; these are survey observations, not a complete species inventory.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+      "sourceId": "fsiISFR2019NagalandForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.20; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-punjab-forest-types-2019",
+      "regionName": "Punjab",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Punjab",
+      "description": "FSI's forest-type mapping for Punjab records Northern Dry Mixed Deciduous Forest, Dry Deciduous Scrub, Dry Bamboo Brakes, Anogeissus pendula Forest and Scrub, Ravine Thorn Forest, Desert Thorn Forest and Siwalik Chir Pine Forest, alongside plantation/tree cover outside forests.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-punjab.pdf",
+      "sourceId": "fsiISFR2019PunjabForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.22; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-rajasthan-forest-types-2019",
+      "regionName": "Rajasthan",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Rajasthan",
+      "description": "FSI's mapped forest types in Rajasthan include Northern Dry Mixed Deciduous Forest, Anogeissus pendula Forest and Scrub, Very Dry and Dry Teak Forest, Dry Savannah Forest, Boswellia Forest, Butea Forest, Aegle Forest, Phoenix Savannah Forest and Dry Tropical Riverain Forest.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-rajasthan.pdf",
+      "sourceId": "fsiISFR2019RajasthanForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.23; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-telangana-forest-types-2019",
+      "regionName": "Telangana",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Telangana",
+      "description": "FSI's 2019 forest-cover type table for Telangana reports Southern Dry Mixed Deciduous Forest (60.52%), Dry Deciduous Scrub (19.21%), Dry Teak Forest (14.84%) and smaller mapped areas of Southern Moist Mixed Deciduous Forest, bamboo brakes and other types. Percentages refer to the report's mapped forest-cover classes.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-telangana.pdf",
+      "sourceId": "fsiISFR2019TelanganaForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.26; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-tripura-forest-types-2019",
+      "regionName": "Tripura",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Tripura",
+      "description": "FSI's mapped forest types in Tripura include Cachar Semi-Evergreen Forest, Secondary Moist Bamboo Brakes, East Himalayan Lower Bhabar Sal and East Himalayan Moist Mixed Deciduous Forest, with plantation/tree cover outside forests separately reported.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+      "sourceId": "fsiISFR2019TripuraForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.27; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-delhi-forest-types-2019",
+      "regionName": "Delhi",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Delhi",
+      "description": "FSI identifies Tropical Dry Deciduous and Tropical Thorn forest groups in Delhi. Its rapid biodiversity assessment observed 16 tree, 11 shrub and 36 herb species; the figures describe the report's survey, not a complete species inventory.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-delhi.pdf",
+      "sourceId": "fsiISFR2019DelhiForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.6; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-jammu-kashmir-forest-types-2019",
+      "regionName": "Jammu and Kashmir",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Jammu and Kashmir",
+      "description": "The FSI chapter covers the former combined Jammu and Kashmir and Ladakh area and does not disaggregate its forest-type percentages by today's Union Territory boundaries. The combined mapping includes Northern Dry Mixed Deciduous, Siwalik and Himalayan Chir Pine, Himalayan Subtropical Scrub, Olea cuspidata Scrub, Dwarf Rhododendron Scrub, Alpine Pastures and Dry Alpine Scrub.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+      "sourceId": "fsiISFR2019JammuKashmirForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.11; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-ladakh-forest-types-2019-combined-source",
+      "regionName": "Ladakh",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Ladakh",
+      "description": "The FSI chapter covers the former combined Jammu and Kashmir and Ladakh area and does not disaggregate its forest-type percentages by today's Union Territory boundaries. The combined mapping includes Himalayan Dry Temperate and Alpine formations, including Alpine Pastures, Dry Alpine Scrub and Dwarf Juniper Scrub; this entry must not be read as a Ladakh-only percentage profile.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+      "sourceId": "fsiISFR2019JammuKashmirForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.11; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-chandigarh-forest-types-2019",
+      "regionName": "Chandigarh",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Chandigarh",
+      "description": "FSI's forest-type classification for Chandigarh includes Group 5 Tropical Dry Deciduous Forests. Its rapid biodiversity assessment observed 21 tree, 4 shrub and 7 herb species; these are survey observations, not a complete species inventory.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-chandigarh.pdf",
+      "sourceId": "fsiISFR2019ChandigarhForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.32; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-daman-diu-forest-types-2019",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Dadra and Nagar Haveli and Daman and Diu",
+      "description": "The FSI chapter for the former Daman and Diu Union Territory identifies Littoral Forest, Mangrove Forest, Southern Dry Mixed Deciduous Forest, Dry Deciduous Scrub and Desert Thorn Forest, with plantation/tree cover outside forests reported separately. This entry covers the Daman and Diu component only; Dadra and Nagar Haveli is documented in a separate record.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-daman-diu.pdf",
+      "sourceId": "fsiISFR2019DamanDiuForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.34; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-lakshadweep-forest-types-2019",
+      "regionName": "Lakshadweep",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Lakshadweep",
+      "description": "FSI's forest-type table for Lakshadweep reports Plantation/Tree Outside Forest (TOF) as 100% of the mapped forest-cover type. This is a specific classification result and should not be interpreted as evidence of natural forest formations.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-lakshadweep.pdf",
+      "sourceId": "fsiISFR2019LakshadweepForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.35; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-puducherry-forest-types-2019",
+      "regionName": "Puducherry",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Puducherry",
+      "description": "FSI's forest-type table for Puducherry reports Mangrove Forest at 3.19% and Plantation/Tree Outside Forest (TOF) at 96.81% of mapped forest cover. The figures are from the 2019 report's forest-type mapping.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-puducherry.pdf",
+      "sourceId": "fsiISFR2019PuducherryForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.36; accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-arunachal-pradesh-subansiri-lower-hydroelectri",
+      "regionName": "Arunachal Pradesh",
+      "category": "riverValleyProjects",
+      "name": "Subansiri Lower Hydroelectric Project",
+      "description": "A 1,250 MW run-of-river hydropower project on the Subansiri River, located on the Arunachal Pradesh–Assam border. NHPC lists the project under Arunachal Pradesh and Assam; this entry records its Arunachal Pradesh location and cross-border setting.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC project portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-chhattisgarh-minimata-hasdeo-bango-projec",
+      "regionName": "Chhattisgarh",
+      "category": "riverValleyProjects",
+      "name": "Minimata Hasdeo Bango Project",
+      "description": "The Minimata Hasdeo Bango Dam and reservoir on the Hasdeo system is a major state water-resources project. The Chhattisgarh Government reports a live storage capacity of 2,894.33 million cubic metres and gross storage of 3,264.33 million cubic metres; the figures are reservoir capacities, not annual flows.",
+      "sourceUrl": "https://jansampark.cg.gov.in/dprnewsportal/NewsPopup.aspx?param=F08MYM0HBPA%3D&type=TQwAi5bC7eg%3D",
+      "sourceId": "chhattisgarhHasdeoBango2026",
+      "referenceDate": "Chhattisgarh Government project information, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-goa-salaulim-dam-irrigation-proj",
+      "regionName": "Goa",
+      "category": "riverValleyProjects",
+      "name": "Salaulim Dam Irrigation Project",
+      "description": "The Salaulim Dam on the Salaulim River, a tributary of the Zuari, is an integral component of Goa's irrigation project and is also used for drinking-water supply.",
+      "sourceUrl": "https://www.goa.gov.in/places/salaulim-dam/",
+      "sourceId": "goaSalaulimDam2026",
+      "referenceDate": "Government of Goa dam profile, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-himachal-pradesh-chamera-i-hydroelectric-proj",
+      "regionName": "Himachal Pradesh",
+      "category": "riverValleyProjects",
+      "name": "Chamera-I Hydroelectric Project",
+      "description": "NHPC's Chamera-I Power Station is located in Chamba district on the Ravi River. The three-unit station has an installed capacity of 540 MW and was commissioned in 1994.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/18/welcome/index.php",
+      "sourceId": "nhpcChameraOne2026",
+      "referenceDate": "NHPC Chamera-I project profile, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-manipur-loktak-hydroelectric-project",
+      "regionName": "Manipur",
+      "category": "riverValleyProjects",
+      "name": "Loktak Hydroelectric Project",
+      "description": "NHPC lists the Loktak Power Station in Manipur with three 35 MW units (105 MW total); the station was commissioned in 1983.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-meghalaya-umiam-umtru-hydroelectric-sc",
+      "regionName": "Meghalaya",
+      "category": "riverValleyProjects",
+      "name": "Umiam–Umtru Hydroelectric Scheme",
+      "description": "Meghalaya's 2024 Power Policy lists the Umiam Stage I–IV stations at 36, 20, 60 and 60 MW respectively, alongside other hydro stations in the state. The four Umiam stages therefore total 176 MW of installed capacity.",
+      "sourceUrl": "https://meghalaya.gov.in/meghalaya/sites/default/files/documents/Meghalaya_Power_Policy_2024.pdf",
+      "sourceId": "meghalayaPowerPolicy2024",
+      "referenceDate": "Meghalaya Power Policy 2024, existing power plants table",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-mizoram-tuirial-hydroelectric-projec",
+      "regionName": "Mizoram",
+      "category": "riverValleyProjects",
+      "name": "Tuirial Hydroelectric Project",
+      "description": "NEEPCO lists the Tuirial Hydro Power Station in Kolasib district, Mizoram, with two 30 MW units (60 MW total); it entered commercial operation in 2018.",
+      "sourceUrl": "https://www.neepco.co.in/power-generation/hydro-power",
+      "sourceId": "neepcoHydroStations2026",
+      "referenceDate": "NEEPCO Hydro Power Stations portfolio, updated 24 April 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-nagaland-doyang-hydroelectric-project",
+      "regionName": "Nagaland",
+      "category": "riverValleyProjects",
+      "name": "Doyang Hydroelectric Project",
+      "description": "NEEPCO lists the Doyang Hydro Power Station in Wokha district, Nagaland, with three 25 MW units (75 MW total).",
+      "sourceUrl": "https://www.neepco.co.in/power-generation/hydro-power",
+      "sourceId": "neepcoHydroStations2026",
+      "referenceDate": "NEEPCO Hydro Power Stations portfolio, updated 24 April 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-punjab-bhakra-beas-multipurpose-riv",
+      "regionName": "Punjab",
+      "category": "riverValleyProjects",
+      "name": "Bhakra–Beas Multipurpose River Valley System",
+      "description": "The BBMB project history describes the integrated Bhakra–Nangal, Beas and Ravi development system for irrigation and power generation, including the Bhakra Dam on the Sutlej and the Beas–Sutlej link. The system is interstate; its benefits and canal network extend into Punjab and neighboring states, while individual dams are not all located within Punjab.",
+      "sourceUrl": "https://bbmb.gov.in/indus-basin.htm",
+      "sourceId": "bbmbBhakraBeasSystem2026",
+      "referenceDate": "BBMB official project history, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-sikkim-teesta-v-hydroelectric-proje",
+      "regionName": "Sikkim",
+      "category": "riverValleyProjects",
+      "name": "Teesta-V Hydroelectric Project",
+      "description": "NHPC lists Teesta-V in Sikkim as a commissioned 510 MW power station (three 170 MW units), commissioned in 2008.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-tripura-gumti-hydroelectric-project",
+      "regionName": "Tripura",
+      "category": "riverValleyProjects",
+      "name": "Gumti Hydroelectric Project",
+      "description": "The Central Electricity Authority's Tripura hydro profile states that no large hydroelectric project has been identified in the State, but records the Gumti Hydroelectric Project in South Tripura as a 15 MW station (three 5 MW units) on the Gumti River, installed in 1976 and 1984.",
+      "sourceUrl": "https://cea.nic.in/wp-content/uploads/hpi/2024/10/State_Profile_on_Hydro_Development.pdf",
+      "sourceId": "ceaTripuraHydroProfile2024",
+      "referenceDate": "CEA State Profile on Hydro Development for Tripura, 18 November 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-andaman-and-nicobar-islands-kalpong-hydroelectric-projec",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "riverValleyProjects",
+      "name": "Kalpong Hydroelectric Project",
+      "description": "NHPC describes the 5.25 MW Kalpong Hydroelectric Project as the first hydropower project executed and commissioned for the Andaman and Nicobar Administration, providing a local renewable electricity source.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project_detail/49/index.php.html",
+      "sourceId": "nhpcKalpong2026",
+      "referenceDate": "NHPC Kalpong project profile, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-dadra-and-nagar-haveli-and-daman-and-diu-damanganga-reservoir-project",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "riverValleyProjects",
+      "name": "Damanganga Reservoir Project (Madhuban Dam)",
+      "description": "The Damanganga Reservoir Project agreement was made among Gujarat, Dadra and Nagar Haveli, and Daman and Diu. The dam is at Madhuban in Valsad district, Gujarat; the project agreement identifies both Union Territories as beneficiaries and provides for irrigation, domestic/industrial water supply and incidental hydropower. This is an inter-governmental beneficiary project, not a dam located inside the UT.",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/agreement_for_damanganga.pdf",
+      "sourceId": "gujaratDamangangaAgreement1992",
+      "referenceDate": "Inter-governmental agreement dated 29 September 1992",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-jammu-and-kashmir-salal-hydroelectric-project",
+      "regionName": "Jammu and Kashmir",
+      "category": "riverValleyProjects",
+      "name": "Salal Hydroelectric Project",
+      "description": "NHPC lists the Salal Power Station on the Chenab in the Union Territory of Jammu and Kashmir, with six 115 MW units (690 MW total), commissioned in 1987.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-ladakh-nimoo-bazgo-hydroelectric-pr",
+      "regionName": "Ladakh",
+      "category": "riverValleyProjects",
+      "name": "Nimoo-Bazgo Hydroelectric Project",
+      "description": "NHPC's Nimoo-Bazgo station is a 45 MW run-of-river scheme on the Indus near Alchi in Leh district, Ladakh. The three 15 MW units were commissioned in 2012–13.",
+      "sourceUrl": "https://www.nhpcindia.com/welcome/project/",
+      "sourceId": "nhpcHydroPortfolio2026",
+      "referenceDate": "NHPC official project and power-station portfolio, accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-andhra-pradesh",
+      "regionName": "Andhra Pradesh",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 27.58 on a 0–100 scale for Andhra Pradesh. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-arunachal-pradesh",
+      "regionName": "Arunachal Pradesh",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 15.63 on a 0–100 scale for Arunachal Pradesh. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-goa",
+      "regionName": "Goa",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 10.35 on a 0–100 scale for Goa. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-himachal-pradesh",
+      "regionName": "Himachal Pradesh",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 15.63 on a 0–100 scale for Himachal Pradesh. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-madhya-pradesh",
+      "regionName": "Madhya Pradesh",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 30.79 on a 0–100 scale for Madhya Pradesh. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-manipur",
+      "regionName": "Manipur",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 16.11 on a 0–100 scale for Manipur. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-meghalaya",
+      "regionName": "Meghalaya",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 15.88 on a 0–100 scale for Meghalaya. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-mizoram",
+      "regionName": "Mizoram",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 14.71 on a 0–100 scale for Mizoram. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-nagaland",
+      "regionName": "Nagaland",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 15.92 on a 0–100 scale for Nagaland. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-punjab",
+      "regionName": "Punjab",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 21.29 on a 0–100 scale for Punjab. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-rajasthan",
+      "regionName": "Rajasthan",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 30.04 on a 0–100 scale for Rajasthan. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-sikkim",
+      "regionName": "Sikkim",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 11.11 on a 0–100 scale for Sikkim. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-telangana",
+      "regionName": "Telangana",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 18.25 on a 0–100 scale for Telangana. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-tripura",
+      "regionName": "Tripura",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 15.99 on a 0–100 scale for Tripura. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-andaman-and-nicobar-islands",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 13.23 on a 0–100 scale for Andaman and Nicobar Islands. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-chandigarh",
+      "regionName": "Chandigarh",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 10.94 on a 0–100 scale for Chandigarh. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-delhi",
+      "regionName": "Delhi",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 14.43 on a 0–100 scale for Delhi. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-lakshadweep",
+      "regionName": "Lakshadweep",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 9.72 on a 0–100 scale for Lakshadweep. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-puducherry",
+      "regionName": "Puducherry",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index",
+      "description": "The 2019 MHA/UNDP-supported sub-national study reports a Composite Disaster Risk Index of 10.41 on a 0–100 scale for Puducherry. This is a historical, methodology-specific composite index combining hazard, vulnerability, exposure and capacity; it is not a current forecast or a district-level hazard classification.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-dnh-dd-historical-components",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "disasterProneRegions",
+      "name": "2019 Composite Disaster Risk Index — historical UT components",
+      "description": "The 2019 study predates the merger of Dadra and Nagar Haveli with Daman and Diu. It reports separate Composite Disaster Risk Index values: 9.91 for Dadra and Nagar Haveli and 10.20 for Daman and Diu, each on a 0–100 scale. No combined score is published; the two historical component values are retained separately without averaging. These are historical composite indices, not current hazard forecasts.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "disaster-risk-index-2019-ladakh-not-separately-reported",
+      "regionName": "Ladakh",
+      "category": "disasterProneRegions",
+      "name": "Separate 2019 Disaster Risk Index not reported for Ladakh",
+      "description": "The 2019 study does not publish a separate Ladakh score. Ladakh was included within the then combined Jammu and Kashmir state entry (Composite Disaster Risk Index 14.56); that former-state value must not be presented as a Ladakh-only score.",
+      "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
+      "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
+      "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-chandigarh-bhakra-main-canal-link",
+      "regionName": "Chandigarh",
+      "category": "riverValleyProjects",
+      "name": "Bhakra Main Canal water-supply link",
+      "description": "Chandigarh's official water-supply profile reports that the city receives surface water from the Bhakra Main Canal, with raw water conveyed from Kajauli to the Sector 39 treatment plant. This is an interstate beneficiary and conveyance link of the Bhakra-Beas system; the dam and canal source are outside the Union Territory.",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "sourceId": "chandigarhBhakraCanalWaterSupply2024",
+      "referenceDate": "Chandigarh Administration 2024 district profile, water-supply section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-delhi-no-local-multipurpose-project-documented",
+      "regionName": "Delhi",
+      "category": "riverValleyProjects",
+      "name": "Interstate raw-water supply system — no Delhi-located river-valley project identified in cited source",
+      "description": "Delhi Jal Board identifies the NCT's surface-water supply sources as the Yamuna, Bhakra storage and Upper Ganga Canal, supplemented by groundwater. The cited official source documents interstate raw-water supply infrastructure rather than a multipurpose river-valley project located within the NCT; no separate Delhi-located project is asserted here.",
+      "sourceUrl": "https://delhijalboard.delhi.gov.in/jalboard/about-us",
+      "sourceId": "delhiJalBoardWaterSources2026",
+      "referenceDate": "Delhi Jal Board official page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-lakshadweep-no-river-valley-project-documented",
+      "regionName": "Lakshadweep",
+      "category": "riverValleyProjects",
+      "name": "No river-valley project documented — island water infrastructure",
+      "description": "The UT Administration describes Lakshadweep as a 36-island archipelago of atolls, reefs and submerged banks. Its official notice records a preliminary notification for an OTEC-desalination plant at Kavaratti in 2022. The cited UT sources do not identify a river-valley project; this is a source-scope note, not a claim that all water infrastructure is absent.",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "sourceId": "lakshadweepAtollWaterInfrastructure2026",
+      "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-chhattisgarh-mahanadi-godavari-son",
+      "regionName": "Chhattisgarh",
+      "category": "tributaries",
+      "name": "Mahanadi, Godavari and Son basin tributaries",
+      "description": "The Central Ground Water Board's Chhattisgarh yearbook identifies Seonath, Hasdeo, Mand and Arpa as tributaries of the Mahanadi; Indravati as a tributary of the Godavari; and Son as a tributary of the Ganga. The report also records Sankh as a tributary within the Brahmani basin.",
+      "sourceId": "cgwbChhattisgarhRiverBasin2023",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/Chhattisgarh_GWYB%202023-24.pdf",
+      "referenceDate": "CGWB Chhattisgarh Ground Water Year Book 2023–24, section 2.2 Drainage",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-goa-mandovi",
+      "regionName": "Goa",
+      "category": "tributaries",
+      "name": "Mandovi River tributaries",
+      "description": "The North Goa District Disaster Management Plan lists tributaries of the Mandovi including Madei, Surla, Kotrachi, Ragda and Khandepar, and records the Baga as a minor river in North Goa.",
+      "sourceId": "goaSDMANorthDistrictTributaries2022",
+      "sourceUrl": "https://www.sdma.goa.gov.in/sites/default/files/2022-07/District%20Disaster%20Management%20Plan%20%28North%29_0.pdf",
+      "referenceDate": "North Goa District Disaster Management Plan, river tributaries section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-gujarat-river-gauges",
+      "regionName": "Gujarat",
+      "category": "tributaries",
+      "name": "Documented tributaries in the state river-gauge network",
+      "description": "Gujarat's official river-gauge inventory records tributary relationships including Watrak and Hathmati in the Sabarmati system, Orsang in the Narmada system, Panam in the Mahi system, and Pushpavati in the Rupen system. The inventory is a historical monitoring-station register with data coverage through 2010, not a current flow assessment.",
+      "sourceId": "gujaratNWRWSRiverGaugeTributaries2010",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/final_rivergauge_availibility.pdf",
+      "referenceDate": "Official river-gauge inventory, data coverage through 2010",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-kerala-periyar",
+      "regionName": "Kerala",
+      "category": "tributaries",
+      "name": "Periyar River tributaries",
+      "description": "The Kerala Irrigation Department's Periyar basin report names major tributaries including Mullayar, Chinnar, Kattapanayar, Cheruthoniyar, Perinjamkuttiyar and Muthirapuzhayar, along with downstream tributaries such as Idamala Ar.",
+      "sourceId": "keralaIrrigationPeriyarBasin2022",
+      "sourceUrl": "https://irrigation.kerala.gov.in/sites/default/files/2022-02/Room4River_Periyar_Report.pdf",
+      "referenceDate": "Kerala Irrigation Department Periyar River Basin report, 2022",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-manipur-imphal-thoubal",
+      "regionName": "Manipur",
+      "category": "tributaries",
+      "name": "Thoubal River — tributary of the Imphal",
+      "description": "The Government of Manipur district disaster plan identifies the Thoubal River as an important tributary of the Imphal River. It notes that the Thoubal rises in the Ukhrul hill ranges and joins the Imphal near Irong, downstream of Mayang Imphal.",
+      "sourceId": "manipurDistrictPlanImphalThoubal2020",
+      "sourceUrl": "https://manipur.gov.in/wp-content/uploads/2020/03/tbl-dmplan.pdf",
+      "referenceDate": "Government of Manipur district disaster plan, 2020",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-mizoram-barak-kaladan",
+      "regionName": "Mizoram",
+      "category": "tributaries",
+      "name": "Northern Barak-system and southern Kaladan-system tributaries",
+      "description": "Mizoram's official physiography profile identifies the Tlawng (Dhaleswari/Katakhal), Tut, Tuirial (Sonai) and Tuivawl as northern rivers that eventually join the Barak in Assam. It also identifies Mat, Tuichang, Tiau and Tuipui as tributaries of the southern Chhimtuipui/Kolodyne system.",
+      "sourceId": "mizoramDIPRPhysiography2026",
+      "sourceUrl": "https://dipr.mizoram.gov.in/page/physiography",
+      "referenceDate": "Official Mizoram physiography profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-sikkim-teesta-rangit",
+      "regionName": "Sikkim",
+      "category": "tributaries",
+      "name": "Teesta and Rangit tributaries",
+      "description": "The Government of Sikkim's physical-features table lists Rangbhang, Relli, Rathong and Kalej as tributaries of the Rangit, and Dikchu, Rangyong, Bakchachu, Rongpochu, Zemu Chu and Lachung Chu as tributaries of the Teesta.",
+      "sourceId": "sikkimGovernmentPhysicalFeatures2019",
+      "sourceUrl": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
+      "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-nagaland-doyang-system",
+      "regionName": "Nagaland",
+      "category": "tributaries",
+      "name": "Doyang River tributaries",
+      "description": "The Wokha District Administration identifies Saju, Tsui, Tullo and Tishi as the main tributaries of the Doyang River. It notes that Tullo combines the Keleki and Tangki streams and that Tishi joins the system in the Sema area.",
+      "sourceId": "wokhaDistrictDoyangTributaries2026",
+      "sourceUrl": "https://wokha.nic.in/tourist-place/doyang-hydro-project/",
+      "referenceDate": "Wokha District Administration profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-haryana-ghaggar-markanda-dangri",
+      "regionName": "Haryana",
+      "category": "tributaries",
+      "name": "Ghaggar, Markanda and Dangri tributary systems",
+      "description": "Ambala District Administration records the Markanda and its tributaries, Dangri (Tangri) and its tributaries, and the Ghaggar and its tributaries as the district's principal drainage systems. It notes that Markanda and Dangri ultimately drain into the Ghaggar beyond the district; the Ghaggar and its tributaries form an inland drainage system.",
+      "sourceId": "ambalaDistrictRiverSystem2026",
+      "sourceUrl": "https://ambala.gov.in/climate/",
+      "referenceDate": "Ambala District Administration geography profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-delhi-sahibi-najafgarh-yamuna",
+      "regionName": "Delhi",
+      "category": "tributaries",
+      "name": "Sahibi River and Najafgarh drainage connection",
+      "description": "The Delhi Irrigation and Flood Control Department states that the Sahibi River enters the NCT near Dhansa and its flow is conveyed through the Najafgarh drainage system; the Najafgarh Drain ultimately outfalls into the Yamuna downstream of Wazirabad. This entry describes the linked drainage route rather than treating the drain as a natural tributary.",
+      "sourceId": "delhiIFCSahibiNajafgarh2026",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/flood-problem-due-sahibi-river",
+      "referenceDate": "Government of NCT of Delhi page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-puducherry-sankaraparani",
+      "regionName": "Puducherry",
+      "category": "tributaries",
+      "name": "Sankaraparani River tributaries",
+      "description": "The Government of Puducherry's water-resources presentation identifies six tributaries of the Sankaraparani (Gingee/Varahanalli) River: Annamangalam surplus, Nariyar Odai, Thondiar, Pambaiyar, Pambai and Guduvaiyar.",
+      "sourceId": "puducherryWaterResourcesTributaries2018",
+      "sourceUrl": "https://police.py.gov.in/Water%20Resource%20of%20Puducherry%20Region%20-%2002.03.18%20-%20Presentation%20by%20Dr%20Bascarane%20CGO.pdf",
+      "referenceDate": "Government of Puducherry water-resources presentation, 2 March 2018",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-meghalaya-brahmaputra-surma-systems",
+      "regionName": "Meghalaya",
+      "category": "tributaries",
+      "name": "Brahmaputra and Surma–Meghna river-system tributaries",
+      "description": "The Government of Meghalaya identifies the Manda, Damring, Jinjiram, Ringge, Ganol, Bhogai and Simsang in the Garo Hills; Khri, Umtrew, Umiam, Umkhen and Kupli in the Khasi–Jaintia Hills; and Kynshi, Umiam-Mawphlang and Umngot flowing south into Bangladesh. The profile describes the state's river systems draining toward the Brahmaputra and Surma–Meghna plains.",
+      "sourceId": "meghalayaGovernmentRiverSystems2026",
+      "sourceUrl": "https://www.meghalayahousedelhi.nic.in/features.html",
+      "referenceDate": "Official Government of Meghalaya profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-tripura-meghna-basin-rivers",
+      "regionName": "Tripura",
+      "category": "tributaries",
+      "name": "Meghna-basin rivers and catchments",
+      "description": "Tripura's official project report states that the state is drained by nine rivers within the Barak, Gomti and Feni sub-basins of the Meghna basin: Gumti, Manu, Deo, Juri, Dhalai, Khowai, Haora, Buriganga and Muhuri. It supplies catchment areas at named gauging locations; this record describes the state river network rather than asserting that all nine are tributaries of one river.",
+      "sourceId": "tripuraGovernmentRiverCatchments2024",
+      "sourceUrl": "https://industries.tripura.gov.in/sites/default/files/Tripura%20Industrial%20Infrastructure%20Sector%20Development%20Program%20-%20Dewanpassa%20Industrial%20Estate%20Draft%20Resettlement%20Plan.pdf",
+      "referenceDate": "Tripura Government project report, Table 4-3: Rivers of Tripura and Catchment Area",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-andaman-great-nicobar-rivers",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "tributaries",
+      "name": "Great Nicobar island rivers and perennial streams",
+      "description": "The Great Nicobar Biosphere Reserve Management Plan identifies five perennial rivers originating from Mount Thullier: Galathea, Jubilee, Alexandra, Dagmar and Amrit Kaur. It also records perennial streams including Magar Nallah and Prem Bahadur Nallah. These island catchments drain to the sea rather than forming a mainland river-basin tributary network.",
+      "sourceId": "andamanForestDepartmentGreatNicobarHydrology2021",
+      "sourceUrl": "https://forest.and.nic.in/Forest_upload/file.php?id=Mjg5",
+      "referenceDate": "Great Nicobar Biosphere Reserve Management Plan 2021–2031, section 2.5 Hydrology and Water Sources",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-chandigarh-seasonal-rivulets",
+      "regionName": "Chandigarh",
+      "category": "tributaries",
+      "name": "Sukhna Choe, Patiala-Ki-Rao Choe and local seasonal streams",
+      "description": "The Chandigarh Administration identifies Sukhna Choe in the east and Patiala-Ki-Rao Choe in the west as seasonal rivulets, with N-Choe and Choe Nala as minor local streams. The 2024 district profile states that no river flows through Chandigarh and the Ghaggar is about 7 km away; these are local drainage channels, not tributaries of a river within the UT.",
+      "sourceId": "chandigarhAdministrationSeasonalRivulets2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile, physical setting section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-dnhdd-no-relationships-listed",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "tributaries",
+      "name": "No named tributary relationships listed in the UT profile",
+      "description": "The UT Administration's district profiles identify the Daman Ganga as a river in Dadra and Nagar Haveli and Daman. The cited official profile does not enumerate named tributaries or establish tributary relationships for the merged UT; no additional river relationship is inferred from the source.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-lakshadweep-no-river-network-listed",
+      "regionName": "Lakshadweep",
+      "category": "tributaries",
+      "name": "No river-tributary network listed for the atoll archipelago",
+      "description": "The Lakshadweep Administration describes the UT as an archipelago of coral islands, atolls and reefs. The cited official profile does not list a river or tributary network; this is a source-scope note and does not imply that the islands lack freshwater lenses, streams or coastal water features.",
+      "sourceId": "lakshadweepAdministrationAtollProfile2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-goa-olive-ridley-turtle-programme",
+      "regionName": "Goa",
+      "category": "conservationProjects",
+      "name": "Olive Ridley turtle nesting-site protection programme",
+      "description": "Goa Forest Department protects Olive Ridley nesting beaches at Morjim, Galgibaga and Agonda. The Department records nesting at these sites since 2000 and uses protection staff, no-take beach zones and local awareness activities to safeguard nesting turtles and hatchlings.",
+      "sourceId": "goaForestOliveRidleyConservation2026",
+      "sourceUrl": "https://forest.goa.gov.in/node/1180",
+      "referenceDate": "Official Goa Forest Department page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-gujarat-project-lion",
+      "regionName": "Gujarat",
+      "category": "conservationProjects",
+      "name": "Project Lion",
+      "description": "The Government of India’s Project Lion focuses on securing and restoring Asiatic lion habitats in Gujarat, strengthening community participation and livelihoods, improving disease diagnostics and treatment, and monitoring lions through radio-collaring, camera traps and patrolling. The MoEFCC 2024–25 Annual Report records approved funding for a National Referral Centre for Wildlife.",
+      "sourceId": "moefccProjectLionAnnualReport2025",
+      "sourceUrl": "https://moef.gov.in/uploads/pdf-uploads/English_Annual_Report_2024-25.pdf",
+      "referenceDate": "MoEFCC Annual Report 2024–25, Project Lion section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-haryana-jatayu-vulture-breeding",
+      "regionName": "Haryana",
+      "category": "conservationProjects",
+      "name": "Jatayu Vulture Conservation Breeding Centre, Pinjore",
+      "description": "The Haryana Forest Department and Bombay Natural History Society jointly operate the Jatayu/Vulture Conservation Breeding Centre at Pinjore to conserve White-rumped, Long-billed and Slender-billed vultures through captive breeding, husbandry, veterinary care and planned reintroduction.",
+      "sourceId": "haryanaVultureBreedingCentre2026",
+      "sourceUrl": "https://wildlife.haryanaforest.gov.in/places-centres/vulture-conservation-breeding-centre-pinjore/",
+      "referenceDate": "Official Haryana Forest Department profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-himachal-project-snow-leopard",
+      "regionName": "Himachal Pradesh",
+      "category": "conservationProjects",
+      "name": "Project Snow Leopard — Upper Spiti landscape",
+      "description": "The Himachal Pradesh Forest Department, with the Nature Conservation Foundation, has implemented Project Snow Leopard in the Upper Spiti landscape. The programme combines landscape-scale management, research and monitoring, community participation, village micro-plans, habitat improvement and human–wildlife conflict mitigation.",
+      "sourceId": "hpProjectSnowLeopard2026",
+      "sourceUrl": "https://hpforest.gov.in/project-snow-leopard",
+      "referenceDate": "Official HP Forest Department project profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-manipur-keibul-lamjao-sangai",
+      "regionName": "Manipur",
+      "category": "conservationProjects",
+      "name": "Keibul Lamjao National Park development and Sangai habitat restoration",
+      "description": "The Manipur Forest Department's 2010–11 report lists a dedicated scheme for Keibul Lamjao National Park to protect the endangered brow-antlered deer (Sangai), restore its natural food and shelter plants, and reduce human interference and fishing within the park.",
+      "sourceId": "manipurKeibulLamjaoDevelopment2011",
+      "sourceUrl": "https://manipur.gov.in/wp-content/uploads/2012/10/forest_2010-111.pdf",
+      "referenceDate": "Manipur Forest Department Annual Administrative Report 2010–11, Scheme 24",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-punjab-beas-conservation-reserve",
+      "regionName": "Punjab",
+      "category": "conservationProjects",
+      "name": "Beas Conservation Reserve management",
+      "description": "The Beas Conservation Reserve is a 6,428.9-hectare protected river stretch designated on 26 September 2019. The Ramsar factsheet identifies the Department of Forest and Wildlife Preservation, Punjab, as the management authority. This record documents the statutory conservation and management initiative rather than a separate construction project.",
+      "sourceId": "moefccBeasConservationReserve2020",
+      "sourceUrl": "https://www.moef.gov.in/uploads/2021/01/Ramsaar-Factsheets_2020_Low-3_compressed-2.pdf",
+      "referenceDate": "Ramsar Information Sheet for Beas Conservation Reserve, designated 26 September 2019",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-sikkim-red-panda-programme",
+      "regionName": "Sikkim",
+      "category": "conservationProjects",
+      "name": "Red Panda conservation and My Child from the Wild programme",
+      "description": "The Government of Sikkim reports Red Panda conservation work through the Forest and Environment Department and Himalayan Zoological Park, including the My Child from the Wild adoption programme. Funds raised are intended to strengthen the existing Red Panda breeding centre and support conservation awareness and habitat protection.",
+      "sourceId": "sikkimRedPandaConservation2026",
+      "sourceUrl": "https://www.sikkim.gov.in/media/news-announcement/news-info?name=French+Ambassador+Aims+to+Support+Conservation+of+the+State+Animal+of+Sikkim",
+      "referenceDate": "Government of Sikkim news release, 13 November 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-tripura-sepahijala-breeding",
+      "regionName": "Tripura",
+      "category": "conservationProjects",
+      "name": "Sepahijala conservation breeding programme",
+      "description": "Tripura's government press note states that the Sepahijala conservation breeding programme began in 2011 for four indigenous species: Binturong, Clouded Leopard, Spectacled Langur and Pig-tailed Macaque. The note records breeding successes and the programme's role as an insurance population for threatened species.",
+      "sourceId": "tripuraSepahijalaConservationBreeding2015",
+      "sourceUrl": "https://tripura.gov.in/sites/default/files/press_meet_03_07_2015.pdf",
+      "referenceDate": "Government of Tripura press-meet note, 3 July 2015",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-andaman-great-nicobar-biosphere",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "conservationProjects",
+      "name": "Great Nicobar Biosphere Reserve Management Plan 2021–2031",
+      "description": "The Andaman and Nicobar Administration's management plan provides the conservation framework for Great Nicobar Biosphere Reserve, including habitat and species protection, monitoring of freshwater ecosystems, coastal and marine habitats, and management of the island's protected areas.",
+      "sourceId": "andamanGreatNicobarBiospherePlan2021",
+      "sourceUrl": "https://forest.and.nic.in/Forest_upload/file.php?id=Mjg5",
+      "referenceDate": "Great Nicobar Biosphere Reserve Management Plan 2021–2031",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-chandigarh-sukhna-wetland-management",
+      "regionName": "Chandigarh",
+      "category": "conservationProjects",
+      "name": "Sukhna Wetland integrated management and catchment conservation",
+      "description": "Chandigarh Administration identifies the Forest and Wildlife Department as the nodal department for Sukhna Wetland management. The 2026 environment report records a draft Integrated Management Plan under process, wetland conservation actions and regulated activities in the Sukhna catchment.",
+      "sourceId": "chandigarhSukhnaWetlandManagement2026",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/Updation26/env26-dep2026-1901.pdf",
+      "referenceDate": "Chandigarh Administration 2026 district environment report, Sukhna Wetland section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-dnhdd-no-discrete-project-listed",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "conservationProjects",
+      "name": "No discrete named conservation project listed in the cited UT Forest Department profile",
+      "description": "The UT Forest Department profile documents its continuing mandate for forest conservation, wildlife protection, afforestation, biodiversity conservation, soil and moisture conservation and community engagement, but the cited page does not identify a discrete named conservation project. No project title or budget is inferred from the general departmental mandate.",
+      "sourceId": "dddForestDepartmentConservationMandate2026",
+      "sourceUrl": "https://forests.ddd.gov.in/",
+      "referenceDate": "Official UT Forest Department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-delhi-asola-bhatti-restoration",
+      "regionName": "Delhi",
+      "category": "conservationProjects",
+      "name": "Asola Bhatti Wildlife Sanctuary ecological restoration programme",
+      "description": "Delhi Forest and Wildlife Department's sanctuary programme includes long-term wildlife monitoring, ecological restoration of former mining areas, removal of invasive Prosopis, native vegetation regeneration, more than 180 gabion check dams across 15 seasonal streams and restoration of four water bodies.",
+      "sourceId": "delhiAsolaBhattiRestoration2026",
+      "sourceUrl": "https://abwls.eforest.delhi.gov.in/about.aspx",
+      "referenceDate": "Official Delhi Forest and Wildlife Department sanctuary profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-jammu-kashmir-project-snow-leopard",
+      "regionName": "Jammu and Kashmir",
+      "category": "conservationProjects",
+      "name": "Project Snow Leopard — high-altitude wildlife conservation",
+      "description": "The national Project Snow Leopard strategy identifies Jammu and Kashmir among the five Himalayan states participating in the consultative process and state-level workshops. The programme promotes community-participatory conservation, adaptive management and protection of high-altitude wildlife and habitats; this entry records the historical programme scope, not a claim about current funding status.",
+      "sourceId": "projectSnowLeopardJammuKashmir2008",
+      "sourceUrl": "https://hpforest.gov.in/storage/files/1/pdf/Wildlife/Wildlife%20Resource%20Library/NCF/Project%20Snow%20Leopard%20%28Ministry%20of%20Environment%20and%20Forests%29%2C%202008.pdf",
+      "referenceDate": "Project Snow Leopard national strategy, 2008; identifies Jammu and Kashmir among participating Himalayan states",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-ladakh-project-him-sarovar",
+      "regionName": "Ladakh",
+      "category": "conservationProjects",
+      "name": "Project Him Sarovar — snow harvesting and water-body creation",
+      "description": "Launched by the Ladakh Administration in April 2026, Project Him Sarovar uses scientific snow harvesting and creation of water bodies to conserve snowmelt, improve water security and strengthen climate resilience in the cold-desert region. This is a water-conservation and climate-resilience project, not a wildlife breeding programme.",
+      "sourceId": "ladakhProjectHimSarovar2026",
+      "sourceUrl": "https://ladakh.gov.in/l-g-vinai-kumar-saxena-launches-project-him-sarovar-to-strengthen-water-security-in-ladakh/",
+      "referenceDate": "Ladakh Administration press release, 10 April 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-lakshadweep-marine-wildlife-programmes",
+      "regionName": "Lakshadweep",
+      "category": "conservationProjects",
+      "name": "Marine wildlife and coral-reef conservation programmes",
+      "description": "The Lakshadweep Department of Environment and Forest reports island-wide coral-reef monitoring, sea-turtle and humpback-whale protection projects, marine wildlife protection activities, anti-poaching camps, GIS-based monitoring and management of the Dr. Salim Ali Pitti Bird Sanctuary.",
+      "sourceId": "lakshadweepMarineWildlifeConservation2026",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-environment-and-forest/",
+      "referenceDate": "Official Lakshadweep Department profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "conservation-puducherry-olive-ridley-turtle-programme",
+      "regionName": "Puducherry",
+      "category": "conservationProjects",
+      "name": "Olive Ridley sea-turtle conservation and hatchery programme",
+      "description": "Puducherry's UT Vision 2047 records an Olive Ridley Sea Turtle conservation programme to protect eggs laid by nesting females, with five hatcheries maintained by the Department for incubation and release of hatchlings. The 2026–27 action plan also includes mangrove restoration and establishment of a conservation reserve.",
+      "sourceId": "puducherryOliveRidleyConservation2047",
+      "sourceUrl": "https://pandr.py.gov.in/sites/default/files/UTP%20-%20Vision%20%40%202047.pdf",
+      "referenceDate": "Puducherry UT Vision 2047, page 299, annual action plan 2026–27",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-bihar-gangetic-dolphin",
+      "regionName": "Bihar",
+      "category": "endangeredSpecies",
+      "name": "Gangetic river dolphin (Platanista gangetica)",
+      "description": "The Bihar Forest Department identifies the Gangetic river dolphin as an endangered species protected in the 60-km Vikramshila Gangetic Dolphin Sanctuary on the Ganga between Sultanganj and Kahalgaon, Bhagalpur district. The sanctuary was notified in 1991 under the Wildlife (Protection) Act.",
+      "sourceId": "biharGangeticDolphinOfficial2026",
+      "sourceUrl": "https://forestonline.bihar.gov.in/Dolphin/Dolphin.aspx",
+      "referenceDate": "Official Bihar Forest Department sanctuary profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-chhattisgarh-wild-water-buffalo",
+      "regionName": "Chhattisgarh",
+      "category": "endangeredSpecies",
+      "name": "Wild water buffalo (Bubalus arnee)",
+      "description": "The NTCA's 2025 ungulate status report identifies Indravati Tiger Reserve in Bijapur district, Chhattisgarh, as one of the last habitats of the endangered wild water buffalo in central India. It notes that the Chhattisgarh population is very small and requires focused conservation attention.",
+      "sourceId": "ntcaWildWaterBuffaloChhattisgarh2025",
+      "sourceUrl": "https://ntca.gov.in/wp-content/uploads/2025/05/Status-of-Ungulates-1.pdf",
+      "referenceDate": "NTCA Status of Ungulates in India, 2025, Indravati Tiger Reserve section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-haryana-vultures",
+      "regionName": "Haryana",
+      "category": "endangeredSpecies",
+      "name": "Vulture species — White-rumped, Slender-billed and Indian vultures",
+      "description": "Haryana's Jatayu Vulture Conservation Breeding Centre at Pinjore works with the White-rumped, Slender-billed and Indian vulture species. MoEFCC identifies vultures among the critically endangered species covered by its national recovery programme; the record links the state breeding centre to this national recovery effort.",
+      "sourceId": "haryanaVultureCentreSpecies2026",
+      "sourceUrl": "https://wildlife.haryanaforest.gov.in/places-centres/vulture-conservation-breeding-centre-pinjore/",
+      "referenceDate": "Official Haryana Forest Department profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "moefccCriticallyEndangeredSpeciesRecovery"
+      ]
+    },
+    {
+      "id": "endangered-jharkhand-asian-elephant",
+      "regionName": "Jharkhand",
+      "category": "endangeredSpecies",
+      "name": "Asian elephant (Elephas maximus)",
+      "description": "The Jharkhand Biodiversity Board's threatened-species booklet lists the Asian elephant and gives its IUCN Red List category as Endangered. The state Forest Department documents elephant occurrence in the Dalma range and maintains the Dalma Elephant Reserve and protected-area network.",
+      "sourceId": "jharkhandBiodiversityThreatenedSpecies2023",
+      "sourceUrl": "https://jbb.jharkhand.gov.in/wp-content/uploads/2023/08/Boklet-on-Thretended-Species-of-Jharkhand.pdf",
+      "referenceDate": "Jharkhand Biodiversity Board threatened-species booklet, 2023",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "jharkhandForestElephantDistribution2026"
+      ]
+    },
+    {
+      "id": "endangered-nagaland-hoolock-gibbon",
+      "regionName": "Nagaland",
+      "category": "endangeredSpecies",
+      "name": "Western hoolock gibbon (Hoolock hoolock)",
+      "description": "The Nagaland Forest Department identifies the hoolock gibbon among the endangered species occurring in Intanki National Park, Peren district. The park's management plan protects the dense forest habitat and associated wildlife populations.",
+      "sourceId": "nagalandIntankiEndangeredFauna2026",
+      "sourceUrl": "https://forest.nagaland.gov.in/intanki-national-park/",
+      "referenceDate": "Official Nagaland Forest Department protected-area profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-punjab-indus-river-dolphin",
+      "regionName": "Punjab",
+      "category": "endangeredSpecies",
+      "name": "Indus river dolphin (Platanista minor)",
+      "description": "The National Fisheries Development Board's state aquatic-animal compendium identifies the Indus river dolphin as Punjab's state aquatic animal and records its occurrence in the Beas River. The compendium reports IUCN Endangered status (assessment year 2021).",
+      "sourceId": "nfdbPunjabIndusDolphin2025",
+      "sourceUrl": "https://nfdb.gov.in/PDF/E%20Publications/15_State_fishes_and_aquatic_animals_of_India_english_final_48%20pages.pdf",
+      "referenceDate": "NFDB state aquatic animals compendium, Punjab entry; IUCN assessment year 2021",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-telangana-long-billed-vulture",
+      "regionName": "Telangana",
+      "category": "endangeredSpecies",
+      "name": "Indian vulture / Long-billed vulture (Gyps indicus)",
+      "description": "The Telangana Forest Department lists the Long-billed Vulture among the important endangered species found in the State. The species is included in the national vulture recovery programme and is classified as Critically Endangered on the IUCN Red List.",
+      "sourceId": "telanganaForestEndangeredFauna2026",
+      "sourceUrl": "https://forests.telangana.gov.in/Wildlife.aspx",
+      "referenceDate": "Official Telangana Forest Department wildlife profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "moefccCriticallyEndangeredSpeciesRecovery"
+      ]
+    },
+    {
+      "id": "endangered-tripura-phayres-leaf-monkey-hoolock",
+      "regionName": "Tripura",
+      "category": "endangeredSpecies",
+      "name": "Phayre's leaf monkey (Trachypithecus phayrei) and hoolock gibbon (Hoolock hoolock)",
+      "description": "Tripura Forest Department's Table 4-14 lists Phayre's leaf monkey and hoolock gibbon among rare and endangered fauna recorded in protected areas of the State; both are listed under Schedule I of the Wildlife (Protection) Act in the table. The record retains the legal-protection classification used by the State source and does not substitute it for an IUCN category.",
+      "sourceId": "tripuraForestRareEndangeredFauna2025",
+      "sourceUrl": "https://forest.tripura.gov.in/sites/default/files/documents/Environmental%20and%20Social%20Management%20Frameworks_P179935.pdf",
+      "referenceDate": "Tripura Forest Department framework, Table 4-14",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-uttar-pradesh-gharial-gangetic-dolphin",
+      "regionName": "Uttar Pradesh",
+      "category": "endangeredSpecies",
+      "name": "Gharial (Gavialis gangeticus) and Gangetic river dolphin (Platanista gangetica)",
+      "description": "The Uttar Pradesh Eco-Tourism Development Board identifies the National Chambal Sanctuary, spanning Agra and Etawah districts in Uttar Pradesh, as a major habitat for the Critically Endangered gharial and threatened Gangetic river dolphin. The sanctuary was notified in 1979 to protect the declining gharial population.",
+      "sourceId": "upEcoBoardChambalEndangeredSpecies2026",
+      "sourceUrl": "https://upecoboard.up.gov.in/en/article/national-chambal-sanctuary",
+      "referenceDate": "Official UP Eco-Tourism Board sanctuary profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "iucnGharialRedList",
+        "iucnGangeticDolphinRedList"
+      ]
+    },
+    {
+      "id": "endangered-chandigarh-indian-pangolin",
+      "regionName": "Chandigarh",
+      "category": "endangeredSpecies",
+      "name": "Indian pangolin (Manis crassicaudata)",
+      "description": "Chandigarh Administration lists the pangolin among mammals found in Sukhna Wildlife Sanctuary. The Indian pangolin is classified as Endangered on the IUCN Red List; this entry records the species' reported presence in the UT and the global threat category.",
+      "sourceId": "chandigarhPangolinFauna2026",
+      "sourceUrl": "https://chandigarh.gov.in/flora-and-fauna",
+      "referenceDate": "Official Chandigarh Administration fauna profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "iucnIndianPangolinRedList"
+      ]
+    },
+    {
+      "id": "endangered-delhi-red-headed-and-egyptian-vultures",
+      "regionName": "Delhi",
+      "category": "endangeredSpecies",
+      "name": "Red-headed vulture (Sarcogyps calvus) and Egyptian vulture (Neophron percnopterus)",
+      "description": "Delhi Forest and Wildlife Department's Asola Bhatti sanctuary survey records the Critically Endangered Red-headed Vulture and Endangered Egyptian Vulture in the sanctuary's raptor fauna. The page also documents the sanctuary's winter raptor surveys and repeated Egyptian vulture observations.",
+      "sourceId": "delhiAsolaThreatenedBirds2026",
+      "sourceUrl": "https://abwls.eforest.delhi.gov.in/about.aspx",
+      "referenceDate": "Official sanctuary biodiversity survey accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-puducherry-hawksbill-turtle",
+      "regionName": "Puducherry",
+      "category": "endangeredSpecies",
+      "name": "Hawksbill sea turtle (Eretmochelys imbricata)",
+      "description": "The Puducherry port EIA reports the presence of Hawksbill turtles along the Puducherry coast and identifies the species as Critically Endangered on the IUCN Red List. It also records Olive Ridley and Leatherback turtles as Vulnerable in the same coastal assessment.",
+      "sourceId": "puducherryHawksbillTurtleEIA2025",
+      "sourceUrl": "https://dste.py.gov.in/ppcc/pdf/publichearing/sagarmala/EIA_Report.pdf",
+      "referenceDate": "Puducherry Minor Port EIA, Section 3.2.4.10; IUCN status references",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-dnhdd-no-species-status-in-cited-source",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "endangeredSpecies",
+      "name": "No IUCN Endangered/Critically Endangered species record established from cited UT profile",
+      "description": "The UT Forest Department's cited profile documents the DNH Wildlife Sanctuary and Satmaliya Deer Park fauna, but does not provide IUCN categories or a consolidated Endangered/Critically Endangered species list. No species status is inferred from the presence of protected or Schedule-listed wildlife alone.",
+      "sourceId": "dddForestFaunaScope2026",
+      "sourceUrl": "https://forests.ddd.gov.in/",
+      "referenceDate": "Official UT Forest Department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-ladakh-no-iucn-en-cr-record-in-cited-source",
+      "regionName": "Ladakh",
+      "category": "endangeredSpecies",
+      "name": "No separate IUCN Endangered/Critically Endangered species profile verified for Ladakh",
+      "description": "The cited Ladakh Administration portal does not provide a species-level IUCN Endangered/Critically Endangered inventory in the material reviewed. Species such as snow leopard are globally threatened but are not labelled Endangered in the IUCN category; no EN/CR status is inferred here.",
+      "sourceId": "ladakhWildlifeScope2026",
+      "sourceUrl": "https://ladakh.gov.in/",
+      "referenceDate": "Official Ladakh Administration portal accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "endangered-lakshadweep-no-species-status-in-cited-source",
+      "regionName": "Lakshadweep",
+      "category": "endangeredSpecies",
+      "name": "No IUCN Endangered/Critically Endangered species record established from cited UT fauna profile",
+      "description": "The Lakshadweep Administration's fauna profile describes marine biodiversity and island wildlife but does not identify a species-level IUCN Endangered/Critically Endangered inventory. The Department's turtle and whale protection programmes are documented separately; no species status is inferred without a local species record.",
+      "sourceId": "lakshadweepFaunaScope2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/fauna-flora/",
+      "referenceDate": "Official Lakshadweep fauna profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-arunachal-wdc-pmksy-watershed",
+      "regionName": "Arunachal Pradesh",
+      "category": "irrigationProjects",
+      "name": "Watershed Development Component of PMKSY 2.0",
+      "description": "The Arunachal Pradesh Rural Development Department reports 68 WDC-PMKSY 2.0 projects sanctioned during 2021–22 and 2023–24, covering 150,915 hectares across 25 districts. The scheme supports rainwater harvesting, watershed treatment and irrigation-facility development; this is a watershed and irrigation-support programme, not a single dam or canal project.",
+      "sourceId": "arunachalPMKSYWatershed2024",
+      "sourceUrl": "https://ruraldev.arunachal.gov.in/pmksy-data.php",
+      "referenceDate": "Official project dashboard accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-mizoram-minor-irrigation-schemes",
+      "regionName": "Mizoram",
+      "category": "irrigationProjects",
+      "name": "State Minor Irrigation Scheme portfolio",
+      "description": "Mizoram's Irrigation and Water Resources Department reports 439 completed minor irrigation projects covering 18,228 hectares of culturable area. The schemes include lift irrigation and river-diversion gravity irrigation; the Department also undertakes command-area development and water-management works.",
+      "sourceId": "mizoramMinorIrrigationSchemes2026",
+      "sourceUrl": "https://irrigation.mizoram.gov.in/page/programmes-schemes",
+      "referenceDate": "Official department programme profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-nagaland-pmksy-hkkp-schemes",
+      "regionName": "Nagaland",
+      "category": "irrigationProjects",
+      "name": "PMKSY–Har Khet Ko Pani surface minor irrigation schemes",
+      "description": "Nagaland Basic Facts 2024 reports 213 surface minor irrigation schemes taken up in 2021–22 under PMKSY–Har Khet Ko Pani, covering 5,444 hectares and creating 6,837.30 hectares of irrigation potential; 1,585 hectares were recorded as utilized at the reporting date. The report also records 459 new schemes proposed in 2023–24.",
+      "sourceId": "nagalandMinorIrrigation2024",
+      "sourceUrl": "https://ipr.nagaland.gov.in/sites/default/files/2025-03/Nagaland%20Basic%20Facts%202024.pdf",
+      "referenceDate": "Nagaland Basic Facts 2024, minor irrigation status through 2023–24",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-sikkim-pmksy-minor-schemes",
+      "regionName": "Sikkim",
+      "category": "irrigationProjects",
+      "name": "PMKSY Har Khet Ko Pani — surface minor irrigation and water-body restoration",
+      "description": "Sikkim's Water Resources and River Development Department implements PMKSY Har Khet Ko Pani through surface minor irrigation, repair-renovation-restoration of water bodies, groundwater development and command-area development. The Department constructs irrigation channels and delivery systems to provide dependable water to agricultural fields.",
+      "sourceId": "sikkimWaterResourcesIrrigation2026",
+      "sourceUrl": "https://www.sikkim.gov.in/departments/water-resource-river-development-department",
+      "referenceDate": "Official department profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-andaman-vishnu-rkpur-korang",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "irrigationProjects",
+      "name": "Minor irrigation schemes — Vishnu Nallah, RK Pur and proposed island schemes",
+      "description": "Andaman Public Works Department reports completed Vishnu Nallah and RK Pur minor irrigation schemes in Little Andaman. It identifies Korang Nallah, Prem Bahadur Nallah, Swaroop Nallah and Mithakhari Nallah schemes as under consideration, with additional North and Middle Andaman schemes investigated for feasibility.",
+      "sourceId": "andamanAPWDMinorIrrigation2026",
+      "sourceUrl": "https://apwd.and.nic.in/apwd/Activities.htm",
+      "referenceDate": "Official APWD activities page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-dnhdd-damanganga-reservoir",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "irrigationProjects",
+      "name": "Damanganga Reservoir Project (Madhuban Dam) — irrigation and water supply",
+      "description": "The 1992 inter-governmental agreement among Gujarat, Dadra and Nagar Haveli, and Daman and Diu establishes the Damanganga Reservoir Project at Madhuban. The project provides for irrigation and domestic/industrial water supply to the participating territories; the dam itself is located in Valsad district, Gujarat, and this record identifies the UTs as beneficiaries rather than the dam location.",
+      "sourceId": "gujaratDamangangaAgreement1992",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/agreement_for_damanganga.pdf",
+      "referenceDate": "Inter-governmental agreement dated 29 September 1992",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-delhi-western-yamuna-canal-effluent",
+      "regionName": "Delhi",
+      "category": "irrigationProjects",
+      "name": "Western Yamuna Canal and treated-effluent irrigation systems",
+      "description": "Delhi's Irrigation and Flood Control Department reports irrigation from the Haryana-controlled Western Yamuna Canal system (10,862 hectares), treated effluent from Okhla, Keshopur and Coronation Pillar sewage-treatment plants (1,176 hectares), and State tube-wells (227 hectares). The Department states that the NCT has no major or medium irrigation project; these are existing surface-water and minor-irrigation systems.",
+      "sourceId": "delhiIFCIrrigationProjects2026",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/management-irrigation-projects",
+      "referenceDate": "Official Government of NCT of Delhi page last updated 14 August 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-puducherry-neerum-oorum",
+      "regionName": "Puducherry",
+      "category": "irrigationProjects",
+      "name": "Neerum Oorum water-body restoration and irrigation-channel revival",
+      "description": "Puducherry District Administration launched Neerum Oorum on 5 September 2019 to restore water bodies and augment groundwater. The District Environment Plan reports revival of 198 ponds and 206 km of canal, alongside rejuvenation of 39 irrigation tanks and 39 village ponds under the National Adaptation Fund for Climate Change.",
+      "sourceId": "puducherryNeerumOorumIrrigation2019",
+      "sourceUrl": "https://dste.py.gov.in/sites/default/files/deppuducherry.pdf",
+      "referenceDate": "Puducherry District Environment Plan, section 10, page 52",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-chandigarh-no-dedicated-project-listed",
+      "regionName": "Chandigarh",
+      "category": "irrigationProjects",
+      "name": "No dedicated irrigation project listed in the cited UT district profile",
+      "description": "The Chandigarh Administration's district profile documents the city's urban water-supply system and Bhakra Main Canal link but does not list a dedicated irrigation project or irrigated command-area scheme within the UT. The source does not establish that no private or small-scale irrigation exists; no project is inferred from the drinking-water system.",
+      "sourceId": "chandigarhIrrigationScope2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-lakshadweep-no-scheme-listed",
+      "regionName": "Lakshadweep",
+      "category": "irrigationProjects",
+      "name": "No dedicated irrigation project listed in the cited UT Agriculture profile",
+      "description": "The Lakshadweep Agriculture Department profile does not identify a named irrigation project or canal command area. The UT's atoll geography and rain-fed island agriculture are distinct from mainland river-valley irrigation; this record documents the absence of a named project in the cited source, not the absence of all farm-level water management.",
+      "sourceId": "lakshadweepAgricultureScope2026",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "referenceDate": "Official UT Agriculture Department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "peak-uttar-pradesh-no-named-summit-listed",
+      "regionName": "Uttar Pradesh",
+      "category": "peaks",
+      "name": "No named high summit listed in the cited state profile",
+      "description": "The cited Forest Survey of India state chapter describes Uttar Pradesh's plains and hill/foothill physiography but does not provide a named mountain-peak inventory or a verified state high-point elevation. This is a source-scope limitation, not a claim that the Vindhyan uplands or Shivalik foothills contain no local high points.",
+      "sourceId": "fsiISFR2019UttarPradeshForestTypes",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttar-pradesh.pdf",
+      "referenceDate": "India State of Forest Report 2019, Uttar Pradesh chapter; accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "peak-dnhdd-no-named-summit-listed",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "peaks",
+      "name": "No named high summit listed in the cited UT profile",
+      "description": "The UT Administration's official profile describes the coastal, riverine and hilly settings of the merged Union Territory but does not enumerate a named mountain-peak inventory or a verified highest summit. This record documents the absence of a named peak in the cited profile; it does not imply that the Dadra and Nagar Haveli component has no elevated terrain.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-assam-kamarupa",
+      "regionName": "Assam",
+      "category": "ancientKingdoms",
+      "name": "Kamarupa Kingdom — Varman, Salastambha and Pala dynasties",
+      "description": "Assam Tourism identifies Kamarupa as the early historical polity of the Brahmaputra valley. Recorded history begins with Pushya Varman, founder of the Varman dynasty in the 4th century CE; Bhaskar Varman (594–640 CE) expanded Kamarupa's influence, followed by the Salastambha and Pala dynasties.",
+      "sourceId": "assamTourismKamarupaHistory2018",
+      "sourceUrl": "https://assamtourism.gov.in/blog-4.php",
+      "referenceDate": "Assam Tourism history profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-chhattisgarh-dakshina-kosala",
+      "regionName": "Chhattisgarh",
+      "category": "ancientKingdoms",
+      "name": "Dakshina Kosala",
+      "description": "The Chhattisgarh State Youth Commission dates the region's recorded history to approximately the 4th century CE, when it was known as Southern or Dakshina Kosala. The polity covered a broad central-eastern Indian region and is the principal ancient kingdom associated with the territory of modern Chhattisgarh.",
+      "sourceId": "cgYouthCommissionHistory2026",
+      "sourceUrl": "https://yuvaayog.cg.gov.in/en/about-us.php?yuvaayog=7",
+      "referenceDate": "Official Chhattisgarh State Youth Commission history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-goa-bhoja-konkan-maurya",
+      "regionName": "Goa",
+      "category": "ancientKingdoms",
+      "name": "Bhoja and Konkan Maurya polities",
+      "description": "The Goa Department of Information and Publicity records the Bhojas of the Yadava clans of Gujarat and the Konkan Mauryas among the polities that ruled Goa between the 2nd century BCE and 6th century CE, alongside the Mauryan, Chutu, Satavahana and Western Kshatrapa spheres.",
+      "sourceId": "goaDIPHistory2026",
+      "sourceUrl": "https://dip.goa.gov.in/history-of-goa/",
+      "referenceDate": "Official Goa history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-gujarat-maitraka-valabhi",
+      "regionName": "Gujarat",
+      "category": "ancientKingdoms",
+      "name": "Maitraka Kingdom of Valabhi",
+      "description": "The Census of India Bhavnagar District Census Handbook records Senapati Bhatarka's establishment of Maitraka power at Valabhi around 470 CE. Valabhi became the dynasty's capital and a major centre of learning; the Maitrakas ruled much of Saurashtra until the 8th century.",
+      "sourceId": "gujaratBhavnagarCensusHistory2011",
+      "sourceUrl": "https://censusindia.gov.in/nada/index.php/catalog/388/download/1200/DH_2011_2414_PART_A_DCHB_BHAVNAGAR.pdf",
+      "referenceDate": "Census of India 2011 District Census Handbook, Bhavnagar, historical perspective",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-haryana-kuru-kingdom",
+      "regionName": "Haryana",
+      "category": "ancientKingdoms",
+      "name": "Kuru Kingdom and Kurukshetra",
+      "description": "Kurukshetra District Administration associates the ancient region with King Kuru and the Kuru polity. Its history page places the area in the Vedic period and notes archaeological evidence from pre-Harappan and Harappan settlements; the epic-era chronology is presented as traditional history rather than a securely dated dynastic timeline.",
+      "sourceId": "haryanaKurukshetraHistory2026",
+      "sourceUrl": "https://kurukshetra.gov.in/history/",
+      "referenceDate": "Official district history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-himachal-audumbara-trigarta-kuluta",
+      "regionName": "Himachal Pradesh",
+      "category": "ancientKingdoms",
+      "name": "Audumbara, Trigarta, Kuluta and Kulinda polities",
+      "description": "The Himachal Pradesh Government's early-history profile identifies ancient Janapadas and republics in the present-day state: Audumbara in the lower hills, Trigarta between the Ravi, Beas and Sutlej, Kuluta in the upper Beas valley, and Kulinda between the Beas, Sutlej and Yamuna.",
+      "sourceId": "hpGovernmentEarlyHistory2026",
+      "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB6TUCCoK9ez%2FA%3D%3D",
+      "referenceDate": "Official Himachal Pradesh history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-manipur-meitei-kingdom",
+      "regionName": "Manipur",
+      "category": "ancientKingdoms",
+      "name": "Ancient Meitei Kingdom of Kangla",
+      "description": "Manipur Tourism dates the kingdom's recorded ancient history to 33 CE and identifies Kangla as the royal centre and seat of Manipur's rulers until the British takeover in 1891. The official tourism profile describes this as a long-running kingdom rather than a single short-lived dynasty.",
+      "sourceId": "manipurTourismHistory2026",
+      "sourceUrl": "https://manipurtourism.gov.in/highlights/",
+      "referenceDate": "Official Manipur Tourism history profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-telangana-satavahana",
+      "regionName": "Telangana",
+      "category": "ancientKingdoms",
+      "name": "Satavahana Kingdom",
+      "description": "Telangana Tourism identifies Kotilingala in present-day Karimnagar as the first capital of the Satavahana Kingdom and gives the dynasty's broad period as 230 BCE–220 CE. Archaeological excavations and inscriptions in the region document Satavahana rule and its successors.",
+      "sourceId": "telanganaTourismHistory2026",
+      "sourceUrl": "https://tourism.telangana.gov.in/page/history-culture",
+      "referenceDate": "Official Telangana Tourism history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-jammu-kashmir-karkota-utpala-lohara",
+      "regionName": "Jammu and Kashmir",
+      "category": "ancientKingdoms",
+      "name": "Karkota, Utpala and Lohara dynasties of Kashmir",
+      "description": "The Jammu and Kashmir Planning Department's history records the Karkota dynasty from the 7th century CE, the Utpala dynasty from 855 CE and the Lohara dynasty from 1003 CE. Lalitaditya Muktapida of the Karkotas and Avantivarman of the Utpalas are identified as prominent rulers.",
+      "sourceId": "jkPlanningHistory2026",
+      "sourceUrl": "https://www.jkplanning.gov.in/history.html",
+      "referenceDate": "Official J&K Government history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-punjab-madra-kingdom",
+      "regionName": "Punjab",
+      "category": "ancientKingdoms",
+      "name": "Madra Kingdom",
+      "description": "The Indira Gandhi National Centre for the Arts' historical reference locates the Madra Kingdom in the north-central Punjab region, with its capital at Sakala (identified with the Sialkot area in present-day Pakistan). The record reflects the historical geography of the wider Punjab region, not a claim that the capital lies within the present Indian state.",
+      "sourceId": "igncaMadraHistory",
+      "sourceUrl": "https://ignca.gov.in/Asi_data/6059.pdf",
+      "referenceDate": "IGNCA historical reference on ancient kingdoms of north-western India",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-lakshadweep-chera-pallava-chola-influence",
+      "regionName": "Lakshadweep",
+      "category": "ancientKingdoms",
+      "name": "Chera, Pallava and Chola-era influence in the islands",
+      "description": "The Lakshadweep Administration's history records that the islands were under the influence of the Cheras during the Sangam period, later the Pallavas, and the Chola kingdom in the 11th century CE. The source describes changing spheres of influence and trade connections rather than a separate Lakshadweep kingdom.",
+      "sourceId": "lakshadweepGovernmentHistory2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/history/",
+      "referenceDate": "Official UT history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-arunachal-chutiya-kingdom",
+      "regionName": "Arunachal Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Chutiya Kingdom and Bhismaknagar polity",
+      "description": "The Arunachal Pradesh State Gazetteer describes the Chutiya polity in the Sadiya–Lohit region and its association with Bhismaknagar. It records Chutiya resistance to Ahom expansion, including revolts in 1523 and 1527; the polity's territory extended across parts of present-day Arunachal Pradesh and Assam.",
+      "sourceId": "arunachalStateGazetteer2026",
+      "sourceUrl": "https://arunachalpradesh.gov.in/images/Gazetteer/state-gazetteer.pdf",
+      "referenceDate": "Arunachal Pradesh State Gazetteer, Chutiya and Bhismaknagar history sections",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-chhattisgarh-haihaya-kalachuri-ratanpur",
+      "regionName": "Chhattisgarh",
+      "category": "medievalKingdoms",
+      "name": "Haihaya (Kalachuri) dynasty of Ratanpur",
+      "description": "The Chhattisgarh State Youth Commission states that the name Chhattisgarh was formerly applied to the territory of the Haihaya dynasty of Ratanpur, founded around 750 CE. The Kalachuri rulers formed one of the principal medieval dynasties of the region.",
+      "sourceId": "cgYouthCommissionHistory2026",
+      "sourceUrl": "https://yuvaayog.cg.gov.in/en/about-us.php?yuvaayog=7",
+      "referenceDate": "Official Chhattisgarh State Youth Commission history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-goa-kadamba-vijayanagara-bijapur",
+      "regionName": "Goa",
+      "category": "medievalKingdoms",
+      "name": "Kadamba Kingdom of Goa and later Vijayanagara–Bijapur rule",
+      "description": "The Goa Department of Information and Publicity records Kadamba rule in Goa after the early medieval period, followed by the Delhi Sultanate in 1312 and later Bahmani, Bijapur and Vijayanagara phases. The Kadambas ruled Goa as feudatories of the Chalukyas of Kalyani and made Govapuri/Goa Velha an important capital.",
+      "sourceId": "goaDIPHistory2026",
+      "sourceUrl": "https://dip.goa.gov.in/history-of-goa/",
+      "referenceDate": "Official Goa history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-haryana-tomara-delhi-sultanate",
+      "regionName": "Haryana",
+      "category": "medievalKingdoms",
+      "name": "Tomara Rajputs and Delhi Sultanate",
+      "description": "The Haryana Government's history page records the Tomara Rajputs ruling the Haryana tract from Delhi before the Ghaznavid invasions, followed by the Delhi Sultanate's control of Hansi, Sonipat and Thanesar. The region later came under Mughal and Sikh influence before British rule.",
+      "sourceId": "haryanaKurukshetraHistory2026",
+      "sourceUrl": "https://kurukshetra.gov.in/history/",
+      "referenceDate": "Official district history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-himachal-katoch-hill-states",
+      "regionName": "Himachal Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Katoch Kingdom of Kangra and western Himalayan hill states",
+      "description": "The Himachal Pradesh Government's history profile records the continuation of local Thakur and Rana chiefdoms after the Gupta period and the rise of regional hill powers. Historic states in the present-day region included Kangra, Chamba, Mandi, Sirmaur and Kullu; the source describes the wider hill-state political landscape rather than assigning every principality to a single dynasty.",
+      "sourceId": "hpGovernmentEarlyHistory2026",
+      "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB6TUCCoK9ez%2FA%3D%3D",
+      "referenceDate": "Official Himachal Pradesh history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-meghalaya-jaintia-kingdom",
+      "regionName": "Meghalaya",
+      "category": "medievalKingdoms",
+      "name": "Jaintia Kingdom and the Twelve Elakas",
+      "description": "The Government of Meghalaya's Jowai history page describes the Jaintia Kingdom's formation from twelve Elakas under the leadership of the Dolloi of Nartiang. It records Iakor Sing of Sutnga as the first appointed king and explains the political union of the Jaintia Hills chiefdoms.",
+      "sourceId": "meghalayaJaintiaKingdomHistory2026",
+      "sourceUrl": "https://meghalaya.gov.in/index.php/node/34293",
+      "referenceDate": "Official Meghalaya Government history profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-odisha-eastern-ganga-gajapati",
+      "regionName": "Odisha",
+      "category": "medievalKingdoms",
+      "name": "Eastern Ganga and Suryavamsi Gajapati dynasties",
+      "description": "The Government of Odisha records the Eastern Ganga dynasty's rule for nearly 350 years, followed by the Suryavamsi Gajapati kings. The dynasty's rulers expanded Kalinga's power and sponsored major temple architecture, including the Konark Sun Temple under Narasingha Deva I.",
+      "sourceId": "odishaGovernmentDynasticHistory2026",
+      "sourceUrl": "https://odisha.gov.in/en/odisha-profile/land-and-people",
+      "referenceDate": "Official Odisha Government history profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-sikkim-namgyal-dynasty",
+      "regionName": "Sikkim",
+      "category": "medievalKingdoms",
+      "name": "Namgyal Dynasty and the Kingdom of Sikkim",
+      "description": "The Government of Sikkim records the Namgyal dynasty's rule from 1642 to 1975. Phuntsog Namgyal was consecrated as the first Chogyal at Yuksam in 1642, unifying local chiefs and establishing the monarchy that governed Sikkim until its merger with India.",
+      "sourceId": "sikkimNamgyalHistory2026",
+      "sourceUrl": "https://50yearsofstatehood.sikkim.gov.in/",
+      "referenceDate": "Official Sikkim 50 Years of Statehood history timeline",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-tripura-manikya-dynasty",
+      "regionName": "Tripura",
+      "category": "medievalKingdoms",
+      "name": "Manikya Dynasty of Tripura",
+      "description": "The Tripura Board of Secondary Education's history syllabus identifies the Manikya dynasty as the central royal line in Tripura's history, including Ratna Manikya, Govinda Manikya, Dhanya Manikya and later rulers. The dynasty governed the princely state until its accession to India in 1949.",
+      "sourceId": "tripuraManikyaHistory2024",
+      "sourceUrl": "https://tbse.tripura.gov.in/sites/default/files/Social%20Science.pdf",
+      "referenceDate": "Tripura Board of Secondary Education Social Science syllabus 2024–25",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-jammu-kashmir-shah-mir-chak-dogra",
+      "regionName": "Jammu and Kashmir",
+      "category": "medievalKingdoms",
+      "name": "Shah Mir Sultanate, Chak dynasty and Dogra rule",
+      "description": "The Jammu and Kashmir Planning Department records the establishment of Muslim rule in Kashmir under Sultan Shamas-ud-din in 1339, followed by the Shah Mir line and later regional dynasties. The broader medieval and early-modern succession included the Chak rulers and the Dogra princely state.",
+      "sourceId": "jkPlanningHistory2026",
+      "sourceUrl": "https://www.jkplanning.gov.in/history.html",
+      "referenceDate": "Official J&K Government history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-uttarakhand-chand-parmar-panwar",
+      "regionName": "Uttarakhand",
+      "category": "medievalKingdoms",
+      "name": "Chand Kingdom of Kumaon and Parmar–Panwar Kingdom of Garhwal",
+      "description": "The Uttarakhand Board of Revenue records the Chand dynasty ruling Kumaon and the Parmar/Panwar dynasties ruling Garhwal before the Gorkha conquest of 1790–91. Tehri Garhwal remained a princely state under the local king until its merger after independence.",
+      "sourceId": "uttarakhandBoardRevenueHistory2026",
+      "sourceUrl": "https://bor.uk.gov.in/content-category/history/",
+      "referenceDate": "Official Uttarakhand Board of Revenue history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-uttar-pradesh-gahadavala-kannauj",
+      "regionName": "Uttar Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Gahadavala Kingdom of Kannauj",
+      "description": "The Kannauj District Administration records Chandradeva as the first Gahadavala king of Kannauj, ruling from 1089–90 CE, and Jaichandra as the prominent 12th-century ruler. The kingdom controlled the Kannauj region until the Ghurid conquest in 1193.",
+      "sourceId": "upKannaujHistory2026",
+      "sourceUrl": "https://kannauj.nic.in/history/",
+      "referenceDate": "Official Kannauj District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-kerala-kulasekhara-perumpadappu-arakkal",
+      "regionName": "Kerala",
+      "category": "medievalKingdoms",
+      "name": "Kulasekhara Empire, Perumpadappu Swaroopam and Arakkal Kingdom",
+      "description": "Kerala Tourism records the break-up of the Kulasekhara empire in 1102 CE and the rise of independent regional swaroopams, including Perumpadappu (later Cochin). The Arakkal royal family ruled Kannur and held authority over Lakshadweep for several centuries, as recorded in the Kannur District Census Handbook.",
+      "sourceId": "keralaTourismCheraHistory2026",
+      "sourceUrl": "https://www.keralatourism.org/muziris/history",
+      "referenceDate": "Official Kerala Tourism Muziris heritage history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "lakshadweepGovernmentHistory2026"
+      ]
+    },
+    {
+      "id": "medieval-bihar-pala-influence-kaimur",
+      "regionName": "Bihar",
+      "category": "medievalKingdoms",
+      "name": "Pala Dynasty influence in the Kaimur–Shahabad region",
+      "description": "The Government of Bihar's Kaimur District Survey Report records that the district successively came under the rulers of the Pala dynasty of Bengal, following earlier Magadha and Harsha-era control. This entry records documented regional influence, not the claim that the Pala capital was located in Bihar.",
+      "sourceId": "biharKaimurDistrictHistory2021",
+      "sourceUrl": "https://state.bihar.gov.in/cache/17/Smart%20City/DReports/DSR-PR-MM-Kaimur.pdf",
+      "referenceDate": "Official Bihar district survey report, historical perspective section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-punjab-sikh-kingdoms-and-empire",
+      "regionName": "Punjab",
+      "category": "medievalKingdoms",
+      "name": "Sikh Misls and the Sikh Empire",
+      "description": "The Government of Punjab's historical overview records the formation of the modern state's territory from the former Punjab province and princely states, including Patiala, Nabha, Jind, Kapurthala, Malerkotla and Faridkot. The wider medieval-to-early-modern political history culminated in the Sikh Misls and Maharaja Ranjit Singh's Sikh Empire in the early 19th century.",
+      "sourceId": "punjabGovernmentHistory2026",
+      "sourceUrl": "https://punjab.gov.in/know-punjab/history/",
+      "referenceDate": "Official Punjab Government history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-lakshadweep-arakkal-tipusultan",
+      "regionName": "Lakshadweep",
+      "category": "medievalKingdoms",
+      "name": "Arakkal Kingdom and Mysore suzerainty",
+      "description": "The Lakshadweep Administration records that the islands passed from the Chirakkal Raja to the Arakkal house of Cannanore around the mid-16th century. In 1783, the Amindivi group was transferred to Tipu Sultan, while the remaining islands continued under Arakkal authority until British annexation after 1799.",
+      "sourceId": "lakshadweepGovernmentHistory2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/history/",
+      "referenceDate": "Official UT history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-arunachal-no-statewide-kingdom-verified",
+      "regionName": "Arunachal Pradesh",
+      "category": "ancientKingdoms",
+      "name": "No ancient kingdom established for the present-day state in the cited gazetteer",
+      "description": "The Arunachal Pradesh State Gazetteer documents later regional polities, including the Chutiya kingdom in the Sadiya–Lohit region, but the cited source does not establish a single securely dated ancient kingdom covering the present-day state. This is a source-scope note; it does not exclude local tribal and chiefdom histories.",
+      "sourceId": "arunachalStateGazetteer2026",
+      "sourceUrl": "https://arunachalpradesh.gov.in/images/Gazetteer/state-gazetteer.pdf",
+      "referenceDate": "Arunachal Pradesh State Gazetteer, historical sections",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-jharkhand-no-verified-kingdom",
+      "regionName": "Jharkhand",
+      "category": "ancientKingdoms",
+      "name": "No securely dated ancient kingdom established in the cited regional history",
+      "description": "The Palamu District Administration describes the early history of the region as largely traditional and notes autonomous tribal communities before the better-documented Chero period. The cited source does not establish a distinct ancient kingdom within present-day Jharkhand boundaries; this is not a claim that the wider region was outside neighbouring empires.",
+      "sourceId": "jharkhandPalamuCheroHistory2026",
+      "sourceUrl": "https://palamu.nic.in/history/",
+      "referenceDate": "Official Palamu District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-meghalaya-no-ancient-kingdom-listed",
+      "regionName": "Meghalaya",
+      "category": "ancientKingdoms",
+      "name": "No securely dated ancient kingdom listed in the cited state history",
+      "description": "The Government of Meghalaya's history page documents the Jaintia political union and the Twelve Elakas as a later regional kingdom. It does not establish a separately dated ancient kingdom for the present-day state; Khasi and Garo traditional institutions are not recast as a single ancient monarchy.",
+      "sourceId": "meghalayaJaintiaKingdomHistory2026",
+      "sourceUrl": "https://meghalaya.gov.in/index.php/node/34293",
+      "referenceDate": "Official Meghalaya Government history profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-mizoram-village-chiefdoms-not-kingdom",
+      "regionName": "Mizoram",
+      "category": "ancientKingdoms",
+      "name": "Village chiefdoms rather than a single ancient kingdom",
+      "description": "The Mizoram Land Revenue and Settlement Department records autonomous village communities under hereditary chiefs before British annexation. The source describes multiple clan and village chiefdoms, not a unified ancient kingdom across the present-day state.",
+      "sourceId": "mizoramLandRevenueChiefdomHistory2026",
+      "sourceUrl": "https://eram.mizoram.gov.in/pages/about-us",
+      "referenceDate": "Official Mizoram department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-nagaland-village-republics-not-kingdom",
+      "regionName": "Nagaland",
+      "category": "ancientKingdoms",
+      "name": "Naga village republics and traditional clan polities",
+      "description": "The Nagaland Round Table Conference Report describes self-sustaining village republics governed through tribal traditions and customary institutions. It notes a traditional kingship system among the Konyak, while most other Naga communities followed clan or village-council systems; the source does not establish a single ancient kingdom for the present-day state.",
+      "sourceId": "nagalandVillageRepublicsHistory2018",
+      "sourceUrl": "https://focus.nagaland.gov.in/wp-content/uploads/2018/03/Nagaland-Round-Table-Conference-Report.pdf",
+      "referenceDate": "Nagaland Round Table Conference Report, chapter 7",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-sikkim-no-pre-namgyal-kingdom",
+      "regionName": "Sikkim",
+      "category": "ancientKingdoms",
+      "name": "No ancient kingdom separately documented before the Namgyal monarchy",
+      "description": "The Government of Sikkim's statehood timeline dates the establishment of the Namgyal monarchy to 1642. The cited official timeline does not identify a securely dated ancient kingdom preceding it; earlier Lepcha and local traditions are not assigned a dynastic chronology here.",
+      "sourceId": "sikkimNamgyalHistory2026",
+      "sourceUrl": "https://50yearsofstatehood.sikkim.gov.in/",
+      "referenceDate": "Official Sikkim statehood history timeline",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-tripura-traditional-rulers-chronology-unverified",
+      "regionName": "Tripura",
+      "category": "ancientKingdoms",
+      "name": "Traditional pre-Manikya rulers — chronology not securely established",
+      "description": "The Agartala Smart City IEE mentions traditional early rulers, including Patardan with a legendary date of 1900 BCE, but explicitly says the chronology of Tripura's rulers has not been found and identifies the account as folklore. The record preserves the tradition without presenting it as a verified ancient dynasty.",
+      "sourceId": "tripuraIEETraditionalKings2024",
+      "sourceUrl": "https://agartalasmartcity.tripura.gov.in/sites/default/files/2024-10/IEE%20Ujjayanta%20Lake%20Part-A.pdf",
+      "referenceDate": "Agartala Smart City IEE, section 128, History, Culture and Tourism",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-andaman-no-centralized-kingdom",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "ancientKingdoms",
+      "name": "Indigenous island societies — no centralized ancient kingdom documented",
+      "description": "The Nicobar District Administration describes a long unwritten history and traditional tribal councils among the island communities. The cited district history does not identify a centralized ancient kingdom; indigenous social and political institutions are recorded separately from later European colonial occupation.",
+      "sourceId": "andamanNicobarDistrictHistory2026",
+      "sourceUrl": "https://nicobars.andaman.nic.in/history/",
+      "referenceDate": "Official Nicobar District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-chandigarh-no-separate-kingdom",
+      "regionName": "Chandigarh",
+      "category": "ancientKingdoms",
+      "name": "No separate ancient kingdom documented for the Chandigarh territory",
+      "description": "The Chandigarh Administration's district profile provides the modern region's geographical and administrative history but does not identify a distinct ancient kingdom centred on the present-day UT. The area formed part of wider north-western Indian cultural and political regions; no separate dynasty is inferred.",
+      "sourceId": "chandigarhAdministrationHistory2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-dnhdd-no-separate-kingdom",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "ancientKingdoms",
+      "name": "No distinct ancient kingdom established in the cited UT profile",
+      "description": "The UT Administration's official profile does not establish a separate ancient kingdom for the present-day merged Union Territory. The coastal and inland areas were influenced by broader western Indian powers; this record avoids assigning a single dynasty to the modern UT boundaries without a district-specific source.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-ladakh-no-central-authority-before-10th-century",
+      "regionName": "Ladakh",
+      "category": "ancientKingdoms",
+      "name": "No unified ancient kingdom documented before the 10th-century Ladakhi polity",
+      "description": "The Leh District Administration states that before the 10th century the region had no central authority and was divided into small principalities. The unified kingdom founded by Skit Lde Nemagon belongs to the 10th century CE and is therefore recorded under medieval kingdoms rather than ancient kingdoms.",
+      "sourceId": "ladakhLehDistrictHistory2026",
+      "sourceUrl": "https://leh.nic.in/about-district/history/",
+      "referenceDate": "Official Leh District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-puducherry-pallava-chola-pandya",
+      "regionName": "Puducherry",
+      "category": "ancientKingdoms",
+      "name": "Pallava, Chola and Pandya rule in the Puducherry region",
+      "description": "The Government of Puducherry's official history dates Pallava rule in the region from approximately 325–900 CE, Chola rule from 900–1279 CE and Pandya rule from 1279–1370 CE. The territory was part of these larger southern Indian kingdoms rather than a separate Puducherry monarchy.",
+      "sourceId": "puducherryGovernmentHistory2026",
+      "sourceUrl": "https://www.py.gov.in/history",
+      "referenceDate": "Official Puducherry Government history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-andhra-kakatiya-reddy-vijayanagara",
+      "regionName": "Andhra Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Kakatiya, Reddy and Vijayanagara polities in the Andhra region",
+      "description": "Krishna District Administration records the area under the Kakatiyas, followed by the Reddy dynasty and Vijayanagara Empire. The district history notes Kakatiya rule in the 13th–14th centuries and later Qutb Shahi and Nizam influence in the Krishna region; this entry records regional rule, not a claim that each dynasty's capital was within the present state.",
+      "sourceId": "andhraKrishnaDistrictHistory2026",
+      "sourceUrl": "https://krishna.ap.gov.in/about_district/history/",
+      "referenceDate": "Official Krishna District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-jharkhand-chero-palamu",
+      "regionName": "Jharkhand",
+      "category": "medievalKingdoms",
+      "name": "Chero rulers of Palamu",
+      "description": "The Palamu District Administration records the Chero rulers' assertion of independence after Akbar's death, the reigns of Sahbal Rai and Pratap Rai, and Medini Rai's later rule in the 17th century. The source documents the Palamu sub-region and is not presented as a dynasty governing all of modern Jharkhand.",
+      "sourceId": "jharkhandPalamuCheroHistory2026",
+      "sourceUrl": "https://palamu.nic.in/history/",
+      "referenceDate": "Official Palamu District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-madhya-pradesh-paramara-kalachuri-chandela",
+      "regionName": "Madhya Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Paramara of Malwa, Kalachuri of Tripuri and Chandela polities",
+      "description": "Dhar District Administration records the Paramaras ruling the Malwa region from the 9th to 13th centuries, with Munja and Bhoja as prominent rulers. Satna District Administration records Kalachuri/Chedi power in the Baghelkhand region and the Chandelas' seizure of Kalinjar under Yashovarman in the 10th century.",
+      "sourceId": "mpDharParamaraHistory2026",
+      "sourceUrl": "https://dhar.nic.in/en/history/",
+      "referenceDate": "Official Dhar District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "mpSatnaKalachuriHistory2026"
+      ]
+    },
+    {
+      "id": "medieval-mizoram-village-chiefdoms-not-kingdom",
+      "regionName": "Mizoram",
+      "category": "medievalKingdoms",
+      "name": "Lushai and other Mizo village chiefdoms",
+      "description": "The Mizoram Land Revenue and Settlement Department records autonomous village chiefs and clan-based territorial jurisdictions before British annexation in the late 19th century. The cited source describes multiple village chiefdoms rather than a unified medieval kingdom covering present-day Mizoram.",
+      "sourceId": "mizoramLandRevenueChiefdomHistory2026",
+      "sourceUrl": "https://eram.mizoram.gov.in/pages/about-us",
+      "referenceDate": "Official Mizoram department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-nagaland-village-republics-not-kingdom",
+      "regionName": "Nagaland",
+      "category": "medievalKingdoms",
+      "name": "Naga village republics and traditional chiefdoms",
+      "description": "The Nagaland Round Table Conference Report describes self-sustaining village republics, customary village councils and clan-based administration. It notes a traditional kingship system among the Konyak, while other Naga communities used village or clan institutions; the source does not establish a single medieval kingdom for the present-day state.",
+      "sourceId": "nagalandVillageRepublicsHistory2018",
+      "sourceUrl": "https://focus.nagaland.gov.in/wp-content/uploads/2018/03/Nagaland-Round-Table-Conference-Report.pdf",
+      "referenceDate": "Nagaland Round Table Conference Report, chapter 7",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-telangana-kakatiya-qutb-shahi",
+      "regionName": "Telangana",
+      "category": "medievalKingdoms",
+      "name": "Kakatiya Kingdom and Qutb Shahi Sultanate",
+      "description": "Telangana Tourism records the Kakatiya dynasty as a major medieval polity centred at Hanamkonda and Warangal, followed by the Qutb Shahi Sultanate of Golconda. The Kakatiyas unified much of the Telugu region before the Delhi Sultanate conquest in 1323; Qutb Shahi rule followed from the 16th century.",
+      "sourceId": "telanganaTourismHistory2026",
+      "sourceUrl": "https://tourism.telangana.gov.in/page/history-culture",
+      "referenceDate": "Official Telangana Tourism history profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-andaman-no-local-kingdom",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "medievalKingdoms",
+      "name": "Indigenous island societies and European colonial occupation — no local kingdom documented",
+      "description": "The Nicobar District Administration records local tribal councils and a long unwritten history, followed by Portuguese and French missionary contact and Danish possession from 1756. The cited official district history does not identify a local medieval kingdom; colonial occupations are recorded as external administrations, not indigenous dynasties.",
+      "sourceId": "andamanNicobarDistrictHistory2026",
+      "sourceUrl": "https://nicobars.andaman.nic.in/history/",
+      "referenceDate": "Official Nicobar District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-chandigarh-no-separate-kingdom",
+      "regionName": "Chandigarh",
+      "category": "medievalKingdoms",
+      "name": "No separate medieval kingdom centred on Chandigarh documented",
+      "description": "The Chandigarh Administration's district profile does not identify a distinct medieval kingdom centred on the present-day UT. The territory's history is part of wider Punjab and north-west Indian political changes; no independent Chandigarh dynasty is inferred.",
+      "sourceId": "chandigarhAdministrationHistory2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-dnhdd-no-separate-kingdom",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "medievalKingdoms",
+      "name": "No separate medieval kingdom documented for the present-day merged UT",
+      "description": "The official UT profile describes the coastal enclaves and their later Portuguese colonial history but does not establish a distinct medieval kingdom covering the present-day merged territory. The source does not treat the Portuguese administration as an Indian dynasty or kingdom.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-ladakh-namgyal-kingdom",
+      "regionName": "Ladakh",
+      "category": "medievalKingdoms",
+      "name": "Ladakhi Kingdom and Namgyal dynasty",
+      "description": "The Leh District Administration records Skit Lde Nemagon's establishment of a kingdom at Shey in the middle of the 10th century after unifying smaller principalities. Sengge Namgyal later consolidated the Ladakhi Empire in the 16th–17th centuries and built Leh Palace.",
+      "sourceId": "ladakhLehDistrictHistory2026",
+      "sourceUrl": "https://leh.nic.in/about-district/history/",
+      "referenceDate": "Official Leh District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-puducherry-pallava-chola-vijayanagara-bijapur",
+      "regionName": "Puducherry",
+      "category": "medievalKingdoms",
+      "name": "Pallava, Chola, Pandya, Vijayanagara and Bijapur rule",
+      "description": "The Government of Puducherry's official history records Pallava rule (325–900 CE), Chola rule (900–1279), Pandya rule (1279–1370), Vijayanagara control from about 1370 to 1638 and subsequent Bijapur rule over Gingee. These are regional dynasties and empires that controlled the Puducherry area before the French settlement.",
+      "sourceId": "puducherryGovernmentHistory2026",
+      "sourceUrl": "https://www.py.gov.in/history",
+      "referenceDate": "Official Puducherry Government history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    }
+  ]
+}

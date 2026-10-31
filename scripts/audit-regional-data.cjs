@@ -26,10 +26,17 @@ const categoryGroups = {
 const errors = [];
 const warnings = [];
 const regionsData = read('data/explore-india-regions.json');
+const supplementalData = read('data/region-supplemental-categories-2026.json');
+const supplementalBatchData = read('data/region-supplemental-categories-batch-2026-10-31.json');
+const allSupplementalRecords = [...(supplementalData.records || []), ...(supplementalBatchData.records || [])];
+const allSupplementalSources = [...(supplementalData.sources || []), ...(supplementalBatchData.sources || [])];
+const giData = read('data/region-gi-2026.json');
+const sourceRegistry = read('data/source-registry.json');
 const politicalData = read('data/region-political-2026.json');
 const heritageData = read('data/region-unesco-heritage-2026.json');
 const censusData = read('data/india-district-census-2011.json');
 const districtProfileData = read('data/district-profiles-2026.json');
+const districtProfileBatchData = read('data/district-profile-enrichment-batch-2026-10-31.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -49,9 +56,49 @@ assert(regionSet.size === 36, 'Regional catalogue contains duplicate region name
 for (const name of expectedNames) assert(regionSet.has(name), 'Missing expected region: ' + name);
 for (const name of regionNames) assert(expectedNames.includes(name), 'Unexpected region: ' + name);
 
+const allowedSupplementalCategories = new Set(Object.values(categoryGroups).flat());
+const supplementalSourceIds = new Set(allSupplementalSources.map(source => source.sourceId));
+const supplementalIds = new Set();
+for (const row of allSupplementalRecords) {
+  assert(row.id && !supplementalIds.has(row.id), 'Supplemental record has missing or duplicate ID: ' + (row.id || '(missing)'));
+  supplementalIds.add(row.id);
+  assert(regionSet.has(row.regionName), 'Supplemental record references unknown region: ' + row.regionName);
+  assert(allowedSupplementalCategories.has(row.category), 'Supplemental record uses unknown category: ' + row.category);
+  assert(row.name && row.description, 'Supplemental record is missing a name or description: ' + (row.id || '(missing)'));
+  assert(row.sourceUrl && /^https:\/\//i.test(row.sourceUrl), 'Supplemental record lacks an HTTPS source URL: ' + (row.id || row.name));
+  assert(row.sourceId && supplementalSourceIds.has(row.sourceId), 'Supplemental record references an unregistered source: ' + (row.id || row.name));
+  assert(['verified','verification_pending','not_available'].includes(row.verificationStatus), 'Supplemental record has invalid verification status: ' + (row.id || row.name));
+}
 
+
+
+const giSourceIds = new Set((sourceRegistry.sources || []).map(source => source.id));
+const giKeys = new Set();
+const giRegions = new Set();
+for (const row of giData.records || []) {
+  const key = normalized(row.regionName) + '|' + normalized(row.name);
+  assert(regionSet.has(row.regionName), 'GI record references unknown region: ' + row.regionName);
+  assert(row.name && row.applicationNo && row.registrationStatus === 'Registered', 'GI record lacks registered-product details: ' + (row.name || '(missing)'));
+  assert(row.sourceId === 'ipindiaStatewiseRegisteredGI2026' && giSourceIds.has(row.sourceId), 'GI record references an unregistered source: ' + (row.name || '(missing)'));
+  assert(row.sourceUrl === giData.source.sourceUrl && /^https:\/\//i.test(row.sourceUrl), 'GI record source URL does not match the registered Part A source: ' + (row.name || '(missing)'));
+  assert(row.referenceDate && row.lastVerifiedAt, 'GI record lacks reference or verification date: ' + (row.name || '(missing)'));
+  assert(!giKeys.has(key), 'Duplicate GI record for region: ' + row.regionName + ' / ' + row.name);
+  giKeys.add(key);
+  giRegions.add(row.regionName);
+}
+if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
+for (const batchRow of districtProfileBatchData.records || []) {
+  const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
+  if (existing) {
+    for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
+    existing.verifiedFields = [...new Set([...(existing.verifiedFields || []), ...(batchRow.verifiedFields || [])])];
+    existing.sourceRecords = [...(existing.sourceRecords || []), ...(batchRow.sourceRecords || [])];
+  } else districtProfileRows.push(batchRow);
+}
+const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');
+const districtProfilesWithVerifiedFields = districtProfileRows.filter(row => Array.isArray(row.verifiedFields) && row.verifiedFields.length > 0);
 const districtProfileCodes = new Set();
 const allowedVerification = new Set(['verified','verification_pending','not_available']);
 for (const row of districtProfileRows) {
@@ -59,6 +106,10 @@ for (const row of districtProfileRows) {
   assert(!districtProfileCodes.has(row.lgdCode), 'Duplicate district profile LGD code: ' + row.lgdCode);
   districtProfileCodes.add(row.lgdCode);
   assert(allowedVerification.has(row.verificationStatus), 'Invalid district profile verification status: ' + row.name);
+  if (row.profileType === 'directory_identity_only') {
+    assert(row.verificationStatus === 'verification_pending' && Array.isArray(row.verifiedFields) && row.verifiedFields.length === 0,
+      'Directory-only district record must remain pending and contain no verified profile fields: ' + row.name);
+  }
   assert(Array.isArray(row.sourceRecords) && row.sourceRecords.length > 0, 'District profile has no source records: ' + row.name);
   for (const field of row.verifiedFields || []) {
     assert(row[field] !== null && row[field] !== undefined && row[field] !== '', 'Verified district field is empty: ' + row.name + '.' + field);
@@ -139,20 +190,26 @@ for (const row of heritageRows) {
   if (!regionSet.has(row.regionName)) errors.push('UNESCO row refers to unknown region: ' + row.regionName);
 }
 
-let sourceCheckedRecords = 0;
+let sourceCheckedRecords = allSupplementalRecords.length;
 let unsourcedRecords = 0;
-let districtProfileRegions = 0;
+const districtProfileRegions = new Set(districtProfileRows.map(row => normalized(row.stateName))).size;
 const coverage = {};
 for (const [group, keys] of Object.entries(categoryGroups)) {
   coverage[group] = {};
   for (const key of keys) {
-    const regionsWithData = regions.filter(r => list((r.geography || {})[key]).length > 0).length;
-    const recordCount = regions.reduce((sum,r) => sum + list((r.geography || {})[key]).length, 0);
-    coverage[group][key] = { regionsWithData, recordCount };
+    const categoryRecords = (region) => {
+      const base = key === 'languages' && !list((region.geography || {})[key]).length ? list(region.officialLanguages) : list((region.geography || {})[key]);
+      const extra = allSupplementalRecords.filter(row => row.regionName === region.name && row.category === key);
+      const giExtra = key === 'giProducts' ? (giData.records || []).filter(row => row.regionName === region.name) : [];
+      return base.concat(extra, giExtra);
+    };
+    const regionsWithDataNames = regions.filter(r => categoryRecords(r).length > 0).map(r => r.name);
+    const regionsMissing = expectedNames.filter(name => !regionsWithDataNames.includes(name));
+    const recordCount = regions.reduce((sum,r) => sum + categoryRecords(r).length, 0);
+    coverage[group][key] = { regionsWithData: regionsWithDataNames.length, recordCount, regionsWithDataNames, regionsMissing };
   }
 }
 for (const region of regions) {
-  if (region.districts && Array.isArray(region.districts.records) && region.districts.records.length) districtProfileRegions++;
   for (const [category, value] of Object.entries(region.geography || {})) {
     for (const record of list(value)) {
       sourceCheckedRecords++;
@@ -164,10 +221,14 @@ for (const region of regions) {
   }
 }
 assert(unsourcedRecords === 0, unsourcedRecords + ' existing geography records lack a source URL/source ID.');
-if (districtProfileRegions < 36) warnings.push('Only ' + districtProfileRegions + '/36 regions currently have imported district profile records; map polygons are not a substitute for verified district facts.');
+if (districtProfileRegions < 36) warnings.push('District directory identity records currently cover ' + districtProfileRegions + '/36 regions.');
+if (directoryOnlyDistrictRows.length) warnings.push(directoryOnlyDistrictRows.length + ' districts have LGD directory identity shells only; detailed district facts remain unverified. ' + districtProfilesWithVerifiedFields.length + ' districts have at least one field-specific sourced profile attribute.');
 if (heritageRows.length) {
   const heritageRegions = new Set(heritageRows.map(r => r.regionName)).size;
-  warnings.push('UNESCO dataset currently contains ' + heritageRows.length + ' named properties across ' + heritageRegions + '/36 regions; this is not a complete heritage inventory.');
+  const noInscribedRegions = new Set(allSupplementalRecords
+    .filter(r => r.category === 'unescoWorldHeritage' && r.verificationStatus === 'not_available')
+    .map(r => r.regionName)).size;
+  warnings.push('UNESCO dataset contains ' + heritageRows.length + ' named inscribed properties across ' + heritageRegions + '/36 regions; ' + noInscribedRegions + ' other regions have scope-limited no-inscribed-property records from the official UNESCO India State Party list. This is not a complete heritage inventory and excludes Tentative List entries.');
 }
 
 const censusRows = censusData.records || [];
@@ -257,4 +318,4 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
 }
 console.log(JSON.stringify(report, null, 2));
-if (errors.length) process.exit(1);
+if (errors.length) { console.error('Regional audit errors:', errors.join(' | ')); process.exitCode = 1; }

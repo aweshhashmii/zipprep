@@ -47,11 +47,34 @@ function loadRegionCatalog(){
   fetch('./data/region-unesco-heritage-2026.json').then(function(r){if(!r.ok)throw Error('UNESCO dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/india-lgd-administrative-2026.json').then(function(r){if(!r.ok)throw Error('LGD directory HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-gi-2026.json').then(function(r){if(!r.ok)throw Error('GI register HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-supplemental-categories-2026.json').then(function(r){if(!r.ok)throw Error('Supplemental regional categories HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-supplemental-categories-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Supplemental category batch HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/district-profile-enrichment-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('District profile enrichment batch HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
+  var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9];
+  [supplemental,supplementalBatch].forEach(function(dataset){
+   if(dataset&&Array.isArray(dataset.records))dataset.records.forEach(function(item){
+    var region=data.regions.find(function(r){return r.name===item.regionName});
+    if(!region)return;
+    region.geography=region.geography||{};
+    var rows=Array.isArray(region.geography[item.category])?region.geography[item.category]:[];
+    if(!rows.some(function(row){return row.id===item.id}))rows.push({id:item.id,name:item.name,description:item.description,sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus});
+    region.geography[item.category]=rows;
+    region.sourceRecords=region.sourceRecords||[];
+    if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:item.sourceId,sourceUrl:item.sourceUrl,referenceDate:item.referenceDate,fields:['geography.'+item.category]});
+   });
+  });
+
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
+  if(districtProfiles&&Array.isArray(districtProfiles.records)&&districtProfileBatch&&Array.isArray(districtProfileBatch.records))districtProfileBatch.records.forEach(function(batchRow){
+   var existing=districtProfiles.records.find(function(row){return String(row.lgdCode)===String(batchRow.lgdCode)});
+   if(existing){Object.keys(batchRow).forEach(function(key){if(key!=='verifiedFields'&&key!=='sourceRecords')existing[key]=batchRow[key]});existing.verifiedFields=Array.from(new Set((existing.verifiedFields||[]).concat(batchRow.verifiedFields||[])));existing.sourceRecords=(existing.sourceRecords||[]).concat(batchRow.sourceRecords||[])}
+   else districtProfiles.records.push(batchRow);
+  });
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
   districtProfileData=districtProfiles&&Array.isArray(districtProfiles.records)?districtProfiles:null;
   if(lgdDirectory)data.regions.forEach(function(region){
@@ -70,6 +93,16 @@ function loadRegionCatalog(){
   });
 
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
+  if(giRegister&&Array.isArray(giRegister.records))data.regions.forEach(function(region){
+   var giEntries=giRegister.records.filter(function(item){return item.regionName===region.name});
+   if(!giEntries.length)return;
+   region.geography=region.geography||{};
+   var existingGi=Array.isArray(region.geography.giProducts)?region.geography.giProducts:[];
+   var newGiEntries=giEntries.filter(function(item){return !existingGi.some(function(existing){return existing.name===item.name})});
+   region.geography.giProducts=existingGi.concat(newGiEntries);
+   region.sourceRecords=region.sourceRecords||[];
+   if(!region.sourceRecords.some(function(src){return src.sourceId==='ipindiaStatewiseRegisteredGI2026'}))region.sourceRecords.push({sourceId:'ipindiaStatewiseRegisteredGI2026',title:'IP India — State-wise Registered Geographical Indications of India',sourceUrl:giRegister.source.sourceUrl,referenceDate:giRegister.source.registerDataAsOf,lastVerifiedAt:giRegister.source.lastVerifiedAt,fields:['geography.giProducts'],note:giRegister.description});
+  });
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
    if(!row)return;
@@ -223,6 +256,7 @@ function selectDistrict(name,layer){
  stat('District formation date',value(record.formationDate),'Existing district record')+
  stat('Subdivisions',Array.isArray(record.subdivisions)&&record.subdivisions.length?record.subdivisions.join(', '):'Verification pending','Existing district record')+
  stat('Area',value(record.areaSqKm)==='Verification pending'?'Verification pending':value(record.areaSqKm)+' km²','Official district statistical handbook')+
+ stat('Forest cover (2019 assessment)',record.forestCover2019SqKm!==undefined?record.forestCover2019SqKm+' km² · '+record.forestCoverPercent2019+'% of district area':'Verification pending','Forest Survey of India · India State of Forest Report 2019; district-wise satellite assessment')+
  stat('Population',census?Number(census.population).toLocaleString('en-IN')+' (Census 2011)':pop,'Census of India · Primary Census Abstract 2011')+
  stat('Male / female population',census?Number(census.male).toLocaleString('en-IN')+' / '+Number(census.female).toLocaleString('en-IN'):'Verification pending','Census of India · 2011')+
  stat('Literacy',census?Number(census.literate).toLocaleString('en-IN')+' literates · '+census.literacyRate+'%':'Verification pending','Census of India · 2011; literacy calculated as literate population / total population')+
@@ -296,6 +330,11 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
    v.inscriptionYear?'Inscribed '+v.inscriptionYear:'',
    v.sourceYear?'Source year '+v.sourceYear:'',
    v.referenceYear?'Reference '+v.referenceYear:'',
+   v.applicationNo?'IP India application no. '+v.applicationNo:'',
+   v.goodsCategory?'Goods category: '+v.goodsCategory:'',
+   v.applicationFiledDate?'Application filed: '+v.applicationFiledDate:'',
+   v.registrationStatus||'',
+   v.registerSerial?'Register serial no. '+v.registerSerial:'',
    v.count!==undefined?'Count '+v.count+(v.referenceDate?' · as of '+v.referenceDate:''):'',
    v.referenceDate&&v.count===undefined?'Reference date '+v.referenceDate:'',
    v.operationalCount!==undefined?'Operational '+v.operationalCount:'',
@@ -303,7 +342,10 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
    v.totalCount!==undefined?'Total '+v.totalCount:'',
    v.forestAndTreeCoverSqKm!==undefined?Number(v.forestAndTreeCoverSqKm).toLocaleString('en-IN')+' km²':'',
    v.percentOfGeographicalArea!==undefined&&v.percentOfGeographicalArea!==null?v.percentOfGeographicalArea+'% of geographical area':'',
-   v.sourceId?'Source ID '+v.sourceId:''
+   v.sourceId?'Source ID '+v.sourceId:'',
+   v.verificationStatus==='verified'?'Source-verified':v.verificationStatus==='verification_pending'?'Verification pending':'',
+   v.verificationStatus==='not_available'?'None listed in cited source':'',
+   v.referenceDate?'Checked '+v.referenceDate:''
   ].filter(Boolean).join(' · ');
   return '<div class="atlas-record"><b>'+textSafe(title)+'</b>'+
    (meta?'<small>'+textSafe(meta)+'</small>':'')+
@@ -315,13 +357,16 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
  var cards=categories.map(function(c){
   var sourceKeys=Array.isArray(c[1])?c[1]:[c[1]],items=[];
   sourceKeys.forEach(function(key){var value=geography[key];if(Array.isArray(value))items=items.concat(value);else if(value)items.push(value)});
+  if(!items.length&&sourceKeys.indexOf('languages')!==-1&&Array.isArray(record&&record.officialLanguages)){
+   items=record.officialLanguages.map(function(language){return {name:language,description:'Official-language entry already recorded in the regional profile.'}});
+  }
   if(items.length)populated++;
   return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b>'+
    (c[2]?'<small class="atlas-category-description">'+textSafe(c[2])+'</small>':'')+
-   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending">No verified records imported for this category yet.</p>')+'</div></article>';
+   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending"><strong>Verification pending.</strong> No records have been imported for this region and category yet. This is a research gap, not confirmation that the feature does not exist.</p>')+'</div></article>';
  }).join('');
  root.innerHTML='<p class="atlas-kicker">'+textSafe(eyebrow)+'</p><h3>'+textSafe(name)+' · '+textSafe(tabTitle)+'</h3>'+
-  '<p class="atlas-data-pending">Showing source-backed records already available in the regional catalogue. Empty categories are explicitly marked; they are not treated as zero and are not filled with guesses.</p>'+
+  '<p class="atlas-data-pending">Showing records currently imported in the regional catalogue. Each entry displays its verification status. Categories without imported records are clearly marked Verification pending; they are not treated as zero and are not filled with guesses.</p>'+
   '<p class="atlas-data-pending">'+populated+' of '+categories.length+' categories currently contain imported records for this region. This is a data-import indicator, not a completeness score.</p>'+
   '<div class="atlas-geography-grid">'+cards+'</div>'+sourceLinks();
 }
@@ -374,7 +419,7 @@ function renderEconomy(name){
  renderCategoryPanel('panel-economy',name,'Economy & Infrastructure','ECONOMY · RESOURCES · INDUSTRY · CONNECTIVITY',[
   ['Agriculture & major crops','crops','Kharif, Rabi, Zaid and major cash crops'],
   ['Horticulture','horticulture','Fruits, vegetables, spices and plantation crops'],
-  ['Minerals & mining regions','minerals','Mineral resources and producing districts'],
+  ['Minerals & mining regions',['minerals','mineralProduction'],'Mineral resources, producing districts and recorded mineral output'],
   ['Industries & industrial clusters','industries','Major sectors, industrial centres and manufacturing clusters'],
   ['Industrial corridors & zones','industrialCorridors','Industrial corridors, SEZs and industrial parks'],
   ['Power plants','powerPlants','Thermal, hydro, nuclear and renewable installations'],

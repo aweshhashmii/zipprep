@@ -41,6 +41,7 @@ const districtProfileData = read('data/district-profiles-2026.json');
 const districtProfileBatchData = read('data/district-profile-enrichment-batch-2026-10-31.json');
 const districtProfileBiharData = read('data/district-profile-isfr2023-bihar.json');
 const districtProfileAssamData = read('data/district-profile-isfr2023-assam.json');
+const districtProfileChhattisgarhData = read('data/district-profile-isfr2023-chhattisgarh.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -93,7 +94,7 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
-for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || [])]) {
+for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || [])]) {
   const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
   if (existing) {
     for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
@@ -155,6 +156,36 @@ for (const row of assamForestRows) {
 }
 assert(!assamForestRows.some(row => ['739','756'].includes(row.lgdCode)),
   'Assam districts omitted from the FSI table must not be assigned inferred forest figures.');
+const chhattisgarhForestRows = districtProfileChhattisgarhData.records || [];
+assert(chhattisgarhForestRows.length === 28, 'ISFR 2023 Chhattisgarh district forest dataset must contain all 28 districts listed in the FSI table.');
+assert(sourceRegistry.sources.some(source => source.id === districtProfileChhattisgarhData.source.sourceId),
+  'ISFR 2023 Chhattisgarh district forest source must be registered.');
+const chhattisgarhForestExpected = {
+  forestCoverCalculatedArea2023SqKm: 135192,
+  veryDenseForest2023SqKm: 7416.57,
+  moderatelyDenseForest2023SqKm: 31983.80,
+  openForest2023SqKm: 16411.38,
+  forestCover2023SqKm: 55811.75,
+  forestCoverChangeSince2021SqKm: 2.91,
+  scrub2023SqKm: 610.41
+};
+for (const [field, expectedValue] of Object.entries(chhattisgarhForestExpected)) {
+  const actual = chhattisgarhForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Chhattisgarh ISFR 2023 district row sum does not match transcribed rows for ' + field + ': ' + actual + ' vs ' + expectedValue);
+}
+assert(districtProfileChhattisgarhData.totals.publishedGrandTotalChange === -19.13,
+  'Chhattisgarh ISFR source discrepancy note must retain the printed state grand total.');
+for (const row of chhattisgarhForestRows) {
+  assert(row.stateName === 'Chhattisgarh', 'Chhattisgarh ISFR district row has wrong state: ' + row.name);
+  assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '22'),
+    'Chhattisgarh ISFR district row does not exactly match current LGD identity: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileChhattisgarhData.source.sourceId),
+      'Chhattisgarh ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
+  }
+}
+assert(!chhattisgarhForestRows.some(row => ['759','760','761','762','763'].includes(row.lgdCode)),
+  'Chhattisgarh districts omitted from the FSI table must not be assigned inferred forest figures.');
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');
 const districtProfilesWithVerifiedFields = districtProfileRows.filter(row => Array.isArray(row.verifiedFields) && row.verifiedFields.length > 0);
 const districtProfileCodes = new Set();

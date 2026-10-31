@@ -12,12 +12,12 @@
     "rules": [
       "Every factual record must carry sourceId and sourceUrl, or an explicitly documented source record at the dataset level.",
       "Keep referenceYear/referenceDate separate from lastVerifiedAt.",
-      "Never infer zero from a missing record; use pending or not imported.",
       "Do not use third-party mirrors as verified exam facts until cross-checked against the original government publication.",
       "Historical Census 2011 figures must be labelled as historical and must not be presented as current population estimates.",
       "Separate notified protected-area status from international recognition and conservation-project status.",
       "Use official current district lists and dated boundary data; never equate map polygon count with legal administrative district count.",
-      "Record changes through dated snapshots so users can understand when a figure was valid."
+      "Record changes through dated snapshots so users can understand when a figure was valid.",
+      "Use an explicit 'None listed' entry only when a complete, dated official register covers the category and the State/UT is absent or explicitly has zero; state the register's scope and reference date. Absence from an incomplete source must remain distinct from none."
     ]
   },
   "sources": [
@@ -493,6 +493,26 @@
       ],
       "referenceYear": "2023",
       "cadence": "Recheck against the Ministry's latest official register or atlas before revising designation status."
+    },
+    {
+      "id": "ndsaNationalRegisterSpecifiedDams2025",
+      "name": "National Dam Safety Authority — National Register of Specified Dams, April 2025",
+      "url": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+      "referenceDate": "April 2025",
+      "issuingAuthority": "Ministry of Jal Shakti, Department of Water Resources, River Development & Ganga Rejuvenation",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "State/UT specified-dam totals",
+        "Completed and under-construction specified dams",
+        "Gross storage capacity",
+        "Live storage capacity",
+        "Named specified dams"
+      ],
+      "cadence": "Replace with the next official NRSD edition; consult the State Dam Safety Organisation or dam owner for operational decisions.",
+      "note": "Register is compiled from State Dam Safety Organisations and project authorities. It defines 'specified dam' under the Dam Safety Act, 2021 and does not cover every small dam or local water-harvesting structure."
     }
   ]
 }

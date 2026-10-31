@@ -332,6 +332,9 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
  var cards=categories.map(function(c){
   var sourceKeys=Array.isArray(c[1])?c[1]:[c[1]],items=[];
   sourceKeys.forEach(function(key){var value=geography[key];if(Array.isArray(value))items=items.concat(value);else if(value)items.push(value)});
+  if(!items.length&&sourceKeys.indexOf('languages')!==-1&&Array.isArray(record&&record.officialLanguages)){
+   items=record.officialLanguages.map(function(language){return {name:language,description:'Official-language entry already recorded in the regional profile.'}});
+  }
   if(items.length)populated++;
   return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b>'+
    (c[2]?'<small class="atlas-category-description">'+textSafe(c[2])+'</small>':'')+
@@ -391,7 +394,7 @@ function renderEconomy(name){
  renderCategoryPanel('panel-economy',name,'Economy & Infrastructure','ECONOMY · RESOURCES · INDUSTRY · CONNECTIVITY',[
   ['Agriculture & major crops','crops','Kharif, Rabi, Zaid and major cash crops'],
   ['Horticulture','horticulture','Fruits, vegetables, spices and plantation crops'],
-  ['Minerals & mining regions','minerals','Mineral resources and producing districts'],
+  ['Minerals & mining regions',['minerals','mineralProduction'],'Mineral resources, producing districts and recorded mineral output'],
   ['Industries & industrial clusters','industries','Major sectors, industrial centres and manufacturing clusters'],
   ['Industrial corridors & zones','industrialCorridors','Industrial corridors, SEZs and industrial parks'],
   ['Power plants','powerPlants','Thermal, hydro, nuclear and renewable installations'],

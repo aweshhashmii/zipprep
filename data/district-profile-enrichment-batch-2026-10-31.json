@@ -15568,13 +15568,20 @@
       "stateName": "Ladakh",
       "forestCover2019SqKm": 59.68,
       "forestCoverPercent2019": 0.42,
-      "referenceYear": 2019,
-      "lastVerifiedAt": "2026-10-31",
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
       "profileType": "partially_enriched",
       "verificationStatus": "verification_pending",
       "verifiedFields": [
         "forestCover2019SqKm",
-        "forestCoverPercent2019"
+        "forestCoverPercent2019",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "scrub2023SqKm",
+        "forestCoverChangeSince2021SqKm"
       ],
       "sourceRecords": [
         {
@@ -15594,8 +15601,78 @@
           "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
           "lastVerifiedAt": "2026-10-31",
           "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
         }
-      ]
+      ],
+      "forestCover2023SqKm": 58.26,
+      "forestCoverPercent2023": 0.41,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 1.74,
+      "openForest2023SqKm": 56.52,
+      "scrub2023SqKm": 25.29,
+      "forestCoverChangeSince2021SqKm": 0.01
     },
     {
       "lgdCode": "79",
@@ -15629,6 +15706,96 @@
           "referenceDate": "ISFR 2019, Volume II, Table 11.6.4; 2019 forest-cover assessment",
           "lastVerifiedAt": "2026-10-31",
           "note": "Historical satellite-assessed forest cover for the 2019 report-era Delhi district unit. Only the exact-name New Delhi LGD match is linked; the report uses 9 older districts while the current LGD directory has a reorganised district structure. Percentage uses report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "9",
+      "name": "Leh Ladakh",
+      "stateName": "Ladakh",
+      "forestCover2023SqKm": 2227.66,
+      "forestCoverPercent2023": 1.45,
+      "veryDenseForest2023SqKm": 2.27,
+      "moderatelyDenseForest2023SqKm": 507.33,
+      "openForest2023SqKm": 1718.06,
+      "scrub2023SqKm": 300.2,
+      "forestCoverChangeSince2021SqKm": 7.36,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-01",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "scrub2023SqKm",
+        "forestCoverChangeSince2021SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023LadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Ladakh, Table 10.34.3",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023 assessment; Table 10.34.3 district-wise forest cover in Ladakh",
+          "lastVerifiedAt": "2026-11-01",
+          "note": "District values are transcribed from the official FSI table. The FSI table uses the name Leh; it is joined to current LGD district code 9 (Leh Ladakh) using the unique LGD code, not a fuzzy name match."
         }
       ]
     }

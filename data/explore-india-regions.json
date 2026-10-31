@@ -15688,9 +15688,33 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttar Pradesh State Review. Mineral resource estimates are as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Industry capacities are in thousand tonnes per year unless stated."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttar Pradesh State Review. Mineral resource estimates are as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Industry capacities are in thousand tonnes per year unless stated."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttar Pradesh State Review. Mineral resource estimates are as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Industry capacities are in thousand tonnes per year unless stated."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -16034,7 +16058,176 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Andalusite",
+            "district": "Mirzapur",
+            "description": "114.250 million tonnes of remaining resources as at 1 April 2020; no reserves reported. Uttar Pradesh holds about 91% of India's reported andalusite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Diaspore",
+            "district": "Hamirpur, Jhansi, Lalitpur and Mahoba",
+            "description": "Major occurrence districts. Uttar Pradesh holds about 37% of India's reported diaspore resources; the State Review does not state a consolidated quantity in its summary.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrophyllite",
+            "district": "Hamirpur, Jhansi, Lalitpur and Mahoba",
+            "description": "Occurrence districts identified by IBM; Uttar Pradesh holds about 10% of national resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Singrauli coalfield, Sonbhadra",
+            "description": "Singrauli coalfield resources as at 1 April 2024: 1,061.8 million tonnes (884.04 million tonnes proved and 177.76 million tonnes indicated), according to Coal Directory of India 2023-24.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silica sand",
+            "district": "Prayagraj (Shankargarh and Lohargarh), Banda (Bargarh), Aligarh and Chitrakoot",
+            "description": "High-quality glass sand in the Naini area is reported at about 98% SiO₂ with very low Fe₂O₃; additional occurrences in Aligarh and Chitrakoot.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bauxite",
+            "district": "Banda, Varanasi and Lalitpur",
+            "description": "18.908 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "Banda and Sonbhadra",
+            "description": "Occurrence districts identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Banda and Sonbhadra",
+            "description": "Occurrence districts identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Jhansi",
+            "description": "Occurrence district identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Sonbhadra",
+            "description": "Occurrence district identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Sonbhadra",
+            "description": "443.443 million tonnes total resources as at 1 April 2020, comprising 3.720 million tonnes reserves and 439.723 million tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Potash",
+            "district": "Sonbhadra",
+            "description": "893 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Sonbhadra",
+            "description": "11.450 million tonnes of remaining resources as at 1 April 2020; no reserves reported. Uttar Pradesh holds about 16% of India's reported resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Calcite",
+            "district": "Mirzapur",
+            "description": "Occurrence district identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ochre",
+            "district": "Banda",
+            "description": "Occurrence district identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Banda, Hamirpur, Lalitpur and Mahoba",
+            "description": "Occurrence districts identified by IBM; no resource quantity stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (haematite)",
+            "district": "Lalitpur",
+            "description": "86.330 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock phosphate",
+            "district": "Lalitpur",
+            "description": "25,773,444 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold (primary)",
+            "district": "Uttar Pradesh (State Review resource table; no district specified)",
+            "description": "13 million tonnes of primary gold ore resources containing 2.08 tonnes of primary gold metal as at 1 April 2020; district-level location is not specified in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Platinum group of metals",
+            "district": "Uttar Pradesh (State Review resource table; no district specified)",
+            "description": "3.35 tonnes of remaining PGM resources as at 1 April 2020; district-level location is not specified in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rare-earth elements",
+            "district": "Uttar Pradesh (State Review resource table; no district specified)",
+            "description": "2,948 tonnes of remaining resources as at 1 April 2020; district-level location is not specified in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 23996.72,
@@ -16072,7 +16265,371 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Limestone",
+            "district": "Uttar Pradesh (3 reporting mines; table does not provide district split)",
+            "description": "2023-24 provisional production: 2.878 million tonnes from 3 reporting mines; production value ₹696.538 million (₹696,538 thousand). IBM production table excludes atomic, fuel and minor minerals.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sulphur (oil-refinery by-product)",
+            "district": "Mathura",
+            "description": "2023-24 provisional by-product recovery: 53,193 tonnes. This is recovered from oil refining, not mined sulphur; it is reported separately from the MCDR mineral production table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "John Oakey and Mohan Ltd — abrasives",
+            "district": "Ghaziabad",
+            "description": "IBM lists the plant; capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Micro Lapping Abrasive — abrasive powder",
+            "district": "Dhampur",
+            "description": "Listed capacity: 0.08 thousand tonnes per year of abrasive powder.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindalco Industries Ltd — alumina and aluminium",
+            "district": "Renukoot, Sonbhadra",
+            "description": "Listed capacities: 700 thousand tonnes per year of alumina and 410 thousand tonnes per year of aluminium.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asbestos Cement Ltd — asbestos products",
+            "district": "Raebareli",
+            "description": "IBM lists the plant; capacity is recorded as NA. Listing is not confirmation of current operational status.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Uttar Pradesh Asbestos Product Ltd — asbestos products",
+            "district": "Mohanlalganj, Lucknow",
+            "description": "IBM lists the plant; capacity is recorded as NA. Listing is not confirmation of current operational status.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC Ltd — Tikaria cement grinding unit",
+            "district": "Sultanpur",
+            "description": "Listed capacity: 3,910 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement — Dadri grinding unit",
+            "district": "Gautam Buddha Nagar",
+            "description": "Listed capacity: 1,800 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Raebareli Cement Works — Birla Corporation",
+            "district": "Raebareli",
+            "description": "Listed capacity: 1,240 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Heidelberg Cement (Diamond Cement) — Madora",
+            "district": "Jhansi",
+            "description": "Listed capacity: 3,250 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jaypee Cement — Sadvakhurd blending unit",
+            "district": "Uttar Pradesh (district not stated in table)",
+            "description": "Listed capacity: 600 thousand tonnes per year; blending unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kanodia Cement",
+            "district": "Bulandshahr",
+            "description": "Listed capacity: 330 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Sikandrabad grinding unit",
+            "district": "Bulandshahr",
+            "description": "Listed capacity: 2,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jaypee Cement — Chunar Cement Factory",
+            "district": "Chunar, Mirzapur",
+            "description": "Listed capacity: 2,500 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jaypee Cement — Tanda",
+            "district": "Ayodhya (formerly Faizabad)",
+            "description": "Listed capacity: 1,000 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jaypee Cement — Churk",
+            "district": "Mirzapur",
+            "description": "Listed capacity: 1,500 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Birla Corporation — Kundanganj",
+            "district": "Raebareli",
+            "description": "Listed capacity: 2,210 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Dadri grinding unit",
+            "district": "Gautam Buddha Nagar",
+            "description": "Listed capacity: 1,300 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Aligarh grinding unit",
+            "district": "Aligarh",
+            "description": "Listed capacity: 1,300 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Ayodhya",
+            "district": "Ambedkar Nagar",
+            "description": "Listed capacity: 1,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Bara",
+            "district": "Prayagraj",
+            "description": "Listed capacity: 4,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Dalla",
+            "district": "Sonbhadra",
+            "description": "Listed capacity: 1,800 thousand tonnes per year; grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mangalam Cement — Aligarh grinding unit",
+            "district": "Aligarh",
+            "description": "Listed capacity: 750 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ankit Sangal — electrodes",
+            "district": "Sujroo, Muzaffarnagar",
+            "description": "Listed capacities: 0.85 thousand tonnes per year (electrode no. 10) and 0.15 thousand tonnes per year (electrode no. 8).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asian Fertilizers Ltd — SSP",
+            "district": "Deokahia, Gorakhpur",
+            "description": "Listed capacity: 66 thousand tonnes per year of single superphosphate (SSP).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coromandel International — SSP",
+            "district": "Raebareli",
+            "description": "Listed capacity: 132 thousand tonnes per year of SSP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jubilant Agri and Consumer Products — SSP",
+            "district": "Gajraula, Amroha",
+            "description": "Listed capacity: 165 thousand tonnes per year of SSP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "IFFCO Phulpur Units I & II — urea",
+            "district": "Prayagraj (formerly Allahabad)",
+            "description": "Combined listed capacity: 1,697.8 thousand tonnes per year of urea.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "IFFCO Aonla Units I & II — urea",
+            "district": "Aonla, Bareilly",
+            "description": "Combined listed capacity: 1,999.8 thousand tonnes per year of urea.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indo Gulf Fertilizer — urea",
+            "district": "Jagdishpur, Amethi",
+            "description": "Listed capacity: 1,200 thousand tonnes per year of urea.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kanpur Fertilizer & Cement — urea",
+            "district": "Kanpur",
+            "description": "Listed capacity: 722 thousand tonnes per year of urea.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Khaitan Chemicals & Fertilizers — SSP",
+            "district": "Goramachhia, Jhansi",
+            "description": "Listed capacity: 132 thousand tonnes per year of SSP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Khaitan Chemicals & Fertilizers — SSP",
+            "district": "Malwan, Fatehpur",
+            "description": "Listed capacity: 115 thousand tonnes per year of SSP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "KRIBHCO Shyam Fertilizer — urea",
+            "district": "Piprola, Shahjahanpur",
+            "description": "Listed capacity: 864.6 thousand tonnes per year of urea.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Madan Madhav Fertilizers & Chemicals — SSP",
+            "district": "Farrukhabad",
+            "description": "Listed capacity: 24 thousand tonnes per year of SSP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Natraj Organics — SSP",
+            "district": "Muzaffarnagar",
+            "description": "Listed capacity: 60 thousand tonnes per year of SSP (listed twice in IBM table; represented once here).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Yara Fertilisers India — urea",
+            "district": "Babrala, Badaun",
+            "description": "Listed capacity: 1,155 thousand tonnes per year of urea.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "V. K. Phosphates — SSP",
+            "district": "Bartara, Shahjahanpur",
+            "description": "Listed capacity: 33 thousand tonnes per year of SSP.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindustan Ferro Alloys",
+            "district": "Hamirpur",
+            "description": "Listed capacity: 3.2 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "The India Thermit Corporation",
+            "district": "Kanpur",
+            "description": "Listed capacity: 0.3 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jagdishpur SAIL Unit — pig iron and saleable steel",
+            "district": "Jagdishpur, Amethi",
+            "description": "Listed capacities: 511 thousand tonnes per year of pig iron and 600 thousand tonnes per year of saleable steel.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "RLJ Concast — sponge iron",
+            "district": "Baragaon, Chunar, Mirzapur",
+            "description": "Listed capacity: 60 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "S. A. Iron & Alloy — sponge iron",
+            "district": "Jeewanthpur, Mughalsarai, Chandauli",
+            "description": "Listed capacity: 90 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation — Mathura Refinery",
+            "district": "Mathura",
+            "description": "Listed refinery capacity: 8,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
     },

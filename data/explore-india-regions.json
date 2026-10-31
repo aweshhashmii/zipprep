@@ -816,6 +816,16 @@
             "geography.crops"
           ],
           "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
+        },
+        {
+          "sourceId": "icarNbsslupSouthernStateSoils",
+          "title": "ICAR–NBSS&LUP — State soil-resource mapping (1:250,000)",
+          "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.soilTypes"
+          ],
+          "note": "State-level soil-order shares as explicitly reported in the ICAR–NBSS&LUP regional centre summary; omitted soil-order shares are not inferred."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1373,7 +1383,31 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-AP-SOIL-ICAR-250K",
+            "regionId": "IN-AP",
+            "category": "soilTypes",
+            "name": "State soil profile — soil orders and reported area shares",
+            "officialName": "State soil resource mapping",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 6,
+            "soilOrderSharePercent": {
+              "inceptisols": 36,
+              "alfisols": 30,
+              "entisols": 11,
+              "vertisols": 8,
+              "aridisols": 3,
+              "mollisols": 2
+            },
+            "sourceName": "ICAR–NBSS&LUP state soil-resource mapping (1:250,000)",
+            "sourceId": "icarNbsslupSouthernStateSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+            "referenceDate": "ICAR state soil-resource mapping; 1:250,000 scale",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP 1:250,000 state soil-resource mapping reports Inceptisols about 36%, Alfisols 30%, Entisols 11%, Vertisols 8%, Aridisols 3% and Mollisols 2%. Percentages are reproduced as reported; the source summary does not allocate the remaining area."
+          }
+        ],
         "giProducts": [
           {
             "name": "Atreyapuram Pootarekulu",
@@ -10655,6 +10689,16 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "icarNbsslupGujaratSoils",
+          "title": "ICAR–NBSS&LUP — State soil-resource mapping (1:250,000)",
+          "sourceUrl": "https://icar-nbsslup.org.in/udaipur_hindi/",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.soilTypes"
+          ],
+          "note": "State-level soil-order shares as explicitly reported in the ICAR–NBSS&LUP regional centre summary; omitted soil-order shares are not inferred."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -11339,7 +11383,30 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-GJ-SOIL-ICAR-250K",
+            "regionId": "IN-GJ",
+            "category": "soilTypes",
+            "name": "State soil profile — soil orders and reported area shares",
+            "officialName": "State soil resource mapping",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 5,
+            "soilOrderSharePercent": {
+              "inceptisols": 51,
+              "entisols": 13.8,
+              "aridisols": 10.6,
+              "vertisols": 8.9,
+              "alfisols": 0.6
+            },
+            "sourceName": "ICAR–NBSS&LUP state soil-resource mapping (1:250,000)",
+            "sourceId": "icarNbsslupGujaratSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/udaipur_hindi/",
+            "referenceDate": "ICAR state soil-resource mapping; 1:250,000 scale",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP 1:250,000 state soil-resource mapping reports Inceptisols 51%, Entisols 13.8%, Aridisols 10.6%, Vertisols 8.9% and Alfisols 0.6%. The same source separately describes Rann of Kachchh and rock outcrops; unreported area shares are not inferred."
+          }
+        ],
         "giProducts": [
           {
             "name": "Pithora",
@@ -13476,6 +13543,16 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "icarNbsslupNorthWesternStateSoils",
+          "title": "ICAR–NBSS&LUP — State soil-resource mapping (1:250,000)",
+          "sourceUrl": "https://icar-nbsslup.org.in/new-delhi/",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.soilTypes"
+          ],
+          "note": "State-level soil-order shares as explicitly reported in the ICAR–NBSS&LUP regional centre summary; omitted soil-order shares are not inferred."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -13801,7 +13878,29 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-HR-SOIL-ICAR-250K",
+            "regionId": "IN-HR",
+            "category": "soilTypes",
+            "name": "State soil profile — soil orders and reported area shares",
+            "officialName": "State soil resource mapping",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 6,
+            "soilOrderSharePercent": {
+              "inceptisols": 58,
+              "entisols": 28,
+              "aridisols": 9,
+              "alfisols": 2
+            },
+            "sourceName": "ICAR–NBSS&LUP state soil-resource mapping (1:250,000)",
+            "sourceId": "icarNbsslupNorthWesternStateSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/new-delhi/",
+            "referenceDate": "ICAR state soil-resource mapping; 1:250,000 scale",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP state soil mapping summary reports six soil orders overall; the listed area shares are Inceptisols about 58%, Entisols 28%, Aridisols 9% and Alfisols 2%. Other orders are not quantified in the summary and are not inferred."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [
           {
@@ -17924,6 +18023,16 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "icarNbsslupSouthernStateSoils",
+          "title": "ICAR–NBSS&LUP — State soil-resource mapping (1:250,000)",
+          "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.soilTypes"
+          ],
+          "note": "State-level soil-order shares as explicitly reported in the ICAR–NBSS&LUP regional centre summary; omitted soil-order shares are not inferred."
         }
       ],
       "lastVerifiedAt": null,
@@ -18617,7 +18726,32 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-KA-SOIL-ICAR-250K",
+            "regionId": "IN-KA",
+            "category": "soilTypes",
+            "name": "State soil profile — soil orders and reported area shares",
+            "officialName": "State soil resource mapping",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 7,
+            "soilOrderSharePercent": {
+              "alfisols": 27,
+              "inceptisols": 25,
+              "entisols": 16,
+              "vertisols": 15,
+              "ultisols": 8,
+              "aridisols": 5,
+              "mollisols": 1
+            },
+            "sourceName": "ICAR–NBSS&LUP state soil-resource mapping (1:250,000)",
+            "sourceId": "icarNbsslupSouthernStateSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+            "referenceDate": "ICAR state soil-resource mapping; 1:250,000 scale",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP 1:250,000 state soil-resource mapping reports Alfisols 27%, Inceptisols 25%, Entisols 16%, Vertisols 15%, Ultisols 8%, Aridisols 5% and Mollisols 1%. Percentages are reproduced as reported; the source summary does not allocate the remaining area."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [
           {
@@ -20114,6 +20248,16 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "icarNbsslupSouthernStateSoils",
+          "title": "ICAR–NBSS&LUP — State soil-resource mapping (1:250,000)",
+          "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.soilTypes"
+          ],
+          "note": "State-level soil-order shares as explicitly reported in the ICAR–NBSS&LUP regional centre summary; omitted soil-order shares are not inferred."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -20604,7 +20748,30 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-KL-SOIL-ICAR-250K",
+            "regionId": "IN-KL",
+            "category": "soilTypes",
+            "name": "State soil profile — soil orders and reported area shares",
+            "officialName": "State soil resource mapping",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 5,
+            "soilOrderSharePercent": {
+              "ultisols": 54,
+              "inceptisols": 30,
+              "entisols": 6,
+              "alfisols": 1,
+              "mollisols": 1
+            },
+            "sourceName": "ICAR–NBSS&LUP state soil-resource mapping (1:250,000)",
+            "sourceId": "icarNbsslupSouthernStateSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+            "referenceDate": "ICAR state soil-resource mapping; 1:250,000 scale",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP 1:250,000 state soil-resource mapping reports Ultisols 54%, Inceptisols 30%, Entisols 6%, Alfisols 1% and Mollisols 1%. Percentages are reproduced as reported; the source summary does not allocate the remaining area."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [
           {
@@ -39321,6 +39488,16 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "icarNbsslupSouthernStateSoils",
+          "title": "ICAR–NBSS&LUP — State soil-resource mapping (1:250,000)",
+          "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.soilTypes"
+          ],
+          "note": "State-level soil-order shares as explicitly reported in the ICAR–NBSS&LUP regional centre summary; omitted soil-order shares are not inferred."
         }
       ],
       "lastVerifiedAt": null,
@@ -40201,7 +40378,30 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-TN-SOIL-ICAR-250K",
+            "regionId": "IN-TN",
+            "category": "soilTypes",
+            "name": "State soil profile — soil orders and reported area shares",
+            "officialName": "State soil resource mapping",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 5,
+            "soilOrderSharePercent": {
+              "inceptisols": 50,
+              "alfisols": 30,
+              "vertisols": 7,
+              "entisols": 6,
+              "ultisols": 1
+            },
+            "sourceName": "ICAR–NBSS&LUP state soil-resource mapping (1:250,000)",
+            "sourceId": "icarNbsslupSouthernStateSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/bangalore_hindi/",
+            "referenceDate": "ICAR state soil-resource mapping; 1:250,000 scale",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP 1:250,000 state soil-resource mapping reports Inceptisols 50%, Alfisols 30%, Vertisols 7%, Entisols 6% and Ultisols 1%. Percentages are reproduced as reported; the source summary does not allocate the remaining area."
+          }
+        ],
         "giProducts": [
           {
             "name": "Karuppur Kalamkari Paintings",

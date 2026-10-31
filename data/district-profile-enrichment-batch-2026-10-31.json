@@ -8193,6 +8193,514 @@
           "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
         }
       ]
+    },
+    {
+      "lgdCode": "45",
+      "name": "Almora",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 1719.14,
+      "forestCoverPercent2019": 54.68,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "46",
+      "name": "Bageshwar",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 1262.69,
+      "forestCoverPercent2019": 56.34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "47",
+      "name": "Chamoli",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 2709.43,
+      "forestCoverPercent2019": 33.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "48",
+      "name": "Champawat",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 1225.55,
+      "forestCoverPercent2019": 69.4,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "49",
+      "name": "Dehradun",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 1608.69,
+      "forestCoverPercent2019": 52.09,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "50",
+      "name": "Haridwar",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 585.25,
+      "forestCoverPercent2019": 24.8,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "51",
+      "name": "Nainital",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 3041.56,
+      "forestCoverPercent2019": 71.55,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "53",
+      "name": "Pithoragarh",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 2079.8,
+      "forestCoverPercent2019": 29.33,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "54",
+      "name": "Rudraprayag",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 1142.17,
+      "forestCoverPercent2019": 57.57,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "55",
+      "name": "Tehri Garhwal",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 2065.98,
+      "forestCoverPercent2019": 56.73,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "56",
+      "name": "Udham Singh Nagar",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 431.79,
+      "forestCoverPercent2019": 16.99,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "57",
+      "name": "Uttarkashi",
+      "stateName": "Uttarakhand",
+      "forestCover2019SqKm": 3036,
+      "forestCoverPercent2019": 37.87,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+        }
+      ]
+    },
+    {
+      "lgdCode": "603",
+      "name": "Nicobars",
+      "stateName": "Andaman and Nicobar Islands",
+      "forestCover2019SqKm": 1406.17,
+      "forestCoverPercent2019": 76.38,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndamanNicobarDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andaman and Nicobar Islands chapter, Table 11.31.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andaman-nicobar-islands.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.31.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndamanNicobarDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andaman and Nicobar Islands chapter, Table 11.31.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andaman-nicobar-islands.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.31.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
+        }
+      ]
+    },
+    {
+      "lgdCode": "632",
+      "name": "North And Middle Andaman",
+      "stateName": "Andaman and Nicobar Islands",
+      "forestCover2019SqKm": 3070.53,
+      "forestCoverPercent2019": 82.19,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndamanNicobarDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andaman and Nicobar Islands chapter, Table 11.31.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andaman-nicobar-islands.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.31.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndamanNicobarDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andaman and Nicobar Islands chapter, Table 11.31.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andaman-nicobar-islands.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.31.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "fsiISFR2019UttarakhandDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter, Table 11.29.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.29.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only current LGD districts with matching names and no known district-name mismatch are linked. Values are not current forest-cover estimates."
+    },
+    {
+      "sourceId": "fsiISFR2019AndamanNicobarDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Andaman and Nicobar Islands chapter, Table 11.31.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andaman-nicobar-islands.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.31.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover on the report's 2019 district units; only exact district-name matches after punctuation/spacing normalization are linked. South Andamans is not linked because its current LGD name differs."
     }
   ]
 }

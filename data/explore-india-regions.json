@@ -4855,9 +4855,36 @@
           "referenceDate": "2025-12-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Occurrence districts and reserve/resource totals from Himachal Pradesh State Review pp. 171–172. Resource reference date is 1 April 2020. Occurrence does not imply an active mine; statewide mineral-resource totals are not district allocations."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Provisional 2023–24 output from IBM State Review tables 2 and 4. Major-mineral table excludes minor minerals; minor-mineral figures are supplied by Himachal Pradesh Department of Industries. Rock-salt output was nil despite closing stock."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Principal organised mineral-based industries and listed plant capacities from IBM State Review table 5. Capacity is installed/listed capacity, not actual production or confirmation of current operating status; units are thousand tonnes per year."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -5455,7 +5482,96 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Barytes",
+            "district": "Sirmaur",
+            "description": "IBM records occurrence in Sirmaur district; the State Review does not quantify district-wise resources. Occurrence does not by itself establish an active mine.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Bilaspur, Chamba, Kangra, Kullu, Mandi, Shimla, Sirmaur and Solan",
+            "description": "Total resources: 6,619.146 million tonnes as at 1 April 2020 (1,022.012 million tonnes reserves; 5,597.134 million tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock salt",
+            "district": "Mandi",
+            "description": "Total resources: 12.78 million tonnes as at 1 April 2020 (3.86 million tonnes reserves; 8.92 million tonnes remaining resources).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Antimony",
+            "district": "Lahaul and Spiti",
+            "description": "Total resources: 10,588 tonnes of ore and 174 tonnes of contained metal as at 1 April 2020; no reserve quantity recorded.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gypsum",
+            "district": "Chamba, Sirmaur and Solan",
+            "description": "Occurrence districts identified by IBM; district-wise resource tonnage is not stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Chamba",
+            "description": "Total remaining resources: 298,000 tonnes as at 1 April 2020; no reserve quantity recorded.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrite",
+            "district": "Shimla",
+            "description": "Total remaining resources: 2.56 million tonnes as at 1 April 2020; no reserve quantity recorded.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz",
+            "district": "Una",
+            "description": "Occurrence recorded by IBM; district-wise resource tonnage is not stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartzite",
+            "district": "Una",
+            "description": "Occurrence recorded by IBM; district-wise resource tonnage is not stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silica sand",
+            "district": "Una",
+            "description": "Occurrence recorded by IBM; district-wise resource tonnage is not stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shale",
+            "district": "Statewide (district-wise occurrence not specified in the State Review)",
+            "description": "Identified by IBM as an important mineral produced in the State; do not infer a district from the statewide summary.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 16435.42,
@@ -5501,6 +5617,154 @@
             "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
             "sourceId": "cwcGlacialLakeCounts2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ],
+        "mineralProduction": [
+          {
+            "name": "Limestone",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 provisional production: 13.706 million tonnes from 26 reporting mines; reported production value ₹311.8011 crore. IBM's table excludes atomic, fuel and minor minerals.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock salt",
+            "district": "Mandi",
+            "description": "One reporting mine. 2023–24 provisional mine output was nil (0 tonnes); mine-head closing stock was 295 tonnes. The mine reported 1,002 tonnes in 2022–23.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bajri (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 8,100,771 tonnes; reported value ₹113.410794 crore. Minor-mineral data supplied by the State Department of Industries.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sand (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 4,163,676 tonnes; reported value ₹58.291464 crore. Minor-mineral data supplied by the State Department of Industries.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Boulders (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 6,740,615 tonnes; reported value ₹94.36861 crore. Minor-mineral data supplied by the State Department of Industries.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Building stone (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 77,838 tonnes; reported value ₹11.286511 crore. The source's associated mine categories include slate, stone/boulder, sand, building/cut stone.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Slate (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 1,106 tonnes; reported value ₹33.18 lakh.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silica sand (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 4,000 tonnes; reported value ₹8.4 lakh.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Aggregate (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 45,465 tonnes; reported value ₹63.651 lakh.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rough stone (minor mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 691,425 tonnes; reported value ₹6.91425 crore.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shale (major mineral)",
+            "district": "Himachal Pradesh",
+            "description": "2023–24 reported production: 1,005,231 tonnes; reported value ₹7.036617 crore.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "ACC Ltd — Gagal I & II cement plant",
+            "district": "Bilaspur",
+            "description": "Listed capacity: 4,640 thousand tonnes per year of cement and 3,000 thousand tonnes per year of clinker.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement — Suli, Darlaghat",
+            "district": "Solan",
+            "description": "Listed capacity: 1,600 thousand tonnes per year of cement and 2,600 thousand tonnes per year of clinker.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement — Nalagarh",
+            "district": "Solan",
+            "description": "Listed capacity: 1,500 thousand tonnes per year; table labels capacity in thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asian Concretes and Cements Pvt Ltd — Bir Palsi",
+            "district": "Solan",
+            "description": "Listed capacity: 1,300 thousand tonnes per year; table labels capacity in thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Cement Corporation of India — Rajban",
+            "district": "Sirmaur",
+            "description": "Listed capacity: 240 thousand tonnes per year; table labels capacity in thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Bagga (Jaypee Himachal Cement Plant)",
+            "district": "Solan",
+            "description": "Listed capacity: 2,540 thousand tonnes per year of cement and 2,970 thousand tonnes per year of clinker.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Bagheri blending and grinding unit",
+            "district": "Solan",
+            "description": "Listed capacity: 2,000 thousand tonnes per year; table labels capacity in thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
           }
         ]
       },

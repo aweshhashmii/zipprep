@@ -15620,9 +15620,49 @@
           "referenceDate": "2025-12-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2020",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Sikkim State Review. Non-coal resource estimates as at 1 April 2020; coal resources as at 1 April 2024. District associations follow the IBM narrative."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM reports no MCDR mineral production in Sikkim during 2023-24; this does not imply no minor-mineral extraction."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM lists Akshay Ispat & Ferro Alloys Ltd at 6,000 tpy, the Sikkim Mining Corporation Bhotang JV, and pilot lime/dimension-rock units; current operating status is not confirmed."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibPMFME2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoFPI / PIB PMFME state-wise approved micro food-processing enterprises as at 31 December 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -15929,7 +15969,80 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Coal",
+            "district": "Rangit Valley coalfield",
+            "description": "Coal resources as at 1 April 2024: 101.23 million tonnes, all reported in the indicated and inferred categories; the IBM table gives 42.98 million tonnes inferred and 58.25 million tonnes indicated. No proved resources are reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2024"
+          },
+          {
+            "name": "Copper",
+            "district": "Bhotang, Rangpo and Dikchu, East Sikkim",
+            "description": "958,000 tonnes of remaining copper ore resources containing 21,470 tonnes of copper metal as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Lead-zinc",
+            "district": "Bhotang, Rangpo and Dikchu, East Sikkim",
+            "description": "950,000 tonnes of remaining ore resources as at 1 April 2020, containing 8,580 tonnes of lead metal and 20,070 tonnes of zinc metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Silver",
+            "district": "Bhotang, Rangpo and Dikchu, East Sikkim",
+            "description": "949,623 tonnes of remaining silver-bearing ore resources containing 56.69 tonnes of silver metal as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Dolomite",
+            "district": "West Sikkim",
+            "description": "Occurrence reported by IBM; the State Review does not provide a separate resource quantity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartzite",
+            "district": "West Sikkim",
+            "description": "Occurrence reported by IBM; the State Review does not provide a separate resource quantity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Talc, steatite and soapstone",
+            "district": "West Sikkim",
+            "description": "Occurrence reported by IBM; the State Review does not provide a separate resource quantity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "North Sikkim",
+            "description": "2.380 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Marble",
+            "district": "East Sikkim and North Sikkim",
+            "description": "Occurrence reported by IBM; the State Review does not provide a separate resource quantity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 3406.73,
@@ -15975,6 +16088,58 @@
             "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
             "sourceId": "cwcGlacialLakeCounts2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ],
+        "mineralProduction": [
+          {
+            "name": "MCDR minerals — state production status",
+            "district": "Sikkim",
+            "description": "IBM reports that MCDR mineral production was not reported in Sikkim during 2023-24. This does not establish that minor-mineral extraction was zero.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Akshay Ispat & Ferro Alloys Ltd",
+            "district": "Mamring, Namchi",
+            "description": "IBM lists an installed ferroalloys capacity of 6,000 tonnes per year. The State Review does not provide a current operating-status confirmation.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sikkim Mining Corporation — Bhotang polymetallic project",
+            "district": "Rangpo, East Sikkim",
+            "description": "Joint venture of the Government of Sikkim and Government of India established for development of the Bhotang polymetallic ore deposit. IBM does not state current production or installed capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pilot dimension-rock cutting and lime-making units",
+            "district": "Sikkim (Mines & Geology Department)",
+            "description": "State Mines & Geology Department established pilot units to assess feasibility of commercial lime production and dimension-rock cutting; these are pilot facilities, not proof of commercial-scale plants.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Micro food processing enterprises — PMFME",
+            "district": "Sikkim (statewide)",
+            "description": "66 micro food processing enterprises had approved applications under PMFME as at 31 December 2025; approved subsidy ₹1.78 crore. These are scheme approvals, not a verified count of operating factories.",
+            "sourceId": "pibPMFME2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Sikkim (statewide inventory)",
+            "description": "DPIIT India Industrial Land Bank snapshot as at 23 December 2025 lists 5 industrial parks covering 20 hectares, with 3 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
           }
         ]
       },

@@ -140,7 +140,7 @@ for (const row of heritageRows) {
   if (!regionSet.has(row.regionName)) errors.push('UNESCO row refers to unknown region: ' + row.regionName);
 }
 
-let sourceCheckedRecords = 0;
+let sourceCheckedRecords = (supplementalData.records || []).length;
 let unsourcedRecords = 0;
 let districtProfileRegions = 0;
 const coverage = {};

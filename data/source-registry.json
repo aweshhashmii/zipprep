@@ -6930,6 +6930,20 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.5.4",
       "cadence": "Historical 2019 assessment; retain report-era 18-district boundary note and refresh only against comparable FSI tables."
+    },
+    {
+      "id": "fsiISFR2019AssamDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Assam chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.3.4",
+      "cadence": "Historical 2019 assessment; retain report-era 27-district boundary note and refresh only against comparable FSI tables."
     }
   ]
 }

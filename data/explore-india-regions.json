@@ -616,6 +616,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Andhra Pradesh State Review. Mineral resources as at 1 April 2020; coal resources as at 1 April 2024; 2023-24 production is provisional. Plant capacities retain IBM's reported units."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1458,6 +1474,17 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Rayala",
+            "areaSqKm": 766,
+            "protectedAreaWithinReserveSqKm": 525,
+            "description": "Designated Elephant Reserve; total reserve area 766 km²; protected areas within reserve 525 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -1671,6 +1698,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank state-wise industrial park inventory as at 23 December 2025; parks and available industrial land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2056,6 +2099,26 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Kameng",
+            "areaSqKm": 1892,
+            "protectedAreaWithinReserveSqKm": 748,
+            "description": "Designated Elephant Reserve; total reserve area 1892 km²; protected areas within reserve 748 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "South Arunachal",
+            "areaSqKm": 1957.5,
+            "protectedAreaWithinReserveSqKm": 378.1,
+            "description": "Designated Elephant Reserve; total reserve area 1957.5 km²; protected areas within reserve 378.1 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Itanagar Permanent Bench"
@@ -2239,6 +2302,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Assam State Review. Coal resources as at 1 April 2024; other mineral resources as at 1 April 2020; 2023-24 production is provisional. Industry capacities are in thousand tonnes per year unless otherwise stated."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2743,6 +2822,53 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Chirang-Ripu",
+            "areaSqKm": 2600,
+            "protectedAreaWithinReserveSqKm": 526,
+            "description": "Designated Elephant Reserve; total reserve area 2600 km²; protected areas within reserve 526 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Dhansiri-Lungding",
+            "areaSqKm": 2740,
+            "protectedAreaWithinReserveSqKm": null,
+            "description": "Designated Elephant Reserve; total reserve area 2740 km²; protected-area subcomponent not stated in the atlas.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Dihing-Patkai",
+            "areaSqKm": 937,
+            "protectedAreaWithinReserveSqKm": 345,
+            "description": "Designated Elephant Reserve; total reserve area 937 km²; protected areas within reserve 345 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Kaziranga-Karbi Anglong",
+            "areaSqKm": 3270,
+            "protectedAreaWithinReserveSqKm": 1073,
+            "description": "Designated Elephant Reserve; total reserve area 3270 km²; protected areas within reserve 1073 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Sonitpur",
+            "areaSqKm": 1420,
+            "protectedAreaWithinReserveSqKm": 420,
+            "description": "Designated Elephant Reserve; total reserve area 1420 km²; protected areas within reserve 420 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
@@ -2917,6 +3043,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Bihar State Review. Non-coal resource estimates as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Capacities are in thousand tonnes per year."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3065,7 +3207,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -3391,6 +3541,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Patna High Court — Patna"
@@ -3549,6 +3708,22 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -3958,7 +4133,27 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Sarguja-Jashpur",
+            "areaSqKm": 1143.3,
+            "protectedAreaWithinReserveSqKm": 1143.3,
+            "description": "Designated Elephant Reserve; total reserve area 1143.3 km²; protected areas within reserve 1143.3 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Lemru",
+            "areaSqKm": 1995,
+            "protectedAreaWithinReserveSqKm": null,
+            "description": "Designated Elephant Reserve; total reserve area 1995 km²; protected-area subcomponent not stated in the atlas.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Chhattisgarh High Court — Bilaspur"
     },
@@ -4155,6 +4350,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -4278,7 +4489,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -4510,6 +4729,15 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Bombay High Court — Goa Bench, Panaji"
@@ -4700,6 +4928,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Selected mineral-based industry listings and installed capacities. IBM states current operating status is not readily available; listed capacity is not live output."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -4983,6 +5227,15 @@
             "sourceId": "moefccBiosphereReserves",
             "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
             "referenceYear": "2023-24"
+          },
+          {
+            "name": "Great Rann of Kutch",
+            "designationYear": 2008,
+            "areaSqKm": 12454,
+            "description": "Parts of Kutch, Morbi, Surendranagar and Patan districts.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
           }
         ],
         "ramsarSites": [
@@ -5503,6 +5756,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -5670,6 +5932,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Selected large and medium-scale mineral-based industries in the organised sector. IBM cautions that current operating status is not readily available; capacity is not actual output. Unit not specified wherever IBM's table extraction does not state it."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -5785,7 +6063,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -6163,6 +6449,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
@@ -6363,6 +6658,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Principal organised mineral-based industries and listed plant capacities from IBM State Review table 5. Capacity is installed/listed capacity, not actual production or confirmation of current operating status; units are thousand tonnes per year."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7247,6 +7558,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
@@ -7411,6 +7731,22 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -7596,7 +7932,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -8101,6 +8445,17 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Singhbhum",
+            "areaSqKm": 13440,
+            "protectedAreaWithinReserveSqKm": 193,
+            "description": "Designated Elephant Reserve; total reserve area 13440 km²; protected areas within reserve 193 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Jharkhand High Court — Ranchi"
@@ -8265,6 +8620,22 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -9132,6 +9503,26 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Dandeli",
+            "areaSqKm": 2321,
+            "protectedAreaWithinReserveSqKm": null,
+            "description": "Designated Elephant Reserve; total reserve area 2321 km²; protected-area subcomponent not stated in the atlas.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Mysuru",
+            "areaSqKm": 8055.9,
+            "protectedAreaWithinReserveSqKm": 3103,
+            "description": "Designated Elephant Reserve; total reserve area 8055.9 km²; protected areas within reserve 3103 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -9352,6 +9743,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -9921,6 +10328,44 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Anamudi",
+            "areaSqKm": 3728,
+            "protectedAreaWithinReserveSqKm": 780,
+            "description": "Designated Elephant Reserve; total reserve area 3728 km²; protected areas within reserve 780 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Nilambur",
+            "areaSqKm": 1419,
+            "protectedAreaWithinReserveSqKm": 90,
+            "description": "Designated Elephant Reserve; total reserve area 1419 km²; protected areas within reserve 90 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Periyar",
+            "areaSqKm": 3742,
+            "protectedAreaWithinReserveSqKm": 1058,
+            "description": "Designated Elephant Reserve; total reserve area 3742 km²; protected areas within reserve 1058 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Wayanad",
+            "areaSqKm": 1200,
+            "protectedAreaWithinReserveSqKm": 394,
+            "description": "Designated Elephant Reserve; total reserve area 1200 km²; protected areas within reserve 394 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Kerala High Court — Kochi"
@@ -10078,6 +10523,22 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -10985,6 +11446,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Madhya Pradesh High Court — Jabalpur"
@@ -11172,6 +11642,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Selected mineral-based industrial plants and capacities."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -11623,7 +12109,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -11803,6 +12297,15 @@
             "referenceYear": "2023-24",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -11986,6 +12489,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -12113,7 +12632,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -12233,6 +12760,15 @@
             "sourceId": "pibIndustrialLandBank2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -12434,6 +12970,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -12832,6 +13384,17 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Garo Hills",
+            "areaSqKm": 3500,
+            "protectedAreaWithinReserveSqKm": 402,
+            "description": "Designated Elephant Reserve; total reserve area 3500 km²; protected areas within reserve 402 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -13014,6 +13577,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -13137,7 +13716,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -13249,6 +13836,15 @@
             "sourceId": "pibIndustrialLandBank2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -13416,6 +14012,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -13546,7 +14158,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -13680,6 +14300,26 @@
             "sourceId": "pibIndustrialLandBank2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Intanki",
+            "areaSqKm": 202,
+            "protectedAreaWithinReserveSqKm": 202,
+            "description": "Designated Elephant Reserve; total reserve area 202 km²; protected areas within reserve 202 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Singphan",
+            "areaSqKm": 23.5,
+            "protectedAreaWithinReserveSqKm": null,
+            "description": "Designated Elephant Reserve; total reserve area 23.5 km²; protected-area subcomponent not stated in the atlas.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -13853,6 +14493,22 @@
           "referenceYear": "2023-24; resource tables as at 1 April 2020 and coal resources as at 1 April 2024",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Minerals Yearbook 2024, Indian Bureau of Mines. Mineral occurrence lists and dated resource estimates are not synonymous with active mining; production quantities are provisional for 2023-24; plant figures are installed capacities, not live output or proof of current operation."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -14492,6 +15148,35 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Mahanadi",
+            "areaSqKm": 1038.3,
+            "protectedAreaWithinReserveSqKm": 964,
+            "description": "Designated Elephant Reserve; total reserve area 1038.3 km²; protected areas within reserve 964 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Mayurbhanj",
+            "areaSqKm": 3213.8,
+            "protectedAreaWithinReserveSqKm": 1309,
+            "description": "Designated Elephant Reserve; total reserve area 3213.8 km²; protected areas within reserve 1309 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Sambalpur",
+            "areaSqKm": 426.9,
+            "protectedAreaWithinReserveSqKm": 427,
+            "description": "Designated Elephant Reserve; total reserve area 426.9 km²; protected areas within reserve 427 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -14668,6 +15353,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Selected principal organised mineral-based industries from IBM State Review table 2, p. 207. Capacity values are transcribed as published; the table does not specify the units, so no units have been inferred. Listing does not confirm current operating status."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -14784,7 +15485,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -15006,6 +15715,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
@@ -15155,6 +15873,22 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -15385,7 +16119,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -16110,6 +16852,15 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
@@ -16318,6 +17069,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -16799,6 +17566,15 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Sikkim High Court — Gangtok"
@@ -16988,6 +17764,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Selected mineral-based plants from the state review."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -17592,6 +18384,53 @@
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Anamalai",
+            "areaSqKm": 1457.2,
+            "protectedAreaWithinReserveSqKm": 300,
+            "description": "Designated Elephant Reserve; total reserve area 1457.2 km²; protected areas within reserve 300 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Coimbatore",
+            "areaSqKm": 565.5,
+            "protectedAreaWithinReserveSqKm": 482,
+            "description": "Designated Elephant Reserve; total reserve area 565.5 km²; protected areas within reserve 482 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Nilgiri",
+            "areaSqKm": 4662.4,
+            "protectedAreaWithinReserveSqKm": 716,
+            "description": "Designated Elephant Reserve; total reserve area 4662.4 km²; protected areas within reserve 716 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Srivilliputhur",
+            "areaSqKm": 1249.1,
+            "protectedAreaWithinReserveSqKm": 568,
+            "description": "Designated Elephant Reserve; total reserve area 1249.1 km²; protected areas within reserve 568 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Agasthyamalai",
+            "areaSqKm": 1197.5,
+            "protectedAreaWithinReserveSqKm": 1197.5,
+            "description": "Designated Elephant Reserve; total reserve area 1197.5 km²; protected areas within reserve 1197.5 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Madras High Court — Chennai"
@@ -17751,6 +18590,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Selected mineral-based plants from the state review."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -17941,7 +18796,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -18060,6 +18923,15 @@
             "referenceYear": "2023-24",
             "sourceId": "ibmIndianMineralsYearbook2024",
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -18268,6 +19140,22 @@
           "referenceYear": "2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -18409,7 +19297,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -18602,6 +19498,15 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
             "referenceYear": "2025"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Tripura High Court — Agartala"
@@ -18784,6 +19689,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttar Pradesh State Review. Mineral resource estimates are as at 1 April 2020; coal resources as at 1 April 2024; production figures for 2023-24 are provisional. Industry capacities are in thousand tonnes per year unless stated."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -18979,7 +19900,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -19701,6 +20630,26 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Uttar Pradesh",
+            "areaSqKm": 744,
+            "protectedAreaWithinReserveSqKm": null,
+            "description": "Designated Elephant Reserve; total reserve area 744 km²; protected-area subcomponent not stated in the atlas.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Terai",
+            "areaSqKm": 3072.3,
+            "protectedAreaWithinReserveSqKm": 1117,
+            "description": "Designated Elephant Reserve; total reserve area 3072.3 km²; protected areas within reserve 1117 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
@@ -19898,6 +20847,22 @@
           "referenceYear": "2023-24",
           "lastVerifiedAt": "2026-10-31",
           "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Uttarakhand State Review. Resource estimates are as at 1 April 2020; 2023-24 production is provisional."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -20768,6 +21733,17 @@
             "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
             "referenceYear": "2023-24"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Shivalik",
+            "areaSqKm": 5406,
+            "protectedAreaWithinReserveSqKm": 1340,
+            "description": "Designated Elephant Reserve; total reserve area 5406 km²; protected areas within reserve 1340 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -20960,6 +21936,22 @@
           "referenceYear": "2024-25",
           "lastVerifiedAt": "2026-10-31",
           "note": "Directorate of Economics & Statistics, Department of Agriculture & Farmers Welfare. Rice and maize state-level area, production, yield and irrigation coverage. Potato first advance estimate is cited separately to retain its estimate status."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -21481,6 +22473,26 @@
             "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2025/11/Agricultural-Statistics-at-a-Glance-2024_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024.pdf",
             "referenceYear": "2024-25 (1st Advance Estimate)"
           }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Eastern Dooars",
+            "areaSqKm": 977.5,
+            "protectedAreaWithinReserveSqKm": 484,
+            "description": "Designated Elephant Reserve; total reserve area 977.5 km²; protected areas within reserve 484 km².",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Mayurjharna",
+            "areaSqKm": 414,
+            "protectedAreaWithinReserveSqKm": null,
+            "description": "Designated Elephant Reserve; total reserve area 414 km²; protected-area subcomponent not stated in the atlas.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -21639,6 +22651,22 @@
           "referenceYear": "2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Official UT profile for island groups and inhabited-island summary."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -21814,7 +22842,16 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
     },
@@ -21955,6 +22992,22 @@
           "referenceYear": "2024-2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -22034,7 +23087,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -22105,7 +23166,16 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -22233,6 +23303,22 @@
           "referenceYear": "2024-2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -22318,7 +23404,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -22366,7 +23460,16 @@
         "communityReserves": [],
         "marineProtectedAreas": [],
         "waterBodies": [],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Bombay High Court — territorial jurisdiction"
     },
@@ -22495,6 +23598,22 @@
           "referenceYear": "2024-2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -22574,7 +23693,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -22624,7 +23751,16 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Delhi High Court — New Delhi"
     },
@@ -22799,6 +23935,22 @@
           "referenceYear": "2024-2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -23096,7 +24248,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -23208,6 +24368,15 @@
             "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
             "sourceId": "cwcGlacialLakeCounts2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -23384,6 +24553,22 @@
           "referenceYear": "2024-2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -23579,7 +24764,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [
           {
             "name": "Ramsar site tally",
@@ -23655,6 +24848,15 @@
             "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
             "sourceId": "cwcGlacialLakeCounts2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
           }
         ]
       },
@@ -23790,6 +24992,22 @@
           "referenceYear": "2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Official UT island directory; ten inhabited islands are listed."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -23869,7 +25087,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -23936,7 +25162,16 @@
         "communityReserves": [],
         "marineProtectedAreas": [],
         "waterBodies": [],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Kerala High Court — Kochi"
     },
@@ -24073,6 +25308,22 @@
           "referenceYear": "2024-2026",
           "lastVerifiedAt": "2026-10-31",
           "note": "Geographic setting summarised from relevant official UT or Government of India portal; reference year varies by source."
+        },
+        {
+          "field": "geography.biosphereReserves",
+          "sourceId": "moefccBiosphereReserves2023",
+          "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+          "referenceYear": "December 2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC's national list of 18 Biosphere Reserves; national designation is kept distinct from UNESCO World Network inclusion."
+        },
+        {
+          "field": "geography.elephantReserves",
+          "sourceId": "moefccElephantReserveAtlas2023",
+          "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+          "referenceYear": "2023",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
         }
       ],
       "lastVerifiedAt": null,
@@ -24171,7 +25422,15 @@
             "sourceUrl": "https://ntca.gov.in/tiger-reserves/"
           }
         ],
-        "biosphereReserves": [],
+        "biosphereReserves": [
+          {
+            "name": "Biosphere Reserve status (MoEFCC national register, December 2023)",
+            "description": "No nationally designated Biosphere Reserve is listed for this State/Union Territory in the Ministry of Environment, Forest and Climate Change's register of 18 Indian Biosphere Reserves (December 2023). This does not imply absence of other protected areas or biodiversity.",
+            "sourceId": "moefccBiosphereReserves2023",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+            "referenceYear": "2023"
+          }
+        ],
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
@@ -24228,7 +25487,16 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "elephantReserves": [
+          {
+            "name": "Elephant Reserve status (MoEFCC atlas, 2023)",
+            "description": "No designated Elephant Reserve is listed for this State/Union Territory in the Ministry's 2023 Elephant Reserves of India atlas. This is not a statement that elephants or elephant corridors are absent.",
+            "sourceId": "moefccElephantReserveAtlas2023",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+            "referenceYear": "2023"
+          }
+        ]
       },
       "highCourt": "Madras High Court — Chennai"
     }

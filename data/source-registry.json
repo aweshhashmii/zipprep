@@ -1210,6 +1210,22 @@
       "issuingAuthority": "Ministry of Tourism, Government of India",
       "cadence": "Refresh from the latest Ministry of Tourism Annual Report and Swadesh Darshan 2.0 notification lists; distinguish selected/notified destinations from sanctioned projects and completed works.",
       "note": "This is a programme selection list, not a ranking or complete inventory of attractions. The report lists 57 destinations across 32 States/UTs."
+    },
+    {
+      "id": "mospiEnviStatsAgrobiodiversity2022",
+      "name": "MoSPI — EnviStats India 2022, Vol. II, Annexure 7.1: Agro-Biodiversity Hotspots of India",
+      "url": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+      "tabs": [
+        "geography",
+        "environment"
+      ],
+      "fields": [
+        "Named agro-biodiversity regions and district/state associations, including Chotanagpur, Upper Gangetic Plains, Lower Gangetic Plains and Gangetic Delta"
+      ],
+      "referenceDate": "2022-07-04",
+      "issuingAuthority": "Ministry of Statistics and Programme Implementation; source data from Protection of Plant Varieties and Farmers' Rights Authority, Ministry of Agriculture and Farmers Welfare",
+      "cadence": "Refresh from updated PPV&FRA agro-biodiversity hotspot publications; keep this as a regional agro-biodiversity classification rather than a substitute for a full geomorphological map.",
+      "note": "The annexure names regional agrobiodiversity hotspots and their associated districts; it is not a comprehensive national physiographic or geological classification."
     }
   ]
 }

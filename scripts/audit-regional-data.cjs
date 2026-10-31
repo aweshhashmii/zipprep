@@ -50,6 +50,20 @@ assert(regionSet.size === 36, 'Regional catalogue contains duplicate region name
 for (const name of expectedNames) assert(regionSet.has(name), 'Missing expected region: ' + name);
 for (const name of regionNames) assert(expectedNames.includes(name), 'Unexpected region: ' + name);
 
+const allowedSupplementalCategories = new Set(Object.values(categoryGroups).flat());
+const supplementalSourceIds = new Set((supplementalData.sources || []).map(source => source.sourceId));
+const supplementalIds = new Set();
+for (const row of supplementalData.records || []) {
+  assert(row.id && !supplementalIds.has(row.id), 'Supplemental record has missing or duplicate ID: ' + (row.id || '(missing)'));
+  supplementalIds.add(row.id);
+  assert(regionSet.has(row.regionName), 'Supplemental record references unknown region: ' + row.regionName);
+  assert(allowedSupplementalCategories.has(row.category), 'Supplemental record uses unknown category: ' + row.category);
+  assert(row.name && row.description, 'Supplemental record is missing a name or description: ' + (row.id || '(missing)'));
+  assert(row.sourceUrl && /^https:\/\//i.test(row.sourceUrl), 'Supplemental record lacks an HTTPS source URL: ' + (row.id || row.name));
+  assert(row.sourceId && supplementalSourceIds.has(row.sourceId), 'Supplemental record references an unregistered source: ' + (row.id || row.name));
+  assert(allowedVerification.has(row.verificationStatus), 'Supplemental record has invalid verification status: ' + (row.id || row.name));
+}
+
 
 
 const districtProfileRows = districtProfileData.records || [];

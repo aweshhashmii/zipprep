@@ -584,6 +584,34 @@
       ],
       "referenceDate": "December 2025",
       "cadence": "Use as national cross-check; item-level names and State attribution must come from IP India register."
+    },
+    {
+      "id": "wiiConservationReserveNov2025",
+      "name": "WII / MoEFCC — Conservation Reserve information sheet",
+      "url": "https://eiacp.moef.gov.in/file/PA_Information_Conservation%20Reserve-117663963531091367.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "geography.conservationReserves"
+      ],
+      "referenceDate": "November 2025",
+      "cadence": "Use latest WII/MoEFCC protected-area inventory; refresh when official data is updated.",
+      "note": "National total: 163 Conservation Reserves covering 8,356.68 km². State/UT rows in the source provide cumulative area, not state counts."
+    },
+    {
+      "id": "wiiCommunityReserveFeb2025",
+      "name": "WII / MoEFCC — Community Reserve information sheet",
+      "url": "https://eiacp.moef.gov.in/file/PA_Information_Community%20Reserve17663871361181178.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "geography.communityReserves"
+      ],
+      "referenceDate": "February 2025",
+      "cadence": "Use latest WII/MoEFCC protected-area inventory; refresh when official data is updated.",
+      "note": "National total: 309 Community Reserves covering 8,464.13 km². State rows provide cumulative area; state counts are not inferred."
     }
   ]
 }

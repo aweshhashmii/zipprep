@@ -1,0 +1,1237 @@
+{
+  "schemaVersion": 1,
+  "title": "Meghalaya district forest-cover enrichment — ISFR 2023",
+  "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3",
+  "source": {
+    "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+    "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+    "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+    "referenceDate": "2023 assessment",
+    "lastVerifiedAt": "2026-11-02",
+    "note": "All 12 FSI report districts match current LGD district identities by code. The FSI spelling 'Ri-Bhoi' is explicitly mapped to current LGD 'Ri Bhoi'. H superscript markers denote hill districts and are not part of district names."
+  },
+  "totals": {
+    "area": 22429,
+    "vdf": 594.84,
+    "mdf": 9023.81,
+    "open": 7348.19,
+    "forest": 16966.84,
+    "change": -30,
+    "scrub": 620.41
+  },
+  "records": [
+    {
+      "lgdCode": "273",
+      "name": "East Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 1443,
+      "veryDenseForest2023SqKm": 67.95,
+      "moderatelyDenseForest2023SqKm": 610.63,
+      "openForest2023SqKm": 674.39,
+      "forestCover2023SqKm": 1352.97,
+      "forestCoverPercent2023": 93.76,
+      "forestCoverChangeSince2021SqKm": -28.09,
+      "scrub2023SqKm": 78.7,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "657",
+      "name": "East Jaintia Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 2040,
+      "veryDenseForest2023SqKm": 147.58,
+      "moderatelyDenseForest2023SqKm": 585.69,
+      "openForest2023SqKm": 595.53,
+      "forestCover2023SqKm": 1328.8,
+      "forestCoverPercent2023": 65.14,
+      "forestCoverChangeSince2021SqKm": -20.76,
+      "scrub2023SqKm": 70.95,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "274",
+      "name": "East Khasi Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 2748,
+      "veryDenseForest2023SqKm": 24.48,
+      "moderatelyDenseForest2023SqKm": 964.48,
+      "openForest2023SqKm": 765.54,
+      "forestCover2023SqKm": 1754.5,
+      "forestCoverPercent2023": 63.85,
+      "forestCoverChangeSince2021SqKm": 13.69,
+      "scrub2023SqKm": 90.41,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "740",
+      "name": "Eastern West Khasi Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 1145,
+      "veryDenseForest2023SqKm": 98.66,
+      "moderatelyDenseForest2023SqKm": 561.4,
+      "openForest2023SqKm": 147.95,
+      "forestCover2023SqKm": 808.01,
+      "forestCoverPercent2023": 70.57,
+      "forestCoverChangeSince2021SqKm": 2.94,
+      "scrub2023SqKm": 19.78,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "656",
+      "name": "North Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 1160,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 532.09,
+      "openForest2023SqKm": 523.07,
+      "forestCover2023SqKm": 1055.16,
+      "forestCoverPercent2023": 90.96,
+      "forestCoverChangeSince2021SqKm": -15.37,
+      "scrub2023SqKm": 38.03,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "276",
+      "name": "Ri Bhoi",
+      "stateName": "Meghalaya",
+      "sourceDistrictName": "Ri-Bhoi",
+      "forestCoverCalculatedArea2023SqKm": 2448,
+      "veryDenseForest2023SqKm": 123.28,
+      "moderatelyDenseForest2023SqKm": 1069.41,
+      "openForest2023SqKm": 890.6,
+      "forestCover2023SqKm": 2083.29,
+      "forestCoverPercent2023": 85.1,
+      "forestCoverChangeSince2021SqKm": 0.56,
+      "scrub2023SqKm": 50.32,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Ri-Bhoi' is explicitly mapped to current LGD district 'Ri Bhoi' (LGD code 276); no fuzzy match was used. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "277",
+      "name": "South Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 1887,
+      "veryDenseForest2023SqKm": 82.64,
+      "moderatelyDenseForest2023SqKm": 934.47,
+      "openForest2023SqKm": 618.59,
+      "forestCover2023SqKm": 1635.7,
+      "forestCoverPercent2023": 86.68,
+      "forestCoverChangeSince2021SqKm": -5.28,
+      "scrub2023SqKm": 16.13,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "663",
+      "name": "South West Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 866,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 236.61,
+      "openForest2023SqKm": 367.57,
+      "forestCover2023SqKm": 604.18,
+      "forestCoverPercent2023": 69.77,
+      "forestCoverChangeSince2021SqKm": -4.59,
+      "scrub2023SqKm": 1.96,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "658",
+      "name": "South West Khasi Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 1401,
+      "veryDenseForest2023SqKm": 29.74,
+      "moderatelyDenseForest2023SqKm": 469.37,
+      "openForest2023SqKm": 402.72,
+      "forestCover2023SqKm": 901.83,
+      "forestCoverPercent2023": 64.37,
+      "forestCoverChangeSince2021SqKm": 10.1,
+      "scrub2023SqKm": 84.07,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "278",
+      "name": "West Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 2811,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 940.57,
+      "openForest2023SqKm": 1145.84,
+      "forestCover2023SqKm": 2086.41,
+      "forestCoverPercent2023": 74.22,
+      "forestCoverChangeSince2021SqKm": 12.72,
+      "scrub2023SqKm": 48.3,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "275",
+      "name": "West Jaintia Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 1779,
+      "veryDenseForest2023SqKm": 3.71,
+      "moderatelyDenseForest2023SqKm": 793.6,
+      "openForest2023SqKm": 373.46,
+      "forestCover2023SqKm": 1170.77,
+      "forestCoverPercent2023": 65.81,
+      "forestCoverChangeSince2021SqKm": -8.03,
+      "scrub2023SqKm": 57.65,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    },
+    {
+      "lgdCode": "279",
+      "name": "West Khasi Hills",
+      "stateName": "Meghalaya",
+      "forestCoverCalculatedArea2023SqKm": 2701,
+      "veryDenseForest2023SqKm": 16.8,
+      "moderatelyDenseForest2023SqKm": 1325.49,
+      "openForest2023SqKm": 842.93,
+      "forestCover2023SqKm": 2185.22,
+      "forestCoverPercent2023": 80.9,
+      "forestCoverChangeSince2021SqKm": 12.11,
+      "scrub2023SqKm": 64.11,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.17.3 (Meghalaya)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.17, Table 10.17.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of district names."
+        }
+      ]
+    }
+  ]
+}

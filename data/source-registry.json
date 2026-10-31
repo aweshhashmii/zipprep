@@ -554,6 +554,36 @@
       ],
       "referenceDate": "5 August 2025",
       "cadence": "Use for category definitions; do not infer state-wise counts from this overview page."
+    },
+    {
+      "id": "ipindiaStatewiseRegisteredGI2026",
+      "name": "IP India — State-wise Registered Geographical Indications of India",
+      "url": "https://www.ipindia.gov.in/geographical-indications-track-application-list-of-registered-geographical-indications-and-authorised-users-part-a-register-list-of-registered-gi-of-india",
+      "tabs": [
+        "culture",
+        "economy"
+      ],
+      "fields": [
+        "Registered GI names and state attribution",
+        "Goods category and application details; state-wise register PDF"
+      ],
+      "referenceDate": "2 May 2026",
+      "cadence": "Refresh from the official Part A state-wise register; distinguish registered GIs from pending applications and authorised users."
+    },
+    {
+      "id": "pibGIStateTotalsDecember2025",
+      "name": "PIB / DPIIT — Geographical Indications: state-wise leaders and category totals",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=159418&lang=3&reg=3",
+      "tabs": [
+        "culture",
+        "economy"
+      ],
+      "fields": [
+        "National GI category totals and leading state counts as of December 2025",
+        "Context only; use IP India Part A for item-level state lists"
+      ],
+      "referenceDate": "December 2025",
+      "cadence": "Use as national cross-check; item-level names and State attribution must come from IP India register."
     }
   ]
 }

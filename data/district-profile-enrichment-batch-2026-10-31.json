@@ -5918,6 +5918,2281 @@
           "note": "Historical satellite-assessed forest cover; only exact district-name matches after punctuation/spacing normalization are linked."
         }
       ]
+    },
+    {
+      "lgdCode": "345",
+      "name": "Balangir",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 1135.26,
+      "forestCoverPercent2019": 36.64,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "346",
+      "name": "Baleshwar",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 382.56,
+      "forestCoverPercent2019": 5.82,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "348",
+      "name": "Bhadrak",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 78,
+      "forestCoverPercent2019": 1.34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "352",
+      "name": "Dhenkanal",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 1445.61,
+      "forestCoverPercent2019": 32.47,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "353",
+      "name": "Gajapati",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 2521.37,
+      "forestCoverPercent2019": 58.3,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "354",
+      "name": "Ganjam",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 2105.4,
+      "forestCoverPercent2019": 25.66,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "355",
+      "name": "Jagatsinghapur",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 136.28,
+      "forestCoverPercent2019": 8.17,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "357",
+      "name": "Jharsuguda",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 332.64,
+      "forestCoverPercent2019": 15.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "358",
+      "name": "Kalahandi",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 2419.8,
+      "forestCoverPercent2019": 30.55,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "361",
+      "name": "Kendujhar",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 3222.16,
+      "forestCoverPercent2019": 121.87,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "362",
+      "name": "Khordha",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 467.09,
+      "forestCoverPercent2019": 16.6,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "363",
+      "name": "Koraput",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 2098.27,
+      "forestCoverPercent2019": 23.83,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "364",
+      "name": "Malkangiri",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 2336.17,
+      "forestCoverPercent2019": 40.34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "365",
+      "name": "Mayurbhanj",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 4094.17,
+      "forestCoverPercent2019": 39.3,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "368",
+      "name": "Nuapada",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 1274.46,
+      "forestCoverPercent2019": 24.09,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "369",
+      "name": "Puri",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 225.09,
+      "forestCoverPercent2019": 6.47,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "370",
+      "name": "Rayagada",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 3146.51,
+      "forestCoverPercent2019": 44.49,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "371",
+      "name": "Sambalpur",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 3292.29,
+      "forestCoverPercent2019": 49.7,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "372",
+      "name": "Subarnapur",
+      "stateName": "Odisha",
+      "forestCover2019SqKm": 350.85,
+      "forestCoverPercent2019": 15.01,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019OdishaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter, Table 11.21.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.21.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "554",
+      "name": "Alappuzha",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 79.9,
+      "forestCoverPercent2019": 5.65,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "555",
+      "name": "Ernakulam",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1365.71,
+      "forestCoverPercent2019": 44.59,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "556",
+      "name": "Idukki",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 3150.65,
+      "forestCoverPercent2019": 72.33,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "557",
+      "name": "Kannur",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1653.97,
+      "forestCoverPercent2019": 55.86,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "558",
+      "name": "Kasaragod",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 966.48,
+      "forestCoverPercent2019": 48.59,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "559",
+      "name": "Kollam",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1322.51,
+      "forestCoverPercent2019": 53.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "560",
+      "name": "Kottayam",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1104.29,
+      "forestCoverPercent2019": 50.06,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "561",
+      "name": "Kozhikode",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1436.97,
+      "forestCoverPercent2019": 61.28,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "562",
+      "name": "Malappuram",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1981.33,
+      "forestCoverPercent2019": 55.75,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "563",
+      "name": "Palakkad",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 2083.59,
+      "forestCoverPercent2019": 46.49,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "564",
+      "name": "Pathanamthitta",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1955.52,
+      "forestCoverPercent2019": 73.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "565",
+      "name": "Thiruvananthapuram",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1303.93,
+      "forestCoverPercent2019": 59.57,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "566",
+      "name": "Thrissur",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1159.22,
+      "forestCoverPercent2019": 38.3,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "567",
+      "name": "Wayanad",
+      "stateName": "Kerala",
+      "forestCover2019SqKm": 1580.22,
+      "forestCoverPercent2019": 74.19,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019KeralaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter, Table 11.14.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.14.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "610",
+      "name": "Ariyalur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 393.14,
+      "forestCoverPercent2019": 20.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "568",
+      "name": "Chennai",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 12.84,
+      "forestCoverPercent2019": 7.34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "569",
+      "name": "Coimbatore",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1984.64,
+      "forestCoverPercent2019": 41.94,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "570",
+      "name": "Cuddalore",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 390.96,
+      "forestCoverPercent2019": 10.56,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "571",
+      "name": "Dharmapuri",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1701.14,
+      "forestCoverPercent2019": 37.83,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "572",
+      "name": "Dindigul",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1874.4,
+      "forestCoverPercent2019": 31.05,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "573",
+      "name": "Erode",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 2294.46,
+      "forestCoverPercent2019": 39.83,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "574",
+      "name": "Kancheepuram",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 307.78,
+      "forestCoverPercent2019": 6.87,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "575",
+      "name": "Kanniyakumari",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1003.54,
+      "forestCoverPercent2019": 59.59,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "576",
+      "name": "Karur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 118.46,
+      "forestCoverPercent2019": 4.08,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "577",
+      "name": "Krishnagiri",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1617.41,
+      "forestCoverPercent2019": 31.53,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "578",
+      "name": "Madurai",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 555.12,
+      "forestCoverPercent2019": 14.96,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "579",
+      "name": "Nagapattinam",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 159.19,
+      "forestCoverPercent2019": 6.2,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "580",
+      "name": "Namakkal",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 579.05,
+      "forestCoverPercent2019": 16.93,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "581",
+      "name": "Perambalur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 141.26,
+      "forestCoverPercent2019": 8.04,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "582",
+      "name": "Pudukkottai",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 364.79,
+      "forestCoverPercent2019": 7.86,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "583",
+      "name": "Ramanathapuram",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 256.95,
+      "forestCoverPercent2019": 6.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "584",
+      "name": "Salem",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1469.84,
+      "forestCoverPercent2019": 28.07,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "585",
+      "name": "Sivaganga",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 329.66,
+      "forestCoverPercent2019": 7.79,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "586",
+      "name": "Thanjavur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 346.19,
+      "forestCoverPercent2019": 10.15,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "587",
+      "name": "The Nilgiris",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1731.01,
+      "forestCoverPercent2019": 67.49,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "588",
+      "name": "Theni",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1175.29,
+      "forestCoverPercent2019": 40.98,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "589",
+      "name": "Thiruvallur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 285.67,
+      "forestCoverPercent2019": 8.42,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "590",
+      "name": "Thiruvarur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 67.47,
+      "forestCoverPercent2019": 2.97,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "594",
+      "name": "Thoothukkudi",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 256.68,
+      "forestCoverPercent2019": 5.41,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "591",
+      "name": "Tiruchirappalli",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 471.36,
+      "forestCoverPercent2019": 10.45,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "592",
+      "name": "Tirunelveli",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1300.24,
+      "forestCoverPercent2019": 19.43,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "634",
+      "name": "Tiruppur",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 844.43,
+      "forestCoverPercent2019": 16.28,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "593",
+      "name": "Tiruvannamalai",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1308.36,
+      "forestCoverPercent2019": 21.14,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "595",
+      "name": "Vellore",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 1818.59,
+      "forestCoverPercent2019": 29.94,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "596",
+      "name": "Viluppuram",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 857.56,
+      "forestCoverPercent2019": 11.92,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
+    },
+    {
+      "lgdCode": "597",
+      "name": "Virudhunagar",
+      "stateName": "Tamil Nadu",
+      "forestCover2019SqKm": 346.54,
+      "forestCoverPercent2019": 8.17,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TamilNaduForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter, Table 11.25.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+        }
+      ]
     }
   ]
 }

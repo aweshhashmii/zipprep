@@ -836,6 +836,76 @@
       "sourceUrl": "https://punjab.gov.in/know-punjab/history/",
       "referenceDate": "Official Punjab Government history page accessed 31 October 2026",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "jharkhandPalamuCheroHistory2026",
+      "title": "Palamu District Administration — History of the Chero rulers",
+      "sourceUrl": "https://palamu.nic.in/history/",
+      "referenceDate": "Official Palamu District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mpDharParamaraHistory2026",
+      "title": "Dhar District Administration — History of the Paramara dynasty",
+      "sourceUrl": "https://dhar.nic.in/en/history/",
+      "referenceDate": "Official Dhar District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mpSatnaKalachuriHistory2026",
+      "title": "Satna District Administration — History of the Kalachuri and Chedi clans",
+      "sourceUrl": "https://satna.mp.gov.in/history/",
+      "referenceDate": "Official Satna District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andhraKrishnaDistrictHistory2026",
+      "title": "Krishna District Administration — History of the Andhra region",
+      "sourceUrl": "https://krishna.ap.gov.in/about_district/history/",
+      "referenceDate": "Official Krishna District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ladakhLehDistrictHistory2026",
+      "title": "Leh District Administration — History of Ladakh and Namgyal rulers",
+      "sourceUrl": "https://leh.nic.in/about-district/history/",
+      "referenceDate": "Official Leh District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryGovernmentHistory2026",
+      "title": "Government of Puducherry — History of Puducherry",
+      "sourceUrl": "https://www.py.gov.in/history",
+      "referenceDate": "Official Puducherry Government history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mizoramLandRevenueChiefdomHistory2026",
+      "title": "Mizoram Land Revenue and Settlement Department — History of village chieftainship",
+      "sourceUrl": "https://eram.mizoram.gov.in/pages/about-us",
+      "referenceDate": "Official Mizoram department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nagalandVillageRepublicsHistory2018",
+      "title": "Government of Nagaland — Nagaland Round Table Conference Report, traditional village republics",
+      "sourceUrl": "https://focus.nagaland.gov.in/wp-content/uploads/2018/03/Nagaland-Round-Table-Conference-Report.pdf",
+      "referenceDate": "Nagaland Round Table Conference Report, chapter 7",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanNicobarDistrictHistory2026",
+      "title": "Nicobar District Administration — History of the Nicobar Islands",
+      "sourceUrl": "https://nicobars.andaman.nic.in/history/",
+      "referenceDate": "Official Nicobar District history page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraIEETraditionalKings2024",
+      "title": "Agartala Smart City — Initial Environmental Examination, historical note on early Tripura rulers",
+      "sourceUrl": "https://agartalasmartcity.tripura.gov.in/sites/default/files/2024-10/IEE%20Ujjayanta%20Lake%20Part-A.pdf",
+      "referenceDate": "Agartala Smart City IEE, section 128, History, Culture and Tourism",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -2631,6 +2701,285 @@
       "sourceId": "lakshadweepGovernmentHistory2026",
       "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/history/",
       "referenceDate": "Official UT history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-arunachal-no-statewide-kingdom-verified",
+      "regionName": "Arunachal Pradesh",
+      "category": "ancientKingdoms",
+      "name": "No ancient kingdom established for the present-day state in the cited gazetteer",
+      "description": "The Arunachal Pradesh State Gazetteer documents later regional polities, including the Chutiya kingdom in the Sadiya–Lohit region, but the cited source does not establish a single securely dated ancient kingdom covering the present-day state. This is a source-scope note; it does not exclude local tribal and chiefdom histories.",
+      "sourceId": "arunachalStateGazetteer2026",
+      "sourceUrl": "https://arunachalpradesh.gov.in/images/Gazetteer/state-gazetteer.pdf",
+      "referenceDate": "Arunachal Pradesh State Gazetteer, historical sections",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-jharkhand-no-verified-kingdom",
+      "regionName": "Jharkhand",
+      "category": "ancientKingdoms",
+      "name": "No securely dated ancient kingdom established in the cited regional history",
+      "description": "The Palamu District Administration describes the early history of the region as largely traditional and notes autonomous tribal communities before the better-documented Chero period. The cited source does not establish a distinct ancient kingdom within present-day Jharkhand boundaries; this is not a claim that the wider region was outside neighbouring empires.",
+      "sourceId": "jharkhandPalamuCheroHistory2026",
+      "sourceUrl": "https://palamu.nic.in/history/",
+      "referenceDate": "Official Palamu District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-meghalaya-no-ancient-kingdom-listed",
+      "regionName": "Meghalaya",
+      "category": "ancientKingdoms",
+      "name": "No securely dated ancient kingdom listed in the cited state history",
+      "description": "The Government of Meghalaya's history page documents the Jaintia political union and the Twelve Elakas as a later regional kingdom. It does not establish a separately dated ancient kingdom for the present-day state; Khasi and Garo traditional institutions are not recast as a single ancient monarchy.",
+      "sourceId": "meghalayaJaintiaKingdomHistory2026",
+      "sourceUrl": "https://meghalaya.gov.in/index.php/node/34293",
+      "referenceDate": "Official Meghalaya Government history profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-mizoram-village-chiefdoms-not-kingdom",
+      "regionName": "Mizoram",
+      "category": "ancientKingdoms",
+      "name": "Village chiefdoms rather than a single ancient kingdom",
+      "description": "The Mizoram Land Revenue and Settlement Department records autonomous village communities under hereditary chiefs before British annexation. The source describes multiple clan and village chiefdoms, not a unified ancient kingdom across the present-day state.",
+      "sourceId": "mizoramLandRevenueChiefdomHistory2026",
+      "sourceUrl": "https://eram.mizoram.gov.in/pages/about-us",
+      "referenceDate": "Official Mizoram department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-nagaland-village-republics-not-kingdom",
+      "regionName": "Nagaland",
+      "category": "ancientKingdoms",
+      "name": "Naga village republics and traditional clan polities",
+      "description": "The Nagaland Round Table Conference Report describes self-sustaining village republics governed through tribal traditions and customary institutions. It notes a traditional kingship system among the Konyak, while most other Naga communities followed clan or village-council systems; the source does not establish a single ancient kingdom for the present-day state.",
+      "sourceId": "nagalandVillageRepublicsHistory2018",
+      "sourceUrl": "https://focus.nagaland.gov.in/wp-content/uploads/2018/03/Nagaland-Round-Table-Conference-Report.pdf",
+      "referenceDate": "Nagaland Round Table Conference Report, chapter 7",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-sikkim-no-pre-namgyal-kingdom",
+      "regionName": "Sikkim",
+      "category": "ancientKingdoms",
+      "name": "No ancient kingdom separately documented before the Namgyal monarchy",
+      "description": "The Government of Sikkim's statehood timeline dates the establishment of the Namgyal monarchy to 1642. The cited official timeline does not identify a securely dated ancient kingdom preceding it; earlier Lepcha and local traditions are not assigned a dynastic chronology here.",
+      "sourceId": "sikkimNamgyalHistory2026",
+      "sourceUrl": "https://50yearsofstatehood.sikkim.gov.in/",
+      "referenceDate": "Official Sikkim statehood history timeline",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-tripura-traditional-rulers-chronology-unverified",
+      "regionName": "Tripura",
+      "category": "ancientKingdoms",
+      "name": "Traditional pre-Manikya rulers — chronology not securely established",
+      "description": "The Agartala Smart City IEE mentions traditional early rulers, including Patardan with a legendary date of 1900 BCE, but explicitly says the chronology of Tripura's rulers has not been found and identifies the account as folklore. The record preserves the tradition without presenting it as a verified ancient dynasty.",
+      "sourceId": "tripuraIEETraditionalKings2024",
+      "sourceUrl": "https://agartalasmartcity.tripura.gov.in/sites/default/files/2024-10/IEE%20Ujjayanta%20Lake%20Part-A.pdf",
+      "referenceDate": "Agartala Smart City IEE, section 128, History, Culture and Tourism",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-andaman-no-centralized-kingdom",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "ancientKingdoms",
+      "name": "Indigenous island societies — no centralized ancient kingdom documented",
+      "description": "The Nicobar District Administration describes a long unwritten history and traditional tribal councils among the island communities. The cited district history does not identify a centralized ancient kingdom; indigenous social and political institutions are recorded separately from later European colonial occupation.",
+      "sourceId": "andamanNicobarDistrictHistory2026",
+      "sourceUrl": "https://nicobars.andaman.nic.in/history/",
+      "referenceDate": "Official Nicobar District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-chandigarh-no-separate-kingdom",
+      "regionName": "Chandigarh",
+      "category": "ancientKingdoms",
+      "name": "No separate ancient kingdom documented for the Chandigarh territory",
+      "description": "The Chandigarh Administration's district profile provides the modern region's geographical and administrative history but does not identify a distinct ancient kingdom centred on the present-day UT. The area formed part of wider north-western Indian cultural and political regions; no separate dynasty is inferred.",
+      "sourceId": "chandigarhAdministrationHistory2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-dnhdd-no-separate-kingdom",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "ancientKingdoms",
+      "name": "No distinct ancient kingdom established in the cited UT profile",
+      "description": "The UT Administration's official profile does not establish a separate ancient kingdom for the present-day merged Union Territory. The coastal and inland areas were influenced by broader western Indian powers; this record avoids assigning a single dynasty to the modern UT boundaries without a district-specific source.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-ladakh-no-central-authority-before-10th-century",
+      "regionName": "Ladakh",
+      "category": "ancientKingdoms",
+      "name": "No unified ancient kingdom documented before the 10th-century Ladakhi polity",
+      "description": "The Leh District Administration states that before the 10th century the region had no central authority and was divided into small principalities. The unified kingdom founded by Skit Lde Nemagon belongs to the 10th century CE and is therefore recorded under medieval kingdoms rather than ancient kingdoms.",
+      "sourceId": "ladakhLehDistrictHistory2026",
+      "sourceUrl": "https://leh.nic.in/about-district/history/",
+      "referenceDate": "Official Leh District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ancient-puducherry-pallava-chola-pandya",
+      "regionName": "Puducherry",
+      "category": "ancientKingdoms",
+      "name": "Pallava, Chola and Pandya rule in the Puducherry region",
+      "description": "The Government of Puducherry's official history dates Pallava rule in the region from approximately 325–900 CE, Chola rule from 900–1279 CE and Pandya rule from 1279–1370 CE. The territory was part of these larger southern Indian kingdoms rather than a separate Puducherry monarchy.",
+      "sourceId": "puducherryGovernmentHistory2026",
+      "sourceUrl": "https://www.py.gov.in/history",
+      "referenceDate": "Official Puducherry Government history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-andhra-kakatiya-reddy-vijayanagara",
+      "regionName": "Andhra Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Kakatiya, Reddy and Vijayanagara polities in the Andhra region",
+      "description": "Krishna District Administration records the area under the Kakatiyas, followed by the Reddy dynasty and Vijayanagara Empire. The district history notes Kakatiya rule in the 13th–14th centuries and later Qutb Shahi and Nizam influence in the Krishna region; this entry records regional rule, not a claim that each dynasty's capital was within the present state.",
+      "sourceId": "andhraKrishnaDistrictHistory2026",
+      "sourceUrl": "https://krishna.ap.gov.in/about_district/history/",
+      "referenceDate": "Official Krishna District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-jharkhand-chero-palamu",
+      "regionName": "Jharkhand",
+      "category": "medievalKingdoms",
+      "name": "Chero rulers of Palamu",
+      "description": "The Palamu District Administration records the Chero rulers' assertion of independence after Akbar's death, the reigns of Sahbal Rai and Pratap Rai, and Medini Rai's later rule in the 17th century. The source documents the Palamu sub-region and is not presented as a dynasty governing all of modern Jharkhand.",
+      "sourceId": "jharkhandPalamuCheroHistory2026",
+      "sourceUrl": "https://palamu.nic.in/history/",
+      "referenceDate": "Official Palamu District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-madhya-pradesh-paramara-kalachuri-chandela",
+      "regionName": "Madhya Pradesh",
+      "category": "medievalKingdoms",
+      "name": "Paramara of Malwa, Kalachuri of Tripuri and Chandela polities",
+      "description": "Dhar District Administration records the Paramaras ruling the Malwa region from the 9th to 13th centuries, with Munja and Bhoja as prominent rulers. Satna District Administration records Kalachuri/Chedi power in the Baghelkhand region and the Chandelas' seizure of Kalinjar under Yashovarman in the 10th century.",
+      "sourceId": "mpDharParamaraHistory2026",
+      "sourceUrl": "https://dhar.nic.in/en/history/",
+      "referenceDate": "Official Dhar District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31",
+      "supportingSources": [
+        "mpSatnaKalachuriHistory2026"
+      ]
+    },
+    {
+      "id": "medieval-mizoram-village-chiefdoms-not-kingdom",
+      "regionName": "Mizoram",
+      "category": "medievalKingdoms",
+      "name": "Lushai and other Mizo village chiefdoms",
+      "description": "The Mizoram Land Revenue and Settlement Department records autonomous village chiefs and clan-based territorial jurisdictions before British annexation in the late 19th century. The cited source describes multiple village chiefdoms rather than a unified medieval kingdom covering present-day Mizoram.",
+      "sourceId": "mizoramLandRevenueChiefdomHistory2026",
+      "sourceUrl": "https://eram.mizoram.gov.in/pages/about-us",
+      "referenceDate": "Official Mizoram department profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-nagaland-village-republics-not-kingdom",
+      "regionName": "Nagaland",
+      "category": "medievalKingdoms",
+      "name": "Naga village republics and traditional chiefdoms",
+      "description": "The Nagaland Round Table Conference Report describes self-sustaining village republics, customary village councils and clan-based administration. It notes a traditional kingship system among the Konyak, while other Naga communities used village or clan institutions; the source does not establish a single medieval kingdom for the present-day state.",
+      "sourceId": "nagalandVillageRepublicsHistory2018",
+      "sourceUrl": "https://focus.nagaland.gov.in/wp-content/uploads/2018/03/Nagaland-Round-Table-Conference-Report.pdf",
+      "referenceDate": "Nagaland Round Table Conference Report, chapter 7",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-telangana-kakatiya-qutb-shahi",
+      "regionName": "Telangana",
+      "category": "medievalKingdoms",
+      "name": "Kakatiya Kingdom and Qutb Shahi Sultanate",
+      "description": "Telangana Tourism records the Kakatiya dynasty as a major medieval polity centred at Hanamkonda and Warangal, followed by the Qutb Shahi Sultanate of Golconda. The Kakatiyas unified much of the Telugu region before the Delhi Sultanate conquest in 1323; Qutb Shahi rule followed from the 16th century.",
+      "sourceId": "telanganaTourismHistory2026",
+      "sourceUrl": "https://tourism.telangana.gov.in/page/history-culture",
+      "referenceDate": "Official Telangana Tourism history profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-andaman-no-local-kingdom",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "medievalKingdoms",
+      "name": "Indigenous island societies and European colonial occupation — no local kingdom documented",
+      "description": "The Nicobar District Administration records local tribal councils and a long unwritten history, followed by Portuguese and French missionary contact and Danish possession from 1756. The cited official district history does not identify a local medieval kingdom; colonial occupations are recorded as external administrations, not indigenous dynasties.",
+      "sourceId": "andamanNicobarDistrictHistory2026",
+      "sourceUrl": "https://nicobars.andaman.nic.in/history/",
+      "referenceDate": "Official Nicobar District history page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-chandigarh-no-separate-kingdom",
+      "regionName": "Chandigarh",
+      "category": "medievalKingdoms",
+      "name": "No separate medieval kingdom centred on Chandigarh documented",
+      "description": "The Chandigarh Administration's district profile does not identify a distinct medieval kingdom centred on the present-day UT. The territory's history is part of wider Punjab and north-west Indian political changes; no independent Chandigarh dynasty is inferred.",
+      "sourceId": "chandigarhAdministrationHistory2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-dnhdd-no-separate-kingdom",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "medievalKingdoms",
+      "name": "No separate medieval kingdom documented for the present-day merged UT",
+      "description": "The official UT profile describes the coastal enclaves and their later Portuguese colonial history but does not establish a distinct medieval kingdom covering the present-day merged territory. The source does not treat the Portuguese administration as an Indian dynasty or kingdom.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-ladakh-namgyal-kingdom",
+      "regionName": "Ladakh",
+      "category": "medievalKingdoms",
+      "name": "Ladakhi Kingdom and Namgyal dynasty",
+      "description": "The Leh District Administration records Skit Lde Nemagon's establishment of a kingdom at Shey in the middle of the 10th century after unifying smaller principalities. Sengge Namgyal later consolidated the Ladakhi Empire in the 16th–17th centuries and built Leh Palace.",
+      "sourceId": "ladakhLehDistrictHistory2026",
+      "sourceUrl": "https://leh.nic.in/about-district/history/",
+      "referenceDate": "Official Leh District history page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "medieval-puducherry-pallava-chola-vijayanagara-bijapur",
+      "regionName": "Puducherry",
+      "category": "medievalKingdoms",
+      "name": "Pallava, Chola, Pandya, Vijayanagara and Bijapur rule",
+      "description": "The Government of Puducherry's official history records Pallava rule (325–900 CE), Chola rule (900–1279), Pandya rule (1279–1370), Vijayanagara control from about 1370 to 1638 and subsequent Bijapur rule over Gingee. These are regional dynasties and empires that controlled the Puducherry area before the French settlement.",
+      "sourceId": "puducherryGovernmentHistory2026",
+      "sourceUrl": "https://www.py.gov.in/history",
+      "referenceDate": "Official Puducherry Government history page accessed 31 October 2026",
       "verificationStatus": "verified",
       "lastVerifiedAt": "2026-10-31"
     }

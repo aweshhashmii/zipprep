@@ -3884,6 +3884,45 @@
       ],
       "referenceDate": "Register current to February 2025; dataset metadata updated 5 January 2026",
       "cadence": "Review when MoEFCC/ENVIS publishes a new protected-area register."
+    },
+    {
+      "id": "natmoGoaStateAtlas2020",
+      "name": "National Atlas and Thematic Mapping Organisation — State Atlas of Goa",
+      "url": "https://geoportal.natmo.gov.in/sites/default/files/State_Atlas_of_Goa.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Chorla Ghat and Bhagaza Ghat topographic features"
+      ],
+      "referenceDate": "Official source publication date as listed",
+      "cadence": "Review against updated State Atlas and State Tourism geography material."
+    },
+    {
+      "id": "keralaTourismPalakkadGap2026",
+      "name": "Kerala Tourism — Palakkad Gap and Nelliyampathy",
+      "url": "https://www.keralatourism.org/malabar/destination_detailed_view/nelliyampathy/36",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Palakkad Gap as a Western Ghats pass"
+      ],
+      "referenceDate": "Official source publication date as listed",
+      "cadence": "Review against updated State Atlas and State Tourism geography material."
+    },
+    {
+      "id": "maharashtraTourismGhats2025",
+      "name": "Maharashtra Tourism — The Best of Maharashtra Pocket Guide",
+      "url": "https://maharashtratourism.gov.in/wp-content/uploads/2025/06/Maharashtra-Booklet_compressed.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named Western Ghats ghat routes and passes"
+      ],
+      "referenceDate": "Official source publication date as listed",
+      "cadence": "Review against updated State Atlas and State Tourism geography material."
     }
   ]
 }

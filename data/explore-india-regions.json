@@ -1615,9 +1615,65 @@
           "referenceDate": "2025-12-30",
           "lastVerifiedAt": "2026-10-30",
           "note": "State/UT count of glacial lakes reported by PIB on 30 December 2025; atlas inventory is spatial-ID based, not a named lake list."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "necYearbook2025",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "North Eastern Council Yearbook 2025, section 5.6; coal resources as at 1 April 2024, crude oil and gas reserves as at 1 April 2023, and mineral resources table. NEC notes that many regional deposits are not yet well established on economic, technical-feasibility and geological parameters."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmNationalMineralInventory",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/1696339081651c14891a043Chapter9.pdf",
+          "referenceYear": "2020",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines district-wise limestone resources as at 1 April 2020; district resource values retained in thousand tonnes and converted to million tonnes for display."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "necYearbook2025",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "North Eastern Council Yearbook 2025 production tables for crude oil, natural gas and coal. Crude oil includes condensate; the coal table records no reported production in FY 2023-24."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibCoalMine2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2174956&lang=2&reg=48",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Ministry of Coal / Press Information Bureau release on inauguration of Namchik-Namphuk, 6 October 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibArunachalFoodProcessing",
+          "sourceUrl": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150353&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "PIB factsheet on processed foods and wood-based industries in Arunachal Pradesh."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibEriSilk2022",
+          "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1824733&lang=2&reg=48",
+          "referenceYear": "2022",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Ministry of MSME / KVIC PIB release on Eri silk training-cum-production centre in Tawang."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank state-wise industrial park inventory as at 23 December 2025; parks and available industrial land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -1812,7 +1868,80 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Coal",
+            "district": "Changlang (Namchik-Namphuk and Miao Bum coalfields)",
+            "description": "Coal resources as at 1 April 2024: 90.23 million tonnes—31.23 million tonnes proved, 40.11 million tonnes indicated and 18.89 million tonnes inferred. Namchik-Namphuk accounts for about 84 million tonnes in IBM's state review; Miao Bum about 6 million tonnes. Coal resource estimates are not the same as recoverable commercial reserves.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2024"
+          },
+          {
+            "name": "Crude petroleum",
+            "district": "Arunachal Pradesh (district-level reserve split not provided in NEC table)",
+            "description": "Balance recoverable reserves as at 1 April 2023: 2.4 million tonnes (2P reserves) plus 0.5 million tonnes contingent resources; total 3.0 million tonnes as rounded in the source.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Natural gas",
+            "district": "Arunachal Pradesh (district-level reserve split not provided in NEC table)",
+            "description": "Balance recoverable reserves as at 1 April 2023: 0.0 billion cubic metres of 2P reserves and 7.2 billion cubic metres of contingent resources. Contingent resources are not the same as proved commercial reserves.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023"
+          },
+          {
+            "name": "Copper",
+            "district": "Arunachal Pradesh (district-level location not specified in the cited state resource table)",
+            "description": "Total resource reported in the NEC Yearbook 2025: about 10 thousand tonnes of copper ore, containing about 0.02 thousand tonnes (20 tonnes) of copper metal; no reserves are reported.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Arunachal Pradesh (district-level location not specified in the cited state resource table)",
+            "description": "Total resources: 77.837 million tonnes. The NEC table classifies this as a minor mineral and draws on IBM's mineral inventory; district breakdown is not provided in the cited table.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Fuller's earth",
+            "district": "Arunachal Pradesh (district-level location not specified in the cited state resource table)",
+            "description": "Total resources: approximately 20.0107 million tonnes. The NEC table classifies this as a minor mineral; district breakdown is not provided in the cited table.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Graphite",
+            "district": "Arunachal Pradesh (district-level location not specified in the cited state resource table)",
+            "description": "Total resources: approximately 76.318 million tonnes as at 1 April 2020. IBM's national mineral inventory reports this as a major state-level graphite resource; district breakdown is not provided in the cited table.",
+            "sourceId": "ibmNationalMineralInventory",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/1696339027651c14538e19eChapter7.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Limestone",
+            "district": "Dibang Valley, East Siang, Lohit, Upper Subansiri and West Siang",
+            "description": "Total remaining resources: 482.796 million tonnes as at 1 April 2020; no reserves reported. District-wise resources (million tonnes): Dibang Valley 99.510; East Siang 1.500; Lohit 150.000; Upper Subansiri 6.785; West Siang 225.001.",
+            "sourceId": "ibmNationalMineralInventory",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/1696339081651c14891a043Chapter9.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Quartzite",
+            "district": "Arunachal Pradesh (district-level location not specified in the cited state resource table)",
+            "description": "Total resources: approximately 5.270 million tonnes. The NEC Yearbook classifies this as a minor mineral; district breakdown is not provided in the cited table.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2025"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 67083.2,
@@ -1858,6 +1987,74 @@
             "description": "Count of glacial lakes in India reported by the Ministry of Jal Shakti from the NRSC Glacial Lake Atlas of Indian Himalayan River Basins (2023). Inventory mapped from 2016–17 satellite data; not a list of named lakes.",
             "sourceId": "cwcGlacialLakeCounts2025",
             "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2209732&lang=1&reg=1"
+          }
+        ],
+        "mineralProduction": [
+          {
+            "name": "Crude petroleum",
+            "district": "Arunachal Pradesh (district-level production split not provided)",
+            "description": "2023-24 production: 52 thousand metric tonnes, inclusive of condensate, as reported by the North Eastern Council Yearbook 2025.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Natural gas",
+            "district": "Arunachal Pradesh (district-level production split not provided)",
+            "description": "2023-24 production: 266 million metric standard cubic metres, as reported by the North Eastern Council Yearbook 2025. Retain the source's unit and figure; do not confuse it with the 53 million cubic metres shown for 2022-23 in the earlier IBM state review.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Changlang (Namchik-Namphuk)",
+            "description": "The NEC Yearbook's 2023-24 production table reports no coal production for Arunachal Pradesh. The state's first commercial coal mine at Namchik-Namphuk, Changlang district, was inaugurated on 6 October 2025; this later milestone must not be backdated to FY 2023-24.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Namchik-Namphuk commercial coal mine",
+            "district": "Changlang",
+            "description": "Arunachal Pradesh's first commercial coal mine was inaugurated on 6 October 2025. The Ministry of Coal reports the project and commencement milestone; this is not a statement of achieved annual output.",
+            "sourceId": "pibCoalMine2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2174956&lang=2&reg=48",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Food processing MSME sector",
+            "district": "Itanagar, Pasighat, Anjaw and Namsai",
+            "description": "PIB factsheet reports 632 registered food-processing MSMEs employing 4,591 people, with key hubs in these locations. Sector includes products such as biscuits, namkeens and sauces; the figures are from the cited factsheet, not a current factory-by-factory census.",
+            "sourceId": "pibArunachalFoodProcessing",
+            "sourceUrl": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150353&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Wood-based industry (plywood and veneer)",
+            "district": "Arunachal Pradesh (district-wise unit inventory not provided in cited factsheet)",
+            "description": "PIB identifies plywood and veneer as significant forest-based industries, with sawmills and plywood mills supplying construction and furniture markets. No plant count or capacity is stated in the cited factsheet.",
+            "sourceId": "pibArunachalFoodProcessing",
+            "sourceUrl": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150353&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Khadi Eri silk training-cum-production centre",
+            "district": "Tawang",
+            "description": "KVIC-established training and production centre; the 2022 PIB release reports direct employment for 20 women artisans from Tawang and West Kameng districts. A second Eri silk centre had earlier been inaugurated at Chullyu in 2020.",
+            "sourceId": "pibEriSilk2022",
+            "sourceUrl": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1824733&lang=2&reg=48",
+            "referenceYear": "2022"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Arunachal Pradesh (statewide inventory)",
+            "description": "DPIIT's India Industrial Land Bank snapshot as at 23 December 2025 lists 18 industrial parks covering 741 hectares, with 248 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
           }
         ]
       },

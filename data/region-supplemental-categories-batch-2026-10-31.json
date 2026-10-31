@@ -304,6 +304,34 @@
       "sourceUrl": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
       "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "wokhaDistrictDoyangTributaries2026",
+      "title": "Wokha District Administration — Doyang Hydro Project and river profile",
+      "sourceUrl": "https://wokha.nic.in/tourist-place/doyang-hydro-project/",
+      "referenceDate": "Wokha District Administration profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "ambalaDistrictRiverSystem2026",
+      "title": "Ambala District Administration — River System and Water Resources",
+      "sourceUrl": "https://ambala.gov.in/climate/",
+      "referenceDate": "Ambala District Administration geography profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiIFCSahibiNajafgarh2026",
+      "title": "Delhi Irrigation and Flood Control Department — Flood Problem due to Sahibi River",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/flood-problem-due-sahibi-river",
+      "referenceDate": "Government of NCT of Delhi page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryWaterResourcesTributaries2018",
+      "title": "Government of Puducherry — Water Resources of Puducherry Region",
+      "sourceUrl": "https://police.py.gov.in/Water%20Resource%20of%20Puducherry%20Region%20-%2002.03.18%20-%20Presentation%20by%20Dr%20Bascarane%20CGO.pdf",
+      "referenceDate": "Government of Puducherry water-resources presentation, 2 March 2018",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -1120,6 +1148,54 @@
       "sourceId": "sikkimGovernmentPhysicalFeatures2019",
       "sourceUrl": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
       "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-nagaland-doyang-system",
+      "regionName": "Nagaland",
+      "category": "tributaries",
+      "name": "Doyang River tributaries",
+      "description": "The Wokha District Administration identifies Saju, Tsui, Tullo and Tishi as the main tributaries of the Doyang River. It notes that Tullo combines the Keleki and Tangki streams and that Tishi joins the system in the Sema area.",
+      "sourceId": "wokhaDistrictDoyangTributaries2026",
+      "sourceUrl": "https://wokha.nic.in/tourist-place/doyang-hydro-project/",
+      "referenceDate": "Wokha District Administration profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-haryana-ghaggar-markanda-dangri",
+      "regionName": "Haryana",
+      "category": "tributaries",
+      "name": "Ghaggar, Markanda and Dangri tributary systems",
+      "description": "Ambala District Administration records the Markanda and its tributaries, Dangri (Tangri) and its tributaries, and the Ghaggar and its tributaries as the district's principal drainage systems. It notes that Markanda and Dangri ultimately drain into the Ghaggar beyond the district; the Ghaggar and its tributaries form an inland drainage system.",
+      "sourceId": "ambalaDistrictRiverSystem2026",
+      "sourceUrl": "https://ambala.gov.in/climate/",
+      "referenceDate": "Ambala District Administration geography profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-delhi-sahibi-najafgarh-yamuna",
+      "regionName": "Delhi",
+      "category": "tributaries",
+      "name": "Sahibi River and Najafgarh drainage connection",
+      "description": "The Delhi Irrigation and Flood Control Department states that the Sahibi River enters the NCT near Dhansa and its flow is conveyed through the Najafgarh drainage system; the Najafgarh Drain ultimately outfalls into the Yamuna downstream of Wazirabad. This entry describes the linked drainage route rather than treating the drain as a natural tributary.",
+      "sourceId": "delhiIFCSahibiNajafgarh2026",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/flood-problem-due-sahibi-river",
+      "referenceDate": "Government of NCT of Delhi page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-puducherry-sankaraparani",
+      "regionName": "Puducherry",
+      "category": "tributaries",
+      "name": "Sankaraparani River tributaries",
+      "description": "The Government of Puducherry's water-resources presentation identifies six tributaries of the Sankaraparani (Gingee/Varahanalli) River: Annamangalam surplus, Nariyar Odai, Thondiar, Pambaiyar, Pambai and Guduvaiyar.",
+      "sourceId": "puducherryWaterResourcesTributaries2018",
+      "sourceUrl": "https://police.py.gov.in/Water%20Resource%20of%20Puducherry%20Region%20-%2002.03.18%20-%20Presentation%20by%20Dr%20Bascarane%20CGO.pdf",
+      "referenceDate": "Government of Puducherry water-resources presentation, 2 March 2018",
       "verificationStatus": "verified",
       "lastVerifiedAt": "2026-10-31"
     }

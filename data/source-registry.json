@@ -1284,6 +1284,71 @@
       ],
       "referenceDate": "2023-24 (PIB release dated 3 December 2024)",
       "cadence": "Refresh from Department of Agriculture & Farmers Welfare state-wise production annexures."
+    },
+    {
+      "id": "ceaInstalledCapacityNorthern202603",
+      "name": "CEA / National Power Portal — Northern region state-wise installed capacity, 31 March 2026",
+      "url": "https://www.npp.gov.in/public-reports/cea/monthly/installcap/2026/MAR/capacity2-Northern-2026-03.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise installed generating capacity (MW), all modes combined"
+      ],
+      "referenceDate": "31 March 2026",
+      "cadence": "Monthly CEA/NPP installed-capacity reports; refresh with the latest published month."
+    },
+    {
+      "id": "ceaInstalledCapacityEastern202603",
+      "name": "CEA / National Power Portal — Eastern region state-wise installed capacity, 31 March 2026",
+      "url": "https://www.npp.gov.in/public-reports/cea/monthly/installcap/2026/MAR/capacity2-Eastern-2026-03.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise installed generating capacity (MW), all modes combined"
+      ],
+      "referenceDate": "31 March 2026",
+      "cadence": "Monthly CEA/NPP installed-capacity reports; refresh with the latest published month."
+    },
+    {
+      "id": "ceaInstalledCapacityWestern202603",
+      "name": "CEA / National Power Portal — Western region state-wise installed capacity, 31 March 2026",
+      "url": "https://www.npp.gov.in/public-reports/cea/monthly/installcap/2026/MAR/capacity2-Western-2026-03.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise installed generating capacity (MW), all modes combined"
+      ],
+      "referenceDate": "31 March 2026",
+      "cadence": "Monthly CEA/NPP installed-capacity reports; refresh with the latest published month."
+    },
+    {
+      "id": "ceaInstalledCapacitySouthern202603",
+      "name": "CEA / National Power Portal — Southern region state-wise installed capacity, 31 March 2026",
+      "url": "https://www.npp.gov.in/public-reports/cea/monthly/installcap/2026/MAR/capacity2-Southern-2026-03.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise installed generating capacity (MW), all modes combined"
+      ],
+      "referenceDate": "31 March 2026",
+      "cadence": "Monthly CEA/NPP installed-capacity reports; refresh with the latest published month."
+    },
+    {
+      "id": "ceaInstalledCapacityNorthEastern202603",
+      "name": "CEA / National Power Portal — North Eastern region state-wise installed capacity, 31 March 2026",
+      "url": "https://www.npp.gov.in/public-reports/cea/monthly/installcap/2026/MAR/capacity2-North-Eastern-2026-03.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise installed generating capacity (MW), all modes combined"
+      ],
+      "referenceDate": "31 March 2026",
+      "cadence": "Monthly CEA/NPP installed-capacity reports; refresh with the latest published month."
     }
   ]
 }

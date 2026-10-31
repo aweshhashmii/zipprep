@@ -1,0 +1,1135 @@
+{
+  "schemaVersion": 1,
+  "title": "Mizoram district forest-cover enrichment — ISFR 2023",
+  "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3",
+  "source": {
+    "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+    "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+    "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+    "referenceDate": "2023 assessment",
+    "lastVerifiedAt": "2026-11-02",
+    "note": "All 11 FSI report districts match current LGD district identities by code."
+  },
+  "totals": {
+    "area": 21081,
+    "vdf": 261.52,
+    "mdf": 8635.76,
+    "open": 9093.18,
+    "forest": 17990.46,
+    "change": 241.73,
+    "scrub": 314.54
+  },
+  "records": [
+    {
+      "lgdCode": "261",
+      "name": "Aizawl",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 2213.5,
+      "veryDenseForest2023SqKm": 15.09,
+      "moderatelyDenseForest2023SqKm": 917.38,
+      "openForest2023SqKm": 967.42,
+      "forestCover2023SqKm": 1899.89,
+      "forestCoverPercent2023": 85.83,
+      "forestCoverChangeSince2021SqKm": -33.64,
+      "scrub2023SqKm": 13.89,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "262",
+      "name": "Champhai",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 1652.5,
+      "veryDenseForest2023SqKm": 42.95,
+      "moderatelyDenseForest2023SqKm": 915.45,
+      "openForest2023SqKm": 415.98,
+      "forestCover2023SqKm": 1374.38,
+      "forestCoverPercent2023": 83.17,
+      "forestCoverChangeSince2021SqKm": 86.69,
+      "scrub2023SqKm": 68.24,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "726",
+      "name": "Hnahthial",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 851.5,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 372.14,
+      "openForest2023SqKm": 363.32,
+      "forestCover2023SqKm": 735.46,
+      "forestCoverPercent2023": 86.37,
+      "forestCoverChangeSince2021SqKm": 114.67,
+      "scrub2023SqKm": 12.62,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "728",
+      "name": "Khawzawl",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 1088.25,
+      "veryDenseForest2023SqKm": 9.03,
+      "moderatelyDenseForest2023SqKm": 489.22,
+      "openForest2023SqKm": 324.92,
+      "forestCover2023SqKm": 823.17,
+      "forestCoverPercent2023": 75.64,
+      "forestCoverChangeSince2021SqKm": 12.89,
+      "scrub2023SqKm": 49.75,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "263",
+      "name": "Kolasib",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 1492.5,
+      "veryDenseForest2023SqKm": 1.32,
+      "moderatelyDenseForest2023SqKm": 636.15,
+      "openForest2023SqKm": 640.45,
+      "forestCover2023SqKm": 1277.92,
+      "forestCoverPercent2023": 85.62,
+      "forestCoverChangeSince2021SqKm": -37.58,
+      "scrub2023SqKm": 2.68,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "264",
+      "name": "Lawngtlai",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 2424.75,
+      "veryDenseForest2023SqKm": 78.44,
+      "moderatelyDenseForest2023SqKm": 781.73,
+      "openForest2023SqKm": 1081.75,
+      "forestCover2023SqKm": 1941.92,
+      "forestCoverPercent2023": 80.09,
+      "forestCoverChangeSince2021SqKm": 50.17,
+      "scrub2023SqKm": 25.51,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "265",
+      "name": "Lunglei",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 3685.25,
+      "veryDenseForest2023SqKm": 30.32,
+      "moderatelyDenseForest2023SqKm": 1263.7,
+      "openForest2023SqKm": 1964.41,
+      "forestCover2023SqKm": 3258.43,
+      "forestCoverPercent2023": 88.42,
+      "forestCoverChangeSince2021SqKm": -30.66,
+      "scrub2023SqKm": 27.77,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "266",
+      "name": "Mamit",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 3048.25,
+      "veryDenseForest2023SqKm": 50.07,
+      "moderatelyDenseForest2023SqKm": 1176.17,
+      "openForest2023SqKm": 1495.81,
+      "forestCover2023SqKm": 2722.05,
+      "forestCoverPercent2023": 89.3,
+      "forestCoverChangeSince2021SqKm": -21.96,
+      "scrub2023SqKm": 32.11,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "727",
+      "name": "Saitual",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 1651.25,
+      "veryDenseForest2023SqKm": 17.1,
+      "moderatelyDenseForest2023SqKm": 729.86,
+      "openForest2023SqKm": 612.81,
+      "forestCover2023SqKm": 1359.77,
+      "forestCoverPercent2023": 82.35,
+      "forestCoverChangeSince2021SqKm": -17.56,
+      "scrub2023SqKm": 60.92,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "268",
+      "name": "Serchhip",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 1443.75,
+      "veryDenseForest2023SqKm": 16.71,
+      "moderatelyDenseForest2023SqKm": 589.59,
+      "openForest2023SqKm": 603.07,
+      "forestCover2023SqKm": 1209.37,
+      "forestCoverPercent2023": 83.77,
+      "forestCoverChangeSince2021SqKm": 14.17,
+      "scrub2023SqKm": 10.18,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    },
+    {
+      "lgdCode": "267",
+      "name": "Siaha",
+      "stateName": "Mizoram",
+      "forestCoverCalculatedArea2023SqKm": 1529.5,
+      "veryDenseForest2023SqKm": 0.49,
+      "moderatelyDenseForest2023SqKm": 764.37,
+      "openForest2023SqKm": 623.24,
+      "forestCover2023SqKm": 1388.1,
+      "forestCoverPercent2023": 90.76,
+      "forestCoverChangeSince2021SqKm": 104.54,
+      "scrub2023SqKm": 10.87,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.18.3 (Mizoram)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.18, Table 10.18.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor."
+        }
+      ]
+    }
+  ]
+}

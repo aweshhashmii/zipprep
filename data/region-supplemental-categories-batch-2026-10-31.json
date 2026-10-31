@@ -10,6 +10,20 @@
       "sourceUrl": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
       "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019UttarPradeshForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Uttar Pradesh chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttar-pradesh.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.28; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "fsiISFR2019DadraNagarHaveliForestTypes",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Dadra and Nagar Haveli chapter",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-dadra-nagar-haveli.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.33; accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -22,6 +36,30 @@
       "sourceUrl": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
       "sourceId": "telanganaTourismBhuvanagiriHill2026",
       "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-uttar-pradesh-forest-types-2019",
+      "regionName": "Uttar Pradesh",
+      "category": "ecosystems",
+      "name": "Forest ecosystems of Uttar Pradesh",
+      "description": "The Forest Survey of India’s 2019 State of Forest Report classifies Uttar Pradesh’s forests into five Champion and Seth forest-type groups and 28 forest types. Reported types include Northern Dry Mixed Deciduous Forest, Anogeissus pendula Forest, Dry Siwalik Sal Forest, Western and Eastern Alluvial Plains Sal Forests, swamp forest and alluvial grassland. This is a forest-ecosystem profile, not a complete inventory of all state ecosystems.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttar-pradesh.pdf",
+      "sourceId": "fsiISFR2019UttarPradeshForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.28, especially section 11.28.3 and Table 11.28.9",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "ecosystem-dnh-forest-types-2019",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "ecosystems",
+      "name": "Forest ecosystems — Dadra and Nagar Haveli component",
+      "description": "The Forest Survey of India’s 2019 State of Forest Report identifies two forest-type groups in the former Dadra and Nagar Haveli Union Territory: Tropical Moist Deciduous Forests and Tropical Dry Deciduous Forests, represented by four forest types. The cited chapter covers Dadra and Nagar Haveli only, not the former Daman and Diu districts; this entry is scoped to that component of the present merged Union Territory.",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-dadra-nagar-haveli.pdf",
+      "sourceId": "fsiISFR2019DadraNagarHaveliForestTypes",
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.33, sections 11.33.1 and 11.33.3",
       "verificationStatus": "verified",
       "lastVerifiedAt": "2026-10-31"
     }

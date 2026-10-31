@@ -14512,6 +14512,90 @@
       "referenceDate": "West Bengal Tourism official destination profile accessed 31 October 2026",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1213",
+      "regionName": "Chhattisgarh",
+      "category": "plains",
+      "name": "Chhattisgarh Plain and Indravati River plains",
+      "description": "The Central Ground Water Board divides Chhattisgarh into the Bastar Plateau, central Chhattisgarh Plain and northern hills. It describes the central plain as a gently undulating structural plain across the Mahanadi basin and records lower river plains along the Indravati and Shabari.",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/16971949252005998141file.pdf",
+      "sourceId": "cgwbChhattisgarhPlains2022",
+      "referenceDate": "Central Ground Water Board geomorphology report, 2022",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1214",
+      "regionName": "Himachal Pradesh",
+      "category": "plains",
+      "name": "Kangra Valley and lower foothill plains",
+      "description": "The Himachal Pradesh State Agricultural Marketing Board's Kangra district profile documents the Kangra Valley, lower foothill plains around Nurpur, Indora and Fatehpur, and the Beas Basin as distinct physiographic and agricultural zones.",
+      "sourceUrl": "https://hpsamb.hp.gov.in/kangra_about",
+      "sourceId": "himachalKangraValley2026",
+      "referenceDate": "Official Himachal Pradesh Agricultural Marketing Board district profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1215",
+      "regionName": "Madhya Pradesh",
+      "category": "plains",
+      "name": "Narmada Valley lowlands",
+      "description": "The Khandwa District Administration identifies the Narmada Valley as one of the district's two major natural divisions, distinct from the Satpura ranges. The valley floor forms a lowland corridor across the western-central part of Madhya Pradesh.",
+      "sourceUrl": "https://khandwa.mp.gov.in/about-district/",
+      "sourceId": "mpNarmadaValley2026",
+      "referenceDate": "Official Khandwa District Administration profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1216",
+      "regionName": "Manipur",
+      "category": "plains",
+      "name": "Imphal Valley (central alluvial plain)",
+      "description": "The Government of Manipur describes the State as two physiographic regions: rugged outer hills and the inner flat plain. The Imphal Valley is an approximately 700-square-mile oval-shaped basin surrounded by mountains and filled with fluvio-lacustrine and alluvial sediments.",
+      "sourceUrl": "https://tpmanipur.mn.gov.in/en/home_content/profile-of-the-state/",
+      "sourceId": "manipurImphalPlain2026",
+      "referenceDate": "Official Manipur Government State Profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1217",
+      "regionName": "Nagaland",
+      "category": "plains",
+      "name": "Dimapur alluvial plains",
+      "description": "The Nagaland State Disaster Management Authority's State Disaster Management Plan describes a large part of Dimapur district as plains, with Dimapur town situated on a flat to gently undulating alluvial tract at an average elevation of approximately 260 metres.",
+      "sourceUrl": "https://nsdma.nagaland.gov.in/sites/default/files/2019-09/Nagaland%20State%20Disaster%20Management%20Plan.pdf",
+      "sourceId": "nagalandDimapurPlains2019",
+      "referenceDate": "Nagaland State Disaster Management Plan, 2019",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1218",
+      "regionName": "Uttarakhand",
+      "category": "plains",
+      "name": "Terai and Bhabar plains",
+      "description": "The Uttarakhand Biodiversity Board identifies the Terai and Bhabar as distinct lowland physiographic zones along the Shiwalik foothills, with the Terai extending across the lower parts of Nainital district and adjoining river plains.",
+      "sourceUrl": "https://sbb.uk.gov.in/about-department/about-uttarakhand/",
+      "sourceId": "uttarakhandTeraiBhabar2024",
+      "referenceDate": "Uttarakhand Biodiversity Board State profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1219",
+      "regionName": "Jammu and Kashmir",
+      "category": "plains",
+      "name": "Jammu plains, Kandi belt and Kashmir Valley floor",
+      "description": "NITI Aayog's 2026 Jammu and Kashmir horticulture roadmap describes the UT's physiography as mountainous and semi-mountainous plains (Kandi belt), Siwalik hills and the Kashmir Valley/Pir Panjal mountain zone. The Kashmir Valley floor is a broad intermontane plain.",
+      "sourceUrl": "https://www.niti.gov.in/node/2239",
+      "sourceId": "nitiJammuKashmirPlains2026",
+      "referenceDate": "NITI Aayog Roadmap for Horticulture Development in J&K, 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -16069,6 +16153,48 @@
       "title": "West Bengal Tourism — Changey Waterfall",
       "sourceUrl": "https://www.wbtourism.gov.in/topDestination/details1?id=63d7ed9ce4bbd858c2063384&template_id=1",
       "referenceDate": "Changey Waterfall, Kalimpong"
+    },
+    {
+      "sourceId": "cgwbChhattisgarhPlains2022",
+      "title": "Central Ground Water Board — Chhattisgarh geomorphology and physiography",
+      "sourceUrl": "https://www.cgwb.gov.in/cgwbpnm/public/uploads/documents/16971949252005998141file.pdf",
+      "referenceDate": "2022 report"
+    },
+    {
+      "sourceId": "himachalKangraValley2026",
+      "title": "Himachal Pradesh State Agricultural Marketing Board — Kangra District Profile",
+      "sourceUrl": "https://hpsamb.hp.gov.in/kangra_about",
+      "referenceDate": "Official district profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "mpNarmadaValley2026",
+      "title": "Khandwa District Administration — About the District",
+      "sourceUrl": "https://khandwa.mp.gov.in/about-district/",
+      "referenceDate": "Official district profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "manipurImphalPlain2026",
+      "title": "Government of Manipur — State Profile",
+      "sourceUrl": "https://tpmanipur.mn.gov.in/en/home_content/profile-of-the-state/",
+      "referenceDate": "Official State profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "nagalandDimapurPlains2019",
+      "title": "Nagaland State Disaster Management Authority — State Disaster Management Plan",
+      "sourceUrl": "https://nsdma.nagaland.gov.in/sites/default/files/2019-09/Nagaland%20State%20Disaster%20Management%20Plan.pdf",
+      "referenceDate": "2019"
+    },
+    {
+      "sourceId": "uttarakhandTeraiBhabar2024",
+      "title": "Uttarakhand Biodiversity Board — About Uttarakhand",
+      "sourceUrl": "https://sbb.uk.gov.in/about-department/about-uttarakhand/",
+      "referenceDate": "Official State profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "nitiJammuKashmirPlains2026",
+      "title": "NITI Aayog — Roadmap for Horticulture Development in Jammu and Kashmir",
+      "sourceUrl": "https://www.niti.gov.in/node/2239",
+      "referenceDate": "2026"
     }
   ]
 }

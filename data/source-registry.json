@@ -1195,6 +1195,21 @@
       "issuingAuthority": "Ministry of Statistics and Programme Implementation, Government of India",
       "cadence": "Refresh against the latest MoSPI EnviStats volume and its underlying IUCN Red List spatial analysis; keep the toolbox edition and mapping caveats explicit.",
       "note": "Species richness counts are spatially mapped records for selected taxa. They are not a complete biodiversity inventory or a threatened-species count. MoSPI cautions that count differences between editions may reflect changes in assessment and distribution knowledge as well as real changes."
+    },
+    {
+      "id": "motSwadeshDarshan2Destinations2024",
+      "name": "Ministry of Tourism — Annual Report 2023–24: Swadesh Darshan 2.0 notified destinations",
+      "url": "https://tourism.gov.in/sites/default/files/2025-02/MOT%20Annual%20Report_2023-24_English%20Final%20%281%29.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "57 tourism destinations selected/notified across 32 States/UTs under Swadesh Darshan 2.0"
+      ],
+      "referenceDate": "Annual Report 2023–24",
+      "issuingAuthority": "Ministry of Tourism, Government of India",
+      "cadence": "Refresh from the latest Ministry of Tourism Annual Report and Swadesh Darshan 2.0 notification lists; distinguish selected/notified destinations from sanctioned projects and completed works.",
+      "note": "This is a programme selection list, not a ranking or complete inventory of attractions. The report lists 57 destinations across 32 States/UTs."
     }
   ]
 }

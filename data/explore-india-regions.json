@@ -13638,7 +13638,17 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Tamenglong Orange",
+            "goodsCategory": "Agricultural",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],

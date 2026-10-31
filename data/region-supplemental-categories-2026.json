@@ -10807,6 +10807,306 @@
       "referenceDate": "CCRT performing arts profile updated July 2026",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-903",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "tourism",
+      "name": "South Andaman visitor destinations",
+      "description": "The South Andaman District Administration lists Cellular Jail, Ross Island, Chidiya Tapu and Wandoor among visitor destinations. This is a district-level selection within the wider Andaman and Nicobar Islands, not an exhaustive island-by-island inventory.",
+      "sourceUrl": "https://southandaman.nic.in/tourist-places/",
+      "sourceId": "andamanTourismSouthAndaman2026",
+      "referenceDate": "Official South Andaman district tourism page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-904",
+      "regionName": "West Bengal",
+      "category": "tourism",
+      "name": "West Bengal tourism destinations",
+      "description": "West Bengal Tourism highlights destinations including Darjeeling, the Sundarbans, the Dooars, Bishnupur and Kolkata; this is a selected State tourism profile.",
+      "sourceUrl": "https://wbtourism.gov.in/",
+      "sourceId": "westBengalTourismPortal2026",
+      "referenceDate": "Official West Bengal Tourism portal accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-905",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "tourism",
+      "name": "Dadra and Nagar Haveli tourism destinations",
+      "description": "The Dadra and Nagar Haveli district portal lists visitor sites including Silvassa, Dudhani and Vasona Lion Safari; this record covers the DNH portion of the combined Union Territory.",
+      "sourceUrl": "https://dnh.gov.in/tourist-places/",
+      "sourceId": "dnhTourismDestinations2026",
+      "referenceDate": "Official Dadra and Nagar Haveli district tourism page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-906",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "tourism",
+      "name": "Daman and Diu tourism destinations",
+      "description": "The Daman and Diu district tourism portals list coastal and heritage destinations including Daman Fort, Jampore Beach, Diu Fort and Naida Caves; this complements the DNH district profile for the combined Union Territory.",
+      "sourceUrl": "https://diu.gov.in/tourist-places/",
+      "sourceId": "damanDiuTourismDestinations2026",
+      "referenceDate": "Official Diu district tourism page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-907",
+      "regionName": "Delhi",
+      "category": "tourism",
+      "name": "Delhi tourism destinations",
+      "description": "Delhi Tourism's official destination directory covers major heritage and visitor sites including the Red Fort, Qutub Minar, Humayun's Tomb, Jama Masjid and other city attractions.",
+      "sourceUrl": "https://delhitourism.gov.in/tourist_place/",
+      "sourceId": "delhiTourismPortal2026",
+      "referenceDate": "Official Delhi Tourism destination directory accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-908",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "environmentalChallenges",
+      "name": "Coral bleaching and marine ecosystem stress",
+      "description": "The Ministry of Earth Sciences' 4 December 2024 report records small-scale coral bleaching in the Andaman region, especially South Andaman, associated with elevated sea-surface temperature during the El Niño event.",
+      "sourceUrl": "https://moes.gov.in/sites/default/files/LS-English-1554-04-12-2024.pdf",
+      "sourceId": "andamanCoralBleachingMoES2024",
+      "referenceDate": "Ministry of Earth Sciences, Lok Sabha answer, 4 December 2024",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-909",
+      "regionName": "Chandigarh",
+      "category": "environmentalChallenges",
+      "name": "Urban heat, air quality and waste-management pressures",
+      "description": "Chandigarh's 2026 Environment Department report addresses urban heat-island effects, air quality, waste and water management and climate adaptation as environmental management priorities for the Union Territory.",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/Updation26/env26-dep2026-1901.pdf",
+      "sourceId": "chandigarhEnvironmentReport2026",
+      "referenceDate": "Chandigarh Environment Department report, 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-910",
+      "regionName": "Ladakh",
+      "category": "environmentalChallenges",
+      "name": "Cold-desert climate and water-security risks",
+      "description": "MoEFCC's Ladakh SAPCC profile describes warming, changes in snowfall and snow cover, glacier-related concerns, pressure on water availability, fragile mountain ecosystems and the risk of localised cloudburst flash floods.",
+      "sourceUrl": "https://napccindia.moef.gov.in/sapcc/state/ladakh",
+      "sourceId": "ladakhSAPCC2026",
+      "referenceDate": "MoEFCC NAPCC Dashboard — Ladakh SAPCC profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-911",
+      "regionName": "Lakshadweep",
+      "category": "environmentalChallenges",
+      "name": "Coral bleaching and fragile coastal ecosystems",
+      "description": "The Ministry of Earth Sciences' 4 December 2024 report records widespread coral bleaching in Lakshadweep associated with elevated sea-surface temperature during the El Niño event. The UT Environment Department identifies coral reefs and coastal habitats as sensitive ecosystems requiring monitoring and restoration.",
+      "sourceUrl": "https://moes.gov.in/sites/default/files/LS-English-1554-04-12-2024.pdf",
+      "sourceId": "lakshadweepCoralBleachingMoES2024",
+      "referenceDate": "Ministry of Earth Sciences, Lok Sabha answer, 4 December 2024",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-912",
+      "regionName": "Lakshadweep",
+      "category": "floraFauna",
+      "name": "Coral-reef and marine biodiversity",
+      "description": "The Lakshadweep Environment and Forest Department identifies coral reefs, marine life, sea turtles, humpback whales, the Dr. Salim Ali Pitti Bird Sanctuary, marine wildlife reserves and medicinal-plant conservation as priorities for the islands' biodiversity.",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-environment-and-forest/",
+      "sourceId": "lakshadweepMarineBiodiversity2025",
+      "referenceDate": "Lakshadweep Administration Environment and Forest Department profile, updated 6 August 2025",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-913",
+      "regionName": "Lakshadweep",
+      "category": "crops",
+      "name": "Coconut and backyard horticulture",
+      "description": "The Lakshadweep Agriculture Department prioritises coconut cultivation and organic household/backyard vegetable production. Its Nutri Garden scheme distributes vegetable and fruit planting material including tomato, brinjal, chilli, sapota, mango and guava.",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "sourceId": "lakshadweepAgricultureDepartment2025",
+      "referenceDate": "Lakshadweep Administration Agriculture Department profile, updated 6 August 2025",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-914",
+      "regionName": "Chhattisgarh",
+      "category": "soilTypes",
+      "name": "Red-yellow, alluvial, laterite and medium-black soils",
+      "description": "The Surguja District Administration identifies red and yellow soils, alluvial soils, laterite soils and medium-blue/black soils in northern Chhattisgarh. The cited profile is district-specific and should not be read as a statewide percentage distribution.",
+      "sourceUrl": "https://surguja.gov.in/en/physical-resources/",
+      "sourceId": "cgwbSurgujaSoils2026",
+      "referenceDate": "Surguja District Administration physical-resources profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-915",
+      "regionName": "Telangana",
+      "category": "soilTypes",
+      "name": "Red, black, alluvial and lateritic soils",
+      "description": "Telangana's Statistical Abstract 2021 identifies red soils (including chalkas and dubbas), shallow and deep black soils, alluvial soils and lateritic soils, with zone-wise variation across Northern, Central and Southern Telangana.",
+      "sourceUrl": "https://telangana.gov.in/wp-content/uploads/2023/05/Telangana-Statistical-Abstract-2021.pdf",
+      "sourceId": "telanganaStatisticalAbstract2021",
+      "referenceDate": "Telangana Statistical Abstract 2021",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-916",
+      "regionName": "Uttarakhand",
+      "category": "soilTypes",
+      "name": "Alluvial, Shivalik, temperate black and inner-valley soils",
+      "description": "Uttarakhand's State Action Plan on Climate Change describes deep alluvial soils in the Tarai and Doon, thin fragile soils in the Shivaliks, black soils in temperate zones and arid soils in inner valleys; NBSS&LUP texture classes include sandy loam, clay loam, fine silt and loamy skeletal soils.",
+      "sourceUrl": "https://moef.gov.in/uploads/2017/08/Uttarakhand-SAPCC.pdf",
+      "sourceId": "uttarakhandSoilProfile2024",
+      "referenceDate": "Uttarakhand State Action Plan on Climate Change",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-917",
+      "regionName": "Chandigarh",
+      "category": "soilTypes",
+      "name": "Siwalik piedmont and Indo-Gangetic alluvial soils",
+      "description": "The Central Ground Water Board's 2025 Chandigarh report describes Siwalik formations at the north-eastern fringe, piedmont deposits of cobbles, pebbles and boulders, and the alluvial plain's clay, silt and sand deposits.",
+      "sourceUrl": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/17435849901170193873file.pdf",
+      "sourceId": "chandigarhCGWBSoil2025",
+      "referenceDate": "Central Ground Water Board, Chandigarh groundwater report, 2025",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-918",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "soilTypes",
+      "name": "Lateritic and black soils in Dadra and Nagar Haveli",
+      "description": "The Central Ground Water Board's Dadra and Nagar Haveli district profile identifies lateritic soil, shallow black-cotton soil and deep black-cotton soil. This entry covers the Dadra and Nagar Haveli portion of the combined Union Territory.",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/District_Profile/Dadra%20Nagar%20Haveli/Dadra%20Nagar%20Haveli.pdf",
+      "sourceId": "cgwbDNHSoils2013",
+      "referenceDate": "Central Ground Water Board district profile, 2013",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-919",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "soilTypes",
+      "name": "Basalt, alluvial and coastal soils in Daman and Diu",
+      "description": "The Central Ground Water Board's 2023–24 Union Territory yearbook describes basalt basement, river alluvium and coastal deposits in Daman, and miliolite limestone and stabilised sand dunes in Diu. The profile distinguishes the two coastal districts from the DNH lateritic/black-soil terrain.",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/DNH%20%26%20DD_GWYB%202023-24.pdf",
+      "sourceId": "cgwbDamanDiuSoils2024",
+      "referenceDate": "Central Ground Water Board, UT of Dadra and Nagar Haveli, Daman and Diu Year Book 2023–24",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-920",
+      "regionName": "Ladakh",
+      "category": "soilTypes",
+      "name": "Cold-desert Entisols and Inceptisols",
+      "description": "ICAR-NBSS&LUP's Leh soil-resource mapping identifies Entisols and Inceptisols, with occasional Alfisols; mountain and glacier-derived terrain includes shallow skeletal Lithic Cryorthents, while valley soils range from sandy loam to loam and clay loam.",
+      "sourceUrl": "https://icar-nbsslup.org.in/wp-content/uploads/2021/10/Annual_Report/NBSSLUP_AR2020.pdf",
+      "sourceId": "icarLadakhSoils2020",
+      "referenceDate": "ICAR-NBSS&LUP Annual Report 2020, Leh soil-resource mapping",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-921",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "religiousHeritage",
+      "name": "Shree Mahadev Temple, South Andaman",
+      "description": "The South Andaman District Administration lists the Shree Mahadev Temple Committee as an official public institution associated with a place of worship in the district.",
+      "sourceUrl": "https://southandaman.nic.in/document/shree-mahadev-temple-committee/",
+      "sourceId": "andamanReligiousTemple2026",
+      "referenceDate": "Official South Andaman district record accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-922",
+      "regionName": "Chandigarh",
+      "category": "religiousHeritage",
+      "name": "Temples, gurdwaras, churches and mosques",
+      "description": "Chandigarh Administration's social-infrastructure report records places of worship across the Union Territory, including temples, gurdwaras, churches and mosques. This is an institutional inventory rather than a claim that every listed site is an ancient monument.",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/Updation26/chd_social_infra.pdf",
+      "sourceId": "chandigarhReligiousSites2026",
+      "referenceDate": "Chandigarh Administration social-infrastructure report, 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-923",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "religiousHeritage",
+      "name": "Church of Our Lady of Piety, Daman",
+      "description": "The Dadra and Nagar Haveli and Daman and Diu Administration's tourism/heritage listing identifies the Church of Our Lady of Piety as a historic religious site in Daman.",
+      "sourceUrl": "https://dnh.gov.in/tourist-place/heritage-site-the-church-of-our-lady-of-piety/",
+      "sourceId": "dnhChurchPiety2026",
+      "referenceDate": "Official UT/district heritage listing accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-924",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "religiousHeritage",
+      "name": "St Paul's Church and Diu religious heritage",
+      "description": "The Diu District Administration's official tourist-place directory records Diu Fort and historic churches, including St Paul's Church, as heritage attractions on Diu Island.",
+      "sourceUrl": "https://diu.gov.in/tourist-places/",
+      "sourceId": "diuReligiousHeritage2026",
+      "referenceDate": "Official Diu district tourist-place directory accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-925",
+      "regionName": "Delhi",
+      "category": "religiousHeritage",
+      "name": "Delhi's multi-faith heritage circuit",
+      "description": "Delhi Tourism's faith itinerary documents major places of worship and religious heritage, including Jama Masjid, Gurudwara Bangla Sahib, Lotus Temple and other Hindu, Sikh, Muslim, Christian and Baháʼí sites.",
+      "sourceUrl": "https://delhitourism.gov.in/faith_itinerary.html",
+      "sourceId": "delhiFaithItinerary2026",
+      "referenceDate": "Delhi Tourism faith itinerary accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-926",
+      "regionName": "Lakshadweep",
+      "category": "religiousHeritage",
+      "name": "Ujra Mosque and Kavaratti religious heritage",
+      "description": "The Lakshadweep Administration's Kavaratti island profile identifies Ujra Mosque among the island's heritage attractions and places of worship.",
+      "sourceUrl": "https://lakshadweep.gov.in/tourist-place/kavaratti/",
+      "sourceId": "lakshadweepUjraMosque2026",
+      "referenceDate": "Lakshadweep Administration Kavaratti island profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-927",
+      "regionName": "Puducherry",
+      "category": "religiousHeritage",
+      "name": "Manakula Vinayagar Temple and historic churches",
+      "description": "The Puducherry Planning Authority's official tourism and heritage material identifies Manakula Vinayagar Temple and the Basilica of the Sacred Heart of Jesus among the Union Territory's prominent religious heritage sites.",
+      "sourceUrl": "https://ppa.py.gov.in/",
+      "sourceId": "puducherryReligiousHeritage2026",
+      "referenceDate": "Puducherry Planning Authority official profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -11512,6 +11812,156 @@
       "title": "NCERT — Rajasthan profile: Kathak and Jaipur gharana",
       "sourceUrl": "https://www.ncert.nic.in/pdf/publication/otherpublications/Unity_cultural.pdf",
       "referenceDate": "NCERT India: Unity in Cultural Diversity, February 2018"
+    },
+    {
+      "sourceId": "andamanTourismSouthAndaman2026",
+      "title": "andamanTourismSouthAndaman2026",
+      "sourceUrl": "https://southandaman.nic.in/tourist-places/",
+      "referenceDate": "Official South Andaman district tourism page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "westBengalTourismPortal2026",
+      "title": "westBengalTourismPortal2026",
+      "sourceUrl": "https://wbtourism.gov.in/",
+      "referenceDate": "Official West Bengal Tourism portal accessed 31 October 2026"
+    },
+    {
+      "sourceId": "dnhTourismDestinations2026",
+      "title": "dnhTourismDestinations2026",
+      "sourceUrl": "https://dnh.gov.in/tourist-places/",
+      "referenceDate": "Official Dadra and Nagar Haveli district tourism page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "damanDiuTourismDestinations2026",
+      "title": "damanDiuTourismDestinations2026",
+      "sourceUrl": "https://diu.gov.in/tourist-places/",
+      "referenceDate": "Official Diu district tourism page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "delhiTourismPortal2026",
+      "title": "delhiTourismPortal2026",
+      "sourceUrl": "https://delhitourism.gov.in/tourist_place/",
+      "referenceDate": "Official Delhi Tourism destination directory accessed 31 October 2026"
+    },
+    {
+      "sourceId": "andamanCoralBleachingMoES2024",
+      "title": "andamanCoralBleachingMoES2024",
+      "sourceUrl": "https://moes.gov.in/sites/default/files/LS-English-1554-04-12-2024.pdf",
+      "referenceDate": "Ministry of Earth Sciences, Lok Sabha answer, 4 December 2024"
+    },
+    {
+      "sourceId": "chandigarhEnvironmentReport2026",
+      "title": "chandigarhEnvironmentReport2026",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/Updation26/env26-dep2026-1901.pdf",
+      "referenceDate": "Chandigarh Environment Department report, 2026"
+    },
+    {
+      "sourceId": "ladakhSAPCC2026",
+      "title": "ladakhSAPCC2026",
+      "sourceUrl": "https://napccindia.moef.gov.in/sapcc/state/ladakh",
+      "referenceDate": "MoEFCC NAPCC Dashboard — Ladakh SAPCC profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "lakshadweepCoralBleachingMoES2024",
+      "title": "lakshadweepCoralBleachingMoES2024",
+      "sourceUrl": "https://moes.gov.in/sites/default/files/LS-English-1554-04-12-2024.pdf",
+      "referenceDate": "Ministry of Earth Sciences, Lok Sabha answer, 4 December 2024"
+    },
+    {
+      "sourceId": "lakshadweepMarineBiodiversity2025",
+      "title": "lakshadweepMarineBiodiversity2025",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-environment-and-forest/",
+      "referenceDate": "Lakshadweep Administration Environment and Forest Department profile, updated 6 August 2025"
+    },
+    {
+      "sourceId": "lakshadweepAgricultureDepartment2025",
+      "title": "lakshadweepAgricultureDepartment2025",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "referenceDate": "Lakshadweep Administration Agriculture Department profile, updated 6 August 2025"
+    },
+    {
+      "sourceId": "cgwbSurgujaSoils2026",
+      "title": "cgwbSurgujaSoils2026",
+      "sourceUrl": "https://surguja.gov.in/en/physical-resources/",
+      "referenceDate": "Surguja District Administration physical-resources profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "telanganaStatisticalAbstract2021",
+      "title": "telanganaStatisticalAbstract2021",
+      "sourceUrl": "https://telangana.gov.in/wp-content/uploads/2023/05/Telangana-Statistical-Abstract-2021.pdf",
+      "referenceDate": "Telangana Statistical Abstract 2021"
+    },
+    {
+      "sourceId": "uttarakhandSoilProfile2024",
+      "title": "uttarakhandSoilProfile2024",
+      "sourceUrl": "https://moef.gov.in/uploads/2017/08/Uttarakhand-SAPCC.pdf",
+      "referenceDate": "Uttarakhand State Action Plan on Climate Change"
+    },
+    {
+      "sourceId": "chandigarhCGWBSoil2025",
+      "title": "chandigarhCGWBSoil2025",
+      "sourceUrl": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/17435849901170193873file.pdf",
+      "referenceDate": "Central Ground Water Board, Chandigarh groundwater report, 2025"
+    },
+    {
+      "sourceId": "cgwbDNHSoils2013",
+      "title": "cgwbDNHSoils2013",
+      "sourceUrl": "https://www.cgwb.gov.in/old_website/District_Profile/Dadra%20Nagar%20Haveli/Dadra%20Nagar%20Haveli.pdf",
+      "referenceDate": "Central Ground Water Board district profile, 2013"
+    },
+    {
+      "sourceId": "cgwbDamanDiuSoils2024",
+      "title": "cgwbDamanDiuSoils2024",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/DNH%20%26%20DD_GWYB%202023-24.pdf",
+      "referenceDate": "Central Ground Water Board, UT of Dadra and Nagar Haveli, Daman and Diu Year Book 2023–24"
+    },
+    {
+      "sourceId": "icarLadakhSoils2020",
+      "title": "icarLadakhSoils2020",
+      "sourceUrl": "https://icar-nbsslup.org.in/wp-content/uploads/2021/10/Annual_Report/NBSSLUP_AR2020.pdf",
+      "referenceDate": "ICAR-NBSS&LUP Annual Report 2020, Leh soil-resource mapping"
+    },
+    {
+      "sourceId": "andamanReligiousTemple2026",
+      "title": "andamanReligiousTemple2026",
+      "sourceUrl": "https://southandaman.nic.in/document/shree-mahadev-temple-committee/",
+      "referenceDate": "Official South Andaman district record accessed 31 October 2026"
+    },
+    {
+      "sourceId": "chandigarhReligiousSites2026",
+      "title": "chandigarhReligiousSites2026",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/Updation26/chd_social_infra.pdf",
+      "referenceDate": "Chandigarh Administration social-infrastructure report, 2026"
+    },
+    {
+      "sourceId": "dnhChurchPiety2026",
+      "title": "dnhChurchPiety2026",
+      "sourceUrl": "https://dnh.gov.in/tourist-place/heritage-site-the-church-of-our-lady-of-piety/",
+      "referenceDate": "Official UT/district heritage listing accessed 31 October 2026"
+    },
+    {
+      "sourceId": "diuReligiousHeritage2026",
+      "title": "diuReligiousHeritage2026",
+      "sourceUrl": "https://diu.gov.in/tourist-places/",
+      "referenceDate": "Official Diu district tourist-place directory accessed 31 October 2026"
+    },
+    {
+      "sourceId": "delhiFaithItinerary2026",
+      "title": "delhiFaithItinerary2026",
+      "sourceUrl": "https://delhitourism.gov.in/faith_itinerary.html",
+      "referenceDate": "Delhi Tourism faith itinerary accessed 31 October 2026"
+    },
+    {
+      "sourceId": "lakshadweepUjraMosque2026",
+      "title": "lakshadweepUjraMosque2026",
+      "sourceUrl": "https://lakshadweep.gov.in/tourist-place/kavaratti/",
+      "referenceDate": "Lakshadweep Administration Kavaratti island profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "puducherryReligiousHeritage2026",
+      "title": "puducherryReligiousHeritage2026",
+      "sourceUrl": "https://ppa.py.gov.in/",
+      "referenceDate": "Puducherry Planning Authority official profile accessed 31 October 2026"
     }
   ]
 }

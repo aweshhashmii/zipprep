@@ -10853,6 +10853,776 @@
           "note": "Historical satellite-assessed forest cover for the 2019 report-era 18-district Chhattisgarh. The current state has since added districts; exact-name matches refer to historical report units and may not share current boundaries. Percentages use report-era district geographical area. Koriya/Korea and Rajnanadgaon/Rajnandgaon spelling mismatches are deliberately not mapped."
         }
       ]
+    },
+    {
+      "lgdCode": "616",
+      "name": "Baksa",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 559.67,
+      "forestCoverPercent2019": 22.78,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "280",
+      "name": "Barpeta",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 115.18,
+      "forestCoverPercent2019": 5.05,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "281",
+      "name": "Bongaigaon",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 250.13,
+      "forestCoverPercent2019": 22.88,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "282",
+      "name": "Cachar",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 2222.34,
+      "forestCoverPercent2019": 58.7,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "612",
+      "name": "Chirang",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 699.84,
+      "forestCoverPercent2019": 36.39,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "283",
+      "name": "Darrang",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 89.43,
+      "forestCoverPercent2019": 5.64,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "284",
+      "name": "Dhemaji",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 344.8,
+      "forestCoverPercent2019": 10.65,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "285",
+      "name": "Dhubri",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 98.46,
+      "forestCoverPercent2019": 4.52,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "286",
+      "name": "Dibrugarh",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 755.23,
+      "forestCoverPercent2019": 22.34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "299",
+      "name": "Dima Hasao",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 4206.93,
+      "forestCoverPercent2019": 86.07,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "287",
+      "name": "Goalpara",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 395.74,
+      "forestCoverPercent2019": 21.7,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "288",
+      "name": "Golaghat",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 669.91,
+      "forestCoverPercent2019": 19.12,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "289",
+      "name": "Hailakandi",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 774.34,
+      "forestCoverPercent2019": 58.35,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "290",
+      "name": "Jorhat",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 560.1,
+      "forestCoverPercent2019": 19.65,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "291",
+      "name": "Kamrup",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 963.47,
+      "forestCoverPercent2019": 31.03,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "292",
+      "name": "Karbi Anglong",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 7889.18,
+      "forestCoverPercent2019": 75.61,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "294",
+      "name": "Kokrajhar",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 1166.57,
+      "forestCoverPercent2019": 35.39,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "295",
+      "name": "Lakhimpur",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 306.57,
+      "forestCoverPercent2019": 13.46,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "298",
+      "name": "Nalbari",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 107.11,
+      "forestCoverPercent2019": 10.18,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "301",
+      "name": "Sonitpur",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 1069.61,
+      "forestCoverPercent2019": 20.55,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "302",
+      "name": "Tinsukia",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 1582.57,
+      "forestCoverPercent2019": 41.76,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "617",
+      "name": "Udalguri",
+      "stateName": "Assam",
+      "forestCover2019SqKm": 412.52,
+      "forestCoverPercent2019": 20.5,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AssamDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+        }
+      ]
     }
   ],
   "sources": [
@@ -10903,6 +11673,14 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.5.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover for the 2019 report-era 18-district Chhattisgarh. The current state has since added districts; exact-name matches refer to historical report units and may not share current boundaries. Percentages use report-era district geographical area. Koriya/Korea and Rajnanadgaon/Rajnandgaon spelling mismatches are deliberately not mapped."
+    },
+    {
+      "sourceId": "fsiISFR2019AssamDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Assam chapter, Table 11.3.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-assam.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
     }
   ]
 }

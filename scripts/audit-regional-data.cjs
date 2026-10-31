@@ -309,4 +309,4 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
 }
 console.log(JSON.stringify(report, null, 2));
-if (errors.length) process.exit(1);
+if (errors.length) { console.error('Regional audit errors:', errors.join(' | ')); process.exitCode = 1; }

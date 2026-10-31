@@ -146,8 +146,11 @@ const coverage = {};
 for (const [group, keys] of Object.entries(categoryGroups)) {
   coverage[group] = {};
   for (const key of keys) {
-    const regionsWithData = regions.filter(r => list((r.geography || {})[key]).length > 0).length;
-    const recordCount = regions.reduce((sum,r) => sum + list((r.geography || {})[key]).length, 0);
+    const categoryRecords = (region) => key === 'languages' && !list((region.geography || {})[key]).length
+      ? list(region.officialLanguages)
+      : list((region.geography || {})[key]);
+    const regionsWithData = regions.filter(r => categoryRecords(r).length > 0).length;
+    const recordCount = regions.reduce((sum,r) => sum + categoryRecords(r).length, 0);
     coverage[group][key] = { regionsWithData, recordCount };
   }
 }

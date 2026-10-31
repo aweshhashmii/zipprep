@@ -1375,6 +1375,19 @@
       ],
       "referenceDate": "Inventory accessed 31 October 2026",
       "cadence": "Review when the Akademi updates its ICH inventory."
+    },
+    {
+      "id": "icarCiaeSoilGroups2021",
+      "name": "ICAR-Central Institute of Agricultural Engineering — Agricultural Engineering Data Book 2021, Table 3.1",
+      "url": "https://ciae.res.in/assets/publication/books/Chapter%203.pdf",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Major soil groups reported as present in each listed State/UT"
+      ],
+      "referenceDate": "2021 publication; underlying NBSS&LUP mapping sources from 2009 and 2013",
+      "cadence": "Refresh when ICAR/NBSS&LUP publishes updated state-wise soil resource mapping."
     }
   ]
 }

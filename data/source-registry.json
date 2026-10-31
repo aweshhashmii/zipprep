@@ -464,6 +464,35 @@
       "referenceYear": "2024–2026",
       "cadence": "Recheck against the relevant UT administration portal when profile information changes",
       "note": "The record-level sourceUrl points to the specific UT portal or official document used for each territory."
+    },
+    {
+      "id": "moefccBiosphereReserves2023",
+      "name": "MoEFCC — Biosphere Reserves in India (national list, December 2023)",
+      "url": "https://www.moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "18 nationally designated Biosphere Reserves",
+        "Designation years, states, locations and areas",
+        "UNESCO World Network inclusion years"
+      ],
+      "referenceYear": "December 2023",
+      "cadence": "Recheck against the Ministry's latest official register or atlas before revising designation status."
+    },
+    {
+      "id": "moefccElephantReserveAtlas2023",
+      "name": "MoEFCC — Elephant Reserves of India Atlas",
+      "url": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Reserve-of-India-an-atlas.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Designated Elephant Reserve names and state/UT",
+        "Total reserve areas and protected-area area within each reserve"
+      ],
+      "referenceYear": "2023",
+      "cadence": "Recheck against the Ministry's latest official register or atlas before revising designation status."
     }
   ]
 }

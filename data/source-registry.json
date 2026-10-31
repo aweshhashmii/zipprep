@@ -447,6 +447,23 @@
       ],
       "referenceYear": "2024-25 (1st Advance Estimate)",
       "cadence": "Annual; preserve advance-estimate status and replace with final estimates when released"
+    },
+    {
+      "id": "officialUtGeography2026",
+      "name": "Official Union Territory administration portals — geographic profiles and administrative descriptions",
+      "url": "https://andamannicobar.gov.in/about",
+      "tabs": [
+        "geography",
+        "profile"
+      ],
+      "fields": [
+        "Geographical setting",
+        "Island groups and inhabited-island summaries",
+        "Physiographic regions and geographic features"
+      ],
+      "referenceYear": "2024–2026",
+      "cadence": "Recheck against the relevant UT administration portal when profile information changes",
+      "note": "The record-level sourceUrl points to the specific UT portal or official document used for each territory."
     }
   ]
 }

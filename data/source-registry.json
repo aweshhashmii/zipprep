@@ -3819,6 +3819,45 @@
       ],
       "referenceDate": "Official government source accessed 31 October 2026",
       "cadence": "Review against updated Smart Cities Mission and State/UT industry department data."
+    },
+    {
+      "id": "mhaCoastalStatesUTs2022",
+      "name": "Ministry of Home Affairs — Annual Report 2020–21: Coastal States and UTs",
+      "url": "https://www.mha.gov.in/web/sites/default/files/MHAARE_22042022%5B1%5D.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Official list of coastal States and Union Territories"
+      ],
+      "referenceDate": "Official government source; see source publication date",
+      "cadence": "Review against the latest WII/MoEFCC protected-area notifications and coastal-State list."
+    },
+    {
+      "id": "wiiMarineProtectedAreas2024",
+      "name": "Wildlife Institute of India / MoEFCC — Coastal and Marine Protected Areas in India",
+      "url": "https://wiienvis.nic.in/WriteReadData/Publication/17_Coastal%20Marine.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "National marine protected area inventory"
+      ],
+      "referenceDate": "Official government source; see source publication date",
+      "cadence": "Review against the latest WII/MoEFCC protected-area notifications and coastal-State list."
+    },
+    {
+      "id": "moefStateEnvironmentReport2015",
+      "name": "MoEFCC — State of Environment Report 2015: Marine Protected Areas",
+      "url": "https://moef.gov.in/uploads/2019/09/Final-SoER-2015-India-.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Marine protected areas in Andaman and Nicobar Islands and Lakshadweep"
+      ],
+      "referenceDate": "Official government source; see source publication date",
+      "cadence": "Review against the latest WII/MoEFCC protected-area notifications and coastal-State list."
     }
   ]
 }

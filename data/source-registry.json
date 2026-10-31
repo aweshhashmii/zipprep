@@ -1081,6 +1081,24 @@
         "Sela Pass location and elevation in the State Gazetteer"
       ],
       "cadence": "Historical gazetteer geography reference; preserve the published measurement and reconcile only against a newer official survey."
+    },
+    {
+      "id": "mhaFreedomFighters75Districts2022",
+      "name": "Ministry of Home Affairs / PIB — Annexure I: 75 Districts with Corresponding Freedom Fighters",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/apr/doc202242850701.pdf",
+      "tabs": [
+        "history",
+        "heritage"
+      ],
+      "fields": [
+        "75 district-level freedom struggle associations",
+        "Freedom fighter names associated with each listed district",
+        "State/UT and district associations"
+      ],
+      "referenceDate": "2022-04",
+      "issuingAuthority": "Ministry of Home Affairs, Government of India; Press Information Bureau",
+      "cadence": "Use as a dated district-level reference and supplement with the Ministry of Culture/ICHR Dictionary of Martyrs and Digital District Repository. Do not treat the 75-district list as exhaustive.",
+      "note": "The annexure identifies 75 districts and corresponding freedom fighters. It is a curated list, not a complete list of freedom fighters in India. Name spellings are retained or normalized conservatively; descriptions do not infer biographies beyond the source association."
     }
   ]
 }

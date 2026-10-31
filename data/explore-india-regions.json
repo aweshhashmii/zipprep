@@ -509,6 +509,12 @@
       "name": "Ministry of Civil Aviation — State/UT-wise list of 162 operational airports (31 July 2025)",
       "url": "https://www.civilaviation.gov.in/sites/default/files/2025-08/1870%20E.pdf",
       "note": "162 operational airports/facilities listed in Lok Sabha reply dated 31 July 2025; H=heliport, WA=water aerodrome, CE=civil enclave. Diu mapped to the present merged DNH and Daman & Diu UT."
+    },
+    {
+      "id": "morthStatewiseNationalHighways2024",
+      "name": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+      "url": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+      "note": "Appendix 2 lists state/UT-wise NH numbers, counts and lengths as at 31 December 2024. The national total is 670 distinct NHs and 146,195 km; state-level NH listings are not additive because highways traverse multiple states. DNH and Daman & Diu rows are combined for the current merged UT; Lakshadweep is not listed."
     }
   ],
   "regions": [
@@ -2381,6 +2387,24 @@
             "verificationStatus": "verified",
             "description": "VISAKHAPATNAM is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-AP-NH-NETWORK-2024",
+            "regionId": "IN-AP",
+            "category": "highways",
+            "name": "National Highway network — 55 NH listings, 8,683 km",
+            "officialName": "Andhra Pradesh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 55,
+            "totalLengthKm": 8683,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 55 state/UT-wise National Highway listings with a combined length of 8,683 km for Andhra Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -3518,6 +3542,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "ZIRO is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-AR-NH-NETWORK-2024",
+            "regionId": "IN-AR",
+            "category": "highways",
+            "name": "National Highway network — 14 NH listings, 4,367 km",
+            "officialName": "Arunachal Pradesh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 14,
+            "totalLengthKm": 4367,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 14 state/UT-wise National Highway listings with a combined length of 4,367 km for Arunachal Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -5063,6 +5105,24 @@
             "verificationStatus": "verified",
             "description": "TEZPUR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-AS-NH-NETWORK-2024",
+            "regionId": "IN-AS",
+            "category": "highways",
+            "name": "National Highway network — 38 NH listings, 4,077 km",
+            "officialName": "Assam: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 38,
+            "totalLengthKm": 4077,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 38 state/UT-wise National Highway listings with a combined length of 4,077 km for Assam as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
@@ -6278,6 +6338,24 @@
             "verificationStatus": "verified",
             "description": "PATNA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-BR-NH-NETWORK-2024",
+            "regionId": "IN-BR",
+            "category": "highways",
+            "name": "National Highway network — 56 NH listings, 6,132 km",
+            "officialName": "Bihar: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 56,
+            "totalLengthKm": 6132,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 56 state/UT-wise National Highway listings with a combined length of 6,132 km for Bihar as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Patna High Court — Patna"
@@ -7182,6 +7260,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "RAIPUR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-CT-NH-NETWORK-2024",
+            "regionId": "IN-CT",
+            "category": "highways",
+            "name": "National Highway network — 20 NH listings, 3,620 km",
+            "officialName": "Chhattisgarh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 20,
+            "totalLengthKm": 3620,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 20 state/UT-wise National Highway listings with a combined length of 3,620 km for Chhattisgarh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -8203,6 +8299,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "MOPA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-GA-NH-NETWORK-2024",
+            "regionId": "IN-GA",
+            "category": "highways",
+            "name": "National Highway network — 6 NH listings, 299 km",
+            "officialName": "Goa: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 6,
+            "totalLengthKm": 299,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 6 state/UT-wise National Highway listings with a combined length of 299 km for Goa as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -10416,6 +10530,24 @@
             "verificationStatus": "verified",
             "description": "VADODARA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-GJ-NH-NETWORK-2024",
+            "regionId": "IN-GJ",
+            "category": "highways",
+            "name": "National Highway network — 45 NH listings, 8,111 km",
+            "officialName": "Gujarat: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 45,
+            "totalLengthKm": 8111,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 45 state/UT-wise National Highway listings with a combined length of 8,111 km for Gujarat as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -11416,6 +11548,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "HISAR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-HR-NH-NETWORK-2024",
+            "regionId": "IN-HR",
+            "category": "highways",
+            "name": "National Highway network — 39 NH listings, 3,347 km",
+            "officialName": "Haryana: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 39,
+            "totalLengthKm": 3347,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 39 state/UT-wise National Highway listings with a combined length of 3,347 km for Haryana as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -13002,6 +13152,24 @@
             "verificationStatus": "verified",
             "description": "SHIMLA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-HP-NH-NETWORK-2024",
+            "regionId": "IN-HP",
+            "category": "highways",
+            "name": "National Highway network — 19 NH listings, 2,607 km",
+            "officialName": "Himachal Pradesh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 19,
+            "totalLengthKm": 2607,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 19 state/UT-wise National Highway listings with a combined length of 2,607 km for Himachal Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
@@ -14257,6 +14425,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "RANCHI is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-JH-NH-NETWORK-2024",
+            "regionId": "IN-JH",
+            "category": "highways",
+            "name": "National Highway network — 32 NH listings, 3,633 km",
+            "officialName": "Jharkhand: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 32,
+            "totalLengthKm": 3633,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 32 state/UT-wise National Highway listings with a combined length of 3,633 km for Jharkhand as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -15990,6 +16176,24 @@
             "verificationStatus": "verified",
             "description": "SHIVAMOGGA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-KA-NH-NETWORK-2024",
+            "regionId": "IN-KA",
+            "category": "highways",
+            "name": "National Highway network — 49 NH listings, 8,191 km",
+            "officialName": "Karnataka: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 49,
+            "totalLengthKm": 8191,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 49 state/UT-wise National Highway listings with a combined length of 8,191 km for Karnataka as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -17423,6 +17627,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "THIRUVANANTHAPURAM is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-KL-NH-NETWORK-2024",
+            "regionId": "IN-KL",
+            "category": "highways",
+            "name": "National Highway network — 12 NH listings, 1,858 km",
+            "officialName": "Kerala: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 12,
+            "totalLengthKm": 1858,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 12 state/UT-wise National Highway listings with a combined length of 1,858 km for Kerala as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -19199,6 +19421,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "SATNA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-MP-NH-NETWORK-2024",
+            "regionId": "IN-MP",
+            "category": "highways",
+            "name": "National Highway network — 47 NH listings, 9,160 km",
+            "officialName": "Madhya Pradesh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 47,
+            "totalLengthKm": 9160,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 47 state/UT-wise National Highway listings with a combined length of 9,160 km for Madhya Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -21149,6 +21389,24 @@
             "verificationStatus": "verified",
             "description": "SOLAPUR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-MH-NH-NETWORK-2024",
+            "regionId": "IN-MH",
+            "category": "highways",
+            "name": "National Highway network — 102 NH listings, 18,462 km",
+            "officialName": "Maharashtra: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 102,
+            "totalLengthKm": 18462,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 102 state/UT-wise National Highway listings with a combined length of 18,462 km for Maharashtra as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Bombay High Court — Mumbai"
@@ -22013,6 +22271,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "TAMENGLONG is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-MN-NH-NETWORK-2024",
+            "regionId": "IN-MN",
+            "category": "highways",
+            "name": "National Highway network — 11 NH listings, 1,840 km",
+            "officialName": "Manipur: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 11,
+            "totalLengthKm": 1840,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 11 state/UT-wise National Highway listings with a combined length of 1,840 km for Manipur as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -23709,6 +23985,24 @@
             "verificationStatus": "verified",
             "description": "BARAPANI (SHILLONG) is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-ML-NH-NETWORK-2024",
+            "regionId": "IN-ML",
+            "category": "highways",
+            "name": "National Highway network — 5 NH listings, 1,156 km",
+            "officialName": "Meghalaya: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 5,
+            "totalLengthKm": 1156,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 5 state/UT-wise National Highway listings with a combined length of 1,156 km for Meghalaya as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -24447,6 +24741,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "LENGPUI (AIZWAL) is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-MZ-NH-NETWORK-2024",
+            "regionId": "IN-MZ",
+            "category": "highways",
+            "name": "National Highway network — 9 NH listings, 1,499 km",
+            "officialName": "Mizoram: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 9,
+            "totalLengthKm": 1499,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 9 state/UT-wise National Highway listings with a combined length of 1,499 km for Mizoram as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -25964,6 +26276,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "DIMAPUR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-NL-NH-NETWORK-2024",
+            "regionId": "IN-NL",
+            "category": "highways",
+            "name": "National Highway network — 12 NH listings, 1,670 km",
+            "officialName": "Nagaland: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 12,
+            "totalLengthKm": 1670,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 12 state/UT-wise National Highway listings with a combined length of 1,670 km for Nagaland as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -27721,6 +28051,24 @@
             "verificationStatus": "verified",
             "description": "UTKELA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-OD-NH-NETWORK-2024",
+            "regionId": "IN-OD",
+            "category": "highways",
+            "name": "National Highway network — 32 NH listings, 5,897 km",
+            "officialName": "Odisha: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 32,
+            "totalLengthKm": 5897,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 32 state/UT-wise National Highway listings with a combined length of 5,897 km for Odisha as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -28614,6 +28962,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "PATHANKOT is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-PB-NH-NETWORK-2024",
+            "regionId": "IN-PB",
+            "category": "highways",
+            "name": "National Highway network — 38 NH listings, 4,264 km",
+            "officialName": "Punjab: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 38,
+            "totalLengthKm": 4264,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 38 state/UT-wise National Highway listings with a combined length of 4,264 km for Punjab as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -30390,6 +30756,24 @@
             "verificationStatus": "verified",
             "description": "UDAIPUR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-RJ-NH-NETWORK-2024",
+            "regionId": "IN-RJ",
+            "category": "highways",
+            "name": "National Highway network — 53 NH listings, 10,733 km",
+            "officialName": "Rajasthan: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 53,
+            "totalLengthKm": 10733,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 53 state/UT-wise National Highway listings with a combined length of 10,733 km for Rajasthan as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
@@ -31445,6 +31829,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "PAKYONG is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-SK-NH-NETWORK-2024",
+            "regionId": "IN-SK",
+            "category": "highways",
+            "name": "National Highway network — 8 NH listings, 709 km",
+            "officialName": "Sikkim: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 8,
+            "totalLengthKm": 709,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 8 state/UT-wise National Highway listings with a combined length of 709 km for Sikkim as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -33445,6 +33847,24 @@
             "verificationStatus": "verified",
             "description": "TUTICORIN is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-TN-NH-NETWORK-2024",
+            "regionId": "IN-TN",
+            "category": "highways",
+            "name": "National Highway network — 50 NH listings, 7,000 km",
+            "officialName": "Tamil Nadu: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 50,
+            "totalLengthKm": 7000,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 50 state/UT-wise National Highway listings with a combined length of 7,000 km for Tamil Nadu as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Madras High Court — Chennai"
@@ -34376,6 +34796,24 @@
             "verificationStatus": "verified",
             "description": "HYDERABAD (GHIAL) is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-TS-NH-NETWORK-2024",
+            "regionId": "IN-TS",
+            "category": "highways",
+            "name": "National Highway network — 30 NH listings, 4,926 km",
+            "officialName": "Telangana: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 30,
+            "totalLengthKm": 4926,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 30 state/UT-wise National Highway listings with a combined length of 4,926 km for Telangana as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Telangana High Court — Hyderabad"
@@ -35287,6 +35725,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "AGARTALA is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-TR-NH-NETWORK-2024",
+            "regionId": "IN-TR",
+            "category": "highways",
+            "name": "National Highway network — 6 NH listings, 889 km",
+            "officialName": "Tripura: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 6,
+            "totalLengthKm": 889,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 6 state/UT-wise National Highway listings with a combined length of 889 km for Tripura as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -37220,6 +37676,24 @@
             "verificationStatus": "verified",
             "description": "VARANASI is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-UP-NH-NETWORK-2024",
+            "regionId": "IN-UP",
+            "category": "highways",
+            "name": "National Highway network — 90 NH listings, 12,123 km",
+            "officialName": "Uttar Pradesh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 90,
+            "totalLengthKm": 12123,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 90 state/UT-wise National Highway listings with a combined length of 12,123 km for Uttar Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
@@ -39054,6 +39528,24 @@
             "verificationStatus": "verified",
             "description": "SRINAGAR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-UK-NH-NETWORK-2024",
+            "regionId": "IN-UK",
+            "category": "highways",
+            "name": "National Highway network — 26 NH listings, 3,664 km",
+            "officialName": "Uttarakhand: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 26,
+            "totalLengthKm": 3664,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 26 state/UT-wise National Highway listings with a combined length of 3,664 km for Uttarakhand as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -40714,6 +41206,24 @@
             "verificationStatus": "verified",
             "description": "KOLKATA (NSCBI) is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-WB-NH-NETWORK-2024",
+            "regionId": "IN-WB",
+            "category": "highways",
+            "name": "National Highway network — 35 NH listings, 3,910 km",
+            "officialName": "West Bengal: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 35,
+            "totalLengthKm": 3910,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 35 state/UT-wise National Highway listings with a combined length of 3,910 km for West Bengal as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -41485,6 +41995,24 @@
             "verificationStatus": "verified",
             "description": "PORT BLAIR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-AN-NH-NETWORK-2024",
+            "regionId": "IN-AN",
+            "category": "highways",
+            "name": "National Highway network — 1 NH listings, 331 km",
+            "officialName": "Andaman and Nicobar Islands: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 1,
+            "totalLengthKm": 331,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 1 state/UT-wise National Highway listings with a combined length of 331 km for Andaman and Nicobar Islands as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
@@ -41899,6 +42427,24 @@
             "verificationStatus": "verified",
             "description": "CHANDIGARH is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-CH-NH-NETWORK-2024",
+            "regionId": "IN-CH",
+            "category": "highways",
+            "name": "National Highway network — 1 NH listings, 15 km",
+            "officialName": "Chandigarh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 1,
+            "totalLengthKm": 15,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 1 state/UT-wise National Highway listings with a combined length of 15 km for Chandigarh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
@@ -42312,6 +42858,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "DIU is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-DHDD-NH-NETWORK-2024",
+            "regionId": "IN-DHDD",
+            "category": "highways",
+            "name": "National Highway network — 4 NH listings, 59 km",
+            "officialName": "Dadra and Nagar Haveli and Daman and Diu: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 4,
+            "totalLengthKm": 59,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 4 state/UT-wise National Highway listings with a combined length of 59 km for Dadra and Nagar Haveli and Daman and Diu as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -42811,6 +43375,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "SAFDARJUNG is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-DL-NH-NETWORK-2024",
+            "regionId": "IN-DL",
+            "category": "highways",
+            "name": "National Highway network — 12 NH listings, 157 km",
+            "officialName": "Delhi: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 12,
+            "totalLengthKm": 157,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 12 state/UT-wise National Highway listings with a combined length of 157 km for Delhi as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },
@@ -43749,6 +44331,24 @@
             "verificationStatus": "verified",
             "description": "SRINAGAR is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-JK-NH-NETWORK-2024",
+            "regionId": "IN-JK",
+            "category": "highways",
+            "name": "National Highway network — 11 NH listings, 1,935 km",
+            "officialName": "Jammu and Kashmir: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 11,
+            "totalLengthKm": 1935,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 11 state/UT-wise National Highway listings with a combined length of 1,935 km for Jammu and Kashmir as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -44382,6 +44982,24 @@
             "verificationStatus": "verified",
             "description": "LEH is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
           }
+        ],
+        "highways": [
+          {
+            "id": "IN-LA-NH-NETWORK-2024",
+            "regionId": "IN-LA",
+            "category": "highways",
+            "name": "National Highway network — 3 NH listings, 806 km",
+            "officialName": "Ladakh: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 3,
+            "totalLengthKm": 806,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 3 state/UT-wise National Highway listings with a combined length of 806 km for Ladakh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -44790,6 +45408,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "AGATTI is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-LD-NH-NONE-2024",
+            "regionId": "IN-LD",
+            "category": "highways",
+            "name": "No National Highway listed in MoRTH Appendix 2 (31 December 2024)",
+            "officialName": "Lakshadweep: no National Highway listed in the dated MoRTH state/UT register",
+            "nationalHighwaysCount": 0,
+            "totalLengthKm": 0,
+            "availabilityStatus": "none_listed_in_complete_state_UT_register",
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "Lakshadweep is not listed in MoRTH's state/UT-wise National Highway table in Appendix 2. This is recorded as no National Highway listed in that dated register; it does not mean the Union Territory has no roads."
           }
         ]
       },
@@ -45331,6 +45967,24 @@
             "referenceDate": "2025-07-31",
             "verificationStatus": "verified",
             "description": "PUDUCHERRY is included in the Ministry of Civil Aviation's state/UT-wise list of 162 operational facilities as at 31 July 2025. The source distinguishes heliports (H), water aerodromes (WA) and civil enclaves (CE); this record preserves that distinction. The entry is a dated operational-status snapshot, not a live flight or route-status guarantee."
+          }
+        ],
+        "highways": [
+          {
+            "id": "IN-PY-NH-NETWORK-2024",
+            "regionId": "IN-PY",
+            "category": "highways",
+            "name": "National Highway network — 2 NH listings, 64 km",
+            "officialName": "Puducherry: state/UT-wise National Highway network",
+            "infrastructureType": "National Highways",
+            "nationalHighwaysCount": 2,
+            "totalLengthKm": 64,
+            "referenceDate": "2024-12-31",
+            "sourceName": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
+            "sourceId": "morthStatewiseNationalHighways2024",
+            "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+            "verificationStatus": "verified",
+            "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 2 state/UT-wise National Highway listings with a combined length of 64 km for Puducherry as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
         ]
       },

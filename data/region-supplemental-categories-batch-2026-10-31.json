@@ -255,6 +255,55 @@
       "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
       "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "cgwbChhattisgarhRiverBasin2023",
+      "title": "Central Ground Water Board — Ground Water Year Book, Chhattisgarh 2023–24",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/Chhattisgarh_GWYB%202023-24.pdf",
+      "referenceDate": "CGWB Chhattisgarh Ground Water Year Book 2023–24, section 2.2 Drainage",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "goaSDMANorthDistrictTributaries2022",
+      "title": "Goa State Disaster Management Authority — North Goa District Disaster Management Plan",
+      "sourceUrl": "https://www.sdma.goa.gov.in/sites/default/files/2022-07/District%20Disaster%20Management%20Plan%20%28North%29_0.pdf",
+      "referenceDate": "North Goa District Disaster Management Plan, river tributaries section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "gujaratNWRWSRiverGaugeTributaries2010",
+      "title": "Gujarat Narmada Water Resources, Water Supply and Kalpsar Department — River Gauge Availability",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/final_rivergauge_availibility.pdf",
+      "referenceDate": "Official river-gauge inventory, data coverage through 2010",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "keralaIrrigationPeriyarBasin2022",
+      "title": "Kerala Irrigation Department — Periyar River Basin, Room for River report",
+      "sourceUrl": "https://irrigation.kerala.gov.in/sites/default/files/2022-02/Room4River_Periyar_Report.pdf",
+      "referenceDate": "Kerala Irrigation Department Periyar River Basin report, 2022",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "manipurDistrictPlanImphalThoubal2020",
+      "title": "Government of Manipur — District Disaster Management Plan, river and lake section",
+      "sourceUrl": "https://manipur.gov.in/wp-content/uploads/2020/03/tbl-dmplan.pdf",
+      "referenceDate": "Government of Manipur district disaster plan, 2020",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mizoramDIPRPhysiography2026",
+      "title": "Mizoram Directorate of Information and Public Relations — Physiography",
+      "sourceUrl": "https://dipr.mizoram.gov.in/page/physiography",
+      "referenceDate": "Official Mizoram physiography profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "sikkimGovernmentPhysicalFeatures2019",
+      "title": "Government of Sikkim — Important Rivers of Sikkim and their Tributaries",
+      "sourceUrl": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
+      "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -988,6 +1037,90 @@
       "sourceId": "lakshadweepAtollWaterInfrastructure2026",
       "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
       "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-chhattisgarh-mahanadi-godavari-son",
+      "regionName": "Chhattisgarh",
+      "category": "tributaries",
+      "name": "Mahanadi, Godavari and Son basin tributaries",
+      "description": "The Central Ground Water Board's Chhattisgarh yearbook identifies Seonath, Hasdeo, Mand and Arpa as tributaries of the Mahanadi; Indravati as a tributary of the Godavari; and Son as a tributary of the Ganga. The report also records Sankh as a tributary within the Brahmani basin.",
+      "sourceId": "cgwbChhattisgarhRiverBasin2023",
+      "sourceUrl": "https://gwdata.cgwb.gov.in/download/Yearbook/Chhattisgarh_GWYB%202023-24.pdf",
+      "referenceDate": "CGWB Chhattisgarh Ground Water Year Book 2023–24, section 2.2 Drainage",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-goa-mandovi",
+      "regionName": "Goa",
+      "category": "tributaries",
+      "name": "Mandovi River tributaries",
+      "description": "The North Goa District Disaster Management Plan lists tributaries of the Mandovi including Madei, Surla, Kotrachi, Ragda and Khandepar, and records the Baga as a minor river in North Goa.",
+      "sourceId": "goaSDMANorthDistrictTributaries2022",
+      "sourceUrl": "https://www.sdma.goa.gov.in/sites/default/files/2022-07/District%20Disaster%20Management%20Plan%20%28North%29_0.pdf",
+      "referenceDate": "North Goa District Disaster Management Plan, river tributaries section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-gujarat-river-gauges",
+      "regionName": "Gujarat",
+      "category": "tributaries",
+      "name": "Documented tributaries in the state river-gauge network",
+      "description": "Gujarat's official river-gauge inventory records tributary relationships including Watrak and Hathmati in the Sabarmati system, Orsang in the Narmada system, Panam in the Mahi system, and Pushpavati in the Rupen system. The inventory is a historical monitoring-station register with data coverage through 2010, not a current flow assessment.",
+      "sourceId": "gujaratNWRWSRiverGaugeTributaries2010",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/final_rivergauge_availibility.pdf",
+      "referenceDate": "Official river-gauge inventory, data coverage through 2010",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-kerala-periyar",
+      "regionName": "Kerala",
+      "category": "tributaries",
+      "name": "Periyar River tributaries",
+      "description": "The Kerala Irrigation Department's Periyar basin report names major tributaries including Mullayar, Chinnar, Kattapanayar, Cheruthoniyar, Perinjamkuttiyar and Muthirapuzhayar, along with downstream tributaries such as Idamala Ar.",
+      "sourceId": "keralaIrrigationPeriyarBasin2022",
+      "sourceUrl": "https://irrigation.kerala.gov.in/sites/default/files/2022-02/Room4River_Periyar_Report.pdf",
+      "referenceDate": "Kerala Irrigation Department Periyar River Basin report, 2022",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-manipur-imphal-thoubal",
+      "regionName": "Manipur",
+      "category": "tributaries",
+      "name": "Thoubal River — tributary of the Imphal",
+      "description": "The Government of Manipur district disaster plan identifies the Thoubal River as an important tributary of the Imphal River. It notes that the Thoubal rises in the Ukhrul hill ranges and joins the Imphal near Irong, downstream of Mayang Imphal.",
+      "sourceId": "manipurDistrictPlanImphalThoubal2020",
+      "sourceUrl": "https://manipur.gov.in/wp-content/uploads/2020/03/tbl-dmplan.pdf",
+      "referenceDate": "Government of Manipur district disaster plan, 2020",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-mizoram-barak-kaladan",
+      "regionName": "Mizoram",
+      "category": "tributaries",
+      "name": "Northern Barak-system and southern Kaladan-system tributaries",
+      "description": "Mizoram's official physiography profile identifies the Tlawng (Dhaleswari/Katakhal), Tut, Tuirial (Sonai) and Tuivawl as northern rivers that eventually join the Barak in Assam. It also identifies Mat, Tuichang, Tiau and Tuipui as tributaries of the southern Chhimtuipui/Kolodyne system.",
+      "sourceId": "mizoramDIPRPhysiography2026",
+      "sourceUrl": "https://dipr.mizoram.gov.in/page/physiography",
+      "referenceDate": "Official Mizoram physiography profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-sikkim-teesta-rangit",
+      "regionName": "Sikkim",
+      "category": "tributaries",
+      "name": "Teesta and Rangit tributaries",
+      "description": "The Government of Sikkim's physical-features table lists Rangbhang, Relli, Rathong and Kalej as tributaries of the Rangit, and Dikchu, Rangyong, Bakchachu, Rongpochu, Zemu Chu and Lachung Chu as tributaries of the Teesta.",
+      "sourceId": "sikkimGovernmentPhysicalFeatures2019",
+      "sourceUrl": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
+      "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
+      "verificationStatus": "verified",
       "lastVerifiedAt": "2026-10-31"
     }
   ]

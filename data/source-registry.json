@@ -1178,6 +1178,23 @@
       "issuingAuthority": "Wildlife Institute of India, autonomous institution of the Ministry of Environment, Forest and Climate Change",
       "cadence": "Historical reference only; replace or supplement with current Botanical Survey of India / IUCN / MoEFCC assessments when comparable state-wise lists are published.",
       "note": "The WII page says its database was developed in 1989–1992 using Nayar & Sastry's Red Data Book Plants of India (1987), and provides state-wise counts for 21 listed States/UTs. Counts are not a complete current threatened-species inventory and do not cover threatened animals."
+    },
+    {
+      "id": "mospiEnviStatsIucnSpeciesRichness2022",
+      "name": "MoSPI — EnviStats India 2022, Vol. II, Annexure 7.2: State-wise Count of IUCN Red List Species",
+      "url": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State/UT species richness counts for amphibians",
+        "State/UT species richness counts for mammals",
+        "State/UT species richness counts for reptiles"
+      ],
+      "referenceDate": "2022-1 IUCN Red List Toolbox edition; published in EnviStats India 2022",
+      "issuingAuthority": "Ministry of Statistics and Programme Implementation, Government of India",
+      "cadence": "Refresh against the latest MoSPI EnviStats volume and its underlying IUCN Red List spatial analysis; keep the toolbox edition and mapping caveats explicit.",
+      "note": "Species richness counts are spatially mapped records for selected taxa. They are not a complete biodiversity inventory or a threatened-species count. MoSPI cautions that count differences between editions may reflect changes in assessment and distribution knowledge as well as real changes."
     }
   ]
 }

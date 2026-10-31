@@ -2571,8 +2571,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2582,9 +2585,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 151.01,
+      "forestCoverPercent2019": 5.34,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "611",
@@ -2592,8 +2617,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2603,9 +2631,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 4,
+      "forestCoverPercent2019": 0.63,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "189",
@@ -2613,8 +2663,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2624,9 +2677,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 156.76,
+      "forestCoverPercent2019": 4.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "190",
@@ -2634,8 +2709,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2645,9 +2723,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 260.73,
+      "forestCoverPercent2019": 8.63,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "191",
@@ -2655,8 +2755,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2666,9 +2769,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 81.95,
+      "forestCoverPercent2019": 4.27,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "192",
@@ -2676,8 +2801,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2687,9 +2815,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 69.73,
+      "forestCoverPercent2019": 2.91,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "193",
@@ -2697,8 +2847,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2708,9 +2861,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 32.25,
+      "forestCoverPercent2019": 1.89,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "194",
@@ -2718,8 +2893,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2729,9 +2907,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 5.89,
+      "forestCoverPercent2019": 0.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "195",
@@ -2739,8 +2939,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2750,9 +2953,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 137.66,
+      "forestCoverPercent2019": 2.77,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "196",
@@ -2760,8 +2985,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2771,9 +2999,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 590.31,
+      "forestCoverPercent2019": 29.04,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "197",
@@ -2781,8 +3031,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2792,9 +3045,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 4.91,
+      "forestCoverPercent2019": 0.16,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "198",
@@ -2802,8 +3077,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2813,9 +3091,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 647.95,
+      "forestCoverPercent2019": 69.6,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "199",
@@ -2823,8 +3123,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2834,9 +3137,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 0,
+      "forestCoverPercent2019": 0,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "200",
@@ -2844,8 +3169,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2855,9 +3183,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1056.39,
+      "forestCoverPercent2019": 41.12,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "201",
@@ -2865,8 +3215,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2876,9 +3229,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 61.98,
+      "forestCoverPercent2019": 2.03,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "202",
@@ -2886,8 +3261,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2897,9 +3275,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 18.45,
+      "forestCoverPercent2019": 1.24,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "203",
@@ -2907,8 +3307,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2918,9 +3321,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 103.7,
+      "forestCoverPercent2019": 5.5,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "204",
@@ -2928,8 +3353,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2939,9 +3367,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 180.41,
+      "forestCoverPercent2019": 14.69,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "205",
@@ -2949,8 +3399,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2960,9 +3413,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 52.88,
+      "forestCoverPercent2019": 2.96,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "206",
@@ -2970,8 +3445,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -2981,9 +3459,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 204.07,
+      "forestCoverPercent2019": 5.83,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "207",
@@ -2991,8 +3491,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3002,9 +3505,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 283.6,
+      "forestCoverPercent2019": 19.99,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "208",
@@ -3012,8 +3537,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3023,9 +3551,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 161.82,
+      "forestCoverPercent2019": 5.1,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "209",
@@ -3033,8 +3583,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3044,9 +3597,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 31.85,
+      "forestCoverPercent2019": 1.35,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "210",
@@ -3054,8 +3629,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3065,9 +3643,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 513.5,
+      "forestCoverPercent2019": 20.59,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "211",
@@ -3075,8 +3675,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3086,9 +3689,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 904.66,
+      "forestCoverPercent2019": 17.3,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "212",
@@ -3096,8 +3721,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3107,9 +3735,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 23.54,
+      "forestCoverPercent2019": 0.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "213",
@@ -3117,8 +3767,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3128,9 +3781,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 163.86,
+      "forestCoverPercent2019": 4.13,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "214",
@@ -3138,8 +3813,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3149,9 +3827,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 55.67,
+      "forestCoverPercent2019": 1.72,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "215",
@@ -3159,8 +3859,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3170,9 +3873,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 672.23,
+      "forestCoverPercent2019": 17.32,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "216",
@@ -3180,8 +3905,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3191,9 +3919,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 34.62,
+      "forestCoverPercent2019": 2.05,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "217",
@@ -3201,8 +3951,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3212,9 +3965,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 153.36,
+      "forestCoverPercent2019": 5.28,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "218",
@@ -3222,8 +3997,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3233,9 +4011,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 59.13,
+      "forestCoverPercent2019": 2.24,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "219",
@@ -3243,8 +4043,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3254,9 +4057,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1,
+      "forestCoverPercent2019": 0.15,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "220",
@@ -3264,8 +4089,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3275,9 +4103,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 20.58,
+      "forestCoverPercent2019": 5.9,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "221",
@@ -3285,8 +4135,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3296,9 +4149,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 147.78,
+      "forestCoverPercent2019": 6.44,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "222",
@@ -3306,8 +4181,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3317,9 +4195,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 7.16,
+      "forestCoverPercent2019": 0.32,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "223",
@@ -3327,8 +4227,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3338,9 +4241,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 138.78,
+      "forestCoverPercent2019": 5.72,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "224",
@@ -3348,8 +4273,11 @@
       "stateLgdCode": "10",
       "stateName": "Bihar",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -3359,9 +4287,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019BiharForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Bihar chapter, Table 11.4.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-bihar.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.4.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 111.82,
+      "forestCoverPercent2019": 5.49,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "44",
@@ -4377,8 +5327,11 @@
       "stateLgdCode": "30",
       "stateName": "Goa",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -4388,9 +5341,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GoaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Goa chapter, Table 11.7.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-goa.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.7.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GoaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Goa chapter, Table 11.7.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-goa.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.7.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 932.91,
+      "forestCoverPercent2019": 53.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "552",
@@ -4398,8 +5373,11 @@
       "stateLgdCode": "30",
       "stateName": "Goa",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -4409,9 +5387,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019GoaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Goa chapter, Table 11.7.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-goa.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.7.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019GoaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Goa chapter, Table 11.7.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-goa.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.7.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1304.58,
+      "forestCoverPercent2019": 66.36,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "438",
@@ -5133,8 +6133,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5144,9 +6147,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 51.35,
+      "forestCoverPercent2019": 3.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "59",
@@ -5154,8 +6179,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5165,9 +6193,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 113.81,
+      "forestCoverPercent2019": 2.38,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "701",
@@ -5196,8 +6246,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5207,9 +6260,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 79.94,
+      "forestCoverPercent2019": 10.79,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "61",
@@ -5217,8 +6292,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5228,9 +6306,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 18,
+      "forestCoverPercent2019": 0.71,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "62",
@@ -5280,8 +6380,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5291,9 +6394,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 57.64,
+      "forestCoverPercent2019": 1.45,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "64",
@@ -5301,8 +6426,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5312,9 +6440,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 25.93,
+      "forestCoverPercent2019": 1.41,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "65",
@@ -5322,8 +6472,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5333,9 +6486,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 21,
+      "forestCoverPercent2019": 0.78,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "66",
@@ -5343,8 +6518,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5354,9 +6532,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 57.07,
+      "forestCoverPercent2019": 2.46,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "67",
@@ -5364,8 +6564,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5375,9 +6578,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 32.24,
+      "forestCoverPercent2019": 1.28,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "68",
@@ -5385,8 +6610,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5396,9 +6624,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 39.75,
+      "forestCoverPercent2019": 2.6,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "69",
@@ -5406,8 +6656,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5417,9 +6670,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 103.29,
+      "forestCoverPercent2019": 5.44,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "604",
@@ -5448,8 +6723,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5459,9 +6737,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 13.97,
+      "forestCoverPercent2019": 1.03,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "70",
@@ -5469,8 +6769,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5480,9 +6783,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 390.7,
+      "forestCoverPercent2019": 43.51,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "71",
@@ -5490,8 +6815,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5501,9 +6829,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 15.88,
+      "forestCoverPercent2019": 1.25,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "72",
@@ -5511,8 +6861,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5522,9 +6875,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 62.45,
+      "forestCoverPercent2019": 3.92,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "73",
@@ -5532,8 +6907,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5543,9 +6921,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 21.13,
+      "forestCoverPercent2019": 1.21,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "74",
@@ -5553,8 +6953,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5564,9 +6967,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 56.6,
+      "forestCoverPercent2019": 1.32,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "75",
@@ -5574,8 +6999,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5585,9 +7013,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 20.97,
+      "forestCoverPercent2019": 0.99,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "76",
@@ -5595,8 +7045,11 @@
       "stateLgdCode": "6",
       "stateName": "Haryana",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -5606,9 +7059,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019HaryanaForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Haryana chapter, Table 11.9.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-haryana.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.9.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 193.36,
+      "forestCoverPercent2019": 10.94,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "15",
@@ -15058,8 +16533,11 @@
       "stateLgdCode": "16",
       "stateName": "Tripura",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -15069,9 +16547,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1983.7,
+      "forestCoverPercent2019": 82.65,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "654",
@@ -15121,8 +16621,11 @@
       "stateLgdCode": "16",
       "stateName": "Tripura",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -15132,9 +16635,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1480.19,
+      "forestCoverPercent2019": 72.7,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "653",
@@ -15163,8 +16688,11 @@
       "stateLgdCode": "16",
       "stateName": "Tripura",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -15174,9 +16702,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 2272.2,
+      "forestCoverPercent2019": 74.32,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "655",
@@ -15205,8 +16755,11 @@
       "stateLgdCode": "16",
       "stateName": "Tripura",
       "verificationStatus": "verification_pending",
-      "profileType": "directory_identity_only",
-      "verifiedFields": [],
+      "profileType": "partially_enriched",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
       "sourceRecords": [
         {
           "field": "name",
@@ -15216,9 +16769,31 @@
           "referenceUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
           "referenceDate": "21Oct2026",
           "lastVerifiedAt": "2026-10-29",
-          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. This is a directory identity record only; district-specific population, area, economy, geography and other profile facts have not been independently imported."
+          "note": "District name and LGD identifiers are carried from the 21 October 2026 LGD snapshot. The LGD source verifies administrative identity only; field-specific facts are attributed separately."
+        },
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019TripuraForestTypes",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Tripura chapter, Table 11.27.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tripura.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.27.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover. Only district names that exactly match the current district directory after punctuation/spacing normalization are linked; new or renamed districts remain unfilled."
         }
-      ]
+      ],
+      "forestCover2019SqKm": 1989.5,
+      "forestCoverPercent2019": 66.47,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "lgdCode": "45",

@@ -7126,6 +7126,35 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.6.4",
       "cadence": "Historical 2019 assessment; retain report-era district boundaries and source denominator caveats."
+    },
+    {
+      "id": "moefAnnualReport2024-25BiosphereReserves",
+      "name": "MoEF&CC Annual Report 2024–25 — Biosphere Reserves",
+      "url": "https://www.moef.gov.in/uploads/pdf-uploads/English_Annual_Report_2024-25.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Biosphere reserve designation year",
+        "World Network of Biosphere Reserves inclusion year",
+        "constituent states and reserve-wide area"
+      ],
+      "cadence": "Review when MoEF&CC publishes a new annual report"
+    },
+    {
+      "id": "moefProjectElephantOfficialReserveList",
+      "name": "MoEF&CC Project Elephant — Elephant Reserve list",
+      "url": "https://moef.gov.in/project-elephant-pe",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Elephant reserve name",
+        "State/UT",
+        "notification date",
+        "notified reserve area"
+      ],
+      "cadence": "Review when MoEF&CC updates the Project Elephant reserve list"
     }
   ]
 }

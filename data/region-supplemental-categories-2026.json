@@ -57,22 +57,24 @@
       "regionName": "Odisha",
       "category": "tributaries",
       "name": "Ib River",
-      "description": "Mahanadi tributary flowing through the coalfield belt of western Odisha.",
-      "sourceUrl": "https://cwc.gov.in/",
-      "sourceId": "cwc-river-basins",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Odisha's Department of Water Resources lists Ib among the major tributaries of the Mahanadi in the State; CWC's Mahanadi Water Year Book identifies Ib as a major left-bank tributary and records its drainage through Sundargarh, Jharsuguda and Sambalpur.",
+      "sourceUrl": "https://dowr.odisha.gov.in/en/water-resources/basin-maps-features",
+      "sourceId": "odishaMahanadiIbTributary2026",
+      "referenceDate": "Official State/Central government source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-006",
       "regionName": "Uttar Pradesh",
       "category": "tributaries",
       "name": "Yamuna",
-      "description": "Major right-bank tributary of the Ganga; joins it at Prayagraj.",
-      "sourceUrl": "https://cwc.gov.in/",
-      "sourceId": "cwc-river-basins",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Prayagraj District Administration identifies the Yamuna as one of the district's two main rivers and states that it meets the Ganga at Prayagraj Sangam in Uttar Pradesh.",
+      "sourceUrl": "https://prayagraj.nic.in/geography/",
+      "sourceId": "prayagrajYamunaGangaConfluence2026",
+      "referenceDate": "Official State/Central government source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-007",
@@ -163,11 +165,12 @@
       "regionName": "Jharkhand",
       "category": "geology",
       "name": "Chota Nagpur Gneissic Complex",
-      "description": "Archaean crystalline basement rocks form a major part of the Chota Nagpur plateau.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Jharkhand Space Applications Center's Ranchi District soil resources report maps the Chota-Nagpur Gneissic Complex across parts of the district and describes its granite, gneiss, phyllite and mica-schist terrain.",
+      "sourceUrl": "https://jsac.jharkhand.gov.in/Report_PDF/New_Soil_Report/Ranchi_Report_180510.pdf",
+      "sourceId": "jsacChotaNagpurGneissicComplex2026",
+      "referenceDate": "Official State/Central government source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-015",
@@ -318,11 +321,12 @@
       "regionName": "Tamil Nadu",
       "category": "powerPlants",
       "name": "North Chennai Thermal Power Station",
-      "description": "State-sector thermal generating station in the Chennai region.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Central Electricity Authority's list of thermal power stations as of 31 March 2023 records North Chennai TPS under TANGEDCO in the Tamil Nadu state sector, with its commissioned units.",
+      "sourceUrl": "https://cea.nic.in/wp-content/uploads/pdm/2023/05/List_of_Power_Stations_31.03.2023.pdf",
+      "sourceId": "ceaNorthChennaiTPS2023",
+      "referenceDate": "Official State/Central government source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-028",
@@ -7024,6 +7028,30 @@
       "title": "Sahitya Akademi — Language-wise Akademi Awards archive, 1955–2025",
       "sourceUrl": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
       "referenceDate": "Award archive through 2025"
+    },
+    {
+      "sourceId": "odishaMahanadiIbTributary2026",
+      "title": "Odisha Department of Water Resources — Basin Maps and Features: Mahanadi tributaries",
+      "sourceUrl": "https://dowr.odisha.gov.in/en/water-resources/basin-maps-features",
+      "referenceDate": "Official State basin profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "prayagrajYamunaGangaConfluence2026",
+      "title": "Prayagraj District Administration — Geography and Yamuna–Ganga confluence",
+      "sourceUrl": "https://prayagraj.nic.in/geography/",
+      "referenceDate": "Official district geography profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "jsacChotaNagpurGneissicComplex2026",
+      "title": "Jharkhand Space Applications Center — Soil Resources of Ranchi District",
+      "sourceUrl": "https://jsac.jharkhand.gov.in/Report_PDF/New_Soil_Report/Ranchi_Report_180510.pdf",
+      "referenceDate": "Official JSAC report"
+    },
+    {
+      "sourceId": "ceaNorthChennaiTPS2023",
+      "title": "Central Electricity Authority — List of Thermal Power Stations as on 31 March 2023",
+      "sourceUrl": "https://cea.nic.in/wp-content/uploads/pdm/2023/05/List_of_Power_Stations_31.03.2023.pdf",
+      "referenceDate": "31 March 2023"
     }
   ]
 }

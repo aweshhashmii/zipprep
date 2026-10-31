@@ -798,6 +798,23 @@
       "issuingAuthority": "Central Pollution Control Board, Ministry of Environment, Forest and Climate Change, Government of India",
       "cadence": "Refresh after CPCB issues a newer Polluted River Stretches assessment. Preserve monitoring years and distinguish a multi-location stretch from a single polluted location.",
       "note": "CPCB identified 296 polluted river stretches/locations on 271 rivers across 32 States/UTs from 2022–2023 monitoring. This total comprises 156 multi-location stretches and 140 single polluted locations. Priority classes use maximum observed BOD: I >30 mg/L; II 20.1–30; III 10.1–20; IV 6.1–10; V 3.1–6. No pollution-free conclusion should be drawn for territories not listed or not covered by the monitoring network."
+    },
+    {
+      "id": "pibUnescoIntangibleCulturalHeritage2025",
+      "name": "Ministry of Culture / Press Information Bureau — UNESCO Intangible Cultural Heritage elements and state/UT associations",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200361&lang=1&reg=3",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "15 Indian elements inscribed on UNESCO Representative List of Intangible Cultural Heritage as at 8 December 2025",
+        "State and Union Territory associations stated in Lok Sabha annexure",
+        "Inscription years and element descriptions"
+      ],
+      "referenceDate": "2025-12-08",
+      "issuingAuthority": "Ministry of Culture, Government of India; Sangeet Natak Akademi",
+      "cadence": "Refresh after UNESCO inscription or a Ministry of Culture / Sangeet Natak Akademi update. Keep the 8 December 2025 inventory date explicit.",
+      "note": "The Lok Sabha reply lists 15 inscribed elements and state/UT associations. It separately says Deepawali was nominated for the 2025–26 cycle and Chhath Mahaparv for 2026–27; nominations are not treated as inscriptions. 'All states' is applied to the 28 States, not automatically to Union Territories."
     }
   ]
 }

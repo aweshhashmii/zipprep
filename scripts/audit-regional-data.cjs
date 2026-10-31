@@ -36,6 +36,7 @@ const politicalData = read('data/region-political-2026.json');
 const heritageData = read('data/region-unesco-heritage-2026.json');
 const censusData = read('data/india-district-census-2011.json');
 const districtProfileData = read('data/district-profiles-2026.json');
+const districtProfileBatchData = read('data/district-profile-enrichment-batch-2026-10-31.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -88,6 +89,14 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
+for (const batchRow of districtProfileBatchData.records || []) {
+  const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
+  if (existing) {
+    for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
+    existing.verifiedFields = [...new Set([...(existing.verifiedFields || []), ...(batchRow.verifiedFields || [])])];
+    existing.sourceRecords = [...(existing.sourceRecords || []), ...(batchRow.sourceRecords || [])];
+  } else districtProfileRows.push(batchRow);
+}
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');
 const districtProfilesWithVerifiedFields = districtProfileRows.filter(row => Array.isArray(row.verifiedFields) && row.verifiedFields.length > 0);
 const districtProfileCodes = new Set();

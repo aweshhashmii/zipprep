@@ -40,6 +40,7 @@ const censusData = read('data/india-district-census-2011.json');
 const districtProfileData = read('data/district-profiles-2026.json');
 const districtProfileBatchData = read('data/district-profile-enrichment-batch-2026-10-31.json');
 const districtProfileBiharData = read('data/district-profile-isfr2023-bihar.json');
+const districtProfileAssamData = read('data/district-profile-isfr2023-assam.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -92,7 +93,7 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
-for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || [])]) {
+for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || [])]) {
   const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
   if (existing) {
     for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
@@ -126,6 +127,34 @@ for (const row of biharForestRows) {
       'Bihar ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
   }
 }
+const assamForestRows = districtProfileAssamData.records || [];
+assert(assamForestRows.length === 33, 'ISFR 2023 Assam district forest dataset must contain all 33 districts listed in the FSI table.');
+assert(sourceRegistry.sources.some(source => source.id === districtProfileAssamData.source.sourceId),
+  'ISFR 2023 Assam district forest source must be registered.');
+const assamForestExpected = {
+  forestCoverCalculatedArea2023SqKm: 78438,
+  veryDenseForest2023SqKm: 3189.71,
+  moderatelyDenseForest2023SqKm: 9764.54,
+  openForest2023SqKm: 15359.30,
+  forestCover2023SqKm: 28313.55,
+  forestCoverChangeSince2021SqKm: -11.76,
+  scrub2023SqKm: 240.93
+};
+for (const [field, expectedValue] of Object.entries(assamForestExpected)) {
+  const actual = assamForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Assam ISFR 2023 district total does not reconcile for ' + field + ': ' + actual + ' vs ' + expectedValue);
+}
+for (const row of assamForestRows) {
+  assert(row.stateName === 'Assam', 'Assam ISFR district row has wrong state: ' + row.name);
+  assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '18'),
+    'Assam ISFR district row does not exactly match current LGD identity: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileAssamData.source.sourceId),
+      'Assam ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
+  }
+}
+assert(!assamForestRows.some(row => ['739','756'].includes(row.lgdCode)),
+  'Assam districts omitted from the FSI table must not be assigned inferred forest figures.');
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');
 const districtProfilesWithVerifiedFields = districtProfileRows.filter(row => Array.isArray(row.verifiedFields) && row.verifiedFields.length > 0);
 const districtProfileCodes = new Set();

@@ -7384,6 +7384,26 @@
       ],
       "referenceDate": "ISFR 2023, Volume II, Chapter 10.13, Table 10.13.3",
       "cadence": "Retain the 2023 assessment vintage; refresh only against a later comparable FSI district table. Preserve FSI's Survey of India calculated-area denominator and normalization caveat."
+    },
+    {
+      "id": "fsiISFR2023UttarakhandDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.28.3 (Uttarakhand)",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "District-wise 2023 forest cover",
+        "Very dense forest",
+        "Moderately dense forest",
+        "Open forest",
+        "Forest cover percentage by FSI calculated area",
+        "Change since 2021 raster-based assessment",
+        "Scrub area"
+      ],
+      "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3",
+      "cadence": "Retain the 2023 assessment vintage; refresh only against a later comparable FSI district table. Preserve FSI's Survey of India calculated-area denominator and normalization caveat.",
+      "note": "All 13 FSI report districts match current LGD identities by code. The FSI table labels Pauri Garhwal as 'Garhwal'; this is explicitly mapped to current LGD Pauri Garhwal. H superscript markers denote hill districts and are not part of district names. Source discrepancies are preserved: district area rows sum to 53,483.56 km² versus printed 53,483.36 km²; Garhwal's printed total (3,560.55 km²) is 200 km² above its class sum, so district total rows sum to 24,503.83 km² while VDF+MDF+open and the printed state total are 24,303.83 km²."
     }
   ]
 }

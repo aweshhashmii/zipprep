@@ -515,6 +515,12 @@
       "name": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2 (as at 31 December 2024)",
       "url": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
       "note": "Appendix 2 lists state/UT-wise NH numbers, counts and lengths as at 31 December 2024. The national total is 670 distinct NHs and 146,195 km; state-level NH listings are not additive because highways traverse multiple states. DNH and Daman & Diu rows are combined for the current merged UT; Lakshadweep is not listed."
+    },
+    {
+      "id": "indianRailwaysYearBookStatewise2023_24",
+      "name": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+      "url": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+      "note": "State-wise route/running/total track kilometres at 31 March 2024; source explicitly says remaining States/UTs have no railway line. Goa running/total track values omitted due source inconsistency."
     }
   ],
   "regions": [
@@ -2405,6 +2411,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 55 state/UT-wise National Highway listings with a combined length of 8,683 km for Andhra Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-AP-RAIL-NETWORK-2024",
+            "regionId": "IN-AP",
+            "category": "railways",
+            "name": "Railway network — 4016 route km",
+            "officialName": "Andhra Pradesh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 4016,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 4016 route km in Andhra Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 7017,
+            "totalTrackKilometres": 8647
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -3560,6 +3585,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 14 state/UT-wise National Highway listings with a combined length of 4,367 km for Arunachal Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-AR-RAIL-NETWORK-2024",
+            "regionId": "IN-AR",
+            "category": "railways",
+            "name": "Railway network — 12 route km",
+            "officialName": "Arunachal Pradesh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 12,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 12 route km in Arunachal Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 12,
+            "totalTrackKilometres": 27
           }
         ]
       },
@@ -5123,6 +5167,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 38 state/UT-wise National Highway listings with a combined length of 4,077 km for Assam as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-AS-RAIL-NETWORK-2024",
+            "regionId": "IN-AS",
+            "category": "railways",
+            "name": "Railway network — 2571 route km",
+            "officialName": "Assam: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 2571,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 2571 route km in Assam at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 3077,
+            "totalTrackKilometres": 4108
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
@@ -6356,6 +6419,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 56 state/UT-wise National Highway listings with a combined length of 6,132 km for Bihar as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-BR-RAIL-NETWORK-2024",
+            "regionId": "IN-BR",
+            "category": "railways",
+            "name": "Railway network — 3959 route km",
+            "officialName": "Bihar: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 3959,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 3959 route km in Bihar at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 6008,
+            "totalTrackKilometres": 7263
+          }
         ]
       },
       "highCourt": "Patna High Court — Patna"
@@ -7278,6 +7360,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 20 state/UT-wise National Highway listings with a combined length of 3,620 km for Chhattisgarh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-CT-RAIL-NETWORK-2024",
+            "regionId": "IN-CT",
+            "category": "railways",
+            "name": "Railway network — 1222 route km",
+            "officialName": "Chhattisgarh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 1222,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 1222 route km in Chhattisgarh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 2444,
+            "totalTrackKilometres": 3112
           }
         ]
       },
@@ -8317,6 +8418,24 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 6 state/UT-wise National Highway listings with a combined length of 299 km for Goa as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-GA-RAIL-NETWORK-2024",
+            "regionId": "IN-GA",
+            "category": "railways",
+            "name": "Railway network — 69 route km",
+            "officialName": "Goa: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 69,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 69 route km in Goa at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "dataQualityNote": "The source table reports 122 running track km and 113 total track km for Goa, an internal inconsistency; these two fields are omitted rather than repeated."
           }
         ]
       },
@@ -10548,6 +10667,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 45 state/UT-wise National Highway listings with a combined length of 8,111 km for Gujarat as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-GJ-RAIL-NETWORK-2024",
+            "regionId": "IN-GJ",
+            "category": "railways",
+            "name": "Railway network — 5051 route km",
+            "officialName": "Gujarat: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 5051,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 5051 route km in Gujarat at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 6631,
+            "totalTrackKilometres": 8256
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -11566,6 +11704,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 39 state/UT-wise National Highway listings with a combined length of 3,347 km for Haryana as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-HR-RAIL-NETWORK-2024",
+            "regionId": "IN-HR",
+            "category": "railways",
+            "name": "Railway network — 1780 route km",
+            "officialName": "Haryana: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 1780,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 1780 route km in Haryana at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 2709,
+            "totalTrackKilometres": 3230
           }
         ]
       },
@@ -13170,6 +13327,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 19 state/UT-wise National Highway listings with a combined length of 2,607 km for Himachal Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-HP-RAIL-NETWORK-2024",
+            "regionId": "IN-HP",
+            "category": "railways",
+            "name": "Railway network — 313 route km",
+            "officialName": "Himachal Pradesh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 313,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 313 route km in Himachal Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 316,
+            "totalTrackKilometres": 380
+          }
         ]
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
@@ -14443,6 +14619,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 32 state/UT-wise National Highway listings with a combined length of 3,633 km for Jharkhand as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-JH-RAIL-NETWORK-2024",
+            "regionId": "IN-JH",
+            "category": "railways",
+            "name": "Railway network — 2651 route km",
+            "officialName": "Jharkhand: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 2651,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 2651 route km in Jharkhand at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 4859,
+            "totalTrackKilometres": 6178
           }
         ]
       },
@@ -16194,6 +16389,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 49 state/UT-wise National Highway listings with a combined length of 8,191 km for Karnataka as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-KA-RAIL-NETWORK-2024",
+            "regionId": "IN-KA",
+            "category": "railways",
+            "name": "Railway network — 3647 route km",
+            "officialName": "Karnataka: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 3647,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 3647 route km in Karnataka at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 5498,
+            "totalTrackKilometres": 6794
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -17645,6 +17859,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 12 state/UT-wise National Highway listings with a combined length of 1,858 km for Kerala as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-KL-RAIL-NETWORK-2024",
+            "regionId": "IN-KL",
+            "category": "railways",
+            "name": "Railway network — 1048 route km",
+            "officialName": "Kerala: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 1048,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 1048 route km in Kerala at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 1766,
+            "totalTrackKilometres": 2126
           }
         ]
       },
@@ -19439,6 +19672,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 47 state/UT-wise National Highway listings with a combined length of 9,160 km for Madhya Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-MP-RAIL-NETWORK-2024",
+            "regionId": "IN-MP",
+            "category": "railways",
+            "name": "Railway network — 5263 route km",
+            "officialName": "Madhya Pradesh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 5263,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 5263 route km in Madhya Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 8900,
+            "totalTrackKilometres": 10876
           }
         ]
       },
@@ -21407,6 +21659,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 102 state/UT-wise National Highway listings with a combined length of 18,462 km for Maharashtra as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-MH-RAIL-NETWORK-2024",
+            "regionId": "IN-MH",
+            "category": "railways",
+            "name": "Railway network — 5930 route km",
+            "officialName": "Maharashtra: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 5930,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 5930 route km in Maharashtra at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 9722,
+            "totalTrackKilometres": 12598
+          }
         ]
       },
       "highCourt": "Bombay High Court — Mumbai"
@@ -22289,6 +22560,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 11 state/UT-wise National Highway listings with a combined length of 1,840 km for Manipur as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-MN-RAIL-NETWORK-2024",
+            "regionId": "IN-MN",
+            "category": "railways",
+            "name": "Railway network — 56 route km",
+            "officialName": "Manipur: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 56,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 56 route km in Manipur at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 56,
+            "totalTrackKilometres": 70
           }
         ]
       },
@@ -24003,6 +24293,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 5 state/UT-wise National Highway listings with a combined length of 1,156 km for Meghalaya as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-ML-RAIL-NETWORK-2024",
+            "regionId": "IN-ML",
+            "category": "railways",
+            "name": "Railway network — 9 route km",
+            "officialName": "Meghalaya: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 9,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 9 route km in Meghalaya at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 9,
+            "totalTrackKilometres": 13
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -24759,6 +25068,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 9 state/UT-wise National Highway listings with a combined length of 1,499 km for Mizoram as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-MZ-RAIL-NETWORK-2024",
+            "regionId": "IN-MZ",
+            "category": "railways",
+            "name": "Railway network — 1 route km",
+            "officialName": "Mizoram: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 1,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 1 route km in Mizoram at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 2,
+            "totalTrackKilometres": 6
           }
         ]
       },
@@ -26294,6 +26622,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 12 state/UT-wise National Highway listings with a combined length of 1,670 km for Nagaland as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-NL-RAIL-NETWORK-2024",
+            "regionId": "IN-NL",
+            "category": "railways",
+            "name": "Railway network — 25 route km",
+            "officialName": "Nagaland: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 25,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 25 route km in Nagaland at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 25,
+            "totalTrackKilometres": 41
           }
         ]
       },
@@ -28069,6 +28416,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 32 state/UT-wise National Highway listings with a combined length of 5,897 km for Odisha as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-OD-RAIL-NETWORK-2024",
+            "regionId": "IN-OD",
+            "category": "railways",
+            "name": "Railway network — 2985 route km",
+            "officialName": "Odisha: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 2985,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 2985 route km in Odisha at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 5506,
+            "totalTrackKilometres": 6574
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -28980,6 +29346,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 38 state/UT-wise National Highway listings with a combined length of 4,264 km for Punjab as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-PB-RAIL-NETWORK-2024",
+            "regionId": "IN-PB",
+            "category": "railways",
+            "name": "Railway network — 2265 route km",
+            "officialName": "Punjab: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 2265,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 2265 route km in Punjab at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 2879,
+            "totalTrackKilometres": 3680
           }
         ]
       },
@@ -30774,6 +31159,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 53 state/UT-wise National Highway listings with a combined length of 10,733 km for Rajasthan as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-RJ-RAIL-NETWORK-2024",
+            "regionId": "IN-RJ",
+            "category": "railways",
+            "name": "Railway network — 6135 route km",
+            "officialName": "Rajasthan: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 6135,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 6135 route km in Rajasthan at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 8882,
+            "totalTrackKilometres": 9918
+          }
         ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
@@ -31847,6 +32251,23 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 8 state/UT-wise National Highway listings with a combined length of 709 km for Sikkim as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-SK-RAIL-NONE-2024",
+            "regionId": "IN-SK",
+            "category": "railways",
+            "name": "No commissioned railway line listed at 31 March 2024",
+            "officialName": "Sikkim: no railway line in Indian Railways Year Book 2023–24 snapshot",
+            "routeKilometres": 0,
+            "availabilityStatus": "no_railway_line_in_reference_snapshot",
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
           }
         ]
       },
@@ -33865,6 +34286,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 50 state/UT-wise National Highway listings with a combined length of 7,000 km for Tamil Nadu as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-TN-RAIL-NETWORK-2024",
+            "regionId": "IN-TN",
+            "category": "railways",
+            "name": "Railway network — 4038 route km",
+            "officialName": "Tamil Nadu: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 4038,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 4038 route km in Tamil Nadu at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 5880,
+            "totalTrackKilometres": 7188
+          }
         ]
       },
       "highCourt": "Madras High Court — Chennai"
@@ -34814,6 +35254,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 30 state/UT-wise National Highway listings with a combined length of 4,926 km for Telangana as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-TS-RAIL-NETWORK-2024",
+            "regionId": "IN-TS",
+            "category": "railways",
+            "name": "Railway network — 2015 route km",
+            "officialName": "Telangana: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 2015,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 2015 route km in Telangana at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 3101,
+            "totalTrackKilometres": 3753
+          }
         ]
       },
       "highCourt": "Telangana High Court — Hyderabad"
@@ -35743,6 +36202,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 6 state/UT-wise National Highway listings with a combined length of 889 km for Tripura as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-TR-RAIL-NETWORK-2024",
+            "regionId": "IN-TR",
+            "category": "railways",
+            "name": "Railway network — 265 route km",
+            "officialName": "Tripura: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 265,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 265 route km in Tripura at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 265,
+            "totalTrackKilometres": 337
           }
         ]
       },
@@ -37694,6 +38172,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 90 state/UT-wise National Highway listings with a combined length of 12,123 km for Uttar Pradesh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-UP-RAIL-NETWORK-2024",
+            "regionId": "IN-UP",
+            "category": "railways",
+            "name": "Railway network — 8823 route km",
+            "officialName": "Uttar Pradesh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 8823,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 8823 route km in Uttar Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 14375,
+            "totalTrackKilometres": 17436
+          }
         ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
@@ -39546,6 +40043,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 26 state/UT-wise National Highway listings with a combined length of 3,664 km for Uttarakhand as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-UK-RAIL-NETWORK-2024",
+            "regionId": "IN-UK",
+            "category": "railways",
+            "name": "Railway network — 346 route km",
+            "officialName": "Uttarakhand: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 346,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 346 route km in Uttarakhand at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 451,
+            "totalTrackKilometres": 516
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -41224,6 +41740,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 35 state/UT-wise National Highway listings with a combined length of 3,910 km for West Bengal as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-WB-RAIL-NETWORK-2024",
+            "regionId": "IN-WB",
+            "category": "railways",
+            "name": "Railway network — 4161 route km",
+            "officialName": "West Bengal: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 4161,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 4161 route km in West Bengal at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 8466,
+            "totalTrackKilometres": 10615
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -42013,6 +42548,23 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 1 state/UT-wise National Highway listings with a combined length of 331 km for Andaman and Nicobar Islands as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-AN-RAIL-NONE-2024",
+            "regionId": "IN-AN",
+            "category": "railways",
+            "name": "No commissioned railway line listed at 31 March 2024",
+            "officialName": "Andaman and Nicobar Islands: no railway line in Indian Railways Year Book 2023–24 snapshot",
+            "routeKilometres": 0,
+            "availabilityStatus": "no_railway_line_in_reference_snapshot",
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
@@ -42445,6 +42997,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 1 state/UT-wise National Highway listings with a combined length of 15 km for Chandigarh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-CH-RAIL-NETWORK-2024",
+            "regionId": "IN-CH",
+            "category": "railways",
+            "name": "Railway network — 16 route km",
+            "officialName": "Chandigarh: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 16,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 16 route km in Chandigarh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 18,
+            "totalTrackKilometres": 103
+          }
         ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
@@ -42876,6 +43447,23 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 4 state/UT-wise National Highway listings with a combined length of 59 km for Dadra and Nagar Haveli and Daman and Diu as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-DHDD-RAIL-NONE-2024",
+            "regionId": "IN-DHDD",
+            "category": "railways",
+            "name": "No commissioned railway line listed at 31 March 2024",
+            "officialName": "Dadra and Nagar Haveli and Daman and Diu: no railway line in Indian Railways Year Book 2023–24 snapshot",
+            "routeKilometres": 0,
+            "availabilityStatus": "no_railway_line_in_reference_snapshot",
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
           }
         ]
       },
@@ -43393,6 +43981,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 12 state/UT-wise National Highway listings with a combined length of 157 km for Delhi as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-DL-RAIL-NETWORK-2024",
+            "regionId": "IN-DL",
+            "category": "railways",
+            "name": "Railway network — 188 route km",
+            "officialName": "Delhi: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 188,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 188 route km in Delhi at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 355,
+            "totalTrackKilometres": 694
           }
         ]
       },
@@ -44349,6 +44956,25 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 11 state/UT-wise National Highway listings with a combined length of 1,935 km for Jammu and Kashmir as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-JK-RAIL-NETWORK-2024",
+            "regionId": "IN-JK",
+            "category": "railways",
+            "name": "Railway network — 298 route km",
+            "officialName": "Jammu and Kashmir: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 298,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 298 route km in Jammu and Kashmir at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 372,
+            "totalTrackKilometres": 526
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -45000,6 +45626,23 @@
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 3 state/UT-wise National Highway listings with a combined length of 806 km for Ladakh as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
           }
+        ],
+        "railways": [
+          {
+            "id": "IN-LA-RAIL-NONE-2024",
+            "regionId": "IN-LA",
+            "category": "railways",
+            "name": "No commissioned railway line listed at 31 March 2024",
+            "officialName": "Ladakh: no railway line in Indian Railways Year Book 2023–24 snapshot",
+            "routeKilometres": 0,
+            "availabilityStatus": "no_railway_line_in_reference_snapshot",
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -45426,6 +46069,23 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "Lakshadweep is not listed in MoRTH's state/UT-wise National Highway table in Appendix 2. This is recorded as no National Highway listed in that dated register; it does not mean the Union Territory has no roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-LD-RAIL-NONE-2024",
+            "regionId": "IN-LD",
+            "category": "railways",
+            "name": "No commissioned railway line listed at 31 March 2024",
+            "officialName": "Lakshadweep: no railway line in Indian Railways Year Book 2023–24 snapshot",
+            "routeKilometres": 0,
+            "availabilityStatus": "no_railway_line_in_reference_snapshot",
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
           }
         ]
       },
@@ -45985,6 +46645,25 @@
             "sourceUrl": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
             "verificationStatus": "verified",
             "description": "MoRTH's Annual Report 2024–25, Appendix 2, reports 2 state/UT-wise National Highway listings with a combined length of 64 km for Puducherry as at 31 December 2024. Counts are state/UT-specific listings; a National Highway traversing multiple States may be counted in more than one state. This is the National Highway network only; it excludes State Highways, district roads and rural roads."
+          }
+        ],
+        "railways": [
+          {
+            "id": "IN-PY-RAIL-NETWORK-2024",
+            "regionId": "IN-PY",
+            "category": "railways",
+            "name": "Railway network — 23 route km",
+            "officialName": "Puducherry: railway network at 31 March 2024",
+            "infrastructureType": "Indian Railways route network",
+            "routeKilometres": 23,
+            "referenceDate": "2024-03-31",
+            "sourceName": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
+            "sourceId": "indianRailwaysYearBookStatewise2023_24",
+            "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+            "verificationStatus": "verified",
+            "description": "Indian Railways Year Book 2023–24 reports 23 route km in Puducherry at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
+            "runningTrackKilometres": 25,
+            "totalTrackKilometres": 29
           }
         ]
       },

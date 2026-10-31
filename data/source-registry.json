@@ -888,6 +888,23 @@
       "issuingAuthority": "Ministry of Environment, Forest and Climate Change, Government of India; Press Information Bureau",
       "cadence": "Refresh after the Ramsar Secretariat or MoEFCC designates a new Indian site. Treat this as a complete national list only for its stated snapshot date.",
       "note": "The PIB feature states that its state-wise table lists all 103 Indian Ramsar Sites and that these occur across 28 States/UTs. Regions absent from that exhaustive list may be marked 'None listed' for this snapshot; this does not mean the region has no wetlands or cannot receive a future designation."
+    },
+    {
+      "id": "mocaOperationalAirportsLokSabha2025",
+      "name": "Ministry of Civil Aviation — State/UT-wise list of 162 operational airports (Lok Sabha reply, 31 July 2025)",
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2025-08/1870%20E.pdf",
+      "tabs": [
+        "economy",
+        "geography"
+      ],
+      "fields": [
+        "State/UT-wise list of operational airports",
+        "Airport, civil enclave, heliport and water-aerodrome distinctions"
+      ],
+      "referenceDate": "2025-07-31",
+      "issuingAuthority": "Ministry of Civil Aviation, Government of India",
+      "cadence": "Refresh from the latest Ministry of Civil Aviation state-wise operational airport list. AAI airport directory and MoCA total counts may be newer but do not replace this dated state-wise list without reconciliation.",
+      "note": "The Lok Sabha reply lists 162 operational facilities and marks H=heliport, WA=water aerodrome, CE=civil enclave. The list uses the legacy label 'Daman & Diu'; Diu is mapped to the present merged Union Territory of Dadra and Nagar Haveli and Daman and Diu. It is a 31 July 2025 snapshot, not a claim that the total remains 162 in 2026."
     }
   ]
 }

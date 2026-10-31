@@ -448,6 +448,11 @@
       "id": "pibIndustrialCorridorProjects2026",
       "name": "PIB / Ministry of Commerce and Industry — Industrial corridor projects and status",
       "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157568&lang=1&reg=3"
+    },
+    {
+      "id": "necYearbook2025SoilConditions",
+      "name": "North Eastern Council Yearbook 2025 — Soil Conditions, soil taxonomy and acidic-soil extent",
+      "url": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf"
     }
   ],
   "regions": [
@@ -2085,6 +2090,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2385,7 +2398,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-AR-SOIL-NEC2025",
+            "regionId": "IN-AR",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 4,
+            "subOrderCount": 10,
+            "greatGroupCount": 16,
+            "subGroupCount": 31,
+            "soilOrderSharePercent": {
+              "alfisols": 0.3,
+              "entisols": 35.6,
+              "inceptisols": 37.3,
+              "mollisols": 0,
+              "ultisols": 14.2,
+              "histosols": 0,
+              "miscellaneous": 12.6
+            },
+            "acidicSoilSharePercent": 21,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 4 soil orders, 10 sub-orders, 16 great groups and 31 sub-groups in this state. Soil-order shares of geographical area: alfisols 0.3%; entisols 35.6%; inceptisols 37.3%; ultisols 14.2%; miscellaneous 12.6%. Acidic soils are reported across 21% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [
           {
             "name": "Arunachal Pradesh Khaw Tai (Khamti Rice)",
@@ -2908,6 +2950,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3292,7 +3342,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-AS-SOIL-NEC2025",
+            "regionId": "IN-AS",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 4,
+            "subOrderCount": 9,
+            "greatGroupCount": 15,
+            "subGroupCount": 26,
+            "soilOrderSharePercent": {
+              "alfisols": 11.3,
+              "entisols": 33.6,
+              "inceptisols": 41.4,
+              "mollisols": 0,
+              "ultisols": 5.6,
+              "histosols": 0,
+              "miscellaneous": 8.1
+            },
+            "acidicSoilSharePercent": 25,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 4 soil orders, 9 sub-orders, 15 great groups and 26 sub-groups in this state. Soil-order shares of geographical area: alfisols 11.3%; entisols 33.6%; inceptisols 41.4%; ultisols 5.6%; miscellaneous 8.1%. Acidic soils are reported across 25% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [
           {
             "name": "Judima",
@@ -15730,6 +15809,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -15934,7 +16021,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-MN-SOIL-NEC2025",
+            "regionId": "IN-MN",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 4,
+            "subOrderCount": 8,
+            "greatGroupCount": 13,
+            "subGroupCount": 22,
+            "soilOrderSharePercent": {
+              "alfisols": 0.2,
+              "entisols": 23.1,
+              "inceptisols": 38.4,
+              "mollisols": 0,
+              "ultisols": 36.4,
+              "histosols": 0,
+              "miscellaneous": 1.9
+            },
+            "acidicSoilSharePercent": 72,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 4 soil orders, 8 sub-orders, 13 great groups and 22 sub-groups in this state. Soil-order shares of geographical area: alfisols 0.2%; entisols 23.1%; inceptisols 38.4%; ultisols 36.4%; miscellaneous 1.9%. Acidic soils are reported across 72% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [
           {
             "name": "Tamenglong Orange",
@@ -16279,6 +16395,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -16601,7 +16725,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-ML-SOIL-NEC2025",
+            "regionId": "IN-ML",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 4,
+            "subOrderCount": 8,
+            "greatGroupCount": 14,
+            "subGroupCount": 25,
+            "soilOrderSharePercent": {
+              "alfisols": 3.6,
+              "entisols": 10.7,
+              "inceptisols": 45.7,
+              "mollisols": 0,
+              "ultisols": 40,
+              "histosols": 0,
+              "miscellaneous": 0
+            },
+            "acidicSoilSharePercent": 46,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 4 soil orders, 8 sub-orders, 14 great groups and 25 sub-groups in this state. Soil-order shares of geographical area: alfisols 3.6%; entisols 10.7%; inceptisols 45.7%; ultisols 40%. Acidic soils are reported across 46% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
@@ -17700,6 +17853,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -17908,7 +18069,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-MZ-SOIL-NEC2025",
+            "regionId": "IN-MZ",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 4,
+            "subOrderCount": 7,
+            "greatGroupCount": 11,
+            "subGroupCount": 13,
+            "soilOrderSharePercent": {
+              "alfisols": 2.6,
+              "entisols": 21.5,
+              "inceptisols": 37.3,
+              "mollisols": 38.6,
+              "ultisols": 0,
+              "histosols": 0,
+              "miscellaneous": 0
+            },
+            "acidicSoilSharePercent": 55,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 4 soil orders, 7 sub-orders, 11 great groups and 13 sub-groups in this state. Soil-order shares of geographical area: alfisols 2.6%; entisols 21.5%; inceptisols 37.3%; mollisols 38.6%. Acidic soils are reported across 55% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
@@ -18184,6 +18374,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -18421,7 +18619,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-NL-SOIL-NEC2025",
+            "regionId": "IN-NL",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 4,
+            "subOrderCount": 7,
+            "greatGroupCount": 10,
+            "subGroupCount": 14,
+            "soilOrderSharePercent": {
+              "alfisols": 2.9,
+              "entisols": 7.3,
+              "inceptisols": 66,
+              "mollisols": 0,
+              "ultisols": 24,
+              "histosols": 0,
+              "miscellaneous": 0
+            },
+            "acidicSoilSharePercent": 91,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 4 soil orders, 7 sub-orders, 10 great groups and 14 sub-groups in this state. Soil-order shares of geographical area: alfisols 2.9%; entisols 7.3%; inceptisols 66%; ultisols 24%. Acidic soils are reported across 91% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [],
         "location": [],
@@ -22557,6 +22784,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -22979,7 +23214,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-SK-SOIL-NEC2025",
+            "regionId": "IN-SK",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 3,
+            "subOrderCount": 7,
+            "greatGroupCount": 12,
+            "subGroupCount": 26,
+            "soilOrderSharePercent": {
+              "alfisols": 0,
+              "entisols": 42,
+              "inceptisols": 43,
+              "mollisols": 15,
+              "ultisols": 0,
+              "histosols": 0,
+              "miscellaneous": 0
+            },
+            "acidicSoilSharePercent": 8,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 3 soil orders, 7 sub-orders, 12 great groups and 26 sub-groups in this state. Soil-order shares of geographical area: entisols 42%; inceptisols 43%; mollisols 15%. Acidic soils are reported across 8% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [
           {
             "name": "Sikkim Lepcha Tungbuk",
@@ -25480,6 +25744,14 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "necYearbook2025SoilConditions",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; underlying survey 2010",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -25746,7 +26018,36 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-TR-SOIL-NEC2025",
+            "regionId": "IN-TR",
+            "category": "soilTypes",
+            "name": "State soil profile — USDA soil orders and acidic-soil extent",
+            "officialName": "Soil taxonomy and prevalent soil orders",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderCount": 5,
+            "subOrderCount": 7,
+            "greatGroupCount": 9,
+            "subGroupCount": 19,
+            "soilOrderSharePercent": {
+              "alfisols": 4.5,
+              "entisols": 8.1,
+              "inceptisols": 80.6,
+              "mollisols": 0,
+              "ultisols": 6.6,
+              "histosols": 0.2,
+              "miscellaneous": 0
+            },
+            "acidicSoilSharePercent": 68,
+            "sourceName": "North Eastern Council Yearbook 2025; underlying ICAR-NBSS&LUP survey",
+            "sourceId": "necYearbook2025SoilConditions",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceDate": "2025 publication; underlying survey 2010",
+            "verificationStatus": "verified",
+            "description": "The NEC Yearbook 2025 reports 5 soil orders, 7 sub-orders, 9 great groups and 19 sub-groups in this state. Soil-order shares of geographical area: alfisols 4.5%; entisols 8.1%; inceptisols 80.6%; ultisols 6.6%; histosols 0.2%. Acidic soils are reported across 68% of the state area. These are survey-based statewide estimates, not current district-level soil maps."
+          }
+        ],
         "giProducts": [
           {
             "name": "Tripura Risa Textile",

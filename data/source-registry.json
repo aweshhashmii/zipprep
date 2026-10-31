@@ -694,6 +694,24 @@
       "issuingAuthority": "Press Information Bureau, Government of India; Ministry of Commerce and Industry / DPIIT",
       "cadence": "Refresh against DPIIT/NICDC project status updates and the latest Union Budget; do not infer that a corridor's full route or every proposed node is approved.",
       "note": "The PIB explainer lists 11 corridor programmes and named nodes/projects. Where the source does not state an individual node's implementation stage, the record says so rather than inferring it."
+    },
+    {
+      "id": "necYearbook2025SoilConditions",
+      "name": "North Eastern Council Yearbook 2025 — Soil Conditions, soil taxonomy and acidic-soil extent",
+      "url": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+      "tabs": [
+        "geography",
+        "environment"
+      ],
+      "fields": [
+        "State-wise soil taxonomy orders, sub-orders, great groups and sub-groups",
+        "Percentage distribution of Alfisols, Entisols, Inceptisols, Mollisols, Ultisols, Histosols and miscellaneous soils",
+        "Share of state area under acidic soils"
+      ],
+      "referenceDate": "2025 publication; underlying soil survey source ICAR-NBSS&LUP 2010",
+      "issuingAuthority": "North Eastern Council, Ministry of Development of North Eastern Region; underlying soil survey by ICAR-NBSS&LUP",
+      "cadence": "Retain survey vintage and refresh only when a newer comparable soil survey is published.",
+      "note": "NEC Yearbook 2025 reproduces ICAR-NBSS&LUP soil survey data. Values are state-wide shares of geographical area, not district-level soil maps; survey vintage is 2010."
     }
   ]
 }

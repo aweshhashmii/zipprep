@@ -6313,6 +6313,123 @@
       ],
       "referenceDate": "IUCN Red List species assessment",
       "cadence": "Refresh against current state/UT wildlife surveys and IUCN Red List assessments."
+    },
+    {
+      "id": "arunachalPMKSYWatershed2024",
+      "name": "Arunachal Pradesh Rural Development Department — WDC-PMKSY 2.0 project dashboard",
+      "url": "https://ruraldev.arunachal.gov.in/pmksy-data.php",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Official project dashboard accessed 31 October 2026",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "mizoramMinorIrrigationSchemes2026",
+      "name": "Mizoram Irrigation and Water Resources Department — Programmes and Schemes",
+      "url": "https://irrigation.mizoram.gov.in/page/programmes-schemes",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Official department programme profile accessed 31 October 2026",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "nagalandMinorIrrigation2024",
+      "name": "Nagaland Information and Public Relations Department — Nagaland Basic Facts 2024, Minor Irrigation",
+      "url": "https://ipr.nagaland.gov.in/sites/default/files/2025-03/Nagaland%20Basic%20Facts%202024.pdf",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Nagaland Basic Facts 2024, minor irrigation status through 2023–24",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "sikkimWaterResourcesIrrigation2026",
+      "name": "Sikkim Water Resources and River Development Department — Department profile and PMKSY schemes",
+      "url": "https://www.sikkim.gov.in/departments/water-resource-river-development-department",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Official department profile accessed 31 October 2026",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "andamanAPWDMinorIrrigation2026",
+      "name": "Andaman Public Works Department — Minor Irrigation, Flood Control and Anti-Sea Erosion",
+      "url": "https://apwd.and.nic.in/apwd/Activities.htm",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Official APWD activities page accessed 31 October 2026",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "delhiIFCIrrigationProjects2026",
+      "name": "Delhi Irrigation and Flood Control Department — Management of Irrigation Projects",
+      "url": "https://ifc.delhi.gov.in/ifc/management-irrigation-projects",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Official Government of NCT of Delhi page last updated 14 August 2026",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "puducherryNeerumOorumIrrigation2019",
+      "name": "Puducherry District Environment Plan — Neerum Oorum water-body restoration and irrigation",
+      "url": "https://dste.py.gov.in/sites/default/files/deppuducherry.pdf",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Puducherry District Environment Plan, section 10, page 52",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "chandigarhIrrigationScope2024",
+      "name": "Chandigarh Administration — District profile and municipal water infrastructure",
+      "url": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
+    },
+    {
+      "id": "lakshadweepAgricultureScope2026",
+      "name": "Lakshadweep Administration — Department of Agriculture",
+      "url": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "tabs": [
+        "economyInfrastructure"
+      ],
+      "fields": [
+        "Named irrigation projects, minor irrigation schemes, command area, water-body restoration and source-scope notes"
+      ],
+      "referenceDate": "Official UT Agriculture Department profile accessed 31 October 2026",
+      "cadence": "Retain reported reference year and project status; refresh from official water-resources and irrigation departments."
     }
   ]
 }

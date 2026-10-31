@@ -332,6 +332,48 @@
       "sourceUrl": "https://police.py.gov.in/Water%20Resource%20of%20Puducherry%20Region%20-%2002.03.18%20-%20Presentation%20by%20Dr%20Bascarane%20CGO.pdf",
       "referenceDate": "Government of Puducherry water-resources presentation, 2 March 2018",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "meghalayaGovernmentRiverSystems2026",
+      "title": "Meghalaya House, Government of Meghalaya — Natural Features",
+      "sourceUrl": "https://www.meghalayahousedelhi.nic.in/features.html",
+      "referenceDate": "Official Government of Meghalaya profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "tripuraGovernmentRiverCatchments2024",
+      "title": "Government of Tripura — Industrial Infrastructure Sector Development Program, Dewanpassa Industrial Estate",
+      "sourceUrl": "https://industries.tripura.gov.in/sites/default/files/Tripura%20Industrial%20Infrastructure%20Sector%20Development%20Program%20-%20Dewanpassa%20Industrial%20Estate%20Draft%20Resettlement%20Plan.pdf",
+      "referenceDate": "Tripura Government project report, Table 4-3: Rivers of Tripura and Catchment Area",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanForestDepartmentGreatNicobarHydrology2021",
+      "title": "Andaman and Nicobar Administration — Great Nicobar Biosphere Reserve Management Plan 2021–2031",
+      "sourceUrl": "https://forest.and.nic.in/Forest_upload/file.php?id=Mjg5",
+      "referenceDate": "Great Nicobar Biosphere Reserve Management Plan 2021–2031, section 2.5 Hydrology and Water Sources",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhAdministrationSeasonalRivulets2024",
+      "title": "Chandigarh Administration — District profile, physical setting and seasonal rivulets",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile, physical setting section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "title": "Dadra and Nagar Haveli and Daman and Diu Administration — UT at a Glance and river references",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepAdministrationAtollProfile2026",
+      "title": "Lakshadweep Administration — About Lakshadweep",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -1197,6 +1239,78 @@
       "sourceUrl": "https://police.py.gov.in/Water%20Resource%20of%20Puducherry%20Region%20-%2002.03.18%20-%20Presentation%20by%20Dr%20Bascarane%20CGO.pdf",
       "referenceDate": "Government of Puducherry water-resources presentation, 2 March 2018",
       "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-meghalaya-brahmaputra-surma-systems",
+      "regionName": "Meghalaya",
+      "category": "tributaries",
+      "name": "Brahmaputra and Surma–Meghna river-system tributaries",
+      "description": "The Government of Meghalaya identifies the Manda, Damring, Jinjiram, Ringge, Ganol, Bhogai and Simsang in the Garo Hills; Khri, Umtrew, Umiam, Umkhen and Kupli in the Khasi–Jaintia Hills; and Kynshi, Umiam-Mawphlang and Umngot flowing south into Bangladesh. The profile describes the state's river systems draining toward the Brahmaputra and Surma–Meghna plains.",
+      "sourceId": "meghalayaGovernmentRiverSystems2026",
+      "sourceUrl": "https://www.meghalayahousedelhi.nic.in/features.html",
+      "referenceDate": "Official Government of Meghalaya profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-tripura-meghna-basin-rivers",
+      "regionName": "Tripura",
+      "category": "tributaries",
+      "name": "Meghna-basin rivers and catchments",
+      "description": "Tripura's official project report states that the state is drained by nine rivers within the Barak, Gomti and Feni sub-basins of the Meghna basin: Gumti, Manu, Deo, Juri, Dhalai, Khowai, Haora, Buriganga and Muhuri. It supplies catchment areas at named gauging locations; this record describes the state river network rather than asserting that all nine are tributaries of one river.",
+      "sourceId": "tripuraGovernmentRiverCatchments2024",
+      "sourceUrl": "https://industries.tripura.gov.in/sites/default/files/Tripura%20Industrial%20Infrastructure%20Sector%20Development%20Program%20-%20Dewanpassa%20Industrial%20Estate%20Draft%20Resettlement%20Plan.pdf",
+      "referenceDate": "Tripura Government project report, Table 4-3: Rivers of Tripura and Catchment Area",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-andaman-great-nicobar-rivers",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "tributaries",
+      "name": "Great Nicobar island rivers and perennial streams",
+      "description": "The Great Nicobar Biosphere Reserve Management Plan identifies five perennial rivers originating from Mount Thullier: Galathea, Jubilee, Alexandra, Dagmar and Amrit Kaur. It also records perennial streams including Magar Nallah and Prem Bahadur Nallah. These island catchments drain to the sea rather than forming a mainland river-basin tributary network.",
+      "sourceId": "andamanForestDepartmentGreatNicobarHydrology2021",
+      "sourceUrl": "https://forest.and.nic.in/Forest_upload/file.php?id=Mjg5",
+      "referenceDate": "Great Nicobar Biosphere Reserve Management Plan 2021–2031, section 2.5 Hydrology and Water Sources",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-chandigarh-seasonal-rivulets",
+      "regionName": "Chandigarh",
+      "category": "tributaries",
+      "name": "Sukhna Choe, Patiala-Ki-Rao Choe and local seasonal streams",
+      "description": "The Chandigarh Administration identifies Sukhna Choe in the east and Patiala-Ki-Rao Choe in the west as seasonal rivulets, with N-Choe and Choe Nala as minor local streams. The 2024 district profile states that no river flows through Chandigarh and the Ghaggar is about 7 km away; these are local drainage channels, not tributaries of a river within the UT.",
+      "sourceId": "chandigarhAdministrationSeasonalRivulets2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile, physical setting section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-dnhdd-no-relationships-listed",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "tributaries",
+      "name": "No named tributary relationships listed in the UT profile",
+      "description": "The UT Administration's district profiles identify the Daman Ganga as a river in Dadra and Nagar Haveli and Daman. The cited official profile does not enumerate named tributaries or establish tributary relationships for the merged UT; no additional river relationship is inferred from the source.",
+      "sourceId": "dddAdministrationRiverInventory2026",
+      "sourceUrl": "https://ddd.gov.in/ut-at-a-glance/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "tributaries-lakshadweep-no-river-network-listed",
+      "regionName": "Lakshadweep",
+      "category": "tributaries",
+      "name": "No river-tributary network listed for the atoll archipelago",
+      "description": "The Lakshadweep Administration describes the UT as an archipelago of coral islands, atolls and reefs. The cited official profile does not list a river or tributary network; this is a source-scope note and does not imply that the islands lack freshwater lenses, streams or coastal water features.",
+      "sourceId": "lakshadweepAdministrationAtollProfile2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "referenceDate": "Official UT profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
       "lastVerifiedAt": "2026-10-31"
     }
   ]

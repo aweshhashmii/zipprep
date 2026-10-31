@@ -6125,7 +6125,200 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Bauxite",
+            "district": "Belagavi, Chikkamagaluru, Uttara Kannada, Dakshina Kannada and Udupi",
+            "description": "IBM records bauxite occurrences in these districts; total resources were 46.449 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chromite",
+            "district": "Chikkamagaluru, Hassan and Mysuru",
+            "description": "Chromite occurrence and resource record; total resources were 1.817 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Bengaluru, Belagavi, Chitradurga and Hassan",
+            "description": "Feldspar occurrences recorded in the IBM state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold",
+            "district": "Chitradurga, Dharwad, Gadag, Kalaburagi, Hassan, Haveri, Kolar, Raichur and Tumakuru",
+            "description": "Karnataka is India's principal gold-producing state; IBM reports 1,553 kg gold metal production in 2023–24.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore — haematite",
+            "district": "Bagalkot, Ballari, Vijayapura, Chikkamagaluru, Chitradurga, Dharwad, Gadag, Uttara Kannada, Shivamogga and Tumakuru",
+            "description": "Haematite occurrences across the listed districts; total resources were 2,835.992 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore — magnetite",
+            "district": "Chikkamagaluru, Hassan, Uttara Kannada, Dakshina Kannada and Shivamogga",
+            "description": "Magnetite occurrences recorded; total resources were 7,802.171 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kyanite",
+            "district": "Chikkamagaluru, Chitradurga, Kodagu, Mandya, Mysuru, Shivamogga and Dakshina Kannada",
+            "description": "Kyanite occurrences recorded; total resources were 13.173 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Bagalkot, Belagavi, Ballari, Vijayapura, Chikkamagaluru, Chitradurga, Davanagere, Gadag, Kalaburagi, Hassan, Mysuru, Uttara Kannada, Dakshina Kannada, Shivamogga, Tumakuru and Udupi",
+            "description": "Widespread limestone occurrences; total resources were 56,170.457 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Kodagu, Mandya and Mysuru",
+            "description": "Magnesite occurrences recorded; total resources were 5.543 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Belagavi, Ballari, Chikkamagaluru, Chitradurga, Davanagere, Uttara Kannada, Shivamogga and Tumakuru",
+            "description": "Manganese occurrences recorded; total resources were 123.972 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Bagalkot, Bengaluru, Belagavi, Ballari, Chikkamagaluru, Chitradurga, Davanagere, Dharwad, Gadag, Kalaburagi, Hassan, Haveri, Kolar, Koppal, Mandya, Mysuru, Uttara Kannada, Dakshina Kannada, Raichur, Shivamogga, Tumakuru and Udupi",
+            "description": "Quartz and silica-sand occurrences recorded across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asbestos",
+            "district": "Chikkamagaluru, Hassan, Mandya, Mysuru and Shivamogga",
+            "description": "Asbestos occurrence recorded in the IBM state mineral inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes and pyrite",
+            "district": "Chitradurga",
+            "description": "Barytes and pyrite occurrences recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "Chikkamagaluru, Chitradurga, Kalaburagi, Hassan, Uttara Kannada, Raichur and Shivamogga",
+            "description": "Copper ore total resources were 41.499 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "Kolar and Mysuru",
+            "description": "Graphite occurrences recorded; total resources were 992,632 tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Molybdenum",
+            "district": "Kolar and Raichur",
+            "description": "Molybdenum ore occurrences recorded; total resources were 1.321 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Nickel",
+            "district": "Uttara Kannada",
+            "description": "Nickel ore occurrence recorded; IBM reports 0.23 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Platinum-group metals",
+            "district": "Davanagere",
+            "description": "Platinum-group metal occurrence and resource entry recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Hassan, Mysuru and Dakshina Kannada",
+            "description": "Sillimanite occurrences recorded; total resources were 982,725 tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silver",
+            "district": "Chitradurga and Raichur",
+            "description": "Silver ore occurrence; IBM reports 25.934 million tonnes ore resources and 9.72 tonnes metal resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Titanium minerals",
+            "district": "Hassan, Uttara Kannada and Shivamogga",
+            "description": "Titanium-mineral occurrences recorded; total resources were 13.862 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tungsten",
+            "district": "Gadag, Kolar and Raichur",
+            "description": "Tungsten ore occurrences recorded; total resources were 36.678 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vanadium",
+            "district": "Hassan, Uttara Kannada and Shivamogga",
+            "description": "Vanadium occurrences recorded; total ore resources were 19.384 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Hassan, Mandya and Mysuru",
+            "description": "Vermiculite occurrence recorded; total resources were 162,240 tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 47033.42,
@@ -6170,7 +6363,259 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Gold (metal)",
+            "district": "Karnataka",
+            "description": "2023–24 provisional production: 1,553 kg from 4 reporting mines; Karnataka was the principal gold-producing state.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore",
+            "district": "Karnataka",
+            "description": "2023–24 provisional production: 40.996 million tonnes from 51 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Karnataka",
+            "description": "2023–24 provisional production: 355,057 tonnes from 11 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Silver (recovered during gold refining)",
+            "district": "Raichur and Tumakuru",
+            "description": "2023–24 reported recovery: 150 kg; IBM notes recovery during gold refining.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Karnataka",
+            "description": "2023–24 provisional production: 40.832 million tonnes from 53 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limeshell",
+            "district": "Karnataka",
+            "description": "2023–24 provisional production: 891 tonnes from 2 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Karnataka",
+            "description": "2023–24 provisional production: 6,816 tonnes from 3 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Hindalco Industries — Belagavi",
+            "district": "Belagavi",
+            "description": "IBM lists 350 thousand tonnes per year alumina capacity; additional paste and vanadium product capacities are separately reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC — Wadi Cement Works",
+            "district": "Wadi, Kalaburagi",
+            "description": "IBM lists 5,450 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC — Kudithini Grinding Unit",
+            "district": "Kudithini, Ballari",
+            "description": "IBM lists 1,100 thousand tonnes per year cement capacity; marked as a grinding unit in the yearbook.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC — Thondebhavi Grinding Unit",
+            "district": "Thondebhavi, Chikkaballapur",
+            "description": "IBM lists 1,660 thousand tonnes per year cement capacity; marked as a grinding unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bagalkot Cement Industries",
+            "district": "Bagalkot",
+            "description": "IBM lists 600 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chettinad Cement — Kallur",
+            "district": "Kallur, Kalaburagi",
+            "description": "IBM lists 2,500 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dalmia Cement — Yadwad",
+            "district": "Yadwad, Belagavi",
+            "description": "IBM lists 4,000 thousand tonnes per year cement capacity and separately 2,600 thousand tonnes per year clinker capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Heidelberg Cement India — Ammasandra",
+            "district": "Ammasandra, Tumakuru",
+            "description": "IBM lists 510 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JK Cement — Muddapur",
+            "district": "Muddapur, Bagalkot",
+            "description": "IBM lists 3,000 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JSW Cement — Vijayanagar",
+            "district": "Vijayanagar, Ballari",
+            "description": "IBM lists 3,200 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kesoram Industries — Vasavadatta Cement",
+            "district": "Sedam, Kalaburagi",
+            "description": "IBM lists 8,565 thousand tonnes per year capacity for OPC and separately for PPC; product categories are not to be summed.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Orient Cement — Itagi",
+            "district": "Itagi, Chittapur, Kalaburagi",
+            "description": "IBM lists 3,000 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ramco Cement — Mathodu",
+            "district": "Mathodu, Chitradurga",
+            "description": "IBM lists 290 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement — Benekanahalli",
+            "district": "Benekanahalli, Kalaburagi",
+            "description": "IBM lists 3,000 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Rajashree Cement",
+            "district": "Malkhed, Kalaburagi",
+            "description": "IBM lists 6,100 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Ginigera",
+            "district": "Ginigera, Koppal",
+            "description": "IBM lists 1,300 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "H&R Johnson India",
+            "district": "Hubballi",
+            "description": "IBM lists 47.72 thousand tonnes per year ceramic capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Solaris Chem Tech Industries",
+            "district": "Bhinge, Uttara Kannada",
+            "description": "IBM lists capacities for caustic soda, chlorine, hydrochloric acid and phosphoric acid; each is a separate product line.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mangalore Chemicals & Fertilizers",
+            "district": "Panambur, Mangaluru",
+            "description": "IBM lists capacities of 379.5 thousand tonnes per year urea, 260 thousand tonnes per year DAP and 40 thousand tonnes per year complex fertilizer.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JSW Steel — Vijayanagar Works",
+            "district": "Tornagallu, Sandur, Ballari",
+            "description": "IBM lists 12,000 thousand tonnes per year crude/liquid steel capacity, alongside separate pig-iron, pellet, sinter and coke capacities.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Visvesvaraya Iron & Steel",
+            "district": "Bhadravati, Shivamogga",
+            "description": "IBM lists 118 thousand tonnes per year crude/liquid steel capacity and 205 thousand tonnes per year pig-iron capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "KIOCL — Pellet Plant",
+            "district": "Mangaluru",
+            "description": "IBM lists 3,500 thousand tonnes per year pellet capacity and 6,700 thousand tonnes per year concentrate capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mangalore Refinery and Petrochemicals Ltd",
+            "district": "Mangaluru",
+            "description": "IBM lists 15,000 thousand tonnes per year petroleum-refining capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sandur Manganese & Iron Ore",
+            "district": "Mariyammanahalli, Hospet",
+            "description": "IBM lists 36 thousand tonnes per year silico-manganese capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
     },

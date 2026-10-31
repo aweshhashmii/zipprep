@@ -332,7 +332,7 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
    v.forestAndTreeCoverSqKm!==undefined?Number(v.forestAndTreeCoverSqKm).toLocaleString('en-IN')+' km²':'',
    v.percentOfGeographicalArea!==undefined&&v.percentOfGeographicalArea!==null?v.percentOfGeographicalArea+'% of geographical area':'',
    v.sourceId?'Source ID '+v.sourceId:'',
-   v.verificationStatus==='verification_pending'?'Verification pending':'',
+   v.verificationStatus==='verified'?'Source-verified':v.verificationStatus==='verification_pending'?'Verification pending':'',
    v.verificationStatus==='not_available'?'Not available in cited source':'',
    v.referenceDate?'Checked '+v.referenceDate:''
   ].filter(Boolean).join(' · ');

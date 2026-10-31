@@ -805,6 +805,17 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1334,7 +1345,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-AP-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 2.08 million ha; production 8.16 million tonnes; yield 3,928 kg/ha. Irrigation coverage 97.24% (2023–24 column in the source table).",
+            "areaMillionHectares": 2.08,
+            "productionMillionTonnes": 8.16,
+            "yieldKgPerHectare": 3928,
+            "irrigatedAreaPercent": 97.24,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 35424.98,
           "percentOfGeographicalArea": 21.74,
@@ -6508,6 +6535,17 @@
           "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
           "lastVerifiedAt": "2026-10-31",
           "note": "State soil-order distribution and mapped soil-family units from ICAR–NBSS&LUP Kolkata regional summary; only percentages explicitly stated by the institute are reproduced."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7013,7 +7051,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-BR-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 3.24 million ha; production 8.30 million tonnes; yield 2,561 kg/ha. Irrigation coverage 78.10% (2023–24 column in the source table).",
+            "areaMillionHectares": 3.24,
+            "productionMillionTonnes": 8.3,
+            "yieldKgPerHectare": 2561,
+            "irrigatedAreaPercent": 78.1,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 9902.66,
           "percentOfGeographicalArea": 10.52,
@@ -8114,6 +8168,17 @@
           "referenceDate": "2026-03-31",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": null,
@@ -8517,7 +8582,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-CT-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 3.91 million ha; production 10.37 million tonnes; yield 2,655 kg/ha. Irrigation coverage 34.33% (2023–24 column in the source table).",
+            "areaMillionHectares": 3.91,
+            "productionMillionTonnes": 10.37,
+            "yieldKgPerHectare": 2655,
+            "irrigatedAreaPercent": 34.33,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 62350.45,
           "percentOfGeographicalArea": 46.12,
@@ -21874,6 +21955,17 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": null,
@@ -22623,7 +22715,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-MP-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 3.89 million ha; production 9.11 million tonnes; yield 2,345 kg/ha. Irrigation coverage 66.73% (2023–24 column in the source table).",
+            "areaMillionHectares": 3.89,
+            "productionMillionTonnes": 9.11,
+            "yieldKgPerHectare": 2345,
+            "irrigatedAreaPercent": 66.73,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 85723.58,
           "percentOfGeographicalArea": 27.81,
@@ -32159,6 +32267,17 @@
           "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
           "lastVerifiedAt": "2026-10-31",
           "note": "State soil-order distribution and mapped soil-family units from ICAR–NBSS&LUP Kolkata regional summary; only percentages explicitly stated by the institute are reproduced."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": null,
@@ -32793,7 +32912,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-OD-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 3.83 million ha; production 9.53 million tonnes; yield 2,485 kg/ha. Irrigation coverage 35.82% (2023–24 column in the source table).",
+            "areaMillionHectares": 3.83,
+            "productionMillionTonnes": 9.53,
+            "yieldKgPerHectare": 2485,
+            "irrigatedAreaPercent": 35.82,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 58597.01,
           "percentOfGeographicalArea": 37.63,
@@ -34507,6 +34642,17 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -34863,7 +35009,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-PB-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 3.24 million ha; production 14.36 million tonnes; yield 4,428 kg/ha. Irrigation coverage 99.72% (2023–24 column in the source table).",
+            "areaMillionHectares": 3.24,
+            "productionMillionTonnes": 14.36,
+            "yieldKgPerHectare": 4428,
+            "irrigatedAreaPercent": 99.72,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 3321.24,
           "percentOfGeographicalArea": 6.59,
@@ -44167,6 +44329,17 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "sourceId": "desAgricultureStatistics2024_25",
+          "title": "Agricultural Statistics at a Glance 2024-25 — Table 2.4(b), Rice: major producing States",
+          "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+          "referenceDate": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "fields": [
+            "geography.crops"
+          ],
+          "note": "Major-producing-State table; crop-specific 2024-25 values and 2023-24 irrigation coverage. Not exhaustive for States omitted from the table."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -44941,7 +45114,23 @@
             "referenceYear": "2023-24"
           }
         ],
-        "crops": [],
+        "crops": [
+          {
+            "id": "IN-UP-CROP-RICE-DES2024-25",
+            "name": "Rice (paddy)",
+            "description": "2024–25: area 7.35 million ha; production 20.76 million tonnes; yield 2,824 kg/ha. Irrigation coverage 92.20% (2023–24 column in the source table).",
+            "areaMillionHectares": 7.35,
+            "productionMillionTonnes": 20.76,
+            "yieldKgPerHectare": 2824,
+            "irrigatedAreaPercent": 92.2,
+            "referenceYear": "2024-25",
+            "sourceId": "desAgricultureStatistics2024_25",
+            "sourceUrl": "https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf",
+            "referenceDate": "2024-25 crop year; irrigation coverage column refers to 2023-24",
+            "verificationStatus": "verified",
+            "note": "Listed among the ten major rice-producing States in the Ministry's Table 2.4(b); not a complete national inventory of all States' crops."
+          }
+        ],
         "forestCover": {
           "forestAndTreeCoverSqKm": 23996.72,
           "percentOfGeographicalArea": 9.96,

@@ -1143,6 +1143,26 @@
       "issuingAuthority": "ICAR–National Bureau of Soil Survey and Land Use Planning, Government of India",
       "referenceDate": "State soil-resource mapping at 1:250,000 scale; source page accessed 31 October 2026",
       "cadence": "Refresh against updated ICAR–NBSS&LUP state soil-resource maps; do not allocate the Rann or rock-outcrop area to soil orders."
+    },
+    {
+      "id": "cwcWaterSectorAtAGlance2023",
+      "name": "Central Water Commission — Water Sector at a Glance 2023, Table 3.1: State/UT-wise Major and Medium Irrigation Projects under PMKSY–AIBP",
+      "url": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise count of MMI projects benefitting under AIBP",
+        "Projects completed under AIBP",
+        "Projects under PMKSY-AIBP",
+        "Completed MMI projects under PMKSY-AIBP",
+        "Central assistance released during 2016–2023",
+        "Cumulative AIBP assistance up to 31 March 2023"
+      ],
+      "referenceDate": "2023-03-31",
+      "issuingAuthority": "Central Water Commission, Ministry of Jal Shakti, Government of India",
+      "cadence": "Refresh against the next CWC Water Sector at a Glance edition and the First Census of Major and Medium Irrigation Projects (reference year 2023–24).",
+      "note": "Table 3.1 is a programme-specific state-wise summary for PMKSY–AIBP; it is not a complete inventory of all irrigation projects. Source dashes are retained as unreported/not applicable, not zero. Madhya Pradesh values include phases as described in the table."
     }
   ]
 }

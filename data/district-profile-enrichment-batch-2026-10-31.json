@@ -14983,6 +14983,566 @@
           "note": "Historical satellite-assessed forest cover for the 2019 report-era 10-district Telangana. The state subsequently reorganised into a larger current district set; exact-name matches refer to historical report units and may not share current boundaries. Percentages use report-era district geographical area. Mahbubnagar/Mahabubnagar spelling variant is not mapped."
         }
       ]
+    },
+    {
+      "lgdCode": "1",
+      "name": "Anantnag",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1074.19,
+      "forestCoverPercent2019": 39.39,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "4",
+      "name": "Doda",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1485.93,
+      "forestCoverPercent2019": 61.63,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "626",
+      "name": "Ganderbal",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 494.5,
+      "forestCoverPercent2019": 30.52,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "5",
+      "name": "Jammu",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 767.63,
+      "forestCoverPercent2019": 31.89,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "7",
+      "name": "Kathua",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1331.44,
+      "forestCoverPercent2019": 53,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "620",
+      "name": "Kishtwar",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1785.05,
+      "forestCoverPercent2019": 21.82,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "622",
+      "name": "Kulgam",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 390.24,
+      "forestCoverPercent2019": 30.85,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "8",
+      "name": "Kupwara",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1464.95,
+      "forestCoverPercent2019": 53.39,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "11",
+      "name": "Pulwama",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 374.14,
+      "forestCoverPercent2019": 41.76,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "621",
+      "name": "Ramban",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 666.24,
+      "forestCoverPercent2019": 51.73,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "627",
+      "name": "Reasi",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1098.41,
+      "forestCoverPercent2019": 56.85,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "624",
+      "name": "Samba",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 331.79,
+      "forestCoverPercent2019": 36.02,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "13",
+      "name": "Srinagar",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 45.24,
+      "forestCoverPercent2019": 16.04,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "14",
+      "name": "Udhampur",
+      "stateName": "Jammu And Kashmir",
+      "forestCover2019SqKm": 1374.02,
+      "forestCoverPercent2019": 60.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "6",
+      "name": "Kargil",
+      "stateName": "Ladakh",
+      "forestCover2019SqKm": 59.68,
+      "forestCoverPercent2019": 0.42,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+        }
+      ]
+    },
+    {
+      "lgdCode": "79",
+      "name": "New Delhi",
+      "stateName": "Delhi",
+      "forestCover2019SqKm": 16.47,
+      "forestCoverPercent2019": 47.06,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019DelhiDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Delhi chapter, Table 11.6.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-delhi.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.6.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era Delhi district unit. Only the exact-name New Delhi LGD match is linked; the report uses 9 older districts while the current LGD directory has a reorganised district structure. Percentage uses report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019DelhiDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Delhi chapter, Table 11.6.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-delhi.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.6.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era Delhi district unit. Only the exact-name New Delhi LGD match is linked; the report uses 9 older districts while the current LGD directory has a reorganised district structure. Percentage uses report-era district geographical area."
+        }
+      ]
     }
   ],
   "sources": [
@@ -15169,6 +15729,22 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.25.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover; exact district-name match to current LGD identity after punctuation/spacing normalization."
+    },
+    {
+      "sourceId": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter, Table 11.11.4a",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover from the FSI 2019 combined Jammu & Kashmir/Ladakh chapter. Only exact-name current LGD matches are linked; the report includes two UTs and report-era district boundaries, and uses Survey of India shape-file areas rather than notified geographical areas. Spelling variants and disputed-area district rows are not mapped."
+    },
+    {
+      "sourceId": "fsiISFR2019DelhiDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Delhi chapter, Table 11.6.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-delhi.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.6.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era Delhi district unit. Only the exact-name New Delhi LGD match is linked; the report uses 9 older districts while the current LGD directory has a reorganised district structure. Percentage uses report-era district geographical area."
     }
   ]
 }

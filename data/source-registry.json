@@ -7098,6 +7098,34 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.30.4; 2019 forest-cover assessment",
       "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI tables."
+    },
+    {
+      "id": "fsiISFR2019JammuKashmirLadakhDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Jammu & Kashmir and Ladakh chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jammu-kashmir.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.11.4a",
+      "cadence": "Historical 2019 assessment; retain report-era district boundaries and source denominator caveats."
+    },
+    {
+      "id": "fsiISFR2019DelhiDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Delhi chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-delhi.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.6.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundaries and source denominator caveats."
     }
   ]
 }

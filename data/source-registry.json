@@ -1226,6 +1226,24 @@
       "issuingAuthority": "Ministry of Statistics and Programme Implementation; source data from Protection of Plant Varieties and Farmers' Rights Authority, Ministry of Agriculture and Farmers Welfare",
       "cadence": "Refresh from updated PPV&FRA agro-biodiversity hotspot publications; keep this as a regional agro-biodiversity classification rather than a substitute for a full geomorphological map.",
       "note": "The annexure names regional agrobiodiversity hotspots and their associated districts; it is not a comprehensive national physiographic or geological classification."
+    },
+    {
+      "id": "aisheInstitutions2023_24",
+      "name": "Ministry of Education — All India Survey on Higher Education (AISHE) 2023–24, Table 1(a): State/UT-wise Total Number of Institutions Registered and Responded",
+      "url": "https://cdnbbsr.s3waas.gov.in/s392049debbe566ca5782a3045cf300a3c/uploads/2026/07/202607131602421770.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Registered and responded universities/university-level institutions",
+        "Registered and responded colleges",
+        "Registered and responded standalone institutions",
+        "Total registered and responded higher education institutions and response rate"
+      ],
+      "referenceDate": "Academic year 2023-24",
+      "issuingAuthority": "Statistics Bureau, Department of Higher Education, Ministry of Education, Government of India",
+      "cadence": "Refresh against the next AISHE final report; retain the survey year and distinguish registered institutions from responding institutions.",
+      "note": "AISHE is based on voluntary uploads by registered HEIs. The report states that inclusion in AISHE does not itself confer recognition. The Lakshadweep footnote notes offshore postgraduate campuses of University of Calicut."
     }
   ]
 }

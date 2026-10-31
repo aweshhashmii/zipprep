@@ -12113,6 +12113,951 @@
           "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
         }
       ]
+    },
+    {
+      "lgdCode": "261",
+      "name": "Aizawl",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 3078.91,
+      "forestCoverPercent2019": 86.1,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "262",
+      "name": "Champhai",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 2487.79,
+      "forestCoverPercent2019": 78.09,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "263",
+      "name": "Kolasib",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 1152.55,
+      "forestCoverPercent2019": 83.4,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "264",
+      "name": "Lawngtlai",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 2200.08,
+      "forestCoverPercent2019": 86.04,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "265",
+      "name": "Lunglei",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 4022.17,
+      "forestCoverPercent2019": 88.67,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "266",
+      "name": "Mamit",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 2716.87,
+      "forestCoverPercent2019": 89.81,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "268",
+      "name": "Serchhip",
+      "stateName": "Mizoram",
+      "forestCover2019SqKm": 1161.65,
+      "forestCoverPercent2019": 81.75,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "244",
+      "name": "Dimapur",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 592.09,
+      "forestCoverPercent2019": 63.87,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "614",
+      "name": "Kiphire",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 834.58,
+      "forestCoverPercent2019": 73.86,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "245",
+      "name": "Kohima",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1182.66,
+      "forestCoverPercent2019": 80.84,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "615",
+      "name": "Longleng",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 372.4,
+      "forestCoverPercent2019": 66.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "246",
+      "name": "Mokokchung",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1327.61,
+      "forestCoverPercent2019": 82.2,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "247",
+      "name": "Mon",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1202.82,
+      "forestCoverPercent2019": 67.35,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "613",
+      "name": "Peren",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1414.82,
+      "forestCoverPercent2019": 85.69,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "248",
+      "name": "Phek",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1615.81,
+      "forestCoverPercent2019": 79.75,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "249",
+      "name": "Tuensang",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1699.66,
+      "forestCoverPercent2019": 67.02,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "250",
+      "name": "Wokha",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 1305.81,
+      "forestCoverPercent2019": 80.21,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "251",
+      "name": "Zunheboto",
+      "stateName": "Nagaland",
+      "forestCover2019SqKm": 938.14,
+      "forestCoverPercent2019": 74.75,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "252",
+      "name": "Bishnupur",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 21.5,
+      "forestCoverPercent2019": 4.33,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "253",
+      "name": "Chandel",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 2863.35,
+      "forestCoverPercent2019": 86.43,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "254",
+      "name": "Churachandpur",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 3919.51,
+      "forestCoverPercent2019": 85.77,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "255",
+      "name": "Imphal East",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 274.26,
+      "forestCoverPercent2019": 38.68,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "256",
+      "name": "Imphal West",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 51.75,
+      "forestCoverPercent2019": 9.97,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "257",
+      "name": "Senapati",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 2136.58,
+      "forestCoverPercent2019": 65.32,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "258",
+      "name": "Tamenglong",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 3844.44,
+      "forestCoverPercent2019": 87.55,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "259",
+      "name": "Thoubal",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 70.76,
+      "forestCoverPercent2019": 13.77,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "260",
+      "name": "Ukhrul",
+      "stateName": "Manipur",
+      "forestCover2019SqKm": 3664.75,
+      "forestCoverPercent2019": 80.65,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
     }
   ],
   "sources": [
@@ -12187,6 +13132,30 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+    },
+    {
+      "sourceId": "fsiISFR2019MizoramDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter, Table 11.19.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.19.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Mizoram has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+    },
+    {
+      "sourceId": "fsiISFR2019NagalandDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter, Table 11.20.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.20.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Nagaland has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
+    },
+    {
+      "sourceId": "fsiISFR2019ManipurDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter, Table 11.17.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.17.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Manipur has since expanded or reorganised its district structure; exact-name current LGD matches link only to the historical report unit and are not current-boundary estimates. Percentages use report-era district geographical area."
     }
   ]
 }

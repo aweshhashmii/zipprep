@@ -660,6 +660,23 @@
       "issuingAuthority": "Ministry of Ports, Shipping and Waterways",
       "cadence": "Refresh from the Ministry's next port-wise parliamentary annexure; keep operational, notified and under-construction status separate.",
       "note": "The 68 operational OTMP entries are reproduced as listed in the parliamentary reply. Names and spellings follow the annexure; duplicated or closely related port/terminal names are not silently merged."
+    },
+    {
+      "id": "mnreRenewableCapacityMar2026",
+      "name": "Ministry of New and Renewable Energy — State-wise location-based installed renewable power capacity",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+      "tabs": [
+        "environment",
+        "economy"
+      ],
+      "fields": [
+        "State/UT total installed renewable power capacity (MW)",
+        "Small hydro, wind, bio-power, solar and large hydro capacity components where reported"
+      ],
+      "referenceDate": "2026-03-31",
+      "issuingAuthority": "Ministry of New and Renewable Energy",
+      "cadence": "Refresh monthly from MNRE's state-wise location-based installed-capacity statement. Do not interpret installed capacity as electricity generated or a list of individual projects.",
+      "note": "This source reports location-based installed capacity. The category record is a state/UT capacity snapshot and is explicitly not a named-project inventory."
     }
   ]
 }

@@ -438,6 +438,11 @@
       "id": "mopwsOperationalPorts2026",
       "name": "Ministry of Ports, Shipping and Waterways — operational major and other-than-major ports, notified major ports and projects under construction",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227670&lang=1&reg=1"
+    },
+    {
+      "id": "mnreRenewableCapacityMar2026",
+      "name": "Ministry of New and Renewable Energy — State-wise location-based installed renewable power capacity",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf"
     }
   ],
   "regions": [
@@ -666,6 +671,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1370,7 +1383,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-AP-MNRE-20260331",
+            "regionId": "IN-AP",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 15980.11,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 15,980.11 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -1960,6 +1988,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2421,7 +2457,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-AR-MNRE-20260331",
+            "regionId": "IN-AR",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 2021.05,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 2,021.05 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -2760,6 +2811,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3350,7 +3409,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-AS-MNRE-20260331",
+            "regionId": "IN-AS",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 958.28,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 958.28 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -3761,6 +3835,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -4213,7 +4295,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-BR-MNRE-20260331",
+            "regionId": "IN-BR",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 651.26,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 651.26 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -4524,6 +4621,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -4942,7 +5047,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-CT-MNRE-20260331",
+            "regionId": "IN-CT",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 2323.56,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 2,323.56 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -5217,6 +5337,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -5639,7 +5767,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-GA-MNRE-20260331",
+            "regionId": "IN-GA",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 83.49,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 83.49 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -6004,6 +6147,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7029,7 +7180,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-GJ-MNRE-20260331",
+            "regionId": "IN-GJ",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 47178.33,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 47,178.33 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -7493,6 +7659,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7797,7 +7971,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-HR-MNRE-20260331",
+            "regionId": "IN-HR",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 3011.72,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 3,011.72 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -8261,6 +8450,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -9025,7 +9222,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-HP-MNRE-20260331",
+            "regionId": "IN-HP",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 12802.96,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 12,802.96 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -9407,6 +9619,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -9932,7 +10152,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-JH-MNRE-20260331",
+            "regionId": "IN-JH",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 489.59,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 489.59 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -10330,6 +10565,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -11027,7 +11270,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-KA-MNRE-20260331",
+            "regionId": "IN-KA",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 26722.76,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 26,722.76 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -11579,6 +11837,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -12086,7 +12352,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-KL-MNRE-20260331",
+            "regionId": "IN-KL",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 4574.28,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 4,574.28 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -12472,6 +12753,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -13324,7 +13613,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-MP-MNRE-20260331",
+            "regionId": "IN-MP",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 12182.64,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 12,182.64 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -13807,6 +14111,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -14761,7 +15073,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-MH-MNRE-20260331",
+            "regionId": "IN-MH",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 31980.63,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 31,980.63 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -15039,6 +15366,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -15260,7 +15595,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-MN-MNRE-20260331",
+            "regionId": "IN-MN",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 127.97,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 127.97 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -15565,6 +15915,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -15894,7 +16252,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-ML-MNRE-20260331",
+            "regionId": "IN-ML",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 395.11,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 395.11 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -16963,6 +17336,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -17178,7 +17559,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-MZ-MNRE-20260331",
+            "regionId": "IN-MZ",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 139.16,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 139.16 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -17424,6 +17820,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -17668,7 +18072,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-NL-MNRE-20260331",
+            "regionId": "IN-NL",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 111.01,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 111.01 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -18684,6 +19103,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -19342,7 +19769,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-OD-MNRE-20260331",
+            "regionId": "IN-OD",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 3242.84,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 3,242.84 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -19717,6 +20159,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -19962,7 +20412,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-PB-MNRE-20260331",
+            "regionId": "IN-PB",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 3439.93,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 3,439.93 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -20279,6 +20744,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -21010,7 +21483,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-RJ-MNRE-20260331",
+            "regionId": "IN-RJ",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 47020.54,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 47,020.54 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -21618,6 +22106,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -22066,7 +22562,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-SK-MNRE-20260331",
+            "regionId": "IN-SK",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 2344.67,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 2,344.67 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -22383,6 +22894,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -23473,7 +23992,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-TN-MNRE-20260331",
+            "regionId": "IN-TN",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 29108.27,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 29,108.27 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -23773,6 +24307,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -24101,7 +24643,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-TS-MNRE-20260331",
+            "regionId": "IN-TS",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 7930.58,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 7,930.58 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -24394,6 +24951,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -24695,7 +25260,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-TR-MNRE-20260331",
+            "regionId": "IN-TR",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 51.55,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 51.55 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -24997,6 +25577,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -25594,7 +26182,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-UP-MNRE-20260331",
+            "regionId": "IN-UP",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 7005.23,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 7,005.23 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -26218,6 +26821,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -26996,7 +27607,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-UK-MNRE-20260331",
+            "regionId": "IN-UK",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 6018.55,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 6,018.55 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -27358,6 +27984,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -27983,7 +28617,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-WB-MNRE-20260331",
+            "regionId": "IN-WB",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 2112.18,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 2,112.18 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -28312,6 +28961,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -28730,7 +29387,22 @@
             "sourceUrl": "https://andamannicobar.gov.in/about"
           }
         ],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-AN-MNRE-20260331",
+            "regionId": "IN-AN",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 37.37,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 37.37 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -28931,6 +29603,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -29104,7 +29784,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-CH-MNRE-20260331",
+            "regionId": "IN-CH",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 78.85,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 78.85 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -29292,6 +29987,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -29447,7 +30150,22 @@
         ],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-DHDD-MNRE-20260331",
+            "regionId": "IN-DHDD",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 138.65,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 138.65 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -29627,6 +30345,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -29798,7 +30524,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-DL-MNRE-20260331",
+            "regionId": "IN-DL",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 506.37,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 506.37 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -30032,6 +30773,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -30585,7 +31334,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-JK-MNRE-20260331",
+            "regionId": "IN-JK",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 3634.41,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 3,634.41 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -30837,6 +31601,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -31153,7 +31925,22 @@
         "coastalFeatures": [],
         "ports": [],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-LA-MNRE-20260331",
+            "regionId": "IN-LA",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 146.81,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 146.81 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -31356,6 +32143,14 @@
           "referenceDate": "2026-03-23",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT count from the Ministry of Culture / ASI parliamentary annexure. Unlisted or partial merged-UT coverage is explicitly qualified."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -31524,7 +32319,22 @@
             "sourceUrl": "https://lakshadweep.gov.in/islands/"
           }
         ],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-LD-MNRE-20260331",
+            "regionId": "IN-LD",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 6.57,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 6.57 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
@@ -31720,6 +32530,14 @@
           "referenceDate": "2026-02-13",
           "lastVerifiedAt": "2026-10-31",
           "note": "Operational major ports and OTMPs, notified major ports and under-construction projects are separately labelled."
+        },
+        {
+          "field": "geography.renewableEnergyProjects",
+          "sourceId": "mnreRenewableCapacityMar2026",
+          "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+          "referenceDate": "2026-03-31",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT aggregate location-based installed capacity; not a named-project inventory."
         }
       ],
       "lastVerifiedAt": null,
@@ -31935,7 +32753,22 @@
           }
         ],
         "islands": [],
-        "renewableEnergyProjects": [],
+        "renewableEnergyProjects": [
+          {
+            "id": "IN-PY-MNRE-20260331",
+            "regionId": "IN-PY",
+            "category": "renewableEnergyProjects",
+            "name": "Installed renewable power capacity — MNRE state/UT snapshot",
+            "officialName": "Location-based installed renewable power capacity",
+            "totalCapacityMW": 81.51,
+            "sourceName": "Ministry of New and Renewable Energy",
+            "sourceId": "mnreRenewableCapacityMar2026",
+            "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/04/20260415955675604.pdf",
+            "referenceDate": "2026-03-31",
+            "verificationStatus": "verified",
+            "description": "MNRE reports 81.51 MW of location-based installed renewable power capacity as at 31 March 2026. This is installed capacity, not annual electricity generation and not an individual-project list."
+          }
+        ],
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],

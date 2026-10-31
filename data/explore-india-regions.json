@@ -458,6 +458,12 @@
       "id": "necYearbook2025Climate",
       "name": "North Eastern Council Yearbook 2025 — Climate of the North Eastern States and Köppen classification",
       "url": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf"
+    },
+    {
+      "id": "dstDistrictClimateRiskAssessment2024",
+      "name": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+      "url": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+      "note": "District-level flood/drought hazard, exposure, vulnerability and risk assessment; retain the 1970–2019 baseline and within-state comparison limitation."
     }
   ],
   "regions": [
@@ -3944,7 +3950,132 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-AS-DPR-001",
+            "regionId": "IN-AS",
+            "category": "disasterProneRegions",
+            "name": "Flood and Drought risk concentration — Assam",
+            "officialName": "Assam: Flood and Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Assam among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories and more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          },
+          {
+            "id": "IN-AS-DPR-DUAL-01",
+            "regionId": "IN-AS",
+            "category": "disasterProneRegions",
+            "name": "Charaideo — very high dual flood-and-drought risk",
+            "officialName": "Charaideo district: very high dual flood-and-drought risk",
+            "districtName": "Charaideo",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Charaideo as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          },
+          {
+            "id": "IN-AS-DPR-DUAL-02",
+            "regionId": "IN-AS",
+            "category": "disasterProneRegions",
+            "name": "Dibrugarh — very high dual flood-and-drought risk",
+            "officialName": "Dibrugarh district: very high dual flood-and-drought risk",
+            "districtName": "Dibrugarh",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Dibrugarh as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          },
+          {
+            "id": "IN-AS-DPR-DUAL-03",
+            "regionId": "IN-AS",
+            "category": "disasterProneRegions",
+            "name": "Sibsagar — very high dual flood-and-drought risk",
+            "officialName": "Sibsagar district: very high dual flood-and-drought risk",
+            "districtName": "Sibsagar",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Sibsagar as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          },
+          {
+            "id": "IN-AS-DPR-DUAL-04",
+            "regionId": "IN-AS",
+            "category": "disasterProneRegions",
+            "name": "South Salmara-Mankachar — very high dual flood-and-drought risk",
+            "officialName": "South Salmara-Mankachar district: very high dual flood-and-drought risk",
+            "districtName": "South Salmara-Mankachar",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies South Salmara-Mankachar as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          },
+          {
+            "id": "IN-AS-DPR-DUAL-05",
+            "regionId": "IN-AS",
+            "category": "disasterProneRegions",
+            "name": "Golaghat — very high dual flood-and-drought risk",
+            "officialName": "Golaghat district: very high dual flood-and-drought risk",
+            "districtName": "Golaghat",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Golaghat as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
@@ -4970,7 +5101,48 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-BR-DPR-002",
+            "regionId": "IN-BR",
+            "category": "disasterProneRegions",
+            "name": "Flood and Drought risk concentration — Bihar",
+            "officialName": "Bihar: Flood and Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Bihar among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories and more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          },
+          {
+            "id": "IN-BR-DPR-DUAL-01",
+            "regionId": "IN-BR",
+            "category": "disasterProneRegions",
+            "name": "Patna — very high dual flood-and-drought risk",
+            "officialName": "Patna district: very high dual flood-and-drought risk",
+            "districtName": "Patna",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Patna as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",
@@ -5722,7 +5894,26 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-CT-DPR-012",
+            "regionId": "IN-CT",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Chhattisgarh",
+            "officialName": "Chhattisgarh: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Chhattisgarh among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
@@ -7950,7 +8141,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-GJ-DPR-005",
+            "regionId": "IN-GJ",
+            "category": "disasterProneRegions",
+            "name": "Flood risk concentration — Gujarat",
+            "officialName": "Gujarat: Flood risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Gujarat among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",
@@ -8849,7 +9059,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-HR-DPR-015",
+            "regionId": "IN-HR",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Haryana",
+            "officialName": "Haryana: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Haryana among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [
           {
@@ -11094,7 +11323,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-JH-DPR-008",
+            "regionId": "IN-JH",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Jharkhand",
+            "officialName": "Jharkhand: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Jharkhand among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
@@ -12328,7 +12576,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-KA-DPR-010",
+            "regionId": "IN-KA",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Karnataka",
+            "officialName": "Karnataka: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Karnataka among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [
           {
@@ -13454,7 +13721,47 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-KL-DPR-013",
+            "regionId": "IN-KL",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Kerala",
+            "officialName": "Kerala: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Kerala among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          },
+          {
+            "id": "IN-KL-DPR-DUAL-01",
+            "regionId": "IN-KL",
+            "category": "disasterProneRegions",
+            "name": "Alappuzha — very high dual flood-and-drought risk",
+            "officialName": "Alappuzha district: very high dual flood-and-drought risk",
+            "districtName": "Alappuzha",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Alappuzha as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [
           {
@@ -16387,7 +16694,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-MH-DPR-009",
+            "regionId": "IN-MH",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Maharashtra",
+            "officialName": "Maharashtra: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Maharashtra among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",
@@ -21488,7 +21814,48 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-OD-DPR-006",
+            "regionId": "IN-OD",
+            "category": "disasterProneRegions",
+            "name": "Flood and Drought risk concentration — Odisha",
+            "officialName": "Odisha: Flood and Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Odisha among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories and more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          },
+          {
+            "id": "IN-OD-DPR-DUAL-01",
+            "regionId": "IN-OD",
+            "category": "disasterProneRegions",
+            "name": "Kendrapara — very high dual flood-and-drought risk",
+            "officialName": "Kendrapara district: very high dual flood-and-drought risk",
+            "districtName": "Kendrapara",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Kendrapara as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",
@@ -26119,7 +26486,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-TN-DPR-011",
+            "regionId": "IN-TN",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Tamil Nadu",
+            "officialName": "Tamil Nadu: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Tamil Nadu among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",
@@ -28707,7 +29093,27 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-UP-DPR-003",
+            "regionId": "IN-UP",
+            "category": "disasterProneRegions",
+            "name": "Flood and Drought risk concentration — Uttar Pradesh",
+            "officialName": "Uttar Pradesh: Flood and Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Uttar Pradesh among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories and more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
@@ -30176,7 +30582,26 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-UK-DPR-014",
+            "regionId": "IN-UK",
+            "category": "disasterProneRegions",
+            "name": "Drought risk concentration — Uttarakhand",
+            "officialName": "Uttarakhand: Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Uttarakhand among the states/UTs that together account for more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [],
         "communityReserves": [],
         "marineProtectedAreas": [],
@@ -31331,7 +31756,90 @@
           }
         ],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-WB-DPR-004",
+            "regionId": "IN-WB",
+            "category": "disasterProneRegions",
+            "name": "Flood and Drought risk concentration — West Bengal",
+            "officialName": "West Bengal: Flood and Drought risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies West Bengal among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories and more than 85% of districts in the national very-high/high drought-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          },
+          {
+            "id": "IN-WB-DPR-DUAL-01",
+            "regionId": "IN-WB",
+            "category": "disasterProneRegions",
+            "name": "Murshidabad — very high dual flood-and-drought risk",
+            "officialName": "Murshidabad district: very high dual flood-and-drought risk",
+            "districtName": "Murshidabad",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Murshidabad as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          },
+          {
+            "id": "IN-WB-DPR-DUAL-02",
+            "regionId": "IN-WB",
+            "category": "disasterProneRegions",
+            "name": "Nadia — very high dual flood-and-drought risk",
+            "officialName": "Nadia district: very high dual flood-and-drought risk",
+            "districtName": "Nadia",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Nadia as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          },
+          {
+            "id": "IN-WB-DPR-DUAL-03",
+            "regionId": "IN-WB",
+            "category": "disasterProneRegions",
+            "name": "Uttar Dinajpur — very high dual flood-and-drought risk",
+            "officialName": "Uttar Dinajpur district: very high dual flood-and-drought risk",
+            "districtName": "Uttar Dinajpur",
+            "hazardTypes": [
+              "Flood",
+              "Drought"
+            ],
+            "riskClassification": "Very High dual flood-and-drought risk",
+            "riskScope": "Named district in the national top-50 flood-risk and top-50 drought-risk overlap",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The 2024 DST assessment identifies Uttar Dinajpur as one of 11 districts in the overlap between the 50 highest flood-risk and 50 highest drought-risk districts, with a very-high rating for both hazards. Risk categories are comparative within the relevant state/UT; do not compare this district's index directly with another state's district."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",
@@ -34129,7 +34637,26 @@
         "industrialCorridors": [],
         "riverValleyProjects": [],
         "environmentalChallenges": [],
-        "disasterProneRegions": [],
+        "disasterProneRegions": [
+          {
+            "id": "IN-JK-DPR-007",
+            "regionId": "IN-JK",
+            "category": "disasterProneRegions",
+            "name": "Flood risk concentration — Jammu and Kashmir",
+            "officialName": "Jammu and Kashmir: Flood risk concentration in the 2024 district climate-risk assessment",
+            "hazardTypes": [
+              "Flood"
+            ],
+            "riskScope": "State-level concentration summary; not a claim that every district is high risk",
+            "referencePeriod": "1970–2019 hazard baseline",
+            "referenceDate": "2024-12-13",
+            "sourceName": "Department of Science & Technology — District-level Climate Risk Assessment for India (2024)",
+            "sourceId": "dstDistrictClimateRiskAssessment2024",
+            "sourceUrl": "https://dst.gov.in/sites/default/files/Full%20Report_District-Level%20Climate%20Risk%20Assessment%20for%20India_Mapping%20Flood%20and%20Drought%20Risks%20Using%20IPCC%20Framework.pdf",
+            "verificationStatus": "verified",
+            "description": "The Department of Science & Technology's 2024 national summary identifies Jammu and Kashmir among the states/UTs that together account for about 85% of districts in the national very-high/high flood-risk categories. This is a national concentration finding for the listed group, not a state-wide rating and not a claim that all districts in this region are high risk. The report's district categories are comparable within each state/UT, not across states/UTs."
+          }
+        ],
         "conservationReserves": [
           {
             "name": "Conservation Reserve coverage — state aggregate",

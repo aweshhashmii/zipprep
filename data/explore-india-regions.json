@@ -12135,9 +12135,36 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Punjab State Review pp. 206–207. IBM lists quartz/silica sand in Hoshiarpur and quartzite in Hoshiarpur and Rupnagar; resource estimates are as at 1 April 2020. Both are marked as minor minerals in the State Review."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM explicitly reports no major-mineral production in Punjab during 2023–24. This is not a statement that minor-mineral production was zero."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Selected principal organised mineral-based industries from IBM State Review table 2, p. 207. Capacity values are transcribed as published; the table does not specify the units, so no units have been inferred. Listing does not confirm current operating status."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -12318,7 +12345,24 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Quartz and silica sand",
+            "district": "Hoshiarpur",
+            "description": "IBM records occurrence in Hoshiarpur. Combined quartz/silica-sand remaining resources: 3.927 million tonnes as at 1 April 2020; no reserve quantity reported. The mineral was declared a minor mineral in the 2015 Gazette notification cited by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartzite",
+            "district": "Hoshiarpur and Rupnagar (Ropar)",
+            "description": "IBM records occurrence in Hoshiarpur and Rupnagar (Ropar). Remaining resources: 81.912 million tonnes as at 1 April 2020; no reserve quantity reported. The mineral was declared a minor mineral in the 2015 Gazette notification cited by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 3321.24,
@@ -12356,7 +12400,107 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Major minerals — no production reported",
+            "district": "Punjab",
+            "description": "IBM reports no production of major minerals in Punjab during 2023–24. This statement concerns major minerals covered by the yearbook table; it must not be interpreted as zero production of minor minerals such as sand, gravel or building materials.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Antarctic Industries Ltd — alloy steel",
+            "district": "Ludhiana",
+            "description": "IBM-listed capacity: 120; the Punjab State Review table does not specify the capacity unit.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement — Ropar grinding unit",
+            "district": "Rupnagar (Ropar)",
+            "description": "IBM-listed cement grinding capacity: 2,500; capacity unit is not stated in the Punjab State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asian FCPL — cement",
+            "district": "Patiala",
+            "description": "IBM-listed capacity: 1,500; capacity unit is not stated in the Punjab State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement — Bathinda grinding unit",
+            "district": "Bathinda",
+            "description": "IBM-listed cement grinding capacity: 1,200; capacity unit is not stated in the Punjab State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Bathinda grinding unit",
+            "district": "Bathinda",
+            "description": "IBM-listed cement grinding capacity: 1,750; capacity unit is not stated in the Punjab State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Siel Chemical Complex",
+            "district": "Charatrampur",
+            "description": "IBM lists capacities of 74.3 (NaOH), 65.8 (chlorine), 18 (bleaching powder) and 66.0 (HCl); units are not specified in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "VTPL (Vardhaman Industries Ltd) — chemical",
+            "district": "Patiala",
+            "description": "IBM-listed capacity: 60; product and capacity unit are not specified in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "National Fertilizers Ltd — Nangal",
+            "district": "Rupnagar (Ropar)",
+            "description": "IBM lists capacity of 478.5 for urea and 22 for methanol; capacity units are not specified in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "National Fertilizers Ltd — Bathinda",
+            "district": "Bathinda",
+            "description": "IBM lists capacity of 511.5 for urea and 8.7 for sulphur (S); capacity units are not specified in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "HPCL-Mittal Energy Ltd — petroleum refinery",
+            "district": "Bathinda",
+            "description": "IBM-listed refinery capacity: 9,000; capacity unit is not specified in the Punjab State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vallabh Steels Ltd — sponge iron",
+            "district": "Sahnewal, Ludhiana",
+            "description": "IBM-listed capacity: 120; capacity unit is not specified in the Punjab State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },

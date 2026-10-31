@@ -50,6 +50,7 @@ const districtProfileJharkhandData = read('data/district-profile-isfr2023-jharkh
 const districtProfileGujaratData = read('data/district-profile-isfr2023-gujarat.json');
 const districtProfileKarnatakaData = read('data/district-profile-isfr2023-karnataka.json');
 const districtProfileKeralaData = read('data/district-profile-isfr2023-kerala.json');
+const districtProfileUttarakhandData = read('data/district-profile-isfr2023-uttarakhand.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -102,7 +103,7 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
-for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || []), ...(districtProfileGujaratData.records || []), ...(districtProfileKarnatakaData.records || []), ...(districtProfileKeralaData.records || [])]) {
+for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || []), ...(districtProfileGujaratData.records || []), ...(districtProfileKarnatakaData.records || []), ...(districtProfileKeralaData.records || []), ...(districtProfileUttarakhandData.records || [])]) {
   const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
   if (existing) {
     for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
@@ -413,6 +414,32 @@ for (const row of keralaForestRows) {
   for (const field of row.verifiedFields || []) {
     assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileKeralaData.source.sourceId),
       'Kerala ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
+  }
+}
+const uttarakhandForestRows = districtProfileUttarakhandData.records || [];
+assert(uttarakhandForestRows.length === 13, 'ISFR 2023 Uttarakhand district forest dataset must contain all 13 districts.');
+assert(sourceRegistry.sources.some(source => source.id === districtProfileUttarakhandData.source.sourceId),
+  'ISFR 2023 Uttarakhand district forest source must be registered.');
+const uttarakhandForestExpected = {
+  forestCoverCalculatedArea2023SqKm: 53483.36,
+  veryDenseForest2023SqKm: 5266.58,
+  moderatelyDenseForest2023SqKm: 12517.63,
+  openForest2023SqKm: 6519.62,
+  forestCover2023SqKm: 24303.83,
+  forestCoverChangeSince2021SqKm: -22.98,
+  scrub2023SqKm: 412.88
+};
+for (const [field, expectedValue] of Object.entries(uttarakhandForestExpected)) {
+  const actual = uttarakhandForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Uttarakhand ISFR 2023 district total does not reconcile for ' + field + ': ' + actual + ' vs ' + expectedValue);
+}
+for (const row of uttarakhandForestRows) {
+  assert(row.stateName === 'Uttarakhand', 'Uttarakhand ISFR district row has wrong state: ' + row.name);
+  assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '5'),
+    'Uttarakhand ISFR district row does not exactly match current LGD identity: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileUttarakhandData.source.sourceId),
+      'Uttarakhand ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
   }
 }
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');

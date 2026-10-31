@@ -14464,6 +14464,54 @@
       "referenceDate": "Lakshadweep Administration action plan, 2019",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-1209",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "waterfalls",
+      "name": "White Surf and Whisper Wave Waterfalls, Little Andaman",
+      "description": "The Andaman and Nicobar Administration's official tourism portal describes Little Andaman as a waterfall destination and lists White Surf and Whisper Wave as natural waterfalls surrounded by tropical rainforest.",
+      "sourceUrl": "https://tourism.andamannicobar.gov.in/islands_details.php?data=6dWGDXC1ieJsno2d1jHWCVAiQ1wRcLcwWAdRKN57EUMusF2VpOzjmiA",
+      "sourceId": "andamanLittleAndamanWaterfalls2026",
+      "referenceDate": "Official Andaman and Nicobar Tourism portal accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1210",
+      "regionName": "Jammu and Kashmir",
+      "category": "waterfalls",
+      "name": "Aharbal Falls, Kulgam district",
+      "description": "The Jammu and Kashmir Tourism Development Corporation describes Aharbal Falls on the Veshu River in the Pir Panjal range, where the river drops through a narrow granite gorge in two cascades.",
+      "sourceUrl": "https://www.jktdc.co.in/info.aspx?id=6",
+      "sourceId": "jktdcAharbalFalls2026",
+      "referenceDate": "Jammu and Kashmir Tourism Development Corporation destination profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1211",
+      "regionName": "Uttar Pradesh",
+      "category": "waterfalls",
+      "name": "Rajdari, Devdari, Chandraprabha, Lakhaniya Dari and Vindham Falls",
+      "description": "The Uttar Pradesh Eco-Tourism Development Board lists Rajdari, Devdari and Chandraprabha waterfalls in Chandauli, and Lakhaniya Dari, Chuna Dari and Vindham Falls in Mirzapur among the State's natural attractions.",
+      "sourceUrl": "https://upecoboard.up.gov.in/en/article/chandra-prabha-wildlife-sanctuary",
+      "sourceId": "upEcoTourismWaterfalls2026",
+      "referenceDate": "UP Eco-Tourism Development Board official site accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1212",
+      "regionName": "West Bengal",
+      "category": "waterfalls",
+      "name": "Changey Waterfall, Kalimpong district",
+      "description": "West Bengal Tourism documents Changey Waterfall near Lava in Kalimpong district as a forested hillside waterfall with an approximately 150-foot cascade.",
+      "sourceUrl": "https://www.wbtourism.gov.in/topDestination/details1?id=63d7ed9ce4bbd858c2063384&template_id=1",
+      "sourceId": "westBengalChangeyFalls2026",
+      "referenceDate": "West Bengal Tourism official destination profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -15997,6 +16045,30 @@
       "title": "Incredible India — Silvassa: Vanganga Lake Garden and Dudhni Lake",
       "sourceUrl": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/silvassa",
       "referenceDate": "Government of India tourism profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "andamanLittleAndamanWaterfalls2026",
+      "title": "Andaman and Nicobar Tourism — Little Andaman, Land of Waterfalls",
+      "sourceUrl": "https://tourism.andamannicobar.gov.in/islands_details.php?data=6dWGDXC1ieJsno2d1jHWCVAiQ1wRcLcwWAdRKN57EUMusF2VpOzjmiA",
+      "referenceDate": "White Surf and Whisper Wave waterfalls"
+    },
+    {
+      "sourceId": "jktdcAharbalFalls2026",
+      "title": "Jammu and Kashmir Tourism Development Corporation — Aharbal Falls",
+      "sourceUrl": "https://www.jktdc.co.in/info.aspx?id=6",
+      "referenceDate": "Aharbal Falls on the Veshu River"
+    },
+    {
+      "sourceId": "upEcoTourismWaterfalls2026",
+      "title": "Uttar Pradesh Eco-Tourism Development Board — Chandra Prabha and waterfalls",
+      "sourceUrl": "https://upecoboard.up.gov.in/en/article/chandra-prabha-wildlife-sanctuary",
+      "referenceDate": "Rajdari, Devdari, Chandraprabha and regional waterfalls"
+    },
+    {
+      "sourceId": "westBengalChangeyFalls2026",
+      "title": "West Bengal Tourism — Changey Waterfall",
+      "sourceUrl": "https://www.wbtourism.gov.in/topDestination/details1?id=63d7ed9ce4bbd858c2063384&template_id=1",
+      "referenceDate": "Changey Waterfall, Kalimpong"
     }
   ]
 }

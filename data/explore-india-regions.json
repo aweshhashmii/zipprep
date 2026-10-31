@@ -11720,9 +11720,65 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2020",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Meghalaya State Review. Non-coal resource estimates are as at 1 April 2020; occurrence districts are copied from the State Review narrative."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "necYearbook2025",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceYear": "2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "North Eastern Council Yearbook 2025 / Coal Directory of India 2023-24 coal resources as at 1 April 2024."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM provisional limestone production and reporting-mine count for 2023-24."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "necYearbook2025",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "NEC Yearbook 2025 coal production table; coal production has not been reported for Meghalaya since FY 2018-19."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmInspectionRegister2024",
+          "sourceUrl": "https://ibm.gov.in/IBMPortal/pages/mcdr-inspection-reports-and-violation-letters---2024-25---guwahati-region",
+          "referenceYear": "2024-25",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM Guwahati Region MCDR inspection register identifying limestone mines and named owners; inspection listing does not state current cement plant capacity."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibPMFME2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoFPI / PIB PMFME state-wise approved micro food-processing enterprises as at 31 December 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -11875,7 +11931,144 @@
         "ramsarSites": [],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Coal",
+            "district": "Garo Hills, Khasi Hills and Jaintia Hills (also Mikir Hills named in the State Review)",
+            "description": "Coal resources as at 1 April 2024: 583.22 million tonnes—95.64 million tonnes proved, 16.65 million tonnes indicated and 470.93 million tonnes inferred, according to the NEC Yearbook 2025 / Coal Directory 2023-24. Resource classification is not equivalent to legally recoverable or currently mineable reserves.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2024"
+          },
+          {
+            "name": "Limestone",
+            "district": "West Garo Hills, East Khasi Hills, West Khasi Hills and Jaintia Hills",
+            "description": "Total resources: 23,834.988 million tonnes as at 1 April 2020, including 251.043 million tonnes of reserves and 23,583.945 million tonnes of remaining resources. The IBM State Review identifies limestone as the principal MCDR mineral produced in 2023-24.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Apatite",
+            "district": "Jaintia Hills",
+            "description": "1.300 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Bauxite",
+            "district": "Meghalaya (district-level location not specified in the IBM resource table)",
+            "description": "4.300 million tonnes of remaining resources as at 1 April 2020; no reserves reported. District-level location is not specified in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "China clay",
+            "district": "East Garo Hills, West Garo Hills, Jaintia Hills and East Khasi Hills",
+            "description": "Occurrence districts identified by IBM. The State Review does not provide a separate resource tonnage for this mineral.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "East Khasi Hills",
+            "description": "880,000 tonnes of remaining copper ore resources containing 9,000 tonnes of copper metal as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Lead-zinc",
+            "district": "East Khasi Hills",
+            "description": "880,000 tonnes of remaining ore resources as at 1 April 2020, containing 16,500 tonnes of lead metal and 14,000 tonnes of zinc metal; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Silver",
+            "district": "East Khasi Hills",
+            "description": "880,000 tonnes of silver-bearing ore resources containing 19.8 tonnes of silver metal as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Titanium minerals",
+            "district": "East Khasi Hills",
+            "description": "Occurrence reported by IBM; the Meghalaya State Review does not provide a separate state resource tonnage in its summary.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "East Garo Hills and Jaintia Hills",
+            "description": "Occurrence districts identified by IBM; no separate resource quantity is reported in the State Review summary.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock phosphate",
+            "district": "East Garo Hills and Jaintia Hills",
+            "description": "1.311 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Fireclay",
+            "district": "East Khasi Hills and West Garo Hills",
+            "description": "10.999 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Granite (dimension stone)",
+            "district": "West Khasi Hills",
+            "description": "286.467 million cubic metres of remaining resources as at 1 April 2020; no reserves reported. Unit is cubic metres, not tonnes.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Iron ore (haematite)",
+            "district": "East Garo Hills",
+            "description": "225,000 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "East Garo Hills",
+            "description": "3.380 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "East Garo Hills, West Garo Hills and East Khasi Hills",
+            "description": "7.083 million tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "West Khasi Hills",
+            "description": "55,807 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2020"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 17687.4,
@@ -11913,7 +12106,75 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Limestone",
+            "district": "Meghalaya (17 reporting mines; district split not provided in the State Review)",
+            "description": "2023-24 provisional production: 10.070 million tonnes from 17 reporting mines. Output increased about 24% over 8.111 million tonnes in 2022-23. IBM reports this as the principal MCDR mineral produced in the state.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Meghalaya",
+            "description": "The NEC Yearbook's 2023-24 production table does not report coal production for Meghalaya; it notes that coal production has not been reported since FY 2018-19. This should not be represented as proof that no informal extraction occurred.",
+            "sourceId": "necYearbook2025",
+            "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Lafarge Umiam Mining Pvt Ltd — limestone mine",
+            "district": "East Khasi Hills",
+            "description": "IBM's 2024-25 Guwahati-region inspection register lists the Nongtrai Limestone Mine and names Lafarge Umiam Mining Pvt Ltd as owner. Inspection listing is not a statement of installed cement capacity.",
+            "sourceId": "ibmInspectionRegister2024",
+            "sourceUrl": "https://ibm.gov.in/IBMPortal/pages/mcdr-inspection-reports-and-violation-letters---2024-25---guwahati-region",
+            "referenceYear": "2024-25"
+          },
+          {
+            "name": "Star Cement Meghalaya Ltd — limestone mining",
+            "district": "East Jaintia Hills",
+            "description": "IBM's 2024-25 inspection register lists Lumshnong Limestone Mine and identifies Star Cement Meghalaya Ltd as owner.",
+            "sourceId": "ibmInspectionRegister2024",
+            "sourceUrl": "https://ibm.gov.in/IBMPortal/pages/mcdr-inspection-reports-and-violation-letters---2024-25---guwahati-region",
+            "referenceYear": "2024-25"
+          },
+          {
+            "name": "Meghalaya Cements Ltd — limestone mine",
+            "district": "East Jaintia Hills",
+            "description": "IBM's 2024-25 inspection register lists South Khliehjari Limestone Mine and identifies Meghalaya Cements Ltd as owner.",
+            "sourceId": "ibmInspectionRegister2024",
+            "sourceUrl": "https://ibm.gov.in/IBMPortal/pages/mcdr-inspection-reports-and-violation-letters---2024-25---guwahati-region",
+            "referenceYear": "2024-25"
+          },
+          {
+            "name": "Dalmia Cement (Bharat) Ltd — limestone mines",
+            "district": "East Jaintia Hills",
+            "description": "IBM's 2024-25 inspection register lists Umsoo Mootang Limestone Mine Blocks III and V under Dalmia Cement (Bharat) Ltd.",
+            "sourceId": "ibmInspectionRegister2024",
+            "sourceUrl": "https://ibm.gov.in/IBMPortal/pages/mcdr-inspection-reports-and-violation-letters---2024-25---guwahati-region",
+            "referenceYear": "2024-25"
+          },
+          {
+            "name": "Micro food processing enterprises — PMFME",
+            "district": "Meghalaya (statewide)",
+            "description": "237 micro food processing enterprises had approved applications under PMFME as at 31 December 2025; approved subsidy ₹4.07 crore. These are scheme approvals, not a verified count of operating factories.",
+            "sourceId": "pibPMFME2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Meghalaya (statewide inventory)",
+            "description": "DPIIT India Industrial Land Bank snapshot as at 23 December 2025 lists 9 industrial parks covering 235 hectares, with 5 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
+          }
+        ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
     },

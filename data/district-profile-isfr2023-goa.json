@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "title": "Goa district forest-cover enrichment — ISFR 2023",
+  "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3",
+  "source": {
+    "sourceId": "fsiISFR2023GoaDistrictForestCover",
+    "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+    "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+    "referenceDate": "2023 assessment",
+    "lastVerifiedAt": "2026-11-02",
+    "note": "Both FSI report districts match current LGD district codes. The current LGD directory also lists Kushavati, which is not a separate district in the FSI 2023 table; no values are inferred for Kushavati."
+  },
+  "totals": {
+    "area": 3702,
+    "vdf": 28.74,
+    "mdf": 89.24,
+    "open": 321.25,
+    "forest": 439.23,
+    "change": -2.16,
+    "scrub": 10.33
+  },
+  "records": [
+    {
+      "lgdCode": "551",
+      "name": "North Goa",
+      "stateName": "Goa",
+      "forestCoverCalculatedArea2023SqKm": 1736,
+      "veryDenseForest2023SqKm": 19.72,
+      "moderatelyDenseForest2023SqKm": 41.02,
+      "openForest2023SqKm": 136.14,
+      "forestCover2023SqKm": 196.88,
+      "forestCoverPercent2023": 11.34,
+      "forestCoverChangeSince2021SqKm": -1.01,
+      "scrub2023SqKm": 4.23,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        }
+      ]
+    },
+    {
+      "lgdCode": "552",
+      "name": "South Goa",
+      "stateName": "Goa",
+      "forestCoverCalculatedArea2023SqKm": 1966,
+      "veryDenseForest2023SqKm": 9.02,
+      "moderatelyDenseForest2023SqKm": 48.22,
+      "openForest2023SqKm": 185.11,
+      "forestCover2023SqKm": 242.35,
+      "forestCoverPercent2023": 12.33,
+      "forestCoverChangeSince2021SqKm": -1.15,
+      "scrub2023SqKm": 6.1,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023GoaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.7.3 (Goa)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.7, Table 10.7.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. Current LGD also lists Kushavati, which is not a separate district in the FSI 2023 table; no forest values are inferred for it."
+        }
+      ]
+    }
+  ]
+}

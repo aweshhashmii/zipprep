@@ -1349,6 +1349,19 @@
       ],
       "referenceDate": "31 March 2026",
       "cadence": "Monthly CEA/NPP installed-capacity reports; refresh with the latest published month."
+    },
+    {
+      "id": "imdRainfallStatisticsIndia2024",
+      "name": "India Meteorological Department — Rainfall Statistics of India 2024, Table 14",
+      "url": "https://hydro.imd.gov.in/hydrometweb/PRODUCTS/Publications/Rainfall%20Statistics%20of%20India%20-%202024/Rainfall%20Statistics%20of%20India%202024.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State/UT area-weighted observed rainfall by season and annual total (mm)"
+      ],
+      "referenceDate": "Calendar year 2024",
+      "cadence": "Annual IMD Rainfall Statistics publication; preserve observed year and distinguish from long-period normals."
     }
   ]
 }

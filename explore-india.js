@@ -302,6 +302,7 @@ function renderProfile(name,count){
  stat('Legislative Council',display(pol.legislativeCouncil),'Relevant state legislature / Parliament records')+
  stat('Development blocks',display(adm.blocks),'Ministry of Panchayati Raj / state rural development department')+
  stat('Gram Panchayats',display(adm.gramPanchayats),'Ministry of Panchayati Raj / state rural development department')+
+ stat('Gram Panchayat Development Plans uploaded (2025–26)',display(adm.gpdpUploaded),'Ministry of Panchayati Raj · e-GramSwaraj snapshot 29 Jan 2026; uploaded plans are progress, not total Panchayat count')+
  stat('Intermediate Panchayats',display(adm.intermediatePanchayats),'Ministry of Panchayati Raj / state rural development department')+
  stat('District Panchayats',display(adm.districtPanchayats),'Ministry of Panchayati Raj / state rural development department')+
  stat('Municipal corporations',display(adm.municipalCorporations),'Ministry of Housing and Urban Affairs / state ULB directory')+

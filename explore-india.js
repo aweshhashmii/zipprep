@@ -425,6 +425,7 @@ function renderEconomy(name){
   ['Power plants','powerPlants','Thermal, hydro, nuclear and renewable installations'],
   ['Renewable energy projects','renewableEnergyProjects','Solar, wind, biomass and other renewable projects'],
   ['Irrigation projects','irrigationProjects','Canals, irrigation systems and command areas'],
+  ['River-valley projects','riverValleyProjects','Major river-valley projects and their existing recorded components'],
   ['Highways & expressways','highways','National highways, expressways and major corridors'],
   ['Railways','railways','Railway zones, divisions, junctions and projects'],
   ['Airports','airports','International, domestic and regional airports'],
@@ -454,7 +455,8 @@ function renderHeritage(name){
   ['Handicrafts & traditional arts','handicrafts','Textiles, paintings, crafts and traditional art forms'],
   ['Tribal communities & PVTGs','tribalCommunities','Scheduled Tribes, PVTGs, distribution and cultural context'],
   ['Religious & pilgrimage heritage','religiousHeritage','Important pilgrimage centres and religious traditions'],
-  ['Historical personalities','historicalPersonalities','Leaders, reformers, artists and notable figures']
+  ['Historical personalities','historicalPersonalities','Leaders, reformers, artists and notable figures'],
+  ['Cultural highlights','culturalHighlights','Regional cultural highlights already recorded in the catalogue']
  ]);
 }
 function loadDistricts(name,token){

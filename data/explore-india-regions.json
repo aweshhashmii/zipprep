@@ -5101,7 +5101,280 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Bauxite",
+            "district": "Dumka, Gumla, Latehar, Lohardaga and Palamu",
+            "description": "IBM records bauxite occurrences in these districts. Total resources were 289.244 million tonnes as at 1 April 2020; this is a dated geological resource estimate, not a current production figure.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay (kaolin)",
+            "district": "Dumka, Hazaribagh, Lohardaga, East Singhbhum, West Singhbhum, Sahibganj and Ranchi",
+            "description": "Recorded occurrences across the listed districts in the IBM Jharkhand State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Bokaro, Deoghar, Dhanbad, Giridih, Godda, Hazaribagh, Palamu, Pakur and Ranchi",
+            "description": "Major coal-bearing districts. IBM's Coal Directory 2023–24 lists the Jharia, North and South Karanpura, Bokaro, Ramgarh, Rajmahal, Hutar, Daltonganj and Deoghar coalfields; coalfield resources are dated 1 April 2024.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "Hazaribagh and East Singhbhum",
+            "description": "Copper ore occurrences and recorded resources; IBM reports 251.463 million tonnes of copper ore resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Garhwa and Palamu",
+            "description": "Recorded dolomite occurrences in the IBM state mineral inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Deoghar, Dhanbad, Dumka, Giridih, Hazaribagh, Jamtara, Koderma, Latehar, Palamu and Ranchi",
+            "description": "Recorded feldspar occurrences across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Dhanbad, Dumka, Giridih, Godda, Hazaribagh, Latehar, Palamu, Ranchi and West Singhbhum",
+            "description": "Recorded fireclay occurrences in the IBM state mineral inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold",
+            "district": "East Singhbhum",
+            "description": "Gold occurrence and production are recorded by IBM; the state produced 28 kg of gold metal in 2023–24 (provisional).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "Palamu",
+            "description": "Graphite occurrence and production are recorded; total resources were 20.006 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore — haematite",
+            "district": "West Singhbhum",
+            "description": "Major iron-ore belt. Total haematite resources were 4,710.146 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore — magnetite",
+            "district": "Gumla, Hazaribagh, Latehar, Palamu and East Singhbhum",
+            "description": "Magnetite occurrences recorded by IBM; resource estimates are distinct from the state's reported haematite production.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kyanite",
+            "district": "Saraikela-Kharsawan and West Singhbhum",
+            "description": "Kyanite occurrence and production recorded by IBM; 2023–24 provisional production was 210 tonnes from one reporting mine.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Bokaro, Dhanbad, Garhwa, Giridih, Hazaribagh, Palamu, Ranchi, East Singhbhum and West Singhbhum",
+            "description": "Recorded limestone occurrences. Total resources were 620.765 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "East Singhbhum and West Singhbhum",
+            "description": "Recorded manganese ore occurrences; IBM's state resource table reports 14.749 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Mica",
+            "district": "Giridih and Koderma",
+            "description": "Historic mica belt occurrences recorded in the IBM state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "Deoghar, Dhanbad, Dumka, Giridih, Godda, Hazaribagh, Jamtara, Koderma, Latehar, Palamu, Ranchi, Sahibganj, Saraikela-Kharsawan and West Singhbhum",
+            "description": "Recorded quartz and silica-sand occurrences across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartzite",
+            "district": "East Singhbhum and West Singhbhum",
+            "description": "Recorded quartzite occurrences in the IBM state mineral inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock phosphate",
+            "district": "Palamu",
+            "description": "Rock-phosphate occurrence and resource entry; IBM reports 107.37 million tonnes of total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Apatite",
+            "district": "East Singhbhum",
+            "description": "Apatite occurrence recorded in the East Singhbhum mineral belt; IBM reports 7.27 million tonnes of total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chromite",
+            "district": "East Singhbhum",
+            "description": "Chromite occurrence recorded by IBM; occurrence is not a statement of active mine status.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Cobalt and nickel",
+            "district": "East Singhbhum",
+            "description": "Cobalt and nickel occurrences are recorded in the East Singhbhum mineral belt; IBM reports regional/state resource estimates in its 2020 inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes",
+            "district": "Palamu and East Singhbhum",
+            "description": "Barytes occurrences recorded in the IBM state review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bentonite",
+            "district": "Pakur and Sahibganj",
+            "description": "Bentonite occurrences recorded in the IBM state review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Garnet",
+            "district": "Hazaribagh",
+            "description": "Garnet occurrence and a total resource estimate of 110,071 tonnes as at 1 April 2020 are listed by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Deoghar, Dhanbad, Dumka, Giridih, Godda, Gumla, Hazaribagh, Koderma, Lohardaga, Palamu, Ranchi and East Singhbhum",
+            "description": "Granite occurrences across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Hazaribagh",
+            "description": "Sillimanite occurrence recorded in the IBM state review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Talc, steatite and soapstone",
+            "district": "Giridih, Koderma, Palamu, East Singhbhum and West Singhbhum",
+            "description": "Occurrences of talc/steatite/soapstone recorded across the listed districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrophyllite",
+            "district": "Saraikela-Kharsawan",
+            "description": "Pyrophyllite occurrence recorded in the IBM state review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Titanium minerals",
+            "district": "Ranchi and East Singhbhum",
+            "description": "Titanium-mineral occurrences recorded in the IBM state review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Giridih and Hazaribagh",
+            "description": "Vermiculite occurrence recorded in the IBM state review; total resources were 30,048 tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Andalusite",
+            "district": "Palamu",
+            "description": "Andalusite occurrence recorded in the IBM state review; total resources were 11.8 million tonnes as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Asbestos",
+            "district": "East Singhbhum and West Singhbhum",
+            "description": "Asbestos occurrence recorded in the IBM state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dunite and pyroxenite",
+            "district": "East Singhbhum",
+            "description": "Dunite/pyroxenite occurrence recorded in the IBM state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ochre",
+            "district": "West Singhbhum",
+            "description": "Ochre occurrence recorded in the IBM state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 27403.33,
@@ -5139,7 +5412,179 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Bauxite",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 2,043,734 tonnes from 21 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper ore",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 4,936 tonnes. Copper concentrate is separately reported in IBM's table; do not combine ore and concentrate.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold (metal)",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 28 kg from one reporting mine; gold ore production is reported separately.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 22.896 million tonnes from 9 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite (run-of-mine)",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 20,756 tonnes from 2 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kyanite",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 210 tonnes from one reporting mine.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Jharkhand",
+            "description": "2023–24 provisional production: 3 thousand tonnes from 2 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Hindalco Industries — Muri Alumina Refinery",
+            "district": "Muri, Ranchi district",
+            "description": "IBM's 2024 State Review lists 450 thousand tonnes per year installed alumina capacity. Capacity is not a live production reading.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hyderabad Industries — asbestos products",
+            "district": "Jasidih, Deoghar district",
+            "description": "Listed by IBM among principal mineral-based industries; published capacity 72 thousand tonnes per year. This entry records the yearbook listing and does not imply a current operating-status check.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC — Chaibasa Cement Plant",
+            "district": "Chaibasa, West Singhbhum district",
+            "description": "IBM lists 1,200 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC — Sindri Cement Plant",
+            "district": "Sindri, Dhanbad district",
+            "description": "IBM lists 2,500 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bokaro Cement Plant",
+            "district": "Bokaro",
+            "description": "IBM lists 2,100 thousand tonnes per year cement capacity; the yearbook identifies the plant by its former Jaypee Cement/SAIL joint-venture description.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lafarge — Jojobera Cement Plant",
+            "district": "Jojobera, East Singhbhum district",
+            "description": "IBM lists 4,600 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Burnpur Cement — Patratu",
+            "district": "Patratu, Ramgarh district",
+            "description": "IBM lists 300 thousand tonnes per year cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Maithan Ceramics",
+            "district": "Dhanbad",
+            "description": "IBM lists 80 thousand tonnes per year ceramic capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bihar Caustic & Chemicals",
+            "district": "Garhwa Road, Palamu district",
+            "description": "IBM lists 92.75 thousand tonnes per year caustic-soda-lye capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindustan Copper — Indian Copper Complex",
+            "district": "Ghatsila, East Singhbhum district",
+            "description": "IBM lists multiple copper-processing product capacities at ICC, including 19 thousand tonnes per year refined copper and 20.5 thousand tonnes per year copper smelting capacity. The listed product capacities are separate and must not be added as one output figure.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Grind Chem",
+            "district": "Adityapur",
+            "description": "IBM lists 15 thousand tonnes per year foundry-flux capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jharkhand Grid Chem",
+            "district": "Adityapur, Gamharia",
+            "description": "IBM lists 25 thousand tonnes per year foundry-flux capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Electrosteel Steels",
+            "district": "Jharkhand",
+            "description": "Listed in IBM's national steel-industry capacity table with 1,450 thousand tonnes per year capacity; plant location is not specified in that row.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "SAIL — Bokaro Steel Plant",
+            "district": "Bokaro",
+            "description": "Listed in IBM's national steel-industry capacity table with 4,360 thousand tonnes per year capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Jharkhand High Court — Ranchi"
     },

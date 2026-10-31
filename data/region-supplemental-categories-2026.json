@@ -9,44 +9,48 @@
       "regionName": "Andhra Pradesh",
       "category": "tributaries",
       "name": "Pranahita",
-      "description": "Major Godavari tributary; joins the Godavari near the Telangana–Maharashtra border.",
-      "sourceUrl": "https://cwc.gov.in/",
-      "sourceId": "cwc-river-basins",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Pranhita is part of the Godavari basin and meets the Godavari at Kaleshwaram on the Andhra Pradesh–Maharashtra border. The CWC identifies the Pranhita sub-basin and its principal tributary system.",
+      "sourceUrl": "https://cwc.gov.in/sites/default/files/assessment-water-resources-india-vol-ii.pdf",
+      "sourceId": "cwcWaterResourcesVolumeII2024",
+      "referenceDate": "CWC Assessment of Water Resources of India, 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-002",
       "regionName": "Assam",
       "category": "tributaries",
       "name": "Subansiri",
-      "description": "Transboundary Brahmaputra tributary draining the eastern Himalaya.",
-      "sourceUrl": "https://cwc.gov.in/",
-      "sourceId": "cwc-river-basins",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The CWC identifies the Subansiri as a principal right-bank tributary of the Brahmaputra. The Brahmaputra basin includes Assam; CWC hydrological monitoring also lists Subansiri stations in Lakhimpur, Assam.",
+      "sourceUrl": "https://cwc.gov.in/sites/default/files/reportwaterresourcesassessmentofindia2024_1.pdf",
+      "sourceId": "cwcWaterResourcesIndia2024",
+      "referenceDate": "CWC Assessment of Water Resources of India, 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-003",
       "regionName": "Bihar",
       "category": "tributaries",
       "name": "Kosi",
-      "description": "Major Ganga tributary with a large Himalayan catchment.",
-      "sourceUrl": "https://cwc.gov.in/",
-      "sourceId": "cwc-river-basins",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The CWC identifies the Kosi as the largest tributary of the Ganga, notes its Himalayan headwaters, and describes it as the 'sorrow of Bihar' because of its recurrent floods.",
+      "sourceUrl": "https://cwc.gov.in/sites/default/files/assessment-water-resources-india-vol-ii.pdf",
+      "sourceId": "cwcWaterResourcesVolumeII2024",
+      "referenceDate": "CWC Assessment of Water Resources of India, 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-004",
       "regionName": "West Bengal",
       "category": "tributaries",
       "name": "Teesta",
-      "description": "Major Brahmaputra-system tributary flowing through Sikkim and West Bengal before entering Bangladesh.",
-      "sourceUrl": "https://cwc.gov.in/",
-      "sourceId": "cwc-river-basins",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The CWC identifies the Teesta as a principal left-bank tributary of the Brahmaputra. Its basin assessment includes West Bengal within the Indian Brahmaputra basin.",
+      "sourceUrl": "https://cwc.gov.in/sites/default/files/reportwaterresourcesassessmentofindia2024_1.pdf",
+      "sourceId": "cwcWaterResourcesIndia2024",
+      "referenceDate": "CWC Assessment of Water Resources of India, 2024",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-005",
@@ -5909,6 +5913,20 @@
       "sourceUrl": "https://ncert.nic.in/textbook/pdf/hess105.pdf",
       "referenceDate": "NCERT textbook chapter accessed 31 October 2026",
       "scope": "Official NCERT account of named 1817 and 1857 uprising centres, leaders and events. Entries describe historical events, not a complete inventory of all regional resistance."
+    },
+    {
+      "sourceId": "cwcWaterResourcesIndia2024",
+      "title": "Central Water Commission — Assessment of Water Resources of India (August 2024), Brahmaputra and Ganga basin chapters",
+      "sourceUrl": "https://cwc.gov.in/sites/default/files/reportwaterresourcesassessmentofindia2024_1.pdf",
+      "referenceDate": "August 2024",
+      "scope": "Official basin assessment identifying principal tributaries of the Brahmaputra and Ganga and the States included in each basin."
+    },
+    {
+      "sourceId": "cwcWaterResourcesVolumeII2024",
+      "title": "Central Water Commission — Assessment of Water Resources of India, Volume II: Major Sub-basins",
+      "sourceUrl": "https://cwc.gov.in/sites/default/files/assessment-water-resources-india-vol-ii.pdf",
+      "referenceDate": "September 2024",
+      "scope": "Official sub-basin descriptions for Pranhita, Kosi and Yamuna; preserves basin and sub-basin distinctions."
     }
   ]
 }

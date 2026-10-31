@@ -923,6 +923,25 @@
       "issuingAuthority": "Ministry of Road Transport and Highways, Government of India",
       "cadence": "Refresh from the latest MoRTH Annual Report Appendix 2 and preserve its as-of date.",
       "note": "Appendix 2 gives state/UT-wise NH numbers, count and length as at 31 December 2024, totaling 670 NHs and 146,195 km. The report lists Dadra & Nagar Haveli and Daman & Diu separately; the current merged UT record combines their counts and lengths. Lakshadweep is not listed in the table and is recorded as no National Highway listed in this dated register, not as a claim about all roads."
+    },
+    {
+      "id": "indianRailwaysYearBookStatewise2023_24",
+      "name": "Ministry of Railways — Indian Railways Year Book 2023–24: State/UT-wise railway network",
+      "url": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
+      "tabs": [
+        "economy",
+        "geography"
+      ],
+      "fields": [
+        "State/UT-wise route kilometres",
+        "Running track kilometres",
+        "Total track kilometres",
+        "Explicit note identifying remaining States/UTs with no railway line"
+      ],
+      "referenceDate": "2024-03-31",
+      "issuingAuthority": "Ministry of Railways, Railway Board, Government of India",
+      "cadence": "Refresh against the latest Indian Railways Year Book or Annual Statistical Statements. Distinguish commissioned route length from under-construction projects.",
+      "note": "The Year Book's state-wise table is at the end of FY 2023–24 and explicitly states that remaining States/UTs have no railway line. Sikkim's rail link was still under construction at this snapshot. The table reports an internal inconsistency for Goa (running track 122 km, total track 113 km); those two fields are not reproduced for Goa, while its route length is retained."
     }
   ]
 }

@@ -353,66 +353,72 @@
       "regionName": "Andhra Pradesh",
       "category": "economicCentres",
       "name": "Visakhapatnam industrial and port cluster",
-      "description": "Major port-led industrial centre; district industrial profiles are maintained by the Ministry of MSME.",
-      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
-      "sourceId": "dc-msme-industrial-profiles",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Greater Visakhapatnam Municipal Corporation identifies Visakhapatnam as an industrial city with steel, petroleum, fertilizers, shipbuilding, heavy engineering, port activity and pharma/IT zones.",
+      "sourceUrl": "https://gvmc.gov.in/wss/static_content/Industries.jsp?menutitle=Industries&pageName=Industries.jsp&parentMenuId=200-2",
+      "sourceId": "gvmcVisakhapatnamIndustries2026",
+      "referenceDate": "Official State industrial development authority / municipal source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-031",
       "regionName": "Gujarat",
       "category": "economicCentres",
       "name": "Ahmedabad–Sanand industrial region",
-      "description": "Major manufacturing and industrial region; consult state and district industrial profiles for sector-level detail.",
-      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
-      "sourceId": "dc-msme-industrial-profiles",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "GIDC's current industrial-estate register lists multiple Ahmedabad estates and Sanand industrial estates, supporting the Ahmedabad–Sanand manufacturing concentration.",
+      "sourceUrl": "https://gidc.gujarat.gov.in/allotmentprice",
+      "sourceId": "gidcAhmedabadSanand2026",
+      "referenceDate": "Official State industrial development authority / municipal source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-032",
       "regionName": "Maharashtra",
       "category": "economicCentres",
       "name": "Mumbai–Pune industrial corridor",
-      "description": "Major finance, manufacturing and services concentration; district industrial profiles provide local context.",
-      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
-      "sourceId": "dc-msme-industrial-profiles",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "MIDC identifies Mumbai–Thane–Raigad and Pune–Chakan–Talegaon–Satara as major industrial land-bank regions with engineering, chemicals, pharmaceuticals, food processing and auto-component sectors; these are related industrial belts, not a single formally designated corridor.",
+      "sourceUrl": "https://midc.maharashtra.gov.in/en/about-midc/",
+      "sourceId": "midcMaharashtraIndustrialRegions2026",
+      "referenceDate": "Official State industrial development authority / municipal source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-033",
       "regionName": "Tamil Nadu",
       "category": "economicCentres",
       "name": "Chennai–Sriperumbudur industrial region",
-      "description": "Major automobile, electronics and manufacturing cluster.",
-      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
-      "sourceId": "dc-msme-industrial-profiles",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "SIPCOT lists Sriperumbudur Industrial Park and SEZ, Oragadam and Irungattukottai industrial parks in Kancheepuram district, establishing the Chennai–Sriperumbudur industrial concentration.",
+      "sourceUrl": "https://sipcotweb.tn.gov.in/",
+      "sourceId": "sipcotSriperumbudur2026",
+      "referenceDate": "Official State industrial development authority / municipal source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-034",
       "regionName": "Karnataka",
       "category": "economicCentres",
       "name": "Bengaluru technology and manufacturing cluster",
-      "description": "Major technology, aerospace and manufacturing centre.",
-      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
-      "sourceId": "dc-msme-industrial-profiles",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Invest Karnataka describes Bengaluru Urban as a technology and industrial hub with large- and medium-scale industries across IT, biotechnology, aerospace and food processing, and identifies Peenya as a major industrial cluster.",
+      "sourceUrl": "https://investkarnataka.co.in/our-districts/bengaluru-urban/",
+      "sourceId": "investKarnatakaBengaluru2026",
+      "referenceDate": "Official State industrial development authority / municipal source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-035",
       "regionName": "West Bengal",
       "category": "economicCentres",
       "name": "Kolkata–Haldia economic region",
-      "description": "Major eastern Indian services, port, logistics and industrial concentration.",
-      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
-      "sourceId": "dc-msme-industrial-profiles",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "West Bengal Industrial Infrastructure Development Corporation identifies Haldia as an industrial hub with port-linked chemicals, petrochemicals, manufacturing and logistics, located in Purba Medinipur.",
+      "sourceUrl": "https://wbiidc.wb.gov.in/haldia",
+      "sourceId": "wbiidcHaldiaIndustrialPark2026",
+      "referenceDate": "Official State industrial development authority / municipal source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-036",
@@ -6341,6 +6347,42 @@
       "title": "Krishna District Administration, Government of Andhra Pradesh — Cultural Tourism",
       "sourceUrl": "https://krishna.ap.gov.in/cultural-tourism/",
       "referenceDate": "Official district source accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gvmcVisakhapatnamIndustries2026",
+      "title": "Greater Visakhapatnam Municipal Corporation — Industries",
+      "sourceUrl": "https://gvmc.gov.in/wss/static_content/Industries.jsp?menutitle=Industries&pageName=Industries.jsp&parentMenuId=200-2",
+      "referenceDate": "Official municipal industrial profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gidcAhmedabadSanand2026",
+      "title": "Gujarat Industrial Development Corporation — Industrial estate register",
+      "sourceUrl": "https://gidc.gujarat.gov.in/allotmentprice",
+      "referenceDate": "FY 2026-27 estate register"
+    },
+    {
+      "sourceId": "midcMaharashtraIndustrialRegions2026",
+      "title": "Maharashtra Industrial Development Corporation — Industrial regions and sector profiles",
+      "sourceUrl": "https://midc.maharashtra.gov.in/en/about-midc/",
+      "referenceDate": "Official MIDC profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "sipcotSriperumbudur2026",
+      "title": "State Industries Promotion Corporation of Tamil Nadu — Industrial parks",
+      "sourceUrl": "https://sipcotweb.tn.gov.in/",
+      "referenceDate": "Official SIPCOT register accessed 31 October 2026"
+    },
+    {
+      "sourceId": "investKarnatakaBengaluru2026",
+      "title": "Invest Karnataka — Bengaluru Urban industrial profile",
+      "sourceUrl": "https://investkarnataka.co.in/our-districts/bengaluru-urban/",
+      "referenceDate": "Official State investment profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "wbiidcHaldiaIndustrialPark2026",
+      "title": "West Bengal Industrial Infrastructure Development Corporation — Haldia Industrial Park",
+      "sourceUrl": "https://wbiidc.wb.gov.in/haldia",
+      "referenceDate": "Official WBIIDC profile accessed 31 October 2026"
     }
   ]
 }

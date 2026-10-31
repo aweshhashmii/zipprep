@@ -896,7 +896,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-AP-LAKE-RAMSAR-KOLLERU-LAKE",
+            "regionId": "IN-AP",
+            "category": "lakes",
+            "name": "Kolleru Lake",
+            "officialName": "Kolleru Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Kolleru Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -2998,7 +3014,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-AR-LAKE-RAMSAR-GLAW-LAKE",
+            "regionId": "IN-AR",
+            "category": "lakes",
+            "name": "Glaw Lake",
+            "officialName": "Glaw Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "ramsarSecretariat2026",
+            "sourceUrl": "https://www.ramsar.org/country-profile/india",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Glaw Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -5780,7 +5812,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-BR-LAKE-RAMSAR-GOGABIL-LAKE",
+            "regionId": "IN-BR",
+            "category": "lakes",
+            "name": "Gogabil Lake",
+            "officialName": "Gogabil Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Gogabil Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -8052,7 +8100,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-GA-LAKE-RAMSAR-NANDA-LAKE",
+            "regionId": "IN-GA",
+            "category": "lakes",
+            "name": "Nanda Lake",
+            "officialName": "Nanda Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Nanda Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -9230,7 +9294,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-GJ-LAKE-RAMSAR-THOL-LAKE-WILDLIFE-SANCTUARY",
+            "regionId": "IN-GJ",
+            "category": "lakes",
+            "name": "Thol Lake Wildlife Sanctuary",
+            "officialName": "Thol Lake Wildlife Sanctuary",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Thol Lake Wildlife Sanctuary is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -13407,6 +13487,21 @@
             "description": "Named lake recorded in the Himachal Pradesh Government portal and the Wetlands of India portal inventory. Included as a curated named-lake entry; not a complete state inventory.",
             "sourceId": "hpGovTaniJubbar2026",
             "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF+AuYkB55WCPqjxR9Ug%3D%3D"
+          },
+          {
+            "id": "IN-HP-LAKE-RAMSAR-PONG-DAM-LAKE",
+            "regionId": "IN-HP",
+            "category": "lakes",
+            "name": "Pong Dam Lake",
+            "officialName": "Pong Dam Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Pong Dam Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
           }
         ],
         "dams": [
@@ -14483,7 +14578,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-JH-LAKE-RAMSAR-UDHWA-LAKE-BIRD-SANCTUARY",
+            "regionId": "IN-JH",
+            "category": "lakes",
+            "name": "Udhwa Lake Bird Sanctuary",
+            "officialName": "Udhwa Lake Bird Sanctuary",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Udhwa Lake Bird Sanctuary is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -17702,7 +17813,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-KL-LAKE-RAMSAR-SASTHAMKOTTA-LAKE",
+            "regionId": "IN-KL",
+            "category": "lakes",
+            "name": "Sasthamkotta Lake",
+            "officialName": "Sasthamkotta Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Sasthamkotta Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -21142,6 +21269,21 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "pibWetlandTypes2007",
             "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29060"
+          },
+          {
+            "id": "IN-MH-LAKE-RAMSAR-LONAR-LAKE",
+            "regionId": "IN-MH",
+            "category": "lakes",
+            "name": "Lonar Lake",
+            "officialName": "Lonar Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Lonar Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
           }
         ],
         "dams": [
@@ -23443,7 +23585,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-MN-LAKE-RAMSAR-LOKTAK-LAKE",
+            "regionId": "IN-MN",
+            "category": "lakes",
+            "name": "Loktak Lake",
+            "officialName": "Loktak Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Loktak Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -28495,7 +28653,53 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-OD-LAKE-RAMSAR-CHILIKA-LAKE",
+            "regionId": "IN-OD",
+            "category": "lakes",
+            "name": "Chilika Lake",
+            "officialName": "Chilika Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Chilika Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          },
+          {
+            "id": "IN-OD-LAKE-RAMSAR-TAMPARA-LAKE",
+            "regionId": "IN-OD",
+            "category": "lakes",
+            "name": "Tampara Lake",
+            "officialName": "Tampara Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Tampara Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          },
+          {
+            "id": "IN-OD-LAKE-RAMSAR-ANSUPA-LAKE",
+            "regionId": "IN-OD",
+            "category": "lakes",
+            "name": "Ansupa Lake",
+            "officialName": "Ansupa Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Ansupa Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -30342,7 +30546,53 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-PB-LAKE-RAMSAR-HARIKE-LAKE",
+            "regionId": "IN-PB",
+            "category": "lakes",
+            "name": "Harike Lake",
+            "officialName": "Harike Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Harike Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          },
+          {
+            "id": "IN-PB-LAKE-RAMSAR-KANJLI-LAKE",
+            "regionId": "IN-PB",
+            "category": "lakes",
+            "name": "Kanjli Lake",
+            "officialName": "Kanjli Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Kanjli Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          },
+          {
+            "id": "IN-PB-LAKE-RAMSAR-ROPAR-LAKE",
+            "regionId": "IN-PB",
+            "category": "lakes",
+            "name": "Ropar Lake",
+            "officialName": "Ropar Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Ropar Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -31317,7 +31567,38 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-RJ-LAKE-RAMSAR-SAMBHAR-LAKE",
+            "regionId": "IN-RJ",
+            "category": "lakes",
+            "name": "Sambhar Lake",
+            "officialName": "Sambhar Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Sambhar Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          },
+          {
+            "id": "IN-RJ-LAKE-RAMSAR-SILISERH-LAKE",
+            "regionId": "IN-RJ",
+            "category": "lakes",
+            "name": "Siliserh Lake",
+            "officialName": "Siliserh Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Siliserh Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -37510,7 +37791,23 @@
             "referenceYear": 2012
           }
         ],
-        "lakes": [],
+        "lakes": [
+          {
+            "id": "IN-TR-LAKE-RAMSAR-RUDRASAGAR-LAKE",
+            "regionId": "IN-TR",
+            "category": "lakes",
+            "name": "Rudrasagar Lake",
+            "officialName": "Rudrasagar Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Rudrasagar Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          }
+        ],
         "dams": [
           {
             "name": "National Register of Specified Dams 2025 — state/UT total",
@@ -46761,6 +47058,36 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "indiaGovJkLakes",
             "sourceUrl": "https://www.india.gov.in/category/travel-tourism/subcategory/tourism-in-india/details/jammu-and-kashmir-lakes-information"
+          },
+          {
+            "id": "IN-JK-LAKE-RAMSAR-WULAR-LAKE",
+            "regionId": "IN-JK",
+            "category": "lakes",
+            "name": "Wular Lake",
+            "officialName": "Wular Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Wular Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
+          },
+          {
+            "id": "IN-JK-LAKE-RAMSAR-SURINSAR-MANSAR-LAKES",
+            "regionId": "IN-JK",
+            "category": "lakes",
+            "name": "Surinsar-Mansar Lakes",
+            "officialName": "Surinsar-Mansar Lakes",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Surinsar-Mansar Lakes is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
           }
         ],
         "dams": [
@@ -47649,6 +47976,21 @@
             "description": "Named natural lake / wetland lake included in a curated reference list. This entry is not a complete inventory or a claim of current water extent.",
             "sourceId": "ladakhPangongGov",
             "sourceUrl": "https://ladakh.gov.in/places-centres/pangong-lake/"
+          },
+          {
+            "id": "IN-LA-LAKE-RAMSAR-TSOMORIRI-LAKE",
+            "regionId": "IN-LA",
+            "category": "lakes",
+            "name": "Tsomoriri Lake",
+            "officialName": "Tsomoriri Lake",
+            "waterbodyType": "Lake / lake-based wetland of international importance",
+            "designation": "Ramsar Site",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Ramsar Sites of India",
+            "sourceId": "moefccRamsar2026",
+            "sourceUrl": "https://www.moef.gov.in/uploads/pdf-uploads/pdf_698ae4f8f28953.18411376.pdf",
+            "referenceDate": "2026-10",
+            "verificationStatus": "verified",
+            "description": "Tsomoriri Lake is listed as a Ramsar Site in the Government of India's national Ramsar register. It is included in the lakes category as a lake or lake-based wetland; Ramsar designation does not imply that the entire waterbody is a natural freshwater lake."
           }
         ],
         "dams": [

@@ -85,6 +85,8 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
+const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');
+const districtProfilesWithVerifiedFields = districtProfileRows.filter(row => Array.isArray(row.verifiedFields) && row.verifiedFields.length > 0);
 const districtProfileCodes = new Set();
 const allowedVerification = new Set(['verified','verification_pending','not_available']);
 for (const row of districtProfileRows) {
@@ -92,6 +94,10 @@ for (const row of districtProfileRows) {
   assert(!districtProfileCodes.has(row.lgdCode), 'Duplicate district profile LGD code: ' + row.lgdCode);
   districtProfileCodes.add(row.lgdCode);
   assert(allowedVerification.has(row.verificationStatus), 'Invalid district profile verification status: ' + row.name);
+  if (row.profileType === 'directory_identity_only') {
+    assert(row.verificationStatus === 'verification_pending' && Array.isArray(row.verifiedFields) && row.verifiedFields.length === 0,
+      'Directory-only district record must remain pending and contain no verified profile fields: ' + row.name);
+  }
   assert(Array.isArray(row.sourceRecords) && row.sourceRecords.length > 0, 'District profile has no source records: ' + row.name);
   for (const field of row.verifiedFields || []) {
     assert(row[field] !== null && row[field] !== undefined && row[field] !== '', 'Verified district field is empty: ' + row.name + '.' + field);
@@ -174,7 +180,7 @@ for (const row of heritageRows) {
 
 let sourceCheckedRecords = (supplementalData.records || []).length;
 let unsourcedRecords = 0;
-let districtProfileRegions = 0;
+const districtProfileRegions = new Set(districtProfileRows.map(row => normalized(row.stateName))).size;
 const coverage = {};
 for (const [group, keys] of Object.entries(categoryGroups)) {
   coverage[group] = {};
@@ -191,7 +197,6 @@ for (const [group, keys] of Object.entries(categoryGroups)) {
   }
 }
 for (const region of regions) {
-  if (region.districts && Array.isArray(region.districts.records) && region.districts.records.length) districtProfileRegions++;
   for (const [category, value] of Object.entries(region.geography || {})) {
     for (const record of list(value)) {
       sourceCheckedRecords++;
@@ -203,7 +208,8 @@ for (const region of regions) {
   }
 }
 assert(unsourcedRecords === 0, unsourcedRecords + ' existing geography records lack a source URL/source ID.');
-if (districtProfileRegions < 36) warnings.push('Only ' + districtProfileRegions + '/36 regions currently have imported district profile records; map polygons are not a substitute for verified district facts.');
+if (districtProfileRegions < 36) warnings.push('District directory identity records currently cover ' + districtProfileRegions + '/36 regions.');
+if (directoryOnlyDistrictRows.length) warnings.push(directoryOnlyDistrictRows.length + ' districts have LGD directory identity shells only; detailed district facts remain unverified. ' + districtProfilesWithVerifiedFields.length + ' districts have at least one field-specific sourced profile attribute.');
 if (heritageRows.length) {
   const heritageRegions = new Set(heritageRows.map(r => r.regionName)).size;
   warnings.push('UNESCO dataset currently contains ' + heritageRows.length + ' named properties across ' + heritageRegions + '/36 regions; this is not a complete heritage inventory.');

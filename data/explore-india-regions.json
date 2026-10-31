@@ -20692,6 +20692,13 @@
           "referenceDate": "April 2025",
           "lastVerifiedAt": "2026-10-31",
           "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
+        },
+        {
+          "field": "geography.giProducts",
+          "sourceId": "ipindiaStatewiseRegisteredGI2026",
+          "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "referenceDate": "31 December 2025",
+          "lastVerifiedAt": "2026-10-31"
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -20944,7 +20951,35 @@
         },
         "climate": null,
         "soilTypes": [],
-        "giProducts": [],
+        "giProducts": [
+          {
+            "name": "Tripura Risa Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Tripura Pachra-Rignai Textile",
+            "goodsCategory": "Handicraft",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          },
+          {
+            "name": "Tripura Matabari Peda (Sweet)",
+            "goodsCategory": "Food Stuff",
+            "status": "Registered",
+            "referenceDate": "31 December 2025",
+            "description": "Registered GI in the IP India state-wise Part A register.",
+            "sourceId": "ipindiaStatewiseRegisteredGI2026",
+            "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf"
+          }
+        ],
         "culturalHighlights": [],
         "location": [],
         "coastalFeatures": [],

@@ -234,6 +234,27 @@
       "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
       "referenceDate": "Contributing paper to Global Assessment Report on Disaster Risk Reduction 2019; Table 1.6",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhBhakraCanalWaterSupply2024",
+      "title": "Chandigarh Administration — Water Quality Management and municipal water supply",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile, water-supply section",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiJalBoardWaterSources2026",
+      "title": "Delhi Jal Board — About Us and raw-water sources",
+      "sourceUrl": "https://delhijalboard.delhi.gov.in/jalboard/about-us",
+      "referenceDate": "Delhi Jal Board official page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepAtollWaterInfrastructure2026",
+      "title": "Lakshadweep Administration — UT profile and OTEC desalination notice",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -930,6 +951,42 @@
       "sourceUrl": "https://www.unisdr.org/files/65901_measuringdisasterrisksandresilience.pdf",
       "sourceId": "mhaUndrrSubnationalDisasterRiskIndex2019",
       "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-chandigarh-bhakra-main-canal-link",
+      "regionName": "Chandigarh",
+      "category": "riverValleyProjects",
+      "name": "Bhakra Main Canal water-supply link",
+      "description": "Chandigarh's official water-supply profile reports that the city receives surface water from the Bhakra Main Canal, with raw water conveyed from Kajauli to the Sector 39 treatment plant. This is an interstate beneficiary and conveyance link of the Bhakra-Beas system; the dam and canal source are outside the Union Territory.",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "sourceId": "chandigarhBhakraCanalWaterSupply2024",
+      "referenceDate": "Chandigarh Administration 2024 district profile, water-supply section",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-delhi-no-local-multipurpose-project-documented",
+      "regionName": "Delhi",
+      "category": "riverValleyProjects",
+      "name": "Interstate raw-water supply system — no Delhi-located river-valley project identified in cited source",
+      "description": "Delhi Jal Board identifies the NCT's surface-water supply sources as the Yamuna, Bhakra storage and Upper Ganga Canal, supplemented by groundwater. The cited official source documents interstate raw-water supply infrastructure rather than a multipurpose river-valley project located within the NCT; no separate Delhi-located project is asserted here.",
+      "sourceUrl": "https://delhijalboard.delhi.gov.in/jalboard/about-us",
+      "sourceId": "delhiJalBoardWaterSources2026",
+      "referenceDate": "Delhi Jal Board official page accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "river-project-lakshadweep-no-river-valley-project-documented",
+      "regionName": "Lakshadweep",
+      "category": "riverValleyProjects",
+      "name": "No river-valley project documented — island water infrastructure",
+      "description": "The UT Administration describes Lakshadweep as a 36-island archipelago of atolls, reefs and submerged banks. Its official notice records a preliminary notification for an OTEC-desalination plant at Kavaratti in 2022. The cited UT sources do not identify a river-valley project; this is a source-scope note, not a claim that all water infrastructure is absent.",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/",
+      "sourceId": "lakshadweepAtollWaterInfrastructure2026",
+      "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
       "verificationStatus": "not_available",
       "lastVerifiedAt": "2026-10-31"
     }

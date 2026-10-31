@@ -151,11 +151,12 @@
       "regionName": "Madhya Pradesh",
       "category": "geology",
       "name": "Deccan Trap basalt province",
-      "description": "Basaltic lava flows of the Deccan volcanic province occur across western and central Madhya Pradesh.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Geological Survey of India describes the Deccan Trap lava province as extending mainly across Maharashtra, Gujarat and Madhya Pradesh; the record denotes its Madhya Pradesh occurrence.",
+      "sourceUrl": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "sourceId": "gsiDeccanTrapDistribution2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-014",
@@ -173,66 +174,72 @@
       "regionName": "Rajasthan",
       "category": "geology",
       "name": "Aravalli fold belt",
-      "description": "Ancient Proterozoic fold belt extending across Rajasthan and adjoining regions.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "GSI's Rajasthan geology profile describes the Aravalli Supergroup and Aravalli Fold Belt within the State's Precambrian geological provinces.",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063377%2F%2FidcPrimaryFile&revision=latestreleased",
+      "sourceId": "gsiRajasthanGeology2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-016",
       "regionName": "Meghalaya",
       "category": "geology",
       "name": "Shillong Plateau basement complex",
-      "description": "Precambrian gneissic and granitic rocks underlie much of the Shillong Plateau.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "GSI's Meghalaya geology profile identifies the Precambrian Gneissic Complex and overlying Shillong Group of sedimentary rocks as major geological units of the State.",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063331%2F%2FidcPrimaryFile&revision=latestreleased",
+      "sourceId": "gsiMeghalayaGeology2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-017",
       "regionName": "Odisha",
       "category": "geology",
       "name": "Eastern Ghats granulite belt",
-      "description": "High-grade metamorphic rocks occur in the Eastern Ghats mobile belt of Odisha.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "GSI's Odisha geology profile describes the Eastern Ghat Mobile Belt and its granulite-facies lithoassemblages, including khondalite, charnockite and mafic granulites.",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063318%2F%2FidcPrimaryFile&revision=latestreleased",
+      "sourceId": "gsiOdishaGeology2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-018",
       "regionName": "Gujarat",
       "category": "geology",
       "name": "Kachchh sedimentary basin",
-      "description": "Rift-related sedimentary basin with Mesozoic and Cenozoic sequences in Kachchh.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "GSI's Gujarat geology profile identifies the Kachchh region's Mesozoic sedimentary formations, including the Pachchham, Chari, Katrol and Bhuj formations.",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063293%2F%2FidcPrimaryFile&revision=latestreleased",
+      "sourceId": "gsiGujaratGeology2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-019",
       "regionName": "Chhattisgarh",
       "category": "geology",
       "name": "Chhattisgarh Basin",
-      "description": "Proterozoic sedimentary succession spread across central Chhattisgarh.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "GSI records siliceous tuff beds in the basal sedimentary sequence of the Chhattisgarh Basin, supporting the named Proterozoic intracratonic basin entry.",
+      "sourceUrl": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "sourceId": "gsiChhattisgarhBasin2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-020",
       "regionName": "Maharashtra",
       "category": "geology",
       "name": "Deccan volcanic province",
-      "description": "Extensive Cretaceous–Palaeogene basalt lava sequences dominate much of the state.",
-      "sourceUrl": "https://geodataindia.gov.in/",
-      "sourceId": "gsi-ngdr",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "The Geological Survey of India describes the Deccan Trap lava province as extending mainly across Maharashtra, Gujarat and Madhya Pradesh; the record denotes its Maharashtra occurrence.",
+      "sourceUrl": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "sourceId": "gsiDeccanTrapDistribution2026",
+      "referenceDate": "Geological Survey of India geological profiles and atlas accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-021",
@@ -6141,6 +6148,42 @@
       "title": "Adani Power — FY 2024-25 operational performance, Mundra",
       "sourceUrl": "https://connect.adani.com/annual_report/2025/power/operational-performance.html",
       "referenceDate": "FY 2024-25"
+    },
+    {
+      "sourceId": "gsiDeccanTrapDistribution2026",
+      "title": "Geological Survey of India — Deccan Trap lava and pyroclastic occurrences",
+      "sourceUrl": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "referenceDate": "GSI atlas accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gsiRajasthanGeology2026",
+      "title": "Geological Survey of India — Geology and Mineral Resources of Rajasthan",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063377%2F%2FidcPrimaryFile&revision=latestreleased",
+      "referenceDate": "GSI state geology profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gsiMeghalayaGeology2026",
+      "title": "Geological Survey of India — Geology and Mineral Resources of Meghalaya",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063331%2F%2FidcPrimaryFile&revision=latestreleased",
+      "referenceDate": "GSI state geology profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gsiOdishaGeology2026",
+      "title": "Geological Survey of India — Geology and Mineral Resources of Odisha",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063318%2F%2FidcPrimaryFile&revision=latestreleased",
+      "referenceDate": "GSI state geology profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gsiGujaratGeology2026",
+      "title": "Geological Survey of India — Geology and Mineral Resources of Gujarat",
+      "sourceUrl": "https://www.gsi.gov.in/webcenter/ShowProperty?nodeId=%2FUCM%2FDCPORT1GSIGOVI063293%2F%2FidcPrimaryFile&revision=latestreleased",
+      "referenceDate": "GSI state geology profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "gsiChhattisgarhBasin2026",
+      "title": "Geological Survey of India — Chhattisgarh Basin and pyroclastic occurrences",
+      "sourceUrl": "https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/",
+      "referenceDate": "GSI atlas accessed 31 October 2026"
     }
   ]
 }

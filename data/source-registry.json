@@ -942,6 +942,24 @@
       "issuingAuthority": "Ministry of Railways, Railway Board, Government of India",
       "cadence": "Refresh against the latest Indian Railways Year Book or Annual Statistical Statements. Distinguish commissioned route length from under-construction projects.",
       "note": "The Year Book's state-wise table is at the end of FY 2023–24 and explicitly states that remaining States/UTs have no railway line. Sikkim's rail link was still under construction at this snapshot. The table reports an internal inconsistency for Goa (running track 122 km, total track 113 km); those two fields are not reproduced for Goa, while its route length is retained."
+    },
+    {
+      "id": "pibOperationalNationalWaterwaysMar2026",
+      "name": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways as of March 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+      "tabs": [
+        "economy",
+        "geography"
+      ],
+      "fields": [
+        "32 operational National Waterways as at March 2026",
+        "National Waterway number, state/UT association and navigable limits",
+        "National total of 111 declared National Waterways and 20,187 km"
+      ],
+      "referenceDate": "2026-03",
+      "issuingAuthority": "Ministry of Ports, Shipping and Waterways, Government of India; Inland Waterways Authority of India",
+      "cadence": "Refresh after the Ministry/IWAI updates operational waterway status. Distinguish declared National Waterways from those actually operational for cargo/passenger movement.",
+      "note": "The Ministry reports 111 declared National Waterways, of which 32 were operational for cargo and passenger movement as of March 2026. The annexure lists the 32 operational NWs. NW-1 crosses Uttar Pradesh, Bihar, Jharkhand and West Bengal and is recorded in each affected regional profile."
     }
   ]
 }

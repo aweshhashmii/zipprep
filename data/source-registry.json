@@ -6972,6 +6972,48 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.18.4",
       "cadence": "Historical 2019 assessment; retain report-era 7-district boundary note and refresh only against comparable FSI tables."
+    },
+    {
+      "id": "fsiISFR2019MizoramDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Mizoram chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-mizoram.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.19.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019NagalandDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Nagaland chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-nagaland.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.20.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019ManipurDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Manipur chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-manipur.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.17.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
     }
   ]
 }

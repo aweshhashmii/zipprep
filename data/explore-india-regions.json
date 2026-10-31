@@ -8775,6 +8775,14 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals, geography.mineralProduction, geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24; resource tables as at 1 April 2020 and coal resources as at 1 April 2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Minerals Yearbook 2024, Indian Bureau of Mines. Mineral occurrence lists and dated resource estimates are not synonymous with active mining; production quantities are provisional for 2023-24; plant figures are installed capacities, not live output or proof of current operation."
         }
       ],
       "lastVerifiedAt": null,
@@ -9082,7 +9090,176 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Bauxite",
+            "district": "Balangir, Kalahandi, Kandhamal, Kendujhar, Koraput, Malkangiri, Rayagada and Sundargarh",
+            "description": "Leading producer; IBM reports 2,057,024 thousand tonnes of total resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "Bargarh, Boudh, Balangir, Kendujhar, Koraput, Mayurbhanj, Sambalpur and Sundargarh",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chromite",
+            "district": "Balasore, Cuttack, Dhenkanal, Jajpur and Kendujhar",
+            "description": "Sukinda and Nuasahi ultramafic belts are major chromite districts; Odisha accounts for a very large share of India's chromite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Ib River Valley and Talcher coalfield; Talcher in Angul/Dhenkanal area",
+            "description": "Coal Directory 2023–24 reports 99,203.83 million tonnes of total resources across Ib River and Talcher coalfields as on 1 April 2024.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Bargarh, Kendujhar, Koraput, Sambalpur and Sundargarh",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dunite / pyroxenite",
+            "district": "Kendujhar and Sundargarh",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Angul, Cuttack, Dhenkanal, Jharsuguda, Khurda, Puri, Sambalpur and Sundargarh",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Garnet",
+            "district": "Ganjam, Kalahandi and Sambalpur",
+            "description": "Odisha is a leading producer of abrasive garnet.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "Bargarh, Boudh, Balangir, Kalahandi, Koraput, Nuapada and Rayagada",
+            "description": "IBM reports 19,981,121 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (haematite)",
+            "district": "Dhenkanal, Jajpur, Kendujhar, Koraput, Mayurbhanj, Sambalpur and Sundargarh",
+            "description": "IBM reports 9,409,331 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "Mayurbhanj",
+            "description": "IBM reports 242 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Bargarh, Koraput, Malkangiri, Nuapada, Sambalpur and Sundargarh",
+            "description": "IBM reports 2,196,004 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Balangir, Kendujhar, Koraput, Rayagada, Sambalpur and Sundargarh",
+            "description": "IBM reports 171,528 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Nickel ore",
+            "district": "Cuttack, Kendujhar and Mayurbhanj",
+            "description": "IBM reports 175 million tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Ganjam and Sambalpur",
+            "description": "IBM reports 17,703,193 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Titanium minerals",
+            "district": "Dhenkanal, Ganjam, Jajpur and Mayurbhanj",
+            "description": "IBM reports 65,673,203 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Zircon",
+            "district": "Ganjam",
+            "description": "IBM reports 866,919 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "Mayurbhanj and Sambalpur",
+            "description": "Other mineral occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Cobalt",
+            "district": "Cuttack and Jajpur",
+            "description": "Other mineral occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tin",
+            "district": "Koraput and Malkangiri",
+            "description": "Other mineral occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vanadium",
+            "district": "Balasore and Mayurbhanj",
+            "description": "Vanadiferous magnetite occurrence recorded by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 58597.01,
@@ -9127,7 +9304,125 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Bauxite",
+            "description": "2023–24 provisional production: 17,591,967 tonnes; 6 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chromite",
+            "description": "2023–24 provisional production: 3,147,954 tonnes; 18 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Iron ore",
+            "description": "2023–24 provisional production: 148,959 thousand tonnes; 66 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "description": "2023–24 provisional production: 650,856 tonnes; 16 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite (run-of-mine)",
+            "description": "2023–24 provisional production: 67,315 tonnes; 6 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "description": "2023–24 provisional production: 8,019 thousand tonnes; 7 reporting mines.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Hindalco Industries — Hirakud",
+            "district": "Sambalpur",
+            "description": "IMYB 2024 lists 215 thousand tonnes per year aluminium capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindalco — Aditya Aluminium",
+            "district": "Lapanga, Sambalpur",
+            "description": "IMYB 2024 lists 360 thousand tonnes per year aluminium capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "NALCO Alumina Refinery",
+            "district": "Damanjodi, Koraput",
+            "description": "IMYB 2024 lists 2,275 thousand tonnes per year alumina capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "NALCO Aluminium Smelter",
+            "district": "Angul",
+            "description": "IMYB 2024 lists 460 thousand tonnes per year aluminium capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Utkal Alumina International",
+            "district": "Rayagada",
+            "description": "IMYB 2024 lists 1,500 thousand tonnes per year alumina capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vedanta Aluminium",
+            "district": "Lanjigarh, Kalahandi",
+            "description": "IMYB 2024 lists 2,000 thousand tonnes per year alumina capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vedanta Aluminium",
+            "district": "Jharsuguda",
+            "description": "IMYB 2024 lists 1,750 thousand tonnes per year aluminium capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "OCL India cement works",
+            "district": "Rajgangpur, Sundargarh",
+            "description": "IMYB 2024 lists 4,000 thousand tonnes per year cement capacity, plus separate clinker and refractory capacities.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "ACC / Bargarh Cement",
+            "district": "Bargarh",
+            "description": "IMYB 2024 lists 2,140 thousand tonnes per year capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Orissa High Court — Cuttack"
     },

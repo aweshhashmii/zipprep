@@ -333,7 +333,7 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
    v.percentOfGeographicalArea!==undefined&&v.percentOfGeographicalArea!==null?v.percentOfGeographicalArea+'% of geographical area':'',
    v.sourceId?'Source ID '+v.sourceId:'',
    v.verificationStatus==='verified'?'Source-verified':v.verificationStatus==='verification_pending'?'Verification pending':'',
-   v.verificationStatus==='not_available'?'Not available in cited source':'',
+   v.verificationStatus==='not_available'?'None listed in cited source':'',
    v.referenceDate?'Checked '+v.referenceDate:''
   ].filter(Boolean).join(' · ');
   return '<div class="atlas-record"><b>'+textSafe(title)+'</b>'+

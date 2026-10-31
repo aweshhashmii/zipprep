@@ -11903,6 +11903,216 @@
           "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
         }
       ]
+    },
+    {
+      "lgdCode": "273",
+      "name": "East Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCover2019SqKm": 2287.96,
+      "forestCoverPercent2019": 87.9,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "274",
+      "name": "East Khasi Hills",
+      "stateName": "Meghalaya",
+      "forestCover2019SqKm": 1712.19,
+      "forestCoverPercent2019": 62.31,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "276",
+      "name": "Ri Bhoi",
+      "stateName": "Meghalaya",
+      "forestCover2019SqKm": 2137.34,
+      "forestCoverPercent2019": 87.31,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "277",
+      "name": "South Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCover2019SqKm": 1702.2,
+      "forestCoverPercent2019": 90.21,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "278",
+      "name": "West Garo Hills",
+      "stateName": "Meghalaya",
+      "forestCover2019SqKm": 2860.22,
+      "forestCoverPercent2019": 77.79,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "279",
+      "name": "West Khasi Hills",
+      "stateName": "Meghalaya",
+      "forestCover2019SqKm": 3880.99,
+      "forestCoverPercent2019": 73.97,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
+        }
+      ]
     }
   ],
   "sources": [
@@ -11969,6 +12179,14 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+    },
+    {
+      "sourceId": "fsiISFR2019MeghalayaDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter, Table 11.18.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.18.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era 7-district Meghalaya. Several districts have since been split or renamed; exact-name matches link only to the historical report units and are not current-boundary estimates. Percentages use report-era district geographical area."
     }
   ]
 }

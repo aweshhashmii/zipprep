@@ -4115,9 +4115,49 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2020",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Goa State Review. Resource estimates as at 1 April 2020; occurrence districts follow the State Review narrative."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM provisional production table for Goa; iron ore quantity 12 thousand tonnes, value ₹17,421 thousand. Manganese entry lists one mine with labour only and no output quantity."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM principal mineral-based industries table for Goa; capacity values are in thousand tonnes per year unless otherwise stated; NA retained as unavailable."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibPMFME2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoFPI / PIB PMFME state-wise approved micro food-processing enterprises as at 31 December 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -4260,7 +4300,64 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Iron ore (haematite)",
+            "district": "Bicholim, Sanguem and Sattari talukas",
+            "description": "Total resources: 1,197.557 million tonnes as at 1 April 2020, comprising 117.235 million tonnes reserves and 1,080.322 million tonnes remaining resources. IBM identifies Goa's iron-ore belt as extending south-east to north-west.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "Goa (district-level location not specified in the IBM State Review)",
+            "description": "Total resources: 266.336 million tonnes as at 1 April 2020, comprising 4.990 million tonnes reserves and 261.345 million tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Bicholim, Sanguem and Sattari talukas",
+            "description": "Total resources: 34.501 million tonnes as at 1 April 2020, comprising 65,000 tonnes reserves and 34.436 million tonnes remaining resources. Manganese occurs associated with iron ore.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Bauxite",
+            "district": "North Goa and South Goa",
+            "description": "Total resources: 67.857 million tonnes as at 1 April 2020, comprising 9.613 million tonnes reserves and 58.244 million tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Laterite",
+            "district": "Goa (district-level location not specified in the IBM State Review)",
+            "description": "IBM identifies laterite as another mineral produced in Goa, but the State Review's resource table does not give a separate quantity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kaolin (china clay)",
+            "district": "South Goa",
+            "description": "Occurrence reported by IBM; no separate resource quantity is provided in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz and silica sand",
+            "district": "North Goa and South Goa",
+            "description": "Occurrence reported by IBM; no separate resource quantity is provided in the State Review table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 2523.54,
@@ -4305,7 +4402,115 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Iron ore",
+            "district": "Goa (one reporting mine; district split not stated)",
+            "description": "2023-24 provisional production: 12,000 tonnes from 1 reporting mine; reported production value ₹17.421 million (₹1.7421 crore).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Goa",
+            "description": "One mine was listed as reporting in 2023-24, but the IBM table records labour only and no mineral quantity produced; therefore no tonnage is assigned.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Mandovi Pellets Ltd",
+            "district": "Mandovi, Shiroda",
+            "description": "IBM lists a pellet plant; capacity is recorded as NA in the 2024 State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chowgule & Co. Ltd — pellets",
+            "district": "Goa (plant district not specified in the IBM State Review)",
+            "description": "IBM lists a pellet plant; capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sesa Goa Ltd — pig iron",
+            "district": "Bicholim",
+            "description": "Listed installed capacity: 625 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Aparant Iron & Steel Pvt Ltd — pig iron",
+            "district": "Sanguem",
+            "description": "Listed installed capacity: 160 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vedanta Ltd — sinter plant",
+            "district": "Amona, Bicholim",
+            "description": "Listed installed sinter capacity: 832 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambey Metallic Ltd — sponge iron",
+            "district": "Pissurlem, Sattari",
+            "description": "Listed installed capacity: 36 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Goa Sponge & Power Ltd — sponge iron",
+            "district": "Santona",
+            "description": "Listed installed capacity: 90 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shraddha Ispat Pvt Ltd — sponge iron",
+            "district": "Santona, Sanguem",
+            "description": "Listed installed capacity: 72 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Karthik Alloys Ltd — ferroalloys",
+            "district": "Cuncalim",
+            "description": "Listed installed capacity: 3.2 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Micro food processing enterprises — PMFME",
+            "district": "Goa (statewide)",
+            "description": "141 micro food processing enterprises had approved applications under PMFME as at 31 December 2025; approved subsidy ₹5.40 crore. These are scheme approvals, not a verified count of operating factories.",
+            "sourceId": "pibPMFME2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Goa (statewide inventory)",
+            "description": "DPIIT India Industrial Land Bank snapshot as at 23 December 2025 lists 22 industrial parks covering 1,699 hectares, with 102 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
+          }
+        ]
       },
       "highCourt": "Bombay High Court — Goa Bench, Panaji"
     },

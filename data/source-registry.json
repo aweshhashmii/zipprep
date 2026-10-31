@@ -1780,6 +1780,90 @@
       ],
       "referenceDate": "Official municipal page accessed 31 October 2026",
       "cadence": "Review when the relevant State or district tourism portal updates its location record."
+    },
+    {
+      "id": "mahagencoChandrapur2025",
+      "name": "Maharashtra State Power Generation Company — Chandrapur Super Thermal Power Station environmental compliance report",
+      "url": "https://www.mahagenco.in/clearance_pdf/MoEF%26CC_Six%20Monthly%20EC%20Compliance%20report%20for%20period%20of%20Jul-2025%20to%20Dec-2025%C2%A0for%20CSTPS%20Chandrapur_20260418121159785.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Named generating station and operator/location"
+      ],
+      "referenceDate": "Report for July–December 2025",
+      "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
+      "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
+    },
+    {
+      "id": "ntpcRihand2026",
+      "name": "NTPC Limited — Rihand station profile",
+      "url": "https://ntpc.co.in/rihand",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Named generating station and operator/location"
+      ],
+      "referenceDate": "Official NTPC station profile accessed 31 October 2026",
+      "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
+      "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
+    },
+    {
+      "id": "ntpcCoalStations2026",
+      "name": "NTPC Limited — Coal Stations register",
+      "url": "https://ntpc.co.in/power-generation/coal-stations",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Named generating station and operator/location"
+      ],
+      "referenceDate": "Official NTPC coal station list accessed 31 October 2026",
+      "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
+      "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
+    },
+    {
+      "id": "ntpcRamagundam2026",
+      "name": "NTPC Limited — Ramagundam station profile",
+      "url": "https://ntpc.co.in/ramagundam",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Named generating station and operator/location"
+      ],
+      "referenceDate": "Official NTPC station profile accessed 31 October 2026",
+      "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
+      "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
+    },
+    {
+      "id": "ntpcTalcherKaniha2026",
+      "name": "NTPC Limited — Talcher Kaniha station profile",
+      "url": "https://ntpc.co.in/talcher-kaniha",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Named generating station and operator/location"
+      ],
+      "referenceDate": "Official NTPC station profile accessed 31 October 2026",
+      "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
+      "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
+    },
+    {
+      "id": "adaniMundraPower2025",
+      "name": "Adani Power — FY 2024-25 operational performance, Mundra",
+      "url": "https://connect.adani.com/annual_report/2025/power/operational-performance.html",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Named generating station and operator/location"
+      ],
+      "referenceDate": "FY 2024-25",
+      "cadence": "Review against the operator's latest station register or annual report; do not infer live operating status from installed capacity.",
+      "note": "Source supports station identity and location; capacity/status should be taken only from the cited dated table."
     }
   ]
 }

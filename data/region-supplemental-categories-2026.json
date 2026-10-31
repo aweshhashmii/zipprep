@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "title": "Supplemental regional records for previously empty information categories",
+  "referenceDate": "2026-10-31",
+  "policy": "Records are named examples with source links, not exhaustive inventories. Category coverage is not equivalent to complete 36-region coverage. Expand only after region-specific source verification.",
+  "records": [
+    {
+      "id": "supp-001",
+      "regionName": "Andhra Pradesh",
+      "category": "tributaries",
+      "name": "Pranahita",
+      "description": "Major Godavari tributary; joins the Godavari near the Telangana–Maharashtra border.",
+      "sourceUrl": "https://cwc.gov.in/",
+      "sourceId": "cwc-river-basins",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-002",
+      "regionName": "Assam",
+      "category": "tributaries",
+      "name": "Subansiri",
+      "description": "Transboundary Brahmaputra tributary draining the eastern Himalaya.",
+      "sourceUrl": "https://cwc.gov.in/",
+      "sourceId": "cwc-river-basins",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-003",
+      "regionName": "Bihar",
+      "category": "tributaries",
+      "name": "Kosi",
+      "description": "Major Ganga tributary with a large Himalayan catchment.",
+      "sourceUrl": "https://cwc.gov.in/",
+      "sourceId": "cwc-river-basins",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-004",
+      "regionName": "West Bengal",
+      "category": "tributaries",
+      "name": "Teesta",
+      "description": "Major Brahmaputra-system tributary flowing through Sikkim and West Bengal before entering Bangladesh.",
+      "sourceUrl": "https://cwc.gov.in/",
+      "sourceId": "cwc-river-basins",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-005",
+      "regionName": "Odisha",
+      "category": "tributaries",
+      "name": "Ib River",
+      "description": "Mahanadi tributary flowing through the coalfield belt of western Odisha.",
+      "sourceUrl": "https://cwc.gov.in/",
+      "sourceId": "cwc-river-basins",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-006",
+      "regionName": "Uttar Pradesh",
+      "category": "tributaries",
+      "name": "Yamuna",
+      "description": "Major right-bank tributary of the Ganga; joins it at Prayagraj.",
+      "sourceUrl": "https://cwc.gov.in/",
+      "sourceId": "cwc-river-basins",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-007",
+      "regionName": "Karnataka",
+      "category": "waterfalls",
+      "name": "Jog Falls",
+      "description": "Sharavathi River waterfall in Shivamogga district.",
+      "sourceUrl": "https://karnatakatourism.org/",
+      "sourceId": "karnataka-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-008",
+      "regionName": "Meghalaya",
+      "category": "waterfalls",
+      "name": "Nohkalikai Falls",
+      "description": "Waterfall near Cherrapunji (Sohra), East Khasi Hills.",
+      "sourceUrl": "https://meghalayatourism.in/",
+      "sourceId": "meghalaya-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-009",
+      "regionName": "Goa",
+      "category": "waterfalls",
+      "name": "Dudhsagar Falls",
+      "description": "Waterfall on the Mandovi river system near the Goa–Karnataka border.",
+      "sourceUrl": "https://goa-tourism.com/",
+      "sourceId": "goa-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-010",
+      "regionName": "Kerala",
+      "category": "waterfalls",
+      "name": "Athirappilly Falls",
+      "description": "Waterfall on the Chalakudy River in Thrissur district.",
+      "sourceUrl": "https://www.keralatourism.org/",
+      "sourceId": "kerala-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-011",
+      "regionName": "Jharkhand",
+      "category": "waterfalls",
+      "name": "Hundru Falls",
+      "description": "Subarnarekha River waterfall near Ranchi.",
+      "sourceUrl": "https://tourism.jharkhand.gov.in/",
+      "sourceId": "jharkhand-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-012",
+      "regionName": "Tamil Nadu",
+      "category": "waterfalls",
+      "name": "Hogenakkal Falls",
+      "description": "Kaveri River waterfall on the Tamil Nadu–Karnataka border region.",
+      "sourceUrl": "https://www.tamilnadutourism.tn.gov.in/",
+      "sourceId": "tamil-nadu-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-013",
+      "regionName": "Madhya Pradesh",
+      "category": "geology",
+      "name": "Deccan Trap basalt province",
+      "description": "Basaltic lava flows of the Deccan volcanic province occur across western and central Madhya Pradesh.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-014",
+      "regionName": "Jharkhand",
+      "category": "geology",
+      "name": "Chota Nagpur Gneissic Complex",
+      "description": "Archaean crystalline basement rocks form a major part of the Chota Nagpur plateau.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-015",
+      "regionName": "Rajasthan",
+      "category": "geology",
+      "name": "Aravalli fold belt",
+      "description": "Ancient Proterozoic fold belt extending across Rajasthan and adjoining regions.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-016",
+      "regionName": "Meghalaya",
+      "category": "geology",
+      "name": "Shillong Plateau basement complex",
+      "description": "Precambrian gneissic and granitic rocks underlie much of the Shillong Plateau.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-017",
+      "regionName": "Odisha",
+      "category": "geology",
+      "name": "Eastern Ghats granulite belt",
+      "description": "High-grade metamorphic rocks occur in the Eastern Ghats mobile belt of Odisha.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-018",
+      "regionName": "Gujarat",
+      "category": "geology",
+      "name": "Kachchh sedimentary basin",
+      "description": "Rift-related sedimentary basin with Mesozoic and Cenozoic sequences in Kachchh.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-019",
+      "regionName": "Chhattisgarh",
+      "category": "geology",
+      "name": "Chhattisgarh Basin",
+      "description": "Proterozoic sedimentary succession spread across central Chhattisgarh.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-020",
+      "regionName": "Maharashtra",
+      "category": "geology",
+      "name": "Deccan volcanic province",
+      "description": "Extensive Cretaceous–Palaeogene basalt lava sequences dominate much of the state.",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "sourceId": "gsi-ngdr",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-021",
+      "regionName": "Maharashtra",
+      "category": "powerPlants",
+      "name": "Chandrapur Super Thermal Power Station",
+      "description": "Coal-fired generating station at Chandrapur; station identity should be checked against the current CEA station register.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-022",
+      "regionName": "Uttar Pradesh",
+      "category": "powerPlants",
+      "name": "Rihand Super Thermal Power Station",
+      "description": "NTPC coal-fired station at Rihand Nagar, Sonbhadra district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-023",
+      "regionName": "Madhya Pradesh",
+      "category": "powerPlants",
+      "name": "Vindhyachal Super Thermal Power Station",
+      "description": "NTPC coal-fired station in Singrauli district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-024",
+      "regionName": "Chhattisgarh",
+      "category": "powerPlants",
+      "name": "Korba Super Thermal Power Station",
+      "description": "NTPC coal-fired station in Korba district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-025",
+      "regionName": "Telangana",
+      "category": "powerPlants",
+      "name": "Ramagundam Super Thermal Power Station",
+      "description": "NTPC coal-fired station at Ramagundam, Peddapalli district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-026",
+      "regionName": "Odisha",
+      "category": "powerPlants",
+      "name": "Talcher Super Thermal Power Station",
+      "description": "NTPC coal-fired station at Kaniha in Angul district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-027",
+      "regionName": "Tamil Nadu",
+      "category": "powerPlants",
+      "name": "North Chennai Thermal Power Station",
+      "description": "State-sector thermal generating station in the Chennai region.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-028",
+      "regionName": "West Bengal",
+      "category": "powerPlants",
+      "name": "Farakka Super Thermal Power Station",
+      "description": "NTPC coal-fired station at Farakka, Murshidabad district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-029",
+      "regionName": "Gujarat",
+      "category": "powerPlants",
+      "name": "Mundra Thermal Power Station",
+      "description": "Large coal-fired station at Mundra, Kachchh district.",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "sourceId": "cea-power-stations-2025",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-030",
+      "regionName": "Andhra Pradesh",
+      "category": "economicCentres",
+      "name": "Visakhapatnam industrial and port cluster",
+      "description": "Major port-led industrial centre; district industrial profiles are maintained by the Ministry of MSME.",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "sourceId": "dc-msme-industrial-profiles",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-031",
+      "regionName": "Gujarat",
+      "category": "economicCentres",
+      "name": "Ahmedabad–Sanand industrial region",
+      "description": "Major manufacturing and industrial region; consult state and district industrial profiles for sector-level detail.",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "sourceId": "dc-msme-industrial-profiles",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-032",
+      "regionName": "Maharashtra",
+      "category": "economicCentres",
+      "name": "Mumbai–Pune industrial corridor",
+      "description": "Major finance, manufacturing and services concentration; district industrial profiles provide local context.",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "sourceId": "dc-msme-industrial-profiles",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-033",
+      "regionName": "Tamil Nadu",
+      "category": "economicCentres",
+      "name": "Chennai–Sriperumbudur industrial region",
+      "description": "Major automobile, electronics and manufacturing cluster.",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "sourceId": "dc-msme-industrial-profiles",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-034",
+      "regionName": "Karnataka",
+      "category": "economicCentres",
+      "name": "Bengaluru technology and manufacturing cluster",
+      "description": "Major technology, aerospace and manufacturing centre.",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "sourceId": "dc-msme-industrial-profiles",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-035",
+      "regionName": "West Bengal",
+      "category": "economicCentres",
+      "name": "Kolkata–Haldia economic region",
+      "description": "Major eastern Indian services, port, logistics and industrial concentration.",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "sourceId": "dc-msme-industrial-profiles",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-036",
+      "regionName": "Bihar",
+      "category": "ancientKingdoms",
+      "name": "Magadha",
+      "description": "Ancient kingdom centred in south Bihar; a major power in the rise of the Mauryan Empire.",
+      "sourceUrl": "https://asi.nic.in/",
+      "sourceId": "asi-archaeology",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-037",
+      "regionName": "Uttar Pradesh",
+      "category": "ancientKingdoms",
+      "name": "Kosala",
+      "description": "Ancient kingdom associated with the middle Gangetic plain and the Ayodhya region.",
+      "sourceUrl": "https://asi.nic.in/",
+      "sourceId": "asi-archaeology",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-038",
+      "regionName": "Andhra Pradesh",
+      "category": "ancientKingdoms",
+      "name": "Satavahana polity",
+      "description": "Deccan dynasty with important centres and inscriptions in the region of present-day Andhra Pradesh and adjoining states.",
+      "sourceUrl": "https://asi.nic.in/",
+      "sourceId": "asi-archaeology",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-039",
+      "regionName": "Karnataka",
+      "category": "medievalKingdoms",
+      "name": "Western Chalukyas of Kalyani",
+      "description": "Medieval Deccan dynasty with major centres and architectural remains in present-day Karnataka.",
+      "sourceUrl": "https://asi.nic.in/",
+      "sourceId": "asi-archaeology",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-040",
+      "regionName": "Tamil Nadu",
+      "category": "medievalKingdoms",
+      "name": "Imperial Cholas",
+      "description": "Medieval Tamil dynasty known for temple architecture, inscriptions and maritime activity.",
+      "sourceUrl": "https://asi.nic.in/",
+      "sourceId": "asi-archaeology",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-041",
+      "regionName": "Assam",
+      "category": "medievalKingdoms",
+      "name": "Ahom kingdom",
+      "description": "Brahmaputra valley kingdom founded in the 13th century; ruled much of Assam until the 19th century.",
+      "sourceUrl": "https://assamtourism.gov.in/",
+      "sourceId": "assam-tourism-heritage",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-042",
+      "regionName": "Manipur",
+      "category": "medievalKingdoms",
+      "name": "Kingdom of Manipur",
+      "description": "Historical Meitei kingdom with a long dynastic tradition in the Imphal valley.",
+      "sourceUrl": "https://manipurtourism.gov.in/",
+      "sourceId": "manipur-tourism",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-043",
+      "regionName": "West Bengal",
+      "category": "modernHistory",
+      "name": "Partition of Bengal (1905) and Swadeshi movement",
+      "description": "Bengal partition in 1905 triggered a major anti-partition and Swadeshi mobilisation centred in the region.",
+      "sourceUrl": "https://amritmahotsav.nic.in/",
+      "sourceId": "azadi-ka-amrit-mahotsav",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-044",
+      "regionName": "Punjab",
+      "category": "modernHistory",
+      "name": "Jallianwala Bagh massacre (1919)",
+      "description": "British troops fired on a gathering at Amritsar on 13 April 1919; a pivotal event in the freedom movement.",
+      "sourceUrl": "https://amritmahotsav.nic.in/",
+      "sourceId": "azadi-ka-amrit-mahotsav",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-045",
+      "regionName": "Maharashtra",
+      "category": "modernHistory",
+      "name": "Quit India Movement (1942)",
+      "description": "The Quit India resolution was adopted in Bombay on 8 August 1942.",
+      "sourceUrl": "https://amritmahotsav.nic.in/",
+      "sourceId": "azadi-ka-amrit-mahotsav",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-046",
+      "regionName": "Bihar",
+      "category": "modernHistory",
+      "name": "Champaran Satyagraha (1917)",
+      "description": "Gandhi's first major satyagraha in India took place in Champaran, Bihar.",
+      "sourceUrl": "https://amritmahotsav.nic.in/",
+      "sourceId": "azadi-ka-amrit-mahotsav",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-047",
+      "regionName": "Assam",
+      "category": "modernHistory",
+      "name": "Quit India movement in Assam",
+      "description": "Assam saw major anti-colonial mobilisation during the 1942 movement, including the Gohpur episode.",
+      "sourceUrl": "https://amritmahotsav.nic.in/",
+      "sourceId": "azadi-ka-amrit-mahotsav",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-048",
+      "regionName": "West Bengal",
+      "category": "literature",
+      "name": "Rabindranath Tagore — Gitanjali",
+      "description": "Tagore's Gitanjali is a landmark work in Bengali literature; Tagore received the 1913 Nobel Prize in Literature.",
+      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahitya-akademi",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-049",
+      "regionName": "Assam",
+      "category": "literature",
+      "name": "Assamese Sahitya Akademi award tradition",
+      "description": "Sahitya Akademi's Assamese-language award archive documents authors and books across decades.",
+      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahitya-akademi",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-050",
+      "regionName": "Tamil Nadu",
+      "category": "literature",
+      "name": "Tamil Sahitya Akademi award archive",
+      "description": "The Akademi's Tamil-language award archive records recognised books and authors.",
+      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahitya-akademi",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-051",
+      "regionName": "Kerala",
+      "category": "literature",
+      "name": "Malayalam Sahitya Akademi award archive",
+      "description": "The Akademi's Malayalam-language award archive records recognised books and authors.",
+      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahitya-akademi",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    },
+    {
+      "id": "supp-052",
+      "regionName": "Manipur",
+      "category": "literature",
+      "name": "Manipuri Sahitya Akademi award archive",
+      "description": "The Akademi's Manipuri-language award archive records recognised books and authors.",
+      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahitya-akademi",
+      "referenceDate": "2026-10-31",
+      "verificationStatus": "verification_pending"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "cea-power-stations-2025",
+      "title": "Central Electricity Authority — List of Power Stations (2025)",
+      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
+      "referenceDate": "2026-10-01"
+    },
+    {
+      "sourceId": "dc-msme-industrial-profiles",
+      "title": "Ministry of MSME — District Industrial Profiles",
+      "sourceUrl": "https://dcmsme.gov.in/Districts_Industrial_Profiles.aspx",
+      "referenceDate": "2026-10-31"
+    },
+    {
+      "sourceId": "gsi-ngdr",
+      "title": "Geological Survey of India — National Geoscience Data Repository",
+      "sourceUrl": "https://geodataindia.gov.in/",
+      "referenceDate": "2026-10-31"
+    },
+    {
+      "sourceId": "sahitya-akademi",
+      "title": "Sahitya Akademi — Akademi Awards archive",
+      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "referenceDate": "2026-10-31"
+    },
+    {
+      "sourceId": "cwc-river-basins",
+      "title": "Central Water Commission — River basin resources",
+      "sourceUrl": "https://cwc.gov.in/",
+      "referenceDate": "2026-10-31"
+    }
+  ]
+}

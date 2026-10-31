@@ -995,6 +995,54 @@
       "issuingAuthority": "Ministry of New and Renewable Energy, Government of India",
       "cadence": "Refresh from MNRE/CEA monthly installed capacity reports. Keep the combined 'Others' value unallocated unless the source breaks it down by State/UT.",
       "note": "The Lok Sabha reply reports 57,443 MW total installed wind capacity as of 30 June 2026, including nine individually named States and 4 MW grouped as 'Others'. The 4 MW is not allocated to individual States/UTs in the source."
+    },
+    {
+      "id": "lehDistrictOfficialKhardungLa",
+      "name": "Leh District Administration — Khardung La Pass",
+      "url": "https://leh.nic.in/tourist-place/khardung-la-pass/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Khardung La location and elevation as published by Leh District Administration"
+      ],
+      "cadence": "Recheck the district administration's pass page before revising the published elevation; do not infer current road access or travel safety."
+    },
+    {
+      "id": "kargilDistrictOfficialPasses",
+      "name": "Kargil District Administration — District geography and Zanskar pass profile",
+      "url": "https://kargil.nic.in/about-district/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Zoji La and Fotu La names and elevations in Kargil district geography profile"
+      ],
+      "cadence": "Recheck the district geography page for corrections to pass names and elevations; use the separate Zanskar page for Penzi La details."
+    },
+    {
+      "id": "kargilDistrictPenziLa",
+      "name": "Kargil District Administration — Zanskar and Penzi La",
+      "url": "https://kargil.nic.in/tourist-place/zanskar/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Penzi La location, elevation range and Kargil–Zanskar road association"
+      ],
+      "cadence": "Recheck the district's Zanskar page; seasonal pass accessibility is not inferred from this geographic record."
+    },
+    {
+      "id": "jammuKashmirTourismMountainPasses",
+      "name": "Directorate of Tourism, Jammu & Kashmir — Official destinations and mountain passes",
+      "url": "https://jandktourism.jk.gov.in/Destinations.html",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Banihal Pass, Sinthan Pass, Margan Pass and Peer Ki Gali names and published route context"
+      ],
+      "cadence": "Recheck the Tourism Department destinations page for geographic descriptions; seasonal access and road conditions require separate current advisories."
     }
   ]
 }

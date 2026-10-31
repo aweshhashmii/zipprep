@@ -61,7 +61,7 @@ for (const row of supplementalData.records || []) {
   assert(row.name && row.description, 'Supplemental record is missing a name or description: ' + (row.id || '(missing)'));
   assert(row.sourceUrl && /^https:\/\//i.test(row.sourceUrl), 'Supplemental record lacks an HTTPS source URL: ' + (row.id || row.name));
   assert(row.sourceId && supplementalSourceIds.has(row.sourceId), 'Supplemental record references an unregistered source: ' + (row.id || row.name));
-  assert(allowedVerification.has(row.verificationStatus), 'Supplemental record has invalid verification status: ' + (row.id || row.name));
+  assert(['verified','verification_pending','not_available'].includes(row.verificationStatus), 'Supplemental record has invalid verification status: ' + (row.id || row.name));
 }
 
 

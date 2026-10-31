@@ -2298,6 +2298,66 @@
       "referenceDate": "Award archive through 2025",
       "cadence": "Review when Nobel Prize or Sahitya Akademi official award archives are updated.",
       "note": "Award archives document recognised books/authors; they do not by themselves establish an exhaustive regional literary canon."
+    },
+    {
+      "id": "odishaMahanadiIbTributary2026",
+      "name": "Odisha Department of Water Resources — Basin Maps and Features: Mahanadi tributaries",
+      "url": "https://dowr.odisha.gov.in/en/water-resources/basin-maps-features",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "Named river tributary, geological unit or generating station and State location"
+      ],
+      "referenceDate": "Official State basin profile accessed 31 October 2026",
+      "cadence": "Review against updated State water-resources, geology and CEA registers.",
+      "note": "Use the source's dated scope; do not infer current plant operating status from an older CEA station list."
+    },
+    {
+      "id": "prayagrajYamunaGangaConfluence2026",
+      "name": "Prayagraj District Administration — Geography and Yamuna–Ganga confluence",
+      "url": "https://prayagraj.nic.in/geography/",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "Named river tributary, geological unit or generating station and State location"
+      ],
+      "referenceDate": "Official district geography profile accessed 31 October 2026",
+      "cadence": "Review against updated State water-resources, geology and CEA registers.",
+      "note": "Use the source's dated scope; do not infer current plant operating status from an older CEA station list."
+    },
+    {
+      "id": "jsacChotaNagpurGneissicComplex2026",
+      "name": "Jharkhand Space Applications Center — Soil Resources of Ranchi District",
+      "url": "https://jsac.jharkhand.gov.in/Report_PDF/New_Soil_Report/Ranchi_Report_180510.pdf",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "Named river tributary, geological unit or generating station and State location"
+      ],
+      "referenceDate": "Official JSAC report",
+      "cadence": "Review against updated State water-resources, geology and CEA registers.",
+      "note": "Use the source's dated scope; do not infer current plant operating status from an older CEA station list."
+    },
+    {
+      "id": "ceaNorthChennaiTPS2023",
+      "name": "Central Electricity Authority — List of Thermal Power Stations as on 31 March 2023",
+      "url": "https://cea.nic.in/wp-content/uploads/pdm/2023/05/List_of_Power_Stations_31.03.2023.pdf",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "Named river tributary, geological unit or generating station and State location"
+      ],
+      "referenceDate": "31 March 2023",
+      "cadence": "Review against updated State water-resources, geology and CEA registers.",
+      "note": "Use the source's dated scope; do not infer current plant operating status from an older CEA station list."
     }
   ]
 }

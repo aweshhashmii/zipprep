@@ -8,14 +8,16 @@
     "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
     "referenceDate": "2023 assessment",
     "lastVerifiedAt": "2026-11-01",
-    "note": "All 13 FSI report districts match current LGD identities by code. The FSI table labels Pauri Garhwal as 'Garhwal'; this is explicitly mapped to current LGD Pauri Garhwal. H superscript markers denote hill districts and are not part of district names."
+    "note": "All 13 FSI report districts match current LGD identities by code. The FSI table labels Pauri Garhwal as 'Garhwal'; this is explicitly mapped to current LGD Pauri Garhwal. H superscript markers denote hill districts and are not part of district names. Source discrepancies are preserved: district area rows sum to 53,483.56 km² versus printed 53,483.36 km²; Garhwal's printed total (3,560.55 km²) is 200 km² above its class sum, so district total rows sum to 24,503.83 km² while VDF+MDF+open and the printed state total are 24,303.83 km²."
   },
   "totals": {
-    "area": 53483.56,
+    "districtRowsAreaSum": 53483.56,
+    "publishedGrandTotalArea": 53483.36,
     "vdf": 5266.58,
-    "mdf": 12517.630000000001,
-    "open": 6519.620000000002,
-    "forest": 24503.83,
+    "mdf": 12517.63,
+    "open": 6519.62,
+    "districtRowsForestTotalSum": 24503.83,
+    "publishedClassTotalForest": 24303.83,
     "change": -22.98,
     "scrub": 412.88
   },
@@ -54,7 +56,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -63,7 +65,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -72,7 +74,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -81,7 +83,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -90,7 +92,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -99,7 +101,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -108,7 +110,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -117,7 +119,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -155,7 +157,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -164,7 +166,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -173,7 +175,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -182,7 +184,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -191,7 +193,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -200,7 +202,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -209,7 +211,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -218,7 +220,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -256,7 +258,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -265,7 +267,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -274,7 +276,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -283,7 +285,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -292,7 +294,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -301,7 +303,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -310,7 +312,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -319,7 +321,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -357,7 +359,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -366,7 +368,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -375,7 +377,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -384,7 +386,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -393,7 +395,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -402,7 +404,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -411,7 +413,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -420,7 +422,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -458,7 +460,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -467,7 +469,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -476,7 +478,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -485,7 +487,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -494,7 +496,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -503,7 +505,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -512,7 +514,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -521,7 +523,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -560,7 +562,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -569,7 +571,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -578,7 +580,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -587,7 +589,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -596,7 +598,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -605,7 +607,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -614,7 +616,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -623,7 +625,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Garhwal' is explicitly mapped to current LGD district 'Pauri Garhwal' (LGD code 52); no fuzzy match was used. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -661,7 +663,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -670,7 +672,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -679,7 +681,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -688,7 +690,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -697,7 +699,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -706,7 +708,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -715,7 +717,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -724,7 +726,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -762,7 +764,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -771,7 +773,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -780,7 +782,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -789,7 +791,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -798,7 +800,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -807,7 +809,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -816,7 +818,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -825,7 +827,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -863,7 +865,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -872,7 +874,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -881,7 +883,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -890,7 +892,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -899,7 +901,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -908,7 +910,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -917,7 +919,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -926,7 +928,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -964,7 +966,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -973,7 +975,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -982,7 +984,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -991,7 +993,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -1000,7 +1002,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -1009,7 +1011,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -1018,7 +1020,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -1027,7 +1029,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -1065,7 +1067,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -1074,7 +1076,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -1083,7 +1085,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -1092,7 +1094,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -1101,7 +1103,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -1110,7 +1112,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -1119,7 +1121,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -1128,7 +1130,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -1166,7 +1168,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -1175,7 +1177,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -1184,7 +1186,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -1193,7 +1195,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -1202,7 +1204,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -1211,7 +1213,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -1220,7 +1222,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -1229,7 +1231,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     },
@@ -1267,7 +1269,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "veryDenseForest2023SqKm",
@@ -1276,7 +1278,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "moderatelyDenseForest2023SqKm",
@@ -1285,7 +1287,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "openForest2023SqKm",
@@ -1294,7 +1296,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCover2023SqKm",
@@ -1303,7 +1305,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverPercent2023",
@@ -1312,7 +1314,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "forestCoverChangeSince2021SqKm",
@@ -1321,7 +1323,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         },
         {
           "field": "scrub2023SqKm",
@@ -1330,7 +1332,7 @@
           "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
           "referenceDate": "ISFR 2023, Volume II, Chapter 10.28, Table 10.28.3; 2023 assessment",
           "lastVerifiedAt": "2026-11-01",
-          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names."
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The FSI report's H superscript denotes hill-district status and is not part of district names. The district area rows sum to 53,483.56 km² while the printed grand total is 53,483.36 km². The Garhwal row's printed total is 3,560.55 km² although its VDF+MDF+open classes sum to 3,360.55 km²; the state class total is 24,303.83 km². These source discrepancies are retained without adjustment."
         }
       ]
     }

@@ -53,9 +53,12 @@ function loadRegionCatalog(){
   fetch('./data/region-supplemental-categories-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Supplemental category batch HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/district-profile-enrichment-batch-2026-10-31.json').then(function(r){if(!r.ok)throw Error('District profile enrichment batch HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-administration-enrichment-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Regional administration enrichment HTTP '+r.status);return r.json()}).catch(function(){return null})
+  ,fetch('./data/region-geographical-neighbours-2026.json').then(function(r){if(!r.ok)throw Error('Geographical neighbours dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
+  var neighbours=parts[11];
+  if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
   [supplemental,supplementalBatch].forEach(function(dataset){
    if(dataset&&Array.isArray(dataset.records))dataset.records.forEach(function(item){
     var region=data.regions.find(function(r){return r.name===item.regionName});
@@ -353,6 +356,8 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
    v.sourceId?'Source ID '+v.sourceId:'',
    v.verificationStatus==='verified'?'Source-verified':v.verificationStatus==='verification_pending'?'Verification pending':'',
    v.verificationStatus==='not_available'?'None listed in cited source':'',
+   Array.isArray(v.adjoiningRegions)&&v.adjoiningRegions.length?'Adjoining Indian states/UTs: '+v.adjoiningRegions.join(', '):'',
+   Array.isArray(v.internationalNeighbours)&&v.internationalNeighbours.length?'International neighbours: '+v.internationalNeighbours.join(', '):'',
    v.referenceDate?'Checked '+v.referenceDate:''
   ].filter(Boolean).join(' · ');
   return '<div class="atlas-record"><b>'+textSafe(title)+'</b>'+

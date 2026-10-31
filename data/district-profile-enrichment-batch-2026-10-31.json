@@ -11623,6 +11623,286 @@
           "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
         }
       ]
+    },
+    {
+      "lgdCode": "229",
+      "name": "Changlang",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 3986.76,
+      "forestCoverPercent2019": 85.52,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "232",
+      "name": "East Siang",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 2869.1,
+      "forestCoverPercent2019": 79.63,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "237",
+      "name": "Papum Pare",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 3184.91,
+      "forestCoverPercent2019": 92,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "238",
+      "name": "Tawang",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 1174.15,
+      "forestCoverPercent2019": 54.06,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "239",
+      "name": "Tirap",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 1860.99,
+      "forestCoverPercent2019": 78.79,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "240",
+      "name": "Upper Siang",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 5360.73,
+      "forestCoverPercent2019": 81.35,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "241",
+      "name": "Upper Subansiri",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 5553,
+      "forestCoverPercent2019": 78.97,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
+    },
+    {
+      "lgdCode": "243",
+      "name": "West Siang",
+      "stateName": "Arunachal Pradesh",
+      "forestCover2019SqKm": 7298.4,
+      "forestCoverPercent2019": 87.67,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
+        }
+      ]
     }
   ],
   "sources": [
@@ -11681,6 +11961,14 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.3.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover for the 2019 report-era 27-district Assam. Assam's current district directory includes later-created districts; exact-name matches refer to report-era units and may not share current boundaries. Percentages use report-era district geographical area."
+    },
+    {
+      "sourceId": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter, Table 11.2.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.2.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for individual 2019 report-era district rows only. The report combines several pairs of districts (Dibang Valley/Lower Dibang Valley, East Kameng/West Kameng, Kurung Kumey/Lower Subansiri, Lohit/Anjaw); those combined rows are deliberately not assigned to individual current LGD districts. Current district structure has since expanded."
     }
   ]
 }

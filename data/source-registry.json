@@ -6944,6 +6944,20 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.3.4",
       "cadence": "Historical 2019 assessment; retain report-era 27-district boundary note and refresh only against comparable FSI tables."
+    },
+    {
+      "id": "fsiISFR2019ArunachalPradeshDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Arunachal Pradesh chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-arunachal-pradesh.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for individual exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.2.4",
+      "cadence": "Historical 2019 assessment; exclude combined district rows and retain report-era boundary notes."
     }
   ]
 }

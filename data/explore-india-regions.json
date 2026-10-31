@@ -4164,9 +4164,34 @@
           "referenceDate": "2026-07-27",
           "lastVerifiedAt": "2026-10-30",
           "note": "National Water Mission dashboard total from the ongoing First Census of Water Bodies. The figure includes multiple water-body classes and should not be interpreted as lakes/reservoirs only."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceDate": "2026-03-23",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Mineral occurrence districts and national resource shares from Haryana State Review; quantified reserve/resource figures are as at 1 April 2020. Occurrence does not imply active mining."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Sulphur is recovered as a fertilizer-plant by-product; IBM's 2023–24 figure is provisional and is not mined production."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Selected large and medium-scale mineral-based industries in the organised sector. IBM cautions that current operating status is not readily available; capacity is not actual output. Unit not specified wherever IBM's table extraction does not state it."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -4310,7 +4335,120 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "China clay",
+            "district": "Faridabad, Gurugram and Rewari",
+            "description": "Occurrence districts identified by IBM; no district-wise resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Ambala, Bhiwani, Mahendragarh and Panchkula",
+            "description": "74.677 million tonnes total resources as at 1 April 2020 (reported in units of 100 tonnes).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz / silica sand",
+            "district": "Bhiwani, Faridabad, Gurugram and Mahendragarh",
+            "description": "Haryana holds about 42% of India's reported quartz-silica sand resources; IBM lists these occurrence districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartzite",
+            "district": "Faridabad and Gurugram",
+            "description": "Haryana holds about 53% of India's reported quartzite resources; IBM lists these occurrence districts.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Slate",
+            "district": "Mahendragarh and Gurugram",
+            "description": "Haryana holds about 85% of India's reported slate resources; occurrence districts identified by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes",
+            "district": "Mahendragarh",
+            "description": "Occurrence reported by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Calcite",
+            "district": "Mahendragarh",
+            "description": "Occurrence reported by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar (felspar)",
+            "district": "Mahendragarh",
+            "description": "Occurrence reported by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Marble",
+            "district": "Mahendragarh",
+            "description": "Occurrence reported by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper ore",
+            "district": "Bhiwani and Mahendragarh",
+            "description": "53.816 million tonnes total resources as at 1 April 2020; contained copper-metal resources 179.01 thousand tonnes.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Ambala and Mahendragarh",
+            "description": "Occurrence reported by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Bhiwani",
+            "description": "Occurrence reported by IBM; no resource tonnage stated in the State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tin ore",
+            "district": "Tosham area, Bhiwani",
+            "description": "53.91 million tonnes total ore resources as at 1 April 2020; contained tin-metal resources 86,220.6 tonnes. IBM reports tin mineralisation in the Tosham area.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tungsten ore",
+            "district": "Tosham area, Bhiwani",
+            "description": "2.23 million tonnes total ore resources as at 1 April 2020; contained WO₃ resources 3,568 tonnes. IBM reports tungsten mineralisation in the Tosham area.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 3307.28,
@@ -4348,7 +4486,203 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Sulphur (fertilizer-plant by-product)",
+            "district": "Haryana (state-level figure; IBM does not specify the plant district in this table)",
+            "description": "2023–24 provisional production: 163,930 tonnes. Recovered as a by-product from a fertilizer plant; this is not mined sulphur output.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Hyderabad Industries Ltd — asbestos products",
+            "district": "Ballabgarh",
+            "description": "Listed capacity: 2,160 metric tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Cement (formerly Jaypee Cement unit) — cement grinding unit",
+            "district": "Panipat",
+            "description": "Listed capacity: 1,500 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "J K Cement Ltd — cement grinding unit",
+            "district": "Jharli, Jhajjar",
+            "description": "Listed capacity: 1,500 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "J K Laxmi — cement grinding unit",
+            "district": "Bijitpur, Jhajjar",
+            "description": "Listed capacity: 1,300 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — cement grinding unit",
+            "district": "Panipat",
+            "description": "Listed capacity: 2,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — cement grinding unit",
+            "district": "Jhajjar",
+            "description": "Listed capacity: 2,250 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindustan Sanitaryware & Industries Ltd — ceramic/sanitaryware",
+            "district": "Bahadurgarh",
+            "description": "Listed capacity: 14 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "SPL Ltd — ceramic/sanitaryware",
+            "district": "Bahadurgarh",
+            "description": "Listed capacity: 35,000 square metres per day.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Somany Ceramics Ltd — ceramic/sanitaryware",
+            "district": "Kassur, Jhajjar",
+            "description": "Listed capacity: 10.4 million square metres (unit/capacity basis as printed in IBM table; period not specified in extracted table).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Oriental Carbon & Chemicals Ltd — chemicals",
+            "district": "Dharuhera, Rewari",
+            "description": "Listed capacity: 28,500 (unit not specified in extracted IBM table).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bhalla Chemical Works Pvt Ltd — zirconium derivatives/opacifiers",
+            "district": "Ballabgarh",
+            "description": "Listed capacities: 10 (zirconium derivatives) and 5 (zirconium-silicate opacifiers); unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Saint-Gobain Gyproc India Ltd — gypsum products",
+            "district": "Jind",
+            "description": "Capacity not available (IBM table records NA).",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "S. B. Zircon Pvt. Ltd. — zirconium opacifiers",
+            "district": "Sikri, Ballabgarh",
+            "description": "Listed capacity: 3; unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Varun Electrode Pvt Ltd — electrodes",
+            "district": "Panipat",
+            "description": "Listed capacity: 3.6; unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Devay Udyog — electrodes",
+            "district": "Charkhi Dadri",
+            "description": "Listed capacity: 0.4; unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "National Fertilizers Ltd — urea and sulphur",
+            "district": "Gohana Road, Panipat",
+            "description": "Listed capacities: 511.5 (urea) and 8.70 (sulphur); units as reported by IBM's plant-capacity table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kisan Phosphates Pvt Ltd — single superphosphate",
+            "district": "Gawar, Hisar",
+            "description": "Listed capacity: 132 (SSP); unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Nitin Chemicals & Fertilizers Ltd — single superphosphate",
+            "district": "Rukri, Ambala",
+            "description": "Listed capacity: 20 (SSP); unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Jindal Stainless Ltd — stainless steel",
+            "district": "Hisar",
+            "description": "Listed stainless-steel capacity: 780; unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Haryana Ferro Alloys Ltd — ferroalloys",
+            "district": "Haryana (district not specified in IBM table)",
+            "description": "Listed capacity: 2.5; unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Haryana Sheet Glass Ltd — sheet glass",
+            "district": "Sevli, Sonipat",
+            "description": "Listed capacity: 89.5; unit not specified in extracted IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hindustan National Glass & Industries Ltd — glass",
+            "district": "Ballabgarh",
+            "description": "Listed capacity: 690 tonnes per day.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation Ltd — Panipat refinery",
+            "district": "Panipat",
+            "description": "Listed refinery capacity: 15,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },

@@ -539,6 +539,12 @@
       "name": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity as of 30 June 2026",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
       "note": "State-wise installed wind power capacity for nine States; 4 MW 'Others' remains unallocated rather than being assigned to any State/UT."
+    },
+    {
+      "id": "moefccBiosphereEcosystemLandscapes",
+      "name": "Ministry of Environment, Forest and Climate Change — 18 nationally notified Biosphere Reserves and landscape ecosystem associations",
+      "url": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+      "note": "The 18 national Biosphere Reserves are treated as landscape-scale ecosystem mosaics. State links preserve transboundary reserves such as Nilgiri, Agasthyamalai and Achanakmar-Amarkantak."
     }
   ],
   "regions": [
@@ -2661,6 +2667,23 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-4 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-AP-ECOSYSTEM-BR-SESHACHALAM",
+            "regionId": "IN-AP",
+            "category": "ecosystems",
+            "name": "Seshachalam Biosphere Reserve landscape",
+            "officialName": "Seshachalam Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Seshachalam is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -3881,6 +3904,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 12 route km in Arunachal Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 12,
             "totalTrackKilometres": 27
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-AR-ECOSYSTEM-BR-DEHANG-DIBANG",
+            "regionId": "IN-AR",
+            "category": "ecosystems",
+            "name": "Dehang-Dibang Biosphere Reserve landscape",
+            "officialName": "Dehang-Dibang Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Dehang-Dibang is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
         ]
       },
@@ -5558,6 +5598,38 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-57 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-AS-ECOSYSTEM-BR-MANAS",
+            "regionId": "IN-AS",
+            "category": "ecosystems",
+            "name": "Manas Biosphere Reserve landscape",
+            "officialName": "Manas Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Manas is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          },
+          {
+            "id": "IN-AS-ECOSYSTEM-BR-DIBRU-SAIKHOWA",
+            "regionId": "IN-AS",
+            "category": "ecosystems",
+            "name": "Dibru-Saikhowa Biosphere Reserve landscape",
+            "officialName": "Dibru-Saikhowa Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Dibru-Saikhowa is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
         ]
       },
@@ -7932,6 +8004,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 1222 route km in Chhattisgarh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 2444,
             "totalTrackKilometres": 3112
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-CT-ECOSYSTEM-BR-ACHANAKMAR-AMARKANTAK",
+            "regionId": "IN-CT",
+            "category": "ecosystems",
+            "name": "Achanakmar-Amarkantak Biosphere Reserve landscape",
+            "officialName": "Achanakmar-Amarkantak Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Achanakmar-Amarkantak is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
           }
         ]
       },
@@ -11801,6 +11890,23 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-100 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-GJ-ECOSYSTEM-BR-KACHCHH",
+            "regionId": "IN-GJ",
+            "category": "ecosystems",
+            "name": "Kachchh Biosphere Reserve landscape",
+            "officialName": "Kachchh Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Kachchh is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -14577,6 +14683,23 @@
             "description": "Indian Railways Year Book 2023–24 reports 313 route km in Himachal Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 316,
             "totalTrackKilometres": 380
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-HP-ECOSYSTEM-BR-COLD-DESERT",
+            "regionId": "IN-HP",
+            "category": "ecosystems",
+            "name": "Cold Desert Biosphere Reserve landscape",
+            "officialName": "Cold Desert Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Cold Desert is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
         ]
       },
@@ -17820,6 +17943,23 @@
             "runningTrackKilometres": 5498,
             "totalTrackKilometres": 6794
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-KA-ECOSYSTEM-BR-NILGIRI",
+            "regionId": "IN-KA",
+            "category": "ecosystems",
+            "name": "Nilgiri Biosphere Reserve landscape",
+            "officialName": "Nilgiri Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Nilgiri is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -19473,6 +19613,38 @@
             "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-9 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-KL-ECOSYSTEM-BR-AGASTHYAMALAI",
+            "regionId": "IN-KL",
+            "category": "ecosystems",
+            "name": "Agasthyamalai Biosphere Reserve landscape",
+            "officialName": "Agasthyamalai Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Agasthyamalai is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          },
+          {
+            "id": "IN-KL-ECOSYSTEM-BR-NILGIRI",
+            "regionId": "IN-KL",
+            "category": "ecosystems",
+            "name": "Nilgiri Biosphere Reserve landscape",
+            "officialName": "Nilgiri Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Nilgiri is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
           }
         ]
       },
@@ -21387,6 +21559,53 @@
             "description": "Indian Railways Year Book 2023–24 reports 5263 route km in Madhya Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 8900,
             "totalTrackKilometres": 10876
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-MP-ECOSYSTEM-BR-PANNA",
+            "regionId": "IN-MP",
+            "category": "ecosystems",
+            "name": "Panna Biosphere Reserve landscape",
+            "officialName": "Panna Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Panna is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          },
+          {
+            "id": "IN-MP-ECOSYSTEM-BR-PACHMARHI",
+            "regionId": "IN-MP",
+            "category": "ecosystems",
+            "name": "Pachmarhi Biosphere Reserve landscape",
+            "officialName": "Pachmarhi Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Pachmarhi is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          },
+          {
+            "id": "IN-MP-ECOSYSTEM-BR-ACHANAKMAR-AMARKANTAK",
+            "regionId": "IN-MP",
+            "category": "ecosystems",
+            "name": "Achanakmar-Amarkantak Biosphere Reserve landscape",
+            "officialName": "Achanakmar-Amarkantak Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Achanakmar-Amarkantak is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
           }
         ]
       },
@@ -26494,6 +26713,23 @@
             "runningTrackKilometres": 9,
             "totalTrackKilometres": 13
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-ML-ECOSYSTEM-BR-NOKREK",
+            "regionId": "IN-ML",
+            "category": "ecosystems",
+            "name": "Nokrek Biosphere Reserve landscape",
+            "officialName": "Nokrek Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Nokrek is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -30904,6 +31140,23 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-64 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-OD-ECOSYSTEM-BR-SIMILIPAL",
+            "regionId": "IN-OD",
+            "category": "ecosystems",
+            "name": "Similipal Biosphere Reserve landscape",
+            "officialName": "Similipal Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Similipal is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -35046,6 +35299,23 @@
             "verificationStatus": "verified",
             "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-SK-ECOSYSTEM-BR-KHANGCHENDZONGA",
+            "regionId": "IN-SK",
+            "category": "ecosystems",
+            "name": "Khangchendzonga Biosphere Reserve landscape",
+            "officialName": "Khangchendzonga Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Khangchendzonga is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Sikkim High Court — Gangtok"
@@ -37526,6 +37796,53 @@
             "description": "Indian Railways Year Book 2023–24 reports 4038 route km in Tamil Nadu at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 5880,
             "totalTrackKilometres": 7188
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-TN-ECOSYSTEM-BR-AGASTHYAMALAI",
+            "regionId": "IN-TN",
+            "category": "ecosystems",
+            "name": "Agasthyamalai Biosphere Reserve landscape",
+            "officialName": "Agasthyamalai Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Agasthyamalai is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          },
+          {
+            "id": "IN-TN-ECOSYSTEM-BR-NILGIRI",
+            "regionId": "IN-TN",
+            "category": "ecosystems",
+            "name": "Nilgiri Biosphere Reserve landscape",
+            "officialName": "Nilgiri Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Nilgiri is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. The reserve extends across multiple States and is linked to each relevant regional profile."
+          },
+          {
+            "id": "IN-TN-ECOSYSTEM-BR-GULF-OF-MANNAR",
+            "regionId": "IN-TN",
+            "category": "ecosystems",
+            "name": "Gulf of Mannar Biosphere Reserve landscape",
+            "officialName": "Gulf of Mannar Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Gulf of Mannar is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
         ]
       },
@@ -43653,6 +43970,23 @@
             "runningTrackKilometres": 451,
             "totalTrackKilometres": 516
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-UK-ECOSYSTEM-BR-NANDA-DEVI",
+            "regionId": "IN-UK",
+            "category": "ecosystems",
+            "name": "Nanda Devi Biosphere Reserve landscape",
+            "officialName": "Nanda Devi Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Nanda Devi is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -45475,6 +45809,23 @@
             "verificationStatus": "verified",
             "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
           }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-WB-ECOSYSTEM-BR-SUNDARBANS",
+            "regionId": "IN-WB",
+            "category": "ecosystems",
+            "name": "Sundarbans Biosphere Reserve landscape",
+            "officialName": "Sundarbans Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Sundarbans is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -46445,6 +46796,23 @@
             "sourceUrl": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
             "verificationStatus": "verified",
             "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
+          }
+        ],
+        "ecosystems": [
+          {
+            "id": "IN-AN-ECOSYSTEM-BR-GREAT-NICOBAR",
+            "regionId": "IN-AN",
+            "category": "ecosystems",
+            "name": "Great Nicobar Biosphere Reserve landscape",
+            "officialName": "Great Nicobar Biosphere Reserve",
+            "ecosystemType": "Biosphere reserve landscape mosaic",
+            "protectedLandscape": "Nationally notified Biosphere Reserve",
+            "sourceName": "Ministry of Environment, Forest and Climate Change — Annual Report 2023–24, Biosphere Reserves",
+            "sourceId": "moefccBiosphereReserves",
+            "sourceUrl": "https://moef.gov.in/uploads/2023/05/Annual-Report-English-2023-24.pdf",
+            "referenceDate": "2023-24 national register; Cold Desert UNESCO WNBR inclusion September 2025",
+            "verificationStatus": "verified",
+            "description": "Great Nicobar is one of India's 18 nationally notified Biosphere Reserves. The reserve is treated here as a landscape-scale ecosystem mosaic with core, buffer and transition functions; this entry does not imply that the entire reserve is a single uniform habitat type. "
           }
         ]
       },

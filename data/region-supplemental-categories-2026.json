@@ -79,66 +79,72 @@
       "regionName": "Karnataka",
       "category": "waterfalls",
       "name": "Jog Falls",
-      "description": "Sharavathi River waterfall in Shivamogga district.",
-      "sourceUrl": "https://karnatakatourism.org/",
-      "sourceId": "karnataka-tourism",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Jog Falls is formed by the Sharavathi River and is located in Sagar Taluk, Shivamogga district, Karnataka.",
+      "sourceUrl": "https://karnatakatourism.org/en/attractions/jog-falls/",
+      "sourceId": "karnatakaTourismJogFalls2026",
+      "referenceDate": "Official State/UT or district government page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-008",
       "regionName": "Meghalaya",
       "category": "waterfalls",
       "name": "Nohkalikai Falls",
-      "description": "Waterfall near Cherrapunji (Sohra), East Khasi Hills.",
-      "sourceUrl": "https://meghalayatourism.in/",
-      "sourceId": "meghalaya-tourism",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Nohkalikai Falls is located in East Khasi Hills district, approximately 7.5 km from Sohra (Cherrapunji), Meghalaya.",
+      "sourceUrl": "https://www.meghalayatourism.in/explore/destinations/by-interest/majestic-waterfalls/nohkalikai/",
+      "sourceId": "meghalayaTourismNohkalikai2026",
+      "referenceDate": "Official State/UT or district government page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-009",
       "regionName": "Goa",
       "category": "waterfalls",
       "name": "Dudhsagar Falls",
-      "description": "Waterfall on the Mandovi river system near the Goa–Karnataka border.",
-      "sourceUrl": "https://goa-tourism.com/",
-      "sourceId": "goa-tourism",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Dudhsagar Waterfalls is located in Sanguem taluka, Goa, on the Goa–Karnataka border in the Mandovi river system.",
+      "sourceUrl": "https://www.goa.gov.in/places/dudhsagar-waterfalls/",
+      "sourceId": "goaGovDudhsagar2026",
+      "referenceDate": "Official State/UT or district government page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-010",
       "regionName": "Kerala",
       "category": "waterfalls",
       "name": "Athirappilly Falls",
-      "description": "Waterfall on the Chalakudy River in Thrissur district.",
-      "sourceUrl": "https://www.keralatourism.org/",
-      "sourceId": "kerala-tourism",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Athirappilly Falls is in Athirappilly Panchayat, Chalakudy Taluk, Thrissur district, Kerala, on the Chalakudy River.",
+      "sourceUrl": "https://thrissur.gov.in/tourist-place/athirappilly-waterfall/",
+      "sourceId": "thrissurDistrictAthirappilly2026",
+      "referenceDate": "Official State/UT or district government page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-011",
       "regionName": "Jharkhand",
       "category": "waterfalls",
       "name": "Hundru Falls",
-      "description": "Subarnarekha River waterfall near Ranchi.",
-      "sourceUrl": "https://tourism.jharkhand.gov.in/",
-      "sourceId": "jharkhand-tourism",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Hundru Falls is formed on the Subarnarekha (Swarnarekha) River near Ranchi, Jharkhand.",
+      "sourceUrl": "https://tourism.jharkhand.gov.in/how-to-reach/95/1",
+      "sourceId": "jharkhandTourismHundru2026",
+      "referenceDate": "Official State/UT or district government page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-012",
       "regionName": "Tamil Nadu",
       "category": "waterfalls",
       "name": "Hogenakkal Falls",
-      "description": "Kaveri River waterfall on the Tamil Nadu–Karnataka border region.",
-      "sourceUrl": "https://www.tamilnadutourism.tn.gov.in/",
-      "sourceId": "tamil-nadu-tourism",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Hogenakkal Falls is on the Cauvery River, approximately 45 km from Dharmapuri, Tamil Nadu.",
+      "sourceUrl": "https://www.tnurbantree.tn.gov.in/dharmapuri/places-of-interest/",
+      "sourceId": "dharmapuriMunicipalityHogenakkal2026",
+      "referenceDate": "Official State/UT or district government page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-013",
@@ -6061,6 +6067,36 @@
       "sourceUrl": "https://origin-28102021.amritmahotsav.nic.in/Frontend/GetEventListStateswise?currentpage=12095",
       "referenceDate": "Official portal accessed 31 October 2026",
       "scope": "Government of India event listing identifying the Jallianwala Bagh Massacre on 13 April 1919."
+    },
+    {
+      "sourceId": "meghalayaTourismNohkalikai2026",
+      "title": "Meghalaya Tourism — Nohkalikai Falls",
+      "sourceUrl": "https://www.meghalayatourism.in/explore/destinations/by-interest/majestic-waterfalls/nohkalikai/",
+      "referenceDate": "Official State tourism page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "goaGovDudhsagar2026",
+      "title": "Government of Goa — Dudhsagar Waterfalls",
+      "sourceUrl": "https://www.goa.gov.in/places/dudhsagar-waterfalls/",
+      "referenceDate": "Official Government of Goa page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "thrissurDistrictAthirappilly2026",
+      "title": "Thrissur District Administration — Athirappilly Waterfall",
+      "sourceUrl": "https://thrissur.gov.in/tourist-place/athirappilly-waterfall/",
+      "referenceDate": "Official district administration page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "jharkhandTourismHundru2026",
+      "title": "Jharkhand Tourism — Hundru Fall",
+      "sourceUrl": "https://tourism.jharkhand.gov.in/how-to-reach/95/1",
+      "referenceDate": "Official State tourism page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "dharmapuriMunicipalityHogenakkal2026",
+      "title": "Dharmapuri Municipality — Places of Interest",
+      "sourceUrl": "https://www.tnurbantree.tn.gov.in/dharmapuri/places-of-interest/",
+      "referenceDate": "Official municipal page accessed 31 October 2026"
     }
   ]
 }

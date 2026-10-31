@@ -9908,6 +9908,391 @@
           "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
         }
       ]
+    },
+    {
+      "lgdCode": "503",
+      "name": "Chittoor",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 3200.43,
+      "forestCoverPercent2019": 21.12,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "505",
+      "name": "East Godavari",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 4994.1,
+      "forestCoverPercent2019": 39,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "506",
+      "name": "Guntur",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 888,
+      "forestCoverPercent2019": 7.8,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "510",
+      "name": "Krishna",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 650.18,
+      "forestCoverPercent2019": 7.45,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "511",
+      "name": "Kurnool",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 2172.57,
+      "forestCoverPercent2019": 12.3,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "517",
+      "name": "Prakasam",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 3303.84,
+      "forestCoverPercent2019": 18.74,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "515",
+      "name": "Sri Potti Sriramulu Nellore",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 1341.66,
+      "forestCoverPercent2019": 10.26,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "519",
+      "name": "Srikakulam",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 819.31,
+      "forestCoverPercent2019": 14.04,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "520",
+      "name": "Visakhapatnam",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 3756.43,
+      "forestCoverPercent2019": 33.66,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "521",
+      "name": "Vizianagaram",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 1051.99,
+      "forestCoverPercent2019": 16.09,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
+    },
+    {
+      "lgdCode": "523",
+      "name": "West Godavari",
+      "stateName": "Andhra Pradesh",
+      "forestCover2019SqKm": 1604.4,
+      "forestCoverPercent2019": 18.86,
+      "referenceYear": 2019,
+      "lastVerifiedAt": "2026-10-31",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCover2019SqKm",
+        "forestCoverPercent2019"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCover2019SqKm",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        },
+        {
+          "field": "forestCoverPercent2019",
+          "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+          "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+          "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
+        }
+      ]
     }
   ],
   "sources": [
@@ -9942,6 +10327,14 @@
       "referenceDate": "ISFR 2019, Volume II, Table 11.8.4; 2019 forest-cover assessment",
       "lastVerifiedAt": "2026-10-31",
       "note": "Historical satellite-assessed forest cover for the 2019 report-era district units. Gujarat's district structure has since expanded; exact-name current LGD matches are linked by name only and may not have identical boundaries. Percentages are relative to the report-era district geographical area, not current district area."
+    },
+    {
+      "sourceId": "fsiISFR2019AndhraPradeshDistrictForestCover",
+      "title": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter, Table 11.1.4",
+      "sourceUrl": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+      "referenceDate": "ISFR 2019, Volume II, Table 11.1.4; 2019 forest-cover assessment",
+      "lastVerifiedAt": "2026-10-31",
+      "note": "Historical satellite-assessed forest cover for the 2019 report-era 13-district Andhra Pradesh. The state has since reorganised into a larger current district set; exact-name matches link only to the historical report unit, not a current-boundary estimate. Percentages use report-era district geographical area."
     }
   ]
 }

@@ -3035,7 +3035,50 @@
           }
         ],
         "peaks": [],
-        "passes": [],
+        "passes": [
+          {
+            "id": "IN-AR-PASS-SELA",
+            "regionId": "IN-AR",
+            "category": "passes",
+            "name": "Sela Pass",
+            "officialName": "Sela Pass",
+            "passType": "Mountain pass",
+            "elevationMeters": 4267,
+            "sourceName": "Government of Arunachal Pradesh — State Gazetteer: Sela Pass",
+            "sourceId": "arunachalStateGazetteerSelaPass",
+            "sourceUrl": "https://arunachalpradesh.gov.in/images/Gazetteer/state-gazetteer.pdf",
+            "verificationStatus": "verified",
+            "description": "The Government of Arunachal Pradesh State Gazetteer places Sela Pass at approximately 4,267 m, below the higher Sela ridge. This is a gazetteer geographic reference; it is not a current road-access advisory."
+          },
+          {
+            "id": "IN-AR-PASS-BUMLA",
+            "regionId": "IN-AR",
+            "category": "passes",
+            "name": "Bumla Pass",
+            "officialName": "Bumla Pass",
+            "passType": "Mountain pass",
+            "elevationFeet": 15000,
+            "sourceName": "Arunachal Tourism — Official mountain pass destinations",
+            "sourceId": "arunachalTourismOfficialMountainPasses",
+            "sourceUrl": "https://arunachaltourism.com/army-assets/",
+            "verificationStatus": "verified",
+            "description": "Arunachal Tourism describes Bumla Pass near the India–Tibet border at approximately 15,000 ft and highlights its 1962 Sino-Indian War significance. The source gives an approximate elevation; the area is restricted and access requires applicable permissions."
+          },
+          {
+            "id": "IN-AR-PASS-PANGSAU",
+            "regionId": "IN-AR",
+            "category": "passes",
+            "name": "Pangsau Pass",
+            "officialName": "Pangsau Pass (Pan Saung Pass)",
+            "passType": "Mountain pass",
+            "elevationFeet": 3727,
+            "sourceName": "Arunachal Tourism — Jairampur–Manmao–Nampong–Pangsau Pass circuit",
+            "sourceId": "arunachalTourismPangsauPass",
+            "sourceUrl": "https://arunachaltourism.com/jairampur-manmao-nampong-pangsau-pass/",
+            "verificationStatus": "verified",
+            "description": "Arunachal Tourism places Pangsau Pass on the Patkai Hills along the India–Myanmar border at 3,727 ft (1,136 m), and links it with the historic Stilwell Road. The geographic listing does not imply current border-crossing permission."
+          }
+        ],
         "rivers": [
           {
             "name": "Siang (upper Brahmaputra)",

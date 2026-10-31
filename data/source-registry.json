@@ -7441,7 +7441,8 @@
         "Scrub area"
       ],
       "referenceDate": "ISFR 2023, Volume II, Chapter 10.21, Table 10.21.3",
-      "cadence": "Retain the 2023 assessment vintage; refresh only against a later comparable FSI district table. Preserve FSI's Survey of India calculated-area denominator and normalization caveat."
+      "cadence": "Retain the 2023 assessment vintage; refresh only against a later comparable FSI district table. Preserve FSI's Survey of India calculated-area denominator and normalization caveat.",
+      "note": "All 22 FSI report districts map to current LGD district codes. Explicit mappings are used for Firozpur → Ferozepur, Muktsar → Sri Muktsar Sahib and Sahibzada Ajit Singh Nagar → S.A.S Nagar. The current LGD directory contains 23 districts; Malerkotla is not listed in the FSI table and receives no inferred or zero forest values."
     }
   ]
 }

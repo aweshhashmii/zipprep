@@ -569,55 +569,60 @@
       "regionName": "West Bengal",
       "category": "literature",
       "name": "Rabindranath Tagore — Gitanjali",
-      "description": "Tagore's Gitanjali is a landmark work in Bengali literature; Tagore received the 1913 Nobel Prize in Literature.",
-      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
-      "sourceId": "sahitya-akademi",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NobelPrize.org lists Gitanjali (Song Offerings) among Tagore's selected works and records his 1913 Nobel Prize in Literature; Tagore was born in Calcutta, Bengal.",
+      "sourceUrl": "https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/",
+      "sourceId": "nobelTagoreBibliography2026",
+      "referenceDate": "Nobel Prize / Sahitya Akademi official archive accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-049",
       "regionName": "Assam",
       "category": "literature",
       "name": "Assamese Sahitya Akademi award tradition",
-      "description": "Sahitya Akademi's Assamese-language award archive documents authors and books across decades.",
-      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
-      "sourceId": "sahitya-akademi",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Sahitya Akademi's Assamese-language award archive (1955–2025) records award-winning books and authors, including the 2025 award to Devabrat Das for Karhi Khelar Sadhu.",
+      "sourceUrl": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahityaAkademiAwards2025",
+      "referenceDate": "Nobel Prize / Sahitya Akademi official archive accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-050",
       "regionName": "Tamil Nadu",
       "category": "literature",
       "name": "Tamil Sahitya Akademi award archive",
-      "description": "The Akademi's Tamil-language award archive records recognised books and authors.",
-      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
-      "sourceId": "sahitya-akademi",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Sahitya Akademi's Tamil-language award archive (1955–2025) records award-winning books and authors, including the 2025 award to Sa. Tamilselvan for Thamiz Sirukathaiyin Thadangal.",
+      "sourceUrl": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahityaAkademiAwards2025",
+      "referenceDate": "Nobel Prize / Sahitya Akademi official archive accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-051",
       "regionName": "Kerala",
       "category": "literature",
       "name": "Malayalam Sahitya Akademi award archive",
-      "description": "The Akademi's Malayalam-language award archive records recognised books and authors.",
-      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
-      "sourceId": "sahitya-akademi",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Sahitya Akademi's Malayalam-language award archive (1955–2025) records award-winning books and authors, including the 2025 award to N. Prabhakaran for Maayaamanushyar.",
+      "sourceUrl": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahityaAkademiAwards2025",
+      "referenceDate": "Nobel Prize / Sahitya Akademi official archive accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-052",
       "regionName": "Manipur",
       "category": "literature",
       "name": "Manipuri Sahitya Akademi award archive",
-      "description": "The Akademi's Manipuri-language award archive records recognised books and authors.",
-      "sourceUrl": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
-      "sourceId": "sahitya-akademi",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Sahitya Akademi's Manipuri-language award archive (since 1973) records award-winning books and authors, including the 2025 award to Haobam Nalini for Kanglamdriba Eephut.",
+      "sourceUrl": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "sourceId": "sahityaAkademiAwards2025",
+      "referenceDate": "Nobel Prize / Sahitya Akademi official archive accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-053",
@@ -6671,6 +6676,18 @@
       "title": "Azadi Ka Amrit Mahotsav — Assam Quit India movement martyrs and events",
       "sourceUrl": "https://origin-28102021.amritmahotsav.nic.in/unsung-flag-martyrs-hgt",
       "referenceDate": "Official source accessed 31 October 2026"
+    },
+    {
+      "sourceId": "nobelTagoreBibliography2026",
+      "title": "NobelPrize.org — Rabindranath Tagore bibliography, including Gitanjali (Song Offerings)",
+      "sourceUrl": "https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/",
+      "referenceDate": "Official Nobel Foundation bibliography accessed 31 October 2026"
+    },
+    {
+      "sourceId": "sahityaAkademiAwards2025",
+      "title": "Sahitya Akademi — Language-wise Akademi Awards archive, 1955–2025",
+      "sourceUrl": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "referenceDate": "Award archive through 2025"
     }
   ]
 }

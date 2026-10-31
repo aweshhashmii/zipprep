@@ -191,9 +191,10 @@ for (const [group, keys] of Object.entries(categoryGroups)) {
       const giExtra = key === 'giProducts' ? (giData.records || []).filter(row => row.regionName === region.name) : [];
       return base.concat(extra, giExtra);
     };
-    const regionsWithData = regions.filter(r => categoryRecords(r).length > 0).length;
+    const regionsWithDataNames = regions.filter(r => categoryRecords(r).length > 0).map(r => r.name);
+    const regionsMissing = expectedNames.filter(name => !regionsWithDataNames.includes(name));
     const recordCount = regions.reduce((sum,r) => sum + categoryRecords(r).length, 0);
-    coverage[group][key] = { regionsWithData, recordCount };
+    coverage[group][key] = { regionsWithData: regionsWithDataNames.length, recordCount, regionsWithDataNames, regionsMissing };
   }
 }
 for (const region of regions) {
@@ -212,7 +213,10 @@ if (districtProfileRegions < 36) warnings.push('District directory identity reco
 if (directoryOnlyDistrictRows.length) warnings.push(directoryOnlyDistrictRows.length + ' districts have LGD directory identity shells only; detailed district facts remain unverified. ' + districtProfilesWithVerifiedFields.length + ' districts have at least one field-specific sourced profile attribute.');
 if (heritageRows.length) {
   const heritageRegions = new Set(heritageRows.map(r => r.regionName)).size;
-  warnings.push('UNESCO dataset currently contains ' + heritageRows.length + ' named properties across ' + heritageRegions + '/36 regions; this is not a complete heritage inventory.');
+  const noInscribedRegions = new Set((supplementalData.records || [])
+    .filter(r => r.category === 'unescoWorldHeritage' && r.verificationStatus === 'not_available')
+    .map(r => r.regionName)).size;
+  warnings.push('UNESCO dataset contains ' + heritageRows.length + ' named inscribed properties across ' + heritageRegions + '/36 regions; ' + noInscribedRegions + ' other regions have scope-limited no-inscribed-property records from the official UNESCO India State Party list. This is not a complete heritage inventory and excludes Tentative List entries.');
 }
 
 const censusRows = censusData.records || [];

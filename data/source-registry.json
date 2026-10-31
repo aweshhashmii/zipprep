@@ -5133,6 +5133,32 @@
       ],
       "referenceDate": "Official Telangana Tourism destination profile accessed 31 October 2026",
       "cadence": "Review against updated Telangana Tourism and district destination profiles."
+    },
+    {
+      "id": "fsiISFR2019UttarPradeshForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Uttar Pradesh chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttar-pradesh.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State/UT forest ecosystem groups and forest types"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.28; accessed 31 October 2026",
+      "cadence": "Retain the report year; replace only when a newer state-specific FSI forest-type assessment is published."
+    },
+    {
+      "id": "fsiISFR2019DadraNagarHaveliForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Dadra and Nagar Haveli chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-dadra-nagar-haveli.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State/UT forest ecosystem groups and forest types"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Chapter 11.33; accessed 31 October 2026",
+      "cadence": "Retain the report year; replace only when a newer state-specific FSI forest-type assessment is published."
     }
   ]
 }

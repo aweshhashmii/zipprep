@@ -870,6 +870,24 @@
       "referenceDate": "Official list used with the Ministry's 2023–24 Annual Report",
       "cadence": "Refresh against the latest Ministry of Tribal Affairs PVTG list and PM-JANMAN documents; check state reorganisation and legacy combined-state labels before assigning communities.",
       "note": "The Ministry's annual report identifies 75 PVTGs in 18 States and one UT. The state-wise list retains legacy combined labels for Andhra Pradesh (including Telangana), Bihar (including Jharkhand), Madhya Pradesh (including Chhattisgarh), and Uttar Pradesh (including Uttarakhand). Communities under those combined labels are not split across successor States without a separate authoritative mapping."
+    },
+    {
+      "id": "pibCompleteRamsarRegisterOct2026",
+      "name": "Ministry of Environment, Forest and Climate Change / PIB — Complete state-wise list of India's 103 Ramsar Sites",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=160558&lang=2&reg=48",
+      "tabs": [
+        "environment",
+        "geography"
+      ],
+      "fields": [
+        "All 103 Ramsar Sites listed by State/UT",
+        "National total and state/UT coverage as at 15 October 2026",
+        "States/UTs absent from the complete state-wise list"
+      ],
+      "referenceDate": "2026-10-25 (state-wise list; 103 sites as at 2026-10-15)",
+      "issuingAuthority": "Ministry of Environment, Forest and Climate Change, Government of India; Press Information Bureau",
+      "cadence": "Refresh after the Ramsar Secretariat or MoEFCC designates a new Indian site. Treat this as a complete national list only for its stated snapshot date.",
+      "note": "The PIB feature states that its state-wise table lists all 103 Indian Ramsar Sites and that these occur across 28 States/UTs. Regions absent from that exhaustive list may be marked 'None listed' for this snapshot; this does not mean the region has no wetlands or cannot receive a future designation."
     }
   ]
 }

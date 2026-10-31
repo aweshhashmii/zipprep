@@ -3194,9 +3194,34 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceDate": "2026-01-21",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Gujarat mineral occurrences/resources from IBM State Review pp. 163–164; resource reference dates are 1 April 2020 except lignite (1 April 2024). Occurrence does not imply an active mine."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Provisional 2023–24 output; sulphur is recovered as an oil-refinery by-product and is not mine output."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Selected mineral-based industry listings and installed capacities. IBM states current operating status is not readily available; listed capacity is not live output."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -3539,7 +3564,184 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Apatite",
+            "district": "Panchmahals",
+            "description": "351,000 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bauxite",
+            "district": "Amreli, Bhavnagar, Jamnagar, Junagadh, Kheda, Kachchh, Porbandar, Sabarkantha and Valsad",
+            "description": "397.027 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ball clay",
+            "district": "Banaskantha, Bharuch, Kachchh and Patan",
+            "description": "Occurrence recorded in the IBM Gujarat State Review; no tonnage stated in the occurrence list.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Bentonite",
+            "district": "Amreli, Bhavnagar, Jamnagar, Kachchh and Sabarkantha",
+            "description": "Gujarat holds about 25% of India's bentonite resources; occurrence districts are listed in the IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Chalk",
+            "district": "Porbandar",
+            "description": "Gujarat is the sole producer of chalk; the State Review identifies Porbandar district as an occurrence area.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay / kaolin",
+            "district": "Amreli, Banaskantha, Bhavnagar, Jamnagar, Junagadh, Kachchh, Mahesana and Sabarkantha",
+            "description": "Principal clay/kaolin occurrence districts listed by IBM.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper ore",
+            "district": "Banaskantha",
+            "description": "12.613 million tonnes copper ore resources and 200.74 thousand tonnes contained copper-metal resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Diatomite",
+            "district": "Bhavnagar",
+            "description": "811 thousand tonnes total resources as at 1 April 2020; occurrence recorded in Bhavnagar.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Bhavnagar and Vadodara",
+            "description": "Occurrence recorded in the IBM Gujarat State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fluorite (fluorspar)",
+            "district": "Vadodara and Bharuch",
+            "description": "14.355 million tonnes total resources as at 1 April 2020; Gujarat held about 66% of national fluorite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Graphite",
+            "district": "Panchmahals",
+            "description": "3,355,805 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gypsum",
+            "district": "Bhavnagar, Jamnagar, Junagadh, Kachchh and Surendranagar",
+            "description": "Occurrence recorded in the IBM Gujarat State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lignite",
+            "district": "Bharuch, Bhavnagar, Kachchh and Surat",
+            "description": "2,722.05 million tonnes resources as at 1 April 2024; district-wise totals: Bharuch 1,334.58, Surat 663.20, Kachchh 425.10 and Bhavnagar 299.17 million tonnes.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Amreli, Banaskantha, Bharuch, Bhavnagar, Jamnagar, Junagadh, Kheda, Kachchh, Panchmahals, Porbandar, Rajkot, Sabarkantha, Surat, Vadodara and Valsad",
+            "description": "22,832.284 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Panchmahals and Vadodara",
+            "description": "2.875 million tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Marl",
+            "district": "Amreli, Junagadh and Porbandar",
+            "description": "99,198,477 tonnes total resources as at 1 April 2020; Gujarat is the sole holder of India's reported marl resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Perlite",
+            "district": "Rajkot",
+            "description": "2,406 thousand tonnes total resources as at 1 April 2020; Gujarat is the sole holder of India's reported perlite resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz / silica sand",
+            "district": "Bharuch, Bhavnagar, Dahod, Kheda, Kachchh, Panchmahals, Rajkot, Sabarkantha, Surat, Surendranagar, Vadodara and Valsad",
+            "description": "Occurrence districts listed in the IBM Gujarat State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rare earth elements",
+            "district": "Gujarat (district not specified in the State Review resource table)",
+            "description": "424,000 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rock phosphate",
+            "district": "Panchmahals",
+            "description": "314,820 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Vadodara",
+            "description": "1,960 tonnes total resources as at 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Wollastonite",
+            "district": "Banaskantha",
+            "description": "1,990,000 tonnes total resources as at 1 April 2020; Gujarat held about 12% of national resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 21648.93,
@@ -3584,7 +3786,235 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Bauxite",
+            "district": "Gujarat",
+            "description": "2023–24 provisional production: 1,643,130 tonnes from 75 reporting mines; production value ₹167.7753 crore.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Gujarat",
+            "description": "2023–24 provisional production: 23.405 million tonnes from 89 reporting mines; production value ₹576.777 crore.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Marl",
+            "district": "Gujarat",
+            "description": "2023–24 provisional production: 1,081,896 tonnes; IBM associates marl production with limestone and does not separately report a mine count.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sulphur (refinery by-product)",
+            "district": "Gujarat",
+            "description": "2023–24 provisional recovery: 135,697 tonnes as a by-product from oil refineries; not counted as mine output.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Bombay Mineral Limited — abrasive grain",
+            "district": "Jam Khambhalia",
+            "description": "86.4 thousand tonnes per year listed abrasive-grain capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Orient Abrasive Ltd",
+            "district": "Porbandar",
+            "description": "75 thousand tonnes per year abrasive-grain capacity; 150 thousand tonnes per year calcined-bauxite capacity; 30 thousand tonnes per year castable-refractory capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ramco Industries Ltd",
+            "district": "Singura, Kachchh",
+            "description": "72 thousand tonnes per year listed asbestos-products capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sanghi Industries Ltd",
+            "district": "Sanghipuram, Kachchh",
+            "description": "36 thousand tonnes per year listed asbestos-products capacity; cement capacity separately listed at 4,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cements Ltd — Ambuja Nagar",
+            "district": "Junagadh",
+            "description": "5,700 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement Ltd — Magdalla",
+            "district": "Surat",
+            "description": "1,560 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gujarat Sidhee Cement — Sidheegram",
+            "district": "Sutrapada, Junagadh",
+            "description": "1,200 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Saurashtra Cement Ltd — Porbandar",
+            "district": "Porbandar",
+            "description": "1,500 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Saurashtra Cement Ltd — Ranavav",
+            "district": "Porbandar",
+            "description": "3,063 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hi Bond Cement",
+            "district": "Gondal, Rajkot",
+            "description": "1,200 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "J.K. Laxmi Cement",
+            "district": "Kalol, Gandhinagar",
+            "description": "1,000 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "J.K. Laxmi Cement",
+            "district": "Surat",
+            "description": "1,350 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Shree Digvijay Cement Co. Ltd",
+            "district": "Digvijaygram, Sikka, Jamnagar",
+            "description": "1,200 thousand tonnes per year listed capacity for each of the product grades separately shown in the IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tata Chemicals Ltd",
+            "district": "Mithapur, Jamnagar",
+            "description": "500 thousand tonnes per year listed capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Pipavav",
+            "district": "Amreli",
+            "description": "6,400 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Narmada Cement",
+            "district": "Jafrabad, Amreli",
+            "description": "1,450 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Gujarat Cement",
+            "district": "Kovaya, Babarkot, Amreli",
+            "description": "6,400 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement — Sewagram",
+            "district": "Abdasa, Kachchh",
+            "description": "2,400 thousand tonnes per year listed installed cement capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "GHCL Limited",
+            "district": "Sutrapada, Gir Somnath",
+            "description": "1,100 thousand tonnes per year soda-ash capacity and 71 thousand tonnes per year sodium-bicarbonate capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gujarat Alkalies & Chemicals Ltd",
+            "district": "Vadodara",
+            "description": "14.9 thousand tonnes per year listed caustic-soda capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gujarat Alkalies & Chemicals Ltd",
+            "district": "Dahej, Bharuch",
+            "description": "33.408 thousand tonnes per year listed phosphoric-acid capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Oil Corporation Ltd — Koyali Refinery",
+            "district": "Koyali, Vadodara",
+            "description": "13,700 thousand tonnes per year listed refinery capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Reliance refinery",
+            "district": "Jamnagar",
+            "description": "33,000 thousand tonnes per year listed refinery capacity; separate SEZ refinery capacity is 27,000 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Essar Oil refinery",
+            "district": "Vadinar, Devbhumi Dwarka",
+            "description": "20,000 thousand tonnes per year listed refinery capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
     },

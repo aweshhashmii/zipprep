@@ -500,14 +500,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -632,6 +624,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -748,14 +749,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "164 total: 140 operational and 24 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 140,
-            "underConstructionCount": 24,
-            "totalCount": 164
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 166,
+            "completedCount": 153,
+            "underConstructionCount": 13,
+            "grossStorageCapacityBCM": 31.333,
+            "liveStorageCapacityBCM": 24.888,
+            "referenceDate": "April 2025",
+            "description": "166 specified dams in total: 153 completed and 13 under construction. Gross storage capacity 31.333 BCM; live storage capacity 24.888 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -1557,14 +1560,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -1714,6 +1709,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -1815,14 +1819,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "4 total: 1 operational and 3 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 1,
-            "underConstructionCount": 3,
-            "totalCount": 4
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 5,
+            "completedCount": 4,
+            "underConstructionCount": 1,
+            "grossStorageCapacityBCM": 1.415,
+            "liveStorageCapacityBCM": 0.455,
+            "referenceDate": "April 2025",
+            "description": "5 specified dams in total: 4 completed and 1 under construction. Gross storage capacity 1.415 BCM; live storage capacity 0.455 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -2186,14 +2192,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -2318,6 +2316,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2433,14 +2440,16 @@
         ],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "5 total: 3 operational and 2 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 3,
-            "underConstructionCount": 2,
-            "totalCount": 5
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 3,
+            "completedCount": 3,
+            "underConstructionCount": 0,
+            "grossStorageCapacityBCM": 0.374,
+            "liveStorageCapacityBCM": 0.339,
+            "referenceDate": "April 2025",
+            "description": "3 specified dams in total: 3 completed and 0 under construction. Gross storage capacity 0.374 BCM; live storage capacity 0.339 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -2935,14 +2944,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -3059,6 +3060,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3135,14 +3145,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "28 total: 27 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 27,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 28,
+            "completedCount": 27,
             "underConstructionCount": 1,
-            "totalCount": 28
+            "grossStorageCapacityBCM": 1.012,
+            "liveStorageCapacityBCM": 0.872,
+            "referenceDate": "April 2025",
+            "description": "28 specified dams in total: 27 completed and 1 under construction. Gross storage capacity 1.012 BCM; live storage capacity 0.872 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -3623,14 +3635,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -3724,6 +3728,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -3808,14 +3821,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "346 total: 339 operational and 7 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 339,
-            "underConstructionCount": 7,
-            "totalCount": 346
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 322,
+            "completedCount": 313,
+            "underConstructionCount": 9,
+            "grossStorageCapacityBCM": 7.878,
+            "liveStorageCapacityBCM": 7.03,
+            "referenceDate": "April 2025",
+            "description": "322 specified dams in total: 313 completed and 9 under construction. Gross storage capacity 7.878 BCM; live storage capacity 7.03 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -4233,14 +4248,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -4366,6 +4373,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -4431,14 +4447,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "5 total: 5 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 5,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 6,
+            "completedCount": 6,
             "underConstructionCount": 0,
-            "totalCount": 5
+            "grossStorageCapacityBCM": 0.301,
+            "liveStorageCapacityBCM": 0.283,
+            "referenceDate": "April 2025",
+            "description": "6 specified dams in total: 6 completed and 0 under construction. Gross storage capacity 0.301 BCM; live storage capacity 0.283 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -4818,14 +4836,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -4944,6 +4954,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -5049,14 +5068,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "491 total: 487 operational and 4 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 487,
-            "underConstructionCount": 4,
-            "totalCount": 491
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 525,
+            "completedCount": 523,
+            "underConstructionCount": 2,
+            "grossStorageCapacityBCM": 26.948,
+            "liveStorageCapacityBCM": 21.779,
+            "referenceDate": "April 2025",
+            "description": "525 specified dams in total: 523 completed and 2 under construction. Gross storage capacity 26.948 BCM; live storage capacity 21.779 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -5838,14 +5859,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -5948,6 +5961,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -6013,14 +6035,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 1,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 3,
+            "completedCount": 3,
             "underConstructionCount": 0,
-            "totalCount": 1
+            "grossStorageCapacityBCM": 0.022,
+            "liveStorageCapacityBCM": 0.021,
+            "referenceDate": "April 2025",
+            "description": "3 specified dams in total: 3 completed and 0 under construction. Gross storage capacity 0.022 BCM; live storage capacity 0.021 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -6531,14 +6555,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -6674,6 +6690,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7153,14 +7178,16 @@
         ],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "29 total: 23 operational and 6 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 23,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 30,
+            "completedCount": 24,
             "underConstructionCount": 6,
-            "totalCount": 29
+            "grossStorageCapacityBCM": 19.527,
+            "liveStorageCapacityBCM": 14.114,
+            "referenceDate": "April 2025",
+            "description": "30 specified dams in total: 24 completed and 6 under construction. Gross storage capacity 19.527 BCM; live storage capacity 14.114 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -7654,14 +7681,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -7747,6 +7766,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -7839,14 +7867,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "79 total: 55 operational and 24 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 55,
-            "underConstructionCount": 24,
-            "totalCount": 79
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 72,
+            "completedCount": 67,
+            "underConstructionCount": 5,
+            "grossStorageCapacityBCM": 10.051,
+            "liveStorageCapacityBCM": 6.139,
+            "referenceDate": "April 2025",
+            "description": "72 specified dams in total: 67 completed and 5 under construction. Gross storage capacity 10.051 BCM; live storage capacity 6.139 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -8528,14 +8558,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -8636,6 +8658,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -8754,14 +8785,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "231 total: 231 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 231,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 231,
+            "completedCount": 231,
             "underConstructionCount": 0,
-            "totalCount": 231
+            "grossStorageCapacityBCM": 30.772,
+            "liveStorageCapacityBCM": 27.616,
+            "referenceDate": "April 2025",
+            "description": "231 specified dams in total: 231 completed and 0 under construction. Gross storage capacity 30.772 BCM; live storage capacity 27.616 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -9595,14 +9628,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -9759,6 +9784,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -9850,14 +9884,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "61 total: 61 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 61,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 65,
+            "completedCount": 65,
             "underConstructionCount": 0,
-            "totalCount": 61
+            "grossStorageCapacityBCM": 7.017,
+            "liveStorageCapacityBCM": 5.916,
+            "referenceDate": "April 2025",
+            "description": "65 specified dams in total: 65 completed and 0 under construction. Gross storage capacity 7.017 BCM; live storage capacity 5.916 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -10431,14 +10467,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -10539,6 +10567,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -10656,14 +10693,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "1,354 total: 1,354 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 1354,
-            "underConstructionCount": 0,
-            "totalCount": 1354
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 1370,
+            "completedCount": 1360,
+            "underConstructionCount": 10,
+            "grossStorageCapacityBCM": 46.255,
+            "liveStorageCapacityBCM": 38.394,
+            "referenceDate": "April 2025",
+            "description": "1,370 specified dams in total: 1,360 completed and 10 under construction. Gross storage capacity 46.255 BCM; live storage capacity 38.394 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -11527,14 +11566,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -11658,6 +11689,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -11783,14 +11823,16 @@
         ],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "2,374 total: 2,333 operational and 41 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 2333,
-            "underConstructionCount": 41,
-            "totalCount": 2374
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 2696,
+            "completedCount": 2691,
+            "underConstructionCount": 5,
+            "grossStorageCapacityBCM": 46.789,
+            "liveStorageCapacityBCM": 37.766,
+            "referenceDate": "April 2025",
+            "description": "2,696 specified dams in total: 2,691 completed and 5 under construction. Gross storage capacity 46.789 BCM; live storage capacity 37.766 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -12380,14 +12422,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -12505,6 +12539,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -12582,14 +12625,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "4 total: 3 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 3,
-            "underConstructionCount": 1,
-            "totalCount": 4
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 4,
+            "completedCount": 4,
+            "underConstructionCount": 0,
+            "grossStorageCapacityBCM": 0.275,
+            "liveStorageCapacityBCM": 0.197,
+            "referenceDate": "April 2025",
+            "description": "4 specified dams in total: 4 completed and 0 under construction. Gross storage capacity 0.275 BCM; live storage capacity 0.197 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -12837,14 +12882,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -12986,6 +13023,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -13070,14 +13116,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "9 total: 8 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 8,
-            "underConstructionCount": 1,
-            "totalCount": 9
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 9,
+            "completedCount": 9,
+            "underConstructionCount": 0,
+            "grossStorageCapacityBCM": 0.226,
+            "liveStorageCapacityBCM": 0.154,
+            "referenceDate": "April 2025",
+            "description": "9 specified dams in total: 9 completed and 0 under construction. Gross storage capacity 0.226 BCM; live storage capacity 0.154 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -13468,14 +13516,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -13593,6 +13633,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -13658,14 +13707,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 1,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 3,
+            "completedCount": 3,
             "underConstructionCount": 0,
-            "totalCount": 1
+            "grossStorageCapacityBCM": 1.939,
+            "liveStorageCapacityBCM": 1.169,
+            "referenceDate": "April 2025",
+            "description": "3 specified dams in total: 3 completed and 0 under construction. Gross storage capacity 1.939 BCM; live storage capacity 1.169 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -13911,14 +13962,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -14028,6 +14071,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -14100,14 +14152,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 1,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 1,
+            "completedCount": 1,
             "underConstructionCount": 0,
-            "totalCount": 1
+            "grossStorageCapacityBCM": 0.353,
+            "liveStorageCapacityBCM": 0.215,
+            "referenceDate": "April 2025",
+            "description": "1 specified dams in total: 1 completed and 0 under construction. Gross storage capacity 0.353 BCM; live storage capacity 0.215 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -14393,14 +14447,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -14509,6 +14555,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -14613,14 +14668,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "210 total: 210 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 210,
-            "underConstructionCount": 0,
-            "totalCount": 210
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 221,
+            "completedCount": 219,
+            "underConstructionCount": 2,
+            "grossStorageCapacityBCM": 25.022,
+            "liveStorageCapacityBCM": 18.408,
+            "referenceDate": "April 2025",
+            "description": "221 specified dams in total: 219 completed and 2 under construction. Gross storage capacity 25.022 BCM; live storage capacity 18.408 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -15242,14 +15299,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -15369,6 +15418,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -15427,14 +15485,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "19 total: 18 operational and 1 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 18,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 16,
+            "completedCount": 15,
             "underConstructionCount": 1,
-            "totalCount": 19
+            "grossStorageCapacityBCM": 3.484,
+            "liveStorageCapacityBCM": 2.416,
+            "referenceDate": "April 2025",
+            "description": "16 specified dams in total: 15 completed and 1 under construction. Gross storage capacity 3.484 BCM; live storage capacity 2.416 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -15789,14 +15849,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -15889,6 +15941,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -15995,14 +16056,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "314 total: 310 operational and 4 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 310,
-            "underConstructionCount": 4,
-            "totalCount": 314
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 315,
+            "completedCount": 312,
+            "underConstructionCount": 3,
+            "grossStorageCapacityBCM": 12.039,
+            "liveStorageCapacityBCM": 9.659,
+            "referenceDate": "April 2025",
+            "description": "315 specified dams in total: 312 completed and 3 under construction. Gross storage capacity 12.039 BCM; live storage capacity 9.659 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -16944,14 +17007,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -17085,6 +17140,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -17313,14 +17377,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "2 total: 2 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 2,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 9,
+            "completedCount": 9,
             "underConstructionCount": 0,
-            "totalCount": 2
+            "grossStorageCapacityBCM": 0.042,
+            "liveStorageCapacityBCM": 0.019,
+            "referenceDate": "April 2025",
+            "description": "9 specified dams in total: 9 completed and 0 under construction. Gross storage capacity 0.042 BCM; live storage capacity 0.019 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -17648,14 +17714,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -17780,6 +17838,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -17897,14 +17964,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "127 total: 127 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 127,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 123,
+            "completedCount": 123,
             "underConstructionCount": 0,
-            "totalCount": 127
+            "grossStorageCapacityBCM": 6.883,
+            "liveStorageCapacityBCM": 6.622,
+            "referenceDate": "April 2025",
+            "description": "123 specified dams in total: 123 completed and 0 under construction. Gross storage capacity 6.883 BCM; live storage capacity 6.622 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -18497,14 +18566,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -18606,6 +18667,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -18683,14 +18753,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "174 total: 161 operational and 13 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 161,
-            "underConstructionCount": 13,
-            "totalCount": 174
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 174,
+            "completedCount": 158,
+            "underConstructionCount": 16,
+            "grossStorageCapacityBCM": 22.105,
+            "liveStorageCapacityBCM": 17.917,
+            "referenceDate": "April 2025",
+            "description": "174 specified dams in total: 158 completed and 16 under construction. Gross storage capacity 22.105 BCM; live storage capacity 17.917 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -19007,14 +19079,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -19156,6 +19220,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -19239,14 +19312,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "1 total: 1 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 1,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 1,
+            "completedCount": 1,
             "underConstructionCount": 0,
-            "totalCount": 1
+            "grossStorageCapacityBCM": 0.236,
+            "liveStorageCapacityBCM": 0.21,
+            "referenceDate": "April 2025",
+            "description": "1 specified dams in total: 1 completed and 0 under construction. Gross storage capacity 0.236 BCM; live storage capacity 0.21 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -19573,14 +19648,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -19705,6 +19772,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -19781,14 +19857,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "155 total: 151 operational and 4 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 151,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 143,
+            "completedCount": 139,
             "underConstructionCount": 4,
-            "totalCount": 155
+            "grossStorageCapacityBCM": 18.086,
+            "liveStorageCapacityBCM": 15.624,
+            "referenceDate": "April 2025",
+            "description": "143 specified dams in total: 139 completed and 4 under construction. Gross storage capacity 18.086 BCM; live storage capacity 15.624 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -20723,14 +20801,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -20863,6 +20933,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -21372,14 +21451,16 @@
         ],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "37 total: 32 operational and 5 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 32,
-            "underConstructionCount": 5,
-            "totalCount": 37
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 37,
+            "completedCount": 33,
+            "underConstructionCount": 4,
+            "grossStorageCapacityBCM": 7.395,
+            "liveStorageCapacityBCM": 5.805,
+            "referenceDate": "April 2025",
+            "description": "37 specified dams in total: 33 completed and 4 under construction. Gross storage capacity 7.395 BCM; live storage capacity 5.805 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -21828,14 +21909,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -21952,6 +22025,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -22057,14 +22139,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "36 total: 36 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 36,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 36,
+            "completedCount": 36,
             "underConstructionCount": 0,
-            "totalCount": 36
+            "grossStorageCapacityBCM": 1.287,
+            "liveStorageCapacityBCM": 1.066,
+            "referenceDate": "April 2025",
+            "description": "36 specified dams in total: 36 completed and 0 under construction. Gross storage capacity 1.287 BCM; live storage capacity 1.066 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [
@@ -22559,14 +22643,6 @@
           "note": "Administrative capital; seasonal or second-capital arrangements are included in the value where relevant."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "highCourt",
           "sourceId": "sciHighCourtJurisdiction",
           "sourceUrl": "https://www.sci.gov.in/jurisdiction/",
@@ -22667,6 +22743,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -22713,14 +22798,16 @@
         "lakes": [],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "2 total: 2 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 2,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 3,
+            "completedCount": 3,
             "underConstructionCount": 0,
-            "totalCount": 2
+            "grossStorageCapacityBCM": 0.021,
+            "liveStorageCapacityBCM": 0.02,
+            "referenceDate": "April 2025",
+            "description": "3 specified dams in total: 3 completed and 0 under construction. Gross storage capacity 0.021 BCM; live storage capacity 0.02 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -23008,6 +23095,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -23046,7 +23142,16 @@
           }
         ],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "Specified dams — none listed in NRSD 2025",
+            "count": 0,
+            "referenceDate": "April 2025",
+            "description": "None listed for this Union Territory in the National Register of Specified Dams (April 2025), whose state-wise register covers 31 dam-owning States/UTs. This is limited to dams meeting the statutory 'specified dam' definition; it does not establish that no small dams, barrages, check dams or water-harvesting structures exist.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
+          }
+        ],
         "reservoirs": [],
         "wetlands": [
           {
@@ -23319,6 +23424,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -23363,7 +23477,16 @@
           }
         ],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "Specified dams — none listed in NRSD 2025",
+            "count": 0,
+            "referenceDate": "April 2025",
+            "description": "None listed for this Union Territory in the National Register of Specified Dams (April 2025), whose state-wise register covers 31 dam-owning States/UTs. This is limited to dams meeting the statutory 'specified dam' definition; it does not establish that no small dams, barrages, check dams or water-harvesting structures exist.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
+          }
+        ],
         "reservoirs": [],
         "wetlands": [
           {
@@ -23614,6 +23737,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -23652,7 +23784,16 @@
           }
         ],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "Specified dams — none listed in NRSD 2025",
+            "count": 0,
+            "referenceDate": "April 2025",
+            "description": "None listed for this Union Territory in the National Register of Specified Dams (April 2025), whose state-wise register covers 31 dam-owning States/UTs. This is limited to dams meeting the statutory 'specified dam' definition; it does not establish that no small dams, barrages, check dams or water-harvesting structures exist.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
+          }
+        ],
         "reservoirs": [],
         "wetlands": [
           {
@@ -23828,14 +23969,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "areaSqKm",
           "sourceId": "jkdesArea2026",
           "sourceUrl": "https://ecostatjk.nic.in/",
@@ -23951,6 +24084,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -24198,14 +24340,16 @@
         ],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "15 total: 13 operational and 2 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 13,
-            "underConstructionCount": 2,
-            "totalCount": 15
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 9,
+            "completedCount": 8,
+            "underConstructionCount": 1,
+            "grossStorageCapacityBCM": 0.88,
+            "liveStorageCapacityBCM": 0.422,
+            "referenceDate": "April 2025",
+            "description": "9 specified dams in total: 8 completed and 1 under construction. Gross storage capacity 0.88 BCM; live storage capacity 0.422 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -24454,14 +24598,6 @@
           "note": "Formation/statehood date for the present state/UT entity; historical predecessor dates may differ."
         },
         {
-          "field": "geography.dams",
-          "sourceId": "nrld2023",
-          "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-          "referenceYear": "2023",
-          "lastVerifiedAt": "2026-10-30",
-          "note": "State-wise tally from the NRLD-2023 annexure. Five UTs not listed in the source remain unpopulated rather than being assigned zero."
-        },
-        {
           "field": "administration.districtCount,districts.records",
           "sourceId": "ladakhDistrictNotifications2026",
           "sourceUrl": "https://ladakh.gov.in/ladakh-administration-notifies-creation-of-sankoo-as-new-district-of-ut-ladakh/",
@@ -24569,6 +24705,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": "2026-10-30",
@@ -24714,14 +24859,16 @@
         ],
         "dams": [
           {
-            "name": "NRLD-2023 specified large-dam tally",
-            "description": "2 total: 2 operational and 0 under construction (National Register of Large Dams 2023). This is a state-level count, not a list of individual dams.",
-            "sourceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=251604",
-            "sourceId": "nrld2023",
-            "referenceYear": "2023",
-            "operationalCount": 2,
+            "name": "National Register of Specified Dams 2025 — state/UT total",
+            "count": 2,
+            "completedCount": 2,
             "underConstructionCount": 0,
-            "totalCount": 2
+            "grossStorageCapacityBCM": 0.053,
+            "liveStorageCapacityBCM": 0.01,
+            "referenceDate": "April 2025",
+            "description": "2 specified dams in total: 2 completed and 0 under construction. Gross storage capacity 0.053 BCM; live storage capacity 0.01 BCM. This is the statutory specified-dam register, not an inventory of every small check dam or local water-harvesting structure.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
           }
         ],
         "reservoirs": [],
@@ -25008,6 +25155,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -25046,7 +25202,16 @@
           }
         ],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "Specified dams — none listed in NRSD 2025",
+            "count": 0,
+            "referenceDate": "April 2025",
+            "description": "None listed for this Union Territory in the National Register of Specified Dams (April 2025), whose state-wise register covers 31 dam-owning States/UTs. This is limited to dams meeting the statutory 'specified dam' definition; it does not establish that no small dams, barrages, check dams or water-harvesting structures exist.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
+          }
+        ],
         "reservoirs": [],
         "wetlands": [
           {
@@ -25324,6 +25489,15 @@
           "referenceYear": "2023",
           "lastVerifiedAt": "2026-10-31",
           "note": "MoEFCC atlas list of designated Elephant Reserves; a not-listed entry is explicitly limited to the atlas snapshot and does not imply absence of elephant habitat."
+        },
+        {
+          "field": "geography.dams",
+          "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+          "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf",
+          "referenceYear": 2025,
+          "referenceDate": "April 2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State/UT totals, completed/under-construction split and gross/live storage from NDSA's NRSD-2025 summary table. The register defines specified dams under the Dam Safety Act, 2021; it is not a complete inventory of every small dam or water-harvesting structure."
         }
       ],
       "lastVerifiedAt": null,
@@ -25381,7 +25555,16 @@
           }
         ],
         "lakes": [],
-        "dams": [],
+        "dams": [
+          {
+            "name": "Specified dams — none listed in NRSD 2025",
+            "count": 0,
+            "referenceDate": "April 2025",
+            "description": "None listed for this Union Territory in the National Register of Specified Dams (April 2025), whose state-wise register covers 31 dam-owning States/UTs. This is limited to dams meeting the statutory 'specified dam' definition; it does not establish that no small dams, barrages, check dams or water-harvesting structures exist.",
+            "sourceId": "ndsaNationalRegisterSpecifiedDams2025",
+            "sourceUrl": "https://dharma.cwc.gov.in/dharma/public/uploads/front_upload_file/174860534186541140.pdf"
+          }
+        ],
         "reservoirs": [],
         "wetlands": [
           {

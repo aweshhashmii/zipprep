@@ -27,6 +27,9 @@ const errors = [];
 const warnings = [];
 const regionsData = read('data/explore-india-regions.json');
 const supplementalData = read('data/region-supplemental-categories-2026.json');
+const supplementalBatchData = read('data/region-supplemental-categories-batch-2026-10-31.json');
+const allSupplementalRecords = [...(supplementalData.records || []), ...(supplementalBatchData.records || [])];
+const allSupplementalSources = [...(supplementalData.sources || []), ...(supplementalBatchData.sources || [])];
 const giData = read('data/region-gi-2026.json');
 const sourceRegistry = read('data/source-registry.json');
 const politicalData = read('data/region-political-2026.json');
@@ -53,9 +56,9 @@ for (const name of expectedNames) assert(regionSet.has(name), 'Missing expected 
 for (const name of regionNames) assert(expectedNames.includes(name), 'Unexpected region: ' + name);
 
 const allowedSupplementalCategories = new Set(Object.values(categoryGroups).flat());
-const supplementalSourceIds = new Set((supplementalData.sources || []).map(source => source.sourceId));
+const supplementalSourceIds = new Set(allSupplementalSources.map(source => source.sourceId));
 const supplementalIds = new Set();
-for (const row of supplementalData.records || []) {
+for (const row of allSupplementalRecords) {
   assert(row.id && !supplementalIds.has(row.id), 'Supplemental record has missing or duplicate ID: ' + (row.id || '(missing)'));
   supplementalIds.add(row.id);
   assert(regionSet.has(row.regionName), 'Supplemental record references unknown region: ' + row.regionName);
@@ -178,7 +181,7 @@ for (const row of heritageRows) {
   if (!regionSet.has(row.regionName)) errors.push('UNESCO row refers to unknown region: ' + row.regionName);
 }
 
-let sourceCheckedRecords = (supplementalData.records || []).length;
+let sourceCheckedRecords = allSupplementalRecords.length;
 let unsourcedRecords = 0;
 const districtProfileRegions = new Set(districtProfileRows.map(row => normalized(row.stateName))).size;
 const coverage = {};
@@ -187,7 +190,7 @@ for (const [group, keys] of Object.entries(categoryGroups)) {
   for (const key of keys) {
     const categoryRecords = (region) => {
       const base = key === 'languages' && !list((region.geography || {})[key]).length ? list(region.officialLanguages) : list((region.geography || {})[key]);
-      const extra = (supplementalData.records || []).filter(row => row.regionName === region.name && row.category === key);
+      const extra = allSupplementalRecords.filter(row => row.regionName === region.name && row.category === key);
       const giExtra = key === 'giProducts' ? (giData.records || []).filter(row => row.regionName === region.name) : [];
       return base.concat(extra, giExtra);
     };
@@ -213,7 +216,7 @@ if (districtProfileRegions < 36) warnings.push('District directory identity reco
 if (directoryOnlyDistrictRows.length) warnings.push(directoryOnlyDistrictRows.length + ' districts have LGD directory identity shells only; detailed district facts remain unverified. ' + districtProfilesWithVerifiedFields.length + ' districts have at least one field-specific sourced profile attribute.');
 if (heritageRows.length) {
   const heritageRegions = new Set(heritageRows.map(r => r.regionName)).size;
-  const noInscribedRegions = new Set((supplementalData.records || [])
+  const noInscribedRegions = new Set(allSupplementalRecords
     .filter(r => r.category === 'unescoWorldHeritage' && r.verificationStatus === 'not_available')
     .map(r => r.regionName)).size;
   warnings.push('UNESCO dataset contains ' + heritageRows.length + ' named inscribed properties across ' + heritageRegions + '/36 regions; ' + noInscribedRegions + ' other regions have scope-limited no-inscribed-property records from the official UNESCO India State Party list. This is not a complete heritage inventory and excludes Tentative List entries.');

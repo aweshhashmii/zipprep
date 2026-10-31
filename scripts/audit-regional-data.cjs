@@ -44,6 +44,7 @@ const districtProfileAssamData = read('data/district-profile-isfr2023-assam.json
 const districtProfileChhattisgarhData = read('data/district-profile-isfr2023-chhattisgarh.json');
 const districtProfileMadhyaPradeshData = read('data/district-profile-isfr2023-madhya-pradesh.json');
 const districtProfileOdishaData = read('data/district-profile-isfr2023-odisha.json');
+const districtProfileMaharashtraData = read('data/district-profile-isfr2023-maharashtra.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -96,7 +97,7 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
-for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || [])]) {
+for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || [])]) {
   const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
   if (existing) {
     for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
@@ -240,6 +241,32 @@ for (const row of odishaForestRows) {
   for (const field of row.verifiedFields || []) {
     assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileOdishaData.source.sourceId),
       'Odisha ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
+  }
+}
+const maharashtraForestRows = districtProfileMaharashtraData.records || [];
+assert(maharashtraForestRows.length === 36, 'ISFR 2023 Maharashtra district forest dataset must contain all 36 districts listed in the FSI table.');
+assert(sourceRegistry.sources.some(source => source.id === districtProfileMaharashtraData.source.sourceId),
+  'ISFR 2023 Maharashtra district forest source must be registered.');
+const maharashtraForestExpected = {
+  forestCoverCalculatedArea2023SqKm: 307713,
+  veryDenseForest2023SqKm: 9865.62,
+  moderatelyDenseForest2023SqKm: 21577.79,
+  openForest2023SqKm: 19415.12,
+  forestCover2023SqKm: 50858.53,
+  forestCoverChangeSince2021SqKm: -54.47,
+  scrub2023SqKm: 3645.67
+};
+for (const [field, expectedValue] of Object.entries(maharashtraForestExpected)) {
+  const actual = maharashtraForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Maharashtra ISFR 2023 district total does not reconcile for ' + field + ': ' + actual + ' vs ' + expectedValue);
+}
+for (const row of maharashtraForestRows) {
+  assert(row.stateName === 'Maharashtra', 'Maharashtra ISFR district row has wrong state: ' + row.name);
+  assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '27'),
+    'Maharashtra ISFR district row does not exactly match current LGD identity: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileMaharashtraData.source.sourceId),
+      'Maharashtra ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
   }
 }
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');

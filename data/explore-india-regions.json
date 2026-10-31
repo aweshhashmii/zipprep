@@ -521,6 +521,12 @@
       "name": "Ministry of Railways — Indian Railways Year Book 2023–24, state/UT-wise network (31 March 2024)",
       "url": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/IR%20Year%20Book%202023-24-English.pdf",
       "note": "State-wise route/running/total track kilometres at 31 March 2024; source explicitly says remaining States/UTs have no railway line. Goa running/total track values omitted due source inconsistency."
+    },
+    {
+      "id": "pibOperationalNationalWaterwaysMar2026",
+      "name": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+      "note": "32 operational NWs as of March 2026, out of 111 declared National Waterways. NW-1 crosses Uttar Pradesh, Bihar, Jharkhand and West Bengal and appears in all four profiles."
     }
   ],
   "regions": [
@@ -2429,6 +2435,24 @@
             "description": "Indian Railways Year Book 2023–24 reports 4016 route km in Andhra Pradesh at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 7017,
             "totalTrackKilometres": 8647
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-AP-NW-4-OPERATIONAL-2026",
+            "regionId": "IN-AP",
+            "category": "waterways",
+            "name": "Krishna-Godavari River Systems",
+            "officialName": "NW-4: Krishna-Godavari River Systems",
+            "nationalWaterwayNumber": "NW-4",
+            "waterwayName": "Krishna-Godavari River Systems",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-4 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
         ]
       },
@@ -5186,6 +5210,72 @@
             "runningTrackKilometres": 3077,
             "totalTrackKilometres": 4108
           }
+        ],
+        "waterways": [
+          {
+            "id": "IN-AS-NW-2-OPERATIONAL-2026",
+            "regionId": "IN-AS",
+            "category": "waterways",
+            "name": "Brahmaputra River (Dhubri-Sadiya)",
+            "officialName": "NW-2: Brahmaputra River (Dhubri-Sadiya)",
+            "nationalWaterwayNumber": "NW-2",
+            "waterwayName": "Brahmaputra River (Dhubri-Sadiya)",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-2 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-AS-NW-16-OPERATIONAL-2026",
+            "regionId": "IN-AS",
+            "category": "waterways",
+            "name": "Barak River",
+            "officialName": "NW-16: Barak River",
+            "nationalWaterwayNumber": "NW-16",
+            "waterwayName": "Barak River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-16 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-AS-NW-31-OPERATIONAL-2026",
+            "regionId": "IN-AS",
+            "category": "waterways",
+            "name": "Dhansiri / Chathe",
+            "officialName": "NW-31: Dhansiri / Chathe",
+            "nationalWaterwayNumber": "NW-31",
+            "waterwayName": "Dhansiri / Chathe",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-31 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-AS-NW-57-OPERATIONAL-2026",
+            "regionId": "IN-AS",
+            "category": "waterways",
+            "name": "Kopili River",
+            "officialName": "NW-57: Kopili River",
+            "nationalWaterwayNumber": "NW-57",
+            "waterwayName": "Kopili River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-57 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
@@ -6437,6 +6527,40 @@
             "description": "Indian Railways Year Book 2023–24 reports 3959 route km in Bihar at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 6008,
             "totalTrackKilometres": 7263
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-BR-NW-94-OPERATIONAL-2026",
+            "regionId": "IN-BR",
+            "category": "waterways",
+            "name": "Sone River",
+            "officialName": "NW-94: Sone River",
+            "nationalWaterwayNumber": "NW-94",
+            "waterwayName": "Sone River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-94 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-BR-NW-1-OPERATIONAL-2026",
+            "regionId": "IN-BR",
+            "category": "waterways",
+            "name": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "officialName": "NW-1: Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "nationalWaterwayNumber": "NW-1",
+            "waterwayName": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
           }
         ]
       },
@@ -8436,6 +8560,56 @@
             "verificationStatus": "verified",
             "description": "Indian Railways Year Book 2023–24 reports 69 route km in Goa at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "dataQualityNote": "The source table reports 122 running track km and 113 total track km for Goa, an internal inconsistency; these two fields are omitted rather than repeated."
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-GA-NW-68-OPERATIONAL-2026",
+            "regionId": "IN-GA",
+            "category": "waterways",
+            "name": "Mandovi River",
+            "officialName": "NW-68: Mandovi River",
+            "nationalWaterwayNumber": "NW-68",
+            "waterwayName": "Mandovi River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-68 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-GA-NW-27-OPERATIONAL-2026",
+            "regionId": "IN-GA",
+            "category": "waterways",
+            "name": "Cumberjua River",
+            "officialName": "NW-27: Cumberjua River",
+            "nationalWaterwayNumber": "NW-27",
+            "waterwayName": "Cumberjua River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-27 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-GA-NW-111-OPERATIONAL-2026",
+            "regionId": "IN-GA",
+            "category": "waterways",
+            "name": "Zuari River",
+            "officialName": "NW-111: Zuari River",
+            "nationalWaterwayNumber": "NW-111",
+            "waterwayName": "Zuari River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-111 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
         ]
       },
@@ -10685,6 +10859,72 @@
             "description": "Indian Railways Year Book 2023–24 reports 5051 route km in Gujarat at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 6631,
             "totalTrackKilometres": 8256
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-GJ-NW-48-OPERATIONAL-2026",
+            "regionId": "IN-GJ",
+            "category": "waterways",
+            "name": "Jawai-Luni-Rann of Kutch River",
+            "officialName": "NW-48: Jawai-Luni-Rann of Kutch River",
+            "nationalWaterwayNumber": "NW-48",
+            "waterwayName": "Jawai-Luni-Rann of Kutch River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-48 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-GJ-NW-73-OPERATIONAL-2026",
+            "regionId": "IN-GJ",
+            "category": "waterways",
+            "name": "Narmada River",
+            "officialName": "NW-73: Narmada River",
+            "nationalWaterwayNumber": "NW-73",
+            "waterwayName": "Narmada River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-73 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-GJ-NW-87-OPERATIONAL-2026",
+            "regionId": "IN-GJ",
+            "category": "waterways",
+            "name": "Sabarmati River",
+            "officialName": "NW-87: Sabarmati River",
+            "nationalWaterwayNumber": "NW-87",
+            "waterwayName": "Sabarmati River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-87 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-GJ-NW-100-OPERATIONAL-2026",
+            "regionId": "IN-GJ",
+            "category": "waterways",
+            "name": "Tapi River",
+            "officialName": "NW-100: Tapi River",
+            "nationalWaterwayNumber": "NW-100",
+            "waterwayName": "Tapi River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-100 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
         ]
       },
@@ -14639,6 +14879,24 @@
             "runningTrackKilometres": 4859,
             "totalTrackKilometres": 6178
           }
+        ],
+        "waterways": [
+          {
+            "id": "IN-JH-NW-1-OPERATIONAL-2026",
+            "regionId": "IN-JH",
+            "category": "waterways",
+            "name": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "officialName": "NW-1: Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "nationalWaterwayNumber": "NW-1",
+            "waterwayName": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
+          }
         ]
       },
       "highCourt": "Jharkhand High Court — Ranchi"
@@ -17878,6 +18136,56 @@
             "description": "Indian Railways Year Book 2023–24 reports 1048 route km in Kerala at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 1766,
             "totalTrackKilometres": 2126
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-KL-NW-3-OPERATIONAL-2026",
+            "regionId": "IN-KL",
+            "category": "waterways",
+            "name": "West Coast Canal",
+            "officialName": "NW-3: West Coast Canal",
+            "nationalWaterwayNumber": "NW-3",
+            "waterwayName": "West Coast Canal",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-3 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-KL-NW-8-OPERATIONAL-2026",
+            "regionId": "IN-KL",
+            "category": "waterways",
+            "name": "Alappuzha-Changanassery Canal",
+            "officialName": "NW-8: Alappuzha-Changanassery Canal",
+            "nationalWaterwayNumber": "NW-8",
+            "waterwayName": "Alappuzha-Changanassery Canal",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-8 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-KL-NW-9-OPERATIONAL-2026",
+            "regionId": "IN-KL",
+            "category": "waterways",
+            "name": "Alappuzha-Kottayam-Athirampuzha Canal",
+            "officialName": "NW-9: Alappuzha-Kottayam-Athirampuzha Canal",
+            "nationalWaterwayNumber": "NW-9",
+            "waterwayName": "Alappuzha-Kottayam-Athirampuzha Canal",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-9 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
         ]
       },
@@ -21677,6 +21985,88 @@
             "description": "Indian Railways Year Book 2023–24 reports 5930 route km in Maharashtra at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 9722,
             "totalTrackKilometres": 12598
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-MH-NW-10-OPERATIONAL-2026",
+            "regionId": "IN-MH",
+            "category": "waterways",
+            "name": "Amba River",
+            "officialName": "NW-10: Amba River",
+            "nationalWaterwayNumber": "NW-10",
+            "waterwayName": "Amba River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-10 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-MH-NW-53-OPERATIONAL-2026",
+            "regionId": "IN-MH",
+            "category": "waterways",
+            "name": "Kalyan-Thane-Mumbai Waterway, Vasai Creek and Ulhas River",
+            "officialName": "NW-53: Kalyan-Thane-Mumbai Waterway, Vasai Creek and Ulhas River",
+            "nationalWaterwayNumber": "NW-53",
+            "waterwayName": "Kalyan-Thane-Mumbai Waterway, Vasai Creek and Ulhas River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-53 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-MH-NW-83-OPERATIONAL-2026",
+            "regionId": "IN-MH",
+            "category": "waterways",
+            "name": "Rajpuri Creek",
+            "officialName": "NW-83: Rajpuri Creek",
+            "nationalWaterwayNumber": "NW-83",
+            "waterwayName": "Rajpuri Creek",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-83 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-MH-NW-85-OPERATIONAL-2026",
+            "regionId": "IN-MH",
+            "category": "waterways",
+            "name": "Revadanda Creek-Kundalika River System",
+            "officialName": "NW-85: Revadanda Creek-Kundalika River System",
+            "nationalWaterwayNumber": "NW-85",
+            "waterwayName": "Revadanda Creek-Kundalika River System",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-85 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-MH-NW-91-OPERATIONAL-2026",
+            "regionId": "IN-MH",
+            "category": "waterways",
+            "name": "Shastri River-Jaigad Creek System",
+            "officialName": "NW-91: Shastri River-Jaigad Creek System",
+            "nationalWaterwayNumber": "NW-91",
+            "waterwayName": "Shastri River-Jaigad Creek System",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-91 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
         ]
       },
@@ -28434,6 +28824,72 @@
             "description": "Indian Railways Year Book 2023–24 reports 2985 route km in Odisha at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 5506,
             "totalTrackKilometres": 6574
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-OD-NW-5-OPERATIONAL-2026",
+            "regionId": "IN-OD",
+            "category": "waterways",
+            "name": "East Coast Canal and Matai River / Brahmani-Kharsua-Dhamra Rivers / Mahanadi Delta Rivers",
+            "officialName": "NW-5: East Coast Canal and Matai River / Brahmani-Kharsua-Dhamra Rivers / Mahanadi Delta Rivers",
+            "nationalWaterwayNumber": "NW-5",
+            "waterwayName": "East Coast Canal and Matai River / Brahmani-Kharsua-Dhamra Rivers / Mahanadi Delta Rivers",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-5 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-OD-NW-14-OPERATIONAL-2026",
+            "regionId": "IN-OD",
+            "category": "waterways",
+            "name": "Baitarani River",
+            "officialName": "NW-14: Baitarani River",
+            "nationalWaterwayNumber": "NW-14",
+            "waterwayName": "Baitarani River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-14 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-OD-NW-23-OPERATIONAL-2026",
+            "regionId": "IN-OD",
+            "category": "waterways",
+            "name": "Budha Balanga",
+            "officialName": "NW-23: Budha Balanga",
+            "nationalWaterwayNumber": "NW-23",
+            "waterwayName": "Budha Balanga",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-23 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-OD-NW-64-OPERATIONAL-2026",
+            "regionId": "IN-OD",
+            "category": "waterways",
+            "name": "Mahanadi River",
+            "officialName": "NW-64: Mahanadi River",
+            "nationalWaterwayNumber": "NW-64",
+            "waterwayName": "Mahanadi River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-64 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
           }
         ]
       },
@@ -38191,6 +38647,56 @@
             "runningTrackKilometres": 14375,
             "totalTrackKilometres": 17436
           }
+        ],
+        "waterways": [
+          {
+            "id": "IN-UP-NW-110-OPERATIONAL-2026",
+            "regionId": "IN-UP",
+            "category": "waterways",
+            "name": "Yamuna River",
+            "officialName": "NW-110: Yamuna River",
+            "nationalWaterwayNumber": "NW-110",
+            "waterwayName": "Yamuna River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-110 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-UP-NW-40-OPERATIONAL-2026",
+            "regionId": "IN-UP",
+            "category": "waterways",
+            "name": "Ghaghra River",
+            "officialName": "NW-40: Ghaghra River",
+            "nationalWaterwayNumber": "NW-40",
+            "waterwayName": "Ghaghra River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-40 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-UP-NW-1-OPERATIONAL-2026",
+            "regionId": "IN-UP",
+            "category": "waterways",
+            "name": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "officialName": "NW-1: Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "nationalWaterwayNumber": "NW-1",
+            "waterwayName": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
+          }
         ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
@@ -41758,6 +42264,88 @@
             "description": "Indian Railways Year Book 2023–24 reports 4161 route km in West Bengal at the end of FY 2023–24. This is commissioned route length, not the length of proposed or under-construction railway projects.",
             "runningTrackKilometres": 8466,
             "totalTrackKilometres": 10615
+          }
+        ],
+        "waterways": [
+          {
+            "id": "IN-WB-NW-44-OPERATIONAL-2026",
+            "regionId": "IN-WB",
+            "category": "waterways",
+            "name": "Ichamati River",
+            "officialName": "NW-44: Ichamati River",
+            "nationalWaterwayNumber": "NW-44",
+            "waterwayName": "Ichamati River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-44 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-WB-NW-47-OPERATIONAL-2026",
+            "regionId": "IN-WB",
+            "category": "waterways",
+            "name": "Jalangi River",
+            "officialName": "NW-47: Jalangi River",
+            "nationalWaterwayNumber": "NW-47",
+            "waterwayName": "Jalangi River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-47 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-WB-NW-86-OPERATIONAL-2026",
+            "regionId": "IN-WB",
+            "category": "waterways",
+            "name": "Rupnarayan River",
+            "officialName": "NW-86: Rupnarayan River",
+            "nationalWaterwayNumber": "NW-86",
+            "waterwayName": "Rupnarayan River",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-86 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-WB-NW-97-OPERATIONAL-2026",
+            "regionId": "IN-WB",
+            "category": "waterways",
+            "name": "Sundarbans Waterway",
+            "officialName": "NW-97: Sundarbans Waterway",
+            "nationalWaterwayNumber": "NW-97",
+            "waterwayName": "Sundarbans Waterway",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-97 as operational for cargo and passenger movement as of March 2026. The record preserves the waterway name and limits as stated in the Ministry's operational list."
+          },
+          {
+            "id": "IN-WB-NW-1-OPERATIONAL-2026",
+            "regionId": "IN-WB",
+            "category": "waterways",
+            "name": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "officialName": "NW-1: Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "nationalWaterwayNumber": "NW-1",
+            "waterwayName": "Ganga-Bhagirathi-Hooghly River System (Haldia-Allahabad)",
+            "operationalStatus": "Operational for cargo/passenger movement as of March 2026",
+            "referenceDate": "2026-03",
+            "sourceName": "Ministry of Ports, Shipping and Waterways / PIB — Operational National Waterways (March 2026)",
+            "sourceId": "pibOperationalNationalWaterwaysMar2026",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255798&lang=1&reg=3",
+            "verificationStatus": "verified",
+            "description": "The Ministry of Ports, Shipping and Waterways lists NW-1 as operational for cargo and passenger movement as of March 2026. This National Waterway crosses multiple States and is therefore represented in each affected regional profile."
           }
         ]
       },

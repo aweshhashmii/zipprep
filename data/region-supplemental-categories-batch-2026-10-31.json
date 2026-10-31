@@ -626,6 +626,69 @@
       "sourceUrl": "https://www.iucnredlist.org/species/12761/123584856",
       "referenceDate": "IUCN Red List species assessment",
       "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "arunachalPMKSYWatershed2024",
+      "title": "Arunachal Pradesh Rural Development Department — WDC-PMKSY 2.0 project dashboard",
+      "sourceUrl": "https://ruraldev.arunachal.gov.in/pmksy-data.php",
+      "referenceDate": "Official project dashboard accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "mizoramMinorIrrigationSchemes2026",
+      "title": "Mizoram Irrigation and Water Resources Department — Programmes and Schemes",
+      "sourceUrl": "https://irrigation.mizoram.gov.in/page/programmes-schemes",
+      "referenceDate": "Official department programme profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "nagalandMinorIrrigation2024",
+      "title": "Nagaland Information and Public Relations Department — Nagaland Basic Facts 2024, Minor Irrigation",
+      "sourceUrl": "https://ipr.nagaland.gov.in/sites/default/files/2025-03/Nagaland%20Basic%20Facts%202024.pdf",
+      "referenceDate": "Nagaland Basic Facts 2024, minor irrigation status through 2023–24",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "sikkimWaterResourcesIrrigation2026",
+      "title": "Sikkim Water Resources and River Development Department — Department profile and PMKSY schemes",
+      "sourceUrl": "https://www.sikkim.gov.in/departments/water-resource-river-development-department",
+      "referenceDate": "Official department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "andamanAPWDMinorIrrigation2026",
+      "title": "Andaman Public Works Department — Minor Irrigation, Flood Control and Anti-Sea Erosion",
+      "sourceUrl": "https://apwd.and.nic.in/apwd/Activities.htm",
+      "referenceDate": "Official APWD activities page accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "delhiIFCIrrigationProjects2026",
+      "title": "Delhi Irrigation and Flood Control Department — Management of Irrigation Projects",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/management-irrigation-projects",
+      "referenceDate": "Official Government of NCT of Delhi page last updated 14 August 2026",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "puducherryNeerumOorumIrrigation2019",
+      "title": "Puducherry District Environment Plan — Neerum Oorum water-body restoration and irrigation",
+      "sourceUrl": "https://dste.py.gov.in/sites/default/files/deppuducherry.pdf",
+      "referenceDate": "Puducherry District Environment Plan, section 10, page 52",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "chandigarhIrrigationScope2024",
+      "title": "Chandigarh Administration — District profile and municipal water infrastructure",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "sourceId": "lakshadweepAgricultureScope2026",
+      "title": "Lakshadweep Administration — Department of Agriculture",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "referenceDate": "Official UT Agriculture Department profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31"
     }
   ],
   "records": [
@@ -1950,6 +2013,126 @@
       "sourceId": "lakshadweepFaunaScope2026",
       "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/fauna-flora/",
       "referenceDate": "Official Lakshadweep fauna profile accessed 31 October 2026",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-arunachal-wdc-pmksy-watershed",
+      "regionName": "Arunachal Pradesh",
+      "category": "irrigationProjects",
+      "name": "Watershed Development Component of PMKSY 2.0",
+      "description": "The Arunachal Pradesh Rural Development Department reports 68 WDC-PMKSY 2.0 projects sanctioned during 2021–22 and 2023–24, covering 150,915 hectares across 25 districts. The scheme supports rainwater harvesting, watershed treatment and irrigation-facility development; this is a watershed and irrigation-support programme, not a single dam or canal project.",
+      "sourceId": "arunachalPMKSYWatershed2024",
+      "sourceUrl": "https://ruraldev.arunachal.gov.in/pmksy-data.php",
+      "referenceDate": "Official project dashboard accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-mizoram-minor-irrigation-schemes",
+      "regionName": "Mizoram",
+      "category": "irrigationProjects",
+      "name": "State Minor Irrigation Scheme portfolio",
+      "description": "Mizoram's Irrigation and Water Resources Department reports 439 completed minor irrigation projects covering 18,228 hectares of culturable area. The schemes include lift irrigation and river-diversion gravity irrigation; the Department also undertakes command-area development and water-management works.",
+      "sourceId": "mizoramMinorIrrigationSchemes2026",
+      "sourceUrl": "https://irrigation.mizoram.gov.in/page/programmes-schemes",
+      "referenceDate": "Official department programme profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-nagaland-pmksy-hkkp-schemes",
+      "regionName": "Nagaland",
+      "category": "irrigationProjects",
+      "name": "PMKSY–Har Khet Ko Pani surface minor irrigation schemes",
+      "description": "Nagaland Basic Facts 2024 reports 213 surface minor irrigation schemes taken up in 2021–22 under PMKSY–Har Khet Ko Pani, covering 5,444 hectares and creating 6,837.30 hectares of irrigation potential; 1,585 hectares were recorded as utilized at the reporting date. The report also records 459 new schemes proposed in 2023–24.",
+      "sourceId": "nagalandMinorIrrigation2024",
+      "sourceUrl": "https://ipr.nagaland.gov.in/sites/default/files/2025-03/Nagaland%20Basic%20Facts%202024.pdf",
+      "referenceDate": "Nagaland Basic Facts 2024, minor irrigation status through 2023–24",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-sikkim-pmksy-minor-schemes",
+      "regionName": "Sikkim",
+      "category": "irrigationProjects",
+      "name": "PMKSY Har Khet Ko Pani — surface minor irrigation and water-body restoration",
+      "description": "Sikkim's Water Resources and River Development Department implements PMKSY Har Khet Ko Pani through surface minor irrigation, repair-renovation-restoration of water bodies, groundwater development and command-area development. The Department constructs irrigation channels and delivery systems to provide dependable water to agricultural fields.",
+      "sourceId": "sikkimWaterResourcesIrrigation2026",
+      "sourceUrl": "https://www.sikkim.gov.in/departments/water-resource-river-development-department",
+      "referenceDate": "Official department profile accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-andaman-vishnu-rkpur-korang",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "irrigationProjects",
+      "name": "Minor irrigation schemes — Vishnu Nallah, RK Pur and proposed island schemes",
+      "description": "Andaman Public Works Department reports completed Vishnu Nallah and RK Pur minor irrigation schemes in Little Andaman. It identifies Korang Nallah, Prem Bahadur Nallah, Swaroop Nallah and Mithakhari Nallah schemes as under consideration, with additional North and Middle Andaman schemes investigated for feasibility.",
+      "sourceId": "andamanAPWDMinorIrrigation2026",
+      "sourceUrl": "https://apwd.and.nic.in/apwd/Activities.htm",
+      "referenceDate": "Official APWD activities page accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-dnhdd-damanganga-reservoir",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "irrigationProjects",
+      "name": "Damanganga Reservoir Project (Madhuban Dam) — irrigation and water supply",
+      "description": "The 1992 inter-governmental agreement among Gujarat, Dadra and Nagar Haveli, and Daman and Diu establishes the Damanganga Reservoir Project at Madhuban. The project provides for irrigation and domestic/industrial water supply to the participating territories; the dam itself is located in Valsad district, Gujarat, and this record identifies the UTs as beneficiaries rather than the dam location.",
+      "sourceId": "gujaratDamangangaAgreement1992",
+      "sourceUrl": "https://guj-nwrws.gujarat.gov.in/downloads/agreement_for_damanganga.pdf",
+      "referenceDate": "Inter-governmental agreement dated 29 September 1992",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-delhi-western-yamuna-canal-effluent",
+      "regionName": "Delhi",
+      "category": "irrigationProjects",
+      "name": "Western Yamuna Canal and treated-effluent irrigation systems",
+      "description": "Delhi's Irrigation and Flood Control Department reports irrigation from the Haryana-controlled Western Yamuna Canal system (10,862 hectares), treated effluent from Okhla, Keshopur and Coronation Pillar sewage-treatment plants (1,176 hectares), and State tube-wells (227 hectares). The Department states that the NCT has no major or medium irrigation project; these are existing surface-water and minor-irrigation systems.",
+      "sourceId": "delhiIFCIrrigationProjects2026",
+      "sourceUrl": "https://ifc.delhi.gov.in/ifc/management-irrigation-projects",
+      "referenceDate": "Official Government of NCT of Delhi page last updated 14 August 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-puducherry-neerum-oorum",
+      "regionName": "Puducherry",
+      "category": "irrigationProjects",
+      "name": "Neerum Oorum water-body restoration and irrigation-channel revival",
+      "description": "Puducherry District Administration launched Neerum Oorum on 5 September 2019 to restore water bodies and augment groundwater. The District Environment Plan reports revival of 198 ponds and 206 km of canal, alongside rejuvenation of 39 irrigation tanks and 39 village ponds under the National Adaptation Fund for Climate Change.",
+      "sourceId": "puducherryNeerumOorumIrrigation2019",
+      "sourceUrl": "https://dste.py.gov.in/sites/default/files/deppuducherry.pdf",
+      "referenceDate": "Puducherry District Environment Plan, section 10, page 52",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-chandigarh-no-dedicated-project-listed",
+      "regionName": "Chandigarh",
+      "category": "irrigationProjects",
+      "name": "No dedicated irrigation project listed in the cited UT district profile",
+      "description": "The Chandigarh Administration's district profile documents the city's urban water-supply system and Bhakra Main Canal link but does not list a dedicated irrigation project or irrigated command-area scheme within the UT. The source does not establish that no private or small-scale irrigation exists; no project is inferred from the drinking-water system.",
+      "sourceId": "chandigarhIrrigationScope2024",
+      "sourceUrl": "https://chandigarh.gov.in/sites/default/files/updation2024/dc24-dep24-3004.pdf",
+      "referenceDate": "Chandigarh Administration 2024 district profile",
+      "verificationStatus": "not_available",
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "irrigation-lakshadweep-no-scheme-listed",
+      "regionName": "Lakshadweep",
+      "category": "irrigationProjects",
+      "name": "No dedicated irrigation project listed in the cited UT Agriculture profile",
+      "description": "The Lakshadweep Agriculture Department profile does not identify a named irrigation project or canal command area. The UT's atoll geography and rain-fed island agriculture are distinct from mainland river-valley irrigation; this record documents the absence of a named project in the cited source, not the absence of all farm-level water management.",
+      "sourceId": "lakshadweepAgricultureScope2026",
+      "sourceUrl": "https://lakshadweep.gov.in/departments-new/department-of-agriculture/",
+      "referenceDate": "Official UT Agriculture Department profile accessed 31 October 2026",
       "verificationStatus": "not_available",
       "lastVerifiedAt": "2026-10-31"
     }

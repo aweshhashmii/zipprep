@@ -55,22 +55,24 @@ function loadRegionCatalog(){
   fetch('./data/region-administration-enrichment-2026-10-31.json').then(function(r){if(!r.ok)throw Error('Regional administration enrichment HTTP '+r.status);return r.json()}).catch(function(){return null})
   ,fetch('./data/region-geographical-neighbours-2026.json').then(function(r){if(!r.ok)throw Error('Geographical neighbours dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-high-courts-2026.json').then(function(r){if(!r.ok)throw Error('High Court dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/region-tiger-reserves-2026.json').then(function(r){if(!r.ok)throw Error('Tiger reserve dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-tiger-reserves-2026.json').then(function(r){if(!r.ok)throw Error('Tiger reserve dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-ramsar-sites-2026.json').then(function(r){if(!r.ok)throw Error('Ramsar sites dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
   var neighbours=parts[11];
   var highCourts=parts[12];
   var tigerReserves=parts[13];
+  var ramsarSites=parts[14];
   if(highCourts&&Array.isArray(highCourts.records))highCourts.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;var benches=Array.isArray(item.benches)&&item.benches.length?' · benches: '+item.benches.join(', '):'';region.highCourt=item.highCourt+' · principal seat: '+item.principalSeat+benches;region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:highCourts.source.title,sourceUrl:highCourts.source.sourceUrl,referenceDate:highCourts.source.referenceDate,lastVerifiedAt:highCourts.source.lastVerifiedAt,fields:['highCourt'],note:highCourts.source.note})});
   if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],maritimeFeatures:item.maritimeFeatures||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
-  [supplemental,supplementalBatch,tigerReserves].forEach(function(dataset){
+  [supplemental,supplementalBatch,tigerReserves,ramsarSites].forEach(function(dataset){
    if(dataset&&Array.isArray(dataset.records))dataset.records.forEach(function(item){
     var region=data.regions.find(function(r){return r.name===item.regionName});
     if(!region)return;
     region.geography=region.geography||{};
     var rows=Array.isArray(region.geography[item.category])?region.geography[item.category]:[];
-    if(!rows.some(function(row){return row.id===item.id}))rows.push({id:item.id,name:item.name,description:item.description,sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus});
+    if(!rows.some(function(row){return row.id===item.id}))rows.push({id:item.id,name:item.name,description:item.description,sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus,designationDate:item.designationDate,areaHectares:item.areaHectares,siteNumber:item.siteNumber});
     region.geography[item.category]=rows;
     region.sourceRecords=region.sourceRecords||[];
     if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:item.sourceId,sourceUrl:item.sourceUrl,referenceDate:item.referenceDate,fields:['geography.'+item.category]});

@@ -9296,9 +9296,65 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2020",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook 2024, Kerala State Review. Non-coal resources as at 1 April 2020; lignite as at 1 April 2024; AMD heavy-mineral-sand estimates are separately identified."
+        },
+        {
+          "field": "geography.minerals",
+          "sourceId": "keralaDepartmentMiningGeology",
+          "sourceUrl": "https://dmg.kerala.gov.in/%E0%B4%B5%E0%B4%BF%E0%B4%B5%E0%B4%B0%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B3%E0%B3%E2%80%8D/%E0%B4%AE%E0%B4%BF%E0%B4%A8%E0%B4%B1%E0%B4%B2%E0%B5%8D%E2%80%8D-%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B5%8D/",
+          "referenceYear": "2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Government of Kerala Department of Mining and Geology mineral resources page for district-level occurrence/locality details."
+        },
+        {
+          "field": "geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM provisional limestone production and by-product sulphur recovery in Kerala for 2023-24; sulphur is recovered from oil refineries, not mined."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "IBM principal mineral-based industries table; capacities are in thousand tonnes per year unless otherwise stated; NA retained as unavailable."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "keralaDepartmentMiningGeology",
+          "sourceUrl": "https://dmg.kerala.gov.in/%E0%B4%B5%E0%B4%BF%E0%B4%B5%E0%B4%B0%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B3%E0%B3%E2%80%8D/%E0%B4%AE%E0%B4%BF%E0%B4%A8%E0%B4%B1%E0%B4%B2%E0%B5%8D%E2%80%8D-%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B5%8D/",
+          "referenceYear": "2026",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Kerala DMG official list of mineral-based industries and mineral-processing localities; current capacity not stated."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibPMFME2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "MoFPI / PIB PMFME state-wise approved micro food-processing enterprises as at 31 December 2025."
+        },
+        {
+          "field": "geography.industries",
+          "sourceId": "pibIndustrialLandBank2025",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+          "referenceYear": "2025",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "DPIIT India Industrial Land Bank inventory as at 23 December 2025; industrial parks and available land are not equivalent to operating factories."
         }
       ],
-      "lastVerifiedAt": null,
+      "lastVerifiedAt": "2026-10-31",
       "districts": {
         "boundarySourceId": "bharatmap",
         "boundaryVersion": null,
@@ -9543,7 +9599,152 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Bauxite",
+            "district": "Kollam (Nileswaram, Sooranadu-Vadakkemuri and Adichanallur)",
+            "description": "19.449 million tonnes of remaining resources as at 1 April 2020; no reserves reported in IBM's national inventory table. Kerala's Department of Mining and Geology separately describes bauxite occurrences in the Kollam district.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Garnet",
+            "district": "Coastal placer sands of Kollam, Alappuzha, Thiruvananthapuram and northern Kerala",
+            "description": "198,861 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Gold (primary)",
+            "district": "Wayanad-Nilambur region and Attappady valley, Palakkad",
+            "description": "558,460 tonnes of primary gold ore resources containing 0.2 tonnes of gold metal as at 1 April 2020; no reserves reported. Known occurrences are not evidence of current commercial mining.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Gold (placer)",
+            "district": "Wayanad-Nilambur region and Palakkad",
+            "description": "26.121 million tonnes of placer ore resources containing 5.86 tonnes of gold metal as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Graphite",
+            "district": "Wayanad, Palakkad and khondalite-bearing areas",
+            "description": "1,434,975 tonnes total resources as at 1 April 2020, comprising 15,443 tonnes reserves and 1,419,532 tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Iron ore (magnetite)",
+            "district": "Kerala (district-level location not specified in the IBM State Review)",
+            "description": "83.435 million tonnes of remaining resources as at 1 April 2020; no reserves reported in the IBM table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Kyanite",
+            "district": "Kerala (district-level location not specified in the IBM State Review)",
+            "description": "184,733 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Limestone",
+            "district": "Kerala (district-level resource split not specified in the IBM table)",
+            "description": "194.599 million tonnes total resources as at 1 April 2020, comprising 10.540 million tonnes reserves and 184.059 million tonnes remaining resources.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Magnesite",
+            "district": "Kerala (district-level location not specified in the IBM State Review)",
+            "description": "40,000 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Platinum-group metals",
+            "district": "Kerala (district-level location not specified in the IBM State Review)",
+            "description": "0.18 tonnes of remaining resources as at 1 April 2020; no reserves reported.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Chavara coastal placer belt, Kollam; other coastal placers",
+            "description": "6,919,167 tonnes total resources as at 1 April 2020, comprising 553,000 tonnes reserves and 6,366,167 tonnes remaining resources. IBM estimates about 10% of India's sillimanite resources in Kerala.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2020"
+          },
+          {
+            "name": "Titanium minerals (ilmenite and rutile)",
+            "district": "Chavara-Neendakara-Kayamkulam coastal belt, Kollam and Alappuzha",
+            "description": "IBM cites AMD estimates of 144.02 million tonnes ilmenite and 7.83 million tonnes rutile in Kerala, with major concentrations in the Chavara belt. These are atomic-mineral / heavy-mineral-sand inventory figures, not MCDR mineral reserves.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Zircon",
+            "district": "Chavara coastal placer belt, Kollam and adjacent coastal placers",
+            "description": "IBM cites AMD estimates of 7.96 million tonnes of zircon in Kerala, with major concentrations in the Chavara belt. This is an atomic-mineral / heavy-mineral-sand inventory figure.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lignite",
+            "district": "Kannur",
+            "description": "9.65 million tonnes of inferred lignite resources as at 1 April 2024; no proved or indicated resources are reported in the Coal Directory table.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2024"
+          },
+          {
+            "name": "China clay (kaolin)",
+            "district": "Thiruvananthapuram, Kollam, Kannur and Kasaragod",
+            "description": "Major mineral sector in Kerala; IBM estimates the state contributes about 23% of India's china-clay resources. Kerala DMG identifies southern and northern clay zones and operating clay-producing districts.",
+            "sourceId": "keralaDepartmentMiningGeology",
+            "sourceUrl": "https://dmg.kerala.gov.in/%E0%B4%B5%E0%B4%BF%E0%B4%B5%E0%B4%B0%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B3%E0%B3%E2%80%8D/%E0%B4%AE%E0%B4%BF%E0%B4%A8%E0%B4%B1%E0%B4%B2%E0%B5%8D%E2%80%8D-%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B5%8D/",
+            "referenceYear": "2026"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Kollam coastal belt and other Tertiary sedimentary areas",
+            "description": "Occurrence reported by IBM and Kerala DMG; no current resource quantity is stated in the IBM State Review.",
+            "sourceId": "keralaDepartmentMiningGeology",
+            "sourceUrl": "https://dmg.kerala.gov.in/%E0%B4%B5%E0%B4%BF%E0%B4%B5%E0%B4%B0%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B3%E0%B3%E2%80%8D/%E0%B4%AE%E0%B4%BF%E0%B4%A8%E0%B4%B1%E0%B4%B2%E0%B5%8D%E2%80%8D-%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B5%8D/",
+            "referenceYear": "2026"
+          },
+          {
+            "name": "Silica sand",
+            "district": "Kollam and coastal areas of Kerala",
+            "description": "Occurrence reported by IBM and Kerala DMG; no separate resource quantity is provided in the IBM State Review.",
+            "sourceId": "keralaDepartmentMiningGeology",
+            "sourceUrl": "https://dmg.kerala.gov.in/%E0%B4%B5%E0%B4%BF%E0%B4%B5%E0%B4%B0%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B3%E0%B3%E2%80%8D/%E0%B4%AE%E0%B4%BF%E0%B4%A8%E0%B4%B1%E0%B4%B2%E0%B5%8D%E2%80%8D-%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B5%8D/",
+            "referenceYear": "2026"
+          },
+          {
+            "name": "Heavy mineral sands (monazite-bearing)",
+            "district": "Chavara, Neendakara and Kayamkulam coastal belt, Kollam and Alappuzha",
+            "description": "Coastal placer assemblage includes ilmenite, rutile, zircon, monazite and sillimanite. Monazite is an atomic mineral; this entry records the occurrence only and does not provide extraction or commercial-use guidance.",
+            "sourceId": "keralaDepartmentMiningGeology",
+            "sourceUrl": "https://dmg.kerala.gov.in/%E0%B4%B5%E0%B4%BF%E0%B4%B5%E0%B4%B0%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B3%E0%B3%E2%80%8D/%E0%B4%AE%E0%B4%BF%E0%B4%A8%E0%B4%B1%E0%B4%B2%E0%B5%8D%E2%80%8D-%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B5%8D/",
+            "referenceYear": "2026"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 24965.3,
@@ -9588,7 +9789,139 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "mineralProduction": [
+          {
+            "name": "Limestone",
+            "district": "Kerala (one reporting mine; district not specified in IBM table)",
+            "description": "2023-24 provisional production: 381,000 tonnes from 1 reporting mine; reported value ₹304.893 million (₹30.4893 crore). Production increased 9.8% over 2022-23.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sulphur (oil-refinery by-product)",
+            "district": "Kerala (refinery-level district split not provided)",
+            "description": "2023-24 by-product recovery: 216,097 tonnes. This is recovered from oil refining, not mined sulphur; IBM shows no reporting mine for this by-product.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "industries": [
+          {
+            "name": "Carborundum Universal Ltd — abrasives",
+            "district": "Ernakulam",
+            "description": "IBM lists an organised-sector abrasives plant; installed capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Carborundum Universal Ltd — abrasives",
+            "district": "Thrissur",
+            "description": "IBM lists an organised-sector abrasives plant; installed capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Carborundum Universal Ltd — abrasives",
+            "district": "Pathanamthitta",
+            "description": "IBM lists an organised-sector abrasives plant; installed capacity is recorded as NA.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Hyderabad Industries Ltd — asbestos products",
+            "district": "Mulagunnathukavu, Thrissur",
+            "description": "Listed installed capacity: 84 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "J K Tex Coats — ceramic products",
+            "district": "Nadama, Kanayannur, Ernakulam",
+            "description": "IBM lists capacities of 0.030 thousand tonnes per year Cerastone, 0.025 thousand tonnes per year rock tiles and 0.35 thousand tonnes per year other products.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Malabar Cements",
+            "district": "Walayar, Palakkad",
+            "description": "Listed installed cement capacity: 660 thousand tonnes per year.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Indian Rare Earths Ltd",
+            "district": "Chavara, Kollam",
+            "description": "Government of India enterprise operating in the Chavara heavy-mineral-sand belt; no current plant capacity is stated in the cited state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kerala Minerals and Metals Ltd",
+            "district": "Chavara, Kollam",
+            "description": "Kerala state government undertaking operating in the Chavara heavy-mineral-sand belt and associated titanium-dioxide value chain; no capacity is stated in the cited state inventory.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Travancore Cements Ltd",
+            "district": "Kottayam",
+            "description": "Kerala DMG identifies the company among the state's mineral-based industries; no capacity is stated in the cited source.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kundara Ceramics Ltd",
+            "district": "Kundara, Kollam",
+            "description": "Kerala DMG identifies the company among the state's mineral-based ceramic industries; no capacity is stated in the cited source.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "English Indian Clays Ltd",
+            "district": "Thiruvananthapuram",
+            "description": "Kerala DMG identifies the company as a paper-coating-grade china-clay producer; no capacity is stated in the cited source.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kerala Clays and Ceramic Products Ltd",
+            "district": "Kannur and Kasaragod",
+            "description": "Kerala DMG identifies ceramic-grade china-clay production at Kannapuram and Pazhayangadi (Kannur) and Pudukai (Kasaragod); no capacity is stated in the cited source.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Micro food processing enterprises — PMFME",
+            "district": "Kerala (statewide)",
+            "description": "1,204 micro food processing enterprises had approved applications under PMFME as at 31 December 2025; approved subsidy ₹30.76 crore. These are scheme approvals, not a verified count of operating factories.",
+            "sourceId": "pibPMFME2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227153&lang=1&reg=3",
+            "referenceYear": "2025"
+          },
+          {
+            "name": "Industrial parks — state inventory",
+            "district": "Kerala (statewide inventory)",
+            "description": "DPIIT India Industrial Land Bank snapshot as at 23 December 2025 lists 28 industrial parks covering 1,077 hectares, with 91 hectares available for industrial development. This is an industrial-land inventory, not a count of operating factories.",
+            "sourceId": "pibIndustrialLandBank2025",
+            "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207690&lang=1&reg=3",
+            "referenceYear": "2025"
+          }
+        ]
       },
       "highCourt": "Kerala High Court — Kochi"
     },

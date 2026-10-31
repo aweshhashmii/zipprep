@@ -7056,6 +7056,48 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.26.4",
       "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019MadhyaPradeshForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Madhya Pradesh chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-madhya-pradesh.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.15.4; 2019 forest-cover assessment",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI tables."
+    },
+    {
+      "id": "fsiISFR2019KarnatakaForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Karnataka chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-karnataka.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.13.4; 2019 forest-cover assessment",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI tables."
+    },
+    {
+      "id": "fsiISFR2019WestBengalForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, West Bengal chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-west-bengal.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.30.4; 2019 forest-cover assessment",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI tables."
     }
   ]
 }

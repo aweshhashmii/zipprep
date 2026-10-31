@@ -7481,6 +7481,25 @@
       ],
       "referenceDate": "ISFR 2023, Volume II, Chapter 10.24, Table 10.24.3",
       "cadence": "Retain the 2023 assessment vintage; refresh only against a later comparable FSI district table. Preserve FSI's Survey of India calculated-area denominator and normalization caveat."
+    },
+    {
+      "id": "fsiISFR2023TelanganaDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.25.3 (Telangana)",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "District-wise 2023 forest cover",
+        "Very dense forest",
+        "Moderately dense forest",
+        "Open forest",
+        "Forest cover percentage by FSI calculated area",
+        "Change since 2021 raster-based assessment",
+        "Scrub area"
+      ],
+      "referenceDate": "ISFR 2023, Volume II, Chapter 10.25, Table 10.25.3",
+      "cadence": "Retain the 2023 assessment vintage; refresh only against a later comparable FSI district table. Preserve FSI's Survey of India calculated-area denominator and normalization caveat."
     }
   ]
 }

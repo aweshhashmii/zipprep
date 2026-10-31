@@ -76,7 +76,9 @@ function loadRegionCatalog(){
    var giEntries=giRegister.records.filter(function(item){return item.regionName===region.name});
    if(!giEntries.length)return;
    region.geography=region.geography||{};
-   region.geography.giProducts=(Array.isArray(region.geography.giProducts)?region.geography.giProducts:[]).concat(giEntries);
+   var existingGi=Array.isArray(region.geography.giProducts)?region.geography.giProducts:[];
+   var newGiEntries=giEntries.filter(function(item){return !existingGi.some(function(existing){return existing.name===item.name})});
+   region.geography.giProducts=existingGi.concat(newGiEntries);
    region.sourceRecords=region.sourceRecords||[];
    if(!region.sourceRecords.some(function(src){return src.sourceId==='ipindiaStatewiseRegisteredGI2026'}))region.sourceRecords.push({sourceId:'ipindiaStatewiseRegisteredGI2026',title:'IP India — State-wise Registered Geographical Indications of India',sourceUrl:giRegister.source.sourceUrl,referenceDate:giRegister.source.registerDataAsOf,lastVerifiedAt:giRegister.source.lastVerifiedAt,fields:['geography.giProducts'],note:giRegister.description});
   });

@@ -453,6 +453,11 @@
       "id": "necYearbook2025SoilConditions",
       "name": "North Eastern Council Yearbook 2025 — Soil Conditions, soil taxonomy and acidic-soil extent",
       "url": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf"
+    },
+    {
+      "id": "necYearbook2025Climate",
+      "name": "North Eastern Council Yearbook 2025 — Climate of the North Eastern States and Köppen classification",
+      "url": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf"
     }
   ],
   "regions": [
@@ -2098,6 +2103,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -2397,7 +2410,30 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-AR-CLIMATE-NEC2025",
+          "regionId": "IN-AR",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Cwa — humid subtropical (foothills)",
+            "Cwb — subtropical highland (mid-hills)",
+            "Dwc — cool continental (northern fringes)"
+          ],
+          "annualRainfallNormalMm": 2807,
+          "rainfallRangeMm": [
+            1492,
+            4442
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Sub-Himalayan belt is humid to per-humid subtropical. District rainfall ranges from about 1,492 mm in Upper Subansiri to 4,442 mm in Lower Dibang Valley; about 64% falls in June–September. Higher reaches can fall below 0°C in winter; eastern plains can reach 35°C in summer. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-AR-SOIL-NEC2025",
@@ -2958,6 +2994,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -3341,7 +3385,29 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-AS-CLIMATE-NEC2025",
+          "regionId": "IN-AS",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Cwa — humid subtropical across almost the entire state",
+            "Am — tropical monsoon in parts of Barak Valley"
+          ],
+          "annualRainfallNormalMm": 2135,
+          "rainfallRangeMm": [
+            1469,
+            3462
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Generally monsoon-influenced subtropical climate. Nearly two-thirds of annual rainfall falls during June–September; winter is comparatively dry. District rainfall varies substantially, from about 1,356–1,469 mm in some drier districts to over 3,400 mm in Kokrajhar and Karimganj. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-AS-SOIL-NEC2025",
@@ -15817,6 +15883,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -16020,7 +16094,30 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-MN-CLIMATE-NEC2025",
+          "regionId": "IN-MN",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Am — tropical monsoon in western belt",
+            "Aw — tropical savanna in eastern areas",
+            "Cwa — humid subtropical in foothills"
+          ],
+          "annualRainfallNormalMm": null,
+          "rainfallRangeMm": [
+            1200,
+            2650
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Hilly terrain receives rainfall through much of the year. Eastern hills and Imphal Valley are relatively cooler than western hills. Average annual precipitation is about 1,200–1,350 mm in drier eastern hills and 2,000–2,650 mm in western ranges. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-MN-SOIL-NEC2025",
@@ -16403,6 +16500,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -16724,7 +16829,30 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-ML-CLIMATE-NEC2025",
+          "regionId": "IN-ML",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Am — tropical monsoon in Garo Hills",
+            "Cwa — humid subtropical in foothills",
+            "Cwb — subtropical highland on the plateau"
+          ],
+          "annualRainfallNormalMm": 3784,
+          "rainfallRangeMm": [
+            2000,
+            6019
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Per-humid climate with very large local rainfall contrasts. State average annual rainfall is about 3,784 mm; Ri Bhoi is reported around 2,119 mm while East Khasi Hills (including Sohra/Cherrapunjee) is around 6,019 mm. More than 70% falls in June–September. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-ML-SOIL-NEC2025",
@@ -17861,6 +17989,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -18068,7 +18204,29 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-MZ-CLIMATE-NEC2025",
+          "regionId": "IN-MZ",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Am — tropical monsoon across much of the state",
+            "Aw — tropical savanna in fringe areas"
+          ],
+          "annualRainfallNormalMm": 2483,
+          "rainfallRangeMm": [
+            null,
+            null
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Humid tropical climate, with warm summers and cool, generally mild winters. Average summer temperatures are about 20–30°C and winter temperatures about 11–21°C. Around 67% of annual rainfall occurs during June–September. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-MZ-SOIL-NEC2025",
@@ -18382,6 +18540,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -18618,7 +18784,29 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-NL-CLIMATE-NEC2025",
+          "regionId": "IN-NL",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Am — tropical monsoon in parts of the state",
+            "Altitude-dependent subtropical to warm sub-temperate conditions"
+          ],
+          "annualRainfallNormalMm": 1664.6,
+          "rainfallRangeMm": [
+            869,
+            1915
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Climate varies strongly with altitude: lower elevations (up to about 1,200 m) are hot to warm subtropical; higher areas are warm sub-temperate. More than 67% of rainfall occurs during June–September. Reported district rainfall ranges from about 869 mm in Kiphire to 1,915 mm in Mokokchung. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-NL-SOIL-NEC2025",
@@ -22792,6 +22980,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -23213,7 +23409,32 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-SK-CLIMATE-NEC2025",
+          "regionId": "IN-SK",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Cwb — subtropical highland at lower altitudes",
+            "BWk — cold desert on fringes of North Sikkim",
+            "BSk — cold semi-arid in parts of North Sikkim",
+            "Dwc — cool continental in parts of North Sikkim",
+            "Dwd — cold continental at higher altitudes"
+          ],
+          "annualRainfallNormalMm": 2548,
+          "rainfallRangeMm": [
+            null,
+            null
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Climate ranges from subtropical to alpine with elevation. Mean annual rainfall is about 2,548 mm, with nearly 64% during June–September; July is the wettest month. Average annual temperature is reported around 18°C, while northern areas are much cooler and can reach 0°C in winter. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-SK-SOIL-NEC2025",
@@ -25752,6 +25973,14 @@
           "referenceDate": "2025 publication; underlying survey 2010",
           "lastVerifiedAt": "2026-10-31",
           "note": "State-level soil taxonomy and percentage distribution; the underlying survey vintage is explicitly retained."
+        },
+        {
+          "field": "geography.climate",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State climate summary with Köppen classes and source-specific rainfall values; local variation and reference periods retained."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -26017,7 +26246,28 @@
           "name": "Forest and tree cover",
           "referenceDate": "2026-04-02"
         },
-        "climate": null,
+        "climate": {
+          "id": "IN-TR-CLIMATE-NEC2025",
+          "regionId": "IN-TR",
+          "category": "climate",
+          "name": "State climate profile — climate types, rainfall and seasonal characteristics",
+          "officialName": "Climate of the North Eastern States",
+          "classificationSystem": "Köppen classification as interpreted in NEC Yearbook 2025",
+          "climateTypes": [
+            "Aw — tropical savanna across almost the entire state"
+          ],
+          "annualRainfallNormalMm": 2400,
+          "rainfallRangeMm": [
+            null,
+            null
+          ],
+          "sourceName": "North Eastern Council Yearbook 2025; rainfall and climate references include IMD",
+          "sourceId": "necYearbook2025Climate",
+          "sourceUrl": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+          "referenceDate": "2025 publication; normal periods vary by cited table",
+          "verificationStatus": "verified",
+          "description": "Tropical climate at generally low inhabited elevations. Mean annual temperature ranges about 20.1–24.6°C; average winter temperature is around 16°C and summer around 28.2°C. More than 60% of annual rainfall occurs during June–September; pre-monsoon thunderstorms are common. These are statewide summary descriptions; local climate varies with altitude and district. The source uses multiple reference periods, which should not be conflated."
+        },
         "soilTypes": [
           {
             "id": "IN-TR-SOIL-NEC2025",

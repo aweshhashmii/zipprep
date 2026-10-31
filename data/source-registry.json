@@ -712,6 +712,23 @@
       "issuingAuthority": "North Eastern Council, Ministry of Development of North Eastern Region; underlying soil survey by ICAR-NBSS&LUP",
       "cadence": "Retain survey vintage and refresh only when a newer comparable soil survey is published.",
       "note": "NEC Yearbook 2025 reproduces ICAR-NBSS&LUP soil survey data. Values are state-wide shares of geographical area, not district-level soil maps; survey vintage is 2010."
+    },
+    {
+      "id": "necYearbook2025Climate",
+      "name": "North Eastern Council Yearbook 2025 — Climate of the North Eastern States and Köppen classification",
+      "url": "https://necouncil.gov.in/sites/default/files/NEC%20Yearbook%202025.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "State-level climate description and altitudinal variation",
+        "Köppen climate types and their mapped occurrence",
+        "Average annual rainfall and seasonal distribution"
+      ],
+      "referenceDate": "2025 publication; rainfall normals generally 1971-2020; observatory normals 1991-2020",
+      "issuingAuthority": "North Eastern Council, Government of India; source references include India Meteorological Department",
+      "cadence": "Refresh when IMD publishes updated climate normals or NEC releases a new state climate chapter.",
+      "note": "The climate chapter makes clear that climate varies with elevation and locality. State-level rainfall and temperature values are broad summaries; use district/observatory normals for local precision."
     }
   ]
 }

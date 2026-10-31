@@ -352,10 +352,10 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
   if(items.length)populated++;
   return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b>'+
    (c[2]?'<small class="atlas-category-description">'+textSafe(c[2])+'</small>':'')+
-   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending">No verified records imported for this category yet.</p>')+'</div></article>';
+   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending"><strong>Verification pending.</strong> No records have been imported for this region and category yet. This is a research gap, not confirmation that the feature does not exist.</p>')+'</div></article>';
  }).join('');
  root.innerHTML='<p class="atlas-kicker">'+textSafe(eyebrow)+'</p><h3>'+textSafe(name)+' · '+textSafe(tabTitle)+'</h3>'+
-  '<p class="atlas-data-pending">Showing source-backed records already available in the regional catalogue. Empty categories are explicitly marked; they are not treated as zero and are not filled with guesses.</p>'+
+  '<p class="atlas-data-pending">Showing records currently imported in the regional catalogue. Each entry displays its verification status. Categories without imported records are clearly marked Verification pending; they are not treated as zero and are not filled with guesses.</p>'+
   '<p class="atlas-data-pending">'+populated+' of '+categories.length+' categories currently contain imported records for this region. This is a data-import indicator, not a completeness score.</p>'+
   '<div class="atlas-geography-grid">'+cards+'</div>'+sourceLinks();
 }

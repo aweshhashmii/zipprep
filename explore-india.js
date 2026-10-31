@@ -48,10 +48,21 @@ function loadRegionCatalog(){
   fetch('./data/india-district-census-2011.json').then(function(r){if(!r.ok)throw Error('Census district dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/india-lgd-administrative-2026.json').then(function(r){if(!r.ok)throw Error('LGD directory HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/district-profiles-2026.json').then(function(r){if(!r.ok)throw Error('District profiles HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/region-gi-2026.json').then(function(r){if(!r.ok)throw Error('GI register HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-gi-2026.json').then(function(r){if(!r.ok)throw Error('GI register HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-supplemental-categories-2026.json').then(function(r){if(!r.ok)throw Error('Supplemental regional categories HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
-  var giRegister=parts[6];
+  var giRegister=parts[6],supplemental=parts[7];
+  if(supplemental&&Array.isArray(supplemental.records))supplemental.records.forEach(function(item){
+   var region=data.regions.find(function(r){return r.name===item.regionName});
+   if(!region)return;
+   region.geography=region.geography||{};
+   var rows=Array.isArray(region.geography[item.category])?region.geography[item.category]:[];
+   if(!rows.some(function(row){return row.id===item.id}))rows.push({id:item.id,name:item.name,description:item.description,sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus});
+   region.geography[item.category]=rows;
+   region.sourceRecords=region.sourceRecords||[];
+   if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:item.sourceId,sourceUrl:item.sourceUrl,referenceDate:item.referenceDate,fields:['geography.'+item.category]});
+  });
   censusDistricts=census&&Array.isArray(census.records)?census.records:[];
   censusDistrictsVerified=!!(census&&census.source&&census.source.verificationStatus==='officially_verified');
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;

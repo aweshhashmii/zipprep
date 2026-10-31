@@ -2907,6 +2907,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 13 plant species for Andhra Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-AP-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-AP",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Andhra Pradesh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 23,
+            "mammalSpeciesRichness": 124,
+            "reptileSpeciesRichness": 130,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Andhra Pradesh High Court — Amaravati"
@@ -4356,6 +4375,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 33 plant species for Arunachal Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-AR-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-AR",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Arunachal Pradesh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 77,
+            "mammalSpeciesRichness": 198,
+            "reptileSpeciesRichness": 139,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -6440,6 +6478,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 24 plant species for Assam. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-AS-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-AS",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Assam: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 61,
+            "mammalSpeciesRichness": 181,
+            "reptileSpeciesRichness": 154,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Gauhati High Court — Guwahati"
@@ -8127,6 +8184,25 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-BR-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-BR",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Bihar: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 25,
+            "mammalSpeciesRichness": 126,
+            "reptileSpeciesRichness": 113,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Patna High Court — Patna"
@@ -9365,6 +9441,25 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-CT-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-CT",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Chhattisgarh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 23,
+            "mammalSpeciesRichness": 82,
+            "reptileSpeciesRichness": 83,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -10629,6 +10724,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 6 plant species for Goa. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-GA-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-GA",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Goa: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 31,
+            "mammalSpeciesRichness": 108,
+            "reptileSpeciesRichness": 96,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -13563,6 +13677,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 9 plant species for Gujarat. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-GJ-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-GJ",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Gujarat: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 18,
+            "mammalSpeciesRichness": 119,
+            "reptileSpeciesRichness": 126,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Gujarat High Court — Ahmedabad"
@@ -14806,6 +14939,25 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-HR-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-HR",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Haryana: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 11,
+            "mammalSpeciesRichness": 94,
+            "reptileSpeciesRichness": 70,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -16599,6 +16751,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 23 plant species for Himachal Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-HP-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-HP",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Himachal Pradesh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 17,
+            "mammalSpeciesRichness": 125,
+            "reptileSpeciesRichness": 74,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Himachal Pradesh High Court — Shimla"
@@ -18124,6 +18295,25 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-JH-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-JH",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Jharkhand: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 20,
+            "mammalSpeciesRichness": 82,
+            "reptileSpeciesRichness": 96,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -20335,6 +20525,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 63 plant species for Karnataka. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-KA-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-KA",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Karnataka: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 81,
+            "mammalSpeciesRichness": 147,
+            "reptileSpeciesRichness": 156,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Karnataka High Court — Bengaluru"
@@ -22313,6 +22522,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 87 plant species for Kerala. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-KL-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-KL",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Kerala: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 103,
+            "mammalSpeciesRichness": 142,
+            "reptileSpeciesRichness": 188,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -24619,6 +24847,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 4 plant species for Madhya Pradesh. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-MP-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-MP",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Madhya Pradesh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 16,
+            "mammalSpeciesRichness": 93,
+            "reptileSpeciesRichness": 102,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -27303,6 +27550,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 72 plant species for Maharashtra. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-MH-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-MH",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Maharashtra: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 44,
+            "mammalSpeciesRichness": 132,
+            "reptileSpeciesRichness": 158,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Bombay High Court — Mumbai"
@@ -28398,6 +28664,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 15 plant species for Manipur. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-MN-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-MN",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Manipur: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 43,
+            "mammalSpeciesRichness": 147,
+            "reptileSpeciesRichness": 114,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -30295,6 +30580,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 53 plant species for Meghalaya. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-ML-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-ML",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Meghalaya: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 53,
+            "mammalSpeciesRichness": 145,
+            "reptileSpeciesRichness": 137,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Meghalaya High Court — Shillong"
@@ -31173,6 +31477,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 6 plant species for Mizoram. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-MZ-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-MZ",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Mizoram: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 27,
+            "mammalSpeciesRichness": 131,
+            "reptileSpeciesRichness": 114,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -32777,6 +33100,25 @@
             "referenceDate": "2023",
             "verificationStatus": "verified",
             "description": "Singphan is listed as an Elephant Reserve in the Ministry of Environment, Forest and Climate Change's Elephant Reserve Atlas. This record associates the reserve with Project Elephant and does not imply a separate new project or a current funding allocation."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-NL-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-NL",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Nagaland: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 54,
+            "mammalSpeciesRichness": 140,
+            "reptileSpeciesRichness": 118,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -35212,6 +35554,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 4 plant species for Odisha. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-OD-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-OD",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Odisha: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 24,
+            "mammalSpeciesRichness": 113,
+            "reptileSpeciesRichness": 131,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Orissa High Court — Cuttack"
@@ -36445,6 +36806,25 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-PB-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-PB",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Punjab: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 11,
+            "mammalSpeciesRichness": 91,
+            "reptileSpeciesRichness": 64,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -38750,6 +39130,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 7 plant species for Rajasthan. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-RJ-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-RJ",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Rajasthan: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 10,
+            "mammalSpeciesRichness": 89,
+            "reptileSpeciesRichness": 96,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Rajasthan High Court — Jodhpur"
@@ -39944,6 +40343,25 @@
             "sourceUrl": "https://v1.wii.gov.in/nwdc_plants",
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 47 plant species for Sikkim. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-SK-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-SK",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Sikkim: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 24,
+            "mammalSpeciesRichness": 162,
+            "reptileSpeciesRichness": 94,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -42844,6 +43262,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 133 plant species for Tamil Nadu. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-TN-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-TN",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Tamil Nadu: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 80,
+            "mammalSpeciesRichness": 149,
+            "reptileSpeciesRichness": 227,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Madras High Court — Chennai"
@@ -44021,6 +44458,25 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-TS-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-TS",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Telangana: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 21,
+            "mammalSpeciesRichness": 83,
+            "reptileSpeciesRichness": 82,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Telangana High Court — Hyderabad"
@@ -45094,6 +45550,25 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-TR-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-TR",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Tripura: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 24,
+            "mammalSpeciesRichness": 99,
+            "reptileSpeciesRichness": 109,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -47578,6 +48053,25 @@
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-UP-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-UP",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Uttar Pradesh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 20,
+            "mammalSpeciesRichness": 123,
+            "reptileSpeciesRichness": 109,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Allahabad High Court — Prayagraj"
@@ -49657,6 +50151,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 33 plant species for Uttarakhand. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-UK-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-UK",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Uttarakhand: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 23,
+            "mammalSpeciesRichness": 143,
+            "reptileSpeciesRichness": 90,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Uttarakhand High Court — Nainital"
@@ -51733,6 +52246,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 14 plant species for West Bengal. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-WB-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-WB",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "West Bengal: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 53,
+            "mammalSpeciesRichness": 214,
+            "reptileSpeciesRichness": 191,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
@@ -52740,6 +53272,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 40 plant species for Andaman and Nicobar Islands. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-AN-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-AN",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Andaman and Nicobar Islands: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 14,
+            "mammalSpeciesRichness": 53,
+            "reptileSpeciesRichness": 82,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "Calcutta High Court — Port Blair Circuit Bench"
@@ -53222,7 +53773,26 @@
             "totalTrackKilometres": 103
           }
         ],
-        "conservationProjects": []
+        "conservationProjects": [],
+        "floraFauna": [
+          {
+            "id": "IN-CH-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-CH",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Chandigarh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 10,
+            "mammalSpeciesRichness": 57,
+            "reptileSpeciesRichness": 48,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
+        ]
       },
       "highCourt": "Punjab and Haryana High Court — Chandigarh"
     },
@@ -53688,7 +54258,26 @@
             "description": "The Indian Railways Year Book 2023–24 explicitly states that the remaining States/Union Territories not shown in its state-wise railway network table have no railway line at 31 March 2024. This records the commissioned network at that date; it does not mean no railway projects are planned or under construction."
           }
         ],
-        "conservationProjects": []
+        "conservationProjects": [],
+        "floraFauna": [
+          {
+            "id": "IN-DHDD-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-DHDD",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Dadra and Nagar Haveli and Daman and Diu: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 15,
+            "mammalSpeciesRichness": 97,
+            "reptileSpeciesRichness": 85,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
+        ]
       },
       "highCourt": "Bombay High Court — territorial jurisdiction"
     },
@@ -54241,7 +54830,26 @@
             "totalTrackKilometres": 694
           }
         ],
-        "conservationProjects": []
+        "conservationProjects": [],
+        "floraFauna": [
+          {
+            "id": "IN-DL-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-DL",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Delhi: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 10,
+            "mammalSpeciesRichness": 52,
+            "reptileSpeciesRichness": 53,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
+        ]
       },
       "highCourt": "Delhi High Court — New Delhi"
     },
@@ -55428,6 +56036,25 @@
             "verificationStatus": "verified",
             "description": "The Wildlife Institute of India's state-wise threatened-plants database lists 23 plant species for Jammu and Kashmir. The WII page states that the database was developed in 1989–1992 using the Botanical Survey of India's Red Data Book Plants of India (Nayar & Sastry, 1987), and the page was last updated 6 November 2015. This is a dated historical database count, not a current IUCN assessment or a count of all threatened animals and plants in the region."
           }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-JK-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-JK",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Jammu and Kashmir: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 14,
+            "mammalSpeciesRichness": 124,
+            "reptileSpeciesRichness": 69,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
+          }
         ]
       },
       "highCourt": "High Court of Jammu & Kashmir and Ladakh — Jammu / Srinagar"
@@ -56238,6 +56865,25 @@
             "sourceUrl": "https://cwc.gov.in/sites/default/files/water-sector-glance-2023.pdf",
             "verificationStatus": "verified",
             "description": "State-wise programme figures for Major and Medium Irrigation (MMI) projects covered by PMKSY–AIBP, as reported by the Central Water Commission up to 31 March 2023. This is a programme-coverage summary, not a complete inventory of all irrigation projects in the State/UT. A dash in the source is retained as unreported/not applicable rather than converted to zero. Madhya Pradesh's project totals include phases of Bansagar, Indira Sagar and Omkareshwar projects as explained in the source table."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-LA-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-LA",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Ladakh: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 14,
+            "mammalSpeciesRichness": 104,
+            "reptileSpeciesRichness": 42,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },
@@ -57378,6 +58024,25 @@
             "referenceDate": "2022-04",
             "verificationStatus": "verified",
             "description": "Ansari Doraisamy is named in the Government of India's 75-district annexure as a freedom fighter associated with Puducherry, Puducherry. This record preserves the official district association and does not add biographical claims beyond that source."
+          }
+        ],
+        "floraFauna": [
+          {
+            "id": "IN-PY-FAUNA-SPECIES-RICHNESS-MOSPI-2022",
+            "regionId": "IN-PY",
+            "category": "floraFauna",
+            "name": "State/UT species-richness snapshot — amphibians, mammals and reptiles",
+            "officialName": "Puducherry: IUCN Red List species richness counts by selected taxonomic groups",
+            "amphibianSpeciesRichness": 19,
+            "mammalSpeciesRichness": 105,
+            "reptileSpeciesRichness": 100,
+            "richnessReferenceEdition": "2022-1",
+            "referenceYear": 2022,
+            "sourceName": "Ministry of Statistics and Programme Implementation — EnviStats India 2022, Vol. II, Annexure 7.2",
+            "sourceId": "mospiEnviStatsIucnSpeciesRichness2022",
+            "sourceUrl": "https://mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/EnviStats/EnviStatsVol2_2022revised.pdf",
+            "verificationStatus": "verified",
+            "description": "Counts are the 2022-1 edition of the IUCN Red List Toolbox spatial species-richness series for amphibians, mammals and reptiles, reproduced in MoSPI EnviStats India 2022, Annexure 7.2. These are mapped richness counts for the listed taxa, not a complete inventory of all flora and fauna, not a count of threatened species alone, and not a measure of population abundance. The report cautions that differences between editions may reflect revised assessments and distribution knowledge as well as real changes."
           }
         ]
       },

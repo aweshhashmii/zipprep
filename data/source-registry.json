@@ -7014,6 +7014,48 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.17.4",
       "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019RajasthanDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Rajasthan chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-rajasthan.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.23.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019PunjabDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Punjab chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-punjab.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.22.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019TelanganaDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Telangana chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-telangana.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.26.4",
+      "cadence": "Historical 2019 assessment; retain report-era district boundary note and refresh only against comparable FSI district tables."
     }
   ]
 }

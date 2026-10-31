@@ -5543,6 +5543,48 @@
       ],
       "referenceDate": "MHA/UNDP-supported sub-national disaster risk study, 2019, Table 1.6",
       "cadence": "Historical baseline only; do not update or compare without a newer comparable methodology and boundary reconciliation."
+    },
+    {
+      "id": "fsiISFR2019OdishaForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Odisha chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-odisha.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Forest type groups and forest ecosystems",
+        "District-wise 2019 forest-cover area and percentage for exact-match district profiles"
+      ],
+      "referenceDate": "ISFR 2019, Volume II",
+      "cadence": "Historical 2019 assessment; refresh only against a comparable later FSI report."
+    },
+    {
+      "id": "fsiISFR2019KeralaForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Kerala chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-kerala.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Forest type groups and forest ecosystems",
+        "District-wise 2019 forest-cover area and percentage for exact-match district profiles"
+      ],
+      "referenceDate": "ISFR 2019, Volume II",
+      "cadence": "Historical 2019 assessment; refresh only against a comparable later FSI report."
+    },
+    {
+      "id": "fsiISFR2019TamilNaduForestTypes",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Tamil Nadu chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-tamilnadu.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Forest type groups and forest ecosystems",
+        "District-wise 2019 forest-cover area and percentage for exact-match district profiles"
+      ],
+      "referenceDate": "ISFR 2019, Volume II",
+      "cadence": "Historical 2019 assessment; refresh only against a comparable later FSI report."
     }
   ]
 }

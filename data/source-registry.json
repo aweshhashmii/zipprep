@@ -853,6 +853,23 @@
         "Nathu La Pass location and elevation"
       ],
       "cadence": "Recheck the district administration's attraction listing; do not infer current road access from the geographic record."
+    },
+    {
+      "id": "motaStatewisePvtgList",
+      "name": "Ministry of Tribal Affairs — State-wise list of Particularly Vulnerable Tribal Groups (PVTGs)",
+      "url": "https://tribal.nic.in/downloads/PM-JANMAN/StateWiseListPVTGs.pdf",
+      "tabs": [
+        "heritage",
+        "environment"
+      ],
+      "fields": [
+        "Officially identified PVTG community names",
+        "State/UT associations in the Ministry's published list"
+      ],
+      "issuingAuthority": "Ministry of Tribal Affairs, Government of India",
+      "referenceDate": "Official list used with the Ministry's 2023–24 Annual Report",
+      "cadence": "Refresh against the latest Ministry of Tribal Affairs PVTG list and PM-JANMAN documents; check state reorganisation and legacy combined-state labels before assigning communities.",
+      "note": "The Ministry's annual report identifies 75 PVTGs in 18 States and one UT. The state-wise list retains legacy combined labels for Andhra Pradesh (including Telangana), Bihar (including Jharkhand), Madhya Pradesh (including Chhattisgarh), and Uttar Pradesh (including Uttarakhand). Communities under those combined labels are not split across successor States without a separate authoritative mapping."
     }
   ]
 }

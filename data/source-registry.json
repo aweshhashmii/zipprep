@@ -1,0 +1,452 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "ZipPrep India regional knowledge source registry",
+  "policy": {
+    "authorityOrder": [
+      "Union/State government primary datasets and gazette notifications",
+      "Constitutional bodies and statutory authorities",
+      "Official district administrations and government portals",
+      "UNESCO/UN Ramsar and other treaty-body records",
+      "Government-backed research institutions"
+    ],
+    "rules": [
+      "Every factual record must carry sourceId and sourceUrl, or an explicitly documented source record at the dataset level.",
+      "Keep referenceYear/referenceDate separate from lastVerifiedAt.",
+      "Never infer zero from a missing record; use pending or not imported.",
+      "Do not use third-party mirrors as verified exam facts until cross-checked against the original government publication.",
+      "Historical Census 2011 figures must be labelled as historical and must not be presented as current population estimates.",
+      "Separate notified protected-area status from international recognition and conservation-project status.",
+      "Use official current district lists and dated boundary data; never equate map polygon count with legal administrative district count.",
+      "Record changes through dated snapshots so users can understand when a figure was valid."
+    ]
+  },
+  "sources": [
+    {
+      "id": "eciTermsOfHouses",
+      "name": "Election Commission of India — Terms of the Houses",
+      "url": "https://www.eci.gov.in/term-of-the-houses/",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "Lok Sabha seats",
+        "Rajya Sabha seats",
+        "Legislative Assembly seats"
+      ],
+      "cadence": "Review after delimitation, reorganisation or ECI updates"
+    },
+    {
+      "id": "lgdCurrentDistrictDirectory2026",
+      "name": "Ministry of Panchayati Raj — Local Government Directory (LGD), current state and district snapshot",
+      "url": "https://lgdirectory.gov.in/",
+      "officialCrossCheckUrl": "https://www.dilrmp.gov.in/dilrmpold/dashboard/district-list-dashboard",
+      "mirrorRepository": "https://github.com/ramSeraph/opendata",
+      "mirrorApiRepository": "https://github.com/shrinivas-sn/india-lgd-index-api",
+      "snapshotDate": "21Oct2026",
+      "ingestedAt": "2026-10-29T17:11:49.883Z",
+      "archive": "districts.21Oct2026.csv.7z",
+      "archiveSha256": "dd1033e8b2961131c41ab4d6bf11d7c124c930c57c784c400041c4257eac4441",
+      "license": "Government Open Data License - India (GODL-India)",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "Current state/UT names",
+        "LGD state codes",
+        "Current district names",
+        "LGD district codes",
+        "State-district mapping"
+      ],
+      "cadence": "Refresh from monthly LGD release; record source_date and archive checksum; verify against the live LGD/DILRMP register before publication"
+    },
+    {
+      "id": "censusPcaSd2011",
+      "name": "Office of the Registrar General & Census Commissioner — PCA SD 2011",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/6191",
+      "downloadUrl": "https://censusindia.gov.in/nada/index.php/catalog/6191/download/9268/DDW_PCA0000_2011_Indiastatedist.xlsx",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "District population",
+        "Male/female population",
+        "Literacy",
+        "Sex ratio",
+        "SC/ST population",
+        "Workers",
+        "Households"
+      ],
+      "cadence": "Historical Census 2011 reference; do not relabel as current data"
+    },
+    {
+      "id": "fsiIsfr",
+      "name": "Forest Survey of India — India State of Forest Report",
+      "url": "https://www.fsi.nic.in/forest-report-2023",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Forest cover",
+        "Tree cover",
+        "Mangrove cover",
+        "Forest types"
+      ],
+      "cadence": "Biennial report; retain report year"
+    },
+    {
+      "id": "moefcc",
+      "name": "Ministry of Environment, Forest and Climate Change",
+      "url": "https://moef.gov.in/",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "National parks",
+        "Wildlife sanctuaries",
+        "Biosphere reserves",
+        "Conservation areas",
+        "Species programmes"
+      ],
+      "cadence": "Update from notifications and annual reports"
+    },
+    {
+      "id": "ntca",
+      "name": "National Tiger Conservation Authority",
+      "url": "https://ntca.gov.in/",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Tiger reserves",
+        "Tiger reserve notifications",
+        "Conservation projects"
+      ],
+      "cadence": "Update after official notification"
+    },
+    {
+      "id": "ramsar",
+      "name": "Ramsar Sites Information Service — India",
+      "url": "https://rsis.ramsar.org/",
+      "tabs": [
+        "environment",
+        "geography"
+      ],
+      "fields": [
+        "Ramsar sites",
+        "Wetland designation dates",
+        "Wetland areas"
+      ],
+      "cadence": "Update after designation or boundary change"
+    },
+    {
+      "id": "unescoWhc",
+      "name": "UNESCO World Heritage Centre — India",
+      "url": "https://whc.unesco.org/en/statesparties/IN",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "Inscribed World Heritage properties",
+        "Inscription year",
+        "Property criteria"
+      ],
+      "cadence": "Update after inscription or boundary modification"
+    },
+    {
+      "id": "cwc",
+      "name": "Central Water Commission",
+      "url": "https://cwc.gov.in/",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "River basins",
+        "Dams",
+        "Reservoirs",
+        "Water projects"
+      ],
+      "cadence": "Use publication/bulletin date on each record"
+    },
+    {
+      "id": "nrsc",
+      "name": "National Remote Sensing Centre — River Basin Atlas",
+      "url": "https://www.nrsc.gov.in/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "River basins",
+        "Drainage regions"
+      ],
+      "cadence": "Use atlas edition and reference year"
+    },
+    {
+      "id": "imd",
+      "name": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Climate",
+        "Rainfall",
+        "Temperature",
+        "Monsoon"
+      ],
+      "cadence": "Use climatological normal period or dated observation"
+    },
+    {
+      "id": "ibm",
+      "name": "Indian Bureau of Mines",
+      "url": "https://ibm.gov.in/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Minerals",
+        "Mineral production",
+        "Mining regions"
+      ],
+      "cadence": "Annual statistics and report year"
+    },
+    {
+      "id": "agriculture",
+      "name": "Department of Agriculture and Farmers Welfare",
+      "url": "https://agriwelfare.gov.in/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Major crops",
+        "Crop area",
+        "Production",
+        "Agricultural statistics"
+      ],
+      "cadence": "Use agricultural year and data release date"
+    },
+    {
+      "id": "cea",
+      "name": "Central Electricity Authority",
+      "url": "https://cea.nic.in/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Power plants",
+        "Installed capacity",
+        "Power generation"
+      ],
+      "cadence": "Use monthly/annual report date"
+    },
+    {
+      "id": "morth",
+      "name": "Ministry of Road Transport and Highways",
+      "url": "https://morth.nic.in/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "National highways",
+        "Expressways",
+        "Road statistics"
+      ],
+      "cadence": "Use official notification and report year"
+    },
+    {
+      "id": "railways",
+      "name": "Ministry of Railways",
+      "url": "https://indianrailways.gov.in/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Railway zones",
+        "Divisions",
+        "Railway stations",
+        "Projects"
+      ],
+      "cadence": "Update after official changes"
+    },
+    {
+      "id": "aai",
+      "name": "Airports Authority of India",
+      "url": "https://www.aai.aero/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Airports",
+        "Airport status",
+        "Airport operators"
+      ],
+      "cadence": "Review after operational changes"
+    },
+    {
+      "id": "ports",
+      "name": "Ministry of Ports, Shipping and Waterways",
+      "url": "https://shipmin.gov.in/",
+      "tabs": [
+        "economy",
+        "geography"
+      ],
+      "fields": [
+        "Ports",
+        "Harbours",
+        "National waterways"
+      ],
+      "cadence": "Use official notification and status date"
+    },
+    {
+      "id": "asi",
+      "name": "Archaeological Survey of India",
+      "url": "https://asi.nic.in/",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "Centrally protected monuments",
+        "Archaeological sites"
+      ],
+      "cadence": "Update from official protected-monument lists"
+    },
+    {
+      "id": "giRegistry",
+      "name": "Geographical Indications Registry — IP India",
+      "url": "https://ipindia.gov.in/gi.htm",
+      "tabs": [
+        "heritage",
+        "economy"
+      ],
+      "fields": [
+        "GI-tagged products",
+        "Registered proprietor",
+        "Geographical area",
+        "Registration date"
+      ],
+      "cadence": "Update after registration or cancellation"
+    },
+    {
+      "id": "tribalAffairs",
+      "name": "Ministry of Tribal Affairs",
+      "url": "https://tribal.nic.in/",
+      "tabs": [
+        "heritage",
+        "environment"
+      ],
+      "fields": [
+        "Scheduled Tribes",
+        "PVTGs",
+        "Tribal development programmes"
+      ],
+      "cadence": "Use official notified lists and reference dates"
+    },
+    {
+      "id": "culture",
+      "name": "Ministry of Culture",
+      "url": "https://indiaculture.gov.in/",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "Cultural heritage",
+        "Festivals",
+        "Institutions",
+        "Historical sites"
+      ],
+      "cadence": "Use official institutional or state records"
+    },
+    {
+      "id": "darjeelingDistrictAdministrationSetup",
+      "name": "Darjeeling District Administration — Administrative Setup",
+      "url": "https://darjeeling.gov.in/administrative-setup/",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "District headquarters",
+        "Subdivisions",
+        "Development blocks"
+      ],
+      "cadence": "Review when the district administration updates its administrative setup"
+    },
+    {
+      "id": "darjeelingDistrictOfficialPortal",
+      "name": "Darjeeling District Administration — Official District Portal",
+      "url": "https://darjeeling.gov.in/",
+      "tabs": [
+        "profile",
+        "heritage"
+      ],
+      "fields": [
+        "District overview",
+        "Cultural and heritage highlights"
+      ],
+      "cadence": "Review when official district portal content is updated"
+    },
+    {
+      "id": "wbDistrictPortalDirectory2021",
+      "name": "Government of West Bengal — Districts and Local Government portal directory",
+      "url": "https://wb.gov.in/government-district-and-localgovt.aspx",
+      "tabs": [
+        "profile"
+      ],
+      "fields": [
+        "Official district portal links for all 23 West Bengal districts"
+      ],
+      "referenceDate": "Page last updated 2021-09-09; district portal links rechecked 2026-10-31",
+      "cadence": "Recheck when the state directory or district portal domains change"
+    },
+    {
+      "id": "ibmIndianMineralsYearbook2024",
+      "name": "Indian Bureau of Mines — Indian Minerals Yearbook 2024, State Reviews",
+      "url": "https://ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise mineral occurrences and districts",
+        "Mineral resource estimates",
+        "Coalfield resources",
+        "Mineral production",
+        "Mineral-based industries and listed installed capacities"
+      ],
+      "referenceYear": "2023-24; resource reference dates vary by table",
+      "cadence": "Annual; preserve each table's reference date and provisional/final status",
+      "note": "First economy-data batch: West Bengal mineral occurrences/resources, coalfield resource summary, 2023-24 sulphur by-product production and selected mineral-based industries. All plant figures are installed capacities as printed in IMYB 2024, not live output or proof of current operating status. Third enrichment batch adds Chhattisgarh mineral occurrences from the 2024 State Review; occurrence records do not imply active mines. Fourth enrichment batch adds Jharkhand mineral occurrences, dated resource estimates, provisional 2023-24 production and listed mineral-based industry capacities; occurrences and capacity listings do not establish current operating status. Fifth enrichment batch adds Karnataka mineral occurrences/resources, provisional 2023-24 production and selected mineral-based industry capacities; listed capacities are not live output. Sixth enrichment batch adds Rajasthan mineral occurrences/resources (including 2020 resource and 2024 lignite reference dates), provisional 2023-24 production and principal mineral-based industry capacities. IBM notes that current status of each listed mineral-based industry is not readily available; capacity entries are therefore yearbook listings, not live operating-status claims. Seventh enrichment batch adds Madhya Pradesh mineral occurrences/resources, coalfield resources as at 1 April 2024, provisional 2023-24 production (including Panna diamond output), and listed mineral-based industry capacities. Current plant operating status is not inferred from capacity listings."
+    },
+    {
+      "id": "desAgricultureStatistics2024_25",
+      "name": "Directorate of Economics & Statistics, Department of Agriculture & Farmers Welfare — Agricultural Statistics at a Glance 2024-25",
+      "url": "https://desagri.gov.in/document-report-category/agriculture-statistics-at-a-glance/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise crop area",
+        "Crop production",
+        "Crop yield",
+        "Irrigation coverage",
+        "Advance estimates and final estimates"
+      ],
+      "referenceYear": "2024-25",
+      "cadence": "Annual; retain crop-specific agricultural year and whether values are advance estimates or final estimates"
+    },
+    {
+      "id": "desAgricultureStatistics2024",
+      "name": "Directorate of Economics & Statistics — Agricultural Statistics at a Glance 2024, Potato table",
+      "url": "https://desagri.gov.in/wp-content/uploads/2025/11/Agricultural-Statistics-at-a-Glance-2024_%E0%A4%95%E0%A5%83%E0%Aषि-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Potato area",
+        "Potato production",
+        "Potato yield",
+        "First Advance Estimate"
+      ],
+      "referenceYear": "2024-25 (1st Advance Estimate)",
+      "cadence": "Annual; preserve advance-estimate status and replace with final estimates when released"
+    }
+  ]
+}

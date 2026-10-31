@@ -25,6 +25,12 @@ jobs:
       - name: Check Explore India JavaScript syntax
         run: node --check explore-india.js
 
+      - name: Check LGD refresh script syntax
+        run: node --check scripts/refresh-lgd-directory.cjs
+
+      - name: Audit regional content, source attribution and exam-data coverage
+        run: node scripts/audit-regional-data.cjs
+
       - name: Validate inline scripts and JSON datasets
         run: |
           node <<'NODE'

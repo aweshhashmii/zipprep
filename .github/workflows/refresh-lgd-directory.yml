@@ -1,0 +1,45 @@
+name: Refresh India LGD district directory
+
+on:
+  schedule:
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-india-lgd-directory
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh current LGD states and districts
+        run: node scripts/refresh-lgd-directory.cjs
+
+      - name: Validate refreshed snapshot
+        run: |
+          node -e "const d=require('./data/india-lgd-administrative-2026.json'); if(d.counts.states!==36 || d.counts.districts!==d.districts.length) process.exit(1); console.log(d.counts)"
+          node scripts/audit-regional-data.cjs
+
+      - name: Commit refreshed directory when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/india-lgd-administrative-2026.json data/source-registry.json
+          if git diff --cached --quiet; then
+            echo "LGD directory is already up to date."
+          else
+            git commit -m "Refresh India LGD district directory"
+            git push
+          fi

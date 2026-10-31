@@ -2270,6 +2270,34 @@
       "referenceDate": "Official source accessed 31 October 2026",
       "cadence": "Review against updated State history pages, ASI inscriptions and official archival publications.",
       "note": "Use the dated historical source; distinguish a dynasty's territory from the boundaries of present-day States."
+    },
+    {
+      "id": "nobelTagoreBibliography2026",
+      "name": "NobelPrize.org — Rabindranath Tagore bibliography, including Gitanjali (Song Offerings)",
+      "url": "https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/",
+      "tabs": [
+        "culture"
+      ],
+      "fields": [
+        "Named literary work, author, language and award/archive status"
+      ],
+      "referenceDate": "Official Nobel Foundation bibliography accessed 31 October 2026",
+      "cadence": "Review when Nobel Prize or Sahitya Akademi official award archives are updated.",
+      "note": "Award archives document recognised books/authors; they do not by themselves establish an exhaustive regional literary canon."
+    },
+    {
+      "id": "sahityaAkademiAwards2025",
+      "name": "Sahitya Akademi — Language-wise Akademi Awards archive, 1955–2025",
+      "url": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "tabs": [
+        "culture"
+      ],
+      "fields": [
+        "Named literary work, author, language and award/archive status"
+      ],
+      "referenceDate": "Award archive through 2025",
+      "cadence": "Review when Nobel Prize or Sahitya Akademi official award archives are updated.",
+      "note": "Award archives document recognised books/authors; they do not by themselves establish an exhaustive regional literary canon."
     }
   ]
 }

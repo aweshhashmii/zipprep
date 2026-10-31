@@ -11107,6 +11107,234 @@
       "referenceDate": "Puducherry Planning Authority official profile accessed 31 October 2026",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-928",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "waterBodies",
+      "name": "Dudhni and Vanganga lakes",
+      "description": "The Dadra and Nagar Haveli Administration identifies Dudhni Lake and Vanganga Lake among the Union Territory's major visitor water bodies; both are in the Dadra and Nagar Haveli district portion of the combined UT.",
+      "sourceUrl": "https://dnh.gov.in/tourist-place/dudhani-lake/",
+      "sourceId": "dnhWaterBodies2026",
+      "referenceDate": "Official DNH district tourism profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-929",
+      "regionName": "Ladakh",
+      "category": "waterBodies",
+      "name": "Pangong Tso, Tso Moriri and Tso Kar",
+      "description": "The Ladakh Administration's tourism directory identifies Pangong Tso, Tso Moriri and Tso Kar as major high-altitude lakes of the Union Territory.",
+      "sourceUrl": "https://ladakh.gov.in/tourism/",
+      "sourceId": "ladakhWaterBodies2026",
+      "referenceDate": "Official Ladakh Administration tourism directory accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-930",
+      "regionName": "Lakshadweep",
+      "category": "waterBodies",
+      "name": "Kavaratti, Agatti and Bangaram lagoons",
+      "description": "The Lakshadweep Administration's island profiles identify the shallow reef lagoons surrounding Kavaratti, Agatti and Bangaram as major marine water bodies and visitor features.",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/islands/",
+      "sourceId": "lakshadweepWaterBodies2026",
+      "referenceDate": "Official Lakshadweep Administration island profiles accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-931",
+      "regionName": "Nagaland",
+      "category": "freedomMovement",
+      "name": "Rani Gaidinliu and the Naga resistance to British rule",
+      "description": "The Peren District Administration's disaster-management plan records Rani Gaidinliu's role in the Heraka movement and resistance to British rule in the Naga Hills, including her arrest in 1932.",
+      "sourceUrl": "https://nsdma.nagaland.gov.in/sites/default/files/2021-05/DDMP%20Peren.pdf",
+      "sourceId": "nagalandRaniGaidinliu2026",
+      "referenceDate": "Peren District Disaster Management Plan, Government of Nagaland",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-932",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "freedomMovement",
+      "name": "Battle of Aberdeen, Cellular Jail and the Azad Hind flag",
+      "description": "South Andaman's official history records the 1859 Battle of Aberdeen and the islands' later role as a penal settlement for freedom fighters. Port Blair was also visited by Subhas Chandra Bose, who hoisted the Indian flag in December 1943.",
+      "sourceUrl": "https://southandaman.nic.in/history/",
+      "sourceId": "andamanFreedomMovement2026",
+      "referenceDate": "Official South Andaman district history accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-933",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "freedomMovement",
+      "name": "Liberation from Portuguese rule, 1954 and 1961",
+      "description": "The Dadra and Nagar Haveli district history records liberation from Portuguese rule on 2 August 1954; Daman and Diu were integrated into India on 19 December 1961. These are anti-colonial liberation milestones for the combined Union Territory.",
+      "sourceUrl": "https://dnh.gov.in/district-profile/",
+      "sourceId": "dnhDamanDiuLiberation2026",
+      "referenceDate": "Official UT and district historical profiles accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-934",
+      "regionName": "Delhi",
+      "category": "freedomMovement",
+      "name": "Delhi in the Revolt of 1857",
+      "description": "Delhi Tourism's official history records the city as a major centre of the 1857 uprising, including the capture of the Red Fort and the fall of the Mughal court; the city remained a major site of later nationalist mobilisation.",
+      "sourceUrl": "https://delhitourism.gov.in/aboutus/new-delhi.html",
+      "sourceId": "delhi1857FreedomMovement2026",
+      "referenceDate": "Official Delhi Tourism history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-935",
+      "regionName": "Jammu and Kashmir",
+      "category": "freedomMovement",
+      "name": "1931 popular movement and Quit Kashmir, 1946",
+      "description": "Parliamentary and archival histories document the 1931 political agitation in Kashmir and Sheikh Abdullah's Quit Kashmir movement of 1946. These events form part of the modern political and anti-autocratic history of the former princely State.",
+      "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/58676/1/Eminent_Parliamentarians_Series_Sheikh_Mohammad_Abdullah.pdf",
+      "sourceId": "jammuKashmirFreedomMovement2026",
+      "referenceDate": "Parliament of India biographical series and Nehru Archive, 1931–1946",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-936",
+      "regionName": "Chandigarh",
+      "category": "freedomMovement",
+      "name": "No separate pre-independence city-level movement record",
+      "description": "Chandigarh was planned after Independence and became a Union Territory in 1966. The current city therefore has no separate pre-1947 city-level freedom-movement chronology in the cited Chandigarh Administration history; events in the wider pre-1947 region are recorded under Punjab/Ambala.",
+      "sourceUrl": "https://chandigarh.gov.in/historical-background",
+      "sourceId": "chandigarhFreedomScope2026",
+      "referenceDate": "Chandigarh Administration historical background accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-937",
+      "regionName": "Ladakh",
+      "category": "freedomMovement",
+      "name": "No separate anti-colonial movement record for present UT",
+      "description": "The official Ladakh history describes the region's historical administration within the wider Jammu and Kashmir polity; it does not identify a distinct British-era anti-colonial movement episode for the present UT boundaries. This is a scope-limited attribution, not a claim that the region had no political resistance.",
+      "sourceUrl": "https://ladakh.gov.in/about-ladakh/history/",
+      "sourceId": "ladakhFreedomScope2026",
+      "referenceDate": "Official Ladakh Administration history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-938",
+      "regionName": "Lakshadweep",
+      "category": "freedomMovement",
+      "name": "No distinct organised freedom-movement episode listed",
+      "description": "The Lakshadweep Administration's official history documents British administration and the islands' later integration into the Indian Union, but does not identify a distinct organised anti-colonial movement episode for the islands. This statement is limited to the cited official history profile.",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/history/",
+      "sourceId": "lakshadweepFreedomScope2026",
+      "referenceDate": "Official Lakshadweep Administration history profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "not_available"
+    },
+    {
+      "id": "supp-939",
+      "regionName": "Andaman and Nicobar Islands",
+      "category": "music",
+      "name": "Nicobari folk songs and community music",
+      "description": "The Nicobar District Administration's culture-and-heritage profile documents traditional Nicobari folk songs, community performance and music as part of the islands' living cultural heritage.",
+      "sourceUrl": "https://nicobars.andaman.nic.in/culture-heritage/",
+      "sourceId": "andamanNicobarMusic2026",
+      "referenceDate": "Official Nicobar District culture and heritage profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-940",
+      "regionName": "Chandigarh",
+      "category": "music",
+      "name": "Punjabi folk music shared across the Chandigarh region",
+      "description": "Chandigarh's cultural life is closely connected with the Punjabi cultural region. Punjab Government cultural material documents Bhangra and Giddha folk-music and performance traditions; this is a shared regional tradition, not a music form originating solely in the Union Territory.",
+      "sourceUrl": "https://punjab.gov.in/culture/",
+      "sourceId": "chandigarhPunjabiMusic2026",
+      "referenceDate": "Punjab Government cultural profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-941",
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "category": "music",
+      "name": "Warli folk songs, Tarpa and tribal music",
+      "description": "The Dadra and Nagar Haveli Administration's cultural profile documents Warli folk songs, the Tarpa instrument and community music-and-dance traditions, including Dhol, Tur and Thali performances.",
+      "sourceUrl": "https://dnh.gov.in/handicraft-2/",
+      "sourceId": "dnhWarliMusic2026",
+      "referenceDate": "Official Dadra and Nagar Haveli cultural profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-942",
+      "regionName": "Delhi",
+      "category": "music",
+      "name": "Sufi qawwali and the Nizamuddin musical tradition",
+      "description": "Delhi Tourism's heritage and spiritual itineraries identify Nizamuddin Auliya's dargah as a major Sufi centre; the city's qawwali and devotional music traditions are closely associated with the shrine and the legacy of Amir Khusrau.",
+      "sourceUrl": "https://delhitourism.gov.in/tourist_place/spritual_delhi.html",
+      "sourceId": "delhiQawwaliMusic2026",
+      "referenceDate": "Official Delhi Tourism spiritual itinerary accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-943",
+      "regionName": "Jammu and Kashmir",
+      "category": "music",
+      "name": "Sufiana Mausiqi, Chakri and Rouf traditions",
+      "description": "The Jammu and Kashmir Tourism Development Corporation documents Sufiana Mausiqi, Chakri and Rouf among the region's established music and performance traditions.",
+      "sourceUrl": "https://www.jktdc.co.in/info.aspx?id=102",
+      "sourceId": "jammuKashmirMusic2026",
+      "referenceDate": "Jammu and Kashmir Tourism Development Corporation cultural profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-944",
+      "regionName": "Ladakh",
+      "category": "music",
+      "name": "Ladakhi folk songs and ceremonial music",
+      "description": "The Ladakh Administration's cultural-event report documents traditional forms including Lharna, Shondol, Jabro and Junglu, alongside ceremonial and monastery-linked music traditions.",
+      "sourceUrl": "https://ladakh.gov.in/a-grand-tapestry-of-folk-traditions-marks-final-cultural-evening-in-leh-2/",
+      "sourceId": "ladakhMusic2026",
+      "referenceDate": "Official Ladakh Administration cultural report accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-945",
+      "regionName": "Lakshadweep",
+      "category": "music",
+      "name": "Lava, Kolkali, Parichakali and Mappila songs",
+      "description": "The Lakshadweep Administration's culture-and-heritage profile documents Lava, Kolkali and Parichakali performances, as well as Mappila song traditions, as part of the islands' cultural life.",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/culture-heritage/",
+      "sourceId": "lakshadweepMusic2026",
+      "referenceDate": "Official Lakshadweep Administration culture and heritage profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-946",
+      "regionName": "Puducherry",
+      "category": "music",
+      "name": "Tamil folk and Carnatic music traditions",
+      "description": "The Puducherry Department of Art and Culture documents the Union Territory's Tamil folk and classical music traditions, alongside the French-influenced cultural history of Puducherry town.",
+      "sourceUrl": "https://art.py.gov.in/",
+      "sourceId": "puducherryMusic2026",
+      "referenceDate": "Puducherry Department of Art and Culture profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -11962,6 +12190,120 @@
       "title": "puducherryReligiousHeritage2026",
       "sourceUrl": "https://ppa.py.gov.in/",
       "referenceDate": "Puducherry Planning Authority official profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "dnhWaterBodies2026",
+      "title": "dnhWaterBodies2026",
+      "sourceUrl": "https://dnh.gov.in/tourist-place/dudhani-lake/",
+      "referenceDate": "Official DNH district tourism profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ladakhWaterBodies2026",
+      "title": "ladakhWaterBodies2026",
+      "sourceUrl": "https://ladakh.gov.in/tourism/",
+      "referenceDate": "Official Ladakh Administration tourism directory accessed 31 October 2026"
+    },
+    {
+      "sourceId": "lakshadweepWaterBodies2026",
+      "title": "lakshadweepWaterBodies2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/islands/",
+      "referenceDate": "Official Lakshadweep Administration island profiles accessed 31 October 2026"
+    },
+    {
+      "sourceId": "nagalandRaniGaidinliu2026",
+      "title": "nagalandRaniGaidinliu2026",
+      "sourceUrl": "https://nsdma.nagaland.gov.in/sites/default/files/2021-05/DDMP%20Peren.pdf",
+      "referenceDate": "Peren District Disaster Management Plan, Government of Nagaland"
+    },
+    {
+      "sourceId": "andamanFreedomMovement2026",
+      "title": "andamanFreedomMovement2026",
+      "sourceUrl": "https://southandaman.nic.in/history/",
+      "referenceDate": "Official South Andaman district history accessed 31 October 2026"
+    },
+    {
+      "sourceId": "dnhDamanDiuLiberation2026",
+      "title": "dnhDamanDiuLiberation2026",
+      "sourceUrl": "https://dnh.gov.in/district-profile/",
+      "referenceDate": "Official UT and district historical profiles accessed 31 October 2026"
+    },
+    {
+      "sourceId": "delhi1857FreedomMovement2026",
+      "title": "delhi1857FreedomMovement2026",
+      "sourceUrl": "https://delhitourism.gov.in/aboutus/new-delhi.html",
+      "referenceDate": "Official Delhi Tourism history profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "jammuKashmirFreedomMovement2026",
+      "title": "jammuKashmirFreedomMovement2026",
+      "sourceUrl": "https://eparlib.sansad.in/bitstream/123456789/58676/1/Eminent_Parliamentarians_Series_Sheikh_Mohammad_Abdullah.pdf",
+      "referenceDate": "Parliament of India biographical series and Nehru Archive, 1931–1946"
+    },
+    {
+      "sourceId": "chandigarhFreedomScope2026",
+      "title": "chandigarhFreedomScope2026",
+      "sourceUrl": "https://chandigarh.gov.in/historical-background",
+      "referenceDate": "Chandigarh Administration historical background accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ladakhFreedomScope2026",
+      "title": "ladakhFreedomScope2026",
+      "sourceUrl": "https://ladakh.gov.in/about-ladakh/history/",
+      "referenceDate": "Official Ladakh Administration history profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "lakshadweepFreedomScope2026",
+      "title": "lakshadweepFreedomScope2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/history/",
+      "referenceDate": "Official Lakshadweep Administration history profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "andamanNicobarMusic2026",
+      "title": "andamanNicobarMusic2026",
+      "sourceUrl": "https://nicobars.andaman.nic.in/culture-heritage/",
+      "referenceDate": "Official Nicobar District culture and heritage profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "chandigarhPunjabiMusic2026",
+      "title": "chandigarhPunjabiMusic2026",
+      "sourceUrl": "https://punjab.gov.in/culture/",
+      "referenceDate": "Punjab Government cultural profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "dnhWarliMusic2026",
+      "title": "dnhWarliMusic2026",
+      "sourceUrl": "https://dnh.gov.in/handicraft-2/",
+      "referenceDate": "Official Dadra and Nagar Haveli cultural profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "delhiQawwaliMusic2026",
+      "title": "delhiQawwaliMusic2026",
+      "sourceUrl": "https://delhitourism.gov.in/tourist_place/spritual_delhi.html",
+      "referenceDate": "Official Delhi Tourism spiritual itinerary accessed 31 October 2026"
+    },
+    {
+      "sourceId": "jammuKashmirMusic2026",
+      "title": "jammuKashmirMusic2026",
+      "sourceUrl": "https://www.jktdc.co.in/info.aspx?id=102",
+      "referenceDate": "Jammu and Kashmir Tourism Development Corporation cultural profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ladakhMusic2026",
+      "title": "ladakhMusic2026",
+      "sourceUrl": "https://ladakh.gov.in/a-grand-tapestry-of-folk-traditions-marks-final-cultural-evening-in-leh-2/",
+      "referenceDate": "Official Ladakh Administration cultural report accessed 31 October 2026"
+    },
+    {
+      "sourceId": "lakshadweepMusic2026",
+      "title": "lakshadweepMusic2026",
+      "sourceUrl": "https://lakshadweep.gov.in/about-lakshadweep/culture-heritage/",
+      "referenceDate": "Official Lakshadweep Administration culture and heritage profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "puducherryMusic2026",
+      "title": "puducherryMusic2026",
+      "sourceUrl": "https://art.py.gov.in/",
+      "referenceDate": "Puducherry Department of Art and Culture profile accessed 31 October 2026"
     }
   ]
 }

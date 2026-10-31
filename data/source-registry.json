@@ -5624,6 +5624,97 @@
       ],
       "referenceDate": "Lakshadweep Administration profile accessed 31 October 2026; desalination notice dated 22 October 2022",
       "cadence": "Refresh against current UT administration and water-board project records."
+    },
+    {
+      "id": "cgwbChhattisgarhRiverBasin2023",
+      "name": "Central Ground Water Board — Ground Water Year Book, Chhattisgarh 2023–24",
+      "url": "https://gwdata.cgwb.gov.in/download/Yearbook/Chhattisgarh_GWYB%202023-24.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "CGWB Chhattisgarh Ground Water Year Book 2023–24, section 2.2 Drainage",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
+    },
+    {
+      "id": "goaSDMANorthDistrictTributaries2022",
+      "name": "Goa State Disaster Management Authority — North Goa District Disaster Management Plan",
+      "url": "https://www.sdma.goa.gov.in/sites/default/files/2022-07/District%20Disaster%20Management%20Plan%20%28North%29_0.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "North Goa District Disaster Management Plan, river tributaries section",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
+    },
+    {
+      "id": "gujaratNWRWSRiverGaugeTributaries2010",
+      "name": "Gujarat Narmada Water Resources, Water Supply and Kalpsar Department — River Gauge Availability",
+      "url": "https://guj-nwrws.gujarat.gov.in/downloads/final_rivergauge_availibility.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "Official river-gauge inventory, data coverage through 2010",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
+    },
+    {
+      "id": "keralaIrrigationPeriyarBasin2022",
+      "name": "Kerala Irrigation Department — Periyar River Basin, Room for River report",
+      "url": "https://irrigation.kerala.gov.in/sites/default/files/2022-02/Room4River_Periyar_Report.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "Kerala Irrigation Department Periyar River Basin report, 2022",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
+    },
+    {
+      "id": "manipurDistrictPlanImphalThoubal2020",
+      "name": "Government of Manipur — District Disaster Management Plan, river and lake section",
+      "url": "https://manipur.gov.in/wp-content/uploads/2020/03/tbl-dmplan.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "Government of Manipur district disaster plan, 2020",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
+    },
+    {
+      "id": "mizoramDIPRPhysiography2026",
+      "name": "Mizoram Directorate of Information and Public Relations — Physiography",
+      "url": "https://dipr.mizoram.gov.in/page/physiography",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "Official Mizoram physiography profile accessed 31 October 2026",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
+    },
+    {
+      "id": "sikkimGovernmentPhysicalFeatures2019",
+      "name": "Government of Sikkim — Important Rivers of Sikkim and their Tributaries",
+      "url": "https://sikkim.gov.in/uploads/DeptUploads/FCD_20190627.pdf",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named river tributaries and river-basin relationships"
+      ],
+      "referenceDate": "Government of Sikkim, Sikkim at a Glance, Table 2.2(a)",
+      "cadence": "Keep historical reference dates explicit; review against updated state and CWC basin records."
     }
   ]
 }

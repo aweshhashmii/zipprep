@@ -551,6 +551,16 @@
       "name": "Ministry of Home Affairs / PIB — 75 Districts with Corresponding Freedom Fighters (April 2022)",
       "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/apr/doc202242850701.pdf",
       "note": "Official curated list of 75 districts and corresponding freedom fighters; not exhaustive. Used for district-level freedom movement entries and individual name records."
+    },
+    {
+      "id": "icarNbsslupKolkataSoils",
+      "name": "ICAR–NBSS&LUP Kolkata — regional soil resource mapping",
+      "url": "https://icar-nbsslup.org.in/kolkata/",
+      "fields": [
+        "State-wise dominant soil orders and reported area shares for West Bengal, Bihar, Jharkhand and Odisha",
+        "Soil-family association map-unit counts"
+      ],
+      "cadence": "Use as a regional soil-resource summary; replace with newer state soil resource maps or official NBSS&LUP products when published."
     }
   ],
   "regions": [
@@ -6491,6 +6501,13 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "icarNbsslupKolkataSoils",
+          "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State soil-order distribution and mapped soil-family units from ICAR–NBSS&LUP Kolkata regional summary; only percentages explicitly stated by the institute are reproduced."
         }
       ],
       "lastVerifiedAt": "2026-10-31",
@@ -7008,7 +7025,27 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-BR-SOIL-ICAR-KOLKATA",
+            "regionId": "IN-BR",
+            "category": "soilTypes",
+            "name": "State soil profile — dominant soil orders",
+            "officialName": "Soil resource mapping, Bihar",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderSharePercent": {
+              "inceptisols": 42.4,
+              "alfisols": 16.7,
+              "entisols": 36.8,
+              "vertisols": 0.3
+            },
+            "sourceName": "ICAR–NBSS&LUP Kolkata — regional soil resource mapping",
+            "sourceId": "icarNbsslupKolkataSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP reports Inceptisols (42.4%), Entisols (36.8%), Alfisols (16.7%) and Vertisols (0.3%) by state area. Its regional mapping reports 119 soil-family association map units for Bihar."
+          }
+        ],
         "giProducts": [
           {
             "name": "Manjusha Art",
@@ -16295,6 +16332,13 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "icarNbsslupKolkataSoils",
+          "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State soil-order distribution and mapped soil-family units from ICAR–NBSS&LUP Kolkata regional summary; only percentages explicitly stated by the institute are reproduced."
         }
       ],
       "lastVerifiedAt": null,
@@ -16843,7 +16887,24 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-JH-SOIL-ICAR-KOLKATA",
+            "regionId": "IN-JH",
+            "category": "soilTypes",
+            "name": "State soil profile — dominant soil orders",
+            "officialName": "Soil resource mapping, Jharkhand",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderSharePercent": {
+              "alfisols": 54.6
+            },
+            "sourceName": "ICAR–NBSS&LUP Kolkata — regional soil resource mapping",
+            "sourceId": "icarNbsslupKolkataSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP identifies Alfisols as the dominant soil order, covering 54.6% of Jharkhand's area. Its regional page reports 99 soil-family association map units. Other soil-order shares are not supplied in this source and are not inferred."
+          }
+        ],
         "giProducts": [],
         "culturalHighlights": [
           {
@@ -32091,6 +32152,13 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "icarNbsslupKolkataSoils",
+          "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State soil-order distribution and mapped soil-family units from ICAR–NBSS&LUP Kolkata regional summary; only percentages explicitly stated by the institute are reproduced."
         }
       ],
       "lastVerifiedAt": null,
@@ -32737,7 +32805,27 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-OD-SOIL-ICAR-KOLKATA",
+            "regionId": "IN-OD",
+            "category": "soilTypes",
+            "name": "State soil profile — dominant soil orders",
+            "officialName": "Soil resource mapping, Odisha",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderSharePercent": {
+              "inceptisols": 48.8,
+              "alfisols": 33.5,
+              "entisols": 10.2,
+              "vertisols": 5.52
+            },
+            "sourceName": "ICAR–NBSS&LUP Kolkata — regional soil resource mapping",
+            "sourceId": "icarNbsslupKolkataSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP reports Inceptisols (48.8%), Alfisols (33.5%), Entisols (10.2%) and Vertisols (5.52%) by state area. Its regional mapping reports 159 soil-family association map units for Odisha."
+          }
+        ],
         "giProducts": [
           {
             "name": "Kendrapara Rasabali",
@@ -48583,6 +48671,13 @@
           "referenceDate": "2026-02-26",
           "lastVerifiedAt": "2026-10-31",
           "note": "Named industrial corridor projects/nodes and only source-stated implementation statuses are recorded."
+        },
+        {
+          "field": "geography.soilTypes",
+          "sourceId": "icarNbsslupKolkataSoils",
+          "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "State soil-order distribution and mapped soil-family units from ICAR–NBSS&LUP Kolkata regional summary; only percentages explicitly stated by the institute are reproduced."
         }
       ],
       "lastVerifiedAt": null,
@@ -49061,7 +49156,26 @@
           "referenceDate": "2026-04-02"
         },
         "climate": null,
-        "soilTypes": [],
+        "soilTypes": [
+          {
+            "id": "IN-WB-SOIL-ICAR-KOLKATA",
+            "regionId": "IN-WB",
+            "category": "soilTypes",
+            "name": "State soil profile — dominant soil orders",
+            "officialName": "Soil resource mapping, West Bengal",
+            "taxonomySystem": "USDA Soil Taxonomy",
+            "soilOrderSharePercent": {
+              "inceptisols": 49,
+              "alfisols": 25,
+              "entisols": 23
+            },
+            "sourceName": "ICAR–NBSS&LUP Kolkata — regional soil resource mapping",
+            "sourceId": "icarNbsslupKolkataSoils",
+            "sourceUrl": "https://icar-nbsslup.org.in/kolkata/",
+            "verificationStatus": "verified",
+            "description": "ICAR–NBSS&LUP reports Inceptisols as the dominant soil order (49% of state area), followed by Alfisols (25%) and Entisols (23%). Its regional mapping reports 115 soil-family association map units for West Bengal."
+          }
+        ],
         "giProducts": [
           {
             "name": "Malda Fazli Mango",

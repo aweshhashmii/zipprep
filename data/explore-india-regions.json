@@ -1504,7 +1504,56 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-AP-MPA-001",
+            "regionId": "IN-AP",
+            "category": "marineProtectedAreas",
+            "name": "Coringa",
+            "officialName": "Coringa",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 235.7,
+            "establishmentYear": 1978,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 235.7 km²; establishment year: 1978. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-AP-MPA-002",
+            "regionId": "IN-AP",
+            "category": "marineProtectedAreas",
+            "name": "Krishna",
+            "officialName": "Krishna",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 194.81,
+            "establishmentYear": 1989,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 194.81 km²; establishment year: 1989. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-AP-MPA-003",
+            "regionId": "IN-AP",
+            "category": "marineProtectedAreas",
+            "name": "Pulicat Lake",
+            "officialName": "Pulicat Lake",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 500,
+            "establishmentYear": 1980,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 500 km²; establishment year: 1980. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -6047,7 +6096,24 @@
         "disasterProneRegions": [],
         "conservationReserves": [],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-GA-MPA-001",
+            "regionId": "IN-GA",
+            "category": "marineProtectedAreas",
+            "name": "Chorao Island",
+            "officialName": "Chorao Island",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 1.78,
+            "establishmentYear": 1988,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 1.78 km²; establishment year: 1988. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -7508,7 +7574,56 @@
           }
         ],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-GJ-MPA-001",
+            "regionId": "IN-GJ",
+            "category": "marineProtectedAreas",
+            "name": "Marine (Gulf of Kachchh) — National Park",
+            "officialName": "Marine (Gulf of Kachchh) — National Park",
+            "legalCategory": "National Park",
+            "areaSqKm": 162.89,
+            "establishmentYear": 1995,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 162.89 km²; establishment year: 1995. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-GJ-MPA-002",
+            "regionId": "IN-GJ",
+            "category": "marineProtectedAreas",
+            "name": "Khijadia",
+            "officialName": "Khijadia",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 6.05,
+            "establishmentYear": 1981,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 6.05 km²; establishment year: 1981. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-GJ-MPA-003",
+            "regionId": "IN-GJ",
+            "category": "marineProtectedAreas",
+            "name": "Marine (Gulf of Kachchh) — Sanctuary",
+            "officialName": "Marine (Gulf of Kachchh) — Sanctuary",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 295.03,
+            "establishmentYear": 1980,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 295.03 km²; establishment year: 1980. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -12806,7 +12921,24 @@
             "referenceDate": "February 2025"
           }
         ],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-KL-MPA-001",
+            "regionId": "IN-KL",
+            "category": "marineProtectedAreas",
+            "name": "Kadalundi Vallikkunnu Community Reserve",
+            "officialName": "Kadalundi Vallikkunnu Community Reserve",
+            "legalCategory": "Community Reserve",
+            "areaSqKm": 1.5,
+            "establishmentYear": 2007,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 1.5 km²; establishment year: 2007. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -15605,7 +15737,40 @@
           }
         ],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-MH-MPA-001",
+            "regionId": "IN-MH",
+            "category": "marineProtectedAreas",
+            "name": "Malvan Marine",
+            "officialName": "Malvan Marine",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 29.12,
+            "establishmentYear": 1987,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 29.12 km²; establishment year: 1987. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-MH-MPA-002",
+            "regionId": "IN-MH",
+            "category": "marineProtectedAreas",
+            "name": "Thane Creek Flamingo",
+            "officialName": "Thane Creek Flamingo",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 16.91,
+            "establishmentYear": 2015,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 16.91 km²; establishment year: 2015. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -20595,7 +20760,88 @@
           }
         ],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-OD-MPA-001",
+            "regionId": "IN-OD",
+            "category": "marineProtectedAreas",
+            "name": "Bhitarkanika — National Park",
+            "officialName": "Bhitarkanika — National Park",
+            "legalCategory": "National Park",
+            "areaSqKm": 145,
+            "establishmentYear": 1998,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 145 km²; establishment year: 1998. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-OD-MPA-002",
+            "regionId": "IN-OD",
+            "category": "marineProtectedAreas",
+            "name": "Bhitarkanika — Sanctuary",
+            "officialName": "Bhitarkanika — Sanctuary",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 672,
+            "establishmentYear": 1975,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 672 km²; establishment year: 1975. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-OD-MPA-003",
+            "regionId": "IN-OD",
+            "category": "marineProtectedAreas",
+            "name": "Chilka (Nalaban)",
+            "officialName": "Chilka (Nalaban)",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 15.53,
+            "establishmentYear": 1987,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 15.53 km²; establishment year: 1987. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-OD-MPA-004",
+            "regionId": "IN-OD",
+            "category": "marineProtectedAreas",
+            "name": "Gahirmatha",
+            "officialName": "Gahirmatha",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 1435,
+            "establishmentYear": 1997,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 1435 km²; establishment year: 1997. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-OD-MPA-005",
+            "regionId": "IN-OD",
+            "category": "marineProtectedAreas",
+            "name": "Balukhand Konark",
+            "officialName": "Balukhand Konark",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 71.72,
+            "establishmentYear": 1984,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 71.72 km²; establishment year: 1984. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -24990,7 +25236,56 @@
           }
         ],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-TN-MPA-001",
+            "regionId": "IN-TN",
+            "category": "marineProtectedAreas",
+            "name": "Gulf of Mannar Marine",
+            "officialName": "Gulf of Mannar Marine",
+            "legalCategory": "National Park",
+            "areaSqKm": 6.23,
+            "establishmentYear": 1980,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 6.23 km²; establishment year: 1980. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-TN-MPA-002",
+            "regionId": "IN-TN",
+            "category": "marineProtectedAreas",
+            "name": "Point Calimere",
+            "officialName": "Point Calimere",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 172.6,
+            "establishmentYear": 1967,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 172.6 km²; establishment year: 1967. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-TN-MPA-003",
+            "regionId": "IN-TN",
+            "category": "marineProtectedAreas",
+            "name": "Pulicat Lake",
+            "officialName": "Pulicat Lake",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 153.67,
+            "establishmentYear": 1980,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 153.67 km²; establishment year: 1980. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",
@@ -29845,7 +30140,88 @@
           }
         ],
         "communityReserves": [],
-        "marineProtectedAreas": [],
+        "marineProtectedAreas": [
+          {
+            "id": "IN-WB-MPA-001",
+            "regionId": "IN-WB",
+            "category": "marineProtectedAreas",
+            "name": "Sundarbans",
+            "officialName": "Sundarbans",
+            "legalCategory": "National Park",
+            "areaSqKm": 1330.1,
+            "establishmentYear": 1984,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 1330.1 km²; establishment year: 1984. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-WB-MPA-002",
+            "regionId": "IN-WB",
+            "category": "marineProtectedAreas",
+            "name": "West Sundarbans",
+            "officialName": "West Sundarbans",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 556.45,
+            "establishmentYear": 2013,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 556.45 km²; establishment year: 2013. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-WB-MPA-003",
+            "regionId": "IN-WB",
+            "category": "marineProtectedAreas",
+            "name": "Haliday Island",
+            "officialName": "Haliday Island",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 5.95,
+            "establishmentYear": 1976,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 5.95 km²; establishment year: 1976. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-WB-MPA-004",
+            "regionId": "IN-WB",
+            "category": "marineProtectedAreas",
+            "name": "Sajnakhali",
+            "officialName": "Sajnakhali",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 2091.12,
+            "establishmentYear": 1976,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 2091.12 km²; establishment year: 1976. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          },
+          {
+            "id": "IN-WB-MPA-005",
+            "regionId": "IN-WB",
+            "category": "marineProtectedAreas",
+            "name": "Lothian Island",
+            "officialName": "Lothian Island",
+            "legalCategory": "Sanctuary",
+            "areaSqKm": 38,
+            "establishmentYear": 1976,
+            "sourceName": "MoSPI — EnviStats India 2020, Statement 1.32",
+            "sourceId": "mospiEnviStatsMarineProtectedAreas2020",
+            "sourceUrl": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+            "referenceYear": 2013,
+            "verificationStatus": "verified",
+            "description": "Historical named entry in the 2013 coastal marine protected-area inventory reproduced in MoSPI EnviStats India 2020. Published area: 38 km²; establishment year: 1976. This is a dated source record, not confirmation of present-day boundary or status, and not a complete current national inventory."
+          }
+        ],
         "waterBodies": [
           {
             "name": "First Census of Water Bodies — state/UT total",

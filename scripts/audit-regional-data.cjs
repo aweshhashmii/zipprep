@@ -47,6 +47,7 @@ const districtProfileOdishaData = read('data/district-profile-isfr2023-odisha.js
 const districtProfileMaharashtraData = read('data/district-profile-isfr2023-maharashtra.json');
 const districtProfileUttarPradeshData = read('data/district-profile-isfr2023-uttar-pradesh.json');
 const districtProfileJharkhandData = read('data/district-profile-isfr2023-jharkhand.json');
+const districtProfileGujaratData = read('data/district-profile-isfr2023-gujarat.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -99,7 +100,7 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
-for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || [])]) {
+for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || []), ...(districtProfileGujaratData.records || [])]) {
   const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
   if (existing) {
     for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
@@ -325,6 +326,36 @@ for (const row of jharkhandForestRows) {
       'Jharkhand ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
   }
 }
+const gujaratForestRows = districtProfileGujaratData.records || [];
+assert(gujaratForestRows.length === 33, 'ISFR 2023 Gujarat district forest dataset must contain all 33 districts listed in the FSI table.');
+assert(sourceRegistry.sources.some(source => source.id === districtProfileGujaratData.source.sourceId),
+  'ISFR 2023 Gujarat district forest source must be registered.');
+const gujaratForestExpected = {
+  forestCoverCalculatedArea2023SqKm: 196244,
+  veryDenseForest2023SqKm: 419.71,
+  moderatelyDenseForest2023SqKm: 4902.20,
+  openForest2023SqKm: 9694.73,
+  forestCover2023SqKm: 15016.84,
+  forestCoverChangeSince2021SqKm: 180.07,
+  scrub2023SqKm: 2029.95
+};
+for (const [field, expectedValue] of Object.entries(gujaratForestExpected)) {
+  const actual = gujaratForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Gujarat ISFR 2023 district row sum does not match transcribed rows for ' + field + ': ' + actual + ' vs ' + expectedValue);
+}
+assert(districtProfileGujaratData.totals.publishedGrandTotalForest === 15016.64,
+  'Gujarat ISFR source discrepancy note must retain the printed forest-cover grand total.');
+for (const row of gujaratForestRows) {
+  assert(row.stateName === 'Gujarat', 'Gujarat ISFR district row has wrong state: ' + row.name);
+  assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '24'),
+    'Gujarat ISFR district row does not exactly match current LGD identity: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileGujaratData.source.sourceId),
+      'Gujarat ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
+  }
+}
+assert(!gujaratForestRows.some(row => row.lgdCode === '789'),
+  'Gujarat Vav-Tharad district omitted from the FSI table must not be assigned inferred forest figures.');
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');
 const districtProfilesWithVerifiedFields = districtProfileRows.filter(row => Array.isArray(row.verifiedFields) && row.verifiedFields.length > 0);
 const districtProfileCodes = new Set();

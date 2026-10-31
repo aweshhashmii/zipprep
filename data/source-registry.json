@@ -3429,6 +3429,45 @@
       ],
       "referenceDate": "Official government source accessed 31 October 2026",
       "cadence": "Review against the latest State/UT horticulture and agriculture statistical releases."
+    },
+    {
+      "id": "ibmUTMinerals2022",
+      "name": "Indian Bureau of Mines — Indian Minerals Yearbook 2022: Union Territories",
+      "url": "https://ibm.gov.in/writereaddata/files/17325359006744665ccf6aa30_Union_Territories_IMYB_2022.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Mineral production and resource status across Andaman and Nicobar, Chandigarh, DNHDD, Lakshadweep and Puducherry"
+      ],
+      "referenceDate": "Indian Minerals Yearbook 2022, published 2024",
+      "cadence": "Review against the latest Indian Minerals Yearbook and IBM state/UT review."
+    },
+    {
+      "id": "ibmDelhiMinerals2022",
+      "name": "Indian Bureau of Mines — Indian Minerals Yearbook 2022: Delhi",
+      "url": "https://ibm.gov.in/writereaddata/files/173253488867446268544696_Delhi_IMYB_2022.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Kaolin, fireclay and quartzite resources in Delhi"
+      ],
+      "referenceDate": "Indian Minerals Yearbook 2022, published 2024",
+      "cadence": "Review against the latest Indian Minerals Yearbook and IBM state/UT review."
+    },
+    {
+      "id": "ibmJammuKashmirMinerals2022",
+      "name": "Indian Bureau of Mines — Indian Minerals Yearbook 2022: Jammu and Kashmir",
+      "url": "https://ibm.gov.in/writereaddata/files/1732535029674462f53ee6911_Jammu__Kashmir_IMYB_2022.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Mineral resources in Jammu and Kashmir, including Leh district"
+      ],
+      "referenceDate": "Indian Minerals Yearbook 2022, published 2024",
+      "cadence": "Review against the latest Indian Minerals Yearbook and IBM state/UT review."
     }
   ]
 }

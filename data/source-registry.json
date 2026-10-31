@@ -815,6 +815,44 @@
       "issuingAuthority": "Ministry of Culture, Government of India; Sangeet Natak Akademi",
       "cadence": "Refresh after UNESCO inscription or a Ministry of Culture / Sangeet Natak Akademi update. Keep the 8 December 2025 inventory date explicit.",
       "note": "The Lok Sabha reply lists 15 inscribed elements and state/UT associations. It separately says Deepawali was nominated for the 2025–26 cycle and Chhath Mahaparv for 2026–27; nominations are not treated as inscriptions. 'All states' is applied to the 28 States, not automatically to Union Territories."
+    },
+    {
+      "id": "kangraDistrictOfficialTrekkingPasses",
+      "name": "Kangra District Administration — Official trekking routes and mountain passes",
+      "url": "https://hpkangra.nic.in/trekking-routes/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named mountain passes in Kangra district",
+        "Published elevations and trekking routes"
+      ],
+      "cadence": "Recheck the district administration's trekking-route page before updating pass names or elevations."
+    },
+    {
+      "id": "pithoragarhDistrictOfficialPasses",
+      "name": "Pithoragarh District Administration — Peaks and Passes",
+      "url": "https://pithoragarh.nic.in/peaks/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Named high Himalayan passes in Pithoragarh district",
+        "Published pass elevations and valley associations"
+      ],
+      "cadence": "Recheck the district administration's geographic profile before updating pass names or elevations."
+    },
+    {
+      "id": "gangtokDistrictNathuLa",
+      "name": "Gangtok District Administration — Signature Attractions: Nathu La Pass",
+      "url": "https://gangtokdistrict.nic.in/signature-attractions/",
+      "tabs": [
+        "geography"
+      ],
+      "fields": [
+        "Nathu La Pass location and elevation"
+      ],
+      "cadence": "Recheck the district administration's attraction listing; do not infer current road access from the geographic record."
     }
   ]
 }

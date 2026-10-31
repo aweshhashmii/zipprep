@@ -978,6 +978,23 @@
       "issuingAuthority": "Ministry of Ports, Shipping and Waterways, Government of India",
       "cadence": "Refresh from the latest Ministry of Ports, Shipping and Waterways / State Maritime Board port inventory. Distinguish operational, under-construction and merely notified ports.",
       "note": "The Lok Sabha reply lists 12 operational Major Ports and 68 operational Other Than Major Ports. It separately identifies four Andhra Pradesh ports as under construction. Vadhavan (Maharashtra) and Galathea Bay (Andaman & Nicobar) are mentioned as newly notified Major Ports, not included in the 12 operational list; they are not classified as operational by this source."
+    },
+    {
+      "id": "pibWindInstalledCapacityJun2026",
+      "name": "Ministry of New and Renewable Energy / PIB — State-wise installed wind power capacity as of 30 June 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287725&lang=1&reg=17",
+      "tabs": [
+        "economy",
+        "environment"
+      ],
+      "fields": [
+        "State-wise installed wind power capacity in MW",
+        "National total and unallocated 'Others' capacity"
+      ],
+      "referenceDate": "2026-06-30",
+      "issuingAuthority": "Ministry of New and Renewable Energy, Government of India",
+      "cadence": "Refresh from MNRE/CEA monthly installed capacity reports. Keep the combined 'Others' value unallocated unless the source breaks it down by State/UT.",
+      "note": "The Lok Sabha reply reports 57,443 MW total installed wind capacity as of 30 June 2026, including nine individually named States and 4 MW grouped as 'Others'. The 4 MW is not allocated to individual States/UTs in the source."
     }
   ]
 }

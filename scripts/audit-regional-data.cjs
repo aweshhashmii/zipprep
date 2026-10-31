@@ -59,6 +59,7 @@ const districtProfileTelanganaData = read('data/district-profile-isfr2023-telang
 const districtProfileGoaData = read('data/district-profile-isfr2023-goa.json');
 const districtProfileTripuraData = read('data/district-profile-isfr2023-tripura.json');
 const districtProfileMeghalayaData = read('data/district-profile-isfr2023-meghalaya.json');
+const districtProfileMizoramData = read('data/district-profile-isfr2023-mizoram.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
@@ -111,7 +112,7 @@ for (const row of giData.records || []) {
 if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
 
 const districtProfileRows = districtProfileData.records || [];
-for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || []), ...(districtProfileGujaratData.records || []), ...(districtProfileKarnatakaData.records || []), ...(districtProfileKeralaData.records || []), ...(districtProfileUttarakhandData.records || []), ...(districtProfileHimachalPradeshData.records || []), ...(districtProfilePunjabData.records || []), ...(districtProfileHaryanaData.records || []), ...(districtProfileTamilNaduData.records || []), ...(districtProfileTelanganaData.records || []), ...(districtProfileGoaData.records || []), ...(districtProfileTripuraData.records || []), ...(districtProfileMeghalayaData.records || [])]) {
+for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || []), ...(districtProfileGujaratData.records || []), ...(districtProfileKarnatakaData.records || []), ...(districtProfileKeralaData.records || []), ...(districtProfileUttarakhandData.records || []), ...(districtProfileHimachalPradeshData.records || []), ...(districtProfilePunjabData.records || []), ...(districtProfileHaryanaData.records || []), ...(districtProfileTamilNaduData.records || []), ...(districtProfileTelanganaData.records || []), ...(districtProfileGoaData.records || []), ...(districtProfileTripuraData.records || []), ...(districtProfileMeghalayaData.records || []), ...(districtProfileMizoramData.records || [])]) {
   const existing = districtProfileRows.find(row => String(row.lgdCode) === String(batchRow.lgdCode));
   if (existing) {
     for (const [key, value] of Object.entries(batchRow)) if (key !== 'verifiedFields' && key !== 'sourceRecords') existing[key] = value;
@@ -666,6 +667,32 @@ for (const row of meghalayaForestRows) {
   for (const field of row.verifiedFields || []) {
     assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileMeghalayaData.source.sourceId),
       'Meghalaya ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
+  }
+}
+const mizoramForestRows = districtProfileMizoramData.records || [];
+assert(mizoramForestRows.length === 11, 'ISFR 2023 Mizoram district forest dataset must contain all 11 districts.');
+assert(sourceRegistry.sources.some(source => source.id === districtProfileMizoramData.source.sourceId),
+  'ISFR 2023 Mizoram district forest source must be registered.');
+const mizoramForestExpected = {
+  forestCoverCalculatedArea2023SqKm: 21081,
+  veryDenseForest2023SqKm: 261.52,
+  moderatelyDenseForest2023SqKm: 8635.76,
+  openForest2023SqKm: 9093.18,
+  forestCover2023SqKm: 17990.46,
+  forestCoverChangeSince2021SqKm: 241.73,
+  scrub2023SqKm: 314.54
+};
+for (const [field, expectedValue] of Object.entries(mizoramForestExpected)) {
+  const actual = mizoramForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Mizoram ISFR 2023 district total does not reconcile for ' + field + ': ' + actual + ' vs ' + expectedValue);
+}
+for (const row of mizoramForestRows) {
+  assert(row.stateName === 'Mizoram', 'Mizoram ISFR district row has wrong state: ' + row.name);
+  assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '15'),
+    'Mizoram ISFR district row does not exactly match current LGD identity: ' + row.name);
+  for (const field of row.verifiedFields || []) {
+    assert(row.sourceRecords.some(source => source.field === field && source.sourceId === districtProfileMizoramData.source.sourceId),
+      'Mizoram ISFR field lacks its registered field-level source: ' + row.name + '.' + field);
   }
 }
 const directoryOnlyDistrictRows = districtProfileRows.filter(row => row.profileType === 'directory_identity_only');

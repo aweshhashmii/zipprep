@@ -13454,6 +13454,14 @@
           "referenceDate": "2026-04-09",
           "lastVerifiedAt": "2026-10-30",
           "note": "Named reservoir inventory from the complete 166-reservoir table in the CWC weekly bulletin dated 9 April 2026. This is the CWC-monitored subset, not all reservoirs in the state."
+        },
+        {
+          "field": "geography.minerals, geography.industries, geography.mineralProduction",
+          "sourceId": "ibmIndianMineralsYearbook2024",
+          "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+          "referenceYear": "2023-24; resource tables as at 1 April 2020 and coal resources as at 1 April 2024",
+          "lastVerifiedAt": "2026-10-31",
+          "note": "Indian Minerals Yearbook 2024, Indian Bureau of Mines, Ministry of Mines. Mineral occurrence lists, resource estimates and listed plant installed capacities are different measures; resource figures are historical reference dates and installed capacities are not live production."
         }
       ],
       "lastVerifiedAt": null,
@@ -13670,7 +13678,168 @@
         ],
         "unescoWorldHeritage": [],
         "monuments": [],
-        "minerals": [],
+        "minerals": [
+          {
+            "name": "Apatite",
+            "district": "Purulia",
+            "description": "West Bengal holds about 50% of India's reported apatite resources; IBM reports 10,652,220 tonnes total resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Coal",
+            "district": "Bardhaman, Bankura, Birbhum, Darjeeling, Jalpaiguri and Purulia",
+            "description": "Raniganj is the principal coalfield. IBM's Coal Directory 2023–24 table reports 33,958.07 million tonnes total coal resources across West Bengal's listed coalfields as on 1 April 2024.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "China clay",
+            "district": "24-Parganas, Bankura, Birbhum, Bardhaman, Hooghly, Midnapur and Purulia",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Fireclay",
+            "district": "Bankura, Birbhum, Bardhaman and Purulia",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Barytes",
+            "district": "Purulia",
+            "description": "Listed among other minerals occurring in Purulia; occurrence does not by itself establish current commercial production.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Copper",
+            "district": "Purulia",
+            "description": "IBM reports 113 thousand tonnes of ore resources and 2.09 thousand tonnes of contained metal resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Gold",
+            "district": "Purulia",
+            "description": "IBM reports primary ore resources of 12,833,333 tonnes and primary metal resources of 0.65 tonnes as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Kyanite",
+            "district": "Purulia",
+            "description": "IBM reports 26,520 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Pyrite",
+            "district": "Purulia",
+            "description": "IBM reports 2,500 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Titanium minerals",
+            "district": "Purulia",
+            "description": "IBM reports 2,279,000 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Dolomite",
+            "district": "Jalpaiguri",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Feldspar",
+            "district": "Bankura and Purulia",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Granite",
+            "district": "Bankura, Birbhum and Purulia",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Lead-zinc",
+            "district": "Darjeeling",
+            "description": "IBM reports 3,706 thousand tonnes of ore resources, 140.07 thousand tonnes of lead metal and 143.42 thousand tonnes of zinc metal as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Limestone",
+            "district": "Bankura and Purulia",
+            "description": "IBM reports 44,706 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Manganese ore",
+            "district": "Midnapur",
+            "description": "IBM reports 200 thousand tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Sillimanite",
+            "district": "Midnapur",
+            "description": "IBM reports 1,653,000 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Quartz / silica sand",
+            "district": "Bankura, Hooghly and Purulia",
+            "description": "District occurrence list in IBM State Review.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tungsten",
+            "district": "Bankura",
+            "description": "IBM reports 763,802 tonnes of ore resources and 1,530.84 tonnes of contained WO₃ as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Vermiculite",
+            "district": "Bankura",
+            "description": "IBM reports 5,566 tonnes of resources as on 1 April 2020.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
         "crops": [],
         "forestCover": {
           "forestAndTreeCoverSqKm": 19770.45,
@@ -13715,7 +13884,82 @@
             "sourceUrl": "https://jsactr.mowr.gov.in/public_dash/Public_record.aspx"
           }
         ],
-        "glacialLakes": []
+        "glacialLakes": [],
+        "industries": [
+          {
+            "name": "Durgapur Steel Plant — SAIL",
+            "district": "Paschim Bardhaman (Durgapur)",
+            "description": "IMYB 2024 lists installed capacities including 2,200 thousand tonnes per year of crude/liquid steel, 2,450 thousand tonnes per year of pig iron and 3,880 thousand tonnes per year of sinter. These are published installed-capacity figures, not a live output reading.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "IISCO Steel Plant — SAIL",
+            "district": "Burnpur, Paschim Bardhaman",
+            "description": "IMYB 2024 lists 2,500 thousand tonnes per year of crude/liquid steel, 2,695 thousand tonnes per year of pig iron and 3,800 thousand tonnes per year of sinter.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Alloy Steel Plant — SAIL",
+            "district": "Durgapur, Paschim Bardhaman",
+            "description": "IMYB 2024 lists 234 thousand tonnes per year of crude/liquid steel installed capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Rashmi Metaliks",
+            "district": "Gokulpur, Paschim Medinipur",
+            "description": "IMYB 2024 lists installed capacities of 1,200 thousand tonnes per year of pellets and 1,440 thousand tonnes per year of sinter.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Tata Chemicals fertiliser complex",
+            "district": "Haldia, Purba Medinipur",
+            "description": "IMYB 2024 lists 675 thousand tonnes per year of DAP capacity and 160 thousand tonnes per year of SSP capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "Ambuja Cement",
+            "district": "Sankrail, Howrah; Farakka, Murshidabad",
+            "description": "IMYB 2024 lists grinding-unit capacities of 2,400 and 1,250 thousand tonnes per year respectively.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "JSW Cement",
+            "district": "Salboni, Paschim Medinipur",
+            "description": "IMYB 2024 lists 2,400 thousand tonnes per year installed capacity.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          },
+          {
+            "name": "UltraTech Cement",
+            "district": "Dankuni, Hooghly; Murshidabad",
+            "description": "IMYB 2024 lists grinding-unit capacities of 2,400 and 3,300 thousand tonnes per year respectively.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ],
+        "mineralProduction": [
+          {
+            "name": "Sulphur (refinery by-product)",
+            "description": "74,395 tonnes reported for 2023–24 (provisional); the publication notes sulphur is recovered as a by-product from oil refineries.",
+            "sourceId": "ibmIndianMineralsYearbook2024",
+            "sourceUrl": "https://ibm.gov.in/writereaddata/files/17690756386971f3b675b8aFINAL_IMYB2024_as_on_21.01.2026.pdf",
+            "referenceYear": "2023-24"
+          }
+        ]
       },
       "highCourt": "Calcutta High Court — Kolkata"
     },

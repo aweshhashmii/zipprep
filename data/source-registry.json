@@ -6902,6 +6902,20 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.8.4",
       "cadence": "Historical 2019 assessment; retain report-era boundaries and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019AndhraPradeshDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Andhra Pradesh chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andhra-pradesh.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.1.4",
+      "cadence": "Historical 2019 assessment; retain report-era 13-district boundary note and refresh only against comparable FSI tables."
     }
   ]
 }

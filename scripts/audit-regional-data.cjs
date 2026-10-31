@@ -421,18 +421,22 @@ assert(uttarakhandForestRows.length === 13, 'ISFR 2023 Uttarakhand district fore
 assert(sourceRegistry.sources.some(source => source.id === districtProfileUttarakhandData.source.sourceId),
   'ISFR 2023 Uttarakhand district forest source must be registered.');
 const uttarakhandForestExpected = {
-  forestCoverCalculatedArea2023SqKm: 53483.36,
+  forestCoverCalculatedArea2023SqKm: 53483.56,
   veryDenseForest2023SqKm: 5266.58,
   moderatelyDenseForest2023SqKm: 12517.63,
   openForest2023SqKm: 6519.62,
-  forestCover2023SqKm: 24303.83,
+  forestCover2023SqKm: 24503.83,
   forestCoverChangeSince2021SqKm: -22.98,
   scrub2023SqKm: 412.88
 };
 for (const [field, expectedValue] of Object.entries(uttarakhandForestExpected)) {
   const actual = uttarakhandForestRows.reduce((sum, row) => sum + Number(row[field] || 0), 0);
-  assert(Math.abs(actual - expectedValue) < 0.01, 'Uttarakhand ISFR 2023 district total does not reconcile for ' + field + ': ' + actual + ' vs ' + expectedValue);
+  assert(Math.abs(actual - expectedValue) < 0.01, 'Uttarakhand ISFR 2023 district row sum does not reconcile for ' + field + ': ' + actual + ' vs ' + expectedValue);
 }
+assert(districtProfileUttarakhandData.totals.publishedGrandTotalArea === 53483.36 &&
+  districtProfileUttarakhandData.totals.publishedClassTotalForest === 24303.83,
+  'Uttarakhand ISFR printed grand totals and row discrepancies must be preserved.');
+
 for (const row of uttarakhandForestRows) {
   assert(row.stateName === 'Uttarakhand', 'Uttarakhand ISFR district row has wrong state: ' + row.name);
   assert(lgdData.districts.some(d => d.lgdCode === row.lgdCode && d.name === row.name && d.stateLgdCode === '5'),

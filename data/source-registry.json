@@ -6846,6 +6846,34 @@
       ],
       "referenceDate": "Chandigarh Administration 2024 district profile",
       "cadence": "Retain as a dated profile source; do not infer separate dynasties from general regional history."
+    },
+    {
+      "id": "fsiISFR2019UttarakhandDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Uttarakhand chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-uttarakhand.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.29.4",
+      "cadence": "Historical 2019 assessment; retain report year and refresh only against comparable FSI district tables."
+    },
+    {
+      "id": "fsiISFR2019AndamanNicobarDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Andaman and Nicobar Islands chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-andaman-nicobar-islands.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.31.4",
+      "cadence": "Historical 2019 assessment; retain report year and refresh only against comparable FSI district tables."
     }
   ]
 }

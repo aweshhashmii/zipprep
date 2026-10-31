@@ -414,6 +414,39 @@
       "referenceYear": "2023-24; resource reference dates vary by table",
       "cadence": "Annual; preserve each table's reference date and provisional/final status",
       "note": "First economy-data batch: West Bengal mineral occurrences/resources, coalfield resource summary, 2023-24 sulphur by-product production and selected mineral-based industries. All plant figures are installed capacities as printed in IMYB 2024, not live output or proof of current operating status."
+    },
+    {
+      "id": "desAgricultureStatistics2024_25",
+      "name": "Directorate of Economics & Statistics, Department of Agriculture & Farmers Welfare — Agricultural Statistics at a Glance 2024-25",
+      "url": "https://desagri.gov.in/document-report-category/agriculture-statistics-at-a-glance/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "State-wise crop area",
+        "Crop production",
+        "Crop yield",
+        "Irrigation coverage",
+        "Advance estimates and final estimates"
+      ],
+      "referenceYear": "2024-25",
+      "cadence": "Annual; retain crop-specific agricultural year and whether values are advance estimates or final estimates"
+    },
+    {
+      "id": "desAgricultureStatistics2024",
+      "name": "Directorate of Economics & Statistics — Agricultural Statistics at a Glance 2024, Potato table",
+      "url": "https://desagri.gov.in/wp-content/uploads/2025/11/Agricultural-Statistics-at-a-Glance-2024_%E0%A4%95%E0%A5%83%E0%Aषि-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024.pdf",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Potato area",
+        "Potato production",
+        "Potato yield",
+        "First Advance Estimate"
+      ],
+      "referenceYear": "2024-25 (1st Advance Estimate)",
+      "cadence": "Annual; preserve advance-estimate status and replace with final estimates when released"
     }
   ]
 }

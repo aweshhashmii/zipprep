@@ -6958,6 +6958,20 @@
       ],
       "referenceDate": "ISFR 2019, Volume II, Table 11.2.4",
       "cadence": "Historical 2019 assessment; exclude combined district rows and retain report-era boundary notes."
+    },
+    {
+      "id": "fsiISFR2019MeghalayaDistrictForestCover",
+      "name": "Forest Survey of India — India State of Forest Report 2019, Meghalaya chapter",
+      "url": "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-meghalaya.pdf",
+      "tabs": [
+        "profile",
+        "environment"
+      ],
+      "fields": [
+        "District-wise 2019 forest-cover area and percentage for exact-name current LGD matches"
+      ],
+      "referenceDate": "ISFR 2019, Volume II, Table 11.18.4",
+      "cadence": "Historical 2019 assessment; retain report-era 7-district boundary note and refresh only against comparable FSI tables."
     }
   ]
 }

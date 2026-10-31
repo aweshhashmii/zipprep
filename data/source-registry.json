@@ -729,6 +729,22 @@
       "issuingAuthority": "North Eastern Council, Government of India; source references include India Meteorological Department",
       "cadence": "Refresh when IMD publishes updated climate normals or NEC releases a new state climate chapter.",
       "note": "The climate chapter makes clear that climate varies with elevation and locality. State-level rainfall and temperature values are broad summaries; use district/observatory normals for local precision."
+    },
+    {
+      "id": "mospiEnviStatsMarineProtectedAreas2020",
+      "name": "MoSPI — EnviStats India 2020, Statement 1.32: Marine Protected Areas",
+      "url": "https://www.psa.gov.in/CMS/web/sites/default/files/publication/Completer_ES2020_Vol1_compressed.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Named marine protected areas in the 2013 coastal and island inventory reproduced in Statement 1.32",
+        "Legal category, area and establishment year as published"
+      ],
+      "referenceDate": "2013 inventory reproduced in EnviStats India 2020",
+      "issuingAuthority": "National Statistical Office, Ministry of Statistics and Programme Implementation; underlying inventory cited to K. Sivakumar et al. (2013)",
+      "cadence": "Historical reference snapshot only. Reconcile every entry against current MoEFCC/WII and State/UT Gazette notifications before describing this as a complete or current MPA register.",
+      "note": "The 2020 Government statistical publication reproduces a 2013 inventory. Its peninsula table excludes small Andaman and Nicobar island MPAs; the separate island table is also historical. The Ministry reported 130 notified MPAs nationally in a 2023 Lok Sabha reply, so this source is not a complete current inventory."
     }
   ]
 }

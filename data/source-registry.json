@@ -2551,6 +2551,76 @@
       "referenceDate": "First edition June 2018",
       "cadence": "Review when the responsible Central/State authority publishes an updated edition or register.",
       "note": "Registered for traceability in the supplemental data integration; where a more specific official source is available, the record should prefer that source."
+    },
+    {
+      "id": "unescoIndiaInscribedList2026",
+      "name": "UNESCO World Heritage Centre — India State Party and inscribed properties",
+      "url": "https://whc.unesco.org/en/statesparties/IN",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "Inscribed World Heritage property presence/absence by State or UT"
+      ],
+      "referenceDate": "UNESCO India State Party list accessed 31 October 2026",
+      "cadence": "Review against the latest official register or report edition.",
+      "note": "This is limited to inscribed World Heritage properties; Tentative List entries and other heritage designations are separate."
+    },
+    {
+      "id": "ipIndiaRegisteredGIStateList2026",
+      "name": "IP India — State-wise Registered Geographical Indications of India",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "tabs": [
+        "culture"
+      ],
+      "fields": [
+        "Registered GI products by State/UT"
+      ],
+      "referenceDate": "Official registered-GI list accessed 31 October 2026",
+      "cadence": "Review against the latest official register or report edition.",
+      "note": "Absence means no registered GI origin entry appears for the State/UT in this official register; pending applications and authorised users are separate."
+    },
+    {
+      "id": "iwaiNationalWaterwaysStateList2026",
+      "name": "Ministry of Ports, Shipping and Waterways — List of 111 National Waterways",
+      "url": "https://shipmin.gov.in/en/Anex-1",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Designated National Waterways by State/UT"
+      ],
+      "referenceDate": "National Waterways Act, 2016 list accessed 31 October 2026",
+      "cadence": "Review against the latest official register or report edition.",
+      "note": "Absence is limited to National Waterways designated under the Act; it does not mean there are no navigable rivers, canals or local waterways."
+    },
+    {
+      "id": "mospiCoastalStates2024",
+      "name": "MoSPI — EnviStats India 2024: Coastal States and Union Territories",
+      "url": "https://mospi.gov.in/sites/default/files/publication_reports/EnviStats_India_2024.pdf",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Coastal State/UT classification and coastline association"
+      ],
+      "referenceDate": "EnviStats India 2024",
+      "cadence": "Review against the latest official register or report edition.",
+      "note": "The source enumerates nine coastal States and four coastal UTs; other States/UTs are recorded as having no marine coastline for this category."
+    },
+    {
+      "id": "cwcGlacialLakeInventory2024",
+      "name": "Central Water Commission — Glacial Lakes and Water Bodies Inventory and Monitoring, July 2024",
+      "url": "https://www.cwc.gov.in/sites/default/files/monitoring-report-july-2024.pdf",
+      "tabs": [
+        "physicalGeography"
+      ],
+      "fields": [
+        "Glacial lake inventory entries by Himalayan State/UT"
+      ],
+      "referenceDate": "CWC monitoring report, July 2024; inventory baseline 2011",
+      "cadence": "Review against the latest official register or report edition.",
+      "note": "Absence is limited to CWC's Indian Himalayan inventory and stated lake-size thresholds; smaller or unmapped glacial lakes are not ruled out."
     }
   ]
 }

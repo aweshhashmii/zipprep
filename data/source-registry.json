@@ -745,6 +745,23 @@
       "issuingAuthority": "National Statistical Office, Ministry of Statistics and Programme Implementation; underlying inventory cited to K. Sivakumar et al. (2013)",
       "cadence": "Historical reference snapshot only. Reconcile every entry against current MoEFCC/WII and State/UT Gazette notifications before describing this as a complete or current MPA register.",
       "note": "The 2020 Government statistical publication reproduces a 2013 inventory. Its peninsula table excludes small Andaman and Nicobar island MPAs; the separate island table is also historical. The Ministry reported 130 notified MPAs nationally in a 2023 Lok Sabha reply, so this source is not a complete current inventory."
+    },
+    {
+      "id": "pibNationalRiverLinkProgrammeAug2026",
+      "name": "Ministry of Jal Shakti / PIB — Status of National Rivers Interlinking Programme",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293115",
+      "tabs": [
+        "geography",
+        "economy"
+      ],
+      "fields": [
+        "Named National Perspective Plan river interlinking projects",
+        "States/UTs benefited and project status"
+      ],
+      "referenceDate": "2026-08-10",
+      "issuingAuthority": "Ministry of Jal Shakti, Government of India; National Water Development Agency",
+      "cadence": "Refresh after new Ministry of Jal Shakti / NWDA status statements. Distinguish proposals, pre-feasibility, feasibility, DPR, implementation and completion.",
+      "note": "Covers the 30 National Perspective Plan inter-basin transfer links listed in the 10 August 2026 Rajya Sabha reply. It is not a register of all state irrigation, hydropower or river-valley projects."
     }
   ]
 }

@@ -513,6 +513,47 @@
       ],
       "cadence": "Replace with the next official NRSD edition; consult the State Dam Safety Organisation or dam owner for operational decisions.",
       "note": "Register is compiled from State Dam Safety Organisations and project authorities. It defines 'specified dam' under the Dam Safety Act, 2021 and does not cover every small dam or local water-harvesting structure."
+    },
+    {
+      "id": "mospiEnviStatsProtectedAreas2024",
+      "name": "MoSPI — EnviStats India 2024, Table 5.9: Protected Areas in India (national totals through July 2023)",
+      "url": "https://mospi.gov.in/sites/default/files/publication_reports/EnviStats_India_2024.pdf",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "National totals for National Parks, Wildlife Sanctuaries, Conservation Reserves and Community Reserves",
+        "National total protected-area count and area; not a state-wise register"
+      ],
+      "referenceDate": "24 September 2024",
+      "cadence": "Use for national historical totals only; obtain a newer WII/MoEFCC state-wise list or notification before assigning state-level counts."
+    },
+    {
+      "id": "wiiProtectedAreaGazetteDatabase2013",
+      "name": "Wildlife Institute of India — Protected Area Gazette Notification Database (legacy index)",
+      "url": "https://v1.wii.gov.in/protectedareagazettenotificationdatabase",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Historical gazette notification lookup by State/UT; page last updated 7 June 2013"
+      ],
+      "referenceDate": "7 June 2013",
+      "cadence": "Legacy discovery aid only; not a current complete protected-area register and not suitable for current None/zero claims."
+    },
+    {
+      "id": "wiiConservationReserveOverview2025",
+      "name": "Wildlife Institute of India — Conservation Reserves overview",
+      "url": "https://v1.wii.gov.in/nwdc_conservation_reserves",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "Definitions and legal distinction between Conservation Reserves and Community Reserves",
+        "Overview page last updated 5 August 2025; detailed database link must be checked separately"
+      ],
+      "referenceDate": "5 August 2025",
+      "cadence": "Use for category definitions; do not infer state-wise counts from this overview page."
     }
   ]
 }

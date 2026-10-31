@@ -905,6 +905,24 @@
       "issuingAuthority": "Ministry of Civil Aviation, Government of India",
       "cadence": "Refresh from the latest Ministry of Civil Aviation state-wise operational airport list. AAI airport directory and MoCA total counts may be newer but do not replace this dated state-wise list without reconciliation.",
       "note": "The Lok Sabha reply lists 162 operational facilities and marks H=heliport, WA=water aerodrome, CE=civil enclave. The list uses the legacy label 'Daman & Diu'; Diu is mapped to the present merged Union Territory of Dadra and Nagar Haveli and Daman and Diu. It is a 31 July 2025 snapshot, not a claim that the total remains 162 in 2026."
+    },
+    {
+      "id": "morthStatewiseNationalHighways2024",
+      "name": "Ministry of Road Transport and Highways — Annual Report 2024–25, Appendix 2: State/UT-wise National Highways",
+      "url": "https://morth.nic.in/sites/default/files/Annual-Report-English-with-Cover.pdf",
+      "tabs": [
+        "economy",
+        "geography"
+      ],
+      "fields": [
+        "State/UT-wise number of National Highways",
+        "State/UT-wise National Highway network length in kilometres",
+        "National Highway numbers by State/UT"
+      ],
+      "referenceDate": "2024-12-31",
+      "issuingAuthority": "Ministry of Road Transport and Highways, Government of India",
+      "cadence": "Refresh from the latest MoRTH Annual Report Appendix 2 and preserve its as-of date.",
+      "note": "Appendix 2 gives state/UT-wise NH numbers, count and length as at 31 December 2024, totaling 670 NHs and 146,195 km. The report lists Dadra & Nagar Haveli and Daman & Diu separately; the current merged UT record combines their counts and lengths. Lakshadweep is not listed in the table and is recorded as no National Highway listed in this dated register, not as a claim about all roads."
     }
   ]
 }

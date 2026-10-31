@@ -2018,6 +2018,90 @@
       "referenceDate": "Official district source accessed 31 October 2026",
       "cadence": "Review against updated State culture department or tourism publications.",
       "note": "Classical status and regional association are distinct claims; retain the State-specific attribution only where the source supports it."
+    },
+    {
+      "id": "gvmcVisakhapatnamIndustries2026",
+      "name": "Greater Visakhapatnam Municipal Corporation — Industries",
+      "url": "https://gvmc.gov.in/wss/static_content/Industries.jsp?menutitle=Industries&pageName=Industries.jsp&parentMenuId=200-2",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Industrial cluster identity, sectors and location"
+      ],
+      "referenceDate": "Official municipal industrial profile accessed 31 October 2026",
+      "cadence": "Review against current State industrial development authority registers and profiles.",
+      "note": "Distinguish officially designated industrial parks/corridors from broader metropolitan economic regions."
+    },
+    {
+      "id": "gidcAhmedabadSanand2026",
+      "name": "Gujarat Industrial Development Corporation — Industrial estate register",
+      "url": "https://gidc.gujarat.gov.in/allotmentprice",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Industrial cluster identity, sectors and location"
+      ],
+      "referenceDate": "FY 2026-27 estate register",
+      "cadence": "Review against current State industrial development authority registers and profiles.",
+      "note": "Distinguish officially designated industrial parks/corridors from broader metropolitan economic regions."
+    },
+    {
+      "id": "midcMaharashtraIndustrialRegions2026",
+      "name": "Maharashtra Industrial Development Corporation — Industrial regions and sector profiles",
+      "url": "https://midc.maharashtra.gov.in/en/about-midc/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Industrial cluster identity, sectors and location"
+      ],
+      "referenceDate": "Official MIDC profile accessed 31 October 2026",
+      "cadence": "Review against current State industrial development authority registers and profiles.",
+      "note": "Distinguish officially designated industrial parks/corridors from broader metropolitan economic regions."
+    },
+    {
+      "id": "sipcotSriperumbudur2026",
+      "name": "State Industries Promotion Corporation of Tamil Nadu — Industrial parks",
+      "url": "https://sipcotweb.tn.gov.in/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Industrial cluster identity, sectors and location"
+      ],
+      "referenceDate": "Official SIPCOT register accessed 31 October 2026",
+      "cadence": "Review against current State industrial development authority registers and profiles.",
+      "note": "Distinguish officially designated industrial parks/corridors from broader metropolitan economic regions."
+    },
+    {
+      "id": "investKarnatakaBengaluru2026",
+      "name": "Invest Karnataka — Bengaluru Urban industrial profile",
+      "url": "https://investkarnataka.co.in/our-districts/bengaluru-urban/",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Industrial cluster identity, sectors and location"
+      ],
+      "referenceDate": "Official State investment profile accessed 31 October 2026",
+      "cadence": "Review against current State industrial development authority registers and profiles.",
+      "note": "Distinguish officially designated industrial parks/corridors from broader metropolitan economic regions."
+    },
+    {
+      "id": "wbiidcHaldiaIndustrialPark2026",
+      "name": "West Bengal Industrial Infrastructure Development Corporation — Haldia Industrial Park",
+      "url": "https://wbiidc.wb.gov.in/haldia",
+      "tabs": [
+        "economy"
+      ],
+      "fields": [
+        "Industrial cluster identity, sectors and location"
+      ],
+      "referenceDate": "Official WBIIDC profile accessed 31 October 2026",
+      "cadence": "Review against current State industrial development authority registers and profiles.",
+      "note": "Distinguish officially designated industrial parks/corridors from broader metropolitan economic regions."
     }
   ]
 }

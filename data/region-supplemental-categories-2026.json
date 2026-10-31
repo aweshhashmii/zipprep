@@ -14023,6 +14023,42 @@
       "referenceDate": "Tripura Biodiversity Board technical report, 2016",
       "lastVerifiedAt": "2026-10-31",
       "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1171",
+      "regionName": "Andhra Pradesh",
+      "category": "passes",
+      "name": "Ananthagiri Ghats and the Araku Ghat Road",
+      "description": "The Visakhapatnam District Administration describes the Araku Valley approach as a winding ghat road through the Ananthagiri Hills, with the Ananthagiri ghats forming the mountain crossing on the Eastern Ghats route. This is a regional ghat-road pass rather than a high-altitude Himalayan pass.",
+      "sourceUrl": "https://visakhapatnam.ap.gov.in/land-scapes/",
+      "sourceId": "andhraAnanthagiriGhat2026",
+      "referenceDate": "Official Visakhapatnam District geography profile",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1172",
+      "regionName": "Karnataka",
+      "category": "passes",
+      "name": "Charmadi Ghat and Shiradi Ghat",
+      "description": "The Geological Survey of India documents landslide-susceptibility mapping along the Charmadi Ghat corridor on NH-73 and Shiradi Ghat on NH-75. The Ministry of Road Transport and Highways also identifies the Charmadi Ghat stretch as a mountainous road corridor linking the coast and Malnad region.",
+      "sourceUrl": "https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/Activities%20Landslide%20SUKG_1.pdf",
+      "sourceId": "gsiKarnatakaGhats2025",
+      "referenceDate": "Geological Survey of India, Field Season 2024–25",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "supp-1173",
+      "regionName": "Tamil Nadu",
+      "category": "passes",
+      "name": "Palakkad Gap (eastern gateway through the Western Ghats)",
+      "description": "Kerala Tourism describes the Palakkad Gap as the lowest pass through the Western Ghats and a natural corridor between Kerala and Tamil Nadu. The gap opens into the Coimbatore region on the Tamil Nadu side and has historically connected the east and west coasts.",
+      "sourceUrl": "https://www.keralatourism.org/malabar/destination_detailed_view/nelliyampathy/36",
+      "sourceId": "keralaTourismPalakkadGap2026",
+      "referenceDate": "Kerala Tourism destination profile accessed 31 October 2026",
+      "lastVerifiedAt": "2026-10-31",
+      "verificationStatus": "verified"
     }
   ],
   "sources": [
@@ -15334,6 +15370,18 @@
       "title": "Tripura Biodiversity Board — Waterfall and biodiversity site survey",
       "sourceUrl": "https://biodiversity.tripura.gov.in/sites/default/files/2023-10/A%20PRELIMINARY%20INVESTIGATION%20ON%20SOME%20POTENTIAL%20%281%29.pdf",
       "referenceDate": "Baramura Waterfall and associated sites"
+    },
+    {
+      "sourceId": "andhraAnanthagiriGhat2026",
+      "title": "Visakhapatnam District Administration — Araku and Ananthagiri Ghats",
+      "sourceUrl": "https://visakhapatnam.ap.gov.in/land-scapes/",
+      "referenceDate": "Official government source; see publication details"
+    },
+    {
+      "sourceId": "gsiKarnatakaGhats2025",
+      "title": "Geological Survey of India — Karnataka and Goa Landslide Division achievements",
+      "sourceUrl": "https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/Activities%20Landslide%20SUKG_1.pdf",
+      "referenceDate": "Official government source; see publication details"
     }
   ]
 }

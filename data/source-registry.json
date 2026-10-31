@@ -612,6 +612,20 @@
       "referenceDate": "February 2025",
       "cadence": "Use latest WII/MoEFCC protected-area inventory; refresh when official data is updated.",
       "note": "National total: 309 Community Reserves covering 8,464.13 km². State rows provide cumulative area; state counts are not inferred. Current ZipPrep import contains 84 named Meghalaya entries and 81 named Nagaland entries plus aggregate area summaries for nine states; this is a partial named-record import, not a complete national list."
+    },
+    {
+      "id": "unescoIndiaWorldHeritage2026",
+      "name": "UNESCO World Heritage Centre — India State Party page",
+      "url": "https://whc.unesco.org/en/statesparties/IN",
+      "tabs": [
+        "heritage"
+      ],
+      "fields": [
+        "geography.unescoWorldHeritage"
+      ],
+      "referenceDate": "2026-10-31",
+      "cadence": "Refresh after each World Heritage Committee session; keep Tentative List properties separate from inscribed properties.",
+      "note": "The country page lists 45 inscribed properties: 37 cultural, 7 natural and 1 mixed. State attribution for serial properties is represented in each relevant regional profile."
     }
   ]
 }

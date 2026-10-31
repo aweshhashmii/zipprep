@@ -50135,7 +50135,62 @@
             "administrativeScope": "Pre-2019 Jammu and Kashmir state boundary"
           }
         ],
-        "passes": [],
+        "passes": [
+          {
+            "id": "IN-JK-PASS-BANIHAL",
+            "regionId": "IN-JK",
+            "category": "passes",
+            "name": "Banihal Pass",
+            "officialName": "Banihal Pass",
+            "elevationMeters": 2832,
+            "sourceId": "jammuKashmirTourismMountainPasses",
+            "sourceName": "Directorate of Tourism, Jammu & Kashmir — Official destinations and mountain passes",
+            "sourceUrl": "https://jandktourism.jk.gov.in/Destinations.html",
+            "description": "The Jammu & Kashmir Tourism Department describes Banihal Pass on the Pir Panjal Range at 2,832 m, connecting the Banihal–Qazigund side of the range. The tourism page notes seasonal closure due to heavy snowfall; present-day access must be checked separately.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "IN-JK-PASS-SINTHAN",
+            "regionId": "IN-JK",
+            "category": "passes",
+            "name": "Sinthan Pass (Sinthan Top)",
+            "officialName": "Sinthan Top / Sinthan Pass",
+            "sourceId": "jammuKashmirTourismMountainPasses",
+            "sourceName": "Directorate of Tourism, Jammu & Kashmir — Official destinations and mountain passes",
+            "sourceUrl": "https://jandktourism.jk.gov.in/Destinations.html",
+            "description": "The Jammu & Kashmir Tourism Department identifies Sinthan Top as Sinthan Pass and describes its mountain-road approach from Daksum. The source does not state an elevation in the cited page, so none is supplied here.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "IN-JK-PASS-MARGAN",
+            "regionId": "IN-JK",
+            "category": "passes",
+            "name": "Margan Pass",
+            "officialName": "Margan Top / Margan Pass",
+            "elevationFeet": 12000,
+            "sourceId": "jammuKashmirTourismMountainPasses",
+            "sourceName": "Directorate of Tourism, Jammu & Kashmir — Official destinations and mountain passes",
+            "sourceUrl": "https://jandktourism.jk.gov.in/Destinations.html",
+            "description": "The Jammu & Kashmir Tourism Department describes Margan Top as a high mountain pass in Anantnag district at 12,000 ft. The published elevation is retained in feet, the unit used by the source.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "IN-JK-PASS-PEER-KI-GALI",
+            "regionId": "IN-JK",
+            "category": "passes",
+            "name": "Peer Ki Gali",
+            "officialName": "Peer Ki Gali (Pir Panjal Pass)",
+            "sourceId": "jammuKashmirTourismMountainPasses",
+            "sourceName": "Directorate of Tourism, Jammu & Kashmir — Official destinations and mountain passes",
+            "sourceUrl": "https://jandktourism.jk.gov.in/Destinations.html",
+            "description": "The Jammu & Kashmir Tourism Department identifies Peer Ki Gali, also called Pir Panjal Pass, as the high point on the Mughal Road connecting the Kashmir Valley with Rajouri and Poonch. No elevation is supplied in the cited page.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          }
+        ],
         "rivers": [
           {
             "name": "Jhelum",
@@ -51160,7 +51215,67 @@
           }
         ],
         "peaks": [],
-        "passes": [],
+        "passes": [
+          {
+            "id": "IN-LA-PASS-KHARDUNG-LA",
+            "regionId": "IN-LA",
+            "category": "passes",
+            "name": "Khardung La",
+            "officialName": "Khardung La (Khardung La Pass)",
+            "elevationMeters": 5602,
+            "sourceId": "lehDistrictOfficialKhardungLa",
+            "sourceName": "Leh District Administration — Khardung La Pass",
+            "sourceUrl": "https://leh.nic.in/tourist-place/khardung-la-pass/",
+            "description": "Leh District Administration identifies Khardung La as a pass on the Ladakh Range and publishes an elevation of 18,379 ft (5,602 m). The elevation is reproduced as stated by the district source; it is not independently reconciled with other published measurements. The page warns visitors about high-altitude effects; this geographic record does not imply current road access.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "IN-LA-PASS-ZOJI-LA",
+            "regionId": "IN-LA",
+            "category": "passes",
+            "name": "Zoji La",
+            "officialName": "Zoji La Pass",
+            "elevationMeters": 3567,
+            "sourceId": "kargilDistrictOfficialPasses",
+            "sourceName": "Kargil District Administration — District geography and Zanskar pass profile",
+            "sourceUrl": "https://kargil.nic.in/about-district/",
+            "description": "Kargil District Administration identifies Zoji La as a gateway between the Kashmir Valley and Kargil district and publishes an elevation of 3,567 m. This geographic record does not imply year-round accessibility.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "IN-LA-PASS-FOTU-LA",
+            "regionId": "IN-LA",
+            "category": "passes",
+            "name": "Fotu La",
+            "officialName": "Fotu La Pass",
+            "elevationMeters": 4192,
+            "sourceId": "kargilDistrictOfficialPasses",
+            "sourceName": "Kargil District Administration — District geography and Zanskar pass profile",
+            "sourceUrl": "https://kargil.nic.in/about-district/",
+            "description": "Kargil District Administration lists Fotu La at 4,192 m in its district geography profile. The record retains the district administration's published elevation.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "IN-LA-PASS-PENZI-LA",
+            "regionId": "IN-LA",
+            "category": "passes",
+            "name": "Penzi La",
+            "officialName": "Penzi La Pass",
+            "elevationRangeMeters": [
+              4401,
+              4450
+            ],
+            "sourceId": "kargilDistrictPenziLa",
+            "sourceName": "Kargil District Administration — Zanskar and Penzi La",
+            "sourceUrl": "https://kargil.nic.in/tourist-place/zanskar/",
+            "description": "Kargil District Administration describes Penzi La as the highest point on the Kargil–Zanskar road and gives an elevation range of 4,401–4,450 m. The district page notes that Zanskar can remain cut off when the pass is blocked by snow; current access is not implied.",
+            "passType": "Mountain pass",
+            "verificationStatus": "verified"
+          }
+        ],
         "rivers": [
           {
             "name": "Indus",

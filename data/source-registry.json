@@ -1163,6 +1163,21 @@
       "issuingAuthority": "Central Water Commission, Ministry of Jal Shakti, Government of India",
       "cadence": "Refresh against the next CWC Water Sector at a Glance edition and the First Census of Major and Medium Irrigation Projects (reference year 2023–24).",
       "note": "Table 3.1 is a programme-specific state-wise summary for PMKSY–AIBP; it is not a complete inventory of all irrigation projects. Source dashes are retained as unreported/not applicable, not zero. Madhya Pradesh values include phases as described in the table."
+    },
+    {
+      "id": "wiiThreatenedPlantsDatabase2015",
+      "name": "Wildlife Institute of India — National Wildlife Database: Database on Threatened Plants of India",
+      "url": "https://v1.wii.gov.in/nwdc_plants",
+      "tabs": [
+        "environment"
+      ],
+      "fields": [
+        "State-wise counts of threatened plant species listed in the WII database"
+      ],
+      "referenceDate": "Page last updated 2015-11-06; underlying Red Data Book publication 1987",
+      "issuingAuthority": "Wildlife Institute of India, autonomous institution of the Ministry of Environment, Forest and Climate Change",
+      "cadence": "Historical reference only; replace or supplement with current Botanical Survey of India / IUCN / MoEFCC assessments when comparable state-wise lists are published.",
+      "note": "The WII page says its database was developed in 1989–1992 using Nayar & Sastry's Red Data Book Plants of India (1987), and provides state-wise counts for 21 listed States/UTs. Counts are not a complete current threatened-species inventory and do not cover threatened animals."
     }
   ]
 }

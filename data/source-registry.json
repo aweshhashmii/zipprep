@@ -960,6 +960,24 @@
       "issuingAuthority": "Ministry of Ports, Shipping and Waterways, Government of India; Inland Waterways Authority of India",
       "cadence": "Refresh after the Ministry/IWAI updates operational waterway status. Distinguish declared National Waterways from those actually operational for cargo/passenger movement.",
       "note": "The Ministry reports 111 declared National Waterways, of which 32 were operational for cargo and passenger movement as of March 2026. The annexure lists the 32 operational NWs. NW-1 crosses Uttar Pradesh, Bihar, Jharkhand and West Bengal and is recorded in each affected regional profile."
+    },
+    {
+      "id": "pibPortsOperationalAndUnderConstruction2026",
+      "name": "Ministry of Ports, Shipping and Waterways / PIB — Operational major and other-than-major ports; Andhra Pradesh under-construction ports",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227670&lang=1&reg=1",
+      "tabs": [
+        "economy",
+        "geography"
+      ],
+      "fields": [
+        "12 operational Major Ports and their States",
+        "68 operational Other Than Major Ports and their States/UTs",
+        "Four Andhra Pradesh ports reported under construction"
+      ],
+      "referenceDate": "2026-02-13",
+      "issuingAuthority": "Ministry of Ports, Shipping and Waterways, Government of India",
+      "cadence": "Refresh from the latest Ministry of Ports, Shipping and Waterways / State Maritime Board port inventory. Distinguish operational, under-construction and merely notified ports.",
+      "note": "The Lok Sabha reply lists 12 operational Major Ports and 68 operational Other Than Major Ports. It separately identifies four Andhra Pradesh ports as under construction. Vadhavan (Maharashtra) and Galathea Bay (Andaman & Nicobar) are mentioned as newly notified Major Ports, not included in the 12 operational list; they are not classified as operational by this source."
     }
   ]
 }

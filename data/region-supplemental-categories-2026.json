@@ -239,66 +239,72 @@
       "regionName": "Maharashtra",
       "category": "powerPlants",
       "name": "Chandrapur Super Thermal Power Station",
-      "description": "Coal-fired generating station at Chandrapur; station identity should be checked against the current CEA station register.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Chandrapur Super Thermal Power Station is operated by Maharashtra State Power Generation Company Limited at Urjanagar, Chandrapur, Maharashtra.",
+      "sourceUrl": "https://www.mahagenco.in/clearance_pdf/MoEF%26CC_Six%20Monthly%20EC%20Compliance%20report%20for%20period%20of%20Jul-2025%20to%20Dec-2025%C2%A0for%20CSTPS%20Chandrapur_20260418121159785.pdf",
+      "sourceId": "mahagencoChandrapur2025",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-022",
       "regionName": "Uttar Pradesh",
       "category": "powerPlants",
       "name": "Rihand Super Thermal Power Station",
-      "description": "NTPC coal-fired station at Rihand Nagar, Sonbhadra district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NTPC's Rihand thermal power station is located at Rihandnagar, Sonbhadra district, Uttar Pradesh.",
+      "sourceUrl": "https://ntpc.co.in/rihand",
+      "sourceId": "ntpcRihand2026",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-023",
       "regionName": "Madhya Pradesh",
       "category": "powerPlants",
       "name": "Vindhyachal Super Thermal Power Station",
-      "description": "NTPC coal-fired station in Singrauli district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NTPC's official coal-station register lists Vindhyachal in Madhya Pradesh and gives its commissioned capacity; this record identifies the station, not a live output figure.",
+      "sourceUrl": "https://ntpc.co.in/power-generation/coal-stations",
+      "sourceId": "ntpcCoalStations2026",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-024",
       "regionName": "Chhattisgarh",
       "category": "powerPlants",
       "name": "Korba Super Thermal Power Station",
-      "description": "NTPC coal-fired station in Korba district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NTPC's official coal-station register lists Korba in Chhattisgarh and gives its commissioned capacity; this record identifies the station, not a live output figure.",
+      "sourceUrl": "https://ntpc.co.in/power-generation/coal-stations",
+      "sourceId": "ntpcCoalStations2026",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-025",
       "regionName": "Telangana",
       "category": "powerPlants",
       "name": "Ramagundam Super Thermal Power Station",
-      "description": "NTPC coal-fired station at Ramagundam, Peddapalli district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NTPC's Ramagundam thermal power station is located in Telangana; the operator lists its installed capacity and unit configuration.",
+      "sourceUrl": "https://ntpc.co.in/ramagundam",
+      "sourceId": "ntpcRamagundam2026",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-026",
       "regionName": "Odisha",
       "category": "powerPlants",
       "name": "Talcher Super Thermal Power Station",
-      "description": "NTPC coal-fired station at Kaniha in Angul district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NTPC Talcher Kaniha is located in Angul district, Odisha; the operator lists its approved capacity and commissioned unit stages.",
+      "sourceUrl": "https://ntpc.co.in/talcher-kaniha",
+      "sourceId": "ntpcTalcherKaniha2026",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-027",
@@ -316,22 +322,24 @@
       "regionName": "West Bengal",
       "category": "powerPlants",
       "name": "Farakka Super Thermal Power Station",
-      "description": "NTPC coal-fired station at Farakka, Murshidabad district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "NTPC's official coal-station register lists Farakka in West Bengal and gives its commissioned capacity; this record identifies the station, not a live output figure.",
+      "sourceUrl": "https://ntpc.co.in/power-generation/coal-stations",
+      "sourceId": "ntpcCoalStations2026",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-029",
       "regionName": "Gujarat",
       "category": "powerPlants",
       "name": "Mundra Thermal Power Station",
-      "description": "Large coal-fired station at Mundra, Kachchh district.",
-      "sourceUrl": "https://cea.nic.in/pdm/list-of-power-station-2025/?lang=en",
-      "sourceId": "cea-power-stations-2025",
-      "referenceDate": "2026-10-31",
-      "verificationStatus": "verification_pending"
+      "description": "Adani Power's FY 2024-25 operational report identifies Mundra as a coal-based thermal power plant in Gujarat and reports its cumulative capacity.",
+      "sourceUrl": "https://connect.adani.com/annual_report/2025/power/operational-performance.html",
+      "sourceId": "adaniMundraPower2025",
+      "referenceDate": "Official generating-company source accessed 31 October 2026",
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-10-31"
     },
     {
       "id": "supp-030",
@@ -6097,6 +6105,42 @@
       "title": "Dharmapuri Municipality — Places of Interest",
       "sourceUrl": "https://www.tnurbantree.tn.gov.in/dharmapuri/places-of-interest/",
       "referenceDate": "Official municipal page accessed 31 October 2026"
+    },
+    {
+      "sourceId": "mahagencoChandrapur2025",
+      "title": "Maharashtra State Power Generation Company — Chandrapur Super Thermal Power Station environmental compliance report",
+      "sourceUrl": "https://www.mahagenco.in/clearance_pdf/MoEF%26CC_Six%20Monthly%20EC%20Compliance%20report%20for%20period%20of%20Jul-2025%20to%20Dec-2025%C2%A0for%20CSTPS%20Chandrapur_20260418121159785.pdf",
+      "referenceDate": "Report for July–December 2025"
+    },
+    {
+      "sourceId": "ntpcRihand2026",
+      "title": "NTPC Limited — Rihand station profile",
+      "sourceUrl": "https://ntpc.co.in/rihand",
+      "referenceDate": "Official NTPC station profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ntpcCoalStations2026",
+      "title": "NTPC Limited — Coal Stations register",
+      "sourceUrl": "https://ntpc.co.in/power-generation/coal-stations",
+      "referenceDate": "Official NTPC coal station list accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ntpcRamagundam2026",
+      "title": "NTPC Limited — Ramagundam station profile",
+      "sourceUrl": "https://ntpc.co.in/ramagundam",
+      "referenceDate": "Official NTPC station profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "ntpcTalcherKaniha2026",
+      "title": "NTPC Limited — Talcher Kaniha station profile",
+      "sourceUrl": "https://ntpc.co.in/talcher-kaniha",
+      "referenceDate": "Official NTPC station profile accessed 31 October 2026"
+    },
+    {
+      "sourceId": "adaniMundraPower2025",
+      "title": "Adani Power — FY 2024-25 operational performance, Mundra",
+      "sourceUrl": "https://connect.adani.com/annual_report/2025/power/operational-performance.html",
+      "referenceDate": "FY 2024-25"
     }
   ]
 }

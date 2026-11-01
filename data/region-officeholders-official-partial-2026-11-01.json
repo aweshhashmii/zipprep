@@ -117,9 +117,37 @@
       "referenceDate": "2026-11-01",
       "lastVerifiedAt": "2026-11-01",
       "note": "Official National Portal directory listing the current Governors and Lt. Governors. Used for state Governor fields only; UT administrators are not inferred from this state list."
+    },
+    {
+      "sourceId": "indiaGovOfficialUTAdministratorsDirectory2026",
+      "title": "National Portal of India — Lt. Governors and Administrators of Union Territories",
+      "sourceUrl": "https://www.india.gov.in/directory/whos-who/lt-governors-and-administrators-of-union-territories",
+      "referenceDate": "2026-09-12",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "National Portal directory page last reviewed 12 September 2026; the official directory lists current UT Lieutenant Governors and Administrators. Andaman and Nicobar is separately checked against its administration portal following the September 2026 appointment."
+    },
+    {
+      "sourceId": "andamanNicobarLtGovernorOfficial2026",
+      "title": "Andaman and Nicobar Administration — Lieutenant Governor",
+      "sourceUrl": "https://andamannicobar.gov.in/and_lg",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official UT Administration profile names Dr. Dinesh Sharma as Lieutenant Governor."
     }
   ],
   "records": [
+    {
+      "regionName": "Andaman and Nicobar Islands",
+      "fields": {
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Dr. Dinesh Sharma"
+      },
+      "sourceIds": [
+        "andamanNicobarLtGovernorOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
     {
       "regionName": "Andhra Pradesh",
       "fields": {
@@ -177,12 +205,48 @@
       "note": "Chief Minister took oath on 15 April 2026; Governor sworn in on 14 March 2026."
     },
     {
+      "regionName": "Chandigarh",
+      "fields": {
+        "governorOrLieutenantGovernor": "Administrator: Shri Gulab Chand Kataria"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
       "regionName": "Chhattisgarh",
       "fields": {
         "governorOrLieutenantGovernor": "Shri Ramen Deka"
       },
       "sourceIds": [
         "indiaGovOfficialGovernorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "fields": {
+        "governorOrLieutenantGovernor": "Administrator: Shri Prafulbhai Khodabhai Patel"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Delhi",
+      "fields": {
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Taranjit Singh Sandhu"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
       ],
       "verifiedFields": [
         "political.governorOrLieutenantGovernor"
@@ -245,6 +309,18 @@
       ]
     },
     {
+      "regionName": "Jammu and Kashmir",
+      "fields": {
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Manoj Sinha"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
       "regionName": "Jharkhand",
       "fields": {
         "chiefMinisterOrAdministrator": "Shri Hemant Soren",
@@ -284,6 +360,30 @@
         "political.governorOrLieutenantGovernor"
       ],
       "note": "Sworn in as Governor of Kerala on 23 October 2026."
+    },
+    {
+      "regionName": "Ladakh",
+      "fields": {
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Vinai Kumar Saxena"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Lakshadweep",
+      "fields": {
+        "governorOrLieutenantGovernor": "Administrator: Shri Prafulbhai Khodabhai Patel (additional charge)"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
     },
     {
       "regionName": "Madhya Pradesh",
@@ -368,6 +468,18 @@
       },
       "sourceIds": [
         "indiaGovOfficialGovernorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Puducherry",
+      "fields": {
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri K. Kailashnathan"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026"
       ],
       "verifiedFields": [
         "political.governorOrLieutenantGovernor"

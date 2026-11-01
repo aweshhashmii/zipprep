@@ -62,6 +62,7 @@ const districtProfileMeghalayaData = read('data/district-profile-isfr2023-meghal
 const districtProfileMizoramData = read('data/district-profile-isfr2023-mizoram.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const urbanLgdMirrorData = read('data/urban-local-bodies-lgd-mirror-2026-09-25.json');
+const officeholderData = read('data/region-officeholders-official-partial-2026-11-01.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
 
@@ -874,6 +875,24 @@ const geoNames = geoFeatures.map(f => {
 assert(geoNames.every(Boolean), 'One or more state/UT GeoJSON features have no readable name.');
 assert(new Set(geoNames.map(normalized)).size === 36, 'State/UT GeoJSON contains duplicate or unrecognised names.');
 
+const officeholderRows = officeholderData.records || [];
+const officeholderSourceIds = new Set((officeholderData.sources || []).map(source => source.sourceId));
+const officeholderRegions = new Set();
+for (const row of officeholderRows) {
+  assert(regionSet.has(row.regionName), 'Official officeholder row references unknown region: ' + row.regionName);
+  assert(!officeholderRegions.has(row.regionName), 'Duplicate official officeholder row: ' + row.regionName);
+  officeholderRegions.add(row.regionName);
+  assert(Array.isArray(row.sourceIds) && row.sourceIds.length > 0, 'Officeholder row lacks source IDs: ' + row.regionName);
+  for (const sourceId of row.sourceIds || []) assert(officeholderSourceIds.has(sourceId), 'Officeholder row references unregistered source: ' + sourceId);
+  for (const field of row.verifiedFields || []) assert(Object.keys(row.fields || {}).some(key => 'political.' + key === field), 'Officeholder verified field has no value: ' + row.regionName + '.' + field);
+}
+for (const source of officeholderData.sources || []) {
+  assert(/^https:\/\//.test(source.sourceUrl || ''), 'Officeholder source must use HTTPS: ' + source.sourceId);
+  assert(source.lastVerifiedAt === officeholderData.referenceDate, 'Officeholder source verification date must match dataset reference date: ' + source.sourceId);
+}
+assert(officeholderData.verificationStatus === 'officially_verified_partial', 'Officeholder dataset must remain explicitly partial.');
+warnings.push('Official officeholder confirmations currently cover ' + officeholderRows.length + '/36 regions; all other officeholder fields remain pending until checked against their own official portals.');
+
 const report = {
   generatedAt: new Date().toISOString(),
   status: errors.length ? 'failed' : (warnings.length ? 'passed_with_warnings' : 'passed'),
@@ -898,6 +917,7 @@ const report = {
     census2011Aggregate: censusTotals,
     unescoProperties: heritageRows.length,
     unescoRegions: new Set(heritageRows.map(r => r.regionName)).size,
+    officialOfficeholderRegions: officeholderRegions.size,
     regionsWithDistrictProfiles: districtProfileRegions
   },
   categories: coverage,

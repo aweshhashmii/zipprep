@@ -1,4 +1,5 @@
 name: Reconcile Census 2011 PCA source
+# Maintained against the official Census PCA source; the integration step is idempotent.
 
 on:
   pull_request:

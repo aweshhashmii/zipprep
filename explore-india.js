@@ -494,6 +494,16 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
   if(!v)return '';
   var title=v.name||v.title||v.officialName||'Verified entry';
   var desc=v.description||v.notes||'';
+  if(typeof desc==='string'){
+   desc=desc
+    .replace(/\\bReference(?: date)?\\s+\\d{4}(?:-\\d{2}-\\d{2})?\\s*[·–—-]?\\s*/gi,'')
+    .replace(/\\bSource ID\\s+[A-Za-z0-9_.:-]+/gi,'')
+    .replace(/\\bSource[- ]verified\\b/gi,'')
+    .replace(/\\bChecked\\s+\\d{4}-\\d{2}-\\d{2}/gi,'')
+    .replace(/\\s*[·|]\\s*/g,' · ')
+    .replace(/^(?:[-·|,;:]\\s*)+|(?:\\s*[-·|,;:])+$ /g,'')
+    .trim();
+  }
   var meta=[
    v.district?'District: '+v.district:'',
    v.ramsarSiteNumber?'Ramsar site no. '+v.ramsarSiteNumber:'',

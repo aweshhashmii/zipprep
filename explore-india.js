@@ -483,8 +483,7 @@ function renderProfile(name,count){
  stat('District boundary version / effective date',record&&record.districts?(display(record.districts.boundaryVersion)+' / '+display(record.districts.effectiveFrom)):'Not stated in available source','Existing district boundary metadata')+
  stat('High Court',display(record&&record.highCourt),'Official High Court / state government portal')+
  stat('Official languages',record&&record.officialLanguages&&record.officialLanguages.length?record.officialLanguages.join(', '):'Not stated in available source','Relevant state / UT government portal')+
- '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p>'+''+'<div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><h3>District Explorer</h3><p class="atlas-data-pending">Select a district directly on the map to open its individual profile. District names are not duplicated in a separate directory.</p></div>'+
- '
+ '</div><div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><h3>District Explorer</h3><p class="atlas-data-pending">Select a district directly on the map to open its individual profile. District names are not duplicated in a separate directory.</p></div>';
 }
 function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
  var root=$(panelId);if(!root)return;

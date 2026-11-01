@@ -424,7 +424,8 @@ function renderProfile(name,count){
  var pol=record&&record.political||{},adm=record&&record.administration||{};
  var display=function(v){return v===null||v===undefined||v===''?'Not stated in available source':v};
  var seatSource=pol.sourceId==='eci'?'Election Commission of India · reference '+(pol.referenceYear||'2026')+' · last verified '+(pol.lastVerifiedAt||'not recorded'):'Election Commission of India · source record not available';
- root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">Current administrative district counts and LGD identifiers come from the dated Ministry of Panchayati Raj Local Government Directory snapshot. The number of district polygons available in the map service is shown separately; a missing polygon does not remove a district from the administrative directory. Parliamentary seat strengths are sourced from the Election Commission of India; officeholders and other administrative totals remain pending until separately verified.</p>'+
+ var officeholderSource=function(field){var src=(record&&record.sourceRecords||[]).find(function(item){return Array.isArray(item.fields)&&item.fields.indexOf('political.'+field)>=0});return src?(src.title+' · reference '+(src.referenceDate||'date not stated')+' · verified '+(src.lastVerifiedAt||'date not stated')):'Relevant official state/UT portal · no field-specific source record';};
+ root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">Current administrative district counts and LGD identifiers come from the dated Ministry of Panchayati Raj Local Government Directory snapshot. The number of district polygons available in the map service is shown separately; a missing polygon does not remove a district from the administrative directory. Parliamentary seat strengths are sourced from the Election Commission of India. Officeholders are displayed where an official State/UT portal record is available; their source and reference date are shown with each field.</p>'+
  '<div class="atlas-profile-grid">'+
  stat('Official capital',display(record&&record.capital),'State/UT government source; seasonal or additional capital arrangements are noted where applicable')+
  stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Not stated in available source','Government of India administrative structure')+
@@ -433,8 +434,8 @@ function renderProfile(name,count){
  stat('State boundary geometry version / effective date',record&&record.boundary?(display(record.boundary.geometryVersion)+' / '+display(record.boundary.effectiveFrom)):'Not stated in available source','Existing state boundary metadata')+
  stat('Current administrative district count',display(adm.districtCount),'Local Government Directory · snapshot '+(adm.districtCountReferenceDate||'not loaded')+'; not the number of map polygons')+
  stat('Districts mapped in boundary service',count,'BharatMapService district polygons · current response; geometry coverage only')+
- stat('Chief Minister (where applicable)',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
- stat('Governor / Lieutenant Governor / UT Administrator',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+
+ stat('Chief Minister (where applicable)',display(pol.chiefMinisterOrAdministrator),officeholderSource('chiefMinisterOrAdministrator'))+
+ stat('Governor / Lieutenant Governor / UT Administrator',display(pol.governorOrLieutenantGovernor),officeholderSource('governorOrLieutenantGovernor'))+
  stat('Lok Sabha elected seats',display(pol.lokSabhaSeats),seatSource)+
  stat('Rajya Sabha seats',display(pol.rajyaSabhaSeats),seatSource)+
  stat('Legislative Assembly membership',display(pol.assemblySeats),seatSource)+

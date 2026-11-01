@@ -117,6 +117,46 @@
       "referenceDate": "2026-11-01",
       "lastVerifiedAt": "2026-11-01",
       "note": "Official National Portal directory listing the current Governors and Lt. Governors. Used for state Governor fields only; UT administrators are not inferred from this state list."
+    },
+    {
+      "sourceId": "mhaUtConstitutionalStatus2025",
+      "title": "Ministry of Home Affairs — Union Territories Division, constitutional status",
+      "sourceUrl": "https://www.mha.gov.in/union-territories-divisions",
+      "referenceDate": "2025-08-08",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "MHA identifies the five UTs without legislatures and explains that UT administrators are appointed under Article 239; the five UTs without legislatures have no Chief Minister."
+    },
+    {
+      "sourceId": "delhiGovernmentCmoAndLg2026",
+      "title": "Government of NCT of Delhi — official portal and Chief Minister profile",
+      "sourceUrl": "https://delhi.gov.in/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Delhi government homepage identifies Chief Minister Smt. Rekha Gupta and Lieutenant Governor Sardar Taranjit Singh Sandhu."
+    },
+    {
+      "sourceId": "jammuKashmirGadCmOfficial2026",
+      "title": "General Administration Department, Government of Jammu and Kashmir — Council of Ministers",
+      "sourceUrl": "https://jkgad.nic.in/common/printList.aspx?listCD=9",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official GAD list, timestamped 1 November 2026, names Mr. Omar Abdullah as Hon'ble Chief Minister."
+    },
+    {
+      "sourceId": "puducherryChiefMinisterOfficial2026",
+      "title": "Government of Puducherry — Chief Minister",
+      "sourceUrl": "https://py.gov.in/chief-minister",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Government of Puducherry page names Shri N. Rangasamy as Chief Minister."
+    },
+    {
+      "sourceId": "puducherryLtGovernorOfficial2026",
+      "title": "Government of Puducherry — official portal",
+      "sourceUrl": "https://py.gov.in/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Government of Puducherry portal identifies Shri K. Kailashnathan as Lieutenant Governor."
     }
   ],
   "records": [
@@ -486,6 +526,125 @@
         "political.governorOrLieutenantGovernor"
       ],
       "note": "Chief Minister is named by the current Chief Minister's Office dashboard; Governor is named by the state portal, whose page last updated 5 June 2026."
+    },
+    {
+      "regionName": "Andaman and Nicobar Islands",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Lieutenant Governor / Administrator: Dr. Dinesh Sharma"
+      },
+      "sourceIds": [
+        "andamanNicobarLtGovernorOfficial2026",
+        "mhaUtConstitutionalStatus2025"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Chandigarh",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Administrator: Shri Gulab Chand Kataria"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026",
+        "mhaUtConstitutionalStatus2025"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Administrator: Shri Prafulbhai Khodabhai Patel"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026",
+        "mhaUtConstitutionalStatus2025"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Delhi",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Smt. Rekha Gupta",
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Sardar Taranjit Singh Sandhu"
+      },
+      "sourceIds": [
+        "delhiGovernmentCmoAndLg2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Jammu and Kashmir",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Mr. Omar Abdullah",
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Manoj Sinha"
+      },
+      "sourceIds": [
+        "jammuKashmirGadCmOfficial2026",
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Ladakh",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Vinai Kumar Saxena"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026",
+        "mhaUtConstitutionalStatus2025"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Lakshadweep",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Administrator: Shri Prafulbhai Khodabhai Patel (additional charge)"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026",
+        "mhaUtConstitutionalStatus2025"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Puducherry",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri N. Rangasamy",
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri K. Kailashnathan"
+      },
+      "sourceIds": [
+        "puducherryChiefMinisterOfficial2026",
+        "puducherryLtGovernorOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
     }
   ]
 }

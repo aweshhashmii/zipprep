@@ -504,32 +504,24 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
    v.height!==undefined&&v.height!==null?'Height/elevation '+v.height:'',
    v.designation||'',
    v.inscriptionYear?'Inscribed '+v.inscriptionYear:'',
-   v.sourceYear?'Source year '+v.sourceYear:'',
-   v.referenceYear?'Reference '+v.referenceYear:'',
    v.applicationNo?'IP India application no. '+v.applicationNo:'',
    v.goodsCategory?'Goods category: '+v.goodsCategory:'',
    v.applicationFiledDate?'Application filed: '+v.applicationFiledDate:'',
    v.registrationStatus||'',
    v.registerSerial?'Register serial no. '+v.registerSerial:'',
-   v.count!==undefined?'Count '+v.count+(v.referenceDate?' · as of '+v.referenceDate:''):'',
-   v.referenceDate&&v.count===undefined?'Reference date '+v.referenceDate:'',
+   v.count!==undefined?'Count '+v.count:'',
    v.operationalCount!==undefined?'Operational '+v.operationalCount:'',
    v.underConstructionCount!==undefined?'Under construction '+v.underConstructionCount:'',
    v.totalCount!==undefined?'Total '+v.totalCount:'',
    v.forestAndTreeCoverSqKm!==undefined?Number(v.forestAndTreeCoverSqKm).toLocaleString('en-IN')+' km²':'',
    v.percentOfGeographicalArea!==undefined&&v.percentOfGeographicalArea!==null?v.percentOfGeographicalArea+'% of geographical area':'',
-   v.sourceId?'Source ID '+v.sourceId:'',
-   v.verificationStatus==='verified'?'Source-verified':v.verificationStatus==='verification_pending'?'Not stated in available source':'',
-   v.verificationStatus==='not_available'?'None listed in cited source':'',
    Array.isArray(v.adjoiningRegions)&&v.adjoiningRegions.length?'Adjoining Indian states/UTs: '+v.adjoiningRegions.join(', '):'',
    Array.isArray(v.internationalNeighbours)&&v.internationalNeighbours.length?'International neighbours: '+v.internationalNeighbours.join(', '):'',
    Array.isArray(v.maritimeFeatures)&&v.maritimeFeatures.length?'Adjacent seas/ocean: '+v.maritimeFeatures.join(', '):'',
-   v.referenceDate?'Checked '+v.referenceDate:''
   ].filter(Boolean).join(' · ');
   return '<div class="atlas-record"><b>'+textSafe(title)+'</b>'+
    (meta?'<small>'+textSafe(meta)+'</small>':'')+
    (desc?'<p>'+textSafe(desc)+'</p>':'')+
-   (v.sourceUrl?'<a href="'+textSafe(v.sourceUrl)+'" target="_blank" rel="noopener noreferrer">View source ↗</a>':'')+
    '</div>';
  }
  var populated=0;
@@ -542,12 +534,10 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
   if(items.length)populated++;
   return '<article class="atlas-geography-item"><b>'+textSafe(c[0])+'</b>'+
    (c[2]?'<small class="atlas-category-description">'+textSafe(c[2])+'</small>':'')+
-   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending"><strong>Not stated in available source.</strong> No records have been imported for this region and category yet. This is a research gap, not confirmation that the feature does not exist.</p>')+'</div></article>';
+   '<div class="atlas-category-records">'+(items.length?items.map(itemText).join(''):'<p class="atlas-data-pending">Not available</p>')+'</div></article>';
  }).join('');
  root.innerHTML='<p class="atlas-kicker">'+textSafe(eyebrow)+'</p><h3>'+textSafe(name)+' · '+textSafe(tabTitle)+'</h3>'+
-  '<p class="atlas-data-pending">Showing records currently imported in the regional catalogue. Each entry displays its verification status. Categories without imported records are clearly marked Not stated in available source; they are not treated as zero and are not filled with guesses.</p>'+
-  '<p class="atlas-data-pending">'+populated+' of '+categories.length+' categories currently contain imported records for this region. This is a data-import indicator, not a completeness score.</p>'+
-  '<div class="atlas-geography-grid">'+cards+'</div>'+sourceLinks();
+  '<div class="atlas-geography-grid">'+cards+'</div>';
 }
 function renderGeography(name){
  renderCategoryPanel('panel-geography',name,'Physical Geography','PHYSICAL GEOGRAPHY · LANDFORMS · DRAINAGE · CLIMATE',[

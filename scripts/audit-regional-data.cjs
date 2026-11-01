@@ -65,6 +65,7 @@ const urbanLgdMirrorData = read('data/urban-local-bodies-lgd-mirror-2026-09-25.j
 const officeholderData = read('data/region-officeholders-official-partial-2026-11-01.json');
 const districtHierarchyData = read('data/district-lgd-administrative-hierarchy-2026-10-21.json');
 const boundaryMetadataData = read('data/region-boundary-metadata-soi-2025.json');
+const districtPortalDirectoryData = read('data/region-district-portal-directories-igod-2026.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
 
@@ -945,6 +946,17 @@ assert(boundaryMetadataData.verificationStatus === 'official_metadata_version_on
 assert(/^https:\/\//.test(boundaryMetadataData.source.sourceUrl || ''), 'Survey of India boundary source must use HTTPS.');
 assert(/^https:\/\//.test(boundaryMetadataData.source.metadataUrl || ''), 'Survey of India boundary metadata PDF must use HTTPS.');
 warnings.push('Survey of India Version 01 metadata is recorded for all 36 regions; per-region legal/effective dates are not published in the source metadata and remain unspecified.');
+
+const districtPortalRows = districtPortalDirectoryData.records || [];
+const districtPortalRegions = new Set();
+for (const row of districtPortalRows) {
+  assert(regionSet.has(row.regionName), 'IGOD district portal directory references unknown region: ' + row.regionName);
+  assert(!districtPortalRegions.has(row.regionName), 'Duplicate IGOD district portal directory region: ' + row.regionName);
+  assert(/^https:\/\/igod\.gov\.in\/sg\/[A-Z]{2}\/E042\/organizations$/.test(row.directoryUrl || ''), 'Invalid official IGOD district directory URL: ' + row.regionName);
+  districtPortalRegions.add(row.regionName);
+}
+assert(districtPortalRegions.size === 36, 'Official IGOD district portal directory links must cover all 36 regions.');
+warnings.push('Official district portal directories are linked for all 36 regions; individual portal links are not a substitute for district-specific headquarters, area or formation-date verification.');
 
 const report = {
   generatedAt: new Date().toISOString(),

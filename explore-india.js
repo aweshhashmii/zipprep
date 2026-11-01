@@ -397,8 +397,8 @@ function renderProfile(name,count){
  stat('State boundary geometry version / effective date',record&&record.boundary?(display(record.boundary.geometryVersion)+' / '+display(record.boundary.effectiveFrom)):'Verification pending','Existing state boundary metadata')+
  stat('Current administrative district count',display(adm.districtCount),'Local Government Directory · snapshot '+(adm.districtCountReferenceDate||'not loaded')+'; not the number of map polygons')+
  stat('Districts mapped in boundary service',count,'BharatMapService district polygons · current response; geometry coverage only')+
- stat('Chief Minister / administrator',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
- stat('Governor / Lieutenant Governor',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+
+ stat('Chief Minister (where applicable)',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
+ stat('Governor / Lieutenant Governor / UT Administrator',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+
  stat('Lok Sabha elected seats',display(pol.lokSabhaSeats),seatSource)+
  stat('Rajya Sabha seats',display(pol.rajyaSabhaSeats),seatSource)+
  stat('Legislative Assembly membership',display(pol.assemblySeats),seatSource)+

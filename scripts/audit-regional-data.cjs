@@ -908,8 +908,13 @@ for (const source of officeholderData.sources || []) {
   assert(/^https:\/\//.test(source.sourceUrl || ''), 'Officeholder source must use HTTPS: ' + source.sourceId);
   assert(/^\d{4}-\d{2}-\d{2}$/.test(source.lastVerifiedAt || ''), 'Officeholder source must include an ISO last-verified date: ' + source.sourceId);
 }
-assert(officeholderData.verificationStatus === 'officially_verified_partial', 'Officeholder dataset must remain explicitly partial.');
-warnings.push('Official officeholder confirmations currently cover ' + officeholderRows.length + '/36 regions; all other officeholder fields remain pending until checked against their own official portals.');
+assert(officeholderData.verificationStatus === 'officially_verified_complete', 'Officeholder dataset must declare complete official coverage only after all 36 region heads and 31 applicable CMs are sourced.');
+const headRows = officeholderRows.filter(row => row.fields && row.fields.governorOrLieutenantGovernor).length;
+const cmRows = officeholderRows.filter(row => row.fields && row.fields.chiefMinisterOrAdministrator && !String(row.fields.chiefMinisterOrAdministrator).startsWith('Not applicable')).length;
+assert(headRows === 36, 'Governor/Lieutenant Governor/Administrator field must cover all 36 regions.');
+assert(cmRows === 31, 'Chief Minister names must cover all 31 regions with an elected Chief Minister office.');
+assert(officeholderRegions.size === 36, 'Officeholder dataset must include all 36 State/UT regions.');
+
 
 const boundaryRows = boundaryMetadataData.records || [];
 const boundaryRegions = new Set();

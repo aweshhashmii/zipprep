@@ -756,7 +756,8 @@ function onRoute(){var h=decodeURIComponent(location.hash.replace(/^#/,''));if(h
       home.hidden=true; rev.hidden=false;
       document.querySelectorAll('#rev .vw').forEach(function(section){section.hidden=section.id!==target;});
       window.scrollTo(0,0);
-      if(hash==='mock-test'){document.dispatchEvent(new Event('zipprep:open-mock-test'));}\n      if(hash==='know-india'||hash==='revision/gk/know-india'||hash==='revision/gk/know-india/west-bengal'){
+      if(hash==='mock-test'){document.dispatchEvent(new Event('zipprep:open-mock-test'));}
+      if(hash==='know-india'||hash==='revision/gk/know-india'||hash==='revision/gk/know-india/west-bengal'){
         setTimeout(function(){var mapEl=document.getElementById('india-map');if(mapEl&&window.L){document.dispatchEvent(new Event('zipprep:map-ready'));}},80);
       }
     } else {

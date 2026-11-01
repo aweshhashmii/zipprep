@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Compare the committed Census 2011 district mirror with the official PCA SD XLSX.
-
-This script never promotes records to verified status. It emits a row-level report
-so mismatches and workbook schema changes are reviewed before any data mutation.
-"""
+"""Reconcile the committed 2011 district PCA mirror against Census of India PCA SD."""
 from __future__ import annotations
 
 import json
@@ -29,6 +25,7 @@ STATE_ALIASES = {
     "orissa": "odisha", "uttaranchal": "uttarakhand",
     "nctofdelhi": "delhi", "nationalcapitalterritoryofdelhi": "delhi",
     "pondicherry": "puducherry", "jammukashmir": "jammuandkashmir",
+    "jammuandkashmir": "jammuandkashmir",
 }
 DISTRICT_ALIASES = {
     "leh": "lehladakh", "lehladakh": "lehladakh",
@@ -49,45 +46,6 @@ def canon_district(value: object) -> str:
     return DISTRICT_ALIASES.get(key, key)
 
 
-HEADER_ALIASES = {
-    "state": {"state", "statename", "stateut", "stateutname", "statenameandcode"},
-    "district": {"district", "districtname", "districtnameandcode"},
-    "area": {"areaname", "nameofarea", "area", "subdistricttownvillage"},
-    "households": {"numberofhouseholds", "households", "totalhouseholds"},
-    "population": {"totalpopulationpersons", "populationpersons", "totalpopulation", "population"},
-    "male": {"populationmales", "malepopulation", "males", "male", "totalpopulationmale"},
-    "female": {"populationfemales", "femalepopulation", "females", "female", "totalpopulationfemale"},
-    "literate": {"literatepersons", "literatepopulation", "literate"},
-    "literacy_rate": {"literacyrate", "literacyratepercent"},
-    "sex_ratio": {"sexratio", "sexratiofemalesper1000males"},
-    "sc": {"scheduledcastespersons", "scheduledcastes", "scpopulation", "sc"},
-    "st": {"scheduledtribespersons", "scheduledtribes", "stpopulation", "st"},
-    "workers": {"totalworkerspersons", "totalworkers", "workers"},
-}
-
-
-def find_header(rows):
-    for idx, row in enumerate(rows[:60]):
-        combined = []
-        for col in range(len(row)):
-            parts = []
-            for back in range(max(0, idx - 5), idx + 1):
-                value = rows[back][col] if col < len(rows[back]) else None
-                if value is not None and str(value).strip():
-                    parts.append(str(value).strip())
-            combined.append(" ".join(parts))
-        found = {}
-        for field, aliases in HEADER_ALIASES.items():
-            for col, label in enumerate(combined):
-                key = norm(label)
-                if key in aliases or any(key.endswith(alias) for alias in aliases if len(alias) > 5):
-                    found[field] = col
-                    break
-        if ("district" in found or "area" in found) and "population" in found and "male" in found and "female" in found:
-            return idx, found, combined
-    return None, {}, []
-
-
 def number(value):
     if value is None or value == "":
         return None
@@ -95,67 +53,71 @@ def number(value):
         return int(round(value))
     try:
         return int(round(float(str(value).replace(",", "").strip())))
-    except ValueError:
+    except (TypeError, ValueError):
         return None
-
-
-def cell(value):
-    if value is None:
-        return None
-    if isinstance(value, (str, int, float, bool)):
-        return value
-    return str(value)
 
 
 def main():
     REPORT.parent.mkdir(parents=True, exist_ok=True)
-    source_data = json.loads(DATA.read_text(encoding="utf-8"))
-    records = source_data.get("records", [])
+    records = json.loads(DATA.read_text(encoding="utf-8")).get("records", [])
     request = urllib.request.Request(URL, headers={"User-Agent": "ZipPrep-source-audit/1.0"})
     with urllib.request.urlopen(request, timeout=90) as response:
         workbook_bytes = response.read()
     tmp = ROOT / "reports" / "official-pca-sd-2011.xlsx"
     tmp.write_bytes(workbook_bytes)
     workbook = load_workbook(tmp, read_only=True, data_only=True)
-    candidates = []
-    for sheet in workbook.worksheets:
-        rows = list(sheet.iter_rows(values_only=True))
-        header_idx, columns, labels = find_header(rows)
-        candidates.append((sheet.title, rows, header_idx, columns, labels))
-    selected = next((item for item in candidates if item[2] is not None), None)
-    if selected is None:
+    sheet = workbook["Sheet1"] if "Sheet1" in workbook.sheetnames else workbook.worksheets[0]
+    iterator = sheet.iter_rows(values_only=True)
+    header = next(iterator, None)
+    if not header:
+        raise RuntimeError("Official PCA workbook has no header row")
+    columns = {str(value).strip(): index for index, value in enumerate(header) if value is not None}
+    required = {"State", "District", "Level", "Name", "TRU", "No_HH", "TOT_P", "TOT_M", "TOT_F", "P_06", "P_SC", "P_ST", "P_LIT", "TOT_WORK_P"}
+    missing_columns = sorted(required - set(columns))
+    if missing_columns:
         report = {
             "status": "blocked_schema_unrecognised",
             "sourceUrl": URL,
             "sourceCatalogue": "https://censusindia.gov.in/nada/index.php/catalog/6191",
             "checkedAt": datetime.now(timezone.utc).isoformat(),
+            "workbookHeaders": list(columns),
+            "missingRequiredColumns": missing_columns,
             "mirrorRows": len(records),
-            "workbookSheets": [{
-                "name": name, "rows": len(rows),
-                "sampleRows": [
-                    {"row": index + 1, "values": [cell(v) for v in row if v is not None]}
-                    for index, row in enumerate(rows[:35]) if any(v is not None for v in row)
-                ]
-            } for name, rows, _, _, _ in candidates],
-            "message": "Official workbook downloaded, but its header layout did not match the parser. No records were verified."
+            "message": "The official PCA workbook schema changed; no records were verified."
         }
-        REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(json.dumps(report, indent=2, ensure_ascii=False))
+        REPORT.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+        print(json.dumps(report, indent=2))
         return 2
 
-    sheet_name, rows, header_idx, columns, labels = selected
+    rows = list(iterator)
+    state_names = {}
+    for row in rows:
+        get = lambda field: row[columns[field]] if columns[field] < len(row) else None
+        if str(get("Level") or "").strip().upper() == "STATE" and str(get("TRU") or "").strip().lower() == "total":
+            state_names[str(get("State")).zfill(2)] = str(get("Name")).strip()
+
     official, duplicate_official = {}, []
-    for row in rows[header_idx + 1:]:
-        def get(field):
-            col = columns.get(field)
-            return row[col] if col is not None and col < len(row) else None
-        district = get("area") or get("district")
-        state = get("state")
-        if not district or not state:
+    for row in rows:
+        get = lambda field: row[columns[field]] if columns[field] < len(row) else None
+        if str(get("Level") or "").strip().upper() != "DISTRICT" or str(get("TRU") or "").strip().lower() != "total":
             continue
-        key = (canon_state(state), canon_district(district))
-        values = {field: number(get(field)) for field in ("households", "population", "male", "female", "literate", "sc", "st", "workers")}
-        values["literacyRate"], values["sexRatio"] = get("literacy_rate"), get("sex_ratio")
+        state_name = state_names.get(str(get("State")).zfill(2))
+        district_name = str(get("Name") or "").strip()
+        if not state_name or not district_name:
+            continue
+        key = (canon_state(state_name), canon_district(district_name))
+        pop, male, female = number(get("TOT_P")), number(get("TOT_M")), number(get("TOT_F"))
+        literate, children_0_6 = number(get("P_LIT")), number(get("P_06"))
+        values = {
+            "households": number(get("No_HH")),
+            "population": pop, "male": male, "female": female,
+            "literate": literate, "sc": number(get("P_SC")),
+            "st": number(get("P_ST")), "workers": number(get("TOT_WORK_P")),
+            "literacyRate": round(literate / (pop - children_0_6) * 100, 2) if pop is not None and children_0_6 is not None and pop > children_0_6 and literate is not None else None,
+            "sexRatio": round(female / male * 1000) if male else None,
+            "censusStateCode": str(get("State")).zfill(2),
+            "censusDistrictCode": str(get("District")).zfill(3),
+        }
         if key in official:
             duplicate_official.append({"state": key[0], "district": key[1]})
         official[key] = values
@@ -176,10 +138,12 @@ def main():
             value = source.get(field)
             if value is not None:
                 try:
-                    if abs(float(record.get(field)) - float(value)) > 0.02:
+                    if abs(float(record.get(field)) - float(value)) > (0.02 if field == "literacyRate" else 0.5):
                         differences.append({"field": field, "mirror": record.get(field), "official": value})
                 except (TypeError, ValueError):
                     differences.append({"field": field, "mirror": record.get(field), "official": value})
+        if record.get("censusDistrictCode") is not None and str(record.get("censusDistrictCode")).zfill(3) != source["censusDistrictCode"]:
+            differences.append({"field": "censusDistrictCode", "mirror": record.get("censusDistrictCode"), "official": source["censusDistrictCode"]})
         matched += 1
         if differences:
             mismatches.append({"state": record.get("state"), "district": record.get("district"), "censusDistrictCode": record.get("censusDistrictCode"), "differences": differences})
@@ -188,16 +152,19 @@ def main():
     report = {
         "status": status, "sourceUrl": URL,
         "sourceCatalogue": "https://censusindia.gov.in/nada/index.php/catalog/6191",
-        "checkedAt": datetime.now(timezone.utc).isoformat(), "workbookSheet": sheet_name,
-        "workbookRowsParsed": len(official), "mirrorRows": len(records), "matchedRows": matched,
+        "checkedAt": datetime.now(timezone.utc).isoformat(), "workbookSheet": sheet.title,
+        "workbookDistrictTotalRows": len(official), "mirrorRows": len(records), "matchedRows": matched,
         "missingRows": missing, "mismatchRows": mismatches, "duplicateOfficialKeys": duplicate_official,
-        "matchedFields": list(fields) + ["literacyRate", "sexRatio"],
-        "parserHeaderMap": {field: labels[col] for field, col in columns.items()},
+        "matchedFields": list(fields) + ["literacyRate", "sexRatio", "censusDistrictCode"],
         "policy": "Technical comparison only. Application data remains unverified until discrepancies and historical boundary/name changes are reviewed and the reviewed result is committed."
     }
     REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(json.dumps({k: v for k, v in report.items() if k not in ("missingRows", "mismatchRows")}, indent=2, ensure_ascii=False))
-    print(f"Missing rows: {len(missing)}; mismatch rows: {len(mismatches)}")
+    print(json.dumps({
+        "status": status, "workbookDistrictTotalRows": len(official),
+        "mirrorRows": len(records), "matchedRows": matched,
+        "missingRows": len(missing), "mismatchRows": len(mismatches),
+        "duplicateOfficialKeys": len(duplicate_official)
+    }, indent=2))
     return 0 if status == "exact_match" else 1
 
 

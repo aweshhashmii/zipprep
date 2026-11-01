@@ -197,6 +197,15 @@ function loadRegionCatalog(){
    region.sourceRecords=region.sourceRecords||[];
    if(!region.sourceRecords.some(function(src){return src.sourceId==='ipindiaStatewiseRegisteredGI2026'}))region.sourceRecords.push({sourceId:'ipindiaStatewiseRegisteredGI2026',title:'IP India — State-wise Registered Geographical Indications of India',sourceUrl:giRegister.source.sourceUrl,referenceDate:giRegister.source.registerDataAsOf,lastVerifiedAt:giRegister.source.lastVerifiedAt,fields:['geography.giProducts'],note:giRegister.description});
   });
+  if(giRegister&&Array.isArray(giRegister.coverageRecords))giRegister.coverageRecords.forEach(function(item){
+   var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;
+   region.geography=region.geography||{};
+   var entries=Array.isArray(region.geography.giProducts)?region.geography.giProducts:[];
+   if(!entries.some(function(entry){return entry.coverageNote===true&&entry.regionName===item.regionName}))entries.push({name:item.name,registrationStatus:item.registrationStatus,verificationStatus:item.verificationStatus,referenceDate:item.referenceDate,sourceId:item.sourceId,sourceUrl:item.sourceUrl,notes:item.notes,coverageNote:true,applicationNo:item.applicationNo,applicationStatusSourceUrl:item.applicationStatusSourceUrl});
+   region.geography.giProducts=entries;
+   region.sourceRecords=region.sourceRecords||[];
+   if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:'IP India — State-wise Registered Geographical Indications of India',sourceUrl:item.sourceUrl,referenceDate:item.referenceDate,lastVerifiedAt:item.lastVerifiedAt,fields:['geography.giProducts'],note:item.notes});
+  });
   if(political&&Array.isArray(political.records))data.regions.forEach(function(region){
    var row=political.records.find(function(item){return item.regionName===region.name});
    if(!row)return;

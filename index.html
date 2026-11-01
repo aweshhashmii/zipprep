@@ -746,7 +746,7 @@ function onRoute(){var h=decodeURIComponent(location.hash.replace(/^#/,''));if(h
 <script>
 /* ZipPrep navigation hotfix: ensure the Revision dashboard routes from the main navigation. */
 (function(){
-  var routeIds={revision:'v-revision',gk:'v-gk','know-india':'v-india','revision/gk/know-india':'v-india','revision/gk/know-india/west-bengal':'v-india',quiz:'v-quiz','revision/gk/questions':'v-quiz'};
+  var routeIds={revision:'v-revision',gk:'v-gk','know-india':'v-india','revision/gk/know-india':'v-india','revision/gk/know-india/west-bengal':'v-india',quiz:'v-quiz','revision/gk/questions':'v-quiz','mock-test':'v-quiz'};
   function go(){
     var hash=decodeURIComponent(location.hash.replace(/^#/,''));
     var target=routeIds[hash];

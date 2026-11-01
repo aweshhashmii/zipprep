@@ -26,12 +26,9 @@ def norm(value: object) -> str:
 
 
 STATE_ALIASES = {
-    "orissa": "odisha",
-    "uttaranchal": "uttarakhand",
-    "nctofdelhi": "delhi",
-    "nationalcapitalterritoryofdelhi": "delhi",
-    "pondicherry": "puducherry",
-    "jammukashmir": "jammuandkashmir",
+    "orissa": "odisha", "uttaranchal": "uttarakhand",
+    "nctofdelhi": "delhi", "nationalcapitalterritoryofdelhi": "delhi",
+    "pondicherry": "puducherry", "jammukashmir": "jammuandkashmir",
 }
 DISTRICT_ALIASES = {
     "leh": "lehladakh", "lehladakh": "lehladakh",
@@ -53,13 +50,13 @@ def canon_district(value: object) -> str:
 
 
 HEADER_ALIASES = {
-    "state": {"state", "statename", "stateut", "stateutname"},
-    "district": {"district", "districtname"},
-    "area": {"areaname", "nameofarea", "area"},
+    "state": {"state", "statename", "stateut", "stateutname", "statenameandcode"},
+    "district": {"district", "districtname", "districtnameandcode"},
+    "area": {"areaname", "nameofarea", "area", "subdistricttownvillage"},
     "households": {"numberofhouseholds", "households", "totalhouseholds"},
     "population": {"totalpopulationpersons", "populationpersons", "totalpopulation", "population"},
-    "male": {"populationmales", "malepopulation", "males", "male"},
-    "female": {"populationfemales", "femalepopulation", "females", "female"},
+    "male": {"populationmales", "malepopulation", "males", "male", "totalpopulationmale"},
+    "female": {"populationfemales", "femalepopulation", "females", "female", "totalpopulationfemale"},
     "literate": {"literatepersons", "literatepopulation", "literate"},
     "literacy_rate": {"literacyrate", "literacyratepercent"},
     "sex_ratio": {"sexratio", "sexratiofemalesper1000males"},
@@ -70,11 +67,11 @@ HEADER_ALIASES = {
 
 
 def find_header(rows):
-    for idx, row in enumerate(rows[:30]):
+    for idx, row in enumerate(rows[:60]):
         combined = []
         for col in range(len(row)):
             parts = []
-            for back in range(max(0, idx - 3), idx + 1):
+            for back in range(max(0, idx - 5), idx + 1):
                 value = rows[back][col] if col < len(rows[back]) else None
                 if value is not None and str(value).strip():
                     parts.append(str(value).strip())
@@ -82,7 +79,8 @@ def find_header(rows):
         found = {}
         for field, aliases in HEADER_ALIASES.items():
             for col, label in enumerate(combined):
-                if norm(label) in aliases:
+                key = norm(label)
+                if key in aliases or any(key.endswith(alias) for alias in aliases if len(alias) > 5):
                     found[field] = col
                     break
         if ("district" in found or "area" in found) and "population" in found and "male" in found and "female" in found:
@@ -101,9 +99,18 @@ def number(value):
         return None
 
 
+def cell(value):
+    if value is None:
+        return None
+    if isinstance(value, (str, int, float, bool)):
+        return value
+    return str(value)
+
+
 def main():
     REPORT.parent.mkdir(parents=True, exist_ok=True)
-    records = json.loads(DATA.read_text(encoding="utf-8")).get("records", [])
+    source_data = json.loads(DATA.read_text(encoding="utf-8"))
+    records = source_data.get("records", [])
     request = urllib.request.Request(URL, headers={"User-Agent": "ZipPrep-source-audit/1.0"})
     with urllib.request.urlopen(request, timeout=90) as response:
         workbook_bytes = response.read()
@@ -122,11 +129,18 @@ def main():
             "sourceUrl": URL,
             "sourceCatalogue": "https://censusindia.gov.in/nada/index.php/catalog/6191",
             "checkedAt": datetime.now(timezone.utc).isoformat(),
-            "workbookSheets": [{"name": name, "rows": len(rows), "sampleHeaders": labels[:30]} for name, rows, _, _, labels in candidates],
+            "mirrorRows": len(records),
+            "workbookSheets": [{
+                "name": name, "rows": len(rows),
+                "sampleRows": [
+                    {"row": index + 1, "values": [cell(v) for v in row if v is not None]}
+                    for index, row in enumerate(rows[:35]) if any(v is not None for v in row)
+                ]
+            } for name, rows, _, _, _ in candidates],
             "message": "Official workbook downloaded, but its header layout did not match the parser. No records were verified."
         }
-        REPORT.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-        print(json.dumps(report, indent=2))
+        REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(json.dumps(report, indent=2, ensure_ascii=False))
         return 2
 
     sheet_name, rows, header_idx, columns, labels = selected
@@ -135,7 +149,6 @@ def main():
         def get(field):
             col = columns.get(field)
             return row[col] if col is not None and col < len(row) else None
-        # Prefer the human-readable Area Name over numeric administrative codes.
         district = get("area") or get("district")
         state = get("state")
         if not district or not state:

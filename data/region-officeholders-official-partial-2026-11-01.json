@@ -3,7 +3,7 @@
   "title": "Official state portal officeholder confirmations — partial coverage",
   "referenceDate": "2026-11-01",
   "verificationStatus": "officially_verified_partial",
-  "coverageNote": "This is a partial, field-level import. Only officeholders explicitly named on the linked official state government or Lok Bhavan pages are included. Omitted regions are not inferred and remain pending. Governor appointment announcements are not treated as effective until an official state page confirms assumption of office.",
+  "coverageNote": "Partial field-level confirmations only. Current officeholders are included only where an official state government, legislature, Lok Bhavan or President/PMO page explicitly names them. Other regions remain pending. A President's appointment announcement is not treated as effective until an official state source confirms assumption of office.",
   "sources": [
     {
       "sourceId": "jharkhandStatePortalOfficeholders2026",
@@ -53,6 +53,62 @@
       "sourceUrl": "https://wb.gov.in/government-meet-the-governor.aspx",
       "referenceDate": "2026-06-05",
       "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "biharCmSecretariatOfficial2026",
+      "title": "Chief Minister Secretariat, Government of Bihar",
+      "sourceUrl": "https://cm.bihar.gov.in/users/home1.aspx",
+      "referenceDate": "2026-10-31",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official CM Secretariat profile names Samrat Choudhary and states he took oath on 15 April 2026; page last updated 31 October 2026."
+    },
+    {
+      "sourceId": "biharLokBhavanGovernorOfficial2026",
+      "title": "Bihar Lok Bhavan — Governor profile",
+      "sourceUrl": "https://governor.bih.nic.in/",
+      "referenceDate": "2026-03-14",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Lok Bhavan page identifies Lt Gen Syed Ata Hasnain (Retd.) and reports he was sworn in on 14 March 2026."
+    },
+    {
+      "sourceId": "assamLegislativeAssemblyOfficeholders2026",
+      "title": "Assam Legislative Assembly — Governor and Chief Minister",
+      "sourceUrl": "https://assambidhansabha.org/home",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official state legislature page identifies both the Governor and Chief Minister."
+    },
+    {
+      "sourceId": "gujaratDstChiefMinisterOfficial2026",
+      "title": "Department of Science and Technology, Government of Gujarat",
+      "sourceUrl": "https://dst.gujarat.gov.in/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Gujarat government department page identifies Shri Bhupendra Patel as Chief Minister."
+    },
+    {
+      "sourceId": "gujaratGovernorPmoOfficial2026",
+      "title": "President of India Digital Library — Governor of Gujarat",
+      "sourceUrl": "https://dpl.rashtrapatibhavan.gov.in/caption?caption=Devvrat",
+      "referenceDate": "2026-09-21",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "President's official digital library identifies Shri Acharya Devvrat as Governor of Gujarat in its 21 September 2026 visit caption."
+    },
+    {
+      "sourceId": "haryanaLokBhavanOfficeholdersOfficial2026",
+      "title": "Lok Bhavan Haryana — Governor and Chief Minister",
+      "sourceUrl": "https://lokbhavan.haryana.gov.in/haryana-governor-administers-oath-of-office-to-satish-kumar-as-hpsc-chairman/",
+      "referenceDate": "2026-10-29",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Lok Bhavan report dated 29 October 2026 names Governor Prof. Ashim Kumar Ghosh and Chief Minister Sh. Nayab Singh Saini."
+    },
+    {
+      "sourceId": "madhyaPradeshNevaAssemblyOfficeholders2026",
+      "title": "Madhya Pradesh Legislative Assembly — NeVA",
+      "sourceUrl": "https://www.mhla.neva.gov.in/Home/Index/MP",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Madhya Pradesh Legislative Assembly portal names Governor Shri Mangubhai Patel and Chief Minister Dr. Mohan Yadav."
     }
   ],
   "records": [
@@ -134,6 +190,79 @@
         "political.governorOrLieutenantGovernor"
       ],
       "note": "Chief Minister is named by the current Chief Minister's Office dashboard; Governor is named by the state portal, whose page last updated 5 June 2026."
+    },
+    {
+      "regionName": "Bihar",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri Samrat Choudhary",
+        "governorOrLieutenantGovernor": "Lt Gen Syed Ata Hasnain (Retd.)"
+      },
+      "sourceIds": [
+        "biharCmSecretariatOfficial2026",
+        "biharLokBhavanGovernorOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ],
+      "note": "Chief Minister took oath on 15 April 2026; Governor sworn in on 14 March 2026."
+    },
+    {
+      "regionName": "Assam",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Dr. Himanta Biswa Sarma",
+        "governorOrLieutenantGovernor": "Shri Lakshman Prasad Acharya"
+      },
+      "sourceIds": [
+        "assamLegislativeAssemblyOfficeholders2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Gujarat",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri Bhupendra Patel",
+        "governorOrLieutenantGovernor": "Shri Acharya Devvrat"
+      },
+      "sourceIds": [
+        "gujaratDstChiefMinisterOfficial2026",
+        "gujaratGovernorPmoOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Haryana",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri Nayab Singh Saini",
+        "governorOrLieutenantGovernor": "Prof. Ashim Kumar Ghosh"
+      },
+      "sourceIds": [
+        "haryanaLokBhavanOfficeholdersOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Madhya Pradesh",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Dr. Mohan Yadav",
+        "governorOrLieutenantGovernor": "Shri Mangubhai Chhaganbhai Patel"
+      },
+      "sourceIds": [
+        "madhyaPradeshNevaAssemblyOfficeholders2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
     }
   ]
 }

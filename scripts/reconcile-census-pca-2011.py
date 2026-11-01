@@ -174,7 +174,7 @@ def main():
     reconciled["sourceDownloadUrl"] = URL
     reconciled["reconciliationPolicy"] = "Historical district totals matched to official 2011 PCA by original Census district code; no current-boundary extrapolation."
     canonical_path = ROOT / "reports" / "india-district-census-2011-official-reconciled.json"
-    canonical_path.write_text(json.dumps(reconciled, indent=2, ensure_ascii=False) + "\\n", encoding="utf-8")
+    canonical_path.write_text(json.dumps(reconciled, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     status = "source_code_reconciled" if len(records) == 640 and matched == 640 and not missing and not duplicate_official else "review_required"
     report = {

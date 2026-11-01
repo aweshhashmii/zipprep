@@ -64,6 +64,7 @@ const lgdData = read('data/india-lgd-administrative-2026.json');
 const urbanLgdMirrorData = read('data/urban-local-bodies-lgd-mirror-2026-09-25.json');
 const officeholderData = read('data/region-officeholders-official-partial-2026-11-01.json');
 const districtHierarchyData = read('data/district-lgd-administrative-hierarchy-2026-10-21.json');
+const boundaryMetadataData = read('data/region-boundary-metadata-soi-2025.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
 
@@ -909,6 +910,22 @@ for (const source of officeholderData.sources || []) {
 }
 assert(officeholderData.verificationStatus === 'officially_verified_partial', 'Officeholder dataset must remain explicitly partial.');
 warnings.push('Official officeholder confirmations currently cover ' + officeholderRows.length + '/36 regions; all other officeholder fields remain pending until checked against their own official portals.');
+
+const boundaryRows = boundaryMetadataData.records || [];
+const boundaryRegions = new Set();
+assert(boundaryRows.length === 36, 'Survey of India boundary metadata must cover all 36 State/UT profiles.');
+for (const row of boundaryRows) {
+  assert(regionSet.has(row.regionName), 'Boundary metadata references unknown region: ' + row.regionName);
+  assert(!boundaryRegions.has(row.regionName), 'Duplicate boundary metadata region: ' + row.regionName);
+  boundaryRegions.add(row.regionName);
+  assert(row.geometryVersion === 'Version 01 — harmonized with ORGI', 'Unexpected state boundary dataset version: ' + row.regionName);
+  assert(row.districtBoundaryVersion === row.geometryVersion, 'State and district boundary version mismatch: ' + row.regionName);
+  assert(row.effectiveFrom === 'Not stated in published metadata', 'Do not invent a boundary effective date: ' + row.regionName);
+}
+assert(boundaryMetadataData.verificationStatus === 'official_metadata_version_only', 'Boundary metadata must not imply legal/effective-date verification.');
+assert(/^https:\/\//.test(boundaryMetadataData.source.sourceUrl || ''), 'Survey of India boundary source must use HTTPS.');
+assert(/^https:\/\//.test(boundaryMetadataData.source.metadataUrl || ''), 'Survey of India boundary metadata PDF must use HTTPS.');
+warnings.push('Survey of India Version 01 metadata is recorded for all 36 regions; per-region legal/effective dates are not published in the source metadata and remain unspecified.');
 
 const report = {
   generatedAt: new Date().toISOString(),

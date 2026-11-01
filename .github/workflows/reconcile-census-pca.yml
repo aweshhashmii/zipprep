@@ -29,7 +29,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: census-pca-2011-reconciliation
-          path: reports/census-pca-2011-reconciliation.json
+          path: |
+            reports/census-pca-2011-reconciliation.json
+            reports/india-district-census-2011-official-reconciled.json
           if-no-files-found: warn
           retention-days: 30
       - name: Fail if source comparison is incomplete or contains discrepancies

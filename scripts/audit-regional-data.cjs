@@ -61,6 +61,7 @@ const districtProfileTripuraData = read('data/district-profile-isfr2023-tripura.
 const districtProfileMeghalayaData = read('data/district-profile-isfr2023-meghalaya.json');
 const districtProfileMizoramData = read('data/district-profile-isfr2023-mizoram.json');
 const lgdData = read('data/india-lgd-administrative-2026.json');
+const urbanLgdMirrorData = read('data/urban-local-bodies-lgd-mirror-2026-09-25.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
 
@@ -752,6 +753,17 @@ for (const region of regions) {
 
 warnings.push('Current LGD district snapshot date: ' + (lgdData.source && lgdData.source.sourceDate || 'unknown') + '; verify against live LGD/DILRMP before each release.');
 if (districtProfileRows.length < lgdDistricts.length) warnings.push((lgdDistricts.length - districtProfileRows.length) + ' current LGD districts still lack an imported district profile record; directory presence does not imply a complete district profile.');
+const urbanLgdRows = urbanLgdMirrorData.records || [];
+assert(urbanLgdMirrorData.source && urbanLgdMirrorData.source.verificationStatus === 'provisional_secondary_mirror', 'Urban local-body mirror must retain provisional secondary-source status.');
+assert(urbanLgdRows.length === 35, 'Urban local-body mirror should contain exactly the 35 jurisdictions listed by its dated source.');
+const urbanLgdTotals = urbanLgdRows.reduce((sum,row) => {
+  for (const key of ['municipalCorporations','municipalities','nagarPanchayats','notifiedAreaCouncils','urbanLocalBodiesTotal']) sum[key] += Number(row.fields && row.fields[key] || 0);
+  return sum;
+}, {municipalCorporations:0,municipalities:0,nagarPanchayats:0,notifiedAreaCouncils:0,urbanLocalBodiesTotal:0});
+assert(urbanLgdTotals.municipalCorporations === 273 && urbanLgdTotals.municipalities === 2191 && urbanLgdTotals.nagarPanchayats === 2420 && urbanLgdTotals.notifiedAreaCouncils === 167 && urbanLgdTotals.urbanLocalBodiesTotal === 5051, 'Urban local-body mirror totals do not match its cited 25 September 2026 table.');
+assert(!urbanLgdRows.some(row => row.regionName === 'Lakshadweep'), 'Do not add an unsupported Lakshadweep zero from a source that omits the jurisdiction.');
+warnings.push('Statewise urban local-body counts are provisional third-party transcriptions of an LGD-derived 25 Sep 2026 snapshot; primary LGD/OGD reconciliation remains outstanding.');
+
 const politicalRows = politicalData.records || [];
 const politicalByName = new Map();
 for (const row of politicalRows) {

@@ -10,7 +10,6 @@ import json
 import re
 import sys
 import urllib.request
-from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -33,21 +32,13 @@ STATE_ALIASES = {
     "nationalcapitalterritoryofdelhi": "delhi",
     "pondicherry": "puducherry",
     "jammukashmir": "jammuandkashmir",
-    "andamanandnicobarislands": "andamanandnicobarislands",
 }
 DISTRICT_ALIASES = {
-    "leh": "lehladakh",
-    "lehladakh": "lehladakh",
-    "lahulspiti": "lahulandspiti",
-    "lahulandspiti": "lahulandspiti",
-    "mewat": "nuh",
-    "gurgaon": "gurugram",
-    "bangalore": "bengaluru",
-    "bangalorerural": "bengalururural",
-    "bellary": "ballari",
-    "shimoga": "shivamogga",
-    "mysore": "mysuru",
-    "gulbarga": "kalaburagi",
+    "leh": "lehladakh", "lehladakh": "lehladakh",
+    "lahulspiti": "lahulandspiti", "lahulandspiti": "lahulandspiti",
+    "mewat": "nuh", "gurgaon": "gurugram", "bangalore": "bengaluru",
+    "bangalorerural": "bengalururural", "bellary": "ballari",
+    "shimoga": "shivamogga", "mysore": "mysuru", "gulbarga": "kalaburagi",
 }
 
 
@@ -63,7 +54,7 @@ def canon_district(value: object) -> str:
 
 HEADER_ALIASES = {
     "state": {"state", "statename", "stateut", "stateutname"},
-    "district": {"district", "districtname", "districtcode", "districtcensuscode"},
+    "district": {"district", "districtname"},
     "area": {"areaname", "nameofarea", "area"},
     "households": {"numberofhouseholds", "households", "totalhouseholds"},
     "population": {"totalpopulationpersons", "populationpersons", "totalpopulation", "population"},
@@ -76,10 +67,6 @@ HEADER_ALIASES = {
     "st": {"scheduledtribespersons", "scheduledtribes", "stpopulation", "st"},
     "workers": {"totalworkerspersons", "totalworkers", "workers"},
 }
-
-
-def header_key(value: object) -> str:
-    return norm(value)
 
 
 def find_header(rows):
@@ -95,8 +82,7 @@ def find_header(rows):
         found = {}
         for field, aliases in HEADER_ALIASES.items():
             for col, label in enumerate(combined):
-                key = header_key(label)
-                if key in aliases:
+                if norm(label) in aliases:
                     found[field] = col
                     break
         if ("district" in found or "area" in found) and "population" in found and "male" in found and "female" in found:
@@ -109,18 +95,17 @@ def number(value):
         return None
     if isinstance(value, (int, float)):
         return int(round(value))
-    text = str(value).replace(",", "").strip()
     try:
-        return int(round(float(text)))
+        return int(round(float(str(value).replace(",", "").strip())))
     except ValueError:
         return None
 
 
 def main():
     REPORT.parent.mkdir(parents=True, exist_ok=True)
-    mirror = json.loads(DATA.read_text(encoding="utf-8"))
-    records = mirror.get("records", [])
-    with urllib.request.urlopen(URL, timeout=90) as response:
+    records = json.loads(DATA.read_text(encoding="utf-8")).get("records", [])
+    request = urllib.request.Request(URL, headers={"User-Agent": "ZipPrep-source-audit/1.0"})
+    with urllib.request.urlopen(request, timeout=90) as response:
         workbook_bytes = response.read()
     tmp = ROOT / "reports" / "official-pca-sd-2011.xlsx"
     tmp.write_bytes(workbook_bytes)
@@ -138,34 +123,31 @@ def main():
             "sourceCatalogue": "https://censusindia.gov.in/nada/index.php/catalog/6191",
             "checkedAt": datetime.now(timezone.utc).isoformat(),
             "workbookSheets": [{"name": name, "rows": len(rows), "sampleHeaders": labels[:30]} for name, rows, _, _, labels in candidates],
-            "message": "Official workbook downloaded, but its header layout did not match the conservative parser. No records were verified."
+            "message": "Official workbook downloaded, but its header layout did not match the parser. No records were verified."
         }
         REPORT.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
         print(json.dumps(report, indent=2))
         return 2
 
     sheet_name, rows, header_idx, columns, labels = selected
-    official = {}
-    duplicate_official = []
+    official, duplicate_official = {}, []
     for row in rows[header_idx + 1:]:
         def get(field):
             col = columns.get(field)
             return row[col] if col is not None and col < len(row) else None
-        district = get("district") or get("area")
+        # Prefer the human-readable Area Name over numeric administrative codes.
+        district = get("area") or get("district")
         state = get("state")
         if not district or not state:
             continue
         key = (canon_state(state), canon_district(district))
         values = {field: number(get(field)) for field in ("households", "population", "male", "female", "literate", "sc", "st", "workers")}
-        values["literacyRate"] = get("literacy_rate")
-        values["sexRatio"] = get("sex_ratio")
+        values["literacyRate"], values["sexRatio"] = get("literacy_rate"), get("sex_ratio")
         if key in official:
             duplicate_official.append({"state": key[0], "district": key[1]})
         official[key] = values
 
-    mismatches = []
-    missing = []
-    matched = 0
+    mismatches, missing, matched = [], [], 0
     fields = ("households", "population", "male", "female", "literate", "sc", "st", "workers")
     for record in records:
         key = (canon_state(record.get("state")), canon_district(record.get("district")))
@@ -178,34 +160,27 @@ def main():
             if source.get(field) is not None and number(record.get(field)) != source[field]:
                 differences.append({"field": field, "mirror": number(record.get(field)), "official": source[field]})
         for field in ("literacyRate", "sexRatio"):
-            official_value = source.get(field)
-            if official_value is not None:
+            value = source.get(field)
+            if value is not None:
                 try:
-                    a, b = float(record.get(field)), float(official_value)
-                    if abs(a - b) > 0.02:
-                        differences.append({"field": field, "mirror": a, "official": b})
+                    if abs(float(record.get(field)) - float(value)) > 0.02:
+                        differences.append({"field": field, "mirror": record.get(field), "official": value})
                 except (TypeError, ValueError):
-                    differences.append({"field": field, "mirror": record.get(field), "official": official_value})
+                    differences.append({"field": field, "mirror": record.get(field), "official": value})
         matched += 1
         if differences:
             mismatches.append({"state": record.get("state"), "district": record.get("district"), "censusDistrictCode": record.get("censusDistrictCode"), "differences": differences})
 
     status = "exact_match" if len(records) == 640 and matched == 640 and not missing and not mismatches and not duplicate_official else "review_required"
     report = {
-        "status": status,
-        "sourceUrl": URL,
+        "status": status, "sourceUrl": URL,
         "sourceCatalogue": "https://censusindia.gov.in/nada/index.php/catalog/6191",
-        "checkedAt": datetime.now(timezone.utc).isoformat(),
-        "workbookSheet": sheet_name,
-        "workbookRowsParsed": len(official),
-        "mirrorRows": len(records),
-        "matchedRows": matched,
-        "missingRows": missing,
-        "mismatchRows": mismatches,
-        "duplicateOfficialKeys": duplicate_official,
+        "checkedAt": datetime.now(timezone.utc).isoformat(), "workbookSheet": sheet_name,
+        "workbookRowsParsed": len(official), "mirrorRows": len(records), "matchedRows": matched,
+        "missingRows": missing, "mismatchRows": mismatches, "duplicateOfficialKeys": duplicate_official,
         "matchedFields": list(fields) + ["literacyRate", "sexRatio"],
         "parserHeaderMap": {field: labels[col] for field, col in columns.items()},
-        "policy": "This report is a technical comparison only. The application data remains unverified until all discrepancies and historical boundary/name changes are reviewed and the reviewed result is committed."
+        "policy": "Technical comparison only. Application data remains unverified until discrepancies and historical boundary/name changes are reviewed and the reviewed result is committed."
     }
     REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k not in ("missingRows", "mismatchRows")}, indent=2, ensure_ascii=False))

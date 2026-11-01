@@ -23,6 +23,16 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Python for LGD aggregation
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build district-wise LGD counts from latest published source reports
+        run: |
+          python -m pip install --disable-pip-version-check duckdb==2.0.0
+          python scripts/build-district-lgd-enrichment.py
+
       - name: Check Explore India JavaScript syntax
         run: node --check explore-india.js
 
@@ -71,6 +81,14 @@ jobs:
           console.log(`Validated ${inlineScripts.length} inline scripts, ${jsonFiles.length} JSON files, and 36 unique GeoJSON features.`);
           NODE
 
+      - name: Preserve generated district LGD dataset for deployment
+        uses: actions/upload-artifact@v4
+        with:
+          name: district-lgd-profile-enrichment
+          path: data/district-lgd-profile-enrichment.json
+          if-no-files-found: error
+
+
   deploy:
     name: Publish to GitHub Pages
     needs: validate
@@ -86,6 +104,12 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Download generated district LGD dataset
+        uses: actions/download-artifact@v4
+        with:
+          name: district-lgd-profile-enrichment
+          path: data/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

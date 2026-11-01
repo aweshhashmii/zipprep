@@ -89,7 +89,7 @@ def main():
                 item["fields"][field] = int(count)
 
     for item in records.values():
-        item["verifiedFields"] = ["administrative." + key for key in item["fields"]]
+        item["sourceBackedFields"] = ["administrative." + key for key in item["fields"]]
         item["sourceRecords"] = [{
             "sourceId": "moprLgdDailyParquetMirror2026",
             "title": "Ministry of Panchayati Raj — Local Government Directory (LGD), normalized daily report mirror",

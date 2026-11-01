@@ -63,6 +63,7 @@ const districtProfileMizoramData = read('data/district-profile-isfr2023-mizoram.
 const lgdData = read('data/india-lgd-administrative-2026.json');
 const urbanLgdMirrorData = read('data/urban-local-bodies-lgd-mirror-2026-09-25.json');
 const officeholderData = read('data/region-officeholders-official-partial-2026-11-01.json');
+const districtHierarchyData = read('data/district-lgd-administrative-hierarchy-2026-10-21.json');
 const geo = read('data/india-states-36.geojson');
 const regions = regionsData.regions || [];
 
@@ -717,6 +718,22 @@ for (const row of districtProfileRows) {
       'Verified district field lacks a field-specific HTTPS source: ' + row.name + '.' + field);
   }
 }
+const districtHierarchyRows = districtHierarchyData.records || [];
+const districtHierarchyTotals = districtHierarchyRows.reduce((sum,row) => ({
+  blocks: sum.blocks + Number(row.developmentBlockCount || 0),
+  subdistricts: sum.subdistricts + Number(row.lgdSubdistrictCount || 0)
+}), {blocks:0,subdistricts:0});
+assert(districtHierarchyData.source && districtHierarchyData.source.referenceDate === '2026-10-21', 'District hierarchy must retain its LGD source date.');
+assert(districtHierarchyData.source && districtHierarchyData.source.verificationStatus === 'official_source_derived_secondary_mirror', 'District hierarchy must retain secondary-mirror provenance.');
+assert(districtHierarchyRows.length === 784, 'District hierarchy snapshot must contain 784 LGD district rows.');
+assert(new Set(districtHierarchyRows.map(row => String(row.lgdCode))).size === 784, 'District hierarchy LGD codes must be unique.');
+assert(districtHierarchyTotals.blocks === 7342, 'District development-block associations must reconcile to 7,342.');
+assert(districtHierarchyTotals.subdistricts === 7092, 'District sub-districts must reconcile to 7,092.');
+for (const row of districtHierarchyRows) {
+  assert(row.lgdCode && row.districtName && row.stateName, 'District hierarchy row lacks identity fields: ' + JSON.stringify(row));
+  assert(Array.isArray(row.developmentBlocks) && row.developmentBlocks.length === row.developmentBlockCount, 'Development-block names/count mismatch: ' + row.districtName);
+  assert(Array.isArray(row.lgdSubdistricts) && row.lgdSubdistricts.length === row.lgdSubdistrictCount, 'LGD sub-district names/count mismatch: ' + row.districtName);
+}
 const lgdStates = lgdData.states || [];
 const lgdDistricts = lgdData.districts || [];
 assert(lgdStates.length === 36, 'LGD snapshot must contain 36 states/UTs.');
@@ -918,7 +935,10 @@ const report = {
     unescoProperties: heritageRows.length,
     unescoRegions: new Set(heritageRows.map(r => r.regionName)).size,
     officialOfficeholderRegions: officeholderRegions.size,
-    regionsWithDistrictProfiles: districtProfileRegions
+    regionsWithDistrictProfiles: districtProfileRegions,
+    districtHierarchyRows: districtHierarchyRows.length,
+    districtDevelopmentBlockAssociations: districtHierarchyTotals.blocks,
+    districtLgdSubdistricts: districtHierarchyTotals.subdistricts
   },
   categories: coverage,
   warnings,

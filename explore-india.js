@@ -86,7 +86,8 @@ function loadRegionCatalog(){
   fetch('./data/district-lgd-profile-enrichment.json').then(function(r){if(!r.ok)throw Error('District LGD profile enrichment HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-boundary-metadata-soi-2025.json').then(function(r){if(!r.ok)throw Error('Survey of India boundary metadata HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-district-portal-directories-igod-2026.json').then(function(r){if(!r.ok)throw Error('IGOD district portal directory HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('https://livingatlas.esri.in/server1/rest/services/ForestSurvey/District_Wise_Forest_Cover_2023/MapServer/0/query?where=1%3D1&outFields=lgd_districtcode,districtname,statename,calarea,vdf2023,mdf2023,of2023,total,percalarea,change2021rasbased,scrub&returnGeometry=false&f=json').then(function(r){if(!r.ok)throw Error('FSI 2023 district forest service HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('https://livingatlas.esri.in/server1/rest/services/ForestSurvey/District_Wise_Forest_Cover_2023/MapServer/0/query?where=1%3D1&outFields=lgd_districtcode,districtname,statename,calarea,vdf2023,mdf2023,of2023,total,percalarea,change2021rasbased,scrub&returnGeometry=false&f=json').then(function(r){if(!r.ok)throw Error('FSI 2023 district forest service HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/district-headquarters-soi-2017.json').then(function(r){if(!r.ok)throw Error('Survey of India district headquarters HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
@@ -124,6 +125,7 @@ function loadRegionCatalog(){
   var boundaryMetadata=parts[42];
   var districtPortalDirectories=parts[43];
   var fsiDistrictForest=parts[44];
+  var districtHeadquarters=parts[45];
   if(highCourts&&Array.isArray(highCourts.records))highCourts.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;var benches=Array.isArray(item.benches)&&item.benches.length?' · benches: '+item.benches.join(', '):'';region.highCourt=item.highCourt+' · principal seat: '+item.principalSeat+benches;region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:highCourts.source.title,sourceUrl:highCourts.source.sourceUrl,referenceDate:highCourts.source.referenceDate,lastVerifiedAt:highCourts.source.lastVerifiedAt,fields:['highCourt'],note:highCourts.source.note})});
   if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],maritimeFeatures:item.maritimeFeatures||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
   [supplemental,supplementalBatch,tigerReserves,ramsarSites,protectedAreaStats,forestCoverStats].forEach(function(dataset){
@@ -174,6 +176,26 @@ function loadRegionCatalog(){
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
   districtProfileData=districtProfiles&&Array.isArray(districtProfiles.records)?districtProfiles:null;
   districtAdministrativeData=districtAdministrative&&Array.isArray(districtAdministrative.records)?districtAdministrative:null;
+  if(districtHeadquarters&&Array.isArray(districtHeadquarters.records)&&districtProfiles&&Array.isArray(districtProfiles.records)){
+   districtHeadquarters.records.forEach(function(item){
+    var row=districtProfiles.records.find(function(existing){return String(existing.lgdCode)===String(item.lgdCode)});
+    if(!row||!item.headquarters)return;
+    if(!row.headquarters){
+     row.headquarters=item.headquarters;
+     row.headquartersSourceNote='Survey of India / NIC BharatMaps District_Hq point layer; historical layer updated 2017; exact LGD-code match only. Confirm current headquarters with the district administration.';
+     row.sourceBackedFields=Array.from(new Set((row.sourceBackedFields||[]).concat(['headquarters'])));
+     row.sourceRecords=(row.sourceRecords||[]).concat([{
+      sourceId:districtHeadquarters.source.sourceId,
+      title:districtHeadquarters.source.title,
+      sourceUrl:districtHeadquarters.source.sourceUrl,
+      referenceDate:districtHeadquarters.source.referenceDate,
+      lastVerifiedAt:districtHeadquarters.source.lastFetchedAt,
+      fields:['headquarters'],
+      note:districtHeadquarters.source.limitations
+     }]);
+    }
+   });
+  }
   if(fsiDistrictForest&&Array.isArray(fsiDistrictForest.features)&&districtProfiles&&Array.isArray(districtProfiles.records)){
    fsiDistrictForest.features.forEach(function(feature){
     var a=feature.attributes||{},row=districtProfiles.records.find(function(item){return String(item.lgdCode)===String(a.lgd_districtcode)});
@@ -396,7 +418,7 @@ function selectDistrict(name,layer){
 
  var profile=$('district-selected-profile');
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+
- stat('District headquarters',value(record.headquarters),'Official district administration portal · source record not available')+
+ stat('District headquarters',value(record.headquarters),record.headquartersSourceNote||'District administration source record; confirm current status against the official district portal')+
  stat('Current LGD district code',lgdDistrict?lgdDistrict.lgdCode:'Not matched to current LGD directory','Ministry of Panchayati Raj · LGD snapshot '+(lgdDirectory&&lgdDirectory.source.sourceDate||'not loaded'))+
  stat('District boundary dataset version / effective date',region&&region.districts?(region.districts.boundaryVersion+' / '+region.districts.effectiveFrom):'Not stated in source metadata','Survey of India Administrative Boundary Database · Version 01 harmonized with ORGI; published metadata does not specify a legal effective date')+
 

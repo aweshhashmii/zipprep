@@ -457,7 +457,7 @@ function renderProfile(name,count){
  var display=function(v){return v===null||v===undefined||v===''?'Not available':v};
  var seatSource=pol.sourceId==='eci'?'Election Commission of India · reference '+(pol.referenceYear||'2026')+' · last verified '+(pol.lastVerifiedAt||'not recorded'):'Election Commission of India · source record not available';
  var officeholderSource=function(field){var src=(record&&record.sourceRecords||[]).find(function(item){return Array.isArray(item.fields)&&item.fields.indexOf('political.'+field)>=0});return src?(src.title+' · reference '+(src.referenceDate||'date not stated')+' · verified '+(src.lastVerifiedAt||'date not stated')):'Relevant official state/UT portal · no field-specific source record';};
- root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending"></p>'+
+ root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3>'+
  '<div class="atlas-profile-grid">'+
  stat('Official capital',display(record&&record.capital),'State/UT government source; seasonal or additional capital arrangements are noted where applicable')+
  stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Not stated in available source','Government of India administrative structure')+

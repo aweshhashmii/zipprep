@@ -84,7 +84,8 @@ function loadRegionCatalog(){
   fetch('./data/region-officeholders-official-partial-2026-11-01.json').then(function(r){if(!r.ok)throw Error('Official officeholder dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/district-lgd-administrative-hierarchy-2026-10-21.json').then(function(r){if(!r.ok)throw Error('District LGD hierarchy dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-boundary-metadata-soi-2025.json').then(function(r){if(!r.ok)throw Error('Survey of India boundary metadata HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/region-district-portal-directories-igod-2026.json').then(function(r){if(!r.ok)throw Error('IGOD district portal directory HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-district-portal-directories-igod-2026.json').then(function(r){if(!r.ok)throw Error('IGOD district portal directory HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('https://livingatlas.esri.in/server1/rest/services/ForestSurvey/District_Wise_Forest_Cover_2023/MapServer/0/query?where=1%3D1&outFields=lgd_districtcode,districtname,statename,calarea,vdf2023,mdf2023,of2023,total,percalarea,change2021rasbased,scrub&returnGeometry=false&f=json').then(function(r){if(!r.ok)throw Error('FSI 2023 district forest service HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
@@ -120,6 +121,7 @@ function loadRegionCatalog(){
   var districtAdministrative=parts[40];
   var boundaryMetadata=parts[41];
   var districtPortalDirectories=parts[42];
+  var fsiDistrictForest=parts[43];
   if(highCourts&&Array.isArray(highCourts.records))highCourts.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;var benches=Array.isArray(item.benches)&&item.benches.length?' · benches: '+item.benches.join(', '):'';region.highCourt=item.highCourt+' · principal seat: '+item.principalSeat+benches;region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:highCourts.source.title,sourceUrl:highCourts.source.sourceUrl,referenceDate:highCourts.source.referenceDate,lastVerifiedAt:highCourts.source.lastVerifiedAt,fields:['highCourt'],note:highCourts.source.note})});
   if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],maritimeFeatures:item.maritimeFeatures||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
   [supplemental,supplementalBatch,tigerReserves,ramsarSites,protectedAreaStats,forestCoverStats].forEach(function(dataset){
@@ -160,6 +162,21 @@ function loadRegionCatalog(){
   lgdDirectory=lgd&&Array.isArray(lgd.states)&&Array.isArray(lgd.districts)?lgd:null;
   districtProfileData=districtProfiles&&Array.isArray(districtProfiles.records)?districtProfiles:null;
   districtAdministrativeData=districtAdministrative&&Array.isArray(districtAdministrative.records)?districtAdministrative:null;
+  if(fsiDistrictForest&&Array.isArray(fsiDistrictForest.features)&&districtProfiles&&Array.isArray(districtProfiles.records)){
+   fsiDistrictForest.features.forEach(function(feature){
+    var a=feature.attributes||{},row=districtProfiles.records.find(function(item){return String(item.lgdCode)===String(a.lgd_districtcode)});
+    if(!row)return;
+    row.forestCoverCalculatedArea2023SqKm=a.calarea;
+    row.veryDenseForest2023SqKm=a.vdf2023;
+    row.moderatelyDenseForest2023SqKm=a.mdf2023;
+    row.openForest2023SqKm=a.of2023;
+    row.forestCover2023SqKm=a.total;
+    row.forestCoverPercent2023=a.percalarea;
+    row.forestCoverChangeSince2021SqKm=a.change2021rasbased;
+    row.scrub2023SqKm=a.scrub;
+    row.fsi2023Source='Forest Survey of India ISFR 2023 district layer via Esri India Living Atlas';
+   });
+  }
   if(lgdDirectory)data.regions.forEach(function(region){
    var state=lgdDirectory.states.find(function(item){var a=item.name.toLowerCase().replace(/&/g,'and').replace(/^the /,'');var b=region.name.toLowerCase().replace(/&/g,'and').replace(/^the /,'');return a===b});
    if(!state)return;
@@ -390,54 +407,13 @@ function selectDistrict(name,layer){
  stat('Households',census?Number(census.households).toLocaleString('en-IN'):'Not stated in available source','Census of India · 2011')+
  stat('Census district code',census?census.censusDistrictCode:'Not stated in available source','Census of India · 2011')+
 
- stat('Development blocks',record.blocksCount!==undefined?record.blocksCount:(Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'Not stated in available source'),'Government of Karnataka · Chitradurga district administrative summary')+
- stat('Sub-divisions',record.subdivisionsCount!==undefined?record.subdivisionsCount:'Not stated in available source','Government of Karnataka · Chitradurga district administrative summary')+
- stat('Hoblies',record.hobliesCount!==undefined?record.hobliesCount:'Not stated in available source','Government of Karnataka · Chitradurga district administrative summary')+
- stat('Gram Panchayats',record.gramPanchayats!==undefined?record.gramPanchayats:'Not stated in available source','Government of Karnataka · Chitradurga district administrative summary')+
- stat('Villages',record.villages!==undefined?record.villages:'Not stated in available source','Government of Karnataka · Chitradurga district administrative summary')+
- stat('Urban local bodies',record.urbanLocalBodies!==undefined?record.urbanLocalBodies:'Not stated in available source','Government of Karnataka · Chitradurga district administrative summary')+
- stat('Major rivers',Array.isArray(record.majorRivers)&&record.majorRivers.length?record.majorRivers.join(', '):'Not stated in available source','Official hydrography / state water resources department')+
- '</div>'+(lgdAdministrativeRecord?'<h4>LGD development blocks ('+lgdAdministrativeRecord.developmentBlockCount+')</h4><p class="atlas-data-pending">'+textSafe(lgdAdministrativeRecord.developmentBlocks.join(', ')||'No reported development blocks in this snapshot')+'</p><h4>LGD sub-districts ('+lgdAdministrativeRecord.lgdSubdistrictCount+')</h4><p class="atlas-data-pending">'+textSafe(lgdAdministrativeRecord.lgdSubdistricts.join(', ')||'No reported sub-districts in this snapshot')+'</p>':'')+'<h3>History & culture</h3><p class="atlas-data-pending">'+textSafe(record.historicalSignificance||'Historical information not yet verified.')+'</p><p class="atlas-data-pending">'+textSafe(Array.isArray(record.culturalHighlights)&&record.culturalHighlights.length?record.culturalHighlights.join(', '):'Cultural highlights not yet verified.')+'</p>'+(record.description?'<p class="atlas-data-pending">'+textSafe(record.description)+'</p>':'')+districtSourcesHtml+'<p class="atlas-data-pending">'+(census?'Demographic figures are historical Census 2011 data. District names and boundaries have changed in some states since 2011; unmatched records are deliberately left blank.':'No exact match to a verified Census 2011 district profile is available. Demographic values are withheld rather than guessed.')+'</p><p class="atlas-data-pending">Census source: <a href="https://censusindia.gov.in/census.website/en/data/population-finder" target="_blank" rel="noopener">Census of India — Population Finder</a>.</p>';
- var root=$('district-directory');if(root)root.querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',String(b.textContent===name))});
-}
-
-function renderProfile(name,count){
- var root=$('panel-profile');if(!root)return;
- var record=regionCatalog&&regionCatalog.regions.find(function(r){return r.name===name});
- var pol=record&&record.political||{},adm=record&&record.administration||{};
- var display=function(v){return v===null||v===undefined||v===''?'Not stated in available source':v};
- var seatSource=pol.sourceId==='eci'?'Election Commission of India · reference '+(pol.referenceYear||'2026')+' · last verified '+(pol.lastVerifiedAt||'not recorded'):'Election Commission of India · source record not available';
- root.innerHTML='<p class="atlas-kicker">ADMINISTRATIVE &amp; POLITICAL SNAPSHOT</p><h3>'+textSafe(name)+' overview</h3><p class="atlas-data-pending">Current administrative district counts and LGD identifiers come from the dated Ministry of Panchayati Raj Local Government Directory snapshot. The number of district polygons available in the map service is shown separately; a missing polygon does not remove a district from the administrative directory. Parliamentary seat strengths are sourced from the Election Commission of India; officeholders and other administrative totals remain pending until separately verified.</p>'+
- '<div class="atlas-profile-grid">'+
- stat('Official capital',display(record&&record.capital),'State/UT government source; seasonal or additional capital arrangements are noted where applicable')+
- stat('Region type',record?(record.regionType==='state'?'State':'Union Territory'):'Not stated in available source','Government of India administrative structure')+
- stat('Regional catalogue updated',display(regionCatalog&&regionCatalog.lastUpdatedAt),'Existing catalogue metadata')+
- stat('State boundary source',display(record&&record.boundary&&record.boundary.sourceId),'Existing state boundary metadata')+
- stat('State boundary geometry version / effective date',record&&record.boundary?(display(record.boundary.geometryVersion)+' / '+display(record.boundary.effectiveFrom)):'Not stated in available source','Existing state boundary metadata')+
- stat('Current administrative district count',display(adm.districtCount),'Local Government Directory · snapshot '+(adm.districtCountReferenceDate||'not loaded')+'; not the number of map polygons')+
- stat('Districts mapped in boundary service',count,'BharatMapService district polygons · current response; geometry coverage only')+
- stat('Chief Minister (where applicable)',display(pol.chiefMinisterOrAdministrator),'Relevant state/UT government portal · last verified: pending')+
- stat('Governor / Lieutenant Governor / UT Administrator',display(pol.governorOrLieutenantGovernor),'President of India / relevant Raj Bhavan or UT administration')+
- stat('Lok Sabha elected seats',display(pol.lokSabhaSeats),seatSource)+
- stat('Rajya Sabha seats',display(pol.rajyaSabhaSeats),seatSource)+
- stat('Legislative Assembly membership',display(pol.assemblySeats),seatSource)+
- stat('Legislative Council',display(pol.legislativeCouncil),'Relevant state legislature / Parliament records')+
- stat('Development blocks',display(adm.blocks),'Ministry of Panchayati Raj — Lok Sabha annexure / LGD snapshot 01 Feb 2024')+
- stat('Gram Panchayats',display(adm.gramPanchayats),'Ministry of Panchayati Raj / state rural development department')+
- stat('Gram Panchayat Development Plans uploaded (2025–26)',display(adm.gpdpUploaded),'Ministry of Panchayati Raj · eGramSwaraj report generated 13 Jul 2026; uploaded plans are progress, not total Panchayat count')+
- stat('Intermediate Panchayats',display(adm.intermediatePanchayats),'Ministry of Panchayati Raj / state rural development department')+
- stat('District Panchayats',display(adm.districtPanchayats),'Ministry of Panchayati Raj / state rural development department')+
- stat('Municipal corporations',display(adm.municipalCorporations),adm.urbanLocalBodyVerificationStatus==='provisional_secondary_mirror'?'Provisional LGD-derived snapshot · 25 Sep 2026; secondary transcription, not primary-source verified':'Ministry of Housing and Urban Affairs / state ULB directory')+
- stat('Municipalities / Nagar Panchayats',display(adm.municipalities)+' / '+display(adm.nagarPanchayats),adm.urbanLocalBodyVerificationStatus==='provisional_secondary_mirror'?'Provisional LGD-derived snapshot · 25 Sep 2026; secondary transcription, not primary-source verified':'Ministry of Housing and Urban Affairs / state ULB directory')+
- stat('Notified Area Councils / total urban local bodies',display(adm.notifiedAreaCouncils)+' / '+display(adm.urbanLocalBodiesTotal),adm.urbanLocalBodyVerificationStatus==='provisional_secondary_mirror'?'Includes notified area councils; provisional LGD-derived snapshot · 25 Sep 2026':'Local Government Directory / state ULB directory')+
- stat('Geographical area',record&&record.areaSqKm!==null&&record.areaSqKm!==undefined?Number(record.areaSqKm).toLocaleString('en-IN')+' km²':'Not stated in available source','Area reference and date basis are recorded in regional source notes')+
- stat('Formation date',display(record&&record.formationDate),'Formation/statehood milestone; source and date basis are recorded in the regional data')+
- stat('Regional data last verified',display(record&&record.lastVerifiedAt),'Existing regional record metadata')+
- stat('District boundary source',display(record&&record.districts&&record.districts.boundarySourceId),'Existing district boundary metadata')+
- stat('District boundary version / effective date',record&&record.districts?(display(record.districts.boundaryVersion)+' / '+display(record.districts.effectiveFrom)):'Not stated in available source','Existing district boundary metadata')+
- stat('High Court',display(record&&record.highCourt),'Official High Court / state government portal')+
- stat('Official languages',record&&record.officialLanguages&&record.officialLanguages.length?record.officialLanguages.join(', '):'Not stated in available source','Relevant state / UT government portal')+
- '</div><p class="atlas-data-pending">'+textSafe(record&&record.introduction||'A sourced regional introduction has not yet been added.')+'</p>'+((record&&Array.isArray(record.sourceRecords)&&record.sourceRecords.length)?'<h3>Region-specific source notes</h3><div class="atlas-data-sources">'+record.sourceRecords.map(function(src){var url=src.sourceUrl||src.url;var label=src.title||src.sourceId||src.field||'Source record';var fields=Array.isArray(src.fields)&&src.fields.length?' · fields: '+src.fields.join(', '):'';var verified=src.lastVerifiedAt?' · last verified '+src.lastVerifiedAt:'';var note=src.note?'<small>'+textSafe(src.note)+'</small>':'';return '<div><a href="'+textSafe(url||'#')+'" target="_blank" rel="noopener noreferrer">'+textSafe(label)+(src.referenceYear?' · '+textSafe(src.referenceYear):src.referenceDate?' · '+textSafe(src.referenceDate):'')+textSafe(fields)+textSafe(verified)+'</a>'+note+'</div>'}).join('')+'</div>':'')+'<div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><h3>District Explorer</h3><p class="atlas-data-pending">Select a district directly on the map to open its individual profile. District names are not duplicated in a separate directory.</p></div>'+
+ stat('Development blocks',lgdAdministrativeRecord?lgdAdministrativeRecord.developmentBlockCount:(record.blocksCount!==undefined?record.blocksCount:(Array.isArray(record.blocks)&&record.blocks.length?record.blocks.join(', '):'No district-level count in loaded LGD snapshot')),'LGD district hierarchy snapshot '+(districtAdministrativeData&&districtAdministrativeData.source.referenceDate||'21 Oct 2026')+' · secondary mirror of LGD source files')+
+ stat('Sub-divisions / LGD sub-districts',lgdAdministrativeRecord?lgdAdministrativeRecord.lgdSubdistrictCount+' ('+(lgdAdministrativeRecord.lgdSubdistricts||[]).join(', ')+')':(record.subdivisionsCount!==undefined?record.subdivisionsCount:'No district-level count in loaded LGD snapshot'),'LGD sub-district entities; may be tehsil, taluk or mandal and are not always state-notified subdivisions')+
+ stat('Hoblies',record.hobliesCount!==undefined?record.hobliesCount:'Not a standard all-India LGD category; available for selected Karnataka districts only','State-specific revenue-administration unit; no nationwide comparable register loaded')+
+ stat('Gram Panchayats',record.gramPanchayats!==undefined?record.gramPanchayats:'District-wise gram panchayat count not yet imported','LGD rural local-body register; state-level or national totals are not substituted for district counts')+
+ stat('Villages',record.villages!==undefined?record.villages:'District-wise village count not yet imported','LGD revenue village register; no district-level total substituted from state totals')+
+ stat('Urban local bodies',record.urbanLocalBodies!==undefined?record.urbanLocalBodies:'District-wise ULB count not yet imported','LGD urban local-body register; existing secondary mirror contains state-level totals only')+
+ stat('Major rivers',Array.isArray(record.majorRivers)&&record.majorRivers.length?record.majorRivers.join(', '):'District-wise river inventory not yet sourced','Official hydrography / state water resources department')+'</div>'}).join('')+'</div>':'')+'<div id="district-selected-profile" class="atlas-district-profile" aria-live="polite"><h3>District Explorer</h3><p class="atlas-data-pending">Select a district directly on the map to open its individual profile. District names are not duplicated in a separate directory.</p></div>'+
  '<p class="atlas-data-pending">Data status: values are shown only where a dated source is available. Missing source-backed values are identified explicitly and are not estimated.</p>'+sourceLinks();
 }
 function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){

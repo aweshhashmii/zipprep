@@ -189,7 +189,7 @@ function loadRegionCatalog(){
       title:districtHeadquarters.source.title,
       sourceUrl:districtHeadquarters.source.sourceUrl,
       referenceDate:districtHeadquarters.source.referenceDate,
-      lastVerifiedAt:districtHeadquarters.source.lastFetchedAt,
+      lastFetchedAt:districtHeadquarters.source.lastFetchedAt,
       fields:['headquarters'],
       note:districtHeadquarters.source.limitations
      }]);

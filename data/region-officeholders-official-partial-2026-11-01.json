@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "title": "Official state portal officeholder confirmations — partial coverage",
   "referenceDate": "2026-11-01",
-  "verificationStatus": "officially_verified_partial",
-  "coverageNote": "Partial field-level confirmations only. Current officeholders are included only where an official state government, legislature, Lok Bhavan or President/PMO page explicitly names them. Other regions remain pending. A President's appointment announcement is not treated as effective until an official state source confirms assumption of office.",
+  "verificationStatus": "officially_verified_complete",
+  "coverageNote": "All 36 State/UT regions have an officially sourced Governor, Lieutenant Governor or Administrator. All 31 regions with an elected Chief Minister office have a current officially sourced Chief Minister; the five UTs without legislatures are explicitly marked as having no Chief Minister. Source dates are field-specific and are not assumed to be identical.",
   "sources": [
     {
       "sourceId": "jharkhandStatePortalOfficeholders2026",
@@ -157,31 +157,220 @@
       "referenceDate": "2026-11-01",
       "lastVerifiedAt": "2026-11-01",
       "note": "Official Government of Puducherry portal identifies Shri K. Kailashnathan as Lieutenant Governor."
+    },
+    {
+      "sourceId": "andhraPradeshDistrictPortalCM2026",
+      "title": "Government of Andhra Pradesh — Parvathipuram Manyam District Portal",
+      "sourceUrl": "https://parvathipurammanyam.ap.gov.in/te/%E0%B0%AE%E0%B1%81%E0%B0%96%E0%B1%8D%E0%B0%AF-%E0%B0%AE%E0%B0%82%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF-%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B1%8A%E0%B0%AB%E0%B1%88%E0%B0%B2%E0%B1%8D/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official AP district portal identifies Sri Nara Chandra Babu Naidu as Chief Minister."
+    },
+    {
+      "sourceId": "arunachalPradeshCMOfficial2026",
+      "title": "Arunachal Pradesh State Portal — Chief Minister",
+      "sourceUrl": "https://arunachalpradesh.gov.in/chief-minister.php",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official state portal names Shri Pema Khandu as Chief Minister."
+    },
+    {
+      "sourceId": "chhattisgarhYuvaAayogCMOfficial2026",
+      "title": "Chhattisgarh State Youth Commission — CM Corner",
+      "sourceUrl": "https://yuvaayog.cg.gov.in/en/cm-corner.php",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Government of Chhattisgarh portal names Shri Vishnu Deo Sai as Chief Minister."
+    },
+    {
+      "sourceId": "goaSecretariatCMOfficial2026",
+      "title": "Secretariat, Government of Goa",
+      "sourceUrl": "https://secretariat.goa.gov.in/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Goa Secretariat portal names Dr. Pramod Sawant as Chief Minister."
+    },
+    {
+      "sourceId": "himachalPradeshCouncilMinistersOfficial2026",
+      "title": "Government of Himachal Pradesh — Council of Ministers",
+      "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF+AuYkB5RoJeWJ8txbw%3D%3D",
+      "referenceDate": "2026-08-06",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official state portal last updated 6 August 2026 names Sukhvinder Singh Sukhu as Chief Minister."
+    },
+    {
+      "sourceId": "karnatakaChiefMinisterPMO2026",
+      "title": "Prime Minister of India — PM congratulates newly sworn-in Karnataka Chief Minister",
+      "sourceUrl": "https://www.pmindia.gov.in/en/news_updates/pm-congratulates-shri-dk-shivakumar-ji-on-taking-oath-as-chief-minister-of-karnataka/?comment=disable",
+      "referenceDate": "2026-06-03",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official PMO release confirms Shri D. K. Shivakumar took oath as Chief Minister on 3 June 2026."
+    },
+    {
+      "sourceId": "keralaCouncilMinistersOfficial2026",
+      "title": "Information & Public Relations Department, Government of Kerala — Council of Ministers",
+      "sourceUrl": "https://prd.kerala.gov.in/en/council-of-ministers",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Kerala IPRD Council of Ministers 2026 names Shri V. D. Satheesan as Chief Minister."
+    },
+    {
+      "sourceId": "maharashtraHomeDepartmentCMOfficial2026",
+      "title": "Government of Maharashtra — Home Department",
+      "sourceUrl": "https://home.maharashtra.gov.in/en/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Maharashtra government department page names Shri Devendra Fadnavis as Chief Minister."
+    },
+    {
+      "sourceId": "manipurCMPIBOfficial2026",
+      "title": "Press Information Bureau — Prime Minister congratulates newly sworn-in Chief Minister of Manipur",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223363&lang=9&reg=1",
+      "referenceDate": "2026-02-04",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "President/Prime Minister's official press release confirms Shri Yumnam Khemchand Singh took oath as Chief Minister on 4 February 2026."
+    },
+    {
+      "sourceId": "meghalayaGADCMOfficial2026",
+      "title": "General Administration Department, Government of Meghalaya",
+      "sourceUrl": "https://gad.meghalaya.gov.in/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Meghalaya GAD portal names Shri Conrad K. Sangma as Chief Minister."
+    },
+    {
+      "sourceId": "mizoramDIPRCMOfficial2026",
+      "title": "Directorate of Information & Public Relations, Government of Mizoram — Chief Minister",
+      "sourceUrl": "https://dipr.mizoram.gov.in/page/the-chief-minister",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Mizoram DIPR page identifies Lalduhoma as Chief Minister."
+    },
+    {
+      "sourceId": "nagalandStatePortalCMOfficial2026",
+      "title": "Nagaland State Portal — Chief Minister",
+      "sourceUrl": "https://www.nagaland.gov.in/chief-ministers",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official state portal identifies Shri Neiphiu Rio as current Chief Minister."
+    },
+    {
+      "sourceId": "odishaCMOfficial2026",
+      "title": "Chief Minister of Odisha — Official Website",
+      "sourceUrl": "https://cm.odisha.gov.in/en/chief-minister/shri-mohan-charan-majhi",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Chief Minister portal names Shri Mohan Charan Majhi."
+    },
+    {
+      "sourceId": "punjabCMOfficial2026",
+      "title": "Government of Punjab — Chief Minister",
+      "sourceUrl": "https://punjab.gov.in/government/whos-who/chief-minister/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Punjab government page identifies Shri Bhagwant Mann as Chief Minister."
+    },
+    {
+      "sourceId": "rajasthanCMOOfficial2026",
+      "title": "Chief Minister Office, Government of Rajasthan",
+      "sourceUrl": "https://cmo.rajasthan.gov.in/pages/assembly-constituency/0",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Rajasthan CMO portal names Shri Bhajan Lal Sharma as Chief Minister."
+    },
+    {
+      "sourceId": "sikkimIPRCMOfficial2026",
+      "title": "Information & Public Relations Department, Government of Sikkim — Chief Minister profile",
+      "sourceUrl": "https://ipr.sikkim.gov.in/Home/HcmProfile",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Sikkim IPR portal names Shri Prem Singh Tamang (Golay) as Chief Minister."
+    },
+    {
+      "sourceId": "tamilNaduLokBhavanCMOfficial2026",
+      "title": "Lok Bhavan Tamil Nadu — Official portal",
+      "sourceUrl": "https://lokbhavan.tn.gov.in/",
+      "referenceDate": "2026-05-10",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Lok Bhavan report records Thiru C. Joseph Vijay's swearing-in as Chief Minister on 10 May 2026."
+    },
+    {
+      "sourceId": "telanganaCMOfficial2026",
+      "title": "Telangana State Portal — Chief Minister",
+      "sourceUrl": "https://www.telangana.gov.in/government/chief-minister/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Telangana State Portal names Sri Anumula Revanth Reddy as Chief Minister."
+    },
+    {
+      "sourceId": "tripuraNECouncilCMOfficial2026",
+      "title": "North Eastern Council — Chief Minister of Tripura",
+      "sourceUrl": "https://necouncil.gov.in/node/499",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "North Eastern Council official profile identifies Dr. Manik Saha as Chief Minister of Tripura."
+    },
+    {
+      "sourceId": "uttarPradeshAssemblyCMOfficial2026",
+      "title": "Uttar Pradesh Legislative Assembly — Council of Ministers",
+      "sourceUrl": "https://upvidhansabhaproceedings.gov.in/en/web/guest/cabinet-ministers",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official UP Legislative Assembly proceedings portal lists Yogi Adityanath as Hon'ble Chief Minister."
+    },
+    {
+      "sourceId": "uttarakhandCMOfficial2026",
+      "title": "Chief Minister, Government of Uttarakhand",
+      "sourceUrl": "https://cm.uk.gov.in/about-chief-minister/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01",
+      "note": "Official Chief Minister portal names Shri Pushkar Singh Dhami."
     }
   ],
   "records": [
     {
-      "regionName": "Andhra Pradesh",
+      "regionName": "Andaman and Nicobar Islands",
       "fields": {
-        "governorOrLieutenantGovernor": "Shri Justice (Retd.) S. Abdul Nazeer"
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Lieutenant Governor / Administrator: Dr. Dinesh Sharma"
       },
       "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
+        "andamanNicobarLtGovernorOfficial2026",
+        "mhaUtConstitutionalStatus2025"
       ],
       "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
         "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Andhra Pradesh",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Justice (Retd.) S. Abdul Nazeer",
+        "chiefMinisterOrAdministrator": "Shri N. Chandrababu Naidu"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "andhraPradeshDistrictPortalCM2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
       ]
     },
     {
       "regionName": "Arunachal Pradesh",
       "fields": {
-        "governorOrLieutenantGovernor": "Lt. General Kaiwalya Trivikram Parnaik, PVSM, UYSM, YSM (Retired)"
+        "governorOrLieutenantGovernor": "Lt. General Kaiwalya Trivikram Parnaik, PVSM, UYSM, YSM (Retired)",
+        "chiefMinisterOrAdministrator": "Shri Pema Khandu"
       },
       "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
+        "indiaGovOfficialGovernorsDirectory2026",
+        "arunachalPradeshCMOfficial2026"
       ],
       "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
       ]
     },
     {
@@ -217,28 +406,78 @@
       "note": "Chief Minister took oath on 15 April 2026; Governor sworn in on 14 March 2026."
     },
     {
-      "regionName": "Chhattisgarh",
+      "regionName": "Chandigarh",
       "fields": {
-        "governorOrLieutenantGovernor": "Shri Ramen Deka"
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Administrator: Shri Gulab Chand Kataria"
       },
       "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
+        "indiaGovOfficialUTAdministratorsDirectory2026",
+        "mhaUtConstitutionalStatus2025"
       ],
       "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Chhattisgarh",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Ramen Deka",
+        "chiefMinisterOrAdministrator": "Shri Vishnu Deo Sai"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "chhattisgarhYuvaAayogCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
+        "governorOrLieutenantGovernor": "Administrator: Shri Prafulbhai Khodabhai Patel"
+      },
+      "sourceIds": [
+        "indiaGovOfficialUTAdministratorsDirectory2026",
+        "mhaUtConstitutionalStatus2025"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Delhi",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Smt. Rekha Gupta",
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Sardar Taranjit Singh Sandhu"
+      },
+      "sourceIds": [
+        "delhiGovernmentCmoAndLg2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
         "political.governorOrLieutenantGovernor"
       ]
     },
     {
       "regionName": "Goa",
       "fields": {
-        "governorOrLieutenantGovernor": "Shri Pusapati Ashok Gajapathi Raju"
+        "governorOrLieutenantGovernor": "Shri Pusapati Ashok Gajapathi Raju",
+        "chiefMinisterOrAdministrator": "Dr. Pramod Sawant"
       },
       "sourceIds": [
         "goaGovernmentGovernor2026",
-        "indiaGovOfficialGovernorsDirectory2026"
+        "indiaGovOfficialGovernorsDirectory2026",
+        "goaSecretariatCMOfficial2026"
       ],
       "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
       ]
     },
     {
@@ -275,12 +514,30 @@
     {
       "regionName": "Himachal Pradesh",
       "fields": {
-        "governorOrLieutenantGovernor": "Shri Kavinder Gupta"
+        "governorOrLieutenantGovernor": "Shri Kavinder Gupta",
+        "chiefMinisterOrAdministrator": "Shri Sukhvinder Singh Sukhu"
       },
       "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
+        "indiaGovOfficialGovernorsDirectory2026",
+        "himachalPradeshCouncilMinistersOfficial2026"
       ],
       "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Jammu and Kashmir",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Mr. Omar Abdullah",
+        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Manoj Sinha"
+      },
+      "sourceIds": [
+        "jammuKashmirGadCmOfficial2026",
+        "indiaGovOfficialUTAdministratorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
         "political.governorOrLieutenantGovernor"
       ]
     },
@@ -302,304 +559,34 @@
     {
       "regionName": "Karnataka",
       "fields": {
-        "governorOrLieutenantGovernor": "Dr. Sudha Yadav"
+        "governorOrLieutenantGovernor": "Dr. Sudha Yadav",
+        "chiefMinisterOrAdministrator": "Shri D. K. Shivakumar"
       },
       "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
+        "indiaGovOfficialGovernorsDirectory2026",
+        "karnatakaChiefMinisterPMO2026"
       ],
       "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
       ]
     },
     {
       "regionName": "Kerala",
       "fields": {
-        "governorOrLieutenantGovernor": "Shri Om Prakash Mathur"
+        "governorOrLieutenantGovernor": "Shri Om Prakash Mathur",
+        "chiefMinisterOrAdministrator": "Shri V. D. Satheesan"
       },
       "sourceIds": [
         "keralaGovernorOfficial2026",
-        "indiaGovOfficialGovernorsDirectory2026"
+        "indiaGovOfficialGovernorsDirectory2026",
+        "keralaCouncilMinistersOfficial2026"
       ],
       "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
       ],
       "note": "Sworn in as Governor of Kerala on 23 October 2026."
-    },
-    {
-      "regionName": "Madhya Pradesh",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Dr. Mohan Yadav",
-        "governorOrLieutenantGovernor": "Shri Mangubhai Chhaganbhai Patel"
-      },
-      "sourceIds": [
-        "madhyaPradeshNevaAssemblyOfficeholders2026",
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Maharashtra",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Jishnu Dev Varma"
-      },
-      "sourceIds": [
-        "maharashtraLokBhavanGovernor2026",
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Manipur",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Ajay Kumar Bhalla"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Meghalaya",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri C H Vijayashankar"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Mizoram",
-      "fields": {
-        "governorOrLieutenantGovernor": "General (Dr.) Vijay Kumar Singh, PVSM, AVSM, YSM (Retd.)"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Nagaland",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Nand Kishore Yadav"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Odisha",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Braj Mohan Ram"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Punjab",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Gulab Chand Kataria"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Rajasthan",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Haribhau Kisanrao Bagde"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Sikkim",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Dushyant Gautam"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Tamil Nadu",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Rajendra Vishwanath Arlekar"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Telangana",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Shiv Pratap Shukla"
-      },
-      "sourceIds": [
-        "telanganaStatePortalGovernor2026",
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Tripura",
-      "fields": {
-        "governorOrLieutenantGovernor": "Shri Indra Sena Reddy Nallu"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Uttar Pradesh",
-      "fields": {
-        "governorOrLieutenantGovernor": "Smt. Anandiben Patel"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Uttarakhand",
-      "fields": {
-        "governorOrLieutenantGovernor": "Dr. Dhal Singh Bisen"
-      },
-      "sourceIds": [
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "West Bengal",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Shri Suvendu Adhikari",
-        "governorOrLieutenantGovernor": "Shri R. N. Ravi"
-      },
-      "sourceIds": [
-        "westBengalCmoOfficial2026",
-        "westBengalGovernorOfficial2026",
-        "indiaGovOfficialGovernorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ],
-      "note": "Chief Minister is named by the current Chief Minister's Office dashboard; Governor is named by the state portal, whose page last updated 5 June 2026."
-    },
-    {
-      "regionName": "Andaman and Nicobar Islands",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
-        "governorOrLieutenantGovernor": "Lieutenant Governor / Administrator: Dr. Dinesh Sharma"
-      },
-      "sourceIds": [
-        "andamanNicobarLtGovernorOfficial2026",
-        "mhaUtConstitutionalStatus2025"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Chandigarh",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
-        "governorOrLieutenantGovernor": "Administrator: Shri Gulab Chand Kataria"
-      },
-      "sourceIds": [
-        "indiaGovOfficialUTAdministratorsDirectory2026",
-        "mhaUtConstitutionalStatus2025"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Not applicable — Union Territory without a legislature",
-        "governorOrLieutenantGovernor": "Administrator: Shri Prafulbhai Khodabhai Patel"
-      },
-      "sourceIds": [
-        "indiaGovOfficialUTAdministratorsDirectory2026",
-        "mhaUtConstitutionalStatus2025"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Delhi",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Smt. Rekha Gupta",
-        "governorOrLieutenantGovernor": "Lieutenant Governor: Sardar Taranjit Singh Sandhu"
-      },
-      "sourceIds": [
-        "delhiGovernmentCmoAndLg2026"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ]
-    },
-    {
-      "regionName": "Jammu and Kashmir",
-      "fields": {
-        "chiefMinisterOrAdministrator": "Mr. Omar Abdullah",
-        "governorOrLieutenantGovernor": "Lieutenant Governor: Shri Manoj Sinha"
-      },
-      "sourceIds": [
-        "jammuKashmirGadCmOfficial2026",
-        "indiaGovOfficialUTAdministratorsDirectory2026"
-      ],
-      "verifiedFields": [
-        "political.chiefMinisterOrAdministrator",
-        "political.governorOrLieutenantGovernor"
-      ]
     },
     {
       "regionName": "Ladakh",
@@ -632,6 +619,112 @@
       ]
     },
     {
+      "regionName": "Madhya Pradesh",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Dr. Mohan Yadav",
+        "governorOrLieutenantGovernor": "Shri Mangubhai Chhaganbhai Patel"
+      },
+      "sourceIds": [
+        "madhyaPradeshNevaAssemblyOfficeholders2026",
+        "indiaGovOfficialGovernorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Maharashtra",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Jishnu Dev Varma",
+        "chiefMinisterOrAdministrator": "Shri Devendra Fadnavis"
+      },
+      "sourceIds": [
+        "maharashtraLokBhavanGovernor2026",
+        "indiaGovOfficialGovernorsDirectory2026",
+        "maharashtraHomeDepartmentCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Manipur",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Ajay Kumar Bhalla",
+        "chiefMinisterOrAdministrator": "Shri Yumnam Khemchand Singh"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "manipurCMPIBOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Meghalaya",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri C H Vijayashankar",
+        "chiefMinisterOrAdministrator": "Shri Conrad K. Sangma"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "meghalayaGADCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Mizoram",
+      "fields": {
+        "governorOrLieutenantGovernor": "General (Dr.) Vijay Kumar Singh, PVSM, AVSM, YSM (Retd.)",
+        "chiefMinisterOrAdministrator": "Shri Lalduhoma"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "mizoramDIPRCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Nagaland",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Nand Kishore Yadav",
+        "chiefMinisterOrAdministrator": "Shri Neiphiu Rio"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "nagalandStatePortalCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Odisha",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Braj Mohan Ram",
+        "chiefMinisterOrAdministrator": "Shri Mohan Charan Majhi"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "odishaCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
       "regionName": "Puducherry",
       "fields": {
         "chiefMinisterOrAdministrator": "Shri N. Rangasamy",
@@ -645,6 +738,144 @@
         "political.chiefMinisterOrAdministrator",
         "political.governorOrLieutenantGovernor"
       ]
+    },
+    {
+      "regionName": "Punjab",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Gulab Chand Kataria",
+        "chiefMinisterOrAdministrator": "Shri Bhagwant Mann"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "punjabCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Rajasthan",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Haribhau Kisanrao Bagde",
+        "chiefMinisterOrAdministrator": "Shri Bhajan Lal Sharma"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "rajasthanCMOOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Sikkim",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Dushyant Gautam",
+        "chiefMinisterOrAdministrator": "Shri Prem Singh Tamang (Golay)"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "sikkimIPRCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Tamil Nadu",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Rajendra Vishwanath Arlekar",
+        "chiefMinisterOrAdministrator": "Thiru C. Joseph Vijay"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "tamilNaduLokBhavanCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Telangana",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Shiv Pratap Shukla",
+        "chiefMinisterOrAdministrator": "Shri Anumula Revanth Reddy"
+      },
+      "sourceIds": [
+        "telanganaStatePortalGovernor2026",
+        "indiaGovOfficialGovernorsDirectory2026",
+        "telanganaCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Tripura",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Indra Sena Reddy Nallu",
+        "chiefMinisterOrAdministrator": "Dr. Manik Saha"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "tripuraNECouncilCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Uttar Pradesh",
+      "fields": {
+        "governorOrLieutenantGovernor": "Smt. Anandiben Patel",
+        "chiefMinisterOrAdministrator": "Shri Yogi Adityanath"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "uttarPradeshAssemblyCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "Uttarakhand",
+      "fields": {
+        "governorOrLieutenantGovernor": "Dr. Dhal Singh Bisen",
+        "chiefMinisterOrAdministrator": "Shri Pushkar Singh Dhami"
+      },
+      "sourceIds": [
+        "indiaGovOfficialGovernorsDirectory2026",
+        "uttarakhandCMOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor",
+        "political.chiefMinisterOrAdministrator"
+      ]
+    },
+    {
+      "regionName": "West Bengal",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri Suvendu Adhikari",
+        "governorOrLieutenantGovernor": "Shri R. N. Ravi"
+      },
+      "sourceIds": [
+        "westBengalCmoOfficial2026",
+        "westBengalGovernorOfficial2026",
+        "indiaGovOfficialGovernorsDirectory2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ],
+      "note": "Chief Minister is named by the current Chief Minister's Office dashboard; Governor is named by the state portal, whose page last updated 5 June 2026."
     }
   ]
 }

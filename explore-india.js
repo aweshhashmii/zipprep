@@ -166,7 +166,7 @@ function loadRegionCatalog(){
     var row=districtProfiles.records.find(function(existing){return String(existing.lgdCode)===String(item.lgdCode)});
     if(!row)return;
     Object.keys(item.fields||{}).forEach(function(key){row[key]=item.fields[key]});
-    row.verifiedFields=Array.from(new Set((row.verifiedFields||[]).concat(item.verifiedFields||[])));
+    row.sourceBackedFields=Array.from(new Set((row.sourceBackedFields||[]).concat(item.sourceBackedFields||[])));
     row.sourceRecords=(row.sourceRecords||[]).concat(item.sourceRecords||[]);
     row.lgdAdministrativeCountsReferenceDates=districtLgdProfileEnrichment.source&&districtLgdProfileEnrichment.source.datasetReferenceDates||{};
    });

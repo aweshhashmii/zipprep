@@ -5,7 +5,7 @@
   "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
   "referenceYear": 2026,
   "lastVerifiedAt": "2026-10-30",
-  "notes": "Values reflect the ECI state/UT seat-strength table. UTs without a listed Assembly or Rajya Sabha allocation are recorded as zero. Lok Sabha footnote: six UTs have one seat each; Dadra and Nagar Haveli and Daman and Diu is listed as two seats.",
+  "notes": "Values reflect the ECI state/UT seat-strength table. UTs without a listed Assembly or Rajya Sabha allocation are recorded as zero. Lok Sabha footnote: six UTs have one seat each; Dadra and Nagar Haveli and Daman and Diu is listed as two seats. Legislative Council status is separately sourced from PRS Legislative Research Annual Review of State Laws 2025: six states have a second House; all other states/UTs in this 36-region catalogue are recorded as No.",
   "records": [
     {
       "regionName": "Andhra Pradesh",
@@ -15,7 +15,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "Yes",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Arunachal Pradesh",
@@ -25,7 +30,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Assam",
@@ -35,7 +45,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Bihar",
@@ -45,7 +60,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "Yes",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Chhattisgarh",
@@ -55,7 +75,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Goa",
@@ -65,7 +90,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Gujarat",
@@ -75,7 +105,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Haryana",
@@ -85,7 +120,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Himachal Pradesh",
@@ -95,7 +135,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Jharkhand",
@@ -105,7 +150,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Karnataka",
@@ -115,7 +165,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "Yes",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Kerala",
@@ -125,7 +180,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Madhya Pradesh",
@@ -135,7 +195,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Maharashtra",
@@ -145,7 +210,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "Yes",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Manipur",
@@ -155,7 +225,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Meghalaya",
@@ -165,7 +240,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Mizoram",
@@ -175,7 +255,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Nagaland",
@@ -185,7 +270,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Odisha",
@@ -195,7 +285,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Punjab",
@@ -205,7 +300,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Rajasthan",
@@ -215,7 +315,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Sikkim",
@@ -225,7 +330,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Tamil Nadu",
@@ -235,7 +345,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Telangana",
@@ -245,7 +360,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "Yes",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Tripura",
@@ -255,7 +375,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Uttar Pradesh",
@@ -265,7 +390,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "Yes",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Uttarakhand",
@@ -275,7 +405,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "West Bengal",
@@ -285,7 +420,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Delhi",
@@ -295,7 +435,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Jammu and Kashmir",
@@ -305,7 +450,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Puducherry",
@@ -315,7 +465,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Andaman and Nicobar Islands",
@@ -325,7 +480,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Chandigarh",
@@ -335,7 +495,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Dadra and Nagar Haveli and Daman and Diu",
@@ -345,7 +510,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Ladakh",
@@ -355,7 +525,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     },
     {
       "regionName": "Lakshadweep",
@@ -365,7 +540,12 @@
       "sourceId": "eci",
       "referenceYear": 2026,
       "lastVerifiedAt": "2026-10-30",
-      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/"
+      "sourceUrl": "https://www.eci.gov.in/term-of-the-houses/",
+      "legislativeCouncil": "No",
+      "legislativeCouncilSourceId": "prsStateLegislatures2025",
+      "legislativeCouncilSourceUrl": "https://prsindia.org/legislatures/states/annual-review-of-state-laws/annual-review-of-state-laws-2025",
+      "legislativeCouncilReferenceDate": "2025",
+      "legislativeCouncilLastVerifiedAt": "2026-11-01"
     }
   ]
 }

@@ -82,7 +82,8 @@ function loadRegionCatalog(){
   fetch('./data/district-profile-isfr2023-mizoram.json').then(function(r){if(!r.ok)throw Error('Mizoram district forest-cover dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/urban-local-bodies-lgd-mirror-2026-09-25.json').then(function(r){if(!r.ok)throw Error('Urban local-body LGD mirror dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-officeholders-official-partial-2026-11-01.json').then(function(r){if(!r.ok)throw Error('Official officeholder dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/district-lgd-administrative-hierarchy-2026-10-21.json').then(function(r){if(!r.ok)throw Error('District LGD hierarchy dataset HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/district-lgd-administrative-hierarchy-2026-10-21.json').then(function(r){if(!r.ok)throw Error('District LGD hierarchy dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-boundary-metadata-soi-2025.json').then(function(r){if(!r.ok)throw Error('Survey of India boundary metadata HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
@@ -116,6 +117,7 @@ function loadRegionCatalog(){
   var urbanLgdCounts=parts[38];
   var officeholders=parts[39];
   var districtAdministrative=parts[40];
+  var boundaryMetadata=parts[41];
   if(highCourts&&Array.isArray(highCourts.records))highCourts.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;var benches=Array.isArray(item.benches)&&item.benches.length?' · benches: '+item.benches.join(', '):'';region.highCourt=item.highCourt+' · principal seat: '+item.principalSeat+benches;region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:highCourts.source.title,sourceUrl:highCourts.source.sourceUrl,referenceDate:highCourts.source.referenceDate,lastVerifiedAt:highCourts.source.lastVerifiedAt,fields:['highCourt'],note:highCourts.source.note})});
   if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],maritimeFeatures:item.maritimeFeatures||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
   [supplemental,supplementalBatch,tigerReserves,ramsarSites,protectedAreaStats,forestCoverStats].forEach(function(dataset){
@@ -171,6 +173,19 @@ function loadRegionCatalog(){
    if(!region.sourceRecords.some(function(src){return src.sourceId==='lgdCurrentDistrictDirectory2026'}))   region.sourceRecords.push({sourceId:'lgdCurrentDistrictDirectory2026',title:'Ministry of Panchayati Raj — Local Government Directory (current district directory)',sourceUrl:'https://lgdirectory.gov.in/',referenceDate:lgdDirectory.source.sourceDate,lastVerifiedAt:lgdDirectory.source.ingestedAt,fields:['administration.districtCount','districts.currentDirectory'],note:'Current district names and LGD codes are from the LGD snapshot dated '+lgdDirectory.source.sourceDate+'; district boundary polygons are a separate map layer.'});
   });
 
+  if(boundaryMetadata&&Array.isArray(boundaryMetadata.records))boundaryMetadata.records.forEach(function(item){
+   var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;
+   region.boundary=region.boundary||{};
+   region.boundary.geometryVersion=item.geometryVersion;
+   region.boundary.effectiveFrom=item.effectiveFrom;
+   region.boundary.sourceId=boundaryMetadata.source.sourceId;
+   region.districts=region.districts||{};
+   region.districts.boundaryVersion=item.districtBoundaryVersion;
+   region.districts.effectiveFrom=item.effectiveFrom;
+   region.districts.boundarySourceId=boundaryMetadata.source.sourceId;
+   region.sourceRecords=region.sourceRecords||[];
+   if(!region.sourceRecords.some(function(src){return src.sourceId===boundaryMetadata.source.sourceId}))region.sourceRecords.push({sourceId:boundaryMetadata.source.sourceId,title:boundaryMetadata.source.title,sourceUrl:boundaryMetadata.source.sourceUrl,metadataUrl:boundaryMetadata.source.metadataUrl,referenceDate:boundaryMetadata.source.referenceDate,lastVerifiedAt:boundaryMetadata.source.lastVerifiedAt,fields:item.verifiedFields,note:boundaryMetadata.source.note});
+  });
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
   if(giRegister&&Array.isArray(giRegister.records))data.regions.forEach(function(region){
    var giEntries=giRegister.records.filter(function(item){return item.regionName===region.name});
@@ -334,6 +349,7 @@ function selectDistrict(name,layer){
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+
  stat('District headquarters',value(record.headquarters),'Official district administration portal · source record pending')+
  stat('Current LGD district code',lgdDistrict?lgdDistrict.lgdCode:'Not matched to current LGD directory','Ministry of Panchayati Raj · LGD snapshot '+(lgdDirectory&&lgdDirectory.source.sourceDate||'not loaded'))+
+ stat('District boundary dataset version / effective date',region&&region.districts?(region.districts.boundaryVersion+' / '+region.districts.effectiveFrom):'Not stated in source metadata','Survey of India Administrative Boundary Database · Version 01 harmonized with ORGI; published metadata does not specify a legal effective date')+
  stat('Development blocks (LGD)',lgdAdministrativeRecord?lgdAdministrativeRecord.developmentBlockCount:'Verification pending','LGD source snapshot '+(districtAdministrativeData&&districtAdministrativeData.source.referenceDate||'not loaded')+' · community mirror; block count is distinct from Block Panchayat count')+
  stat('LGD sub-districts (tehsil / taluk / mandal)',lgdAdministrativeRecord?lgdAdministrativeRecord.lgdSubdistrictCount:'Verification pending','LGD source snapshot '+(districtAdministrativeData&&districtAdministrativeData.source.referenceDate||'not loaded')+' · equivalent administrative units, not necessarily state-notified subdivisions')+
  stat('District status',value(record.status),'Existing district record')+

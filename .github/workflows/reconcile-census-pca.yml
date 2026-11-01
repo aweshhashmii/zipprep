@@ -1,6 +1,8 @@
 name: Reconcile Census 2011 PCA source
 
 on:
+  pull_request:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "23 4 1 * *"

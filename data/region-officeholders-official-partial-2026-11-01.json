@@ -39,6 +39,20 @@
       "sourceUrl": "https://lokbhavan.maharashtra.gov.in/en/",
       "referenceDate": "2026-10-24",
       "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "westBengalCmoOfficial2026",
+      "title": "Chief Minister's Office, Government of West Bengal",
+      "sourceUrl": "https://cmo.wb.gov.in/landing/landing-dashboard/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "westBengalGovernorOfficial2026",
+      "title": "Government of West Bengal — Meet the Governor",
+      "sourceUrl": "https://wb.gov.in/government-meet-the-governor.aspx",
+      "referenceDate": "2026-06-05",
+      "lastVerifiedAt": "2026-11-01"
     }
   ],
   "records": [
@@ -104,6 +118,22 @@
       "verifiedFields": [
         "political.governorOrLieutenantGovernor"
       ]
+    },
+    {
+      "regionName": "West Bengal",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri Suvendu Adhikari",
+        "governorOrLieutenantGovernor": "Shri R. N. Ravi"
+      },
+      "sourceIds": [
+        "westBengalCmoOfficial2026",
+        "westBengalGovernorOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ],
+      "note": "Chief Minister is named by the current Chief Minister's Office dashboard; Governor is named by the state portal, whose page last updated 5 June 2026."
     }
   ]
 }

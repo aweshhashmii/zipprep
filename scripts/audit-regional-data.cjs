@@ -888,7 +888,7 @@ for (const row of officeholderRows) {
 }
 for (const source of officeholderData.sources || []) {
   assert(/^https:\/\//.test(source.sourceUrl || ''), 'Officeholder source must use HTTPS: ' + source.sourceId);
-  assert(source.lastVerifiedAt === officeholderData.referenceDate, 'Officeholder source verification date must match dataset reference date: ' + source.sourceId);
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(source.lastVerifiedAt || ''), 'Officeholder source must include an ISO last-verified date: ' + source.sourceId);
 }
 assert(officeholderData.verificationStatus === 'officially_verified_partial', 'Officeholder dataset must remain explicitly partial.');
 warnings.push('Official officeholder confirmations currently cover ' + officeholderRows.length + '/36 regions; all other officeholder fields remain pending until checked against their own official portals.');

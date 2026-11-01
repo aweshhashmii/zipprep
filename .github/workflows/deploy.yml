@@ -33,6 +33,9 @@ jobs:
           python -m pip install --disable-pip-version-check duckdb==2.0.0
           python scripts/build-district-lgd-enrichment.py
 
+      - name: Build district headquarters from Survey of India / NIC BharatMaps register
+        run: python scripts/build-district-headquarters-soi.py
+
       - name: Check Explore India JavaScript syntax
         run: node --check explore-india.js
 
@@ -88,6 +91,13 @@ jobs:
           path: data/district-lgd-profile-enrichment.json
           if-no-files-found: error
 
+      - name: Preserve Survey of India district headquarters dataset for deployment
+        uses: actions/upload-artifact@v4
+        with:
+          name: district-headquarters-soi-2017
+          path: data/district-headquarters-soi-2017.json
+          if-no-files-found: error
+
 
   deploy:
     name: Publish to GitHub Pages
@@ -109,6 +119,12 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: district-lgd-profile-enrichment
+          path: data/
+
+      - name: Download Survey of India district headquarters dataset
+        uses: actions/download-artifact@v4
+        with:
+          name: district-headquarters-soi-2017
           path: data/
 
       - name: Configure GitHub Pages

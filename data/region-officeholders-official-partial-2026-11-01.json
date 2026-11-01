@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "title": "Official state portal officeholder confirmations — partial coverage",
+  "referenceDate": "2026-11-01",
+  "verificationStatus": "officially_verified_partial",
+  "coverageNote": "This is a partial, field-level import. Only officeholders explicitly named on the linked official state government or Lok Bhavan pages are included. Omitted regions are not inferred and remain pending. Governor appointment announcements are not treated as effective until an official state page confirms assumption of office.",
+  "sources": [
+    {
+      "sourceId": "jharkhandStatePortalOfficeholders2026",
+      "title": "Government of Jharkhand — State Portal",
+      "sourceUrl": "https://www.jharkhand.gov.in/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "goaGovernmentGovernor2026",
+      "title": "Government of Goa — Governor",
+      "sourceUrl": "https://www.goa.gov.in/government/governor/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "telanganaStatePortalGovernor2026",
+      "title": "Government of Telangana — Governor",
+      "sourceUrl": "https://www.telangana.gov.in/government/governor/",
+      "referenceDate": "2026-11-01",
+      "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "keralaGovernorOfficial2026",
+      "title": "Government of Kerala — Governor profile",
+      "sourceUrl": "https://niyamasabha.nic.in/index.php/governor",
+      "referenceDate": "2026-10-23",
+      "lastVerifiedAt": "2026-11-01"
+    },
+    {
+      "sourceId": "maharashtraLokBhavanGovernor2026",
+      "title": "Lok Bhavan Maharashtra — Governor",
+      "sourceUrl": "https://lokbhavan.maharashtra.gov.in/en/",
+      "referenceDate": "2026-10-24",
+      "lastVerifiedAt": "2026-11-01"
+    }
+  ],
+  "records": [
+    {
+      "regionName": "Jharkhand",
+      "fields": {
+        "chiefMinisterOrAdministrator": "Shri Hemant Soren",
+        "governorOrLieutenantGovernor": "Shri Santosh Kumar Gangwar"
+      },
+      "sourceIds": [
+        "jharkhandStatePortalOfficeholders2026"
+      ],
+      "verifiedFields": [
+        "political.chiefMinisterOrAdministrator",
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Goa",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Pusapati Ashok Gajapathi Raju"
+      },
+      "sourceIds": [
+        "goaGovernmentGovernor2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Telangana",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Shiv Pratap Shukla"
+      },
+      "sourceIds": [
+        "telanganaStatePortalGovernor2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    },
+    {
+      "regionName": "Kerala",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Om Prakash Mathur"
+      },
+      "sourceIds": [
+        "keralaGovernorOfficial2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ],
+      "note": "Sworn in as Governor of Kerala on 23 October 2026."
+    },
+    {
+      "regionName": "Maharashtra",
+      "fields": {
+        "governorOrLieutenantGovernor": "Shri Jishnu Dev Varma"
+      },
+      "sourceIds": [
+        "maharashtraLokBhavanGovernor2026"
+      ],
+      "verifiedFields": [
+        "political.governorOrLieutenantGovernor"
+      ]
+    }
+  ]
+}

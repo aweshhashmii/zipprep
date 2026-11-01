@@ -973,6 +973,8 @@ const report = {
     lgdDistrictRows: lgdDistricts.length,
     districtProfilesImported: districtProfileRows.length,
     districtProfilesWithVerifiedFields: districtProfileRows.filter(row => (row.verifiedFields || []).length > 0).length,
+    districtProfilesIdentityOnly: districtProfileRows.filter(row => row.profileType === 'directory_identity_only').length,
+    districtProfilesMissingFromCurrentLGD: Math.max(0, lgdDistricts.length - districtProfileRows.length),
     regionsWithLGDDistrictDirectory: Object.keys(regionLgdCounts).length,
     lgdDistrictCounts,
 
@@ -1003,7 +1005,7 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '- Source-attributed geography records: **' + report.coverage.sourceAttributedGeographyRecords + '**',
     '- ECI seat rows: **' + report.coverage.eciSeatRows + '/36**',
     '- Current LGD districts: **' + report.coverage.lgdDistrictRows + '** across **' + report.coverage.regionsWithLGDDistrictDirectory + '/36** regions',
-    '- District profile records: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with at least one verified field)',
+    '- District profile records: **' + report.coverage.districtProfilesImported + '** (' + report.coverage.districtProfilesWithVerifiedFields + ' with at least one verified field; ' + report.coverage.districtProfilesIdentityOnly + ' identity-only; ' + report.coverage.districtProfilesMissingFromCurrentLGD + ' current LGD districts without a profile row)',
     '- UNESCO named properties: **' + report.coverage.unescoProperties + '**',
     '- Regions with imported district profiles: **' + report.coverage.regionsWithDistrictProfiles + '/36**',
     '',

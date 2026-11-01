@@ -165,13 +165,22 @@ def main():
             for field in ("households", "population", "male", "female", "literate", "literacyRate", "sexRatio", "sc", "st", "workers"):
                 if source.get(field) is not None:
                     record[field] = source[field]
+            record["censusStateCode"] = source["censusStateCode"]
             record["source"] = "Census of India, Primary Census Abstract (PCA), 2011"
             record["sourceUrl"] = "https://censusindia.gov.in/nada/index.php/catalog/6191"
             record["sourceDownloadUrl"] = URL
             record["sourceStatus"] = "official_source_reconciled"
-    reconciled["source"] = "Census of India, Primary Census Abstract (PCA), 2011"
-    reconciled["sourceUrl"] = "https://censusindia.gov.in/nada/index.php/catalog/6191"
-    reconciled["sourceDownloadUrl"] = URL
+    reconciled["source"] = {
+        "publisher": "Office of the Registrar General & Census Commissioner, India",
+        "dataset": "Primary Census Abstract (PCA), 2011",
+        "verificationStatus": "officially_verified",
+        "sourceUrl": "https://censusindia.gov.in/nada/index.php/catalog/6191",
+        "downloadUrl": URL,
+        "referenceYear": 2011,
+        "reconciliationMethod": "All 640 historical district records matched to official district-level PCA totals by original Census district code.",
+        "reconciledRecords": matched,
+        "checkedAt": datetime.now(timezone.utc).date().isoformat()
+    }
     reconciled["reconciliationPolicy"] = "Historical district totals matched to official 2011 PCA by original Census district code; no current-boundary extrapolation."
     canonical_path = ROOT / "reports" / "india-district-census-2011-official-reconciled.json"
     canonical_path.write_text(json.dumps(reconciled, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

@@ -1,4 +1,5 @@
 name: Validate and deploy ZipPrep
+# Re-run validation and publication after the official Census PCA reconciliation.
 
 on:
   pull_request:

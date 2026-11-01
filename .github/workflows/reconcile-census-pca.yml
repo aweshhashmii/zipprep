@@ -1,0 +1,38 @@
+name: Reconcile Census 2011 PCA source
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - name: Install workbook reader
+        run: python -m pip install --disable-pip-version-check openpyxl
+      - name: Compare all 640 historical district rows to the official Census PCA workbook
+        id: reconcile
+        continue-on-error: true
+        run: python scripts/reconcile-census-pca-2011.py
+      - name: Upload row-level reconciliation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: census-pca-2011-reconciliation
+          path: reports/census-pca-2011-reconciliation.json
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Fail if source comparison is incomplete or contains discrepancies
+        if: steps.reconcile.outcome != 'success'
+        run: |
+          echo "Census PCA reconciliation is not exact. Review the uploaded row-level report; no data has been promoted to verified."
+          exit 1

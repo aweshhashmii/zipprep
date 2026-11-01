@@ -75,6 +75,9 @@ def main() -> None:
         records_by_lgd.setdefault(key, record)
 
     records = sorted(records_by_lgd.values(), key=lambda row: int(row["lgdCode"]))
+    profiles = json.loads(Path("data/district-profiles-2026.json").read_text(encoding="utf-8"))
+    current_codes = {str(row.get("lgdCode")) for row in profiles.get("records", []) if row.get("lgdCode") is not None}
+    matched_profile_codes = {row["lgdCode"] for row in records} & current_codes
     output = {
         "schemaVersion": "1.0.0",
         "dataset": "District headquarters — Survey of India/NIC BharatMaps historical point register",
@@ -93,6 +96,8 @@ def main() -> None:
         "audit": {
             "sourceFeatureCount": len(features),
             "uniqueDistrictLgdCodes": len(records),
+            "matchedCurrentDistrictProfiles": len(matched_profile_codes),
+            "currentDistrictProfileCount": len(current_codes),
             "unmatchedOrMissingHeadquarters": len(features) - len(records),
         },
     }

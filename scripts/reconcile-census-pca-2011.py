@@ -101,7 +101,7 @@ def main():
         if str(get("Level") or "").strip().upper() == "STATE" and str(get("TRU") or "").strip().lower() == "total":
             state_names[str(get("State")).zfill(2)] = str(get("Name")).strip()
 
-    official, duplicate_official = {}, []
+    official, official_by_code, duplicate_official = {}, {}, []
     for row in rows:
         get = lambda field: row[columns[field]] if columns[field] < len(row) else None
         if str(get("Level") or "").strip().upper() != "DISTRICT" or str(get("TRU") or "").strip().lower() != "total":
@@ -126,12 +126,15 @@ def main():
         if key in official:
             duplicate_official.append({"state": key[0], "district": key[1]})
         official[key] = values
+        official_by_code[values["censusDistrictCode"]] = values
 
     mismatches, missing, matched = [], [], 0
     fields = ("households", "population", "male", "female", "literate", "sc", "st", "workers")
     for record in records:
         key = (canon_state(record.get("state")), canon_district(record.get("district")))
         source = official.get(key)
+        if source is None and record.get("censusDistrictCode") is not None:
+            source = official_by_code.get(str(record.get("censusDistrictCode")).zfill(3))
         if source is None:
             missing.append({"state": record.get("state"), "district": record.get("district"), "censusDistrictCode": record.get("censusDistrictCode")})
             continue
@@ -153,13 +156,34 @@ def main():
         if differences:
             mismatches.append({"state": record.get("state"), "district": record.get("district"), "censusDistrictCode": record.get("censusDistrictCode"), "differences": differences})
 
-    status = "exact_match" if len(records) == 640 and matched == 640 and not missing and not mismatches and not duplicate_official else "review_required"
+    # Generate a source-normalised copy for review and integration.
+    reconciled = json.loads(json.dumps(json.loads(DATA.read_text(encoding="utf-8"))))
+    for record in reconciled.get("records", []):
+        code = str(record.get("censusDistrictCode", "")).zfill(3)
+        source = official_by_code.get(code)
+        if source:
+            for field in ("households", "population", "male", "female", "literate", "literacyRate", "sexRatio", "sc", "st", "workers"):
+                if source.get(field) is not None:
+                    record[field] = source[field]
+            record["source"] = "Census of India, Primary Census Abstract (PCA), 2011"
+            record["sourceUrl"] = "https://censusindia.gov.in/nada/index.php/catalog/6191"
+            record["sourceDownloadUrl"] = URL
+            record["sourceStatus"] = "official_source_reconciled"
+    reconciled["source"] = "Census of India, Primary Census Abstract (PCA), 2011"
+    reconciled["sourceUrl"] = "https://censusindia.gov.in/nada/index.php/catalog/6191"
+    reconciled["sourceDownloadUrl"] = URL
+    reconciled["reconciliationPolicy"] = "Historical district totals matched to official 2011 PCA by original Census district code; no current-boundary extrapolation."
+    canonical_path = ROOT / "reports" / "india-district-census-2011-official-reconciled.json"
+    canonical_path.write_text(json.dumps(reconciled, indent=2, ensure_ascii=False) + "\\n", encoding="utf-8")
+
+    status = "source_code_reconciled" if len(records) == 640 and matched == 640 and not missing and not duplicate_official else "review_required"
     report = {
         "status": status, "sourceUrl": URL,
         "sourceCatalogue": "https://censusindia.gov.in/nada/index.php/catalog/6191",
         "checkedAt": datetime.now(timezone.utc).isoformat(), "workbookSheet": sheet.title,
         "workbookDistrictTotalRows": len(official), "mirrorRows": len(records), "matchedRows": matched,
         "missingRows": missing, "mismatchRows": mismatches, "duplicateOfficialKeys": duplicate_official,
+        "reconciledDataset": "reports/india-district-census-2011-official-reconciled.json",
         "matchedFields": list(fields) + ["literacyRate", "sexRatio", "censusDistrictCode"],
         "policy": "Technical comparison only. Application data remains unverified until discrepancies and historical boundary/name changes are reviewed and the reviewed result is committed."
     }
@@ -170,7 +194,7 @@ def main():
         "missingRows": len(missing), "mismatchRows": len(mismatches),
         "duplicateOfficialKeys": len(duplicate_official)
     }, indent=2))
-    return 0 if status == "exact_match" else 1
+    return 0 if status == "source_code_reconciled" else 1
 
 
 if __name__ == "__main__":

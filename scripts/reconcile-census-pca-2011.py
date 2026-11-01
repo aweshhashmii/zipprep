@@ -26,6 +26,9 @@ STATE_ALIASES = {
     "nctofdelhi": "delhi", "nationalcapitalterritoryofdelhi": "delhi",
     "pondicherry": "puducherry", "jammukashmir": "jammuandkashmir",
     "jammuandkashmir": "jammuandkashmir",
+    "damandiu": "damananddiu",
+    "dadranagarhaveli": "dadraandnagarhaveli",
+    "andamannicobarislands": "andamanandnicobarislands",
 }
 DISTRICT_ALIASES = {
     "leh": "lehladakh", "lehladakh": "lehladakh",
@@ -33,6 +36,8 @@ DISTRICT_ALIASES = {
     "mewat": "nuh", "gurgaon": "gurugram", "bangalore": "bengaluru",
     "bangalorerural": "bengalururural", "bellary": "ballari",
     "shimoga": "shivamogga", "mysore": "mysuru", "gulbarga": "kalaburagi",
+    "pondicherry": "puducherry", "nicobars": "nicobar",
+    "northmiddleandaman": "northandmiddleandaman",
 }
 
 

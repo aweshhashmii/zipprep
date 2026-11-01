@@ -169,6 +169,8 @@ function loadRegionCatalog(){
    region.political.lokSabhaSeats=row.lokSabhaSeats;
    region.political.rajyaSabhaSeats=row.rajyaSabhaSeats;
    region.political.assemblySeats=row.assemblySeats;
+   if(row.legislativeCouncil==='Yes'||row.legislativeCouncil==='No')region.political.legislativeCouncil=row.legislativeCouncil;
+   if(row.legislativeCouncilSourceUrl){region.sourceRecords=region.sourceRecords||[];region.sourceRecords.push({id:'prs-legislative-council-status-2025',sourceId:row.legislativeCouncilSourceId,title:'PRS Legislative Research — Annual Review of State Laws 2025',url:row.legislativeCouncilSourceUrl,fields:['political.legislativeCouncil'],referenceDate:row.legislativeCouncilReferenceDate,lastVerifiedAt:row.legislativeCouncilLastVerifiedAt});}
    region.political.sourceId=row.sourceId;
    region.political.referenceYear=row.referenceYear;
    region.political.lastVerifiedAt=row.lastVerifiedAt;

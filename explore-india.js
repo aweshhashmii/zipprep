@@ -83,7 +83,8 @@ function loadRegionCatalog(){
   fetch('./data/urban-local-bodies-lgd-mirror-2026-09-25.json').then(function(r){if(!r.ok)throw Error('Urban local-body LGD mirror dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/region-officeholders-official-partial-2026-11-01.json').then(function(r){if(!r.ok)throw Error('Official officeholder dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
   fetch('./data/district-lgd-administrative-hierarchy-2026-10-21.json').then(function(r){if(!r.ok)throw Error('District LGD hierarchy dataset HTTP '+r.status);return r.json()}).catch(function(){return null}),
-  fetch('./data/region-boundary-metadata-soi-2025.json').then(function(r){if(!r.ok)throw Error('Survey of India boundary metadata HTTP '+r.status);return r.json()}).catch(function(){return null})
+  fetch('./data/region-boundary-metadata-soi-2025.json').then(function(r){if(!r.ok)throw Error('Survey of India boundary metadata HTTP '+r.status);return r.json()}).catch(function(){return null}),
+  fetch('./data/region-district-portal-directories-igod-2026.json').then(function(r){if(!r.ok)throw Error('IGOD district portal directory HTTP '+r.status);return r.json()}).catch(function(){return null})
  ]).then(function(parts){
   var data=parts[0],political=parts[1],heritage=parts[2],census=parts[3],lgd=parts[4],districtProfiles=parts[5];
   var giRegister=parts[6],supplemental=parts[7],supplementalBatch=parts[8],districtProfileBatch=parts[9],administrationBatch=parts[10];
@@ -118,6 +119,7 @@ function loadRegionCatalog(){
   var officeholders=parts[39];
   var districtAdministrative=parts[40];
   var boundaryMetadata=parts[41];
+  var districtPortalDirectories=parts[42];
   if(highCourts&&Array.isArray(highCourts.records))highCourts.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;var benches=Array.isArray(item.benches)&&item.benches.length?' · benches: '+item.benches.join(', '):'';region.highCourt=item.highCourt+' · principal seat: '+item.principalSeat+benches;region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:highCourts.source.title,sourceUrl:highCourts.source.sourceUrl,referenceDate:highCourts.source.referenceDate,lastVerifiedAt:highCourts.source.lastVerifiedAt,fields:['highCourt'],note:highCourts.source.note})});
   if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],maritimeFeatures:item.maritimeFeatures||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
   [supplemental,supplementalBatch,tigerReserves,ramsarSites,protectedAreaStats,forestCoverStats].forEach(function(dataset){
@@ -185,6 +187,13 @@ function loadRegionCatalog(){
    region.districts.boundarySourceId=boundaryMetadata.source.sourceId;
    region.sourceRecords=region.sourceRecords||[];
    if(!region.sourceRecords.some(function(src){return src.sourceId===boundaryMetadata.source.sourceId}))region.sourceRecords.push({sourceId:boundaryMetadata.source.sourceId,title:boundaryMetadata.source.title,sourceUrl:boundaryMetadata.source.sourceUrl,metadataUrl:boundaryMetadata.source.metadataUrl,referenceDate:boundaryMetadata.source.referenceDate,lastVerifiedAt:boundaryMetadata.source.lastVerifiedAt,fields:item.verifiedFields,note:boundaryMetadata.source.note});
+  });
+  if(districtPortalDirectories&&Array.isArray(districtPortalDirectories.records))districtPortalDirectories.records.forEach(function(item){
+   var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;
+   region.districts=region.districts||{};
+   region.districts.officialDirectoryUrl=item.directoryUrl;
+   region.sourceRecords=region.sourceRecords||[];
+   if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:districtPortalDirectories.source.title,sourceUrl:districtPortalDirectories.source.sourceUrl,referenceDate:districtPortalDirectories.source.referenceDate,lastVerifiedAt:districtPortalDirectories.source.lastVerifiedAt,fields:['districts.officialDirectoryUrl'],note:districtPortalDirectories.source.note});
   });
   if(!data||!Array.isArray(data.regions))throw Error('Invalid region catalogue');
   if(giRegister&&Array.isArray(giRegister.records))data.regions.forEach(function(region){
@@ -353,6 +362,7 @@ function selectDistrict(name,layer){
  var value=function(v){return v===null||v===undefined||v===''?'Verification pending':v};
  var pop=record.population&&record.population.value!==undefined?String(record.population.value)+(record.population.referenceYear?' (Census '+record.population.referenceYear+')':''): 'Not loaded — use a dated Census reference';
  var districtSourcesHtml=Array.isArray(record.sourceRecords)&&record.sourceRecords.length?'<h4>District source records</h4><div class="atlas-data-sources">'+record.sourceRecords.map(function(src){return '<div><a href="'+textSafe(src.sourceUrl||'#')+'" target="_blank" rel="noopener noreferrer">'+textSafe(src.title||src.sourceId||src.field||'District source')+'</a><small>'+textSafe(src.field||'')+(src.referenceDate?' · '+textSafe(src.referenceDate):'')+'</small>'+(src.note?'<small>'+textSafe(src.note)+'</small>':'')+'</div>'}).join('')+'</div>':'';
+ districtSourcesHtml+=(region&&region.districts&&region.districts.officialDirectoryUrl?'<p class="atlas-data-pending"><a href="'+textSafe(region.districts.officialDirectoryUrl)+'" target="_blank" rel="noopener noreferrer">Open official State/UT district portal directory (NIC IGOD)</a></p>':'');
 
  var profile=$('district-selected-profile');
  if(profile)profile.innerHTML='<h3>'+textSafe(name)+' — District profile</h3><div class="atlas-profile-grid">'+

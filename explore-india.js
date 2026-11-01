@@ -120,10 +120,10 @@ function loadRegionCatalog(){
   var urbanLgdCounts=parts[38];
   var officeholders=parts[39];
   var districtAdministrative=parts[40];
-  var districtLgdProfileEnrichment=parts[44];
-  var boundaryMetadata=parts[41];
-  var districtPortalDirectories=parts[42];
-  var fsiDistrictForest=parts[43];
+  var districtLgdProfileEnrichment=parts[41];
+  var boundaryMetadata=parts[42];
+  var districtPortalDirectories=parts[43];
+  var fsiDistrictForest=parts[44];
   if(highCourts&&Array.isArray(highCourts.records))highCourts.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;var benches=Array.isArray(item.benches)&&item.benches.length?' · benches: '+item.benches.join(', '):'';region.highCourt=item.highCourt+' · principal seat: '+item.principalSeat+benches;region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:highCourts.source.title,sourceUrl:highCourts.source.sourceUrl,referenceDate:highCourts.source.referenceDate,lastVerifiedAt:highCourts.source.lastVerifiedAt,fields:['highCourt'],note:highCourts.source.note})});
   if(neighbours&&Array.isArray(neighbours.records))neighbours.records.forEach(function(item){var region=data.regions.find(function(r){return r.name===item.regionName});if(!region)return;region.geography=region.geography||{};region.geography.location=[{name:'Geographical position and neighbours',description:item.description,adjoiningRegions:item.adjoiningRegions||[],internationalNeighbours:item.internationalNeighbours||[],maritimeFeatures:item.maritimeFeatures||[],sourceUrl:item.sourceUrl,sourceId:item.sourceId,referenceDate:item.referenceDate,verificationStatus:item.verificationStatus}];region.sourceRecords=region.sourceRecords||[];if(!region.sourceRecords.some(function(src){return src.sourceId===item.sourceId}))region.sourceRecords.push({sourceId:item.sourceId,title:neighbours.source.title,sourceUrl:neighbours.source.sourceUrl,referenceDate:neighbours.source.referenceDate,lastVerifiedAt:neighbours.source.lastVerifiedAt,fields:['geography.location'],note:neighbours.source.note})});
   [supplemental,supplementalBatch,tigerReserves,ramsarSites,protectedAreaStats,forestCoverStats].forEach(function(dataset){

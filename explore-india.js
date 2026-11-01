@@ -496,12 +496,14 @@ function renderCategoryPanel(panelId,name,tabTitle,eyebrow,categories){
   var desc=v.description||v.notes||'';
   if(typeof desc==='string'){
    desc=desc
-    .replace(/\\bReference(?: date)?\\s+\\d{4}(?:-\\d{2}-\\d{2})?\\s*[·–—-]?\\s*/gi,'')
-    .replace(/\\bSource ID\\s+[A-Za-z0-9_.:-]+/gi,'')
-    .replace(/\\bSource[- ]verified\\b/gi,'')
-    .replace(/\\bChecked\\s+\\d{4}-\\d{2}-\\d{2}/gi,'')
-    .replace(/\\s*[·|]\\s*/g,' · ')
-    .replace(/^(?:[-·|,;:]\\s*)+|(?:\\s*[-·|,;:])+$ /g,'')
+    .replace(/\bReference(?: date)?\s+\d{4}(?:-\d{2}-\d{2})?\s*[·–—-]?\s*/gi,'')
+    .replace(/\bSource ID\s+[A-Za-z0-9_.:-]+/gi,'')
+    .replace(/\bSource[- ]verified\b/gi,'')
+    .replace(/\bChecked\s+\d{4}-\d{2}-\d{2}/gi,'')
+    .replace(/\bAccessed\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}/gi,'')
+    .replace(/\s*[·|]\s*/g,' · ')
+    .replace(/^\s*[-·|,;:]+\s*|\s*[-·|,;:]+\s*$/g,'')
+    .replace(/\s{2,}/g,' ')
     .trim();
   }
   var meta=[

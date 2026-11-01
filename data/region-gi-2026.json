@@ -2963,5 +2963,31 @@
       "referenceDate": "Register states applications registered as on 31 December 2025; PDF published 2 May 2026",
       "lastVerifiedAt": "2026-10-31"
     }
+  ],
+  "coverageRecords": [
+    {
+      "regionName": "Chandigarh",
+      "name": "No registered GI products listed for Chandigarh in the IP India Part A register snapshot",
+      "registrationStatus": "No registered GI entry in the cited register snapshot",
+      "verificationStatus": "not_available",
+      "sourceId": "ipindiaStatewiseRegisteredGI2026",
+      "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "referenceDate": "2025-12-31",
+      "lastVerifiedAt": "2026-11-01",
+      "notes": "Scope-limited negative result: the official state-wise registered GI register dated 31 December 2025 contains no registered GI entry for Chandigarh. This does not rule out later applications or future registrations."
+    },
+    {
+      "regionName": "Lakshadweep",
+      "name": "No registered GI products listed for Lakshadweep in the IP India Part A register snapshot",
+      "registrationStatus": "No registered GI entry in the cited register snapshot",
+      "verificationStatus": "not_available",
+      "sourceId": "ipindiaStatewiseRegisteredGI2026",
+      "sourceUrl": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "referenceDate": "2025-12-31",
+      "lastVerifiedAt": "2026-11-01",
+      "notes": "Scope-limited negative result: the official state-wise registered GI register dated 31 December 2025 contains no registered GI entry for Lakshadweep. IP India application no. 1378, Lakshadweep Coconut Jaggery, was still at Pre Examination when checked on 1 November 2026; an application is not a registration.",
+      "applicationStatusSourceUrl": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1378",
+      "applicationNo": "1378"
+    }
   ]
 }

@@ -113,7 +113,21 @@ for (const row of giData.records || []) {
   giKeys.add(key);
   giRegions.add(row.regionName);
 }
-if ((giData.records || []).length) warnings.push('GI register import currently contains ' + giData.records.length + ' registered records across ' + giRegions.size + '/36 regions; check national-register coverage before describing it as exhaustive.');
+const giCoverageRegions = new Set();
+for (const row of giData.coverageRecords || []) {
+  assert(regionSet.has(row.regionName), 'GI coverage record references unknown region: ' + row.regionName);
+  assert(!giRegions.has(row.regionName), 'GI coverage record overlaps a region with registered GI products: ' + row.regionName);
+  assert(!giCoverageRegions.has(row.regionName), 'Duplicate GI coverage record: ' + row.regionName);
+  assert(row.verificationStatus === 'not_available', 'GI negative coverage note must remain scope-limited: ' + row.regionName);
+  assert(row.sourceId === 'ipindiaStatewiseRegisteredGI2026' && giSourceIds.has(row.sourceId), 'GI coverage note references an unregistered source: ' + row.regionName);
+  assert(row.sourceUrl === giData.source.sourceUrl && /^https:\/\//i.test(row.sourceUrl), 'GI coverage note source URL mismatch: ' + row.regionName);
+  assert(row.referenceDate === '2025-12-31' && row.lastVerifiedAt, 'GI coverage note must preserve its 31 Dec 2025 snapshot date: ' + row.regionName);
+  if (row.applicationStatusSourceUrl) assert(/^https:\/\//i.test(row.applicationStatusSourceUrl), 'GI application status source must use HTTPS: ' + row.regionName);
+  giCoverageRegions.add(row.regionName);
+}
+assert(giRegions.size + giCoverageRegions.size === 36, 'GI registered-product and scope-limited coverage records must cover all 36 regions.');
+warnings.push('GI register coverage now spans 36/36 regions; no-registration notes for Chandigarh and Lakshadweep are limited to the official register snapshot dated 31 December 2025.');
+
 
 const districtProfileRows = districtProfileData.records || [];
 for (const batchRow of [...(districtProfileBatchData.records || []), ...(districtProfileBiharData.records || []), ...(districtProfileAssamData.records || []), ...(districtProfileChhattisgarhData.records || []), ...(districtProfileMadhyaPradeshData.records || []), ...(districtProfileOdishaData.records || []), ...(districtProfileMaharashtraData.records || []), ...(districtProfileUttarPradeshData.records || []), ...(districtProfileJharkhandData.records || []), ...(districtProfileGujaratData.records || []), ...(districtProfileKarnatakaData.records || []), ...(districtProfileKeralaData.records || []), ...(districtProfileUttarakhandData.records || []), ...(districtProfileHimachalPradeshData.records || []), ...(districtProfilePunjabData.records || []), ...(districtProfileHaryanaData.records || []), ...(districtProfileTamilNaduData.records || []), ...(districtProfileTelanganaData.records || []), ...(districtProfileGoaData.records || []), ...(districtProfileTripuraData.records || []), ...(districtProfileMeghalayaData.records || []), ...(districtProfileMizoramData.records || [])]) {

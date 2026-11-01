@@ -35,7 +35,7 @@ jobs:
             echo "Official PCA dataset already integrated."
           else
             git commit -m "Integrate official Census 2011 PCA district totals"
-            git push origin HEAD
+            git push origin HEAD:${GITHUB_HEAD_REF}
           fi
       - name: Upload row-level reconciliation report
         if: always()

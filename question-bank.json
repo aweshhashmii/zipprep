@@ -2,7 +2,7 @@
   "version": 1,
   "description": "ZipPrep practice bank. Questions marked verifiedPYQ=false are original practice questions, not certified official previous-year questions.",
   "targetCount": 5000,
-  "currentCount": 150,
+  "currentCount": 205,
   "questions": [
     {
       "id": "main-1",
@@ -2551,6 +2551,941 @@
       ],
       "answer": 1,
       "explanation": "At 3:30 the minute hand is at 180° and hour hand at 105°, giving 75°.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-001",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "Which ancient Indian text is a collection of hymns dedicated to various deities?",
+      "options": [
+        "Rigveda",
+        "Arthashastra",
+        "Indica",
+        "Rajatarangini"
+      ],
+      "answer": 0,
+      "explanation": "The Rigveda is a collection of hymns composed in Vedic Sanskrit.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-002",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The term 'Tripitaka' is associated with which religion?",
+      "options": [
+        "Jainism",
+        "Buddhism",
+        "Sikhism",
+        "Zoroastrianism"
+      ],
+      "answer": 1,
+      "explanation": "The Tripitaka is the traditional three-basket collection of Buddhist teachings.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-003",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "Who established the Slave dynasty in the Delhi Sultanate?",
+      "options": [
+        "Iltutmish",
+        "Qutb-ud-din Aibak",
+        "Balban",
+        "Razia"
+      ],
+      "answer": 1,
+      "explanation": "Qutb-ud-din Aibak founded the Mamluk or Slave dynasty in 1206.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-004",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "Who was the founder of the Sikh religion?",
+      "options": [
+        "Guru Arjan",
+        "Guru Gobind Singh",
+        "Guru Nanak",
+        "Guru Tegh Bahadur"
+      ],
+      "answer": 2,
+      "explanation": "Guru Nanak founded Sikhism in the late fifteenth century.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-005",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The Ilbert Bill controversy took place during the tenure of:",
+      "options": [
+        "Lord Ripon",
+        "Lord Curzon",
+        "Lord Lytton",
+        "Lord Dufferin"
+      ],
+      "answer": 0,
+      "explanation": "The Ilbert Bill controversy arose during Lord Ripon's viceroyalty in 1883.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-006",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Hard",
+      "question": "Which session of the Indian National Congress adopted the goal of Purna Swaraj?",
+      "options": [
+        "Calcutta, 1906",
+        "Lahore, 1929",
+        "Karachi, 1931",
+        "Lucknow, 1916"
+      ],
+      "answer": 1,
+      "explanation": "The Lahore session of 1929, presided over by Jawaharlal Nehru, adopted Purna Swaraj.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-007",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "Who founded the Servants of India Society in 1905?",
+      "options": [
+        "Gopal Krishna Gokhale",
+        "M.G. Ranade",
+        "Dadabhai Naoroji",
+        "Surendranath Banerjee"
+      ],
+      "answer": 0,
+      "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in 1905.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-008",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "The Great Bath was discovered at which Indus Valley site?",
+      "options": [
+        "Harappa",
+        "Lothal",
+        "Mohenjo-daro",
+        "Dholavira"
+      ],
+      "answer": 2,
+      "explanation": "The Great Bath is a well-known structure at Mohenjo-daro.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-009",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which is the highest mountain peak located wholly within India?",
+      "options": [
+        "Nanda Devi",
+        "K2",
+        "Kangchenjunga",
+        "Anamudi"
+      ],
+      "answer": 0,
+      "explanation": "Nanda Devi is the highest peak situated wholly within Indian territory; K2 lies in a disputed region.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-010",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "Which Indian river is known for flowing through a rift valley?",
+      "options": [
+        "Godavari",
+        "Narmada",
+        "Ganga",
+        "Yamuna"
+      ],
+      "answer": 1,
+      "explanation": "The Narmada flows westward through a rift valley between the Vindhya and Satpura ranges.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-011",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which state is the leading producer of tea in India?",
+      "options": [
+        "Rajasthan",
+        "Assam",
+        "Punjab",
+        "Haryana"
+      ],
+      "answer": 1,
+      "explanation": "Assam is India's leading tea-producing state.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-012",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "The Western Ghats and Eastern Ghats meet at the:",
+      "options": [
+        "Aravalli Hills",
+        "Nilgiri Hills",
+        "Cardamom Hills",
+        "Vindhya Range"
+      ],
+      "answer": 1,
+      "explanation": "The Western and Eastern Ghats converge in the Nilgiri Hills.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-013",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Hard",
+      "question": "Which ocean current is primarily responsible for the mild climate of western Europe?",
+      "options": [
+        "Labrador Current",
+        "Canary Current",
+        "North Atlantic Drift",
+        "Benguela Current"
+      ],
+      "answer": 2,
+      "explanation": "The warm North Atlantic Drift moderates temperatures in western Europe.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-014",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which Indian state has the largest area under mangrove forests?",
+      "options": [
+        "Odisha",
+        "West Bengal",
+        "Kerala",
+        "Goa"
+      ],
+      "answer": 1,
+      "explanation": "West Bengal contains the largest share of India's mangrove area, including the Sundarbans.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-015",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "The standard meridian of India is:",
+      "options": [
+        "68°7′ E",
+        "75° E",
+        "82°30′ E",
+        "90° E"
+      ],
+      "answer": 2,
+      "explanation": "India's standard time is based on the 82°30′ east longitude meridian.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-016",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Easy",
+      "question": "Which body is described as the guardian of the Constitution through judicial review?",
+      "options": [
+        "Election Commission",
+        "Supreme Court",
+        "Finance Commission",
+        "CAG"
+      ],
+      "answer": 1,
+      "explanation": "The Supreme Court exercises judicial review to test laws and executive action against the Constitution.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-017",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "The procedure for amendment of the Constitution is mainly provided in:",
+      "options": [
+        "Article 32",
+        "Article 226",
+        "Article 368",
+        "Article 356"
+      ],
+      "answer": 2,
+      "explanation": "Article 368 lays down the constitutional amendment procedure.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-018",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Easy",
+      "question": "Who presides over a meeting of the Lok Sabha?",
+      "options": [
+        "President",
+        "Speaker",
+        "Vice-President",
+        "Attorney General"
+      ],
+      "answer": 1,
+      "explanation": "The Speaker presides over Lok Sabha proceedings.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-019",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Which schedule contains the Union, State and Concurrent Lists?",
+      "options": [
+        "Fifth",
+        "Sixth",
+        "Seventh",
+        "Ninth"
+      ],
+      "answer": 2,
+      "explanation": "The Seventh Schedule distributes legislative subjects among the three lists.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-020",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Hard",
+      "question": "The doctrine of basic structure was propounded in which Supreme Court case?",
+      "options": [
+        "Golaknath",
+        "Kesavananda Bharati",
+        "Minerva Mills",
+        "Maneka Gandhi"
+      ],
+      "answer": 1,
+      "explanation": "The 1973 Kesavananda Bharati judgment established the basic-structure limitation on Parliament's amending power.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-021",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "Which of the following is a direct tax?",
+      "options": [
+        "GST",
+        "Customs duty",
+        "Personal income tax",
+        "Excise duty"
+      ],
+      "answer": 2,
+      "explanation": "Personal income tax is levied directly on the income of individuals.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-022",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Medium",
+      "question": "When the price of a normal good rises, its quantity demanded generally:",
+      "options": [
+        "Rises",
+        "Falls",
+        "Remains fixed in all cases",
+        "Becomes unlimited"
+      ],
+      "answer": 1,
+      "explanation": "The law of demand describes an inverse relationship between price and quantity demanded, other things equal.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-023",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Medium",
+      "question": "Which institution regulates the securities market in India?",
+      "options": [
+        "RBI",
+        "SEBI",
+        "IRDAI",
+        "NABARD"
+      ],
+      "answer": 1,
+      "explanation": "The Securities and Exchange Board of India regulates the securities market.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-024",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "A progressive tax system means that the average tax rate generally:",
+      "options": [
+        "Falls as income rises",
+        "Rises as income rises",
+        "Is always zero",
+        "Is identical for every income"
+      ],
+      "answer": 1,
+      "explanation": "Under progressive taxation, the average tax rate increases with the tax base or income.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-025",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "What is the currency issued by the Reserve Bank of India called?",
+      "options": [
+        "Demand draft",
+        "Banknote",
+        "Share certificate",
+        "Treasury bill"
+      ],
+      "answer": 1,
+      "explanation": "RBI-issued currency notes are banknotes; the one-rupee note is issued by the Government of India.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-026",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "Which vitamin deficiency causes scurvy?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B1",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 2,
+      "explanation": "Scurvy results from vitamin C deficiency.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-027",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which organ filters blood and forms urine?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Lungs"
+      ],
+      "answer": 1,
+      "explanation": "The kidneys filter blood and produce urine through nephrons.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-028",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "Which gas is essential for human cellular respiration?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen serves as the final electron acceptor in aerobic respiration.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-029",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which part of a flower develops into a fruit after fertilisation?",
+      "options": [
+        "Anther",
+        "Ovary",
+        "Stigma",
+        "Petal"
+      ],
+      "answer": 1,
+      "explanation": "The ovary generally develops into the fruit after fertilisation.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-030",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Hard",
+      "question": "Which immune cells are primarily responsible for producing antibodies?",
+      "options": [
+        "Red blood cells",
+        "B lymphocytes/plasma cells",
+        "Platelets",
+        "Neutrophils only"
+      ],
+      "answer": 1,
+      "explanation": "Activated B lymphocytes differentiate into plasma cells that secrete antibodies.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-031",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Easy",
+      "question": "Which instrument measures electric potential difference?",
+      "options": [
+        "Ammeter",
+        "Voltmeter",
+        "Barometer",
+        "Galvanometer only"
+      ],
+      "answer": 1,
+      "explanation": "A voltmeter measures potential difference between two points.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-032",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "The image formed by a plane mirror is:",
+      "options": [
+        "Real and inverted",
+        "Virtual and erect",
+        "Real and magnified",
+        "Virtual and inverted"
+      ],
+      "answer": 1,
+      "explanation": "A plane mirror forms a virtual, erect image of the same size.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-033",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "Which colour of visible light has the shortest wavelength?",
+      "options": [
+        "Red",
+        "Yellow",
+        "Green",
+        "Violet"
+      ],
+      "answer": 3,
+      "explanation": "Violet light has the shortest wavelength in the visible spectrum.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-034",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Hard",
+      "question": "According to the law of conservation of energy, energy:",
+      "options": [
+        "Can be created from nothing",
+        "Can be destroyed completely",
+        "Changes form but total energy remains constant in an isolated system",
+        "Always decreases in every process"
+      ],
+      "answer": 2,
+      "explanation": "Energy is conserved in an isolated system, though it may transform between forms.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-035",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Easy",
+      "question": "Which gas is commonly known as laughing gas?",
+      "options": [
+        "Nitrous oxide",
+        "Carbon monoxide",
+        "Sulphur dioxide",
+        "Ammonia"
+      ],
+      "answer": 0,
+      "explanation": "Nitrous oxide (N₂O) is commonly called laughing gas.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-036",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "What is the main constituent of natural gas?",
+      "options": [
+        "Ethane",
+        "Methane",
+        "Butane",
+        "Propane"
+      ],
+      "answer": 1,
+      "explanation": "Methane is the principal component of natural gas.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-037",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "Which substance is used as an antacid to neutralise excess stomach acid?",
+      "options": [
+        "Sodium bicarbonate",
+        "Sodium chloride",
+        "Copper sulphate",
+        "Calcium oxide"
+      ],
+      "answer": 0,
+      "explanation": "Sodium bicarbonate is a mild base that can neutralise excess gastric acid.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-038",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Hard",
+      "question": "Which allotrope of carbon conducts electricity well?",
+      "options": [
+        "Diamond",
+        "Graphite",
+        "Fullerene only",
+        "Charcoal"
+      ],
+      "answer": 1,
+      "explanation": "Graphite has delocalised electrons between its carbon layers and conducts electricity.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-039",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Easy",
+      "question": "Which is the largest organ of the human body?",
+      "options": [
+        "Liver",
+        "Skin",
+        "Lung",
+        "Brain"
+      ],
+      "answer": 1,
+      "explanation": "The skin is the largest organ of the human body by surface area.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-040",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "Which blood cells are chiefly involved in defence against infection?",
+      "options": [
+        "Erythrocytes",
+        "Leukocytes",
+        "Thrombocytes",
+        "Reticulocytes"
+      ],
+      "answer": 1,
+      "explanation": "White blood cells, or leukocytes, participate in immune defence.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-041",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "Which plant tissue transports water and minerals from roots?",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "Epidermis",
+        "Cambium"
+      ],
+      "answer": 1,
+      "explanation": "Xylem transports water and dissolved minerals from roots to other plant parts.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-042",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Hard",
+      "question": "Which process produces genetically varied gametes through reduction division?",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Binary fission",
+        "Budding"
+      ],
+      "answer": 1,
+      "explanation": "Meiosis halves chromosome number and creates variation through recombination and independent assortment.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-043",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "What is the value of 18 × 15?",
+      "options": [
+        "250",
+        "260",
+        "270",
+        "280"
+      ],
+      "answer": 2,
+      "explanation": "18 × 15 = 270.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-044",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "A sum of ₹5,000 earns simple interest at 6% per annum for 2 years. What is the interest?",
+      "options": [
+        "₹500",
+        "₹600",
+        "₹700",
+        "₹800"
+      ],
+      "answer": 1,
+      "explanation": "Simple interest = PRT/100 = 5000 × 6 × 2 / 100 = ₹600.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-045",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "What is the perimeter of a square with side 9 cm?",
+      "options": [
+        "18 cm",
+        "27 cm",
+        "36 cm",
+        "81 cm"
+      ],
+      "answer": 2,
+      "explanation": "Perimeter of a square = 4 × side = 36 cm.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-046",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "If 4 workers complete a job in 12 days at the same rate, how many days will 6 workers take?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "Total work is 4 × 12 = 48 worker-days; 48/6 = 8 days.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-047",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Hard",
+      "question": "The average of five numbers is 24. If one number is removed, the average of the remaining four is 22. What number was removed?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "answer": 2,
+      "explanation": "The original sum is 120; the remaining sum is 88, so the removed number is 32.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-048",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Easy",
+      "question": "Choose the antonym of 'expand'.",
+      "options": [
+        "Enlarge",
+        "Extend",
+        "Contract",
+        "Increase"
+      ],
+      "answer": 2,
+      "explanation": "Contract means to become smaller, the opposite of expand.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-049",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Medium",
+      "question": "Choose the correct article: She is ___ honest officer.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": 1,
+      "explanation": "The initial sound in 'honest' is a vowel sound, so 'an' is used.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-050",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Medium",
+      "question": "Choose the correct plural form of 'criterion'.",
+      "options": [
+        "criterions",
+        "criteria",
+        "criterias",
+        "criteriones"
+      ],
+      "answer": 1,
+      "explanation": "Criteria is the standard plural of criterion.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-051",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Hard",
+      "question": "Identify the sentence with correct subject-verb agreement.",
+      "options": [
+        "The list of items are on the desk.",
+        "The list of items is on the desk.",
+        "The list of items were on the desk.",
+        "The list of items have been on the desk."
+      ],
+      "answer": 1,
+      "explanation": "The head noun 'list' is singular, so the verb is 'is'.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-052",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Easy",
+      "question": "Find the next number: 2, 5, 8, 11, __.",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "The sequence increases by 3 each time; the next number is 14.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-053",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "If all roses are flowers and some flowers fade quickly, which conclusion necessarily follows?",
+      "options": [
+        "All roses fade quickly.",
+        "Some roses fade quickly.",
+        "All roses are flowers.",
+        "No roses are flowers."
+      ],
+      "answer": 2,
+      "explanation": "The first premise directly states that all roses are flowers; no conclusion about roses fading is guaranteed.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-054",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "A is taller than B, and B is taller than C. Who is the shortest?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "Cannot be determined"
+      ],
+      "answer": 2,
+      "explanation": "The ordering is A > B > C, so C is the shortest.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11c-055",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Hard",
+      "question": "In a code, TABLE is written as UBCMF by shifting every letter one place forward. How is CHAIR written?",
+      "options": [
+        "DIBJS",
+        "DIBIR",
+        "BGZHQ",
+        "DHBJS"
+      ],
+      "answer": 0,
+      "explanation": "C→D, H→I, A→B, I→J and R→S, giving DIBJS.",
       "source": "NCERT-aligned original practice; concept checked during bank preparation",
       "verifiedPYQ": false
     }

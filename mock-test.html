@@ -8,16 +8,17 @@
 <body>
 <header class="site-header"><a class="brand" href="index.html" aria-label="ZipPrep home"><span class="brand-mark">Z</span><span>ZipPrep</span></a><a class="back-link" href="index.html">← Back to home</a></header>
 <main class="app-shell">
-<section class="intro"><p class="eyebrow">ZIPPREP · SSC PRACTICE LAB</p><h1>Mock tests.<br><span>Sharper preparation.</span></h1><p class="intro-copy">Practise at your pace, review every answer, and identify the topics to revise next.</p></section>
+<section class="intro"><p class="eyebrow">ZIPPREP · UPSC & SSC PRACTICE LAB</p><h1>Practice smarter.<br><span>Prepare with purpose.</span></h1><p class="intro-copy">Practise at your pace, review every answer, and identify the topics to revise next.</p></section>
 <section id="setup" class="panel setup-panel">
 <div class="section-heading"><div><p class="eyebrow">START PRACTISING</p><h2>Build your test</h2></div><span class="free-pill">Free</span></div>
 <div class="form-grid">
-<label>Exam<select id="exam"><option>SSC CGL</option><option>SSC CHSL</option><option>SSC CPO</option><option>SSC GD</option><option>SSC MTS</option><option>SSC Stenographer</option><option>SSC Selection Post</option><option>SSC JE</option><option>SSC JHT</option><option>All SSC Exams</option></select></label>
+<label>Exam<select id="exam"><option value="all">All UPSC & SSC exams</option><option>UPSC CSE Prelims</option><option>SSC CGL</option><option>SSC CHSL</option><option>SSC CPO</option><option>SSC GD</option><option>SSC MTS</option><option>SSC Stenographer</option><option>SSC Selection Post</option><option>SSC JE</option><option>SSC JHT</option></select></label>
+<label>Difficulty<select id="difficulty"><option value="all">All levels</option><option value="Easy">Easy</option><option value="Medium">Medium</option><option value="Hard">Hard</option></select></label>
 <label>Practice mode<select id="mode"><option value="sample">Sample question bank</option><option value="ai">AI-generated practice</option></select></label>
-<label>Subject<select id="subject"><option value="mixed">Mixed subjects</option><option>General Intelligence & Reasoning</option><option>Quantitative Aptitude</option><option>English</option><option>General Awareness</option></select></label>
+<label>Subject<select id="subject"><option value="mixed">Mixed subjects</option><option>History</option><option>Geography</option><option>Polity</option><option>Economy</option><option>Environment</option><option>General Science</option><option>General Intelligence & Reasoning</option><option>Quantitative Aptitude</option><option>English</option><option>General Awareness</option><option>Computer Knowledge</option></select></label>
 <label>Questions<select id="count"><option value="5">5 questions · Quick practice</option><option value="10" selected>10 questions · Standard</option><option value="15">15 questions</option></select></label>
 </div>
-<p class="notice" id="mode-note">Sample questions are for demonstration. They are not represented as verified official SSC previous-year questions.</p>
+<p class="notice" id="mode-note">Original sample practice questions are for demonstration. They are not verified official UPSC or SSC previous-year questions.</p>
 <p class="error" id="setup-error" role="status" hidden></p>
 <button class="primary-button" id="start-btn">Start mock test <span>→</span></button>
 </section>

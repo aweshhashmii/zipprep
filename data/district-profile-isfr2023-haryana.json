@@ -1,0 +1,2247 @@
+{
+  "schemaVersion": 1,
+  "title": "Haryana district forest-cover enrichment — ISFR 2023",
+  "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3",
+  "source": {
+    "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+    "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+    "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+    "referenceDate": "2023 assessment",
+    "lastVerifiedAt": "2026-11-02",
+    "note": "All 22 FSI report districts map to current LGD district codes. The FSI report's Mewat is explicitly mapped to current LGD Nuh. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI district table and receives no inferred or zero forest value."
+  },
+  "totals": {
+    "area": 44212,
+    "vdf": 27.169999999999998,
+    "mdf": 441.18000000000006,
+    "open": 1145.9099999999999,
+    "forest": 1614.2600000000002,
+    "change": -13.959999999999999,
+    "scrub": 174.37999999999997
+  },
+  "records": [
+    {
+      "lgdCode": "58",
+      "name": "Ambala",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1574,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 17.31,
+      "openForest2023SqKm": 39.36,
+      "forestCover2023SqKm": 56.67,
+      "forestCoverPercent2023": 3.6,
+      "forestCoverChangeSince2021SqKm": 4.08,
+      "scrub2023SqKm": 0.09,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "59",
+      "name": "Bhiwani",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 3386,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 4.08,
+      "openForest2023SqKm": 58.53,
+      "forestCover2023SqKm": 62.61,
+      "forestCoverPercent2023": 1.85,
+      "forestCoverChangeSince2021SqKm": -1.89,
+      "scrub2023SqKm": 7.15,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "701",
+      "name": "Charkhi Dadri",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1382,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 3.56,
+      "openForest2023SqKm": 42.36,
+      "forestCover2023SqKm": 45.92,
+      "forestCoverPercent2023": 3.32,
+      "forestCoverChangeSince2021SqKm": -1.24,
+      "scrub2023SqKm": 9,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "60",
+      "name": "Faridabad",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 741,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 25.98,
+      "openForest2023SqKm": 52.45,
+      "forestCover2023SqKm": 78.43,
+      "forestCoverPercent2023": 10.58,
+      "forestCoverChangeSince2021SqKm": -1.08,
+      "scrub2023SqKm": 20.2,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "61",
+      "name": "Fatehabad",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 2538,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 2.96,
+      "openForest2023SqKm": 18.35,
+      "forestCover2023SqKm": 21.31,
+      "forestCoverPercent2023": 0.84,
+      "forestCoverChangeSince2021SqKm": -0.32,
+      "scrub2023SqKm": 1.07,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "62",
+      "name": "Gurugram",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1258,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 31.85,
+      "openForest2023SqKm": 81.26,
+      "forestCover2023SqKm": 113.11,
+      "forestCoverPercent2023": 8.99,
+      "forestCoverChangeSince2021SqKm": 0.15,
+      "scrub2023SqKm": 20.42,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "63",
+      "name": "Hisar",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 3993,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 10.75,
+      "openForest2023SqKm": 47.79,
+      "forestCover2023SqKm": 58.54,
+      "forestCoverPercent2023": 1.47,
+      "forestCoverChangeSince2021SqKm": -1.92,
+      "scrub2023SqKm": 6.28,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "64",
+      "name": "Jhajjar",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1834,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 0.23,
+      "openForest2023SqKm": 25.33,
+      "forestCover2023SqKm": 25.56,
+      "forestCoverPercent2023": 1.39,
+      "forestCoverChangeSince2021SqKm": 0.65,
+      "scrub2023SqKm": 6.43,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "65",
+      "name": "Jind",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 2701,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 4.79,
+      "openForest2023SqKm": 21.64,
+      "forestCover2023SqKm": 26.43,
+      "forestCoverPercent2023": 0.98,
+      "forestCoverChangeSince2021SqKm": 0.26,
+      "scrub2023SqKm": 0.08,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "66",
+      "name": "Kaithal",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 2318,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 21.51,
+      "openForest2023SqKm": 32.81,
+      "forestCover2023SqKm": 54.32,
+      "forestCoverPercent2023": 2.34,
+      "forestCoverChangeSince2021SqKm": -1.26,
+      "scrub2023SqKm": 0.95,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "67",
+      "name": "Karnal",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 2494,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 4.16,
+      "openForest2023SqKm": 28.79,
+      "forestCover2023SqKm": 32.95,
+      "forestCoverPercent2023": 1.32,
+      "forestCoverChangeSince2021SqKm": 0.04,
+      "scrub2023SqKm": 0.67,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "68",
+      "name": "Kurukshetra",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1536,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 19.94,
+      "openForest2023SqKm": 26.09,
+      "forestCover2023SqKm": 46.03,
+      "forestCoverPercent2023": 3,
+      "forestCoverChangeSince2021SqKm": -1.63,
+      "scrub2023SqKm": 1.69,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "69",
+      "name": "Mahendragarh",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1899,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 21.74,
+      "openForest2023SqKm": 89.57,
+      "forestCover2023SqKm": 111.31,
+      "forestCoverPercent2023": 5.86,
+      "forestCoverChangeSince2021SqKm": -1.72,
+      "scrub2023SqKm": 40.09,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "604",
+      "name": "Nuh",
+      "stateName": "Haryana",
+      "sourceDistrictName": "Mewat",
+      "forestCoverCalculatedArea2023SqKm": 1507,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 13.58,
+      "openForest2023SqKm": 95.38,
+      "forestCover2023SqKm": 108.96,
+      "forestCoverPercent2023": 7.23,
+      "forestCoverChangeSince2021SqKm": -4.05,
+      "scrub2023SqKm": 27.15,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. FSI report district name 'Mewat' is explicitly mapped to current LGD district 'Nuh' (LGD code 604); no fuzzy match was used. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "619",
+      "name": "Palwal",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1359,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 2.43,
+      "openForest2023SqKm": 11.39,
+      "forestCover2023SqKm": 13.82,
+      "forestCoverPercent2023": 1.02,
+      "forestCoverChangeSince2021SqKm": -0.21,
+      "scrub2023SqKm": 0.2,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "70",
+      "name": "Panchkula",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 898,
+      "veryDenseForest2023SqKm": 5.7,
+      "moderatelyDenseForest2023SqKm": 147.59,
+      "openForest2023SqKm": 236.83,
+      "forestCover2023SqKm": 390.12,
+      "forestCoverPercent2023": 43.44,
+      "forestCoverChangeSince2021SqKm": -1.43,
+      "scrub2023SqKm": 20.33,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "71",
+      "name": "Panipat",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1288,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 3.1,
+      "openForest2023SqKm": 12.87,
+      "forestCover2023SqKm": 15.97,
+      "forestCoverPercent2023": 1.24,
+      "forestCoverChangeSince2021SqKm": -0.47,
+      "scrub2023SqKm": 0.64,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "72",
+      "name": "Rewari",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1594,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 11.9,
+      "openForest2023SqKm": 49.55,
+      "forestCover2023SqKm": 61.45,
+      "forestCoverPercent2023": 3.86,
+      "forestCoverChangeSince2021SqKm": -0.52,
+      "scrub2023SqKm": 9.11,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "73",
+      "name": "Rohtak",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1704,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 1.36,
+      "openForest2023SqKm": 13.18,
+      "forestCover2023SqKm": 14.54,
+      "forestCoverPercent2023": 0.85,
+      "forestCoverChangeSince2021SqKm": -4.28,
+      "scrub2023SqKm": 1.02,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "74",
+      "name": "Sirsa",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 4277,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 3.54,
+      "openForest2023SqKm": 61.04,
+      "forestCover2023SqKm": 64.58,
+      "forestCoverPercent2023": 1.51,
+      "forestCoverChangeSince2021SqKm": 1.05,
+      "scrub2023SqKm": 0.15,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "75",
+      "name": "Sonipat",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 2163,
+      "veryDenseForest2023SqKm": 0,
+      "moderatelyDenseForest2023SqKm": 2.66,
+      "openForest2023SqKm": 19.98,
+      "forestCover2023SqKm": 22.64,
+      "forestCoverPercent2023": 1.05,
+      "forestCoverChangeSince2021SqKm": -0.09,
+      "scrub2023SqKm": 0.84,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    },
+    {
+      "lgdCode": "76",
+      "name": "Yamunanagar",
+      "stateName": "Haryana",
+      "forestCoverCalculatedArea2023SqKm": 1768,
+      "veryDenseForest2023SqKm": 21.47,
+      "moderatelyDenseForest2023SqKm": 86.16,
+      "openForest2023SqKm": 81.36,
+      "forestCover2023SqKm": 188.99,
+      "forestCoverPercent2023": 10.69,
+      "forestCoverChangeSince2021SqKm": 1.92,
+      "scrub2023SqKm": 0.82,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023HaryanaDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.9.3 (Haryana)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.9, Table 10.9.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The current LGD directory contains 23 Haryana districts; Hansi is not listed in the FSI table and is not assigned an inferred or zero forest value."
+        }
+      ]
+    }
+  ]
+}

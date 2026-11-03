@@ -1,0 +1,832 @@
+{
+  "schemaVersion": 1,
+  "title": "Tripura district forest-cover enrichment — ISFR 2023",
+  "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3",
+  "source": {
+    "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+    "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+    "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+    "referenceDate": "2023 assessment",
+    "lastVerifiedAt": "2026-11-02",
+    "note": "All eight FSI report districts match current LGD district identities by code. H superscript markers denote hill districts and are not part of district names."
+  },
+  "totals": {
+    "area": 10486,
+    "vdf": 614.43,
+    "mdf": 4929.99,
+    "open": 2040.35,
+    "forest": 7584.77,
+    "change": -95.31,
+    "scrub": 173.27
+  },
+  "records": [
+    {
+      "lgdCode": "269",
+      "name": "Dhalai",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 2298.47,
+      "veryDenseForest2023SqKm": 95.68,
+      "moderatelyDenseForest2023SqKm": 1302.69,
+      "openForest2023SqKm": 421.78,
+      "forestCover2023SqKm": 1820.15,
+      "forestCoverPercent2023": 79.19,
+      "forestCoverChangeSince2021SqKm": -44.58,
+      "scrub2023SqKm": 60.18,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "654",
+      "name": "Gomati",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 1650.23,
+      "veryDenseForest2023SqKm": 123.7,
+      "moderatelyDenseForest2023SqKm": 861.58,
+      "openForest2023SqKm": 251.56,
+      "forestCover2023SqKm": 1236.84,
+      "forestCoverPercent2023": 74.95,
+      "forestCoverChangeSince2021SqKm": 6.86,
+      "scrub2023SqKm": 12.05,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "652",
+      "name": "Khowai",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 1055.66,
+      "veryDenseForest2023SqKm": 93.62,
+      "moderatelyDenseForest2023SqKm": 453.48,
+      "openForest2023SqKm": 192.59,
+      "forestCover2023SqKm": 739.69,
+      "forestCoverPercent2023": 70.07,
+      "forestCoverChangeSince2021SqKm": -23.16,
+      "scrub2023SqKm": 10.88,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "270",
+      "name": "North Tripura",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 1349.7,
+      "veryDenseForest2023SqKm": 11.7,
+      "moderatelyDenseForest2023SqKm": 663.97,
+      "openForest2023SqKm": 368.65,
+      "forestCover2023SqKm": 1044.32,
+      "forestCoverPercent2023": 77.37,
+      "forestCoverChangeSince2021SqKm": -18.88,
+      "scrub2023SqKm": 56.34,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "653",
+      "name": "Sepahijala",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 1053.06,
+      "veryDenseForest2023SqKm": 101.24,
+      "moderatelyDenseForest2023SqKm": 368.57,
+      "openForest2023SqKm": 185.44,
+      "forestCover2023SqKm": 655.25,
+      "forestCoverPercent2023": 62.22,
+      "forestCoverChangeSince2021SqKm": -7.35,
+      "scrub2023SqKm": 1.56,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "271",
+      "name": "South Tripura",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 1468.69,
+      "veryDenseForest2023SqKm": 108.17,
+      "moderatelyDenseForest2023SqKm": 671.29,
+      "openForest2023SqKm": 294.31,
+      "forestCover2023SqKm": 1073.77,
+      "forestCoverPercent2023": 73.11,
+      "forestCoverChangeSince2021SqKm": 11.6,
+      "scrub2023SqKm": 6.31,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "655",
+      "name": "Unakoti",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 685.53,
+      "veryDenseForest2023SqKm": 34.29,
+      "moderatelyDenseForest2023SqKm": 304.62,
+      "openForest2023SqKm": 92.31,
+      "forestCover2023SqKm": 431.22,
+      "forestCoverPercent2023": 62.9,
+      "forestCoverChangeSince2021SqKm": -13.52,
+      "scrub2023SqKm": 13.5,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    },
+    {
+      "lgdCode": "272",
+      "name": "West Tripura",
+      "stateName": "Tripura",
+      "forestCoverCalculatedArea2023SqKm": 924.66,
+      "veryDenseForest2023SqKm": 46.03,
+      "moderatelyDenseForest2023SqKm": 303.79,
+      "openForest2023SqKm": 233.71,
+      "forestCover2023SqKm": 583.53,
+      "forestCoverPercent2023": 63.11,
+      "forestCoverChangeSince2021SqKm": -6.28,
+      "scrub2023SqKm": 12.45,
+      "referenceYear": 2023,
+      "lastVerifiedAt": "2026-11-02",
+      "profileType": "partially_enriched",
+      "verificationStatus": "verification_pending",
+      "verifiedFields": [
+        "forestCoverCalculatedArea2023SqKm",
+        "veryDenseForest2023SqKm",
+        "moderatelyDenseForest2023SqKm",
+        "openForest2023SqKm",
+        "forestCover2023SqKm",
+        "forestCoverPercent2023",
+        "forestCoverChangeSince2021SqKm",
+        "scrub2023SqKm"
+      ],
+      "sourceRecords": [
+        {
+          "field": "forestCoverCalculatedArea2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "veryDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "moderatelyDenseForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "openForest2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCover2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverPercent2023",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "forestCoverChangeSince2021SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        },
+        {
+          "field": "scrub2023SqKm",
+          "sourceId": "fsiISFR2023TripuraDistrictForestCover",
+          "title": "Forest Survey of India — India State of Forest Report 2023, Volume II, Table 10.26.3 (Tripura)",
+          "sourceUrl": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf",
+          "referenceDate": "ISFR 2023, Volume II, Chapter 10.26, Table 10.26.3; 2023 assessment",
+          "lastVerifiedAt": "2026-11-02",
+          "note": "Exact current LGD district-code join. FSI percentage uses its calculated Survey of India district area, not a separately measured current-boundary area. FSI notes area figures are calculated without the normalization factor. The H superscript in the FSI table denotes hill-district status and is not part of the district name."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "dataset": "Survey of India administrative boundary dataset metadata",
+  "referenceYear": 2025,
+  "verificationStatus": "official_metadata_version_only",
+  "source": {
+    "sourceId": "surveyOfIndiaABDBVersion01",
+    "title": "Survey of India — Administrative Boundary Database / Vector Data Catalog 2025",
+    "sourceUrl": "https://surveyofindia.gov.in/pages/administrative-boundary-data-base-abdb-",
+    "metadataUrl": "https://www.surveyofindia.gov.in/UserFiles/files/Vector%20Data%20Catalog%202025%281%29.pdf",
+    "referenceDate": "2025",
+    "lastVerifiedAt": "2026-11-01",
+    "geometryVersion": "Version 01 — harmonized with ORGI",
+    "effectiveDate": "Not stated in the published metadata",
+    "note": "Survey of India describes the national administrative boundary database as state, district and sub-district boundaries harmonized with ORGI under Version 01. The catalog does not state a legal/effective date for each polygon or region. This records the published dataset version only; it does not certify that each boundary reflects every later state reorganisation."
+  },
+  "records": [
+    {
+      "regionName": "Andhra Pradesh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Arunachal Pradesh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Assam",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Bihar",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Chhattisgarh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Goa",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Gujarat",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Haryana",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Himachal Pradesh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Jharkhand",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Karnataka",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Kerala",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Madhya Pradesh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Maharashtra",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Manipur",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Meghalaya",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Mizoram",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Nagaland",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Odisha",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Punjab",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Rajasthan",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Sikkim",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Tamil Nadu",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Telangana",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Tripura",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Uttar Pradesh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Uttarakhand",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "West Bengal",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Andaman and Nicobar Islands",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Chandigarh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Delhi",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Jammu and Kashmir",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Ladakh",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Lakshadweep",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    },
+    {
+      "regionName": "Puducherry",
+      "geometryVersion": "Version 01 — harmonized with ORGI",
+      "districtBoundaryVersion": "Version 01 — harmonized with ORGI",
+      "effectiveFrom": "Not stated in published metadata",
+      "verifiedFields": [
+        "boundary.geometryVersion",
+        "boundary.effectiveFrom",
+        "districts.boundaryVersion",
+        "districts.effectiveFrom"
+      ]
+    }
+  ]
+}

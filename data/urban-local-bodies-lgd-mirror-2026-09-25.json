@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "title": "State-wise urban local body counts transcribed from the LGD-derived directory snapshot dated 25 September 2026; provisional pending direct LGD/OGD reconciliation",
+  "source": {
+    "sourceId": "lgdUrbanLocalBodiesMirror2026-09-25",
+    "title": "BharatSurvey — Urban Local Bodies of India (state-wise LGD directory table)",
+    "sourceUrl": "https://bharatsurvey.org/urban-local-bodies",
+    "underlyingSourceUrl": "https://ramseraph.github.io/opendata/lgd/",
+    "referenceDate": "2026-09-25",
+    "lastCheckedAt": "2026-11-01",
+    "verificationStatus": "provisional_secondary_mirror",
+    "note": "This is a third-party transcription of a dated LGD-derived table, not a direct Ministry export. Counts are displayed as provisional and must not be described as officially verified until reconciled against the primary monthly LGD/OGD local-body register. Notified Area Councils are stored separately and included in urbanLocalBodiesTotal. A missing jurisdiction row is not interpreted as zero."
+  },
+  "records": [
+    {
+      "regionName": "Uttar Pradesh",
+      "fields": {
+        "municipalCorporations": 17,
+        "municipalities": 200,
+        "nagarPanchayats": 545,
+        "notifiedAreaCouncils": 8,
+        "urbanLocalBodiesTotal": 770
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Tamil Nadu",
+      "fields": {
+        "municipalCorporations": 23,
+        "municipalities": 147,
+        "nagarPanchayats": 480,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 650
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Maharashtra",
+      "fields": {
+        "municipalCorporations": 29,
+        "municipalities": 244,
+        "nagarPanchayats": 149,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 422
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Madhya Pradesh",
+      "fields": {
+        "municipalCorporations": 16,
+        "municipalities": 99,
+        "nagarPanchayats": 298,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 413
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Karnataka",
+      "fields": {
+        "municipalCorporations": 18,
+        "municipalities": 184,
+        "nagarPanchayats": 124,
+        "notifiedAreaCouncils": 4,
+        "urbanLocalBodiesTotal": 330
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Rajasthan",
+      "fields": {
+        "municipalCorporations": 10,
+        "municipalities": 115,
+        "nagarPanchayats": 184,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 309
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Bihar",
+      "fields": {
+        "municipalCorporations": 19,
+        "municipalities": 88,
+        "nagarPanchayats": 157,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 264
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Chhattisgarh",
+      "fields": {
+        "municipalCorporations": 14,
+        "municipalities": 56,
+        "nagarPanchayats": 124,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 194
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Gujarat",
+      "fields": {
+        "municipalCorporations": 17,
+        "municipalities": 152,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 1,
+        "urbanLocalBodiesTotal": 170
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Punjab",
+      "fields": {
+        "municipalCorporations": 13,
+        "municipalities": 98,
+        "nagarPanchayats": 55,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 166
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Telangana",
+      "fields": {
+        "municipalCorporations": 11,
+        "municipalities": 150,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 161
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Odisha",
+      "fields": {
+        "municipalCorporations": 6,
+        "municipalities": 53,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 84,
+        "urbanLocalBodiesTotal": 143
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "West Bengal",
+      "fields": {
+        "municipalCorporations": 7,
+        "municipalities": 118,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 3,
+        "urbanLocalBodiesTotal": 128
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Andhra Pradesh",
+      "fields": {
+        "municipalCorporations": 17,
+        "municipalities": 82,
+        "nagarPanchayats": 25,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 124
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Assam",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 40,
+        "nagarPanchayats": 74,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 115
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Uttarakhand",
+      "fields": {
+        "municipalCorporations": 11,
+        "municipalities": 45,
+        "nagarPanchayats": 51,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 107
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Kerala",
+      "fields": {
+        "municipalCorporations": 6,
+        "municipalities": 87,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 93
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Haryana",
+      "fields": {
+        "municipalCorporations": 11,
+        "municipalities": 52,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 24,
+        "urbanLocalBodiesTotal": 87
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Jammu and Kashmir",
+      "fields": {
+        "municipalCorporations": 2,
+        "municipalities": 57,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 19,
+        "urbanLocalBodiesTotal": 78
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Himachal Pradesh",
+      "fields": {
+        "municipalCorporations": 5,
+        "municipalities": 29,
+        "nagarPanchayats": 42,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 76
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Jharkhand",
+      "fields": {
+        "municipalCorporations": 10,
+        "municipalities": 20,
+        "nagarPanchayats": 18,
+        "notifiedAreaCouncils": 1,
+        "urbanLocalBodiesTotal": 49
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Nagaland",
+      "fields": {
+        "municipalCorporations": 0,
+        "municipalities": 3,
+        "nagarPanchayats": 36,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 39
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Arunachal Pradesh",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 1,
+        "nagarPanchayats": 33,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 35
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Manipur",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 26,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 27
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Tripura",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 13,
+        "nagarPanchayats": 13,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 27
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Mizoram",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 0,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 23,
+        "urbanLocalBodiesTotal": 24
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Goa",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 13,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 14
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Meghalaya",
+      "fields": {
+        "municipalCorporations": 0,
+        "municipalities": 6,
+        "nagarPanchayats": 5,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 11
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Sikkim",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 1,
+        "nagarPanchayats": 7,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 9
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Puducherry",
+      "fields": {
+        "municipalCorporations": 0,
+        "municipalities": 5,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 5
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Delhi",
+      "fields": {
+        "municipalCorporations": 3,
+        "municipalities": 1,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 4
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Dadra and Nagar Haveli and Daman and Diu",
+      "fields": {
+        "municipalCorporations": 0,
+        "municipalities": 3,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 3
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Ladakh",
+      "fields": {
+        "municipalCorporations": 0,
+        "municipalities": 2,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 2
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Andaman and Nicobar Islands",
+      "fields": {
+        "municipalCorporations": 0,
+        "municipalities": 1,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 1
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    },
+    {
+      "regionName": "Chandigarh",
+      "fields": {
+        "municipalCorporations": 1,
+        "municipalities": 0,
+        "nagarPanchayats": 0,
+        "notifiedAreaCouncils": 0,
+        "urbanLocalBodiesTotal": 1
+      },
+      "verificationStatus": "provisional_secondary_mirror"
+    }
+  ]
+}

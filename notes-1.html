@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="WitWarp exam-focused digital study notes.">
+<title>Study Notes | WitWarp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#087fe8;--blue-dark:#07569b;--blue-light:#eaf4ff;--navy:#111827;--muted:#526174;--line:#d8e5f3}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Roboto,Arial,Helvetica,sans-serif;color:#111827;background-color:#f4faff;background-image:radial-gradient(#b7d2e8 1.15px,transparent 1.15px);background-size:22px 22px}
+main.wrap{padding-bottom:8px}
+.wrap{width:min(100% - 36px,760px);margin:auto}
+.head{position:relative;padding:12px 18px;margin-top:14px;margin-bottom:24px;min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:14px;background:#fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:2px solid #c5d9e6;border-radius:24px;box-shadow:0 7px 0 #d8e7f1,0 10px 20px rgba(7,86,155,.08)}
+.back{color:#111827;text-decoration:none;font:600 14px Roboto,Arial,sans-serif;white-space:nowrap}
+.back:hover{color:var(--blue)}
+.logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:block;width:88px;height:60px;object-fit:contain;object-position:center}
+.crumb{margin-left:auto;font:500 13px Roboto,Arial,sans-serif;color:var(--muted);white-space:nowrap}
+.cover{position:relative;isolation:isolate;overflow:hidden;margin:0 auto 22px;aspect-ratio:1.7/1;background:#f4f8fc;border:1px solid #d8e5f3;border-radius:16px;color:#111827;padding:0;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 4px 14px rgba(7,86,155,.08)}
+.cover::after{content:none}
+/* Static portrait cover: no video or animation. */
+.subject-cover{padding:0;position:relative;width:100%;max-width:430px;aspect-ratio:3/4;margin:0 auto 22px;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:hidden}
+.subject-cover>img{display:block;width:100%;height:100%;object-fit:contain;border-radius:0}
+.cover-overlay{display:none}
+.cover-overlay small,.cover-overlay strong,.cover-overlay span{color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.cover small{color:#8fc7ff;letter-spacing:.13em;font-weight:800}
+.cover strong{font-size:clamp(1.8rem,7vw,3rem);line-height:1}
+.cover span{font-size:12px;color:#d7eaff}
+.title{font-size:clamp(1.8rem,6vw,2.4rem);line-height:1.05;letter-spacing:-.035em;margin:0 0 22px}
+.toggle-row{display:flex;gap:8px;padding:7px;background:#fff;border:2px solid #c5d9e6;border-radius:20px;margin:0 0 22px;width:100%;max-width:100%;box-shadow:0 5px 0 #d8e7f1}
+.toggle{font-family:Roboto,Arial,sans-serif;flex:1;min-height:48px;border:2px solid #c5d9e6;border-radius:13px;background:#fff;color:#24374b;padding:11px 14px;font-weight:700;font-size:14px;letter-spacing:0;cursor:pointer;transition:background .18s,color .18s,box-shadow .18s,transform .18s}
+.toggle:active{transform:scale(.98)}
+.toggle[aria-expanded="true"]{background:#087fe8;color:#fff;border-color:#111827;box-shadow:0 4px 0 #07569b}
+.panel{padding:0 4px 16px;font:17px/1.55 Georgia,serif;color:#172334}
+.panel[hidden]{display:none}
+.panel ul{padding-left:22px}
+.panel p{margin:0 0 16px}
+.sample{margin:24px 0 28px}
+.sample h2{font-size:25px;margin:0 0 15px;letter-spacing:-.025em}
+.sample-card{border-radius:22px;background:#fff;border:2px solid #c5d9e6;padding:16px;min-height:190px;display:grid;grid-template-columns:1fr 1fr;gap:12px;overflow:hidden;box-shadow:0 6px 0 #d8e7f1} .history-samples{display:none;gap:14px}.history-samples.active{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.history-samples p{margin:0 0 9px;color:#526174;font:13px/1.4 Roboto,Arial,sans-serif}.sample-thumb{display:block;width:100%;height:180px;object-fit:cover;object-position:top;border-radius:12px;border:2px solid #c5d9e6;box-shadow:0 4px 0 #d8e7f1;background:#f4f8fc;cursor:zoom-in;transition:transform .18s,box-shadow .18s}.sample-thumb:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(7,86,155,.16)}.sample-open{display:block;width:100%;padding:0;border:0;background:transparent;text-align:left;cursor:zoom-in}.sample-hint{margin:12px 0 0;color:#526174;font:13px/1.4 Roboto,Arial,sans-serif}.image-modal{position:fixed;inset:0;z-index:9999;background:rgba(8,20,38,.92);display:none;align-items:center;justify-content:center;padding:18px}.image-modal.open{display:flex}.image-modal img{display:block;max-width:100%;max-height:84vh;object-fit:contain;border-radius:8px;background:#fff}.image-modal-close{position:absolute;top:14px;right:16px;width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#111827;font-size:28px;line-height:1;cursor:pointer}.image-modal-caption{position:absolute;bottom:10px;left:12px;right:12px;text-align:center;color:#fff;font:14px/1.4 Roboto,Arial,sans-serif}@media(max-width:420px){.sample-thumb{height:145px}.history-samples{gap:10px}}
+.paper{background:white;border:2px solid #c5d9e6;border-radius:14px;padding:14px 10px;box-shadow:0 4px 0 #d8e7f1}
+.paper b{display:block;background:#eaf4ff;color:#07569b;padding:6px;margin-bottom:8px;font-size:12px;border-radius:5px}
+.paper i{display:block;height:4px;background:#d3e2f1;margin:8px 0;border-radius:4px}
+.paper i:nth-child(3n){width:68%}
+.pay{display:flex;justify-content:center;padding:18px 0 42px}
+.pay-inner{width:100%;max-width:520px}
+.pay-button{display:flex;align-items:center;justify-content:center;min-height:58px;width:100%;padding:15px 22px;border:2px solid #111827;border-radius:16px;background:#087fe8;color:#fff;text-decoration:none;text-align:center;font:700 18px/1.2 Roboto,Arial,sans-serif;box-shadow:0 5px 0 #07569b;transition:transform .16s,box-shadow .16s,background .16s}
+.pay-button:active{transform:translateY(3px);box-shadow:0 2px 0 #07569b}
+.pay-button:focus-visible{outline:3px solid #80c5ff;outline-offset:4px}
+.swipe-pay{--knob:54px;position:relative;display:flex;align-items:center;width:100%;height:68px;padding:7px;border:1px solid #d6e7f7;border-radius:18px;background:linear-gradient(135deg,#f4f9ff,#e8f3ff);box-shadow:0 8px 22px rgba(7,86,155,.10);user-select:none;-webkit-user-select:none;touch-action:pan-y;overflow:hidden}
+.swipe-pay-track{position:absolute;inset:7px;border-radius:12px;background:linear-gradient(90deg,rgba(8,127,232,.07),rgba(7,86,155,.02));pointer-events:none}
+.swipe-pay-label{position:relative;z-index:1;flex:1;text-align:center;padding:0 58px;color:#07569b;font:700 clamp(1rem,4.5vw,1.3rem)/1.2 Roboto,Arial,sans-serif;letter-spacing:.01em;pointer-events:none;white-space:nowrap}
+.swipe-pay-knob{position:absolute;z-index:2;left:7px;top:7px;width:54px;height:54px;display:grid;place-items:center;border:0;border-radius:13px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 4px 12px rgba(7,86,155,.24);cursor:grab;touch-action:none;transition:left .18s ease,transform .18s ease}
+.swipe-pay-knob:active{cursor:grabbing}.swipe-pay-knob svg{width:24px;height:24px;display:block}.swipe-pay.is-dragging .swipe-pay-knob{transition:none;transform:scale(1.03)}.swipe-pay.is-complete{background:#e8f8ef;border-color:#bce8cd}.swipe-pay.is-complete .swipe-pay-knob{background:#16834a}.swipe-pay:focus-within{outline:3px solid #8bc7ff;outline-offset:3px}
+.pay-hint{font:13px/1.4 Roboto,Arial,sans-serif;color:var(--muted);margin:12px 0 0;text-align:center}
+.review-section{margin:0 auto 34px;padding:20px;background:#fff;border:2px solid #111827;border-radius:18px;box-shadow:0 6px 0 #07569b,6px 6px 0 #c5d9e6;position:relative}
+.review-section:before{content:"";position:absolute;left:18px;top:-9px;width:88px;height:9px;background:#087fe8;border:2px solid #111827;border-bottom:0;border-radius:8px 8px 0 0}
+.review-section h2{font:700 23px/1.2 Roboto,Arial,sans-serif;letter-spacing:-.02em;margin:0 0 8px;color:#111827}
+.review-intro{font:14px/1.5 Roboto,Arial,sans-serif;color:#526174;margin:0 0 18px}
+.review-form label{display:block;font:700 14px/1.4 Roboto,Arial,sans-serif;margin:13px 0 7px}
+.review-form input,.review-form textarea{display:block;width:100%;font:15px/1.45 Roboto,Arial,sans-serif;padding:12px;border:2px solid #c5d9e6;border-radius:10px;background:#f8fbff;color:#111827;outline:none}
+.review-form input:focus,.review-form textarea:focus{border-color:#087fe8;box-shadow:3px 3px 0 #d8e7f1}
+.review-form textarea{min-height:105px;resize:vertical}
+.review-stars{display:flex;gap:8px;align-items:center}
+.review-stars input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.review-stars label{margin:0;font-size:30px;line-height:1;color:#a8b7c6;cursor:pointer;text-shadow:1px 1px 0 #111827}
+.review-stars label.selected,.review-stars label:hover{color:#ffca28}
+.review-submit{margin-top:17px;width:100%;padding:13px 16px;border:2px solid #111827;border-radius:12px;background:#087fe8;color:white;font:700 15px/1.2 Roboto,Arial,sans-serif;box-shadow:0 4px 0 #07569b;cursor:pointer}
+.review-submit:active{transform:translateY(2px);box-shadow:0 2px 0 #07569b}
+.review-small{font:12px/1.45 Roboto,Arial,sans-serif;color:#526174;margin:12px 0 0}
+.note{font:14px/1.4 Arial,sans-serif;color:var(--muted);margin-top:16px;text-align:center}
+.foot{background:#07569b;color:#fff;padding:24px 0;border-top:3px solid #111827;box-shadow:0 -5px 0 #d8e7f1}
+.foot a{color:#d7eaff;font-weight:bold;text-decoration:none}
+.foot p{font:16px/1.4 Georgia,serif}
+.foot .back{color:white}
+@media(max-width:420px){.head{gap:9px;padding:10px 12px;min-height:84px}.logo{width:78px;height:54px}.back{font-size:12px}.crumb{font-size:12px}}
+@media(min-width:650px){.sample-card{min-height:280px}.paper{padding:24px}}
+</style>
+</head>
+<body>
+<header class="wrap head">
+<a href="index.html" class="back">← Home</a>
+<img class="logo" src="./witwarp-logo.png" alt="WitWarp">
+<span class="crumb">Study notes</span>
+</header>
+<main class="wrap">
+<div class="cover subject-cover"><img id="subject-cover-image" src="./history-cover.png" alt="History study notes cover"></div>
+<h1 class="title" id="page-title">Complete History Notes</h1>
+<div class="toggle-row" role="group" aria-label="Notes information tabs">
+<button class="toggle" id="contents-btn" aria-expanded="true" aria-controls="contents-panel">Contents</button>
+<button class="toggle" id="description-btn" aria-expanded="false" aria-controls="description-panel">Description</button>
+</div>
+<section id="contents-panel" class="panel"><ul id="contents-list"></ul></section>
+<section id="description-panel" class="panel" hidden><div id="description-copy"></div></section>
+<section class="sample"><h2>Notes Sample</h2><div class="sample-card" id="generic-sample" aria-label="Illustrative preview of study notes"><div class="paper"><b id="sample-label">WITWARP STUDY NOTES</b><i></i><i></i><i></i><i></i><b>Key points</b><i></i><i></i><i></i><i></i></div><div class="paper"><b>Quick revision</b><i></i><i></i><i></i><b>Important facts</b><i></i><i></i><i></i><i></i></div></div><div class="history-samples" id="history-samples"><div><p>Sample 1 — Ancient History</p><button class="sample-open" type="button" data-full-image="./IMG_20261014_101533.jpg" data-caption="Sample 1 — Ancient History"><img class="sample-thumb" src="./IMG_20261014_101533.jpg" alt="Handwritten Ancient History notes sample thumbnail" loading="lazy"></button></div><div><p>Sample 2 — Indus Valley Civilization town planning</p><button class="sample-open" type="button" data-full-image="./IMG_20261014_101544.jpg" data-caption="Sample 2 — Indus Valley Civilization town planning"><img class="sample-thumb" src="./IMG_20261014_101544.jpg" alt="Handwritten town planning notes sample thumbnail" loading="lazy"></button></div></div><p class="sample-hint" id="sample-hint" hidden>Tap a sample image to view it full size.</p></section><div class="image-modal" id="image-modal" role="dialog" aria-modal="true" aria-label="Full-size notes sample"><button class="image-modal-close" id="image-modal-close" type="button" aria-label="Close full-size image">×</button><img id="modal-image" src="" alt="Full-size notes sample"><p class="image-modal-caption" id="modal-caption"></p></div>
+<div class="pay"><a class="pay-button" href="https://rzp.io/rzp/XlVAPZf" target="_blank" rel="noopener">Pay Now ₹199</a></div>
+<section class="review-section" aria-labelledby="review-title">
+<h2 id="review-title">Leave a Review</h2>
+<p class="review-intro">Bought or explored these notes? Share your feedback with WitWarp.</p>
+<form class="review-form" id="review-form">
+<label for="review-name">Your name</label><input id="review-name" name="name" autocomplete="name" maxlength="80" placeholder="Enter your name" required>
+<label>Rate your experience</label>
+<div class="review-stars" role="radiogroup" aria-label="Rating out of five">
+<input type="radio" id="rating-1" name="rating" value="1" required><label for="rating-1" aria-label="1 star">★</label>
+<input type="radio" id="rating-2" name="rating" value="2"><label for="rating-2" aria-label="2 stars">★</label>
+<input type="radio" id="rating-3" name="rating" value="3"><label for="rating-3" aria-label="3 stars">★</label>
+<input type="radio" id="rating-4" name="rating" value="4"><label for="rating-4" aria-label="4 stars">★</label>
+<input type="radio" id="rating-5" name="rating" value="5"><label for="rating-5" aria-label="5 stars">★</label>
+</div>
+<label for="review-message">Your review</label><textarea id="review-message" name="message" maxlength="1000" placeholder="Tell us what you liked or what we can improve…" required></textarea>
+<button class="review-submit" type="submit">Send Review ↗</button>
+<p class="review-small">Your review will be sent to WitWarp on WhatsApp for now. Reviews are not published publicly on this page.</p>
+</form></section>
+</main>
+<footer class="foot"><div class="wrap"><strong>Need help before buying?</strong><p>Message WitWarp to confirm availability and delivery details.</p><p>WhatsApp<br><a href="https://wa.me/919905523465">9905523465</a></p><p>Email<br><a href="mailto:awesh.h2@gmail.com">awesh.h2@gmail.com</a></p><p>Instagram<br><a href="https://instagram.com/witwarp.co">@witwarp.co</a></p><a class="back" href="index.html#notes">← Back to all notes</a></div></footer>
+<script>
+const data={
+'History':{title:'Complete History Notes',contents:['Prehistoric India','Indus Valley Civilization','Vedic Age','Mahajanapadas, Buddhism and Jainism','Mauryan Empire','Post-Mauryan Empire','Gupta Empire','Vardhana Dynasty and Harshavardhana','Sangam Age','Kalabhra Rule','Pallava Dynasty','Chalukyas','Rashtrakuta Dynasty','Tripartite Struggle','Imperial Chola Dynasty','Ancient Indian Literature','Ancient Art, Architecture, Science and Mathematics','Foreign Travellers, Important Inscriptions'],description:['History — Comprehensive Study Notes','These notes provide a structured approach to understanding Ancient Indian History, focusing on historical developments, significant events, and the evolution of India’s political, social, religious, and cultural landscape.','The content is organized chronologically to facilitate systematic learning, conceptual clarity, and effective revision.','Purpose: To build a strong foundation in Ancient Indian History through a structured and exam-oriented approach.','Suitable for: UPSC, SSC, CDS, WBCS, other competitive examinations, and undergraduate history studies.']},
+'Geography':{title:'Complete Geography Notes',contents:['Earth and Solar System','Latitudes and Longitudes','Interior of the Earth','Rocks and Landforms','Atmosphere and Climate','Oceans and Ocean Currents','Indian Physiography','Rivers and Drainage Systems','Soils and Natural Vegetation','Agriculture and Resources','Population and Settlements','Maps and Important Locations'],description:['Geography — Exam-Focused Study Notes','Structured notes covering physical and Indian geography, key concepts, maps, and revision-friendly facts.','Suitable for competitive exam preparation and undergraduate revision.']},
+'Polity':{title:'Complete Indian Polity Notes',contents:['Constitutional Development','Making of the Constitution','Preamble and Key Features','Fundamental Rights','Directive Principles','Fundamental Duties','President and Vice President','Prime Minister and Council of Ministers','Parliament','Supreme Court and High Courts','Federalism and Centre-State Relations','Constitutional Bodies'],description:['Indian Polity — Exam-Focused Study Notes','A structured overview of India’s political system, constitutional institutions, rights, duties, and governance.','Suitable for UPSC, SSC, CDS, WBCS, and other competitive examinations.']},
+'Constitution':{title:'Indian Constitution Notes',contents:['Historical Background','Constituent Assembly','Preamble','Union and its Territory','Citizenship','Fundamental Rights','Directive Principles of State Policy','Fundamental Duties','Union Government','State Government','Amendment Procedure','Schedules and Important Articles'],description:['Indian Constitution — Study Notes','Organized notes to help learners revise the structure, principles, articles, and institutions of the Constitution of India.','Suitable for competitive examinations and undergraduate study.']},
+'Maths':{title:'Maths & Quantitative Aptitude Notes',contents:['Number System','Simplification','HCF and LCM','Ratio and Proportion','Percentage','Profit and Loss','Simple and Compound Interest','Average','Time and Work','Speed, Time and Distance','Mensuration','Data Interpretation'],description:['Quantitative Aptitude — Practice Notes','Topic-wise revision notes for common quantitative aptitude concepts. Actual practice questions and solutions should be checked in the supplied PDF.','Suitable for competitive exam preparation.']},
+'G.K.':{title:'General Knowledge Notes',contents:['Indian History','Indian Geography','Indian Polity','Economy Basics','General Science','Environment','Art and Culture','Important Days','Awards and Honours','Sports','Books and Authors','Current Affairs'],description:['General Knowledge — Revision Notes','A topic-organized starting point for static general knowledge and exam revision. Current-affairs material should be updated regularly.','Suitable for competitive examinations.']},
+'Economics':{title:'Economics Notes',contents:['Basic Concepts of Economics','Demand and Supply','National Income','Inflation','Money and Banking','Fiscal Policy','Monetary Policy','Indian Economy','Poverty and Unemployment','Economic Planning and Development','Government Budget','International Trade'],description:['Economics — Exam-Focused Study Notes','Topic-organized notes covering core economic concepts, Indian economy, and important policy themes.','Suitable for competitive examinations and undergraduate revision.']}
+};
+const subject=new URLSearchParams(location.search).get('subject')||'History';
+const item=data[subject]||data.History;
+document.title=item.title+' | WitWarp';
+const coverFiles={'History':'history-cover.png','Geography':'geography-cover.png','Polity':'polity-cover.png','Constitution':'constitution-cover.png','Maths':'maths-cover.png','G.K.':'general-knowledge-cover.png','Economics':'economics-cover.png'};
+const coverImage=document.getElementById('subject-cover-image');coverImage.src='./'+(coverFiles[subject]||coverFiles.History);coverImage.alt=subject+' study notes cover';
+document.getElementById('page-title').textContent=item.title;
+document.getElementById('sample-label').textContent=subject.toUpperCase()+' NOTES';
+if(subject==='History'){document.getElementById('generic-sample').style.display='none';document.getElementById('history-samples').classList.add('active');document.getElementById('sample-hint').hidden=false}
+const imageModal=document.getElementById('image-modal');const modalImage=document.getElementById('modal-image');const modalCaption=document.getElementById('modal-caption');const closeImageModal=()=>{imageModal.classList.remove('open');modalImage.src='';document.body.style.overflow=''};document.querySelectorAll('.sample-open').forEach(button=>button.addEventListener('click',()=>{modalImage.src=button.dataset.fullImage;modalImage.alt=button.dataset.caption;modalCaption.textContent=button.dataset.caption;imageModal.classList.add('open');document.body.style.overflow='hidden';document.getElementById('image-modal-close').focus()}));document.getElementById('image-modal-close').addEventListener('click',closeImageModal);imageModal.addEventListener('click',event=>{if(event.target===imageModal)closeImageModal()});document.addEventListener('keydown',event=>{if(event.key==='Escape'&&imageModal.classList.contains('open'))closeImageModal()});
+document.getElementById('contents-list').innerHTML=item.contents.map(x=>'<li>'+x+'</li>').join('');
+document.getElementById('description-copy').innerHTML=item.description.map(x=>'<p>'+x+'</p>').join('');
+function toggle(btn,panel,otherBtn,otherPanel){const opening=panel.hidden;panel.hidden=!opening;btn.setAttribute('aria-expanded',String(opening));otherPanel.hidden=true;otherBtn.setAttribute('aria-expanded','false')}
+document.getElementById('contents-btn').addEventListener('click',()=>toggle(document.getElementById('contents-btn'),document.getElementById('contents-panel'),document.getElementById('description-btn'),document.getElementById('description-panel')));
+document.getElementById('description-btn').addEventListener('click',()=>toggle(document.getElementById('description-btn'),document.getElementById('description-panel'),document.getElementById('contents-btn'),document.getElementById('contents-panel')));
+const starLabels=[...document.querySelectorAll('.review-stars label')];
+function paintStars(value){starLabels.forEach((label,index)=>label.classList.toggle('selected',index<value))}
+document.querySelectorAll('.review-stars input').forEach(input=>{input.addEventListener('change',()=>paintStars(Number(input.value)));input.addEventListener('focus',()=>paintStars(Number(input.value))) });
+starLabels.forEach((label,index)=>label.addEventListener('click',()=>paintStars(index+1)));
+document.getElementById('review-form').addEventListener('submit',event=>{event.preventDefault();const form=event.currentTarget;const name=form.elements.name.value.trim();const rating=form.elements.rating.value;const message=form.elements.message.value.trim();if(!name||!rating||!message)return;const text=`WitWarp Review\nName: ${name}\nRating: ${rating}/5\nReview: ${message}\nSubject: ${subject}`;window.open('https://wa.me/919905523465?text='+encodeURIComponent(text),'_blank','noopener');});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="WitWarp exam-focused study notes for competitive exams.">
+<title>WitWarp — Study Notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#087fe8;--blue-dark:#07569b;--blue-light:#eaf4ff;--navy:#111827;--paper:#fff;--muted:#526174;--line:#b9cfe2;--ink:#16324b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:18px}
+body{margin:0;background-color:#f8fbff;background-image:radial-gradient(#a9c9e7 1px,transparent 1px);background-size:22px 22px;color:#090909;font-family:Roboto,Arial,Helvetica,sans-serif;overflow-x:hidden}
+body::before{content:"";position:absolute;z-index:-1;top:90px;left:50%;transform:translateX(-50%);width:min(1000px,120vw);height:650px;pointer-events:none;background:radial-gradient(ellipse at 50% 15%,rgba(8,127,232,.15),transparent 70%);filter:blur(18px)}
+.wrap{width:min(100% - 36px,980px);margin:auto}
+.top{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;padding:14px 0 24px;gap:12px;animation:fadeDown .65s ease both}
+.top-row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:128px;padding:8px 12px;background:rgba(255,255,255,.94);border:1.5px solid #c5d9ea;border-radius:22px;box-shadow:0 4px 0 rgba(7,86,155,.08),0 10px 24px rgba(7,86,155,.06);overflow:hidden}
+.header-mascot{display:block;width:clamp(170px,44vw,250px);max-width:52%;height:108px;object-fit:contain;object-position:center;flex:0 1 auto;margin-right:0;background:transparent}
+.brand{flex:0 0 auto;display:flex;align-items:center;justify-content:flex-start;min-height:60px;text-decoration:none}
+.brand img{display:block;width:90px;height:64px;object-fit:contain;object-position:left center}
+.nav{width:100%;display:flex;justify-content:space-around;gap:8px;align-items:center;padding:13px 12px;background:#fff;border:1.5px solid #c5d9ea;border-radius:15px;box-shadow:0 4px 0 rgba(7,86,155,.08),0 8px 18px rgba(7,86,155,.05)}
+.nav a{font-family:Roboto,Arial,sans-serif;font-weight:600;color:#172334;text-decoration:none;font-size:clamp(13px,3.3vw,16px);white-space:nowrap;transition:color .18s ease}
+.nav a:hover{color:var(--blue)}
+.nav a:focus-visible{outline:2px solid var(--blue);outline-offset:4px;border-radius:4px}
+.hero{padding:14px 0 56px;animation:heroReveal .8s .08s cubic-bezier(.2,.7,.2,1) both}.hero-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.hero h1{font-size:clamp(2.25rem,8vw,4.4rem);line-height:.98;letter-spacing:-.045em;max-width:760px;margin:8px 0 24px}
+.hero p{font:clamp(1.05rem,4vw,1.35rem)/1.35 Georgia,serif;color:#222;max-width:620px;margin:0 0 24px}
+.actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.btn{display:inline-flex;transition:transform .22s ease,box-shadow .22s ease,background .22s ease;align-items:center;justify-content:center;min-height:46px;padding:12px 16px;border:1.5px solid #9ebbd5;border-radius:13px;font-weight:750;font-size:16px;text-decoration:none;color:#111;background:#fff;box-shadow:0 3px 0 rgba(7,86,155,.1)}
+.btn.primary{background:var(--blue);color:#fff;border-color:#07569b;box-shadow:0 4px 0 #07569b}
+.btn.yellow{background:var(--blue-light);border-color:var(--blue-light);color:var(--blue-dark)}
+.section{padding:22px 0 46px}
+.section h2{text-align:center;font-size:clamp(2rem,6vw,3rem);margin:0 0 10px;letter-spacing:-.035em}
+.intro{font:17px/1.4 Georgia,serif;text-align:center;color:#333;max-width:560px;margin:0 auto 28px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px;align-items:start}
+.subject{position:relative;color:#111;text-decoration:none;text-align:left;display:block;background:#fff;border:2px solid #111;border-radius:16px;padding:10px 10px 13px;box-shadow:5px 6px 0 #111;overflow:visible;transition:transform .2s ease,box-shadow .2s ease,opacity .6s ease;opacity:1;transform:translateY(0)}
+.subject::before{content:"";position:absolute;z-index:0;left:16px;top:-12px;width:44%;height:19px;background:var(--tab-color,#087fe8);border:2px solid #111;border-bottom:0;border-radius:10px 10px 0 0;transform:skewX(14deg)}
+.subject:nth-child(1){--tab-color:#ffd95a}.subject:nth-child(2){--tab-color:#4bd34b}.subject:nth-child(3){--tab-color:#ffd95a}.subject:nth-child(4){--tab-color:#b9ee36}.subject:nth-child(5){--tab-color:#ff5c91}.subject:nth-child(6){--tab-color:#a184ff}.subject:nth-child(7){--tab-color:#55d8e8}
+.cover{height:auto;aspect-ratio:1.04/1;border-radius:12px;background:linear-gradient(145deg,#111827,#050505);display:flex;flex-direction:column;justify-content:space-between;text-align:left;padding:17px;color:#fff;overflow:hidden;box-shadow:0 2px 4px #00000018;transition:transform .15s}
+.subject:hover .cover{transform:translateY(-2px)}
+/* Hide cards for scroll-reveal only after JavaScript confirms it is running. */
+.js-ready .subject:not(.in-view){opacity:0;transform:translateY(18px)}
+.subject.in-view{opacity:1;transform:translateY(0)}
+.cover.image-cover{z-index:1;display:block;position:relative;padding:0;aspect-ratio:3/4;background:#fff;border:2px solid #111;border-radius:10px;box-shadow:3px 4px 0 #111;isolation:isolate;transition:transform .2s ease,box-shadow .2s ease}
+.cover.image-cover img{display:block;width:100%;height:100%;object-fit:cover;border-radius:7px}
+.cover.image-cover::after{content:none}
+.subject:hover .cover.image-cover{box-shadow:3px 4px 0 #111}.subject:hover{transform:translateY(-2px);box-shadow:7px 8px 0 #111}
+.subject-label{position:relative;z-index:1;display:block;margin:13px 2px 0;font-family:Roboto,Arial,sans-serif;font-size:clamp(15px,3.8vw,19px);font-weight:600;line-height:1.2;letter-spacing:-.02em;color:#111}
+.steps{max-width:620px;margin:25px auto 0;display:grid;gap:22px}
+.step{display:grid;grid-template-columns:30px 1fr;gap:10px;padding:14px;background:#fff;border:1.5px solid #b9cfe2;border-radius:13px;box-shadow:0 3px 0 rgba(7,86,155,.08)}
+.num{background:var(--blue-light);color:var(--blue-dark);border:1.5px solid #8bb9df;border-radius:8px;font-weight:bold;text-align:center;padding:3px 0;height:30px;font-size:18px;box-shadow:0 2px 0 #c3d8eb}
+.step h3{margin:0 0 6px;font-size:17px}
+.step p{margin:0;font:15px/1.4 Georgia,serif;color:#333}
+.contact{background:#eaf4ff;color:#102f4b;padding:25px 0 30px;border-top:2px solid #b9cfe2;border-bottom:2px solid #b9cfe2}
+.contact h2{text-align:left;font-size:24px;margin:0 0 10px}
+.contact p{font:17px/1.4 Georgia,serif;margin:0 0 18px}
+.contact a{color:#07569b;font-weight:bold;text-decoration:none;font-size:19px;overflow-wrap:anywhere}
+.contact .label{display:block;font:16px Georgia,serif;color:#284761;margin:13px 0 3px}
+.footer{padding:18px 0;background:#dceeff;color:#16324b;font-size:12px;border-top:1.5px solid #b9cfe2}
+.toplink{position:fixed;right:14px;bottom:14px;background:var(--blue);color:#fff;border-radius:100px;padding:10px 13px;text-decoration:none;box-shadow:0 3px 12px #0003;transition:transform .2s ease,box-shadow .2s ease}.toplink:hover{transform:translateY(-3px);box-shadow:0 8px 20px #087fe844}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes heroReveal{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glowBreath{from{opacity:.55;transform:translateX(-50%) scale(.96)}to{opacity:1;transform:translateX(-50%) scale(1.04)}}
+@keyframes buttonGlow{0%,100%{background-position:0% 50%;box-shadow:0 5px 14px #087fe82b}50%{background-position:100% 50%;box-shadow:0 7px 22px #087fe844}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.subject{opacity:1;transform:none}}
+@media(max-width:420px){.top{gap:10px}.top-row{min-height:118px;gap:5px;padding:7px 8px}.brand img{width:88px!important;height:62px!important}.header-mascot{width:clamp(180px,55vw,230px);max-width:62%;height:126px;object-fit:cover;object-position:84% 50%;margin-right:-7px}.nav{gap:4px;padding:12px 8px}.nav a{font-size:13px}}
+@media(min-width:700px){.top{padding-top:18px}.top-row{min-height:145px}.header-mascot{width:280px;max-width:55%;height:140px;object-position:84% 50%}.hero{padding-top:28px}.actions{flex-direction:row}.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 22px}.cover{aspect-ratio:1.15/1}.brand img{width:90px;height:64px}}
+@font-face{font-family:"Neue Freigeist";src:url("./NeueFreigeistTest-Black-BF670f2d936d319.otf") format("opentype");font-weight:900;font-style:normal;font-display:swap}
+.hero h1,.section h2,#how-to-buy h2,#contact h2{font-family:"Neue Freigeist",sans-serif;font-weight:900}
+
+/* WitWarp header + subject cards: clean comic/vector treatment */
+.top-row{
+  background:transparent!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;overflow:visible!important;
+  min-height:132px!important;padding:4px 0!important;gap:12px!important;
+}
+.brand{flex:0 0 auto!important;min-width:0!important}
+.brand img{width:118px!important;height:86px!important;object-fit:contain!important;object-position:left center!important}
+.header-mascot{
+  display:block!important;flex:0 1 270px!important;width:clamp(190px,48vw,270px)!important;
+  max-width:58%!important;height:156px!important;object-fit:contain!important;
+  object-position:right center!important;margin:0 -2px 0 auto!important;
+}
+.nav{
+  width:100%!important;min-height:62px!important;display:flex!important;
+  justify-content:space-around!important;gap:8px!important;padding:13px 10px!important;
+  background:#fff!important;border:2px solid #111!important;border-radius:15px!important;
+  box-shadow:4px 5px 0 #111!important;
+}
+.nav a{font-family:Roboto,Arial,sans-serif!important;font-size:clamp(13px,3.5vw,16px)!important}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:28px 18px!important}
+.subject{
+  background:#fff!important;border:2px solid #111!important;border-radius:15px!important;
+  padding:10px 10px 13px!important;box-shadow:5px 6px 0 #111!important;
+  overflow:visible!important;text-align:left!important;
+}
+.subject::before{
+  content:""!important;display:block!important;position:absolute!important;z-index:0!important;
+  left:16px!important;top:-12px!important;width:44%!important;height:19px!important;
+  background:var(--tab-color,#087fe8)!important;border:2px solid #111!important;
+  border-bottom:0!important;border-radius:10px 10px 0 0!important;transform:skewX(14deg)!important;
+}
+.subject:nth-child(1){--tab-color:#ffd95a!important}
+.subject:nth-child(2){--tab-color:#4bd34b!important}
+.subject:nth-child(3){--tab-color:#ffd95a!important}
+.subject:nth-child(4){--tab-color:#b9ee36!important}
+.subject:nth-child(5){--tab-color:#ff5c91!important}
+.subject:nth-child(6){--tab-color:#a184ff!important}
+.subject:nth-child(7){--tab-color:#55d8e8!important}
+.cover.image-cover{
+  position:relative!important;z-index:1!important;border:2px solid #111!important;
+  border-radius:10px!important;box-shadow:3px 4px 0 #111!important;
+  aspect-ratio:3/4!important;overflow:hidden!important;background:#fff!important;
+}
+.cover.image-cover img{width:100%!important;height:100%!important;object-fit:cover!important;border-radius:7px!important}
+.subject-label{
+  display:block!important;position:relative!important;z-index:2!important;
+  margin:13px 2px 0!important;font-family:Roboto,Arial,sans-serif!important;
+  font-size:clamp(15px,3.8vw,19px)!important;font-weight:600!important;
+  line-height:1.2!important;letter-spacing:-.02em!important;color:#111!important;
+}
+@media(min-width:700px){
+ .top-row{min-height:150px!important}
+ .brand img{width:130px!important;height:94px!important}
+ .header-mascot{width:280px!important;height:165px!important;max-width:45%!important}
+ .grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:30px 22px!important}
+}
+@media(max-width:420px){
+ .top-row{min-height:118px!important;padding:0!important;gap:4px!important}
+ .brand img{width:108px!important;height:78px!important}
+ .header-mascot{width:clamp(165px,49vw,210px)!important;max-width:60%!important;height:130px!important;object-fit:contain!important}
+ .nav{min-height:58px!important;gap:4px!important;padding:12px 6px!important}
+ .nav a{font-size:13px!important}
+ .subject{padding:8px 8px 12px!important}
+ .subject-label{font-size:16px!important}
+}
+
+</style>
+</head>
+<body id="top">
+<header class="wrap top">
+<div class="top-row"><a class="brand" href="index.html" aria-label="WitWarp home"><img class="logo" src="./witwarp-logo.png" alt="WitWarp" style="width:90px;height:64px;object-fit:contain;"></a><img class="header-mascot" src="./hello-champ-logo.png" alt="Hello Champ logo"></div>
+<nav class="nav" aria-label="Main navigation"><a href="#notes">Notes</a><a href="#how-to-buy">How to buy</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="wrap hero">
+<div class="hero-layout">
+<div class="hero-copy"><h1>Affordable notes<br>for competitive<br>exam prep.</h1>
+<p>WitWarp sells exam-focused study notes at prices students can actually pay.</p>
+<div class="actions"><a class="btn primary" href="#notes">See the notes</a><a class="btn" href="#contact">Message WitWarp</a></div></div>
+
+</div>
+</section>
+<section class="wrap section" id="notes">
+<h2>Notes</h2>
+<p class="intro">Choose the notes that match your exam. Open a subject to explore its contents, description, and sample notes.</p>
+<div class="grid">
+<a class="subject" href="notes.html?subject=History"><div class="cover image-cover"><img src="./history-cover.png" alt="History notes cover"></div><span class="subject-label">History</span></a>
+<a class="subject" href="notes.html?subject=Geography"><div class="cover image-cover"><img src="./geography-cover.png" alt="Geography notes cover"></div><span class="subject-label">Geography</span></a>
+<a class="subject" href="notes.html?subject=Polity"><div class="cover image-cover"><img src="./polity-cover.png" alt="Indian Polity notes cover"></div><span class="subject-label">Polity</span></a>
+<a class="subject" href="notes.html?subject=Constitution"><div class="cover image-cover"><img src="./constitution-cover.png" alt="Indian Constitution notes cover"></div><span class="subject-label">Constitution</span></a>
+<a class="subject" href="notes.html?subject=Maths"><div class="cover image-cover"><img src="./maths-cover.png" alt="Maths and Quantitative Aptitude notes cover"></div><span class="subject-label">Maths</span></a>
+<a class="subject" href="notes.html?subject=G.K."><div class="cover image-cover"><img src="./general-knowledge-cover.png" alt="General Knowledge notes cover"></div><span class="subject-label">G.K.</span></a>
+<a class="subject" href="notes.html?subject=Economics"><div class="cover image-cover"><img src="./economics-cover.png" alt="Economics notes cover"></div><span class="subject-label">Economics</span></a>
+</div>
+</section>
+<section class="wrap section" id="how-to-buy">
+<h2>How to buy</h2>
+<div class="steps">
+<div class="step"><span class="num">1</span><div><h3>Pick your notes</h3><p>Choose the subject you need from the list above.</p></div></div>
+<div class="step"><span class="num">2</span><div><h3>Tap Buy Now</h3><p>Pay securely using the available options on the Razorpay checkout page.</p></div></div>
+<div class="step"><span class="num">3</span><div><h3>Get your notes</h3><p>Contact WitWarp with your payment confirmation to receive your PDF.<br>Automatic delivery is not enabled yet.</p></div></div>
+</div>
+</section>
+<section class="contact" id="contact"><div class="wrap">
+<h2>Ask before you buy.</h2>
+<p>Not sure which notes you need? Message WitWarp with your exam and subject to check what is available.</p>
+<span class="label">WhatsApp</span><a href="https://wa.me/919905523465" target="_blank" rel="noopener">9905523465</a>
+<span class="label">Email</span><a href="mailto:awesh.h2@gmail.com">awesh.h2@gmail.com</a>
+<span class="label">Instagram</span><a href="https://instagram.com/witwarp.co" target="_blank" rel="noopener">@witwarp.co</a>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap">© <span id="year"></span> WitWarp · Study smarter.</div></footer>
+<a class="toplink" href="#top" aria-label="Back to top">↑</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const cards=document.querySelectorAll('.subject');
+// Enable scroll reveals only when JavaScript is available; otherwise cards remain visible.
+document.body.classList.add('js-ready');
+if('IntersectionObserver' in window){
+ const reveal=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in-view');reveal.unobserve(entry.target)}}),{threshold:.12});
+ cards.forEach((card,i)=>{card.style.transitionDelay=(i%3)*70+'ms';reveal.observe(card)});
+}else{cards.forEach(card=>card.classList.add('in-view'))}
+</script>
+</body>
+</html>

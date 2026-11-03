@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Canonical five-tab information taxonomy for all 28 Indian states and 8 Union Territories. This metadata does not alter map geometry or district boundary data.",
+  "regionCoverage": {
+    "states": 28,
+    "unionTerritories": 8,
+    "total": 36
+  },
+  "navigation": [
+    {
+      "id": "profile",
+      "label": "State & District Profile",
+      "dataSource": "region-level administration and political records; individual district profiles open from existing district map selection",
+      "sections": [
+        "Administrative identity",
+        "Capital & administration",
+        "Demographics",
+        "Political representation",
+        "Governance & judiciary",
+        "Geographical identity",
+        "Economy overview",
+        "Individual district profile"
+      ]
+    },
+    {
+      "id": "geography",
+      "label": "Physical Geography",
+      "categories": [
+        {
+          "key": "location",
+          "label": "Geographical location & neighbours"
+        },
+        {
+          "key": "mountainRanges",
+          "label": "Mountain ranges & hills"
+        },
+        {
+          "key": "peaks",
+          "label": "Important peaks"
+        },
+        {
+          "key": "passes",
+          "label": "Mountain passes"
+        },
+        {
+          "key": "plateaus",
+          "label": "Plateaus"
+        },
+        {
+          "key": "plains",
+          "label": "Plains & valleys"
+        },
+        {
+          "key": "rivers",
+          "label": "Major rivers"
+        },
+        {
+          "key": "tributaries",
+          "label": "Tributaries & drainage"
+        },
+        {
+          "key": "riverBasins",
+          "label": "River basins & watersheds"
+        },
+        {
+          "key": "lakes",
+          "label": "Lakes"
+        },
+        {
+          "key": "glacialLakes",
+          "label": "Glacial lakes"
+        },
+        {
+          "key": "wetlands",
+          "label": "Wetlands & lagoons"
+        },
+        {
+          "key": "dams",
+          "label": "Dams & water projects"
+        },
+        {
+          "key": "reservoirs",
+          "label": "Reservoirs"
+        },
+        {
+          "key": "waterfalls",
+          "label": "Waterfalls"
+        },
+        {
+          "key": "soilTypes",
+          "label": "Soil types"
+        },
+        {
+          "key": "climate",
+          "label": "Climate"
+        },
+        {
+          "key": "coastalFeatures",
+          "label": "Coastal features"
+        },
+        {
+          "key": "islands",
+          "label": "Islands & reefs"
+        },
+        {
+          "key": "geology",
+          "label": "Geology"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "Environment & Biodiversity",
+      "categories": [
+        {
+          "key": "nationalParks",
+          "label": "National parks"
+        },
+        {
+          "key": "wildlifeSanctuaries",
+          "label": "Wildlife sanctuaries"
+        },
+        {
+          "key": "tigerReserves",
+          "label": "Tiger reserves"
+        },
+        {
+          "key": "elephantReserves",
+          "label": "Elephant reserves & corridors"
+        },
+        {
+          "key": "biosphereReserves",
+          "label": "Biosphere reserves"
+        },
+        {
+          "key": "ramsarSites",
+          "label": "Ramsar sites"
+        },
+        {
+          "key": "conservationReserves",
+          "label": "Conservation reserves"
+        },
+        {
+          "key": "communityReserves",
+          "label": "Community reserves"
+        },
+        {
+          "key": "marineProtectedAreas",
+          "label": "Marine protected areas"
+        },
+        {
+          "key": "forestCover",
+          "label": "Forests & forest cover"
+        },
+        {
+          "key": "ecosystems",
+          "label": "Ecosystems"
+        },
+        {
+          "key": "floraFauna",
+          "label": "Flora & fauna"
+        },
+        {
+          "key": "endangeredSpecies",
+          "label": "Endangered & threatened species"
+        },
+        {
+          "key": "conservationProjects",
+          "label": "Conservation projects"
+        },
+        {
+          "key": "environmentalChallenges",
+          "label": "Environmental challenges"
+        },
+        {
+          "key": "disasterProneRegions",
+          "label": "Disaster-prone regions"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy & Infrastructure",
+      "categories": [
+        {
+          "key": "crops",
+          "label": "Agriculture & major crops"
+        },
+        {
+          "key": "horticulture",
+          "label": "Horticulture"
+        },
+        {
+          "key": "minerals",
+          "label": "Minerals & mining regions"
+        },
+        {
+          "key": "industries",
+          "label": "Industries & industrial clusters"
+        },
+        {
+          "key": "industrialCorridors",
+          "label": "Industrial corridors & zones"
+        },
+        {
+          "key": "powerPlants",
+          "label": "Power plants"
+        },
+        {
+          "key": "renewableEnergyProjects",
+          "label": "Renewable energy projects"
+        },
+        {
+          "key": "irrigationProjects",
+          "label": "Irrigation projects"
+        },
+        {
+          "key": "highways",
+          "label": "Highways & expressways"
+        },
+        {
+          "key": "railways",
+          "label": "Railways"
+        },
+        {
+          "key": "airports",
+          "label": "Airports"
+        },
+        {
+          "key": "ports",
+          "label": "Ports & harbours"
+        },
+        {
+          "key": "waterways",
+          "label": "Inland waterways"
+        },
+        {
+          "key": "institutions",
+          "label": "Important institutions"
+        },
+        {
+          "key": "economicCentres",
+          "label": "Economic centres & trade"
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism economy"
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "label": "History, Culture & Heritage",
+      "categories": [
+        {
+          "key": "ancientKingdoms",
+          "label": "Ancient kingdoms & dynasties"
+        },
+        {
+          "key": "medievalKingdoms",
+          "label": "Medieval kingdoms & dynasties"
+        },
+        {
+          "key": "modernHistory",
+          "label": "Modern history"
+        },
+        {
+          "key": "freedomMovement",
+          "label": "Freedom movement"
+        },
+        {
+          "key": "archaeologicalSites",
+          "label": "Archaeological sites"
+        },
+        {
+          "key": "unescoWorldHeritage",
+          "label": "UNESCO World Heritage"
+        },
+        {
+          "key": "monuments",
+          "label": "Historical monuments"
+        },
+        {
+          "key": "festivals",
+          "label": "Festivals & fairs"
+        },
+        {
+          "key": "folkDances",
+          "label": "Folk dances"
+        },
+        {
+          "key": "classicalDances",
+          "label": "Classical dances"
+        },
+        {
+          "key": "music",
+          "label": "Music & instruments"
+        },
+        {
+          "key": "languages",
+          "label": "Languages"
+        },
+        {
+          "key": "literature",
+          "label": "Literature & personalities"
+        },
+        {
+          "key": "giProducts",
+          "label": "GI-tagged products"
+        },
+        {
+          "key": "handicrafts",
+          "label": "Handicrafts & traditional arts"
+        },
+        {
+          "key": "tribalCommunities",
+          "label": "Tribal communities & PVTGs"
+        },
+        {
+          "key": "religiousHeritage",
+          "label": "Religious & pilgrimage heritage"
+        },
+        {
+          "key": "historicalPersonalities",
+          "label": "Historical personalities"
+        }
+      ]
+    }
+  ],
+  "recordRequirements": {
+    "required": [
+      "id",
+      "regionId",
+      "category",
+      "officialName",
+      "sourceName",
+      "sourceUrl",
+      "verificationStatus"
+    ],
+    "recommended": [
+      "districtId",
+      "description",
+      "coordinates",
+      "referenceYear",
+      "referenceDate",
+      "lastVerifiedAt",
+      "relatedEntityIds",
+      "examRelevance"
+    ],
+    "verificationStatuses": [
+      "verified",
+      "verification_pending",
+      "not_available"
+    ],
+    "rules": [
+      "Never represent missing information as zero.",
+      "Keep historical reference years distinct from last-verified dates.",
+      "Separate national notification from UNESCO recognition.",
+      "Separate IUCN conservation category from Indian legal protection status.",
+      "Do not duplicate districts in a standalone directory; select them through the existing map.",
+      "Reuse shared entity identifiers for rivers, lakes, dams, protected areas and institutions."
+    ]
+  },
+  "revisionFeatures": [
+    "importantFacts",
+    "quickRevision",
+    "comparisonTables",
+    "verifiedPreviousYearQuestions",
+    "topicPracticeMCQs",
+    "explanations",
+    "examRelevance"
+  ],
+  "uiConstraints": [
+    "Preserve existing India map geometry, styling, labels and interactions.",
+    "Use the map as the only India-level state/UT and district selector.",
+    "Keep exactly five primary information tabs.",
+    "District profiles remain accessible by selecting a district on the existing state map."
+  ]
+}

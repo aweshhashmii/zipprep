@@ -451,7 +451,7 @@ $('bm').onclick=function(){st.b[st.i]=!st.b[st.i];show()};$('pv').onclick=functi
 function done(){clearInterval(tmr);var sc=0,w=[];st.p.forEach(function(q,i){if(st.a[i]===q[4])sc++;else w.push(q)});var sv=st.p.filter(function(q,i){return st.b[i]});
 qz.innerHTML='<div class="qc"><h3>Your score: '+sc+' / '+st.p.length+'</h3><p>'+Math.round(sc/st.p.length*100)+'% correct · '+w.length+' to review · '+sv.length+' saved</p><div class="qn">'+(w.length?'<button class="btn k" id="rt">Retry incorrect</button>':'')+(sv.length?'<button class="btn o2" id="rs">Practise saved</button>':'')+'<button class="btn o2" id="nq">New quiz</button></div></div>';
 if(w.length)$('rt').onclick=function(){begin(w,false)};if(sv.length)$('rs').onclick=function(){begin(sv,false)};$('nq').onclick=setup}
-var mockStartLink=document.getElementById('mock-start');if(mockStartLink)mockStartLink.addEventListener('click',function(e){e.preventDefault();if(location.hash!=='#mock-test')location.hash='mock-test';else startMock();});window.addEventListener('hashchange',route);route();
+document.addEventListener('zipprep:open-mock-test',startMock);var mockStartLink=document.getElementById('mock-start');if(mockStartLink)mockStartLink.addEventListener('click',function(e){e.preventDefault();if(location.hash!=='#mock-test')location.hash='mock-test';else startMock();});window.addEventListener('hashchange',route);route();
 })();
 </script>
 <script>

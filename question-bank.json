@@ -1,0 +1,632 @@
+{
+  "version": 1,
+  "description": "ZipPrep practice bank. Questions marked verifiedPYQ=false are original practice questions, not certified official previous-year questions.",
+  "targetCount": 5000,
+  "currentCount": 39,
+  "questions": [
+    {
+      "id": "main-1",
+      "subject": "History",
+      "difficulty": "Medium",
+      "question": "Which development is most closely associated with the Neolithic period?",
+      "options": [
+        "Use of iron tools",
+        "Beginning of farming and settled life",
+        "Use of paper currency",
+        "Factory production"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 6 Our Pasts I: farming and herding encouraged settled communities.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-2",
+      "subject": "History",
+      "difficulty": "Medium",
+      "question": "Ashoka's dhamma primarily emphasised:",
+      "options": [
+        "Military conquest",
+        "Ethical conduct, compassion and respect",
+        "Compulsory one-religion worship",
+        "Expansion of overseas trade"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 6 Our Pasts I: Ashoka's dhamma promoted respect, non-violence and ethical conduct.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-3",
+      "subject": "History",
+      "difficulty": "Hard",
+      "question": "The Mansabdari system under the Mughals was related to:",
+      "options": [
+        "Village elections",
+        "Ranks and military-administrative obligations",
+        "Temple architecture",
+        "Maritime trade alone"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 7 Our Pasts II: mansabs determined rank, status and military responsibilities.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-4",
+      "subject": "History",
+      "difficulty": "Medium",
+      "question": "The Permanent Settlement of Bengal was introduced in 1793 by:",
+      "options": [
+        "Lord Dalhousie",
+        "Lord Cornwallis",
+        "Lord Wellesley",
+        "Warren Hastings"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 8 Our Pasts III: Cornwallis introduced the Permanent Settlement in Bengal.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-5",
+      "subject": "History",
+      "difficulty": "Medium",
+      "question": "The Swadeshi Movement arose in response to:",
+      "options": [
+        "The Rowlatt Act",
+        "Partition of Bengal in 1905",
+        "The Simon Commission",
+        "The Cabinet Mission"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 8 Our Pasts III: the anti-partition movement encouraged boycott and swadeshi.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-6",
+      "subject": "History",
+      "difficulty": "Hard",
+      "question": "The Dandi March of 1930 challenged the British:",
+      "options": [
+        "Land revenue system",
+        "Salt tax and monopoly",
+        "Vernacular Press Act",
+        "Permanent Settlement"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 8 Our Pasts III: Gandhi's march protested the colonial salt laws.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-7",
+      "subject": "Geography",
+      "difficulty": "Medium",
+      "question": "The Tropic of Cancer lies at approximately:",
+      "options": [
+        "0°",
+        "23½° N",
+        "66½° N",
+        "23½° S"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 6 The Earth: Our Habitat: the Tropic of Cancer is at 23½ degrees north.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-8",
+      "subject": "Geography",
+      "difficulty": "Medium",
+      "question": "Most weather phenomena occur in which atmospheric layer?",
+      "options": [
+        "Stratosphere",
+        "Mesosphere",
+        "Troposphere",
+        "Thermosphere"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 7 Our Environment: weather changes occur in the troposphere.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-9",
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "question": "The Coriolis force is a consequence of:",
+      "options": [
+        "Earth's rotation",
+        "Moon's revolution",
+        "Ocean salinity",
+        "Unequal rainfall"
+      ],
+      "answer": 0,
+      "explanation": "NCERT Class 11 Fundamentals of Physical Geography: Earth's rotation deflects moving air and water.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-10",
+      "subject": "Geography",
+      "difficulty": "Medium",
+      "question": "Black soil is particularly suitable for cotton cultivation because it:",
+      "options": [
+        "Is very sandy",
+        "Retains moisture",
+        "Has no clay",
+        "Occurs only in deserts"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 10 Contemporary India II: black soil has high moisture-retention capacity.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-11",
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "question": "A radial drainage pattern develops when streams flow:",
+      "options": [
+        "In parallel lines",
+        "Outwards from a central elevated area",
+        "At right angles in a rectangular pattern",
+        "Towards a central lake only"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Fundamentals of Physical Geography: radial drainage develops around domes and volcanic cones.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-12",
+      "subject": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Article 1 of the Indian Constitution describes India as a:",
+      "options": [
+        "Confederation of kingdoms",
+        "Union of States",
+        "Unitary monarchy",
+        "Federation of provinces by treaty"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Indian Constitution at Work: Article 1 describes India as a Union of States.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-13",
+      "subject": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Which Fundamental Right abolishes untouchability?",
+      "options": [
+        "Right to Equality",
+        "Right to Freedom",
+        "Right against Exploitation",
+        "Freedom of Religion"
+      ],
+      "answer": 0,
+      "explanation": "NCERT Class 8 Social and Political Life III: Article 17 abolishes untouchability.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-14",
+      "subject": "Civics & Polity",
+      "difficulty": "Hard",
+      "question": "Directive Principles of State Policy are:",
+      "options": [
+        "Enforceable by courts",
+        "Non-justiciable but fundamental in governance",
+        "Applicable only during emergencies",
+        "Outside the Constitution"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Indian Constitution at Work: Article 37 describes the status of DPSPs.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-15",
+      "subject": "Civics & Polity",
+      "difficulty": "Hard",
+      "question": "A Money Bill can be introduced only in the:",
+      "options": [
+        "Rajya Sabha",
+        "Lok Sabha",
+        "Either House",
+        "Joint sitting"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Indian Constitution at Work: Money Bills originate in the Lok Sabha.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-16",
+      "subject": "Economics",
+      "difficulty": "Medium",
+      "question": "GDP measures the value of:",
+      "options": [
+        "Only government tax receipts",
+        "Final goods and services produced within domestic territory in a period",
+        "Only exports",
+        "All second-hand goods resold"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 12 Introductory Macroeconomics: GDP measures final production within domestic territory.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-17",
+      "subject": "Economics",
+      "difficulty": "Medium",
+      "question": "The Public Distribution System mainly aims to:",
+      "options": [
+        "Regulate stock exchanges",
+        "Provide essential food grains at subsidised prices",
+        "Promote luxury imports",
+        "Set industrial wages"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 9 Economics: the PDS distributes essential commodities, especially food grains.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-18",
+      "subject": "Economics",
+      "difficulty": "Hard",
+      "question": "A rise in the repo rate generally makes borrowing by commercial banks from the RBI:",
+      "options": [
+        "Cheaper",
+        "Costlier",
+        "Interest-free",
+        "Unchanged in all cases"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 12 Introductory Macroeconomics: a higher repo rate raises the cost of RBI funds.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-19",
+      "subject": "Science",
+      "difficulty": "Medium",
+      "question": "Which organelle is the main site of photosynthesis?",
+      "options": [
+        "Mitochondrion",
+        "Chloroplast",
+        "Nucleus",
+        "Ribosome"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Biology: chloroplasts contain chlorophyll and carry out photosynthesis.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-20",
+      "subject": "Science",
+      "difficulty": "Medium",
+      "question": "The SI unit of force is:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 9 Science: force is measured in newtons.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-21",
+      "subject": "Science",
+      "difficulty": "Hard",
+      "question": "A convex lens forms a virtual, erect and magnified image when the object is:",
+      "options": [
+        "Beyond 2F",
+        "At 2F",
+        "Between the optical centre and focus",
+        "At infinity"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 10 Science: an object within the focal length gives a virtual, erect, magnified image.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-22",
+      "subject": "Science",
+      "difficulty": "Medium",
+      "question": "Which blood component helps in clotting?",
+      "options": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Neurons"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 10 Science: platelets help in blood clotting.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-23",
+      "subject": "Science",
+      "difficulty": "Hard",
+      "question": "The structural and functional unit of the human kidney is the:",
+      "options": [
+        "Neuron",
+        "Nephron",
+        "Alveolus",
+        "Villus"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Biology: the nephron is the kidney's functional unit.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-24",
+      "subject": "Chemistry",
+      "difficulty": "Medium",
+      "question": "The electronic configuration 2,8,1 belongs to:",
+      "options": [
+        "Neon",
+        "Sodium",
+        "Magnesium",
+        "Chlorine"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 9 Science: sodium has atomic number 11 and configuration 2,8,1.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-25",
+      "subject": "Chemistry",
+      "difficulty": "Hard",
+      "question": "A bond formed by sharing electron pairs is called:",
+      "options": [
+        "Ionic",
+        "Covalent",
+        "Metallic",
+        "Coordinate only"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 10 Science and Class 11 Chemistry: covalent bonds involve shared electron pairs.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-26",
+      "subject": "Physics",
+      "difficulty": "Medium",
+      "question": "The slope of a velocity-time graph represents:",
+      "options": [
+        "Distance",
+        "Acceleration",
+        "Momentum",
+        "Force"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 11 Physics: the slope of a velocity-time graph gives acceleration.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-27",
+      "subject": "Physics",
+      "difficulty": "Medium",
+      "question": "In a series electric circuit, the current through each resistor is:",
+      "options": [
+        "Different",
+        "The same",
+        "Always zero",
+        "Inversely proportional to voltage"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 10 Science: current is the same at every point in a series circuit.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-28",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "question": "The HCF of 96 and 404 is:",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 10 Mathematics: Euclid's algorithm gives the HCF as 4.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-29",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "question": "The roots of x² − 5x + 6 = 0 have a sum equal to:",
+      "options": [
+        "−6",
+        "−5",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 10 Mathematics: the sum of roots is −b/a, which is 5.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-30",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "question": "The probability of obtaining an even number on a fair die is:",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 10 Mathematics: three of six equally likely outcomes are even.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-31",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "question": "The derivative of x³ with respect to x is:",
+      "options": [
+        "x²",
+        "2x",
+        "3x²",
+        "3x"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 12 Mathematics: the power rule gives 3x².",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-32",
+      "subject": "Biology",
+      "difficulty": "Medium",
+      "question": "The hereditary material in most living organisms is:",
+      "options": [
+        "Protein",
+        "DNA",
+        "Starch",
+        "Cellulose"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 10 Science and Class 12 Biology: DNA carries hereditary information.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-33",
+      "subject": "Biology",
+      "difficulty": "Hard",
+      "question": "In an ecosystem, the greatest energy is generally available at the level of:",
+      "options": [
+        "Top carnivores",
+        "Secondary consumers",
+        "Primary consumers",
+        "Producers"
+      ],
+      "answer": 3,
+      "explanation": "NCERT Class 10 Science: producers form the first trophic level and contain the most energy.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-34",
+      "subject": "English",
+      "difficulty": "Medium",
+      "question": "Choose the correct passive form: 'The committee approved the proposal.'",
+      "options": [
+        "The proposal approved the committee.",
+        "The proposal was approved by the committee.",
+        "The proposal is approving the committee.",
+        "The committee was approved by the proposal."
+      ],
+      "answer": 1,
+      "explanation": "NCERT English grammar: simple past passive uses was/were plus past participle.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-35",
+      "subject": "English",
+      "difficulty": "Hard",
+      "question": "Choose the word closest in meaning to 'meticulous':",
+      "options": [
+        "Careless",
+        "Thorough and precise",
+        "Impatient",
+        "Indifferent"
+      ],
+      "answer": 1,
+      "explanation": "NCERT English vocabulary: meticulous means showing great attention to detail.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-36",
+      "subject": "English",
+      "difficulty": "Medium",
+      "question": "Choose the correctly punctuated sentence:",
+      "options": [
+        "However I decided to stay.",
+        "However, I decided to stay.",
+        "However I, decided to stay.",
+        "However; I decided, to stay."
+      ],
+      "answer": 1,
+      "explanation": "NCERT English writing conventions: an introductory conjunctive adverb is followed by a comma.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-37",
+      "subject": "Social Science",
+      "difficulty": "Medium",
+      "question": "Which institution conducts elections to Parliament and State Legislatures in India?",
+      "options": [
+        "UPSC",
+        "Election Commission of India",
+        "Finance Commission",
+        "NITI Aayog"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 9 Democratic Politics: the Election Commission supervises these elections.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-38",
+      "subject": "Social Science",
+      "difficulty": "Hard",
+      "question": "In the Indian constitutional context, secularism means that the state:",
+      "options": [
+        "Has an official state religion",
+        "Has no official religion and treats religions impartially",
+        "Prohibits all religious practice",
+        "Supports only the majority religion"
+      ],
+      "answer": 1,
+      "explanation": "NCERT Class 8 Social and Political Life and Class 11 Political Theory: Indian secularism rejects an official state religion.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "main-39",
+      "subject": "Social Science",
+      "difficulty": "Medium",
+      "question": "Which is a tertiary sector activity?",
+      "options": [
+        "Wheat cultivation",
+        "Coal mining",
+        "Banking",
+        "Steel production"
+      ],
+      "answer": 2,
+      "explanation": "NCERT Class 10 Understanding Economic Development: banking is a service-sector activity.",
+      "source": "NCERT-based/original practice",
+      "verifiedPYQ": false
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "version": 1,
   "description": "ZipPrep practice bank. Questions marked verifiedPYQ=false are original practice questions, not certified official previous-year questions.",
   "targetCount": 5000,
-  "currentCount": 39,
+  "currentCount": 95,
   "questions": [
     {
       "id": "main-1",
@@ -666,6 +666,958 @@
       "source": "NCERT-based/original practice",
       "verifiedPYQ": false,
       "topic": "Social Science"
+    },
+    {
+      "id": "batch-2026-11-001",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "Which Harappan site is especially known for its dockyard?",
+      "options": [
+        "Lothal",
+        "Kalibangan",
+        "Rakhigarhi",
+        "Banawali"
+      ],
+      "answer": 0,
+      "explanation": "Lothal in Gujarat is associated with a structure commonly identified as a dockyard.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-002",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "Who founded the Mauryan Empire?",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara"
+      ],
+      "answer": 1,
+      "explanation": "Chandragupta Maurya established the Mauryan Empire in the late fourth century BCE.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-003",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The Allahabad Pillar inscription is associated with which Gupta ruler?",
+      "options": [
+        "Chandragupta I",
+        "Samudragupta",
+        "Skandagupta",
+        "Kumaragupta"
+      ],
+      "answer": 1,
+      "explanation": "The prashasti composed by Harisena records Samudragupta's achievements.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-004",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "Who was the first Mughal emperor in India?",
+      "options": [
+        "Akbar",
+        "Humayun",
+        "Babur",
+        "Jahangir"
+      ],
+      "answer": 2,
+      "explanation": "Babur founded Mughal rule in India after the First Battle of Panipat in 1526.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-005",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The Battle of Plassey was fought in which year?",
+      "options": [
+        "1757",
+        "1764",
+        "1773",
+        "1857"
+      ],
+      "answer": 0,
+      "explanation": "The Battle of Plassey took place in 1757.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-006",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "Who founded the Brahmo Samaj in 1828?",
+      "options": [
+        "Swami Dayanand Saraswati",
+        "Raja Rammohan Roy",
+        "Ishwar Chandra Vidyasagar",
+        "Keshab Chandra Sen"
+      ],
+      "answer": 1,
+      "explanation": "Raja Rammohan Roy founded the Brahmo Sabha, later known as the Brahmo Samaj.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-007",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "The Quit India Movement was launched in:",
+      "options": [
+        "1930",
+        "1935",
+        "1942",
+        "1946"
+      ],
+      "answer": 2,
+      "explanation": "The Congress launched the Quit India Movement in August 1942.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-008",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "Who led the Dandi March from Sabarmati Ashram in 1930?",
+      "options": [
+        "Sardar Patel",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose"
+      ],
+      "answer": 1,
+      "explanation": "Mahatma Gandhi led the march to challenge the colonial salt laws.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-009",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which is the largest Indian state by area?",
+      "options": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "answer": 2,
+      "explanation": "Rajasthan is India's largest state by geographical area.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-010",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "Which river is often called the Dakshin Ganga?",
+      "options": [
+        "Krishna",
+        "Godavari",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "answer": 1,
+      "explanation": "The Godavari is popularly known as the Dakshin Ganga.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-011",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which soil is commonly associated with the Deccan Trap region?",
+      "options": [
+        "Alluvial soil",
+        "Black soil",
+        "Laterite soil",
+        "Arid soil"
+      ],
+      "answer": 1,
+      "explanation": "Black cotton soil is widespread over parts of the Deccan Trap.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-012",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "The seasonal reversal of wind direction is a defining feature of:",
+      "options": [
+        "Trade winds",
+        "Monsoon winds",
+        "Polar easterlies",
+        "Westerlies"
+      ],
+      "answer": 1,
+      "explanation": "Monsoon circulation involves a seasonal reversal of prevailing wind direction.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-013",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "Which pass connects Srinagar with Leh by road?",
+      "options": [
+        "Nathu La",
+        "Zoji La",
+        "Shipki La",
+        "Bomdi La"
+      ],
+      "answer": 1,
+      "explanation": "Zoji La lies on the route between the Kashmir Valley and Ladakh.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-014",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which is the southernmost point of mainland India?",
+      "options": [
+        "Indira Point",
+        "Kanyakumari",
+        "Rameswaram",
+        "Kochi"
+      ],
+      "answer": 1,
+      "explanation": "Kanyakumari is the southernmost point of mainland India.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-015",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Hard",
+      "question": "The Sundarbans are formed in the delta of which river system?",
+      "options": [
+        "Narmada–Tapti",
+        "Ganga–Brahmaputra–Meghna",
+        "Godavari–Krishna",
+        "Mahanadi–Brahmani"
+      ],
+      "answer": 1,
+      "explanation": "The Sundarbans occupy the extensive Ganga–Brahmaputra–Meghna delta.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-016",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Easy",
+      "question": "Who is the constitutional head of the Union executive in India?",
+      "options": [
+        "Prime Minister",
+        "President",
+        "Chief Justice",
+        "Speaker of Lok Sabha"
+      ],
+      "answer": 1,
+      "explanation": "The President is the constitutional head of the Union executive.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-017",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Which article provides for the Finance Commission?",
+      "options": [
+        "Article 110",
+        "Article 148",
+        "Article 280",
+        "Article 324"
+      ],
+      "answer": 2,
+      "explanation": "Article 280 provides for the constitution of a Finance Commission.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-018",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Easy",
+      "question": "The minimum age to become a member of the Lok Sabha is:",
+      "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
+      ],
+      "answer": 1,
+      "explanation": "A Lok Sabha candidate must be at least 25 years old.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-019",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Who appoints the Governor of an Indian state?",
+      "options": [
+        "Chief Minister",
+        "President of India",
+        "Chief Justice of India",
+        "State Legislature"
+      ],
+      "answer": 1,
+      "explanation": "The President appoints state Governors under Article 155.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-020",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Hard",
+      "question": "Which schedule of the Constitution deals with the allocation of seats in the Rajya Sabha?",
+      "options": [
+        "Third Schedule",
+        "Fourth Schedule",
+        "Seventh Schedule",
+        "Tenth Schedule"
+      ],
+      "answer": 1,
+      "explanation": "The Fourth Schedule provides for allocation of Rajya Sabha seats to states and union territories.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-021",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "A joint sitting of Parliament is presided over by the:",
+      "options": [
+        "President",
+        "Vice-President",
+        "Speaker of Lok Sabha",
+        "Chairperson of Rajya Sabha"
+      ],
+      "answer": 2,
+      "explanation": "The Speaker of the Lok Sabha presides over a joint sitting.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-022",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "Which sector includes agriculture and fishing?",
+      "options": [
+        "Primary sector",
+        "Secondary sector",
+        "Tertiary sector",
+        "Quaternary sector"
+      ],
+      "answer": 0,
+      "explanation": "Agriculture, forestry, fishing and mining are primary-sector activities.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-023",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Medium",
+      "question": "Inflation refers to:",
+      "options": [
+        "A fall in general price level",
+        "A sustained rise in general price level",
+        "A rise in exports only",
+        "A fall in money supply only"
+      ],
+      "answer": 1,
+      "explanation": "Inflation is a sustained increase in the general price level.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-024",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "Which institution issues most currency notes in India?",
+      "options": [
+        "SBI",
+        "Reserve Bank of India",
+        "Finance Ministry directly",
+        "NABARD"
+      ],
+      "answer": 1,
+      "explanation": "The RBI issues banknotes in India, except the one-rupee note issued by the Government of India.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-025",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Medium",
+      "question": "The full form of GST is:",
+      "options": [
+        "General Sales Tariff",
+        "Goods and Services Tax",
+        "Government Service Tax",
+        "Gross Supply Tax"
+      ],
+      "answer": 1,
+      "explanation": "GST stands for Goods and Services Tax.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-026",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "Which curve represents combinations of two goods giving equal satisfaction to a consumer?",
+      "options": [
+        "Phillips curve",
+        "Indifference curve",
+        "Lorenz curve",
+        "Supply curve"
+      ],
+      "answer": 1,
+      "explanation": "An indifference curve shows combinations of goods yielding equal consumer satisfaction.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-027",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "Which gas is released during photosynthesis?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Methane"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen is released when water is split during the light-dependent reactions of photosynthesis.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-028",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which vitamin is synthesised in the skin in the presence of sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 3,
+      "explanation": "UVB exposure enables the skin to synthesise vitamin D.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-029",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "What is the pH of a neutral solution at 25°C?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "At 25°C, a neutral aqueous solution has pH 7.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-030",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which blood group is commonly called the universal red-cell donor type?",
+      "options": [
+        "AB positive",
+        "O negative",
+        "A positive",
+        "B negative"
+      ],
+      "answer": 1,
+      "explanation": "O-negative red cells lack A, B and RhD antigens; clinical transfusion still requires compatibility testing.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-031",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "Which part of a plant mainly absorbs water from the soil?",
+      "options": [
+        "Leaves",
+        "Stem",
+        "Root hairs",
+        "Flowers"
+      ],
+      "answer": 2,
+      "explanation": "Root hairs provide a large surface area for absorption of water and mineral ions.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-032",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Anemometer",
+        "Seismograph"
+      ],
+      "answer": 1,
+      "explanation": "A barometer measures atmospheric pressure.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-033",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Easy",
+      "question": "The SI unit of electric current is:",
+      "options": [
+        "Volt",
+        "Ohm",
+        "Ampere",
+        "Coulomb"
+      ],
+      "answer": 2,
+      "explanation": "Electric current is measured in amperes.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-034",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "Which mirror is used as a rear-view mirror in vehicles?",
+      "options": [
+        "Plane mirror",
+        "Concave mirror",
+        "Convex mirror",
+        "Parabolic mirror"
+      ],
+      "answer": 2,
+      "explanation": "A convex mirror gives an erect, diminished image and a wider field of view.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-035",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "Sound cannot travel through:",
+      "options": [
+        "Water",
+        "Steel",
+        "Air",
+        "Vacuum"
+      ],
+      "answer": 3,
+      "explanation": "Sound requires a material medium and cannot propagate through a vacuum.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-036",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Hard",
+      "question": "The resistance of a conductor is doubled if, with all other factors unchanged, its:",
+      "options": [
+        "Length is doubled",
+        "Area is doubled",
+        "Temperature is halved",
+        "Resistivity is halved"
+      ],
+      "answer": 0,
+      "explanation": "For a uniform conductor, R = ρL/A, so doubling length doubles resistance.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-037",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Easy",
+      "question": "The chemical symbol Na represents:",
+      "options": [
+        "Nitrogen",
+        "Sodium",
+        "Neon",
+        "Nickel"
+      ],
+      "answer": 1,
+      "explanation": "Na is the symbol for sodium, derived from the Latin name natrium.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-038",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "Which gas is commonly used to fill electric bulbs to reduce filament oxidation?",
+      "options": [
+        "Oxygen",
+        "Nitrogen or argon",
+        "Chlorine",
+        "Hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Inert argon, often with nitrogen, is used in many incandescent bulbs.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-039",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "A solution with pH 3 is:",
+      "options": [
+        "Acidic",
+        "Neutral",
+        "Basic",
+        "Always a salt"
+      ],
+      "answer": 0,
+      "explanation": "A pH below 7 indicates an acidic solution at ordinary reference conditions.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-040",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Easy",
+      "question": "Which organ produces insulin?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Spleen"
+      ],
+      "answer": 1,
+      "explanation": "The beta cells in pancreatic islets produce insulin.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-041",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "Which cell organelle is chiefly responsible for aerobic cellular respiration?",
+      "options": [
+        "Golgi apparatus",
+        "Mitochondrion",
+        "Lysosome",
+        "Ribosome"
+      ],
+      "answer": 1,
+      "explanation": "Mitochondria are the main site of aerobic respiration in eukaryotic cells.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-042",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "Which part of the human brain helps maintain posture and balance?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla",
+        "Hypothalamus"
+      ],
+      "answer": 1,
+      "explanation": "The cerebellum coordinates movement and helps maintain balance and posture.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-043",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "What is 15% of 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "15% of 200 is 0.15 × 200 = 30.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-044",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "If the ratio of two numbers is 3:5 and their sum is 64, what is the smaller number?",
+      "options": [
+        "18",
+        "24",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "Eight equal parts total 64, so one part is 8 and the smaller number is 3 × 8 = 24.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-045",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "The sum of the interior angles of a triangle is:",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "explanation": "The interior angles of a Euclidean triangle sum to 180 degrees.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-046",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "A shopkeeper buys an item for ₹800 and sells it for ₹920. What is the profit percentage?",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "20%"
+      ],
+      "answer": 2,
+      "explanation": "Profit is ₹120; profit percentage is 120/800 × 100 = 15%.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-047",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Hard",
+      "question": "The least common multiple of 12, 18 and 30 is:",
+      "options": [
+        "90",
+        "120",
+        "180",
+        "360"
+      ],
+      "answer": 2,
+      "explanation": "Prime factors give LCM = 2² × 3² × 5 = 180.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-048",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Easy",
+      "question": "Choose the antonym of 'scarce'.",
+      "options": [
+        "Rare",
+        "Abundant",
+        "Limited",
+        "Insufficient"
+      ],
+      "answer": 1,
+      "explanation": "Abundant means plentiful and is the opposite of scarce.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-049",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Medium",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Neither of the answers are correct.",
+        "Neither of the answers is correct.",
+        "Neither answers is correct.",
+        "Neither of answers are correct."
+      ],
+      "answer": 1,
+      "explanation": "Neither is treated as singular in formal standard usage here, so it takes 'is'.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-050",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Medium",
+      "question": "Choose the correct indirect speech: He said, 'I am tired.'",
+      "options": [
+        "He said that I am tired.",
+        "He said that he was tired.",
+        "He says he had tired.",
+        "He told that he is tired."
+      ],
+      "answer": 1,
+      "explanation": "In reported speech with a past reporting verb, present 'am' normally backshifts to 'was'.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-051",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Hard",
+      "question": "Choose the correctly used word: The new policy may ___ employment.",
+      "options": [
+        "affect",
+        "effect",
+        "effects",
+        "affects"
+      ],
+      "answer": 0,
+      "explanation": "Affect is generally the verb meaning to influence; effect is usually a noun.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-052",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Easy",
+      "question": "Find the next term: 3, 6, 12, 24, __.",
+      "options": [
+        "30",
+        "36",
+        "48",
+        "54"
+      ],
+      "answer": 2,
+      "explanation": "Each term is multiplied by 2, so the next term is 48.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-053",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "If NORTH is coded as OPSUI by shifting each letter one place forward, how is SOUTH coded?",
+      "options": [
+        "TPVUI",
+        "TPVTH",
+        "RNTUG",
+        "TPVUH"
+      ],
+      "answer": 0,
+      "explanation": "S→T, O→P, U→V, T→U and H→I, giving TPVUI.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-054",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "A person walks 5 km north, then 3 km east. In which direction is the person from the starting point?",
+      "options": [
+        "North-west",
+        "South-east",
+        "North-east",
+        "South-west"
+      ],
+      "answer": 2,
+      "explanation": "The final position is both north and east of the starting point.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-055",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Hard",
+      "question": "In a row, R is 7th from the left and  ninth from the right. How many people are in the row?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "answer": 1,
+      "explanation": "Total = 7 + 9 − 1 = 15.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11-056",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "Choose the pair that has the same relationship as Bird : Nest.",
+      "options": [
+        "Bee : Hive",
+        "Lion : Stable",
+        "Fish : Kennel",
+        "Horse : Burrow"
+      ],
+      "answer": 0,
+      "explanation": "A nest is a bird's dwelling; a hive is a bee colony's dwelling.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
     }
   ]
 }

@@ -835,5 +835,33 @@ function onRoute(){var h=decodeURIComponent(location.hash.replace(/^#/,''));if(h
 </script>
 
 <script src="./explore-india.js?v=20261103-0600"></script>
+
+<script>
+/* Independent recovery for the Full Mock Test view.
+   The main app and navigation hotfix both route this view; this guard retries
+   initialization after the view has become visible and surfaces JS errors. */
+(function(){
+  function recoverMockView(){
+    var hash=decodeURIComponent(location.hash.replace(/^#/,'' ));
+    if(hash!=='mock-test') return;
+    var host=document.getElementById('mock-qz');
+    if(!host) return;
+    if(host.children.length) return;
+    try {
+      document.dispatchEvent(new Event('zipprep:open-mock-test'));
+    } catch(err) {
+      host.innerHTML='<div class="qc"><h3>Mock test could not load</h3><p role="alert">The practice module encountered an error: '+String(err&&err.message||err).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})+'</p><button class="btn k" type="button" onclick="location.reload()">Reload practice</button></div>';
+      return;
+    }
+    if(!host.children.length){
+      host.innerHTML='<div class="qc"><h3>Practice setup unavailable</h3><p>The mock-test module did not initialize. Reload the page and try again.</p><button class="btn k" type="button" onclick="location.reload()">Reload practice</button></div>';
+    }
+  }
+  window.addEventListener('hashchange',function(){if(location.hash==='#mock-test')setTimeout(recoverMockView,120);});
+  window.addEventListener('pageshow',function(){setTimeout(recoverMockView,120);});
+  document.addEventListener('DOMContentLoaded',function(){setTimeout(recoverMockView,120);});
+  if(document.readyState==='complete')setTimeout(recoverMockView,120);
+})();
+</script>
 </body>
 </html>

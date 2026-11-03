@@ -1,0 +1,2868 @@
+{
+  "schemaVersion": 1,
+  "currentCount": 159,
+  "questions": [
+    {
+      "id": "final-001",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7000 at 10% per annum for 5 years.",
+      "options": [
+        "₹3490",
+        "₹700",
+        "₹3500",
+        "₹4200"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 7000 × 10 × 5/100 = ₹3500.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-002",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6200 at 20% per annum for 3 years.",
+      "options": [
+        "₹3700",
+        "₹4340",
+        "₹3720",
+        "₹1240"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 6200 × 20 × 3/100 = ₹3720.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-003",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6200 at 20% per annum for 4 years.",
+      "options": [
+        "₹4940",
+        "₹1240",
+        "₹4960",
+        "₹5580"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 6200 × 20 × 4/100 = ₹4960.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-004",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3100 at 5% per annum for 5 years.",
+      "options": [
+        "₹1085",
+        "₹155",
+        "₹770",
+        "₹775"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 3100 × 5 × 5/100 = ₹775.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-005",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2900 at 15% per annum for 2 years.",
+      "options": [
+        "₹1160",
+        "₹870",
+        "₹435",
+        "₹855"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 2900 × 15 × 2/100 = ₹870.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-006",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹1900 at 5% per annum for 4 years.",
+      "options": [
+        "₹375",
+        "₹95",
+        "₹570",
+        "₹380"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 1900 × 5 × 4/100 = ₹380.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-007",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹8800 at 50% per annum for 4 years.",
+      "options": [
+        "₹17600",
+        "₹17550",
+        "₹18480",
+        "₹4400"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 8800 × 50 × 4/100 = ₹17600.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-008",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6000 at 20% per annum for 5 years.",
+      "options": [
+        "₹5980",
+        "₹1200",
+        "₹6000",
+        "₹6600"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 6000 × 20 × 5/100 = ₹6000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-009",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹1200 at 40% per annum for 3 years.",
+      "options": [
+        "₹1400",
+        "₹1560",
+        "₹1440",
+        "₹480"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 1200 × 40 × 3/100 = ₹1440.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-010",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹8200 at 30% per annum for 2 years.",
+      "options": [
+        "₹4920",
+        "₹2460",
+        "₹4890",
+        "₹5740"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 8200 × 30 × 2/100 = ₹4920.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-011",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9400 at 40% per annum for 4 years.",
+      "options": [
+        "₹15000",
+        "₹15980",
+        "₹15040",
+        "₹3760"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 9400 × 40 × 4/100 = ₹15040.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-012",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2800 at 50% per annum for 3 years.",
+      "options": [
+        "₹4200",
+        "₹4150",
+        "₹1400",
+        "₹4480"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 2800 × 50 × 3/100 = ₹4200.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-013",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5000 at 30% per annum for 4 years.",
+      "options": [
+        "₹6000",
+        "₹5970",
+        "₹6500",
+        "₹1500"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 5000 × 30 × 4/100 = ₹6000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-014",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9400 at 10% per annum for 4 years.",
+      "options": [
+        "₹3750",
+        "₹940",
+        "₹3760",
+        "₹4700"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 9400 × 10 × 4/100 = ₹3760.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-015",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6400 at 10% per annum for 4 years.",
+      "options": [
+        "₹2560",
+        "₹2550",
+        "₹3200",
+        "₹640"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 6400 × 10 × 4/100 = ₹2560.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-016",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6400 at 30% per annum for 4 years.",
+      "options": [
+        "₹7680",
+        "₹1920",
+        "₹7650",
+        "₹8320"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 6400 × 30 × 4/100 = ₹7680.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-017",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6600 at 30% per annum for 5 years.",
+      "options": [
+        "₹9900",
+        "₹10560",
+        "₹9870",
+        "₹1980"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 6600 × 30 × 5/100 = ₹9900.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-018",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2100 at 25% per annum for 4 years.",
+      "options": [
+        "₹2310",
+        "₹525",
+        "₹2100",
+        "₹2075"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 2100 × 25 × 4/100 = ₹2100.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-019",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3300 at 15% per annum for 5 years.",
+      "options": [
+        "₹2805",
+        "₹495",
+        "₹2475",
+        "₹2460"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 3300 × 15 × 5/100 = ₹2475.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-020",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹8300 at 25% per annum for 3 years.",
+      "options": [
+        "₹7055",
+        "₹2075",
+        "₹6200",
+        "₹6225"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 8300 × 25 × 3/100 = ₹6225.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-021",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5300 at 35% per annum for 2 years.",
+      "options": [
+        "₹4240",
+        "₹1855",
+        "₹3710",
+        "₹3675"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 5300 × 35 × 2/100 = ₹3710.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-022",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7300 at 35% per annum for 3 years.",
+      "options": [
+        "₹8395",
+        "₹2555",
+        "₹7630",
+        "₹7665"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 7300 × 35 × 3/100 = ₹7665.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-023",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3900 at 35% per annum for 5 years.",
+      "options": [
+        "₹7215",
+        "₹1365",
+        "₹6825",
+        "₹6790"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 3900 × 35 × 5/100 = ₹6825.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-024",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4700 at 35% per annum for 3 years.",
+      "options": [
+        "₹4900",
+        "₹1645",
+        "₹5405",
+        "₹4935"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 4700 × 35 × 3/100 = ₹4935.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-025",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9100 at 35% per annum for 3 years.",
+      "options": [
+        "₹3185",
+        "₹9555",
+        "₹10465",
+        "₹9520"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 9100 × 35 × 3/100 = ₹9555.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-026",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4900 at 45% per annum for 5 years.",
+      "options": [
+        "₹11515",
+        "₹10980",
+        "₹2205",
+        "₹11025"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 4900 × 45 × 5/100 = ₹11025.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-027",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7500 at 45% per annum for 3 years.",
+      "options": [
+        "₹3375",
+        "₹10125",
+        "₹10875",
+        "₹10080"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 7500 × 45 × 3/100 = ₹10125.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-028",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2300 at 15% per annum for 5 years.",
+      "options": [
+        "₹1955",
+        "₹1710",
+        "₹345",
+        "₹1725"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 2300 × 15 × 5/100 = ₹1725.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-029",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3400 at 40% per annum for 2 years.",
+      "options": [
+        "₹2720",
+        "₹3060",
+        "₹2680",
+        "₹1360"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 3400 × 40 × 2/100 = ₹2720.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-030",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4400 at 10% per annum for 2 years.",
+      "options": [
+        "₹880",
+        "₹440",
+        "₹870",
+        "₹1320"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 4400 × 10 × 2/100 = ₹880.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-031",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4800 at 30% per annum for 5 years.",
+      "options": [
+        "₹7170",
+        "₹7680",
+        "₹7200",
+        "₹1440"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 4800 × 30 × 5/100 = ₹7200.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-032",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9800 at 40% per annum for 5 years.",
+      "options": [
+        "₹19600",
+        "₹19560",
+        "₹3920",
+        "₹20580"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 9800 × 40 × 5/100 = ₹19600.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-033",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6200 at 30% per annum for 5 years.",
+      "options": [
+        "₹9300",
+        "₹9920",
+        "₹9270",
+        "₹1860"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 6200 × 30 × 5/100 = ₹9300.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-034",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹1600 at 50% per annum for 5 years.",
+      "options": [
+        "₹4000",
+        "₹800",
+        "₹3950",
+        "₹4160"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 1600 × 50 × 5/100 = ₹4000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-035",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2200 at 10% per annum for 2 years.",
+      "options": [
+        "₹430",
+        "₹660",
+        "₹440",
+        "₹220"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 2200 × 10 × 2/100 = ₹440.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-036",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3400 at 10% per annum for 5 years.",
+      "options": [
+        "₹1700",
+        "₹340",
+        "₹1690",
+        "₹2040"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 3400 × 10 × 5/100 = ₹1700.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-037",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4000 at 50% per annum for 4 years.",
+      "options": [
+        "₹8000",
+        "₹7950",
+        "₹8400",
+        "₹2000"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 4000 × 50 × 4/100 = ₹8000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-038",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6600 at 20% per annum for 2 years.",
+      "options": [
+        "₹2620",
+        "₹1320",
+        "₹2640",
+        "₹3300"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 6600 × 20 × 2/100 = ₹2640.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-039",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3800 at 40% per annum for 5 years.",
+      "options": [
+        "₹7600",
+        "₹7560",
+        "₹7980",
+        "₹1520"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 3800 × 40 × 5/100 = ₹7600.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-040",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9000 at 50% per annum for 2 years.",
+      "options": [
+        "₹9000",
+        "₹4500",
+        "₹8950",
+        "₹9900"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 9000 × 50 × 2/100 = ₹9000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-041",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3000 at 20% per annum for 4 years.",
+      "options": [
+        "₹2380",
+        "₹2700",
+        "₹2400",
+        "₹600"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 3000 × 20 × 4/100 = ₹2400.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-042",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4500 at 45% per annum for 4 years.",
+      "options": [
+        "₹2025",
+        "₹8100",
+        "₹8550",
+        "₹8055"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 4500 × 45 × 4/100 = ₹8100.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-043",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2700 at 35% per annum for 5 years.",
+      "options": [
+        "₹4995",
+        "₹945",
+        "₹4690",
+        "₹4725"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 2700 × 35 × 5/100 = ₹4725.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-044",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2800 at 20% per annum for 4 years.",
+      "options": [
+        "₹2240",
+        "₹2520",
+        "₹2220",
+        "₹560"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 2800 × 20 × 4/100 = ₹2240.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-045",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5200 at 30% per annum for 5 years.",
+      "options": [
+        "₹7800",
+        "₹1560",
+        "₹7770",
+        "₹8320"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 5200 × 30 × 5/100 = ₹7800.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-046",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹1600 at 50% per annum for 4 years.",
+      "options": [
+        "₹3200",
+        "₹3150",
+        "₹3360",
+        "₹800"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 1600 × 50 × 4/100 = ₹3200.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-047",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5200 at 20% per annum for 2 years.",
+      "options": [
+        "₹2080",
+        "₹2060",
+        "₹1040",
+        "₹2600"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 5200 × 20 × 2/100 = ₹2080.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-048",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9500 at 15% per annum for 3 years.",
+      "options": [
+        "₹5225",
+        "₹4260",
+        "₹1425",
+        "₹4275"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 9500 × 15 × 3/100 = ₹4275.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-049",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7700 at 45% per annum for 3 years.",
+      "options": [
+        "₹3465",
+        "₹10395",
+        "₹11165",
+        "₹10350"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 7700 × 45 × 3/100 = ₹10395.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-050",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4500 at 35% per annum for 5 years.",
+      "options": [
+        "₹7840",
+        "₹1575",
+        "₹8325",
+        "₹7875"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 4500 × 35 × 5/100 = ₹7875.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-051",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7000 at 50% per annum for 4 years.",
+      "options": [
+        "₹13950",
+        "₹14700",
+        "₹14000",
+        "₹3500"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 7000 × 50 × 4/100 = ₹14000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-052",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2400 at 30% per annum for 2 years.",
+      "options": [
+        "₹1440",
+        "₹1410",
+        "₹720",
+        "₹1680"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 2400 × 30 × 2/100 = ₹1440.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-053",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹8100 at 5% per annum for 2 years.",
+      "options": [
+        "₹805",
+        "₹405",
+        "₹1620",
+        "₹810"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 8100 × 5 × 2/100 = ₹810.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-054",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3500 at 45% per annum for 5 years.",
+      "options": [
+        "₹1575",
+        "₹7875",
+        "₹8225",
+        "₹7830"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 3500 × 45 × 5/100 = ₹7875.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-055",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5700 at 15% per annum for 3 years.",
+      "options": [
+        "₹2550",
+        "₹855",
+        "₹3135",
+        "₹2565"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 5700 × 15 × 3/100 = ₹2565.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-056",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹1300 at 15% per annum for 4 years.",
+      "options": [
+        "₹195",
+        "₹780",
+        "₹910",
+        "₹765"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 1300 × 15 × 4/100 = ₹780.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-057",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6900 at 35% per annum for 4 years.",
+      "options": [
+        "₹10350",
+        "₹2415",
+        "₹9625",
+        "₹9660"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 6900 × 35 × 4/100 = ₹9660.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-058",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹8000 at 10% per annum for 5 years.",
+      "options": [
+        "₹3990",
+        "₹4800",
+        "₹4000",
+        "₹800"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 8000 × 10 × 5/100 = ₹4000.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-059",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3600 at 40% per annum for 3 years.",
+      "options": [
+        "₹4280",
+        "₹1440",
+        "₹4320",
+        "₹4680"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 3600 × 40 × 3/100 = ₹4320.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-060",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2800 at 40% per annum for 4 years.",
+      "options": [
+        "₹4440",
+        "₹4760",
+        "₹4480",
+        "₹1120"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 2800 × 40 × 4/100 = ₹4480.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-061",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3200 at 10% per annum for 2 years.",
+      "options": [
+        "₹640",
+        "₹320",
+        "₹630",
+        "₹960"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 3200 × 10 × 2/100 = ₹640.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-062",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4200 at 40% per annum for 2 years.",
+      "options": [
+        "₹3320",
+        "₹3780",
+        "₹3360",
+        "₹1680"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 4200 × 40 × 2/100 = ₹3360.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-063",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6800 at 10% per annum for 4 years.",
+      "options": [
+        "₹2720",
+        "₹680",
+        "₹2710",
+        "₹3400"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 6800 × 10 × 4/100 = ₹2720.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-064",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹1600 at 20% per annum for 2 years.",
+      "options": [
+        "₹640",
+        "₹800",
+        "₹620",
+        "₹320"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 1600 × 20 × 2/100 = ₹640.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-065",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7200 at 20% per annum for 5 years.",
+      "options": [
+        "₹7200",
+        "₹1440",
+        "₹7180",
+        "₹7920"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 7200 × 20 × 5/100 = ₹7200.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-066",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3000 at 10% per annum for 3 years.",
+      "options": [
+        "₹900",
+        "₹890",
+        "₹1200",
+        "₹300"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 3000 × 10 × 3/100 = ₹900.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-067",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5400 at 30% per annum for 3 years.",
+      "options": [
+        "₹4860",
+        "₹4830",
+        "₹1620",
+        "₹5400"
+      ],
+      "answer": 0,
+      "explanation": "SI = PRT/100 = 5400 × 30 × 3/100 = ₹4860.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-068",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹7500 at 35% per annum for 4 years.",
+      "options": [
+        "₹11250",
+        "₹2625",
+        "₹10500",
+        "₹10465"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 7500 × 35 × 4/100 = ₹10500.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-069",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9700 at 5% per annum for 3 years.",
+      "options": [
+        "₹1450",
+        "₹485",
+        "₹2425",
+        "₹1455"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 9700 × 5 × 3/100 = ₹1455.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-070",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3900 at 35% per annum for 2 years.",
+      "options": [
+        "₹1365",
+        "₹2730",
+        "₹3120",
+        "₹2695"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 3900 × 35 × 2/100 = ₹2730.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-071",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2100 at 15% per annum for 2 years.",
+      "options": [
+        "₹840",
+        "₹315",
+        "₹615",
+        "₹630"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 2100 × 15 × 2/100 = ₹630.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-072",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9900 at 45% per annum for 2 years.",
+      "options": [
+        "₹9900",
+        "₹4455",
+        "₹8910",
+        "₹8865"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 9900 × 45 × 2/100 = ₹8910.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-073",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹4300 at 5% per annum for 2 years.",
+      "options": [
+        "₹860",
+        "₹425",
+        "₹215",
+        "₹430"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 4300 × 5 × 2/100 = ₹430.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-074",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹8100 at 45% per annum for 5 years.",
+      "options": [
+        "₹3645",
+        "₹18225",
+        "₹19035",
+        "₹18180"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 8100 × 45 × 5/100 = ₹18225.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-075",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2900 at 35% per annum for 2 years.",
+      "options": [
+        "₹2320",
+        "₹1015",
+        "₹1995",
+        "₹2030"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 2900 × 35 × 2/100 = ₹2030.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-076",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹5500 at 5% per annum for 4 years.",
+      "options": [
+        "₹1650",
+        "₹275",
+        "₹1100",
+        "₹1095"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 5500 × 5 × 4/100 = ₹1100.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-077",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 10,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹9700 at 15% per annum for 5 years.",
+      "options": [
+        "₹8245",
+        "₹1455",
+        "₹7275",
+        "₹7260"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 9700 × 15 × 5/100 = ₹7275.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-078",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2100 at 25% per annum for 4 years.",
+      "options": [
+        "₹2310",
+        "₹2075",
+        "₹525",
+        "₹2100"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 2100 × 25 × 4/100 = ₹2100.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-079",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2900 at 5% per annum for 5 years.",
+      "options": [
+        "₹1015",
+        "₹145",
+        "₹725",
+        "₹720"
+      ],
+      "answer": 2,
+      "explanation": "SI = PRT/100 = 2900 × 5 × 5/100 = ₹725.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-080",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 7,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹3300 at 25% per annum for 3 years.",
+      "options": [
+        "₹2805",
+        "₹825",
+        "₹2450",
+        "₹2475"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 3300 × 25 × 3/100 = ₹2475.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-081",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹2100 at 15% per annum for 5 years.",
+      "options": [
+        "₹1785",
+        "₹1575",
+        "₹315",
+        "₹1560"
+      ],
+      "answer": 1,
+      "explanation": "SI = PRT/100 = 2100 × 15 × 5/100 = ₹1575.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-082",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "classLevel": 9,
+      "difficulty": "Medium",
+      "question": "Find the simple interest on ₹6700 at 35% per annum for 5 years.",
+      "options": [
+        "₹11690",
+        "₹2345",
+        "₹12395",
+        "₹11725"
+      ],
+      "answer": 3,
+      "explanation": "SI = PRT/100 = 6700 × 35 × 5/100 = ₹11725.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-083",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 73 grams of flour per batch. How much flour is needed for 5 batches?",
+      "options": [
+        "78 g",
+        "360 g",
+        "438 g",
+        "365 g"
+      ],
+      "answer": 3,
+      "explanation": "73 × 5 = 365 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-084",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 68 metres above sea level and climbs another 4 metres. What is the new height?",
+      "options": [
+        "64 m",
+        "76 m",
+        "72 m",
+        "272 m"
+      ],
+      "answer": 2,
+      "explanation": "68 + 4 = 72 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-085",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "49 identical pens cost ₹392. What is the cost of one pen?",
+      "options": [
+        "₹57",
+        "₹8",
+        "₹49",
+        "₹9"
+      ],
+      "answer": 1,
+      "explanation": "Unit cost = total cost ÷ number = 392/49 = ₹8.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-086",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 60 m long and 4 m wide. What is its area?",
+      "options": [
+        "240 m²",
+        "64 m²",
+        "300 m²",
+        "128 m²"
+      ],
+      "answer": 0,
+      "explanation": "Area = length × breadth = 60 × 4 = 240 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-087",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 73 notebooks and sold 4. How many remain?",
+      "options": [
+        "73",
+        "77",
+        "70",
+        "69"
+      ],
+      "answer": 3,
+      "explanation": "73 − 4 = 69.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-088",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 756 metres in 14 seconds at a constant speed. Find the speed.",
+      "options": [
+        "14 m/s",
+        "756 m/s",
+        "54 m/s",
+        "68 m/s"
+      ],
+      "answer": 2,
+      "explanation": "Speed = distance/time = 756/14 = 54 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-089",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 18 = 17, what is x?",
+      "options": [
+        "306",
+        "35",
+        "36",
+        "34"
+      ],
+      "answer": 1,
+      "explanation": "Add 18 to both sides: x = 17 + 18 = 35.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-090",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 12 grams of flour per batch. How much flour is needed for 7 batches?",
+      "options": [
+        "84 g",
+        "77 g",
+        "19 g",
+        "96 g"
+      ],
+      "answer": 0,
+      "explanation": "12 × 7 = 84 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-091",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 77 metres above sea level and climbs another 4 metres. What is the new height?",
+      "options": [
+        "85 m",
+        "308 m",
+        "73 m",
+        "81 m"
+      ],
+      "answer": 3,
+      "explanation": "77 + 4 = 81 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-092",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "62 identical pens cost ₹1054. What is the cost of one pen?",
+      "options": [
+        "₹17",
+        "₹62",
+        "₹18",
+        "₹79"
+      ],
+      "answer": 0,
+      "explanation": "Unit cost = total cost ÷ number = 1054/62 = ₹17.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-093",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 63 m long and 8 m wide. What is its area?",
+      "options": [
+        "567 m²",
+        "504 m²",
+        "142 m²",
+        "71 m²"
+      ],
+      "answer": 1,
+      "explanation": "Area = length × breadth = 63 × 8 = 504 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-094",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 72 notebooks and sold 6. How many remain?",
+      "options": [
+        "66",
+        "78",
+        "72",
+        "67"
+      ],
+      "answer": 0,
+      "explanation": "72 − 6 = 66.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-095",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 258 metres in 6 seconds at a constant speed. Find the speed.",
+      "options": [
+        "258 m/s",
+        "6 m/s",
+        "49 m/s",
+        "43 m/s"
+      ],
+      "answer": 3,
+      "explanation": "Speed = distance/time = 258/6 = 43 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-096",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 10 = 40, what is x?",
+      "options": [
+        "49",
+        "51",
+        "50",
+        "400"
+      ],
+      "answer": 2,
+      "explanation": "Add 10 to both sides: x = 40 + 10 = 50.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-097",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 77 grams of flour per batch. How much flour is needed for 8 batches?",
+      "options": [
+        "693 g",
+        "608 g",
+        "616 g",
+        "85 g"
+      ],
+      "answer": 2,
+      "explanation": "77 × 8 = 616 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-098",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 56 metres above sea level and climbs another 10 metres. What is the new height?",
+      "options": [
+        "66 m",
+        "46 m",
+        "560 m",
+        "76 m"
+      ],
+      "answer": 0,
+      "explanation": "56 + 10 = 66 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-099",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "69 identical pens cost ₹1242. What is the cost of one pen?",
+      "options": [
+        "₹19",
+        "₹87",
+        "₹69",
+        "₹18"
+      ],
+      "answer": 3,
+      "explanation": "Unit cost = total cost ÷ number = 1242/69 = ₹18.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-100",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 80 m long and 10 m wide. What is its area?",
+      "options": [
+        "800 m²",
+        "180 m²",
+        "90 m²",
+        "880 m²"
+      ],
+      "answer": 0,
+      "explanation": "Area = length × breadth = 80 × 10 = 800 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-101",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 21 notebooks and sold 16. How many remain?",
+      "options": [
+        "37",
+        "5",
+        "6",
+        "21"
+      ],
+      "answer": 1,
+      "explanation": "21 − 16 = 5.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-102",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 396 metres in 6 seconds at a constant speed. Find the speed.",
+      "options": [
+        "66 m/s",
+        "6 m/s",
+        "72 m/s",
+        "396 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Speed = distance/time = 396/6 = 66 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-103",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 4 = 51, what is x?",
+      "options": [
+        "54",
+        "204",
+        "56",
+        "55"
+      ],
+      "answer": 3,
+      "explanation": "Add 4 to both sides: x = 51 + 4 = 55.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-104",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 66 grams of flour per batch. How much flour is needed for 15 batches?",
+      "options": [
+        "990 g",
+        "81 g",
+        "1056 g",
+        "975 g"
+      ],
+      "answer": 0,
+      "explanation": "66 × 15 = 990 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-105",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 43 metres above sea level and climbs another 7 metres. What is the new height?",
+      "options": [
+        "57 m",
+        "301 m",
+        "50 m",
+        "36 m"
+      ],
+      "answer": 2,
+      "explanation": "43 + 7 = 50 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-106",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "18 identical pens cost ₹144. What is the cost of one pen?",
+      "options": [
+        "₹8",
+        "₹9",
+        "₹26",
+        "₹18"
+      ],
+      "answer": 0,
+      "explanation": "Unit cost = total cost ÷ number = 144/18 = ₹8.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-107",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 55 m long and 5 m wide. What is its area?",
+      "options": [
+        "120 m²",
+        "330 m²",
+        "60 m²",
+        "275 m²"
+      ],
+      "answer": 3,
+      "explanation": "Area = length × breadth = 55 × 5 = 275 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-108",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 66 notebooks and sold 14. How many remain?",
+      "options": [
+        "52",
+        "53",
+        "66",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "66 − 14 = 52.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-109",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 165 metres in 5 seconds at a constant speed. Find the speed.",
+      "options": [
+        "38 m/s",
+        "33 m/s",
+        "165 m/s",
+        "5 m/s"
+      ],
+      "answer": 1,
+      "explanation": "Speed = distance/time = 165/5 = 33 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-110",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 12 = 62, what is x?",
+      "options": [
+        "74",
+        "744",
+        "73",
+        "75"
+      ],
+      "answer": 0,
+      "explanation": "Add 12 to both sides: x = 62 + 12 = 74.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-111",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 71 grams of flour per batch. How much flour is needed for 3 batches?",
+      "options": [
+        "284 g",
+        "210 g",
+        "74 g",
+        "213 g"
+      ],
+      "answer": 3,
+      "explanation": "71 × 3 = 213 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-112",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 80 metres above sea level and climbs another 7 metres. What is the new height?",
+      "options": [
+        "87 m",
+        "94 m",
+        "73 m",
+        "560 m"
+      ],
+      "answer": 0,
+      "explanation": "80 + 7 = 87 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-113",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "45 identical pens cost ₹360. What is the cost of one pen?",
+      "options": [
+        "₹53",
+        "₹8",
+        "₹45",
+        "₹9"
+      ],
+      "answer": 1,
+      "explanation": "Unit cost = total cost ÷ number = 360/45 = ₹8.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-114",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 30 m long and 10 m wide. What is its area?",
+      "options": [
+        "300 m²",
+        "330 m²",
+        "40 m²",
+        "80 m²"
+      ],
+      "answer": 0,
+      "explanation": "Area = length × breadth = 30 × 10 = 300 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-115",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 39 notebooks and sold 12. How many remain?",
+      "options": [
+        "28",
+        "39",
+        "51",
+        "27"
+      ],
+      "answer": 3,
+      "explanation": "39 − 12 = 27.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-116",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 630 metres in 15 seconds at a constant speed. Find the speed.",
+      "options": [
+        "42 m/s",
+        "15 m/s",
+        "630 m/s",
+        "57 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Speed = distance/time = 630/15 = 42 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-117",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 10 = 21, what is x?",
+      "options": [
+        "32",
+        "31",
+        "210",
+        "30"
+      ],
+      "answer": 1,
+      "explanation": "Add 10 to both sides: x = 21 + 10 = 31.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-118",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 18 grams of flour per batch. How much flour is needed for 6 batches?",
+      "options": [
+        "108 g",
+        "24 g",
+        "102 g",
+        "126 g"
+      ],
+      "answer": 0,
+      "explanation": "18 × 6 = 108 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-119",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 21 metres above sea level and climbs another 4 metres. What is the new height?",
+      "options": [
+        "29 m",
+        "84 m",
+        "17 m",
+        "25 m"
+      ],
+      "answer": 3,
+      "explanation": "21 + 4 = 25 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-120",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "46 identical pens cost ₹368. What is the cost of one pen?",
+      "options": [
+        "₹9",
+        "₹46",
+        "₹8",
+        "₹54"
+      ],
+      "answer": 2,
+      "explanation": "Unit cost = total cost ÷ number = 368/46 = ₹8.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-121",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 31 m long and 5 m wide. What is its area?",
+      "options": [
+        "186 m²",
+        "155 m²",
+        "72 m²",
+        "36 m²"
+      ],
+      "answer": 1,
+      "explanation": "Area = length × breadth = 31 × 5 = 155 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-122",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 50 notebooks and sold 14. How many remain?",
+      "options": [
+        "36",
+        "64",
+        "50",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "50 − 14 = 36.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-123",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 105 metres in 3 seconds at a constant speed. Find the speed.",
+      "options": [
+        "3 m/s",
+        "38 m/s",
+        "105 m/s",
+        "35 m/s"
+      ],
+      "answer": 3,
+      "explanation": "Speed = distance/time = 105/3 = 35 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-124",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 10 = 42, what is x?",
+      "options": [
+        "51",
+        "53",
+        "52",
+        "420"
+      ],
+      "answer": 2,
+      "explanation": "Add 10 to both sides: x = 42 + 10 = 52.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-125",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 31 grams of flour per batch. How much flour is needed for 13 batches?",
+      "options": [
+        "434 g",
+        "403 g",
+        "390 g",
+        "44 g"
+      ],
+      "answer": 1,
+      "explanation": "31 × 13 = 403 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-126",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 16 metres above sea level and climbs another 9 metres. What is the new height?",
+      "options": [
+        "25 m",
+        "7 m",
+        "144 m",
+        "34 m"
+      ],
+      "answer": 0,
+      "explanation": "16 + 9 = 25 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-127",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "55 identical pens cost ₹110. What is the cost of one pen?",
+      "options": [
+        "₹55",
+        "₹57",
+        "₹3",
+        "₹2"
+      ],
+      "answer": 3,
+      "explanation": "Unit cost = total cost ÷ number = 110/55 = ₹2.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-128",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 24 m long and 15 m wide. What is its area?",
+      "options": [
+        "360 m²",
+        "78 m²",
+        "39 m²",
+        "384 m²"
+      ],
+      "answer": 0,
+      "explanation": "Area = length × breadth = 24 × 15 = 360 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-129",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 47 notebooks and sold 11. How many remain?",
+      "options": [
+        "58",
+        "36",
+        "37",
+        "47"
+      ],
+      "answer": 1,
+      "explanation": "47 − 11 = 36.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-130",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 234 metres in 9 seconds at a constant speed. Find the speed.",
+      "options": [
+        "26 m/s",
+        "9 m/s",
+        "35 m/s",
+        "234 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Speed = distance/time = 234/9 = 26 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-131",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 3 = 23, what is x?",
+      "options": [
+        "27",
+        "69",
+        "25",
+        "26"
+      ],
+      "answer": 3,
+      "explanation": "Add 3 to both sides: x = 23 + 3 = 26.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-132",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 34 grams of flour per batch. How much flour is needed for 16 batches?",
+      "options": [
+        "50 g",
+        "578 g",
+        "544 g",
+        "528 g"
+      ],
+      "answer": 2,
+      "explanation": "34 × 16 = 544 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-133",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 57 metres above sea level and climbs another 12 metres. What is the new height?",
+      "options": [
+        "81 m",
+        "69 m",
+        "684 m",
+        "45 m"
+      ],
+      "answer": 1,
+      "explanation": "57 + 12 = 69 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-134",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "66 identical pens cost ₹264. What is the cost of one pen?",
+      "options": [
+        "₹5",
+        "₹70",
+        "₹4",
+        "₹66"
+      ],
+      "answer": 2,
+      "explanation": "Unit cost = total cost ÷ number = 264/66 = ₹4.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-135",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 57 m long and 18 m wide. What is its area?",
+      "options": [
+        "150 m²",
+        "75 m²",
+        "1083 m²",
+        "1026 m²"
+      ],
+      "answer": 3,
+      "explanation": "Area = length × breadth = 57 × 18 = 1026 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-136",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 72 notebooks and sold 7. How many remain?",
+      "options": [
+        "65",
+        "66",
+        "72",
+        "79"
+      ],
+      "answer": 0,
+      "explanation": "72 − 7 = 65.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-137",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 570 metres in 10 seconds at a constant speed. Find the speed.",
+      "options": [
+        "67 m/s",
+        "57 m/s",
+        "570 m/s",
+        "10 m/s"
+      ],
+      "answer": 1,
+      "explanation": "Speed = distance/time = 570/10 = 57 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-138",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 12 = 22, what is x?",
+      "options": [
+        "34",
+        "264",
+        "33",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "Add 12 to both sides: x = 22 + 12 = 34.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-139",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 79 grams of flour per batch. How much flour is needed for 10 batches?",
+      "options": [
+        "89 g",
+        "780 g",
+        "869 g",
+        "790 g"
+      ],
+      "answer": 3,
+      "explanation": "79 × 10 = 790 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-140",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 76 metres above sea level and climbs another 11 metres. What is the new height?",
+      "options": [
+        "87 m",
+        "98 m",
+        "65 m",
+        "836 m"
+      ],
+      "answer": 0,
+      "explanation": "76 + 11 = 87 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-141",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "71 identical pens cost ₹710. What is the cost of one pen?",
+      "options": [
+        "₹71",
+        "₹81",
+        "₹10",
+        "₹11"
+      ],
+      "answer": 2,
+      "explanation": "Unit cost = total cost ÷ number = 710/71 = ₹10.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-142",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 48 m long and 10 m wide. What is its area?",
+      "options": [
+        "480 m²",
+        "528 m²",
+        "58 m²",
+        "116 m²"
+      ],
+      "answer": 0,
+      "explanation": "Area = length × breadth = 48 × 10 = 480 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-143",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 19 notebooks and sold 7. How many remain?",
+      "options": [
+        "13",
+        "19",
+        "26",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "19 − 7 = 12.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-144",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 150 metres in 3 seconds at a constant speed. Find the speed.",
+      "options": [
+        "3 m/s",
+        "150 m/s",
+        "50 m/s",
+        "53 m/s"
+      ],
+      "answer": 2,
+      "explanation": "Speed = distance/time = 150/3 = 50 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-145",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 4 = 33, what is x?",
+      "options": [
+        "38",
+        "132",
+        "37",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "Add 4 to both sides: x = 33 + 4 = 37.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-146",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 38 grams of flour per batch. How much flour is needed for 14 batches?",
+      "options": [
+        "532 g",
+        "518 g",
+        "52 g",
+        "570 g"
+      ],
+      "answer": 0,
+      "explanation": "38 × 14 = 532 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-147",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 23 metres above sea level and climbs another 3 metres. What is the new height?",
+      "options": [
+        "29 m",
+        "20 m",
+        "69 m",
+        "26 m"
+      ],
+      "answer": 3,
+      "explanation": "23 + 3 = 26 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-148",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "62 identical pens cost ₹1054. What is the cost of one pen?",
+      "options": [
+        "₹17",
+        "₹18",
+        "₹62",
+        "₹79"
+      ],
+      "answer": 0,
+      "explanation": "Unit cost = total cost ÷ number = 1054/62 = ₹17.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-149",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 27 m long and 5 m wide. What is its area?",
+      "options": [
+        "64 m²",
+        "135 m²",
+        "162 m²",
+        "32 m²"
+      ],
+      "answer": 1,
+      "explanation": "Area = length × breadth = 27 × 5 = 135 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-150",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 58 notebooks and sold 5. How many remain?",
+      "options": [
+        "53",
+        "58",
+        "63",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "58 − 5 = 53.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-151",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 129 metres in 3 seconds at a constant speed. Find the speed.",
+      "options": [
+        "129 m/s",
+        "3 m/s",
+        "46 m/s",
+        "43 m/s"
+      ],
+      "answer": 3,
+      "explanation": "Speed = distance/time = 129/3 = 43 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-152",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 11 = 48, what is x?",
+      "options": [
+        "59",
+        "60",
+        "58",
+        "528"
+      ],
+      "answer": 0,
+      "explanation": "Add 11 to both sides: x = 48 + 11 = 59.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-153",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "classLevel": 6,
+      "difficulty": "Medium",
+      "question": "A recipe uses 75 grams of flour per batch. How much flour is needed for 3 batches?",
+      "options": [
+        "300 g",
+        "222 g",
+        "225 g",
+        "78 g"
+      ],
+      "answer": 2,
+      "explanation": "75 × 3 = 225 g.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-154",
+      "subject": "Mathematics",
+      "topic": "Integers",
+      "classLevel": 7,
+      "difficulty": "Easy",
+      "question": "A hiker is at 50 metres above sea level and climbs another 3 metres. What is the new height?",
+      "options": [
+        "53 m",
+        "150 m",
+        "47 m",
+        "56 m"
+      ],
+      "answer": 0,
+      "explanation": "50 + 3 = 53 m.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-155",
+      "subject": "Mathematics",
+      "topic": "Unitary method",
+      "classLevel": 8,
+      "difficulty": "Medium",
+      "question": "59 identical pens cost ₹1062. What is the cost of one pen?",
+      "options": [
+        "₹59",
+        "₹77",
+        "₹19",
+        "₹18"
+      ],
+      "answer": 3,
+      "explanation": "Unit cost = total cost ÷ number = 1062/59 = ₹18.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-156",
+      "subject": "Mathematics",
+      "topic": "Area",
+      "classLevel": 9,
+      "difficulty": "Easy",
+      "question": "A rectangular floor is 20 m long and 4 m wide. What is its area?",
+      "options": [
+        "24 m²",
+        "48 m²",
+        "80 m²",
+        "100 m²"
+      ],
+      "answer": 2,
+      "explanation": "Area = length × breadth = 20 × 4 = 80 m².",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-157",
+      "subject": "Mathematics",
+      "topic": "Subtraction",
+      "classLevel": 10,
+      "difficulty": "Easy",
+      "question": "A shop had 79 notebooks and sold 16. How many remain?",
+      "options": [
+        "64",
+        "63",
+        "95",
+        "79"
+      ],
+      "answer": 1,
+      "explanation": "79 − 16 = 63.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-158",
+      "subject": "Mathematics",
+      "topic": "Speed distance time",
+      "classLevel": 11,
+      "difficulty": "Medium",
+      "question": "A runner covers 238 metres in 7 seconds at a constant speed. Find the speed.",
+      "options": [
+        "34 m/s",
+        "7 m/s",
+        "41 m/s",
+        "238 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Speed = distance/time = 238/7 = 34 m/s.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "final-159",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "classLevel": 12,
+      "difficulty": "Medium",
+      "question": "If x − 13 = 71, what is x?",
+      "options": [
+        "85",
+        "923",
+        "83",
+        "84"
+      ],
+      "answer": 3,
+      "explanation": "Add 13 to both sides: x = 71 + 13 = 84.",
+      "source": "Original practice question; answer checked by calculation or established concept",
+      "verifiedPYQ": false
+    }
+  ]
+}

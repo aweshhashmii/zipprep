@@ -2,7 +2,7 @@
   "version": 1,
   "description": "ZipPrep practice bank. Questions marked verifiedPYQ=false are original practice questions, not certified official previous-year questions.",
   "targetCount": 5000,
-  "currentCount": 95,
+  "currentCount": 150,
   "questions": [
     {
       "id": "main-1",
@@ -1616,6 +1616,941 @@
       ],
       "answer": 0,
       "explanation": "A nest is a bird's dwelling; a hive is a bee colony's dwelling.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-001",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "Which Veda is generally regarded as the oldest?",
+      "options": [
+        "Rigveda",
+        "Samaveda",
+        "Yajurveda",
+        "Atharvaveda"
+      ],
+      "answer": 0,
+      "explanation": "The Rigveda is the oldest of the four Vedas.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-002",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The Buddhist council traditionally associated with Ashoka was held at:",
+      "options": [
+        "Rajagriha",
+        "Vaishali",
+        "Pataliputra",
+        "Kashmir"
+      ],
+      "answer": 2,
+      "explanation": "Tradition places the Third Buddhist Council at Pataliputra during Ashoka's reign.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-003",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "Who composed the famous Sanskrit play Abhijnanashakuntalam?",
+      "options": [
+        "Banabhatta",
+        "Kalidasa",
+        "Bhavabhuti",
+        "Bharavi"
+      ],
+      "answer": 1,
+      "explanation": "Kalidasa is traditionally credited with Abhijnanashakuntalam.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-004",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "The first Battle of Panipat (1526) was fought between Babur and:",
+      "options": [
+        "Rana Sanga",
+        "Ibrahim Lodi",
+        "Sher Shah Suri",
+        "Hemu"
+      ],
+      "answer": 1,
+      "explanation": "Babur defeated Ibrahim Lodi at the First Battle of Panipat in 1526.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-005",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The Ryotwari system is most closely associated with which administrators?",
+      "options": [
+        "Cornwallis and Shore",
+        "Thomas Munro and Alexander Read",
+        "Dalhousie and Canning",
+        "Curzon and Ripon"
+      ],
+      "answer": 1,
+      "explanation": "The Ryotwari settlement was developed in parts of southern India under Munro and Read.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-006",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Easy",
+      "question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+      "options": [
+        "Bhagat Singh",
+        "Mahatma Gandhi",
+        "Bal Gangadhar Tilak",
+        "Lala Lajpat Rai"
+      ],
+      "answer": 1,
+      "explanation": "Gandhi gave the 'Do or Die' call in his Quit India address in August 1942.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-007",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Medium",
+      "question": "The Vernacular Press Act was passed in 1878 during the viceroyalty of:",
+      "options": [
+        "Lord Ripon",
+        "Lord Lytton",
+        "Lord Curzon",
+        "Lord Mayo"
+      ],
+      "answer": 1,
+      "explanation": "The Vernacular Press Act was enacted under Viceroy Lord Lytton.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-008",
+      "subject": "General Awareness",
+      "topic": "History",
+      "difficulty": "Hard",
+      "question": "Which Harappan site is located in present-day Haryana?",
+      "options": [
+        "Dholavira",
+        "Rakhigarhi",
+        "Lothal",
+        "Mohenjo-daro"
+      ],
+      "answer": 1,
+      "explanation": "Rakhigarhi is a major Harappan site in Haryana.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-009",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which latitude divides Earth into the Northern and Southern Hemispheres?",
+      "options": [
+        "Tropic of Cancer",
+        "Equator",
+        "Arctic Circle",
+        "Tropic of Capricorn"
+      ],
+      "answer": 1,
+      "explanation": "The Equator is at 0° latitude and divides the two hemispheres.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-010",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "Which Indian state has the longest coastline among Indian states?",
+      "options": [
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "answer": 2,
+      "explanation": "Gujarat has the longest coastline among India's states.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-011",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which layer of Earth is composed mainly of iron and nickel?",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Core",
+        "Lithosphere"
+      ],
+      "answer": 2,
+      "explanation": "Earth's core is composed predominantly of iron and nickel.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-012",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "The Narmada river flows into the:",
+      "options": [
+        "Bay of Bengal",
+        "Arabian Sea",
+        "Gulf of Mannar",
+        "Chilika Lake"
+      ],
+      "answer": 1,
+      "explanation": "The Narmada flows westward and empties into the Arabian Sea.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-013",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Medium",
+      "question": "Which type of rainfall is caused when moist air is forced to rise over a mountain barrier?",
+      "options": [
+        "Convectional",
+        "Cyclonic",
+        "Orographic",
+        "Frontal only"
+      ],
+      "answer": 2,
+      "explanation": "Orographic rainfall occurs as moist air rises, cools and condenses over relief barriers.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-014",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Easy",
+      "question": "Which is the largest freshwater lake in India by surface area?",
+      "options": [
+        "Wular Lake",
+        "Dal Lake",
+        "Loktak Lake",
+        "Pulicat Lake"
+      ],
+      "answer": 0,
+      "explanation": "Wular Lake in Jammu and Kashmir is commonly identified as India's largest freshwater lake by surface area.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-015",
+      "subject": "General Awareness",
+      "topic": "Geography",
+      "difficulty": "Hard",
+      "question": "El Niño is associated with abnormal warming of which ocean region?",
+      "options": [
+        "North Atlantic",
+        "Central and eastern equatorial Pacific",
+        "Southern Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": 1,
+      "explanation": "El Niño involves periodic warming of the central and eastern equatorial Pacific.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-016",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Easy",
+      "question": "Who is the ex-officio Chairperson of the Rajya Sabha?",
+      "options": [
+        "President",
+        "Vice-President",
+        "Prime Minister",
+        "Speaker of Lok Sabha"
+      ],
+      "answer": 1,
+      "explanation": "The Vice-President of India serves as the ex-officio Chairperson of the Rajya Sabha.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-017",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Which constitutional amendment lowered the voting age from 21 to 18 years?",
+      "options": [
+        "42nd",
+        "44th",
+        "61st",
+        "73rd"
+      ],
+      "answer": 2,
+      "explanation": "The 61st Constitutional Amendment Act, 1988 lowered the voting age to 18.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-018",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Easy",
+      "question": "Fundamental Duties are included in which part of the Constitution?",
+      "options": [
+        "Part III",
+        "Part IV",
+        "Part IVA",
+        "Part V"
+      ],
+      "answer": 2,
+      "explanation": "Fundamental Duties are contained in Part IVA, Article 51A.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-019",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Medium",
+      "question": "Who decides whether a bill is a Money Bill in the Lok Sabha?",
+      "options": [
+        "President",
+        "Prime Minister",
+        "Speaker of Lok Sabha",
+        "Finance Minister"
+      ],
+      "answer": 2,
+      "explanation": "The Speaker of the Lok Sabha certifies whether a bill is a Money Bill.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-020",
+      "subject": "General Awareness",
+      "topic": "Civics & Polity",
+      "difficulty": "Hard",
+      "question": "Which writ is issued to command a public authority to perform a public duty?",
+      "options": [
+        "Habeas corpus",
+        "Mandamus",
+        "Certiorari",
+        "Quo warranto"
+      ],
+      "answer": 1,
+      "explanation": "Mandamus commands a public authority to perform a duty required by law.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-021",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "What does GDP stand for?",
+      "options": [
+        "Gross Domestic Product",
+        "General Development Plan",
+        "Gross Demand Price",
+        "Government Domestic Production"
+      ],
+      "answer": 0,
+      "explanation": "GDP stands for Gross Domestic Product.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-022",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Medium",
+      "question": "A fiscal deficit occurs when:",
+      "options": [
+        "Revenue exceeds expenditure",
+        "Total expenditure exceeds total receipts excluding borrowings",
+        "Exports exceed imports",
+        "Tax revenue equals grants"
+      ],
+      "answer": 1,
+      "explanation": "Fiscal deficit is the excess of total expenditure over receipts excluding borrowings.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-023",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Medium",
+      "question": "Which tax is generally classified as an indirect tax?",
+      "options": [
+        "Personal income tax",
+        "Corporation tax",
+        "Goods and Services Tax",
+        "Wealth tax"
+      ],
+      "answer": 2,
+      "explanation": "GST is an indirect tax on the supply of goods and services.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-024",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Easy",
+      "question": "Which organisation publishes the Consumer Price Index (Combined) in India?",
+      "options": [
+        "NITI Aayog",
+        "National Statistical Office",
+        "RBI alone",
+        "SEBI"
+      ],
+      "answer": 1,
+      "explanation": "The National Statistical Office under MoSPI releases CPI (Combined) data.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-025",
+      "subject": "General Awareness",
+      "topic": "Economics",
+      "difficulty": "Hard",
+      "question": "The Lorenz curve is commonly used to illustrate:",
+      "options": [
+        "Inflation",
+        "Income or wealth inequality",
+        "Economic growth rate",
+        "Balance of payments"
+      ],
+      "answer": 1,
+      "explanation": "The Lorenz curve depicts the distribution of income or wealth and inequality.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-026",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "Which nutrient is the body's primary source of energy?",
+      "options": [
+        "Carbohydrates",
+        "Vitamins",
+        "Minerals",
+        "Water"
+      ],
+      "answer": 0,
+      "explanation": "Carbohydrates are a major immediate energy source in the human diet.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-027",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which part of the eye controls the amount of light entering it?",
+      "options": [
+        "Retina",
+        "Iris",
+        "Cornea",
+        "Optic nerve"
+      ],
+      "answer": 1,
+      "explanation": "The iris adjusts pupil size and regulates incoming light.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-028",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Easy",
+      "question": "Which microorganism is used in setting curd?",
+      "options": [
+        "Lactobacillus",
+        "Plasmodium",
+        "Rhizobium",
+        "Amoeba"
+      ],
+      "answer": 0,
+      "explanation": "Lactobacillus bacteria convert milk sugar into lactic acid during curd formation.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-029",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Medium",
+      "question": "Which metal is liquid at ordinary room temperature?",
+      "options": [
+        "Iron",
+        "Mercury",
+        "Aluminium",
+        "Copper"
+      ],
+      "answer": 1,
+      "explanation": "Mercury is liquid at ordinary room temperature.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-030",
+      "subject": "General Awareness",
+      "topic": "Science",
+      "difficulty": "Hard",
+      "question": "Which blood vessels carry oxygenated blood from the lungs to the heart?",
+      "options": [
+        "Pulmonary arteries",
+        "Pulmonary veins",
+        "Venae cavae",
+        "Coronary arteries"
+      ],
+      "answer": 1,
+      "explanation": "Pulmonary veins carry oxygenated blood from the lungs to the left atrium.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-031",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Easy",
+      "question": "The SI unit of power is:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 1,
+      "explanation": "Power is measured in watts.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-032",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "Which law states that pressure applied to an enclosed fluid is transmitted equally in all directions?",
+      "options": [
+        "Newton's law",
+        "Pascal's law",
+        "Hooke's law",
+        "Ohm's law"
+      ],
+      "answer": 1,
+      "explanation": "Pascal's principle describes transmission of pressure in an enclosed fluid.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-033",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Medium",
+      "question": "A device that converts electrical energy into mechanical energy is a:",
+      "options": [
+        "Generator",
+        "Electric motor",
+        "Transformer",
+        "Rectifier"
+      ],
+      "answer": 1,
+      "explanation": "An electric motor converts electrical energy into mechanical output.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-034",
+      "subject": "General Awareness",
+      "topic": "Physics",
+      "difficulty": "Hard",
+      "question": "What happens to the frequency of a wave when it enters another medium, assuming the source is unchanged?",
+      "options": [
+        "It always doubles",
+        "It remains unchanged",
+        "It becomes zero",
+        "It depends only on amplitude"
+      ],
+      "answer": 1,
+      "explanation": "Wave frequency is set by the source and remains unchanged across a boundary.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-035",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Easy",
+      "question": "What is the chemical formula of common salt?",
+      "options": [
+        "NaCl",
+        "KCl",
+        "CaCO3",
+        "Na2CO3"
+      ],
+      "answer": 0,
+      "explanation": "Common table salt is sodium chloride, NaCl.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-036",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "Which gas turns limewater milky?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "answer": 2,
+      "explanation": "Carbon dioxide reacts with limewater to form insoluble calcium carbonate.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-037",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Medium",
+      "question": "The process of coating iron with zinc to prevent rusting is called:",
+      "options": [
+        "Roasting",
+        "Galvanisation",
+        "Distillation",
+        "Crystallisation"
+      ],
+      "answer": 1,
+      "explanation": "Galvanisation protects iron by applying a zinc coating.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-038",
+      "subject": "General Awareness",
+      "topic": "Chemistry",
+      "difficulty": "Hard",
+      "question": "Which of these is an example of an amphoteric oxide?",
+      "options": [
+        "Na2O",
+        "CO2",
+        "Al2O3",
+        "SO2"
+      ],
+      "answer": 2,
+      "explanation": "Aluminium oxide reacts with both acids and bases.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-039",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Easy",
+      "question": "Which pigment gives plants their green colour?",
+      "options": [
+        "Haemoglobin",
+        "Chlorophyll",
+        "Melanin",
+        "Keratin"
+      ],
+      "answer": 1,
+      "explanation": "Chlorophyll absorbs light energy for photosynthesis and gives leaves their green colour.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-040",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "Which component of blood transports oxygen?",
+      "options": [
+        "Platelets",
+        "Red blood cells",
+        "Plasma proteins only",
+        "White blood cells"
+      ],
+      "answer": 1,
+      "explanation": "Haemoglobin in red blood cells transports most oxygen in blood.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-041",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Medium",
+      "question": "Which hormone regulates blood glucose by lowering it?",
+      "options": [
+        "Adrenaline",
+        "Insulin",
+        "Thyroxine",
+        "Glucagon"
+      ],
+      "answer": 1,
+      "explanation": "Insulin lowers blood glucose by promoting uptake and storage.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-042",
+      "subject": "General Awareness",
+      "topic": "Biology",
+      "difficulty": "Hard",
+      "question": "In humans, fertilisation normally occurs in the:",
+      "options": [
+        "Uterus",
+        "Ovary",
+        "Fallopian tube",
+        "Cervix"
+      ],
+      "answer": 2,
+      "explanation": "Fertilisation normally takes place in the ampullary region of the fallopian tube.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-043",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "What is the square root of 2025?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "45 × 45 = 2025.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-044",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "A train travels 180 km in 3 hours. What is its average speed?",
+      "options": [
+        "50 km/h",
+        "55 km/h",
+        "60 km/h",
+        "65 km/h"
+      ],
+      "answer": 2,
+      "explanation": "Average speed = distance/time = 180/3 = 60 km/h.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-045",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Easy",
+      "question": "If x + 7 = 19, what is x?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "Subtracting 7 from both sides gives x = 12.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-046",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Medium",
+      "question": "The area of a circle with radius 7 cm is (use π = 22/7):",
+      "options": [
+        "44 cm²",
+        "77 cm²",
+        "154 cm²",
+        "308 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Area = πr² = (22/7) × 49 = 154 cm².",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-047",
+      "subject": "Quantitative Aptitude",
+      "topic": "Mathematics",
+      "difficulty": "Hard",
+      "question": "If the marked price is ₹1,000 and a discount of 20% is given, what is the selling price?",
+      "options": [
+        "₹700",
+        "₹750",
+        "₹800",
+        "₹850"
+      ],
+      "answer": 2,
+      "explanation": "A 20% discount is ₹200, so the selling price is ₹800.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-048",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Easy",
+      "question": "Choose the correctly spelt word.",
+      "options": [
+        "Seperate",
+        "Separate",
+        "Seperete",
+        "Separete"
+      ],
+      "answer": 1,
+      "explanation": "Separate is the correct spelling.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-049",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Medium",
+      "question": "Choose the synonym of 'obstinate'.",
+      "options": [
+        "Flexible",
+        "Stubborn",
+        "Generous",
+        "Timid"
+      ],
+      "answer": 1,
+      "explanation": "Obstinate means stubborn or unwilling to change one's view.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-050",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Medium",
+      "question": "Identify the part of speech of the underlined word: 'She spoke softly.' (softly)",
+      "options": [
+        "Noun",
+        "Adjective",
+        "Adverb",
+        "Preposition"
+      ],
+      "answer": 2,
+      "explanation": "Softly modifies the verb 'spoke', so it is an adverb.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-051",
+      "subject": "English",
+      "topic": "English",
+      "difficulty": "Hard",
+      "question": "Choose the correct phrase: 'No sooner ___ the station than the train arrived.'",
+      "options": [
+        "I reached",
+        "had I reached",
+        "I had reach",
+        "did I reached"
+      ],
+      "answer": 1,
+      "explanation": "The construction 'No sooner had... than...' uses inversion and the past perfect.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-052",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Easy",
+      "question": "Find the missing number: 5, 10, 20, 40, __.",
+      "options": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "answer": 3,
+      "explanation": "Each term doubles, so the next term is 80.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-053",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "If A is the brother of B and B is the mother of C, how is A related to C?",
+      "options": [
+        "Father",
+        "Maternal uncle",
+        "Brother",
+        "Grandfather"
+      ],
+      "answer": 1,
+      "explanation": "A is the brother of C's mother, so A is C's maternal uncle.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-054",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Medium",
+      "question": "Choose the odd one out:",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Cube"
+      ],
+      "answer": 3,
+      "explanation": "Cube is three-dimensional; the other figures are two-dimensional.",
+      "source": "NCERT-aligned original practice; concept checked during bank preparation",
+      "verifiedPYQ": false
+    },
+    {
+      "id": "batch-2026-11b-055",
+      "subject": "General Intelligence & Reasoning",
+      "topic": "Reasoning",
+      "difficulty": "Hard",
+      "question": "A clock shows 3:30. What is the smaller angle between the hour and minute hands?",
+      "options": [
+        "60°",
+        "75°",
+        "90°",
+        "105°"
+      ],
+      "answer": 1,
+      "explanation": "At 3:30 the minute hand is at 180° and hour hand at 105°, giving 75°.",
       "source": "NCERT-aligned original practice; concept checked during bank preparation",
       "verifiedPYQ": false
     }

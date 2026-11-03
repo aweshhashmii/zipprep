@@ -1,0 +1,114 @@
+/* ZipPrep design system — Lumen-inspired dark workspace
+   Foundation only: existing pages are not switched to these tokens until component migration.
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  color-scheme: dark;
+  --zp-bg: #09090c;
+  --zp-bg-elevated: #101014;
+  --zp-sidebar: #111115;
+  --zp-surface: #15151b;
+  --zp-surface-raised: #1b1b23;
+  --zp-surface-hover: #22222c;
+  --zp-border: rgba(255,255,255,.075);
+  --zp-border-strong: rgba(255,255,255,.13);
+  --zp-text: #f5f4fa;
+  --zp-text-secondary: #b8b6c4;
+  --zp-text-muted: #858392;
+  --zp-violet: #9254ff;
+  --zp-violet-bright: #b16bff;
+  --zp-violet-soft: rgba(146,84,255,.16);
+  --zp-cyan: #63dce8;
+  --zp-gradient: linear-gradient(115deg,#9854ff 0%,#bd6bdb 52%,#62dce7 100%);
+  --zp-gradient-violet: linear-gradient(135deg,#351078 0%,#6527d8 52%,#25104f 100%);
+  --zp-success: #63d9b0;
+  --zp-warning: #f3c76b;
+  --zp-danger: #ff7c91;
+  --zp-font-body: 'DM Sans', Inter, ui-sans-serif, system-ui, sans-serif;
+  --zp-font-display: 'Manrope', 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --zp-radius-sm: 10px;
+  --zp-radius-md: 16px;
+  --zp-radius-lg: 22px;
+  --zp-radius-xl: 28px;
+  --zp-shadow-panel: 0 18px 48px rgba(0,0,0,.26);
+  --zp-shadow-glow: 0 0 48px rgba(146,84,255,.22);
+  --zp-space-1: 4px;
+  --zp-space-2: 8px;
+  --zp-space-3: 12px;
+  --zp-space-4: 16px;
+  --zp-space-5: 20px;
+  --zp-space-6: 24px;
+  --zp-space-8: 32px;
+  --zp-space-10: 40px;
+  --zp-space-12: 48px;
+  --zp-content-max: 1440px;
+  --zp-sidebar-width: 224px;
+  --zp-right-rail-width: 320px;
+}
+
+html[data-zp-theme="dark"] { color-scheme: dark; }
+.zp-app {
+  min-height: 100vh;
+  background: var(--zp-bg);
+  color: var(--zp-text);
+  font-family: var(--zp-font-body);
+}
+.zp-panel {
+  background: var(--zp-surface);
+  border: 1px solid var(--zp-border);
+  border-radius: var(--zp-radius-lg);
+  box-shadow: var(--zp-shadow-panel);
+}
+.zp-panel--raised { background: var(--zp-surface-raised); }
+.zp-eyebrow {
+  color: var(--zp-text-muted);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.zp-heading {
+  color: var(--zp-text);
+  font-family: var(--zp-font-display);
+  font-weight: 700;
+  letter-spacing: -.045em;
+}
+.zp-gradient-text {
+  background: var(--zp-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.zp-button-primary {
+  min-height: 44px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--zp-gradient);
+  color: #fff;
+  font: 700  .94rem var(--zp-font-body);
+  box-shadow: 0 8px 26px rgba(146,84,255,.24);
+  cursor: pointer;
+}
+.zp-button-secondary {
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--zp-border-strong);
+  border-radius: 12px;
+  background: var(--zp-surface-raised);
+  color: var(--zp-text);
+  font: 600 .94rem var(--zp-font-body);
+  cursor: pointer;
+}
+.zp-focus-ring:focus-visible {
+  outline: 2px solid var(--zp-cyan);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .zp-interactive { transition: background .18s ease,border-color .18s ease,transform .18s ease,box-shadow .18s ease; }
+  .zp-interactive:hover { transform: translateY(-2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .zp-interactive { transition: none; }
+}

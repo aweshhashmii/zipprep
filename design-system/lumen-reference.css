@@ -31,7 +31,7 @@ body{font-size:15px!important;line-height:1.55!important}
 .ai h2{font-size:clamp(34px,4vw,58px)!important;line-height:1.05!important;max-width:470px!important;margin:18px 0 14px!important;color:#f5f4fa!important}
 .ai p{color:#b8b6c4!important;font-size:15px!important;max-width:390px!important;margin:0 0 24px!important}
 .ai .btn{border-radius:12px!important;min-height:46px!important;padding:0 20px!important;background:linear-gradient(110deg,#79658f,#927fa5)!important;border:0!important;color:white!important;box-shadow:0 4px 14px #0003!important}
-.ai .orb{position:absolute!important;right:5%!important;top:50%!important;transform:translateY(-50%)!important;width:clamp(190px,25vw,310px)!important;height:clamp(190px,25vw,310px)!important;border-radius:50%!important;background:radial-gradient(circle at 35% 28%,#766487,#51435f 42%,#292330 78%)!important;box-shadow:inset -18px -22px 55px #09090c66,0 12px 30px #0005!important;z-index:1!important}
+.ai .orb{position:absolute!important;right:5%!important;top:50%!important;transform:translateY(-50%)!important;width:clamp(190px,25vw,310px)!important;height:clamp(190px,25vw,310px)!important;border-radius:50%!important;background:radial-gradient(circle at 35% 28%,#756b7d,#514b58 42%,#302c34 78%)!important;box-shadow:inset -12px -16px 28px #09090c55,0 10px 22px #0004!important;z-index:1!important}
 .ai .orb span{width:70px!important;height:70px!important;background:transparent!important;color:#e1d7ec!important;text-shadow:none;font-size:58px!important}
 .ai .dc{display:none!important}
 .rm{margin-top:16px!important;background:#15151b!important;border:1px solid var(--zp-line)!important;border-radius:18px!important;padding:20px!important;color:#b8b6c4!important}
@@ -85,3 +85,19 @@ footer{color:#858392!important;border-color:var(--zp-line)!important}
 .ai .btn,.mt .btn,.bun .btn,.zp-tip a{box-shadow:0 3px 10px #0003!important;}
 .sb nav a.on{box-shadow:inset 2px 0 #9a8aa8!important;}
 .zp-rail-icon{background:#28232e!important;color:#c9bdd6!important;}
+
+/* Reference fidelity: restrained matte surfaces, never neon. */
+.ai{background:linear-gradient(115deg,#191820 0%,#17161d 70%,#211d27 100%)!important}
+.ai .orb{background:radial-gradient(circle at 35% 28%,#756b7d,#514b58 42%,#302c34 78%)!important;box-shadow:inset -12px -16px 28px #09090c55,0 10px 22px #0004!important;filter:none!important}
+.ai .orb span{color:#e1d7ec!important;text-shadow:none!important}
+.zp-right-rail{gap:12px}
+.zp-rail-card{background:#15151b;border:1px solid rgba(255,255,255,.075);border-radius:20px;padding:20px;box-shadow:0 12px 32px rgba(0,0,0,.18)}
+.zp-rail-kicker{margin:0 0 9px;color:#858392;font-size:10px;font-weight:700;letter-spacing:.12em}
+.zp-rail-intro .zp-rail-head{font-size:20px;margin-bottom:8px}
+.zp-rail-stat{display:flex;align-items:baseline;gap:12px;padding:12px 0;border-top:1px solid rgba(255,255,255,.075)}
+.zp-rail-stat:first-of-type{margin-top:14px}
+.zp-rail-stat strong{font:700 24px 'Manrope',sans-serif;color:#e8e3ed;min-width:62px}
+.zp-rail-stat span{font-size:11px;line-height:1.4;color:#aaa8b8}
+.zp-tip{background:#211d28!important}
+.zp-tip .zp-rail-head{color:#f5f4fa}
+.zp-tip a{background:#89769f!important;color:#fff!important;box-shadow:0 3px 10px #0003!important}

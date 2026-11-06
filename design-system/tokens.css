@@ -1,10 +1,11 @@
-/* ZipPrep design system — Lumen-inspired dark workspace
-   Foundation only: existing pages are not switched to these tokens until component migration.
-*/
+/* ZipPrep design tokens — Lumen-reference / matte non-neon edition.
+   Shared foundation for the visual redesign. */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
   color-scheme: dark;
+
+  /* Surfaces */
   --zp-bg: #09090c;
   --zp-bg-elevated: #101014;
   --zp-sidebar: #111115;
@@ -13,26 +14,34 @@
   --zp-surface-hover: #22222c;
   --zp-border: rgba(255,255,255,.075);
   --zp-border-strong: rgba(255,255,255,.13);
+
+  /* Text */
   --zp-text: #f5f4fa;
   --zp-text-secondary: #b8b6c4;
   --zp-text-muted: #858392;
-  --zp-violet: #9254ff;
-  --zp-violet-bright: #b16bff;
-  --zp-violet-soft: rgba(146,84,255,.16);
-  --zp-cyan: #63dce8;
-  --zp-gradient: linear-gradient(115deg,#9854ff 0%,#bd6bdb 52%,#62dce7 100%);
-  --zp-gradient-violet: linear-gradient(135deg,#351078 0%,#6527d8 52%,#25104f 100%);
-  --zp-success: #63d9b0;
-  --zp-warning: #f3c76b;
-  --zp-danger: #ff7c91;
+
+  /* Muted accents — intentionally no neon or luminous cyan */
+  --zp-violet: #89769f;
+  --zp-violet-strong: #a08caf;
+  --zp-violet-soft: #292333;
+  --zp-lavender: #c4b8d8;
+  --zp-success: #63b9b0;
+  --zp-warning: #d6b66d;
+  --zp-danger: #d98291;
+
+  /* Restrained surfaces and controls */
+  --zp-gradient: linear-gradient(110deg,#79658f 0%,#927fa5 100%);
+  --zp-gradient-violet: linear-gradient(135deg,#282330 0%,#332b3c 100%);
   --zp-font-body: 'DM Sans', Inter, ui-sans-serif, system-ui, sans-serif;
   --zp-font-display: 'Manrope', 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+
+  /* Shape, spacing and layout */
   --zp-radius-sm: 10px;
   --zp-radius-md: 16px;
   --zp-radius-lg: 22px;
   --zp-radius-xl: 28px;
-  --zp-shadow-panel: 0 18px 48px rgba(0,0,0,.26);
-  --zp-shadow-glow: 0 0 48px rgba(146,84,255,.22);
+  --zp-shadow-panel: 0 12px 32px rgba(0,0,0,.22);
+  --zp-shadow-soft: 0 4px 14px rgba(0,0,0,.18);
   --zp-space-1: 4px;
   --zp-space-2: 8px;
   --zp-space-3: 12px;
@@ -48,6 +57,7 @@
 }
 
 html[data-zp-theme="dark"] { color-scheme: dark; }
+
 .zp-app {
   min-height: 100vh;
   background: var(--zp-bg);
@@ -64,33 +74,28 @@ html[data-zp-theme="dark"] { color-scheme: dark; }
 .zp-eyebrow {
   color: var(--zp-text-muted);
   font-size: .72rem;
-  font-weight: 800;
-  letter-spacing: .12em;
+  font-weight: 700;
+  letter-spacing: .1em;
   text-transform: uppercase;
 }
 .zp-heading {
   color: var(--zp-text);
   font-family: var(--zp-font-display);
   font-weight: 700;
-  letter-spacing: -.045em;
-}
-.zp-gradient-text {
-  background: var(--zp-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  letter-spacing: -.04em;
 }
 .zp-button-primary {
   min-height: 44px;
   padding: 0 20px;
   border: 0;
   border-radius: 12px;
-  background: var(--zp-gradient);
+  background: var(--zp-violet);
   color: #fff;
-  font: 700  .94rem var(--zp-font-body);
-  box-shadow: 0 8px 26px rgba(146,84,255,.24);
+  font: 700 .94rem var(--zp-font-body);
+  box-shadow: var(--zp-shadow-soft);
   cursor: pointer;
 }
+.zp-button-primary:hover { background: var(--zp-violet-strong); }
 .zp-button-secondary {
   min-height: 44px;
   padding: 0 18px;
@@ -102,12 +107,14 @@ html[data-zp-theme="dark"] { color-scheme: dark; }
   cursor: pointer;
 }
 .zp-focus-ring:focus-visible {
-  outline: 2px solid var(--zp-cyan);
+  outline: 2px solid var(--zp-lavender);
   outline-offset: 3px;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .zp-interactive { transition: background .18s ease,border-color .18s ease,transform .18s ease,box-shadow .18s ease; }
-  .zp-interactive:hover { transform: translateY(-2px); }
+  .zp-interactive {
+    transition: background .18s ease,border-color .18s ease,transform .18s ease;
+  }
+  .zp-interactive:hover { transform: translateY(-1px); }
 }
 @media (prefers-reduced-motion: reduce) {
   .zp-interactive { transition: none; }
